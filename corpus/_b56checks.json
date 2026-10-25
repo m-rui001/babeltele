@@ -1,0 +1,704 @@
+{
+ "anchor_total": 33,
+ "anchor_distinct": 26,
+ "tag_counts": {
+  "I": 18,
+  "Z": 6,
+  "R": 9
+ },
+ "ameta": {
+  "anchor_total": 33,
+  "anchor_distinct": 26,
+  "anchor_err": 0,
+  "anchor_single": 18,
+  "anchor_two": 7,
+  "anchor_three": 1,
+  "checks": 78
+ },
+ "letters_in": 653,
+ "letters_out": 479,
+ "tagn": 33,
+ "classes": {
+  "single": [
+   "#     ISO/TC 46 N1127 (2024-02-29).  See: ISO/TC 46 Documents",
+   "#     of names are useful (e.g., “Samoa (American)” and “Samoa",
+   "# From Paul Eggert (2025-07-01):",
+   "# The table is sorted by country code.",
+   "# This file is in the public domain, so clarified as of",
+   "# tzdb timezone descriptions",
+   "#code\tname of country, territory, area, or subdivision",
+   "America/Argentina/Buenos_Aires",
+   "Brazil (northeast: MA, PI, CE, RN, PB)",
+   "Deprecated: 2002-05-20",
+   "Description: Côte d'Ivoire",
+   "Description: East Timor",
+   "Description: Micronesia",
+   "Description: Private use",
+   "Europe/Andorra",
+   "Preferred-Value: TL",
+   "Turks & Caicos Is",
+   "Type: region"
+  ],
+  "two": [
+   "# All text uses UTF-8 encoding.  The columns of the table are as follows:",
+   "# a single tab.  Lines beginning with ‘#’ are comments.  All text uses",
+   "# separated by a single tab.  Lines beginning with ‘#’ are comments.",
+   "# to take or endorse any position on legal or territorial claims.",
+   "Côte d’Ivoire",
+   "East Timor",
+   "Micronesia"
+  ],
+  "three": [
+   "#country-"
+  ]
+ },
+ "collisions": {
+  "279": [
+   "非空行·码表"
+  ],
+  "375": [
+   "非空行·时区表"
+  ],
+  "49316": [
+   "非空行·子标签注册表"
+  ],
+  "30": [
+   "非 ASCII 枚·码表",
+   "注释行",
+   "注释行·码表"
+  ],
+  "3": [
+   "sha16 种数",
+   "注释里的不同日期",
+   "名等于中间段",
+   "复用次",
+   "等长",
+   "三源同现"
+  ],
+  "249": [
+   "非注释行",
+   "不同码",
+   "不同名",
+   "可比码",
+   "与 I 共有的两位 region",
+   "Z 码数加 I 独有码"
+  ],
+  "4": [
+   "带缩写点的名",
+   "含非 ASCII 的名",
+   "最短名",
+   "多名的干",
+   "同干相邻对",
+   "名排序里连成块的同干组",
+   "接行后共用句"
+  ],
+  "1": [
+   "注释里带制表符的行",
+   "URL 枚",
+   "按行序的日期逆序处",
+   "闰日枚数",
+   "列名注释被拆成两条",
+   "严格 UTF-8 解码通过",
+   "整行逐字共用的注释行",
+   "两源都连续的共用句",
+   "只在码表连续",
+   "'sorted' 一词·时区表",
+   "穿三源的锚串数"
+  ],
+  "250": [
+   "制表符结构推得"
+  ],
+  "5": [
+   "注释点名的在用串命中",
+   "'#@' 行",
+   "换成下划线才活着",
+   "I 名更长",
+   "I⇎Z 两源"
+  ],
+  "11": [
+   "注释点名的串总数",
+   "R 独有里带弃用的",
+   "region 弃用总数",
+   "I 用 & 而 R 用 and 的码",
+   "名不等一档里 I 侧带 & 的"
+  ],
+  "22": [
+   "名不等于任何路径段"
+  ],
+  "2": [
+   "区间 region",
+   "I 有 Z 无",
+   "R 独有区间",
+   "同名挂在别枚码上",
+   "两源都被折行的共用句",
+   "'sorted' 一词·码表"
+  ],
+  "247": [
+   "三源共有码"
+  ],
+  "56": [
+   "R 有 I 无"
+  ],
+  "31": [
+   "R 独有数字"
+  ],
+  "25": [
+   "region 两位不在 Z 国家列",
+   "接行后 Z 的句数",
+   "关键串枚数"
+  ],
+  "47": [
+   "名不等"
+  ],
+  "63": [
+   "注释行·时区表"
+  ],
+  "14": [
+   "接行后 I 的句数"
+  ],
+  "10": [
+   "I⇎R 两源"
+  ],
+  "18": [
+   "只属一源的锚串数"
+  ],
+  "7": [
+   "穿两源的锚串数"
+  ]
+ },
+ "zero_terms": 46,
+ "deriv_keys": 72,
+ "deriv_points": 137,
+ "notes": {
+  "4841": "字节·码表",
+  "17592": "字节·时区表",
+  "731819": "字节·子标签注册表",
+  "279": "换行·码表",
+  "375": "换行·时区表",
+  "49316": "换行·子标签注册表",
+  "3": "'<' 枚·时区表",
+  "250": "制表符枚·码表",
+  "833": "制表符枚·时区表",
+  "30": "'#' 行·码表",
+  "63": "'#' 行·时区表",
+  "38": "非 ASCII 枚·时区表",
+  "723": "非 ASCII 枚·子标签注册表",
+  "25": "弯引号枚·码表",
+  "18": "弯引号枚·时区表",
+  "5": "弯引号枚·子标签注册表",
+  "55": "字节减字符·码表",
+  "56": "字节减字符·时区表",
+  "742": "字节减字符·子标签注册表",
+  "4": "Z 字节是 I 的倍率",
+  "151": "R 字节是 I 的倍率",
+  "249": "严格两列正则命中的行",
+  "11": "带 & 的名",
+  "14": "带括号的名",
+  "1": "含弯撇号的名",
+  "2375": "名串字符合计",
+  "42": "最长名",
+  "1385": "注释字符",
+  "6": "注释点名的避用串缺席",
+  "245": "括号前词干种数",
+  "312": "时区表数据行",
+  "111": "3 列行",
+  "201": "4 列行",
+  "247": "国家列不同码",
+  "423": "国家码出现次",
+  "34": "多国行",
+  "20": "一行的最多国",
+  "47": "I 的名在 Z 逐字出现",
+  "22": "名等于路径末段",
+  "73": "带空格的名",
+  "2": "原样活着",
+  "9297": "注册表段数",
+  "9296": "分隔行",
+  "305": "region 型段数",
+  "272": "两位 region",
+  "31": "三位数字 region",
+  "302": "Description 不同串",
+  "23": "R 独有两位",
+  "202": "名全等",
+  "10": "只换写法",
+  "37": "换了词",
+  "39": "R 名更长",
+  "355": "名串字符净差",
+  "8": "只换写法一档里带 & 的",
+  "204": "名串在两表值集共有",
+  "15": "两源同现",
+  "7": "单源",
+  "1481": "锚候选池条数",
+  "273": "池里码表条",
+  "870": "池里时区表条",
+  "338": "池里注册表条",
+  "1257": "只穿一源",
+  "178": "穿两源",
+  "46": "穿三源",
+  "224": "穿两源以上",
+  "4786": "字符·码表",
+  "17536": "字符·时区表",
+  "731077": "字符·注册表",
+  "26": "锚去重串数",
+  "33": "锚在正文出现处数",
+  "78": "锚成员检查次数"
+ },
+ "pool_used": 26,
+ "enc_chars": 6760,
+ "nsrc": 3,
+ "flat": {
+  "bytes": [
+   4841,
+   17592,
+   731819
+  ],
+  "chars": [
+   4786,
+   17536,
+   731077
+  ],
+  "lines": [
+   279,
+   375,
+   49316
+  ],
+  "segments": [
+   280,
+   376,
+   49317
+  ],
+  "nonblank": [
+   279,
+   375,
+   49316
+  ],
+  "lt": [
+   0,
+   3,
+   0
+  ],
+  "gt": [
+   0,
+   3,
+   0
+  ],
+  "nonascii": [
+   30,
+   38,
+   723
+  ],
+  "tabs": [
+   250,
+   833,
+   0
+  ],
+  "hash": [
+   30,
+   63,
+   0
+  ],
+  "curly": [
+   25,
+   18,
+   5
+  ],
+  "sha16": [
+   "837c80785080c843",
+   "5f23781702bf5140",
+   "755fad43283be7b4"
+  ],
+  "blank": [
+   1,
+   1,
+   1
+  ],
+  "ascii_eq": [
+   0,
+   0,
+   0
+  ],
+  "eqc": 0,
+  "sha_distinct": 3,
+  "bytegap": [
+   55,
+   56,
+   742
+  ],
+  "ratio": [
+   1,
+   4,
+   151
+  ],
+  "curly_close": 0,
+  "i_rows_strict": 249,
+  "i_rows_data": 249,
+  "i_rows_unmatched": 0,
+  "i_multi_tab": 0,
+  "i_cols": [
+   2
+  ],
+  "i_code_n": 249,
+  "i_code_dist": 249,
+  "i_code_dup": 0,
+  "i_name_dist": 249,
+  "i_name_dup": 0,
+  "i_sorted_desc": 0,
+  "i_amp": 11,
+  "i_paren": 14,
+  "i_dot": 4,
+  "i_comma": 0,
+  "i_apos": 1,
+  "i_nonascii_names": 4,
+  "i_name_chars": 2375,
+  "i_maxlen": 42,
+  "i_minlen": 4,
+  "i_maxlen_v": [
+   "South Georgia & the South Sandwich Islands"
+  ],
+  "i_cmt_lines": 30,
+  "i_cmt_chars": 1385,
+  "i_cmt_tab_lines": 1,
+  "i_tab_expect": 250,
+  "i_tab_diff": 0,
+  "i_utf8_strict": 1,
+  "i_url": 1,
+  "i_dates": [
+   "2009-05-17",
+   "2024-02-29",
+   "2025-07-01"
+  ],
+  "i_dates_byline": [
+   "2009-05-17",
+   "2025-07-01",
+   "2024-02-29"
+  ],
+  "i_date_unsorted": 1,
+  "i_leap": 1,
+  "i_hdr_split": 1,
+  "i_hdr_cc": 0,
+  "i_claim_used": 5,
+  "i_claim_avoided": 6,
+  "i_claim_avoided_in": 0,
+  "i_claim_total": 11,
+  "i_claim_open": 0,
+  "i_samoa_gap": 0,
+  "i_stem_kinds": 245,
+  "i_stem_multi": 4,
+  "i_stem_adj": 4,
+  "i_stem_contig": 4,
+  "i_stem_close": 0,
+  "i_multi_skins": 4,
+  "z_rows": 312,
+  "z_cols": [
+   3,
+   4
+  ],
+  "z_col3": 111,
+  "z_col4": 201,
+  "z_cc_occ": 423,
+  "z_cc_dist": 247,
+  "z_multi_rows": 34,
+  "z_maxm": 20,
+  "z_at": 5,
+  "z_name_hits": 47,
+  "z_tail_comp": 22,
+  "z_mid_comp": 3,
+  "z_cmt_only": 22,
+  "z_tier_close": 0,
+  "z_space_names": 73,
+  "z_us_plain": 2,
+  "z_us_only": 5,
+  "z_us_close": 0,
+  "r_recs": 9297,
+  "r_sep": 9296,
+  "r_sep_gap": 0,
+  "r_region_n": 305,
+  "r_alpha": 272,
+  "r_digit": 31,
+  "r_range": 2,
+  "r_len_close": 0,
+  "r_desc_dist": 302,
+  "r_desc_reuse": 3,
+  "r_amp_desc": 0,
+  "inter3": 247,
+  "z_only_i": 0,
+  "i_only_z": 2,
+  "i_only_r": 0,
+  "r_only_i": 56,
+  "r_only_i_alpha": 23,
+  "r_only_i_digit": 31,
+  "r_only_i_range": 2,
+  "r_only_i_close": 0,
+  "r_alpha_in_i": 249,
+  "r_alpha_close": 0,
+  "rz_alpha": 25,
+  "bridge": 0,
+  "z_in_i_close": 0,
+  "i_in_r": 249,
+  "r_segs_nonempty": 9297,
+  "i_in_r_close": 0,
+  "r_only_dep": 11,
+  "shared_dep": 0,
+  "dep_total": 11,
+  "dep_close": 0,
+  "z_i_pairs": [
+   "BV",
+   "HM"
+  ],
+  "r_i_alpha_v": [
+   "AA",
+   "AC",
+   "AN",
+   "BU",
+   "CP",
+   "CQ",
+   "CS",
+   "DD",
+   "DG",
+   "EA",
+   "EU",
+   "EZ",
+   "FX",
+   "IC",
+   "NT",
+   "SU",
+   "TA",
+   "TP",
+   "UN",
+   "YD",
+   "YU",
+   "ZR",
+   "ZZ"
+  ],
+  "name_cmp": 249,
+  "name_eq": 202,
+  "name_dif": 47,
+  "name_lex": 10,
+  "name_sem": 37,
+  "name_lex_close": 0,
+  "name_cmp_close": 0,
+  "name_longer_r": 39,
+  "name_longer_i": 5,
+  "name_samelen": 3,
+  "name_len_close": 0,
+  "name_dif_chars": 355,
+  "name_amp_both": 11,
+  "name_amp_all": 11,
+  "name_amp_close": 0,
+  "name_lex_amp": 8,
+  "name_apos_lex": 1,
+  "name_str_pool": 204,
+  "name_cross": 2,
+  "name_cross_v": [
+   [
+    "FM",
+    "Micronesia",
+    [
+     "057"
+    ]
+   ],
+   [
+    "TL",
+    "East Timor",
+    [
+     "TP"
+    ]
+   ]
+  ],
+  "name_pool_close": 0,
+  "name_first_diff": [
+   "AG",
+   "Antigua & Barbuda",
+   "Antigua and Barbuda"
+  ],
+  "sem_ex": [
+   [
+    "AS",
+    "Samoa (American)",
+    "American Samoa"
+   ],
+   [
+    "BL",
+    "St Barthelemy",
+    "Saint Barthélemy"
+   ]
+  ],
+  "lex_ex": [
+   [
+    "AG",
+    "Antigua & Barbuda",
+    "Antigua and Barbuda"
+   ],
+   [
+    "BA",
+    "Bosnia & Herzegovina",
+    "Bosnia and Herzegovina"
+   ]
+  ],
+  "cmt_lines": [
+   30,
+   63,
+   0
+  ],
+  "cmt_line_shared": 1,
+  "cmt_line_shared_v": [
+   "#country-"
+  ],
+  "cmt_sent_n": [
+   14,
+   25
+  ],
+  "cmt_sent_shared": 4,
+  "cmt_sent_shared_v": [
+   "All text uses UTF-8 encoding.",
+   "Columns are separated by a single tab.",
+   "Lines beginning with ‘#’ are comments.",
+   "The columns of the table are as follows: 1."
+  ],
+  "cmt_contig_both": 1,
+  "cmt_contig_i": 1,
+  "cmt_contig_z": 0,
+  "cmt_contig_none": 2,
+  "cmt_contig_close": 0,
+  "cmt_sorted_word": [
+   2,
+   1,
+   0
+  ],
+  "key_n": 25,
+  "key_3": 3,
+  "key_2": 15,
+  "key_1": 7,
+  "key_0": 0,
+  "key_close": 0,
+  "key_3names": [
+   "tab",
+   "Andorra",
+   "alpha"
+  ],
+  "key_IZ": 5,
+  "key_IR": 10,
+  "key_ZR": 0,
+  "key_pair_close": 0,
+  "pool_n": 1481,
+  "poolI": 273,
+  "poolZ": 870,
+  "poolR": 338,
+  "pool_1": 1257,
+  "pool_2": 178,
+  "pool_3": 46,
+  "pool_close": 0,
+  "pool_cross": 224
+ },
+ "tie_keys": 109,
+ "meas_tie_keys": [
+  "bytes",
+  "chars",
+  "lines",
+  "segments",
+  "lt",
+  "gt",
+  "nonascii",
+  "tabs",
+  "hash",
+  "curly",
+  "nonblank",
+  "blank",
+  "i_rows_strict",
+  "i_code_n",
+  "i_code_dist",
+  "i_code_dup",
+  "i_name_dist",
+  "i_name_dup",
+  "i_sorted_desc",
+  "i_amp",
+  "i_paren",
+  "i_dot",
+  "i_comma",
+  "i_nonascii_names",
+  "i_apos",
+  "i_name_chars",
+  "i_maxlen",
+  "i_minlen",
+  "i_cmt_lines",
+  "i_cmt_chars",
+  "i_cmt_tab_lines",
+  "i_tab_expect",
+  "i_tab_diff",
+  "i_url",
+  "i_dates",
+  "i_dates_byline",
+  "i_date_unsorted",
+  "i_leap",
+  "i_hdr_split",
+  "i_utf8_strict",
+  "i_claim_used",
+  "i_claim_avoided",
+  "i_claim_avoided_in",
+  "i_samoa_gap",
+  "i_stem_kinds",
+  "i_stem_multi",
+  "i_stem_adj",
+  "i_stem_contig",
+  "z_rows",
+  "z_cols",
+  "z_col3",
+  "z_col4",
+  "z_cc_occ",
+  "z_cc_dist",
+  "z_multi_rows",
+  "z_maxm",
+  "z_at",
+  "z_name_hits",
+  "z_tail_comp",
+  "z_mid_comp",
+  "z_cmt_only",
+  "z_space_names",
+  "z_us_plain",
+  "z_us_only",
+  "r_segs_nonempty",
+  "r_recs",
+  "r_sep",
+  "r_region_n",
+  "r_alpha",
+  "r_digit",
+  "r_range",
+  "r_desc_dist",
+  "inter3",
+  "z_only_i",
+  "i_only_z",
+  "i_only_r",
+  "r_only_i",
+  "r_only_i_alpha",
+  "r_only_i_digit",
+  "r_only_i_range",
+  "r_alpha_in_i",
+  "rz_alpha",
+  "name_cmp",
+  "name_eq",
+  "name_dif",
+  "name_lex",
+  "name_sem",
+  "name_longer_r",
+  "name_longer_i",
+  "name_samelen",
+  "name_dif_chars",
+  "name_str_pool",
+  "name_cross",
+  "cmt_lines",
+  "cmt_line_shared",
+  "cmt_sent_n",
+  "cmt_sent_shared",
+  "cmt_contig_both",
+  "cmt_contig_none",
+  "cmt_sorted_word",
+  "key_n",
+  "key_3",
+  "key_2",
+  "key_1",
+  "pool_n",
+  "pool_1",
+  "pool_2",
+  "pool_3",
+  "i_in_r"
+ ]
+}

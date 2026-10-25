@@ -1,0 +1,63 @@
+A	Retry-After
+B	Retry-After
+C	Retry-After
+D	Retry-After
+E	Retry-After
+A	retry-after
+B	retry-after
+C	retry-after
+D	retry-after
+E	retry-after
+A	RETRY-After
+B	RETRY-After
+C	RETRY-After
+D	RETRY-After
+E	RETRY-After
+A	HTTP-date
+C	HTTP-date
+D	HTTP-date
+A	delta-seconds
+C	delay-seconds
+D	delay-seconds
+A	either an HTTP-date or an integer number
+C	either an HTTP-date or a number of seconds to delay after
+D	either an HTTP-date or a number of seconds to delay after
+A	after the time of the response
+C	after the response is received
+D	after receiving the response
+A	non-negative decimal integer
+C	non-negative decimal integer
+D	non-negative decimal integer
+A	(in decimal)
+A	Retry-After: 120
+C	Retry-After: 120
+D	Retry-After: 120
+B	Retry-After: 3600
+A	Retry-After: Fri, 31 Dec 1999 23:59:59 GMT
+C	Retry-After: Fri, 31 Dec 1999 23:59:59 GMT
+D	Retry-After: Fri, 31 Dec 1999 23:59:59 GMT
+A	the delay is 2 minutes
+C	the delay is 2 minutes
+D	the delay is 2 minutes
+B	MAY include a Retry-After
+C	MAY send a Retry-After
+D	MAY send a Retry-After
+A	MAY be indicated in a Retry-After
+C	SHOULD generate a Retry-After
+D	SHOULD generate a Retry-After
+C	ought to wait
+D	ought to wait
+C	is asked to wait
+D	is asked to wait
+A	is asked wait
+A	If no Retry-After is given
+A	can be used with a 503
+A	MAY also be used
+E	complies with the Retry-After
+E	can override the retry delay
+B	optional; servers cannot be required
+C	does not imply that a server has to use it
+D	does not imply that a server has to use it
+E	first waits one second
+E	doubles the waiting time until it reaches 10 minutes
+E	limit the total retry time

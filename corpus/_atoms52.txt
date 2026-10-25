@@ -1,0 +1,50 @@
+PR,AG,CA,AI,AW,BL,BQ,CW,DM,GD,GP,KN,LC,MF,MS,SX,TT,VC,VG,VI	+182806-0660622	America/Puerto_Rico	AST - QC (Lower North Shore)
+# The format of this table is experimental, and may change in future versions.
+# -08/-07 - PST/PDT (North America DST) until 2026-11-01 02:00; then MST
+now.ck: checknow.awk date tzdata.zi zdump zic zone1970.tab zonenow.tab
+# civil timestamps have agreed since 1970.  Columns are separated by
+# 4.  Every timezone has a nonempty comments column, with wording
+CI,BF,GH,GM,GN,IS,ML,MR,SH,SL,SN,TG	+0519-00402	Africa/Abidjan
+printf "zones %s and %s identical from now on\n", zone, zone2
+zonenow[data] = zone # This suppresses duplicate diagnostics.
+# where civil timestamps are predicted to agree from now on.
+Central Standard (CST) - Alberta, NWT, and some neighbors
+printf "Zone table should have one of:%s\n", zones[data]
+Mountain Standard (MST) - British Columbia (most areas)
+Eastern Standard (EST) - Manitoba, northwestern Ontario
+# 2.  The first column is irrelevant and ignored.
+# 3.  The table is sorted in a different way:
+printf "%s=%s\n", now, zones[data] >>now_out
+# -10/-09 - HST / HDT (North America DST)
+# -08/-07 - PST/PDT (North America DST)
+# This file is in the public domain.
+CHECK_NOW_TIMESTAMP = $$(./date +%s)
+-v zdump_table=$@d/zdump-now.tab \
+# From Paul Eggert (2023-12-18):
+while (getline <zdump_table) {
+printf "%s: no data\n", zone
+IST/GMT (EU DST in reverse)
+#XX	coordinates	TZ	comments
+New Zealand (NZST/NZDT)
+./zic -d $@d tzdata.zi
+agree from now on
+Pacific/Pago_Pago
+America/Vancouver
+-v now_out=$@.out
+Lord Howe Island
+America/Winnipeg
+America/Edmonton
+Samoa (western)
+America/Havana
+(Morocco DST)
+mv $@.out $@
+-v now=$$now
++10:30/+11
+rm -fr $@d
+zone = $3
+mkdir $@d
+Troll DST
+FS = "\t"
+PST/PDT
+MST/MDT
+CST/CDT

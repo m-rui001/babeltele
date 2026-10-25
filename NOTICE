@@ -1,0 +1,18 @@
+# NOTICE
+
+本仓库的 MIT 许可只覆盖我们自己产出的东西：
+
+- `corpus/*.py`（六遍产线脚本、`audit.py` 门槛、各类机械产出器）
+- `corpus/babeltele/*.md`（95 条 BabelTele 条目）
+- `corpus/_b*.json`、`corpus/_atoms*.txt`、`corpus/_deriv*.json`（量测表、契约、词表）
+- 两份 README
+
+**不覆盖**条目所引用的一手文书。上游原文（RFC/IETF 草案、CA/Browser Forum TLS Baseline
+Requirements、NIST FIPS、IAB/IETF 纪要、Federal Register、CSB/NTSB 事故报告、arXiv 论文、
+期刊与厂商文档等）体量约 140 MB，依各自授权条款分发，故整体列入 `.gitignore`，不进本仓库，
+也不受 MIT 许可约束。需要复现时按条目头部 `src:` 行标注的端点自行抓取，落到 `corpus/raw/`
+下的同名路径即可。
+
+条目正文遵循「逐锚回源」纪律：每个三位以上数字要么在原文里逐位命中（T1），要么由契约算式
+当场复算得出（T2），引文一律以 `⟦标签⟧⟨原文串⟩` 的形式回指源文件行，不改写、不代拟。
+本仓库对其的引用属学术性的最小摘录；原文版权与条款仍以各上游为准。

@@ -1,0 +1,615 @@
+{
+ "ascii_all": 3,
+ "axis_counts": {
+  "case": 2,
+  "hyph": 0,
+  "multi": 11,
+  "space": 29
+ },
+ "axis_distinct": 42,
+ "axis_str": "case2\u21cehyph0\u21cespace29\u21cemulti11",
+ "bom": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "byte_cp_delta": [
+  0,
+  0,
+  0,
+  34
+ ],
+ "bytes": [
+  422279,
+  235053,
+  11189,
+  502941
+ ],
+ "chars": [
+  422279,
+  235053,
+  11189,
+  502907
+ ],
+ "code_n": [
+  8,
+  7,
+  1,
+  9
+ ],
+ "codes": [
+  [
+   "300",
+   "301",
+   "302",
+   "303",
+   "304",
+   "305",
+   "306",
+   "307"
+  ],
+  [
+   "300",
+   "301",
+   "302",
+   "303",
+   "305",
+   "306",
+   "307"
+  ],
+  [
+   "308"
+  ],
+  [
+   "300",
+   "301",
+   "302",
+   "303",
+   "304",
+   "305",
+   "306",
+   "307",
+   "308"
+  ]
+ ],
+ "confirm_gate": [
+  3,
+  0,
+  0,
+  0
+ ],
+ "cr": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "dead_needles": [],
+ "ff": [
+  176,
+  101,
+  6,
+  0
+ ],
+ "ff_exact": [
+  176,
+  101,
+  6,
+  0
+ ],
+ "ff_only": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "fold_only_n": 5,
+ "fold_only_own": [
+  2,
+  2,
+  1,
+  0
+ ],
+ "ladder_monotone": 1,
+ "lines": [
+  9860,
+  5660,
+  340,
+  10786
+ ],
+ "lines_nl": [
+  9860,
+  5660,
+  340,
+  10786
+ ],
+ "maxlen": [
+  72,
+  75,
+  72,
+  72
+ ],
+ "months": [
+  "June",
+  "June",
+  "April",
+  "June"
+ ],
+ "needle_n": 24,
+ "nonascii": [
+  0,
+  0,
+  0,
+  30
+ ],
+ "nonascii_extra": [
+  0,
+  0,
+  0,
+  34
+ ],
+ "nonblank": [
+  6911,
+  3945,
+  199,
+  8659
+ ],
+ "obs": [
+  "Obsoletes: 2068                                              J. Gettys",
+  "Obsoletes: 2616                                          J. Reschke, Ed.",
+  "Obsoletes: 7238                                               April 2015",
+  "Obsoletes: 2818, 7230, 7231, 7232, 7233, 7235,                    Fastly"
+ ],
+ "obs_ids": [
+  [
+   2068
+  ],
+  [
+   2616
+  ],
+  [
+   7238
+  ],
+  [
+   2818,
+   7230,
+   7231,
+   7232,
+   7233,
+   7235
+  ]
+ ],
+ "p_fold": {
+  "p2616_301_must_not_auto": 3,
+  "p2616_301_note_erroneous": 1,
+  "p2616_302_note_not_allowed": 1,
+  "p2616_302_note_treat_as_303": 1,
+  "p2616_303_should_get": 1,
+  "p2616_307_repeat_original": 1,
+  "p7231_301_hist_may": 2,
+  "p7231_302_hist_may": 2,
+  "p7231_303_retrieval": 1,
+  "p7231_306_reserved": 1,
+  "p7231_307_must_not_change": 1,
+  "p7538_308_indicates": 1,
+  "p7538_308_not_allow_changing": 1,
+  "p7538_cacheable_default": 1,
+  "p7538_obsoletes_7238": 1,
+  "p7538_restricted": 1,
+  "p9110_302_hist_may": 0,
+  "p9110_305_deprecated": 2,
+  "p9110_306_reserved": 1,
+  "p9110_307_must_not_change": 1,
+  "p9110_308_indicates": 1,
+  "p9110_converged": 1,
+  "p9110_historical_reasons": 5,
+  "p9110_step_change_method": 1
+ },
+ "p_lines": {
+  "p2616_301_must_not_auto": null,
+  "p2616_301_note_erroneous": 3453,
+  "p2616_302_note_not_allowed": 3484,
+  "p2616_302_note_treat_as_303": 3486,
+  "p2616_303_should_get": 3495,
+  "p2616_307_repeat_original": null,
+  "p7231_301_hist_may": null,
+  "p7231_302_hist_may": 3116,
+  "p7231_303_retrieval": null,
+  "p7231_306_reserved": 3207,
+  "p7231_307_must_not_change": 3213,
+  "p7538_308_indicates": 121,
+  "p7538_308_not_allow_changing": null,
+  "p7538_cacheable_default": 135,
+  "p7538_obsoletes_7238": 9,
+  "p7538_restricted": 151,
+  "p9110_302_hist_may": null,
+  "p9110_305_deprecated": 7483,
+  "p9110_306_reserved": 7488,
+  "p9110_307_must_not_change": 7494,
+  "p9110_308_indicates": 7507,
+  "p9110_converged": 7260,
+  "p9110_historical_reasons": 5011,
+  "p9110_step_change_method": 7306
+ },
+ "p_quote": {
+  "p2616_301_must_not_auto": 3,
+  "p2616_301_note_erroneous": 1,
+  "p2616_302_note_not_allowed": 1,
+  "p2616_302_note_treat_as_303": 1,
+  "p2616_303_should_get": 1,
+  "p2616_307_repeat_original": 1,
+  "p7231_301_hist_may": 2,
+  "p7231_302_hist_may": 2,
+  "p7231_303_retrieval": 1,
+  "p7231_306_reserved": 1,
+  "p7231_307_must_not_change": 1,
+  "p7538_308_indicates": 1,
+  "p7538_308_not_allow_changing": 1,
+  "p7538_cacheable_default": 1,
+  "p7538_obsoletes_7238": 1,
+  "p7538_restricted": 1,
+  "p9110_302_hist_may": 2,
+  "p9110_305_deprecated": 2,
+  "p9110_306_reserved": 1,
+  "p9110_307_must_not_change": 1,
+  "p9110_308_indicates": 1,
+  "p9110_converged": 1,
+  "p9110_historical_reasons": 5,
+  "p9110_step_change_method": 1
+ },
+ "p_sh": {
+  "p2616_301_must_not_auto": 3,
+  "p2616_301_note_erroneous": 1,
+  "p2616_302_note_not_allowed": 1,
+  "p2616_302_note_treat_as_303": 1,
+  "p2616_303_should_get": 1,
+  "p2616_307_repeat_original": 1,
+  "p7231_301_hist_may": 2,
+  "p7231_302_hist_may": 2,
+  "p7231_303_retrieval": 1,
+  "p7231_306_reserved": 1,
+  "p7231_307_must_not_change": 1,
+  "p7538_308_indicates": 1,
+  "p7538_308_not_allow_changing": 1,
+  "p7538_cacheable_default": 1,
+  "p7538_obsoletes_7238": 1,
+  "p7538_restricted": 1,
+  "p9110_302_hist_may": 0,
+  "p9110_305_deprecated": 2,
+  "p9110_306_reserved": 1,
+  "p9110_307_must_not_change": 1,
+  "p9110_308_indicates": 1,
+  "p9110_converged": 1,
+  "p9110_historical_reasons": 5,
+  "p9110_step_change_method": 1
+ },
+ "p_strict": {
+  "p2616_301_must_not_auto": 0,
+  "p2616_301_note_erroneous": 1,
+  "p2616_302_note_not_allowed": 1,
+  "p2616_302_note_treat_as_303": 1,
+  "p2616_303_should_get": 1,
+  "p2616_307_repeat_original": 0,
+  "p7231_301_hist_may": 0,
+  "p7231_302_hist_may": 2,
+  "p7231_303_retrieval": 0,
+  "p7231_306_reserved": 1,
+  "p7231_307_must_not_change": 1,
+  "p7538_308_indicates": 1,
+  "p7538_308_not_allow_changing": 0,
+  "p7538_cacheable_default": 1,
+  "p7538_obsoletes_7238": 1,
+  "p7538_restricted": 1,
+  "p9110_302_hist_may": 0,
+  "p9110_305_deprecated": 2,
+  "p9110_306_reserved": 1,
+  "p9110_307_must_not_change": 1,
+  "p9110_308_indicates": 1,
+  "p9110_converged": 1,
+  "p9110_historical_reasons": 3,
+  "p9110_step_change_method": 1
+ },
+ "pair_byte": [
+  61,
+  2,
+  65,
+  27,
+  1096,
+  22
+ ],
+ "pair_lbl": [
+  "2616\u00b77231",
+  "2616\u00b77538",
+  "2616\u00b79110",
+  "7231\u00b77538",
+  "7231\u00b79110",
+  "7538\u00b79110"
+ ],
+ "pair_max": 1100,
+ "pair_max_lbl": "7231\u00b79110",
+ "pair_nonzero": 6,
+ "pair_norm_only": [
+  20,
+  0,
+  27,
+  0,
+  4,
+  0
+ ],
+ "pair_share": [
+  81,
+  2,
+  92,
+  27,
+  1100,
+  22
+ ],
+ "pipe_lines": [
+  126,
+  191,
+  7,
+  337
+ ],
+ "pool_3": 69,
+ "pool_4": 1,
+ "pool_n": 12623,
+ "pool_tier": [
+  11442,
+  1111,
+  69,
+  1
+ ],
+ "quote_minus_sh": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "quote_only_n": 1,
+ "sec_heads": [
+  [
+   [
+    3401,
+    "10.3.1 300 Multiple Choices"
+   ],
+   [
+    3432,
+    "10.3.2 301 Moved Permanently"
+   ],
+   [
+    3455,
+    "10.3.3 302 Found"
+   ],
+   [
+    3492,
+    "10.3.4 303 See Other"
+   ],
+   [
+    3512,
+    "10.3.5 304 Not Modified"
+   ],
+   [
+    3561,
+    "10.3.6 305 Use Proxy"
+   ],
+   [
+    3572,
+    "10.3.7 306 (Unused)"
+   ],
+   [
+    3591,
+    "10.3.8 307 Temporary Redirect"
+   ]
+  ],
+  [
+   [
+    3050,
+    "6.4.1.  300 Multiple Choices"
+   ],
+   [
+    3101,
+    "6.4.2.  301 Moved Permanently"
+   ],
+   [
+    3125,
+    "6.4.3.  302 Found"
+   ],
+   [
+    3154,
+    "6.4.4.  303 See Other"
+   ],
+   [
+    3199,
+    "6.4.5.  305 Use Proxy"
+   ],
+   [
+    3204,
+    "6.4.6.  306 (Unused)"
+   ],
+   [
+    3209,
+    "6.4.7.  307 Temporary Redirect"
+   ]
+  ],
+  [
+   [
+    119,
+    "3.  308 Permanent Redirect"
+   ]
+  ],
+  [
+   [
+    7322,
+    "15.4.1.  300 Multiple Choices"
+   ],
+   [
+    7365,
+    "15.4.2.  301 Moved Permanently"
+   ],
+   [
+    7393,
+    "15.4.3.  302 Found"
+   ],
+   [
+    7411,
+    "15.4.4.  303 See Other"
+   ],
+   [
+    7444,
+    "15.4.5.  304 Not Modified"
+   ],
+   [
+    7480,
+    "15.4.6.  305 Use Proxy"
+   ],
+   [
+    7485,
+    "15.4.7.  306 (Unused)"
+   ],
+   [
+    7490,
+    "15.4.8.  307 Temporary Redirect"
+   ],
+   [
+    7505,
+    "15.4.9.  308 Permanent Redirect"
+   ]
+  ]
+ ],
+ "sh_minus_fold": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "shell_n": [
+  3305,
+  1916,
+  152,
+  2127
+ ],
+ "shell_strip": [
+  6555,
+  3744,
+  188,
+  8659
+ ],
+ "sn_fold_docs": [
+  6,
+  5,
+  5,
+  7
+ ],
+ "sn_quote_docs": [
+  6,
+  5,
+  5,
+  8
+ ],
+ "sn_sh_docs": [
+  6,
+  5,
+  5,
+  7
+ ],
+ "sn_strict_docs": [
+  4,
+  3,
+  4,
+  7
+ ],
+ "target_ids": [
+  2068,
+  2616,
+  2817,
+  2818,
+  3864,
+  7230,
+  7231,
+  7232,
+  7233,
+  7235,
+  7238
+ ],
+ "tier_faces": [
+  [
+   6,
+   3,
+   0,
+   0,
+   0,
+   3
+  ],
+  [
+   2,
+   0,
+   2,
+   1,
+   1,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  [
+   6,
+   0,
+   2,
+   1,
+   0,
+   2
+  ]
+ ],
+ "tier_pats": [
+  "not allowed",
+  "MUST NOT automatically redirect",
+  "MAY change the request method",
+  "MUST NOT change the request method",
+  "does not allow changing",
+  "erroneously"
+ ],
+ "tier_tot": [
+  12,
+  6,
+  1,
+  11
+ ],
+ "upd": [
+  [],
+  [
+   "Updates: 2817                                                 greenbytes"
+  ],
+  [],
+  [
+   "Updates: 3864                                                 greenbytes"
+  ]
+ ],
+ "upd_ids": [
+  [],
+  [
+   2817
+  ],
+  [],
+  [
+   3864
+  ]
+ ],
+ "year_gaps": [
+  15,
+  1,
+  7
+ ],
+ "year_inversions": 0,
+ "years": [
+  1999,
+  2014,
+  2015,
+  2022
+ ]
+}

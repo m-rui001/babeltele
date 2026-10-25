@@ -1,0 +1,1618 @@
+{
+ "above_floor": [
+  "1123/5321 \u4e0b\u9650 30 \u5206\u949f",
+  "exim retry_interval_max 24h",
+  "exim \u6b21\u6863\u8d77\u59cb 1h",
+  "postfix maximal_backoff_time 4000s"
+ ],
+ "axis_counts": {
+  "case": 0,
+  "hyph": 0,
+  "multi": 9,
+  "space": 20
+ },
+ "axis_distinct": 29,
+ "axis_str": "case0\u21cehyph0\u21cespace20\u21cemulti9",
+ "below_floor": [
+  "exim \u9996\u6863\u95f4\u9694 15m",
+  "postfix minimal_backoff_time 300s",
+  "postfix queue_run_delay 300s",
+  "postfix transport_retry_time 60s"
+ ],
+ "blank": [
+  2028,
+  2006,
+  1644,
+  52,
+  1032
+ ],
+ "bom": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "bond_pair_n": 2,
+ "br_tag": [
+  0,
+  0,
+  0,
+  0,
+  909
+ ],
+ "bytes": [
+  120432,
+  239721,
+  225929,
+  35127,
+  1091230
+ ],
+ "c821_may_month": 1,
+ "c821_no_retry_vocabulary": 1,
+ "chars": [
+  120432,
+  239721,
+  225929,
+  35048,
+  1090337
+ ],
+ "comment": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "conv_sec": {
+  "1123/5321 \u4e0b\u9650 30 \u5206\u949f": 1800,
+  "exim retry_interval_max 24h": 86400,
+  "exim \u6b21\u6863\u8d77\u59cb 1h": 3600,
+  "exim \u9996\u6863\u95f4\u9694 15m": 900,
+  "postfix maximal_backoff_time 4000s": 4000,
+  "postfix minimal_backoff_time 300s": 300,
+  "postfix queue_run_delay 300s": 300,
+  "postfix transport_retry_time 60s": 60
+ },
+ "cr": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "dead_needles": [],
+ "dj_vs_ds": [
+  0,
+  0,
+  0,
+  2,
+  0
+ ],
+ "ds_minus_sh": [
+  0,
+  0,
+  0,
+  -6,
+  0
+ ],
+ "ds_only_own": [
+  0,
+  0,
+  0,
+  6,
+  0
+ ],
+ "ent_double_left": [
+  0,
+  0,
+  0,
+  0,
+  28
+ ],
+ "ent_fam": [
+  "&lt;",
+  "&gt;",
+  "&amp;",
+  "&amp;amp;",
+  "&#34;",
+  "&#39;",
+  "&#43;",
+  "&#x2F;",
+  "&nbsp;",
+  "&mdash;",
+  "&rsquo;",
+  "&quot;"
+ ],
+ "ent_lt_left": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ent_numeric_left": [
+  0,
+  0,
+  0,
+  0,
+  2676
+ ],
+ "ent_raw": [
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   10,
+   10,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   195,
+   284,
+   58,
+   56,
+   2487,
+   191,
+   6,
+   3,
+   1,
+   0,
+   0,
+   0
+  ]
+ ],
+ "ent_resid_ds": [
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   28,
+   0,
+   2487,
+   183,
+   3,
+   3,
+   0,
+   0,
+   0,
+   0
+  ]
+ ],
+ "ent_total": [
+  0,
+  0,
+  0,
+  20,
+  3281
+ ],
+ "exim_arg1_sec": [
+  600,
+  900,
+  1200,
+  1800,
+  2700,
+  3600,
+  10800,
+  21600,
+  28800
+ ],
+ "exim_cutoff_in_band": 1,
+ "exim_cutoff_sec": [
+  3600,
+  7200,
+  28800,
+  57600,
+  86400,
+  172800,
+  345600,
+  432000,
+  604800
+ ],
+ "exim_default_cutoffs": [
+  7200,
+  57600,
+  345600
+ ],
+ "exim_default_first": [
+  900,
+  3600,
+  21600
+ ],
+ "exim_default_mult": [
+  1.5
+ ],
+ "exim_default_rule": "* * F,2h,15m; G,16h,1h,1.5; F,4d,6h",
+ "exim_default_sets": [
+  "F,2h,15m",
+  "G,16h,1h,1.5",
+  "F,4d,6h"
+ ],
+ "exim_default_span": 345600,
+ "exim_g_capped_at_rim": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "exim_g_steps": [
+  3600.0,
+  5400.0,
+  8100.0,
+  12150.0,
+  18225.0,
+  27337.5
+ ],
+ "exim_letters": [
+  "F",
+  "G"
+ ],
+ "exim_mult": [
+  1.5,
+  2.0
+ ],
+ "exim_rim_cap": 86400,
+ "exim_rule_n": 14,
+ "exim_rules_raw": [
+  "F,1h,10m",
+  "F,1h,15m",
+  "F,1h,30m",
+  "F,24h,30m",
+  "F,2h,15m",
+  "F,2h,20m",
+  "F,4d,45m",
+  "F,4d,6h",
+  "F,5d,8h",
+  "F,7d,3h",
+  "G,16h,1h,1.5",
+  "G,1h,10m,2",
+  "G,2d,1h,2",
+  "G,8h,10m,1.5"
+ ],
+ "exim_sets_n": 20,
+ "ff": [
+  72,
+  98,
+  95,
+  0,
+  0
+ ],
+ "ff_exact": [
+  72,
+  98,
+  95,
+  0,
+  0
+ ],
+ "floor_ratio_max": 48.0,
+ "fold_minus_strict": [
+  8,
+  5,
+  5,
+  3,
+  6
+ ],
+ "giveup_band_sec": [
+  345600,
+  432000
+ ],
+ "hdr_dot1sp": [
+  0,
+  0,
+  5,
+  0,
+  5
+ ],
+ "hdr_dot2sp": [
+  40,
+  4,
+  212,
+  0,
+  0
+ ],
+ "hdr_dot2sp_fold": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "hdr_nodot": [
+  0,
+  10,
+  0,
+  1,
+  19
+ ],
+ "html_n": 2,
+ "hyphen_break": [
+  0,
+  24,
+  30,
+  0,
+  0
+ ],
+ "incl": [
+  14931,
+  31,
+  0,
+  0,
+  0
+ ],
+ "kw_clause": [
+  0,
+  0,
+  2,
+  0,
+  0
+ ],
+ "lines": [
+  4051,
+  5783,
+  5324,
+  723,
+  19262
+ ],
+ "maxlen": [
+  72,
+  72,
+  72,
+  373,
+  460
+ ],
+ "ndn_hyphen_break": [
+  0,
+  1,
+  1,
+  0,
+  0
+ ],
+ "needle_n": 60,
+ "nonascii": [
+  0,
+  0,
+  0,
+  40,
+  889
+ ],
+ "nonblank": [
+  2023,
+  3777,
+  3680,
+  671,
+  18230
+ ],
+ "obs": [
+  null,
+  null,
+  "Obsoletes: 2821",
+  null,
+  null
+ ],
+ "obs_ids": [
+  [],
+  [],
+  [
+   2821
+  ],
+  [],
+  []
+ ],
+ "p_dj": {
+  "c1123_backoff_once": 1,
+  "c1123_dns_5sec": 1,
+  "c1123_dns_backoff": 1,
+  "c1123_floor_30min": 1,
+  "c1123_giveup_45days": 1,
+  "c1123_must_configurable": 1,
+  "c1123_must_delay": 1,
+  "c1123_queueing_must": 1,
+  "c1123_sec_head": 2,
+  "c1123_two_in_hour": 1,
+  "c5321_backoff_one": 1,
+  "c5321_floor_30min": 1,
+  "c5321_giveup_45days": 1,
+  "c5321_may_shorter_ndn": 1,
+  "c5321_must_configurable": 1,
+  "c5321_must_delay": 1,
+  "c5321_must_not_cache5yz": 1,
+  "c5321_ndn_scope": 1,
+  "c5321_queuing_must": 1,
+  "c5321_sec_head": 1,
+  "c821_4yz_class": 1,
+  "c821_5yz_class": 1,
+  "c821_different_time": 1,
+  "c821_discouraged": 1,
+  "c821_encouraged": 1,
+  "c821_hard_to_define": 1,
+  "c821_must_agree": 1,
+  "c821_rule_of_thumb": 1,
+  "c821_temporary": 1,
+  "cexim_24h_default": 1,
+  "cexim_beyond_cutoff": 1,
+  "cexim_cutoff_def": 1,
+  "cexim_cutoff_four_days": 1,
+  "cexim_default_rule": 1,
+  "cexim_every_30min": 1,
+  "cexim_expire_7days": 1,
+  "cexim_fixed_intervals": 0,
+  "cexim_from_first_failure": 1,
+  "cexim_letter_bond_dj": 1,
+  "cexim_letter_bond_ds": 0,
+  "cexim_letter_def": 1,
+  "cexim_randomized": 0,
+  "cexim_rim_24h": 1,
+  "cexim_rim_limits": 1,
+  "cpf_bql_5d": 2,
+  "cpf_default_unit_d": 11,
+  "cpf_default_unit_s": 73,
+  "cpf_ge_minbo": 1,
+  "cpf_ge_qrd": 1,
+  "cpf_malfunction": 1,
+  "cpf_max_time": 1,
+  "cpf_maxbo_4000s": 2,
+  "cpf_min_time": 1,
+  "cpf_minbo_300s": 2,
+  "cpf_mql_5d": 2,
+  "cpf_prior_1000s": 2,
+  "cpf_qrd_300s": 2,
+  "cpf_trt_60s": 2,
+  "cpf_unit_table": 90,
+  "cpf_zero_once": 2
+ },
+ "p_ds": {
+  "c1123_backoff_once": 1,
+  "c1123_dns_5sec": 1,
+  "c1123_dns_backoff": 1,
+  "c1123_floor_30min": 1,
+  "c1123_giveup_45days": 1,
+  "c1123_must_configurable": 1,
+  "c1123_must_delay": 1,
+  "c1123_queueing_must": 1,
+  "c1123_sec_head": 2,
+  "c1123_two_in_hour": 1,
+  "c5321_backoff_one": 1,
+  "c5321_floor_30min": 1,
+  "c5321_giveup_45days": 1,
+  "c5321_may_shorter_ndn": 1,
+  "c5321_must_configurable": 1,
+  "c5321_must_delay": 1,
+  "c5321_must_not_cache5yz": 1,
+  "c5321_ndn_scope": 1,
+  "c5321_queuing_must": 1,
+  "c5321_sec_head": 1,
+  "c821_4yz_class": 1,
+  "c821_5yz_class": 1,
+  "c821_different_time": 1,
+  "c821_discouraged": 1,
+  "c821_encouraged": 1,
+  "c821_hard_to_define": 1,
+  "c821_must_agree": 1,
+  "c821_rule_of_thumb": 1,
+  "c821_temporary": 1,
+  "cexim_24h_default": 1,
+  "cexim_beyond_cutoff": 1,
+  "cexim_cutoff_def": 1,
+  "cexim_cutoff_four_days": 1,
+  "cexim_default_rule": 1,
+  "cexim_every_30min": 1,
+  "cexim_expire_7days": 1,
+  "cexim_fixed_intervals": 1,
+  "cexim_from_first_failure": 1,
+  "cexim_letter_bond_dj": 0,
+  "cexim_letter_bond_ds": 1,
+  "cexim_letter_def": 1,
+  "cexim_randomized": 1,
+  "cexim_rim_24h": 1,
+  "cexim_rim_limits": 1,
+  "cpf_bql_5d": 2,
+  "cpf_default_unit_d": 11,
+  "cpf_default_unit_s": 73,
+  "cpf_ge_minbo": 1,
+  "cpf_ge_qrd": 1,
+  "cpf_malfunction": 1,
+  "cpf_max_time": 1,
+  "cpf_maxbo_4000s": 2,
+  "cpf_min_time": 1,
+  "cpf_minbo_300s": 2,
+  "cpf_mql_5d": 2,
+  "cpf_prior_1000s": 2,
+  "cpf_qrd_300s": 2,
+  "cpf_trt_60s": 2,
+  "cpf_unit_table": 90,
+  "cpf_zero_once": 2
+ },
+ "p_fold": {
+  "c1123_backoff_once": 1,
+  "c1123_dns_5sec": 1,
+  "c1123_dns_backoff": 1,
+  "c1123_floor_30min": 1,
+  "c1123_giveup_45days": 1,
+  "c1123_must_configurable": 1,
+  "c1123_must_delay": 1,
+  "c1123_queueing_must": 1,
+  "c1123_sec_head": 2,
+  "c1123_two_in_hour": 1,
+  "c5321_backoff_one": 1,
+  "c5321_floor_30min": 1,
+  "c5321_giveup_45days": 1,
+  "c5321_may_shorter_ndn": 1,
+  "c5321_must_configurable": 1,
+  "c5321_must_delay": 1,
+  "c5321_must_not_cache5yz": 1,
+  "c5321_ndn_scope": 1,
+  "c5321_queuing_must": 1,
+  "c5321_sec_head": 1,
+  "c821_4yz_class": 1,
+  "c821_5yz_class": 1,
+  "c821_different_time": 1,
+  "c821_discouraged": 1,
+  "c821_encouraged": 1,
+  "c821_hard_to_define": 1,
+  "c821_must_agree": 1,
+  "c821_rule_of_thumb": 1,
+  "c821_temporary": 1,
+  "cexim_24h_default": 1,
+  "cexim_beyond_cutoff": 1,
+  "cexim_cutoff_def": 1,
+  "cexim_cutoff_four_days": 1,
+  "cexim_default_rule": 1,
+  "cexim_every_30min": 1,
+  "cexim_expire_7days": 0,
+  "cexim_fixed_intervals": 0,
+  "cexim_from_first_failure": 1,
+  "cexim_letter_bond_dj": 0,
+  "cexim_letter_bond_ds": 0,
+  "cexim_letter_def": 1,
+  "cexim_randomized": 0,
+  "cexim_rim_24h": 0,
+  "cexim_rim_limits": 0,
+  "cpf_bql_5d": 3,
+  "cpf_default_unit_d": 11,
+  "cpf_default_unit_s": 73,
+  "cpf_ge_minbo": 1,
+  "cpf_ge_qrd": 1,
+  "cpf_malfunction": 1,
+  "cpf_max_time": 1,
+  "cpf_maxbo_4000s": 3,
+  "cpf_min_time": 1,
+  "cpf_minbo_300s": 3,
+  "cpf_mql_5d": 3,
+  "cpf_prior_1000s": 2,
+  "cpf_qrd_300s": 3,
+  "cpf_trt_60s": 3,
+  "cpf_unit_table": 90,
+  "cpf_zero_once": 2
+ },
+ "p_lines": {
+  "c1123_backoff_once": null,
+  "c1123_dns_5sec": 4532,
+  "c1123_dns_backoff": null,
+  "c1123_floor_30min": null,
+  "c1123_giveup_45days": null,
+  "c1123_must_configurable": null,
+  "c1123_must_delay": 3492,
+  "c1123_queueing_must": 3462,
+  "c1123_sec_head": 167,
+  "c1123_two_in_hour": 3511,
+  "c5321_backoff_one": 3723,
+  "c5321_floor_30min": null,
+  "c5321_giveup_45days": 3710,
+  "c5321_may_shorter_ndn": null,
+  "c5321_must_configurable": null,
+  "c5321_must_delay": 3703,
+  "c5321_must_not_cache5yz": null,
+  "c5321_ndn_scope": 3712,
+  "c5321_queuing_must": 3681,
+  "c5321_sec_head": null,
+  "c821_4yz_class": null,
+  "c821_5yz_class": null,
+  "c821_different_time": null,
+  "c821_discouraged": null,
+  "c821_encouraged": null,
+  "c821_hard_to_define": 2899,
+  "c821_must_agree": null,
+  "c821_rule_of_thumb": null,
+  "c821_temporary": null,
+  "cexim_24h_default": 509,
+  "cexim_beyond_cutoff": null,
+  "cexim_cutoff_def": null,
+  "cexim_cutoff_four_days": 626,
+  "cexim_default_rule": 623,
+  "cexim_every_30min": 575,
+  "cexim_expire_7days": null,
+  "cexim_fixed_intervals": null,
+  "cexim_from_first_failure": null,
+  "cexim_letter_bond_dj": null,
+  "cexim_letter_bond_ds": null,
+  "cexim_letter_def": 458,
+  "cexim_randomized": null,
+  "cexim_rim_24h": null,
+  "cexim_rim_limits": null,
+  "cpf_bql_5d": 973,
+  "cpf_default_unit_d": null,
+  "cpf_default_unit_s": 5829,
+  "cpf_ge_minbo": null,
+  "cpf_ge_qrd": null,
+  "cpf_malfunction": null,
+  "cpf_max_time": null,
+  "cpf_maxbo_4000s": 2049,
+  "cpf_min_time": 8930,
+  "cpf_minbo_300s": 2157,
+  "cpf_mql_5d": 2053,
+  "cpf_prior_1000s": 8931,
+  "cpf_qrd_300s": 2577,
+  "cpf_trt_60s": 4121,
+  "cpf_unit_table": null,
+  "cpf_zero_once": 5083
+ },
+ "p_sh": {
+  "c1123_backoff_once": 1,
+  "c1123_dns_5sec": 1,
+  "c1123_dns_backoff": 1,
+  "c1123_floor_30min": 1,
+  "c1123_giveup_45days": 1,
+  "c1123_must_configurable": 1,
+  "c1123_must_delay": 1,
+  "c1123_queueing_must": 1,
+  "c1123_sec_head": 2,
+  "c1123_two_in_hour": 1,
+  "c5321_backoff_one": 1,
+  "c5321_floor_30min": 1,
+  "c5321_giveup_45days": 1,
+  "c5321_may_shorter_ndn": 1,
+  "c5321_must_configurable": 1,
+  "c5321_must_delay": 1,
+  "c5321_must_not_cache5yz": 1,
+  "c5321_ndn_scope": 1,
+  "c5321_queuing_must": 1,
+  "c5321_sec_head": 1,
+  "c821_4yz_class": 1,
+  "c821_5yz_class": 1,
+  "c821_different_time": 1,
+  "c821_discouraged": 1,
+  "c821_encouraged": 1,
+  "c821_hard_to_define": 1,
+  "c821_must_agree": 1,
+  "c821_rule_of_thumb": 1,
+  "c821_temporary": 1,
+  "cexim_24h_default": 1,
+  "cexim_beyond_cutoff": 1,
+  "cexim_cutoff_def": 1,
+  "cexim_cutoff_four_days": 1,
+  "cexim_default_rule": 1,
+  "cexim_every_30min": 1,
+  "cexim_expire_7days": 0,
+  "cexim_fixed_intervals": 0,
+  "cexim_from_first_failure": 1,
+  "cexim_letter_bond_dj": 0,
+  "cexim_letter_bond_ds": 0,
+  "cexim_letter_def": 1,
+  "cexim_randomized": 0,
+  "cexim_rim_24h": 0,
+  "cexim_rim_limits": 0,
+  "cpf_bql_5d": 3,
+  "cpf_default_unit_d": 11,
+  "cpf_default_unit_s": 73,
+  "cpf_ge_minbo": 1,
+  "cpf_ge_qrd": 1,
+  "cpf_malfunction": 1,
+  "cpf_max_time": 1,
+  "cpf_maxbo_4000s": 3,
+  "cpf_min_time": 1,
+  "cpf_minbo_300s": 3,
+  "cpf_mql_5d": 3,
+  "cpf_prior_1000s": 2,
+  "cpf_qrd_300s": 3,
+  "cpf_trt_60s": 3,
+  "cpf_unit_table": 90,
+  "cpf_zero_once": 2
+ },
+ "p_strict": {
+  "c1123_backoff_once": 0,
+  "c1123_dns_5sec": 1,
+  "c1123_dns_backoff": 0,
+  "c1123_floor_30min": 0,
+  "c1123_giveup_45days": 0,
+  "c1123_must_configurable": 0,
+  "c1123_must_delay": 1,
+  "c1123_queueing_must": 1,
+  "c1123_sec_head": 2,
+  "c1123_two_in_hour": 1,
+  "c5321_backoff_one": 1,
+  "c5321_floor_30min": 0,
+  "c5321_giveup_45days": 1,
+  "c5321_may_shorter_ndn": 0,
+  "c5321_must_configurable": 0,
+  "c5321_must_delay": 1,
+  "c5321_must_not_cache5yz": 0,
+  "c5321_ndn_scope": 1,
+  "c5321_queuing_must": 1,
+  "c5321_sec_head": 0,
+  "c821_4yz_class": 0,
+  "c821_5yz_class": 0,
+  "c821_different_time": 0,
+  "c821_discouraged": 0,
+  "c821_encouraged": 0,
+  "c821_hard_to_define": 1,
+  "c821_must_agree": 0,
+  "c821_rule_of_thumb": 0,
+  "c821_temporary": 0,
+  "cexim_24h_default": 1,
+  "cexim_beyond_cutoff": 0,
+  "cexim_cutoff_def": 0,
+  "cexim_cutoff_four_days": 1,
+  "cexim_default_rule": 1,
+  "cexim_every_30min": 1,
+  "cexim_expire_7days": 0,
+  "cexim_fixed_intervals": 0,
+  "cexim_from_first_failure": 0,
+  "cexim_letter_bond_dj": 0,
+  "cexim_letter_bond_ds": 0,
+  "cexim_letter_def": 1,
+  "cexim_randomized": 0,
+  "cexim_rim_24h": 0,
+  "cexim_rim_limits": 0,
+  "cpf_bql_5d": 2,
+  "cpf_default_unit_d": 0,
+  "cpf_default_unit_s": 5,
+  "cpf_ge_minbo": 0,
+  "cpf_ge_qrd": 0,
+  "cpf_malfunction": 0,
+  "cpf_max_time": 0,
+  "cpf_maxbo_4000s": 2,
+  "cpf_min_time": 1,
+  "cpf_minbo_300s": 2,
+  "cpf_mql_5d": 2,
+  "cpf_prior_1000s": 1,
+  "cpf_qrd_300s": 2,
+  "cpf_trt_60s": 2,
+  "cpf_unit_table": 0,
+  "cpf_zero_once": 2
+ },
+ "pair_byte": [
+  0,
+  2,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "pair_lbl": [
+  "821\u00b71123",
+  "821\u00b75321",
+  "821\u00b7exim",
+  "821\u00b7postfix",
+  "1123\u00b75321",
+  "1123\u00b7exim",
+  "1123\u00b7postfix",
+  "5321\u00b7exim",
+  "5321\u00b7postfix",
+  "exim\u00b7postfix"
+ ],
+ "pair_max": 29,
+ "pair_max_lbl": "821\u00b75321",
+ "pair_nonzero": 2,
+ "pair_norm_only": [
+  0,
+  27,
+  0,
+  0,
+  2,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "pair_share": [
+  0,
+  29,
+  0,
+  0,
+  2,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "pair_zero": 8,
+ "pf_body_hit": [
+  2,
+  2,
+  2,
+  2,
+  2,
+  2
+ ],
+ "pf_bql_same_as_mql": 1,
+ "pf_def_raw": {
+  "bounce_queue_lifetime": [
+   "5d",
+   "5d"
+  ],
+  "maximal_backoff_time": [
+   "4000s",
+   "4000s"
+  ],
+  "maximal_queue_lifetime": [
+   "5d",
+   "5d"
+  ],
+  "minimal_backoff_time": [
+   "300s",
+   "300s"
+  ],
+  "queue_run_delay": [
+   "300s",
+   "300s"
+  ],
+  "transport_retry_time": [
+   "60s",
+   "60s"
+  ]
+ },
+ "pf_def_sec": {
+  "bounce_queue_lifetime": 432000,
+  "maximal_backoff_time": 4000,
+  "maximal_queue_lifetime": 432000,
+  "minimal_backoff_time": 300,
+  "queue_run_delay": 300,
+  "transport_retry_time": 60
+ },
+ "pf_def_tok": {
+  "bounce_queue_lifetime": [
+   "5d"
+  ],
+  "maximal_backoff_time": [
+   "4000s"
+  ],
+  "maximal_queue_lifetime": [
+   "5d"
+  ],
+  "minimal_backoff_time": [
+   "300s"
+  ],
+  "queue_run_delay": [
+   "300s"
+  ],
+  "transport_retry_time": [
+   "60s"
+  ]
+ },
+ "pf_default_unit": {
+  "d": 11,
+  "s": 73
+ },
+ "pf_ge_chain": [
+  true,
+  true
+ ],
+ "pf_index_hit": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "pf_lifetime_in_band": 1,
+ "pf_params": [
+  "maximal_queue_lifetime",
+  "bounce_queue_lifetime",
+  "minimal_backoff_time",
+  "maximal_backoff_time",
+  "queue_run_delay",
+  "transport_retry_time"
+ ],
+ "pf_unit_line": 90,
+ "pf_zero_once": 2,
+ "pool_2": 31,
+ "pool_3": 0,
+ "pool_html_own": 8595,
+ "pool_html_shared": 0,
+ "pool_n": 14900,
+ "pool_tier": [
+  14869,
+  31,
+  0,
+  0,
+  0
+ ],
+ "pool_txt_shared": 31,
+ "queue_word": [
+  0,
+  14,
+  15,
+  9,
+  152
+ ],
+ "receiver_smtp": [
+  41,
+  21,
+  5,
+  0,
+  0
+ ],
+ "retry_word": [
+  0,
+  21,
+  18,
+  109,
+  6
+ ],
+ "rfc_hdr": [
+  null,
+  "1123",
+  "5321",
+  null,
+  null
+ ],
+ "s_incl": [
+  6103,
+  60,
+  0,
+  0,
+  0
+ ],
+ "s_pair_html": 0,
+ "s_pair_max": 41,
+ "s_pair_max_lbl": "821\u00b75321",
+ "s_pair_share": [
+  0,
+  41,
+  0,
+  0,
+  19,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_pool_n": 6043,
+ "s_pool_tier": [
+  5983,
+  60,
+  0,
+  0,
+  0
+ ],
+ "s_retry_pair_share": 19,
+ "s_union_close": 0,
+ "s_union_incl": 6043,
+ "sender_smtp": [
+  32,
+  17,
+  3,
+  0,
+  0
+ ],
+ "sh_minus_fold": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "shell_hdr": [
+  34,
+  97,
+  94,
+  0,
+  0
+ ],
+ "shell_n": [
+  2130,
+  2201,
+  1833,
+  0,
+  0
+ ],
+ "shell_page": [
+  68,
+  98,
+  95,
+  0,
+  0
+ ],
+ "shell_strip": [
+  1921,
+  3582,
+  3491,
+  723,
+  19262
+ ],
+ "smtp_client": [
+  0,
+  0,
+  76,
+  0,
+  247
+ ],
+ "sn_dj_docs": [
+  9,
+  10,
+  10,
+  12,
+  16
+ ],
+ "sn_ds_docs": [
+  9,
+  10,
+  10,
+  14,
+  16
+ ],
+ "sn_fold_docs": [
+  9,
+  10,
+  10,
+  8,
+  16
+ ],
+ "sn_sh_docs": [
+  9,
+  10,
+  10,
+  8,
+  16
+ ],
+ "sn_strict_docs": [
+  1,
+  5,
+  5,
+  5,
+  10
+ ],
+ "spelling_queueing": [
+  0,
+  3,
+  0,
+  0,
+  0
+ ],
+ "spelling_queuing": [
+  0,
+  0,
+  7,
+  0,
+  1
+ ],
+ "strict_only": [],
+ "tag_close": [
+  0,
+  0,
+  0,
+  360,
+  10173
+ ],
+ "tag_open": [
+  0,
+  0,
+  0,
+  377,
+  11095
+ ],
+ "term_new_per_mille": [
+  0,
+  0,
+  962,
+  -1,
+  1000
+ ],
+ "term_pats": [
+  "sender-SMTP",
+  "SMTP client",
+  "SMTP-receiver",
+  "receiver-SMTP",
+  "queueing",
+  "queuing",
+  "queue",
+  "retry",
+  "retries",
+  "retrying"
+ ],
+ "terms": [
+  [
+   32,
+   0,
+   7,
+   41,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   17,
+   0,
+   0,
+   21,
+   3,
+   0,
+   14,
+   14,
+   5,
+   2
+  ],
+  [
+   3,
+   76,
+   3,
+   5,
+   0,
+   7,
+   15,
+   10,
+   3,
+   5
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   9,
+   100,
+   9,
+   0
+  ],
+  [
+   0,
+   247,
+   0,
+   0,
+   0,
+   1,
+   152,
+   4,
+   2,
+   0
+  ]
+ ],
+ "tier_faces": [
+  [
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   1,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   10,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   4,
+   40,
+   2,
+   10,
+   2,
+   0,
+   0
+  ]
+ ],
+ "tier_pats": [
+  "difficult to assign a meaning",
+  "SHOULD be at least 30 minutes",
+  "at least 4-5 days",
+  "MUST be configurable",
+  "cutoff time",
+  "(default: 5d)",
+  "(default: 300s)",
+  "(default: 4000s)",
+  "(default: 60s)",
+  "tried only once",
+  "encouraged to try again",
+  "MAY be appropriate"
+ ],
+ "tier_tot": [
+  2,
+  4,
+  5,
+  10,
+  58
+ ],
+ "time_digit_821": 0,
+ "time_digit_docs": [
+  0,
+  11,
+  3,
+  14,
+  10
+ ],
+ "tone": [
+  [
+   0,
+   0,
+   0,
+   2,
+   1
+  ],
+  [
+   19,
+   139,
+   11,
+   103,
+   31
+  ],
+  [
+   63,
+   201,
+   32,
+   154,
+   62
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   2,
+   11,
+   4,
+   4,
+   5
+  ]
+ ],
+ "tone_must_lc": [
+  52,
+  60,
+  25,
+  3,
+  130
+ ],
+ "tone_pats": [
+  "MUST NOT",
+  "MUST",
+  "SHOULD NOT",
+  "SHOULD",
+  "MAY"
+ ],
+ "tone_tot": [
+  3,
+  303,
+  512,
+  0,
+  26
+ ],
+ "tone_zero_all": [
+  0,
+  0,
+  0,
+  1,
+  0
+ ],
+ "tone_zero_must": [
+  1,
+  0,
+  0,
+  1,
+  0
+ ],
+ "txt_n": 3,
+ "union_close": 0,
+ "union_incl": 14900,
+ "unit_table": [
+  [
+   "s",
+   1
+  ],
+  [
+   "m",
+   60
+  ],
+  [
+   "h",
+   3600
+  ],
+  [
+   "w",
+   604800
+  ],
+  [
+   "d",
+   86400
+  ]
+ ],
+ "upd": [
+  null,
+  null,
+  "Updates: 1123",
+  null,
+  null
+ ],
+ "upd_ids": [
+  [],
+  [],
+  [
+   1123
+  ],
+  [],
+  []
+ ],
+ "wide_n": 6,
+ "win": {
+  "1123": [
+   3470,
+   3492,
+   3502
+  ],
+  "5321": [
+   3685,
+   3703,
+   3714
+  ]
+ },
+ "win_821_line": [
+  2899
+ ],
+ "win_821_page": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48
+ ],
+ "win_exim_lines": [
+  623
+ ],
+ "win_pf_lines": {
+  "bounce_queue_lifetime": [
+   973,
+   5074
+  ],
+  "maximal_backoff_time": [
+   2049,
+   8625
+  ],
+  "maximal_queue_lifetime": [
+   2053,
+   8636
+  ],
+  "minimal_backoff_time": [
+   2157,
+   8929
+  ],
+  "queue_run_delay": [
+   2577,
+   10342
+  ],
+  "transport_retry_time": [
+   4121,
+   18694
+  ]
+ },
+ "year_gaps": [
+  7,
+  19,
+  4,
+  13
+ ],
+ "year_span": 43,
+ "year_src": [
+  "\u9875\u7709 August 1982(68 \u9875\u91cd\u590d)",
+  "\u9875\u7709 October 1989",
+  "\u9875\u7709 October 2008",
+  "Copyright \u884c 1995-2012",
+  "\u955c\u50cf\u9875\u811a 2025-07-19"
+ ],
+ "years": [
+  1982,
+  1989,
+  2008,
+  2012,
+  2025
+ ]
+}

@@ -1,0 +1,29 @@
+# 4.  Comments; present if and only if countries have multiple timezones,
+# For example, the comment ‘#@AQ<tab>Antarctica/’ means the country code
+Comments: Does not include Caribbean (029) or Central America (013); see
+Comments: Indicates that the content is transcribed according to X-SAMPA
+Comments: as of 2006-03-29 GB no longer includes the Channel Islands and
+# Mention RU and UA alphabetically.  See “territorial claims” above.
+# are listed alphabetically by country code.  The table is sorted
+PR,AG,CA,AI,AW,BL,BQ,CW,DM,GD,GP,KN,LC,MF,MS,SX,TT,VC,VG,VI
+#     either ±DDMM±DDDMM or ±DDMMSS±DDDMMSS,
+# This file is in the public domain.
+# tzdb timezone descriptions
+Preferred-Value: cmn-Hans
+Description: Private use
+Deprecated: 1989-01-01
+Suppress-Script: Latn
+File-Date: 2026-09-17
+America/Puerto_Rico
+Subtag: Qaaa..Qabx
+Added: 2005-10-16
+Macrolanguage: zh
+Prefix: oc-aranes
+Subtag: qaa..qtz
+Description: Sô
+Type: redundant
+Subtag: QM..QZ
+Subtag: XA..XZ
+Prefix: en-CA
+Antarctica/
+Atlantic/

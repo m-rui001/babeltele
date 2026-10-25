@@ -1,0 +1,744 @@
+{
+ "anchor_total": 56,
+ "anchor_distinct": 50,
+ "tag_counts": {
+  "N": 33,
+  "Z": 4,
+  "K": 10,
+  "M": 9
+ },
+ "ameta": {
+  "anchor_total": 56,
+  "anchor_distinct": 50,
+  "anchor_err": 0,
+  "anchor_single": 43,
+  "anchor_cross": 7,
+  "anchor_all4": 0,
+  "checks": 200
+ },
+ "letters_in": 1202,
+ "letters_out": 153,
+ "tagn": 56,
+ "classes": {
+  "single": [
+   "# -08/-07 - PST/PDT (North America DST)",
+   "# -08/-07 - PST/PDT (North America DST) until 2026-11-01 02:00; then MST",
+   "# -10/-09 - HST / HDT (North America DST)",
+   "# 2.  The first column is irrelevant and ignored.",
+   "# 3.  The table is sorted in a different way:",
+   "# 4.  Every timezone has a nonempty comments column, with wording",
+   "# From Paul Eggert (2023-12-18):",
+   "# The format of this table is experimental, and may change in future versions.",
+   "# civil timestamps have agreed since 1970.  Columns are separated by",
+   "# where civil timestamps are predicted to agree from now on.",
+   "#XX\tcoordinates\tTZ\tcomments",
+   "(Morocco DST)",
+   "+10:30/+11",
+   "-v now=$$now",
+   "-v now_out=$@.out",
+   "-v zdump_table=$@d/zdump-now.tab \\",
+   "./zic -d $@d tzdata.zi",
+   "CHECK_NOW_TIMESTAMP = $$(./date +%s)",
+   "CI,BF,GH,GM,GN,IS,ML,MR,SH,SL,SN,TG\t+0519-00402\tAfrica/Abidjan",
+   "CST/CDT",
+   "Central Standard (CST) - Alberta, NWT, and some neighbors",
+   "Eastern Standard (EST) - Manitoba, northwestern Ontario",
+   "FS = \"\\t\"",
+   "IST/GMT (EU DST in reverse)",
+   "MST/MDT",
+   "Mountain Standard (MST) - British Columbia (most areas)",
+   "New Zealand (NZST/NZDT)",
+   "PR,AG,CA,AI,AW,BL,BQ,CW,DM,GD,GP,KN,LC,MF,MS,SX,TT,VC,VG,VI\t+182806-0660622\tAmerica/Puerto_Rico\tAST - QC (Lower North Shore)",
+   "PST/PDT",
+   "Samoa (western)",
+   "Troll DST",
+   "agree from now on",
+   "mkdir $@d",
+   "mv $@.out $@",
+   "now.ck: checknow.awk date tzdata.zi zdump zic zone1970.tab zonenow.tab",
+   "printf \"%s: no data\\n\", zone",
+   "printf \"%s=%s\\n\", now, zones[data] >>now_out",
+   "printf \"Zone table should have one of:%s\\n\", zones[data]",
+   "printf \"zones %s and %s identical from now on\\n\", zone, zone2",
+   "rm -fr $@d",
+   "while (getline <zdump_table) {",
+   "zone = $3",
+   "zonenow[data] = zone # This suppresses duplicate diagnostics."
+  ],
+  "cross": [
+   "# This file is in the public domain.",
+   "America/Edmonton",
+   "America/Havana",
+   "America/Vancouver",
+   "America/Winnipeg",
+   "Lord Howe Island",
+   "Pacific/Pago_Pago"
+  ],
+  "all4": []
+ },
+ "collisions": [
+  [
+   "91",
+   "tags"
+  ],
+  [
+   "91",
+   "rows"
+  ],
+  [
+   "48",
+   "withfirst"
+  ],
+  [
+   "42",
+   "eqlast"
+  ],
+  [
+   "42",
+   "inany"
+  ],
+  [
+   "1",
+   "gapspace"
+  ],
+  [
+   "1",
+   "twopar"
+  ],
+  [
+   "3",
+   "expire"
+  ],
+  [
+   "2",
+   "stepneg1"
+  ],
+  [
+   "1",
+   "step05"
+  ],
+  [
+   "1",
+   "step2"
+  ],
+  [
+   "2",
+   "minutes"
+  ],
+  [
+   "56",
+   "lead0"
+  ],
+  [
+   "48",
+   "c4par"
+  ],
+  [
+   "91",
+   "c4_kind"
+  ],
+  [
+   "4",
+   "isoc"
+  ],
+  [
+   "2",
+   "dateskinds"
+  ],
+  [
+   "3",
+   "untillines"
+  ],
+  [
+   "2",
+   "pred"
+  ],
+  [
+   "1",
+   "pred70"
+  ],
+  [
+   "2",
+   "nowph"
+  ],
+  [
+   "1",
+   "col1kind"
+  ],
+  [
+   "34",
+   "zmulti"
+  ],
+  [
+   "111",
+   "z4empty"
+  ],
+  [
+   "201",
+   "z4kind"
+  ],
+  [
+   "6",
+   "c4eq"
+  ],
+  [
+   "91",
+   "coordeq"
+  ],
+  [
+   "91",
+   "shared"
+  ],
+  [
+   "91",
+   "nowrows"
+  ],
+  [
+   "91",
+   "graincoord"
+  ],
+  [
+   "91",
+   "grainzone"
+  ],
+  [
+   "6",
+   "grainc4"
+  ],
+  [
+   "49",
+   "grainshang"
+  ],
+  [
+   "42",
+   "shnt"
+  ],
+  [
+   "16",
+   "sh2nc"
+  ],
+  [
+   "54",
+   "klines"
+  ],
+  [
+   "2",
+   "kcom"
+  ],
+  [
+   "4",
+   "kref0"
+  ],
+  [
+   "1",
+   "kref3"
+  ],
+  [
+   "10",
+   "kgtline"
+  ],
+  [
+   "4",
+   "kprintf"
+  ],
+  [
+   "4",
+   "kprintfk"
+  ],
+  [
+   "3",
+   "kstatus"
+  ],
+  [
+   "1",
+   "kexit"
+  ],
+  [
+   "1",
+   "kskip"
+  ],
+  [
+   "3",
+   "kzonedata"
+  ],
+  [
+   "4",
+   "kzonenowd"
+  ],
+  [
+   "1",
+   "kident"
+  ],
+  [
+   "1",
+   "knodata"
+  ],
+  [
+   "3",
+   "kext"
+  ],
+  [
+   "3",
+   "kunset"
+  ],
+  [
+   "3",
+   "mprereqok"
+  ],
+  [
+   "4",
+   "mprereqmiss"
+  ],
+  [
+   "2",
+   "mrm"
+  ],
+  [
+   "1",
+   "mmkdir"
+  ],
+  [
+   "1",
+   "mzic"
+  ],
+  [
+   "2",
+   "mfinds"
+  ],
+  [
+   "1",
+   "mmvout"
+  ],
+  [
+   "3",
+   "mdollarnow"
+  ],
+  [
+   "1",
+   "mnontab"
+  ],
+  [
+   "2",
+   "mawkcall"
+  ],
+  [
+   "1",
+   "mtablearg"
+  ],
+  [
+   "2",
+   "mhorizons"
+  ],
+  [
+   "5",
+   "cknow_m"
+  ],
+  [
+   "7",
+   "hitcross"
+  ],
+  [
+   "8",
+   "hitsingle"
+  ],
+  [
+   "2",
+   "xx_m"
+  ],
+  [
+   "2",
+   "zdumpnow_m"
+  ],
+  [
+   "1",
+   "zdumptable_k"
+  ],
+  [
+   "2",
+   "zdumptable_m"
+  ],
+  [
+   "2",
+   "nowon_n"
+  ],
+  [
+   "1",
+   "nowon_k"
+  ],
+  [
+   "4",
+   "y1970_n"
+  ],
+  [
+   "8",
+   "y1970_m"
+  ],
+  [
+   "3",
+   "until_n"
+  ],
+  [
+   "1",
+   "irr_n"
+  ],
+  [
+   "3",
+   "selfname_n"
+  ],
+  [
+   "5",
+   "selfname_m"
+  ],
+  [
+   "1",
+   "ntab_k"
+  ],
+  [
+   "5",
+   "ntab_m"
+  ],
+  [
+   "4",
+   "源数"
+  ],
+  [
+   "1212",
+   "字符数·检查器"
+  ],
+  [
+   "54",
+   "非空行·检查器"
+  ],
+  [
+   "2",
+   "注释行·检查器"
+  ],
+  [
+   "91",
+   "数据行·时效表"
+  ],
+  [
+   "312",
+   "数据行·姊妹表"
+  ],
+  [
+   "52",
+   "数据行·检查器"
+  ],
+  [
+   "92",
+   "含制表符行·时效表"
+  ],
+  [
+   "5",
+   "非 ASCII 字符·时效表"
+  ],
+  [
+   "22",
+   "非 ASCII 字符·构建器"
+  ],
+  [
+   "7",
+   "命中多份源的锚"
+  ],
+  [
+   "56",
+   "正文引用锚位"
+  ]
+ ],
+ "zero_terms": 29,
+ "deriv_keys": 80,
+ "notes": {
+  "91": "fldn4",
+  "111": "fldz3",
+  "201": "fldz4",
+  "216": "fldt3",
+  "202": "fldt4",
+  "1": "grpmax",
+  "20": "k3pairs",
+  "-11": "offfirst",
+  "14": "offlast",
+  "37": "offkinds",
+  "24": "repeated",
+  "8": "maxperoff",
+  "56": "offpairkinds",
+  "34": "dstg",
+  "52": "abg",
+  "97": "barehash",
+  "23": "othercom",
+  "48": "withpar",
+  "42": "eqfirst",
+  "10": "gaps",
+  "6": "gapnopar",
+  "3": "gaptense",
+  "2": "reverse",
+  "49": "nparen",
+  "30": "step1",
+  "13": "nonint",
+  "75": "cw11",
+  "16": "cw15",
+  "62": "lead0c",
+  "25": "c4semi",
+  "12": "c4both",
+  "4": "iso",
+  "1049": "gapday",
+  "514": "gapbir",
+  "160": "zkind",
+  "54": "z4has",
+  "221": "only70",
+  "327": "onlytab",
+  "418": "trows",
+  "312": "zrows",
+  "777": "shn",
+  "2367": "shz",
+  "2802": "sht",
+  "770": "sh3n",
+  "474": "sh3c",
+  "22": "kfsline",
+  "7": "mprereq",
+  "11": "mck",
+  "28": "myears",
+  "885427200": "msecs",
+  "883008000": "msecs365",
+  "2419200": "mdiff",
+  "2800": "mbig",
+  "100": "mratio",
+  "5": "msysv",
+  "1970": "predyear",
+  "2023": "bdyear",
+  "15": "hitkinds",
+  "92": "xx_n",
+  "8425": "磁盘字节·时效表",
+  "17592": "磁盘字节·姊妹表",
+  "1212": "磁盘字节·检查器",
+  "56501": "磁盘字节·构建器",
+  "8417": "字符数·时效表",
+  "17536": "字符数·姊妹表",
+  "56466": "字符数·构建器",
+  "302": "非空行·时效表",
+  "375": "非空行·姊妹表",
+  "1305": "非空行·构建器",
+  "211": "注释行·时效表",
+  "63": "注释行·姊妹表",
+  "546": "注释行·构建器",
+  "759": "数据行·构建器",
+  "318": "含制表符行·姊妹表",
+  "659": "含制表符行·构建器",
+  "38": "非 ASCII 字符·姊妹表",
+  "50": "去重锚串",
+  "43": "只命中一份源的锚",
+  "200": "成员检查次数"
+ },
+ "pool_used": 50,
+ "enc_chars": 8044,
+ "nsrc": 4,
+ "flat": {
+  "bytes": [
+   8425,
+   17592,
+   1212,
+   56501
+  ],
+  "chars": [
+   8417,
+   17536,
+   1212,
+   56466
+  ],
+  "nonempty": [
+   302,
+   375,
+   54,
+   1305
+  ],
+  "com": [
+   211,
+   63,
+   2,
+   546
+  ],
+  "dat": [
+   91,
+   312,
+   52,
+   759
+  ],
+  "tabline": [
+   92,
+   318,
+   0,
+   659
+  ],
+  "nonascii": [
+   5,
+   38,
+   0,
+   22
+  ],
+  "nsrc": 4,
+  "fldn4": 91,
+  "fldz3": 111,
+  "fldz4": 201,
+  "fldt3": 216,
+  "fldt4": 202,
+  "tags": 91,
+  "rows": 91,
+  "grpmax": 1,
+  "inv": 0,
+  "zinv": 0,
+  "k2inv": 0,
+  "k3pairs": 20,
+  "k3inv": 0,
+  "offfirst": -11,
+  "offlast": 14,
+  "offkinds": 37,
+  "repeated": 24,
+  "maxperoff": 8,
+  "offpairkinds": 56,
+  "dstg": 34,
+  "abg": 52,
+  "duptag": 0,
+  "barehash": 97,
+  "othercom": 23,
+  "withpar": 48,
+  "withfirst": 48,
+  "eqfirst": 42,
+  "eqlast": 42,
+  "inany": 42,
+  "gaps": 10,
+  "gapspace": 1,
+  "gapnopar": 6,
+  "gaptense": 3,
+  "reverse": 2,
+  "nparen": 49,
+  "twopar": 1,
+  "expire": 3,
+  "nonint": 13,
+  "minutes": 2,
+  "rowoffany": 0,
+  "rowoffcmt": 0,
+  "rowoffzone": 0,
+  "cw11": 75,
+  "cw15": 16,
+  "lead0": 56,
+  "lead0c": 62,
+  "mixed": 0,
+  "c4semi": 25,
+  "c4par": 48,
+  "c4both": 12,
+  "c4_kind": 91,
+  "iso": 4,
+  "isoc": 4,
+  "isod": 0,
+  "dateskinds": 2,
+  "untillines": 3,
+  "gapday": 1049,
+  "gapbir": 514,
+  "pred": 2,
+  "pred70": 1,
+  "nowph": 2,
+  "col1kind": 1,
+  "zmulti": 34,
+  "zkind": 160,
+  "z4empty": 111,
+  "z4kind": 201,
+  "z4has": 54,
+  "c4eq": 6,
+  "coordeq": 91,
+  "cceq": 0,
+  "shared": 91,
+  "only70": 221,
+  "onlytab": 327,
+  "dupn": 0,
+  "dup70": 0,
+  "trows": 418,
+  "nowrows": 91,
+  "zrows": 312,
+  "grainline": 0,
+  "graincoord": 91,
+  "grainzone": 91,
+  "grainc4": 6,
+  "grainshang": 49,
+  "shn": 777,
+  "shz": 2367,
+  "sht": 2802,
+  "shnt": 42,
+  "shself": 0,
+  "sh3n": 770,
+  "sh3c": 474,
+  "sh3nc": 0,
+  "sh2nc": 16,
+  "sh3zc": 0,
+  "klines": 54,
+  "kcom": 2,
+  "kref0": 4,
+  "kref1": 0,
+  "kref2": 0,
+  "kref3": 1,
+  "kref4": 0,
+  "kfsline": 22,
+  "kgtline": 10,
+  "kprintf": 4,
+  "kprintfk": 4,
+  "kstatus": 3,
+  "kexit": 1,
+  "kskip": 1,
+  "kzdumpnow": 0,
+  "kzonedata": 3,
+  "kzonenowd": 4,
+  "kident": 1,
+  "knodata": 1,
+  "kext": 3,
+  "kunset": 3,
+  "mprereq": 7,
+  "mprereqok": 3,
+  "mprereqmiss": 4,
+  "mck": 11,
+  "mrm": 2,
+  "mmkdir": 1,
+  "mzic": 1,
+  "myears": 28,
+  "msecs": 885427200,
+  "msecs365": 883008000,
+  "mdiff": 2419200,
+  "mbig": 2800,
+  "mratio": 100,
+  "mfinds": 2,
+  "mzdfiles": 0,
+  "mckfiles": 0,
+  "mmvout": 1,
+  "mdollarnow": 3,
+  "mnontab": 1,
+  "mawkcall": 2,
+  "mtablearg": 1,
+  "msysv": 5,
+  "mhorizons": 2,
+  "cknow_m": 5,
+  "predyear": 1970,
+  "bdyear": 2023,
+  "step1": 30,
+  "stepneg1": 2,
+  "step05": 1,
+  "step2": 1,
+  "xx_n": 92,
+  "xx_m": 2,
+  "zdumpnow_m": 2,
+  "zdumptable_k": 1,
+  "zdumptable_m": 2,
+  "nowon_n": 2,
+  "nowon_k": 1,
+  "y1970_n": 4,
+  "y1970_m": 8,
+  "until_n": 3,
+  "irr_n": 1,
+  "selfname_z": 0,
+  "selfname_n": 3,
+  "selfname_m": 5,
+  "ntab_k": 1,
+  "ntab_m": 5,
+  "hitcross": 7,
+  "hitsingle": 8,
+  "hitnone": 0,
+  "hitkinds": 15
+ }
+}

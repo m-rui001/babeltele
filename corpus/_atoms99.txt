@@ -1,0 +1,48 @@
+A	records carrying data in chunks of 2^14 bytes or less
+B	records carrying data in chunks of 2^14 bytes or less
+A	The length MUST NOT exceed 2^14 bytes
+B	The length MUST NOT exceed 2^14.
+B	The length MUST NOT exceed 2^14 + 1024.
+B	The length MUST NOT exceed 2^14 + 2048.
+A	The length MUST NOT exceed 2^14 + 256 bytes
+A	the full encoded TLSInnerPlaintext MUST NOT exceed 2^14 + 1 octets
+C	TLS 1.3 uses a limit of 2^14+1 octets
+C	that limit is 2^14 octets
+C	permit senders to generate records 16384 octets in size
+C	up to 2048 octets
+C	the allowance for expansion to 256 octets
+C	Allocating up to 18K of memory for ciphertext
+C	The maximum value that the extension permits is 2^12
+C	fragments of 2^14 octets
+C	a value smaller than 64
+D	2^9(1), 2^10(2), 2^11(3), 2^12(4)
+D	2^9, 2^10, 2^11, and 2^12
+D	fixed maximum plaintext fragment length of 2^14 bytes
+D	Once a maximum fragment length other than 2^14 has been successfully
+D	the negotiated length is 2^9=512
+D	at most 805 bytes: 5 bytes of headers, 512 bytes of application data
+D	larger than 805 bytes MUST discard the message
+E	By default its value is SSL3_RT_MAX_PLAIN_LENGTH (16384)
+E	only accept a value in the range 512 - SSL3_RT_MAX_PLAIN_LENGTH
+E	SSL3_RT_MAX_PLAIN_LENGTH + SSL3_RT_MAX_ENCRYPTED_OVERHEAD (16704) bytes
+E	Sets Maximum Fragment Length to 512 bytes
+E	Sets Maximum Fragment Length to 1024.
+E	Sets Maximum Fragment Length to 2048.
+E	Sets Maximum Fragment Length to 4096.
+E	must be in the range 1 - SSL_MAX_PIPELINES (32)
+B	A TLSCiphertext record was received that had a length more than 2^14+2048 bytes
+A	A TLSCiphertext record was received that had a length more than 2^14+256 bytes
+B	or a record decrypted to a TLSCompressed record with more than 2^14+1024 bytes
+A	or a record decrypted to a TLSPlaintext record with more than 2^14 bytes
+A	MUST NOT produce an expansion greater than 255 octets
+A	the maximum AEAD expansion of 255 octets
+A	1 octet for ContentType
+A	terminate the connection with a "record_overflow" alert
+A	max_fragment_length(1)
+D	max_fragment_length(1)
+E	max_fragment_length(1)
+A	The key words "MUST", "MUST NOT", "REQUIRED"
+B	The key words "MUST", "MUST NOT", "REQUIRED"
+C	The key words "MUST", "MUST NOT", "REQUIRED"
+D	The key words "MUST", "MUST NOT", "REQUIRED"
+C	Padding added as part of encryption

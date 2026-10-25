@@ -1,0 +1,18 @@
+# 上游原文不入库：语料由条目里的 src: 行按端点自行抓取
+corpus/raw/
+paper_text.txt
+2606.19857v1.pdf
+
+# 本机缓存与临时件
+__pycache__/
+*.pyc
+.scratch_*
+*.log
+corpus/_tmp*.py
+corpus/_tmp*.out
+
+# 接线前的自备份与探针残件（本地留档，不进仓库）
+corpus/_audit_backup*.py
+corpus/_audit_before*.bak
+*.bak*
+corpus/_probe52_*.tab

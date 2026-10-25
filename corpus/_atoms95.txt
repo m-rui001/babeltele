@@ -1,0 +1,41 @@
+A	The serial number is an integer assigned by the CA to each certificate
+B	The serial number MUST be a positive integer assigned by the CA
+C	The serial number MUST be a positive integer assigned by the CA
+A	the issuer name and serial number identify a unique certificate
+B	the issuer name and serial number identify a unique certificate
+C	the issuer name and serial number identify a unique certificate
+B	CAs MUST force the serialNumber to be a non-negative integer
+C	CAs MUST force the serialNumber to be a non-negative integer
+B	Certificate users MUST be able to handle serialNumber values up to 20 octets
+C	Certificate users MUST be able to handle serialNumber values up to 20 octets
+C	Conforming CAs MUST NOT use serialNumber values longer than 20 octets
+B	Conformant CAs MUST NOT use serialNumber values longer than 20 octets
+B	that are negative or zero
+C	that are negative or zero
+B	that are negative, or zero
+C	that are negative, or zero
+B	Certificate users SHOULD be prepared to gracefully handle such certificates
+C	Certificate users SHOULD be prepared to gracefully handle such certificates
+B	the sign bit in the DER encoding of the INTEGER value MUST be zero
+C	the sign bit in the DER encoding of the INTEGER value MUST be zero
+B	This can be done by adding a leading (leftmost) 
+C	This can be done by adding a leading (leftmost) 
+B	ub-serial-number INTEGER ::= 64
+C	ub-serial-number INTEGER ::= 64
+A	As a minimum, 16 octets
+B	As a minimum, 16 octets
+C	As a minimum, 16 octets
+A	monotonically increasing sequence number
+B	monotonically increasing sequence number
+C	monotonically increasing sequence number
+B	cRLNumber values longer than 20 octets
+C	cRLNumber values longer than 20 octets
+A	the construct "positiveint ::= INTEGER
+B	the construct "positiveint ::= INTEGER
+D	MUST be a non-sequential number greater than zero (0) and less than 2¹⁵⁹
+D	containing at least 64 bits of output from a CSPRNG
+D	byte-for-byte identical to the serialNumber
+E	serial numbers encoded in DER as 8 bytes can be at most 63 bits long
+E	Encoding a 64-bit positive serial number requires a 9-byte encoded value
+E	02 09 00 80 00 00 00 00 00 00 01
+E	RFC 5280 requires that serial numbers be positive

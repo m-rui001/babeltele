@@ -1,0 +1,344 @@
+{
+ "ascii_eq": [
+  0,
+  0,
+  0
+ ],
+ "blank": [
+  1,
+  1,
+  1
+ ],
+ "bridge": 0,
+ "bytegap": [
+  55,
+  56,
+  742
+ ],
+ "bytes": [
+  4841,
+  17592,
+  731819
+ ],
+ "chars": [
+  4786,
+  17536,
+  731077
+ ],
+ "cmt_contig_both": 1,
+ "cmt_contig_close": 0,
+ "cmt_contig_i": 1,
+ "cmt_contig_none": 2,
+ "cmt_contig_z": 0,
+ "cmt_line_shared": 1,
+ "cmt_line_shared_v": [
+  "#country-"
+ ],
+ "cmt_lines": [
+  30,
+  63,
+  0
+ ],
+ "cmt_sent_n": [
+  14,
+  25
+ ],
+ "cmt_sent_shared": 4,
+ "cmt_sent_shared_v": [
+  "All text uses UTF-8 encoding.",
+  "Columns are separated by a single tab.",
+  "Lines beginning with ‘#’ are comments.",
+  "The columns of the table are as follows: 1."
+ ],
+ "cmt_sorted_word": [
+  2,
+  1,
+  0
+ ],
+ "curly": [
+  25,
+  18,
+  5
+ ],
+ "curly_close": 0,
+ "dep_close": 0,
+ "dep_total": 11,
+ "eqc": 0,
+ "gt": [
+  0,
+  3,
+  0
+ ],
+ "hash": [
+  30,
+  63,
+  0
+ ],
+ "i_amp": 11,
+ "i_apos": 1,
+ "i_claim_avoided": 6,
+ "i_claim_avoided_in": 0,
+ "i_claim_open": 0,
+ "i_claim_total": 11,
+ "i_claim_used": 5,
+ "i_cmt_chars": 1385,
+ "i_cmt_lines": 30,
+ "i_cmt_tab_lines": 1,
+ "i_code_dist": 249,
+ "i_code_dup": 0,
+ "i_code_n": 249,
+ "i_cols": [
+  2
+ ],
+ "i_comma": 0,
+ "i_date_unsorted": 1,
+ "i_dates": [
+  "2009-05-17",
+  "2024-02-29",
+  "2025-07-01"
+ ],
+ "i_dates_byline": [
+  "2009-05-17",
+  "2025-07-01",
+  "2024-02-29"
+ ],
+ "i_dot": 4,
+ "i_hdr_cc": 0,
+ "i_hdr_split": 1,
+ "i_in_r": 249,
+ "i_in_r_close": 0,
+ "i_leap": 1,
+ "i_maxlen": 42,
+ "i_maxlen_v": [
+  "South Georgia & the South Sandwich Islands"
+ ],
+ "i_minlen": 4,
+ "i_multi_skins": 4,
+ "i_multi_tab": 0,
+ "i_name_chars": 2375,
+ "i_name_dist": 249,
+ "i_name_dup": 0,
+ "i_nonascii_names": 4,
+ "i_only_r": 0,
+ "i_only_z": 2,
+ "i_paren": 14,
+ "i_rows_data": 249,
+ "i_rows_strict": 249,
+ "i_rows_unmatched": 0,
+ "i_samoa_gap": 0,
+ "i_sorted_desc": 0,
+ "i_stem_adj": 4,
+ "i_stem_close": 0,
+ "i_stem_contig": 4,
+ "i_stem_kinds": 245,
+ "i_stem_multi": 4,
+ "i_tab_diff": 0,
+ "i_tab_expect": 250,
+ "i_url": 1,
+ "i_utf8_strict": 1,
+ "inter3": 247,
+ "key_0": 0,
+ "key_1": 7,
+ "key_2": 15,
+ "key_3": 3,
+ "key_3names": [
+  "tab",
+  "Andorra",
+  "alpha"
+ ],
+ "key_IR": 10,
+ "key_IZ": 5,
+ "key_ZR": 0,
+ "key_close": 0,
+ "key_n": 25,
+ "key_pair_close": 0,
+ "lex_ex": [
+  [
+   "AG",
+   "Antigua & Barbuda",
+   "Antigua and Barbuda"
+  ],
+  [
+   "BA",
+   "Bosnia & Herzegovina",
+   "Bosnia and Herzegovina"
+  ]
+ ],
+ "lines": [
+  279,
+  375,
+  49316
+ ],
+ "lt": [
+  0,
+  3,
+  0
+ ],
+ "name_amp_all": 11,
+ "name_amp_both": 11,
+ "name_amp_close": 0,
+ "name_apos_lex": 1,
+ "name_cmp": 249,
+ "name_cmp_close": 0,
+ "name_cross": 2,
+ "name_cross_v": [
+  [
+   "FM",
+   "Micronesia",
+   [
+    "057"
+   ]
+  ],
+  [
+   "TL",
+   "East Timor",
+   [
+    "TP"
+   ]
+  ]
+ ],
+ "name_dif": 47,
+ "name_dif_chars": 355,
+ "name_eq": 202,
+ "name_first_diff": [
+  "AG",
+  "Antigua & Barbuda",
+  "Antigua and Barbuda"
+ ],
+ "name_len_close": 0,
+ "name_lex": 10,
+ "name_lex_amp": 8,
+ "name_lex_close": 0,
+ "name_longer_i": 5,
+ "name_longer_r": 39,
+ "name_pool_close": 0,
+ "name_samelen": 3,
+ "name_sem": 37,
+ "name_str_pool": 204,
+ "nonascii": [
+  30,
+  38,
+  723
+ ],
+ "nonblank": [
+  279,
+  375,
+  49316
+ ],
+ "poolI": 273,
+ "poolR": 338,
+ "poolZ": 870,
+ "pool_1": 1257,
+ "pool_2": 178,
+ "pool_3": 46,
+ "pool_close": 0,
+ "pool_cross": 224,
+ "pool_n": 1481,
+ "r_alpha": 272,
+ "r_alpha_close": 0,
+ "r_alpha_in_i": 249,
+ "r_amp_desc": 0,
+ "r_desc_dist": 302,
+ "r_desc_reuse": 3,
+ "r_digit": 31,
+ "r_i_alpha_v": [
+  "AA",
+  "AC",
+  "AN",
+  "BU",
+  "CP",
+  "CQ",
+  "CS",
+  "DD",
+  "DG",
+  "EA",
+  "EU",
+  "EZ",
+  "FX",
+  "IC",
+  "NT",
+  "SU",
+  "TA",
+  "TP",
+  "UN",
+  "YD",
+  "YU",
+  "ZR",
+  "ZZ"
+ ],
+ "r_len_close": 0,
+ "r_only_dep": 11,
+ "r_only_i": 56,
+ "r_only_i_alpha": 23,
+ "r_only_i_close": 0,
+ "r_only_i_digit": 31,
+ "r_only_i_range": 2,
+ "r_range": 2,
+ "r_recs": 9297,
+ "r_region_n": 305,
+ "r_segs_nonempty": 9297,
+ "r_sep": 9296,
+ "r_sep_gap": 0,
+ "ratio": [
+  1,
+  4,
+  151
+ ],
+ "rz_alpha": 25,
+ "segments": [
+  280,
+  376,
+  49317
+ ],
+ "sem_ex": [
+  [
+   "AS",
+   "Samoa (American)",
+   "American Samoa"
+  ],
+  [
+   "BL",
+   "St Barthelemy",
+   "Saint Barthélemy"
+  ]
+ ],
+ "sha16": [
+  "837c80785080c843",
+  "5f23781702bf5140",
+  "755fad43283be7b4"
+ ],
+ "sha_distinct": 3,
+ "shared_dep": 0,
+ "tabs": [
+  250,
+  833,
+  0
+ ],
+ "z_at": 5,
+ "z_cc_dist": 247,
+ "z_cc_occ": 423,
+ "z_cmt_only": 22,
+ "z_col3": 111,
+ "z_col4": 201,
+ "z_cols": [
+  3,
+  4
+ ],
+ "z_i_pairs": [
+  "BV",
+  "HM"
+ ],
+ "z_in_i_close": 0,
+ "z_maxm": 20,
+ "z_mid_comp": 3,
+ "z_multi_rows": 34,
+ "z_name_hits": 47,
+ "z_only_i": 0,
+ "z_rows": 312,
+ "z_space_names": 73,
+ "z_tail_comp": 22,
+ "z_tier_close": 0,
+ "z_us_close": 0,
+ "z_us_only": 5,
+ "z_us_plain": 2
+}

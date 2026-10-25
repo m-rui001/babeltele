@@ -1,0 +1,4210 @@
+{
+ "act": [
+  [
+   117,
+   27,
+   341,
+   162,
+   8,
+   189,
+   618
+  ],
+  [
+   135,
+   22,
+   94,
+   35,
+   17,
+   107,
+   283
+  ],
+  [
+   3,
+   0,
+   13,
+   0,
+   1,
+   6,
+   25
+  ],
+  [
+   5,
+   2,
+   29,
+   4,
+   11,
+   10,
+   57
+  ],
+  [
+   209,
+   38,
+   296,
+   171,
+   81,
+   232,
+   597
+  ]
+ ],
+ "act_fam": [
+  "user agent",
+  "user agents",
+  "client",
+  "proxy",
+  "intermediar",
+  "origin server",
+  "server"
+ ],
+ "act_sec": [
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   3,
+   0,
+   0,
+   0,
+   3
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   2,
+   0,
+   7,
+   1,
+   0,
+   0,
+   3
+  ]
+ ],
+ "act_sec_only_two_docs": 1,
+ "act_sec_tot": [
+  0,
+  6,
+  0,
+  0,
+  13
+ ],
+ "act_sg": [
+  90,
+  113,
+  3,
+  3,
+  171
+ ],
+ "act_sg_plus_pl": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "act_tot": [
+  1462,
+  693,
+  48,
+  118,
+  1624
+ ],
+ "all_faces_read": 1,
+ "all_txt_no_html": 1,
+ "anchor_all5": 0,
+ "anchor_cross": 6,
+ "anchor_distinct": 39,
+ "anchor_err": 0,
+ "anchor_single": 33,
+ "anchor_total": 42,
+ "ans": [
+  "Non-idempotent methods or sequences MUST NOT be automatically retried, although user agents MAY offer a human operator the choice of retrying the request(s).",
+  "Idempotent methods are distinguished because the request can be repeated automatically if a communication failure occurs before the client is able to read the server's response.",
+  "The 429 status code indicates that the user has sent too many requests in a given amount of time (\"rate limiting\").",
+  "User agents that send a request in early data are expected to retry the request when receiving a 425 (Too Early) response status code.",
+  "A proxy MUST NOT automatically retry non-idempotent requests."
+ ],
+ "ans_first_line": [
+  2600,
+  1299,
+  133,
+  406,
+  3902
+ ],
+ "ans_lead_words": [
+  4,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ans_lines_abs": [
+  [
+   2601,
+   2602,
+   2603
+  ],
+  [
+   1300,
+   1301,
+   1302
+  ],
+  [
+   134,
+   135
+  ],
+  [
+   407,
+   408
+  ],
+  [
+   3903
+  ]
+ ],
+ "ans_one_line_n": 1,
+ "ans_page_break": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ans_para_span": [
+  6,
+  8,
+  2,
+  4,
+  2
+ ],
+ "ans_para_tail": [
+  3,
+  5,
+  0,
+  2,
+  1
+ ],
+ "ans_ph": [
+  "sequences MUST NOT be automatically retried",
+  "request can be\nrepeated automatically",
+  "MAY include a Retry-After header indicating how long",
+  "expected to retry\nthe request when receiving a 425",
+  "automatically retrying\nthe requests that failed"
+ ],
+ "ans_span": [
+  3,
+  3,
+  2,
+  2,
+  1
+ ],
+ "ans_span_shape": 1,
+ "ans_span_tot": 11,
+ "ans_tail_ws": [
+  1,
+  1,
+  0,
+  1,
+  1
+ ],
+ "ans_vs_pick": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "ans_words": [
+  23,
+  26,
+  21,
+  24,
+  8
+ ],
+ "apool_dup": [
+  88,
+  123,
+  0,
+  0,
+  443
+ ],
+ "apool_face_raw": [
+  5919,
+  3320,
+  241,
+  365,
+  7393
+ ],
+ "apool_maxlen": 69,
+ "apool_n": 15136,
+ "apool_pairs": 16584,
+ "apool_raw_n": 17238,
+ "apool_tag_close": 0,
+ "apool_tag_n": [
+  5831,
+  3197,
+  241,
+  365,
+  6950
+ ],
+ "apool_tier": [
+  13794,
+  1252,
+  75,
+  14,
+  1
+ ],
+ "apool_tier_close": 0,
+ "apool_weight": 16584,
+ "ascii_except_9110": 1,
+ "auto_bare": [
+  16,
+  19,
+  0,
+  3,
+  35
+ ],
+ "auto_bare_line": [
+  16,
+  19,
+  0,
+  3,
+  35
+ ],
+ "auto_bare_minus_union": [
+  14,
+  18,
+  0,
+  0,
+  26
+ ],
+ "auto_fam": [
+  "automatically retry",
+  "automatically retried",
+  "automatically retrying",
+  "automatic retry",
+  "retry automatically",
+  "automatically repeat"
+ ],
+ "auto_fam_overlap": [
+  0,
+  0,
+  0,
+  0,
+  1
+ ],
+ "auto_fam_overlap_other4": 0,
+ "auto_fold": [
+  [
+   0,
+   1,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   0,
+   0,
+   1,
+   1,
+   0
+  ],
+  [
+   5,
+   1,
+   1,
+   2,
+   0,
+   1
+  ]
+ ],
+ "auto_gain": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "auto_gain_tot": 0,
+ "auto_line": [
+  [
+   0,
+   1,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   0,
+   0,
+   1,
+   1,
+   0
+  ],
+  [
+   5,
+   1,
+   1,
+   2,
+   0,
+   1
+  ]
+ ],
+ "auto_line_rows": [
+  [
+   0,
+   1,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   0,
+   0,
+   1,
+   1,
+   0
+  ],
+  [
+   5,
+   1,
+   1,
+   2,
+   0,
+   1
+  ]
+ ],
+ "auto_occ_rows": [
+  2,
+  1,
+  0,
+  3,
+  10
+ ],
+ "auto_rows_minus_occ": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "auto_sh": [
+  [
+   0,
+   1,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   0,
+   0,
+   1,
+   1,
+   0
+  ],
+  [
+   5,
+   1,
+   1,
+   2,
+   0,
+   1
+  ]
+ ],
+ "auto_sh_minus_fold": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "auto_tot_fold": [
+  2,
+  1,
+  0,
+  3,
+  10
+ ],
+ "auto_tot_line": [
+  2,
+  1,
+  0,
+  3,
+  10
+ ],
+ "auto_union_fold": [
+  2,
+  1,
+  0,
+  3,
+  9
+ ],
+ "axis_close": 0,
+ "axis_counts": {
+  "case": 0,
+  "hyph": 0,
+  "multi": 4,
+  "space": 21
+ },
+ "axis_rows": [
+  "\"http://without-a-comma.example.com/\"",
+  "Accept-Charset: iso-8859-5, unicode-1-1;q=0.8",
+  "Accept-Encoding: compress, gzip",
+  "Accept-Encoding: compress;q=0.5, gzip;q=1.0",
+  "Accept-Encoding: gzip;q=1.0, identity; q=0.5, *;q=0",
+  "Accept-Language: da, en-gb;q=0.8, en;q=0.7",
+  "Accept: audio/*; q=0.2, audio/basic",
+  "Accept: text/*, text/plain, text/plain;format=flowed, */*",
+  "Accept: text/plain; q=0.5, text/html,",
+  "CONNECT server.example.com:80 HTTP/1.1",
+  "Content-Type: text/html; charset=ISO-8859-4",
+  "Date: Tue, 15 Nov 1994 08:12:31 GMT",
+  "Location: http://www.example.net/index.html",
+  "Proxy-Authorization: basic aGVsbG86d29ybGQ=",
+  "Referer: http://www.example.org/hypertext/Overview.html",
+  "Retry-After: Fri, 31 Dec 1999 23:59:59 GMT",
+  "This service requires use of the HTTP/3.0 protocol.",
+  "User-Agent: CERN-LineMode/2.15 libwww/2.17b3",
+  "Vary: accept-encoding, accept-language",
+  "corresponding request-line and header section to the next inbound",
+  "response message includes a representation describing the status.",
+  "| Media Type | Quality Value |",
+  "| image/jpeg | 0.5 |",
+  "| text/html;level=3 | 0.7 |",
+  "| | target resource. | |"
+ ],
+ "axis_str": "case0 ⇎ hyph0 ⇎ space21 ⇎ multi4",
+ "axis_str_n": 2,
+ "axis_total": 25,
+ "axis_two_buckets_used": 1,
+ "blank": [
+  2949,
+  1715,
+  241,
+  250,
+  2127
+ ],
+ "blk_chars": [
+  157,
+  177,
+  115,
+  134,
+  61,
+  265,
+  265,
+  240,
+  177,
+  94,
+  240,
+  393,
+  84,
+  142
+ ],
+ "blk_five_chars": 644,
+ "blk_five_rows": 11,
+ "blk_five_words": 102,
+ "blk_gap_delta": 0,
+ "blk_hi": [
+  2603,
+  1302,
+  135,
+  408,
+  3903,
+  1298,
+  3872,
+  2850,
+  3876,
+  3898,
+  423,
+  163,
+  2606,
+  3890
+ ],
+ "blk_is_one_line": [
+  0,
+  0,
+  0,
+  0,
+  1
+ ],
+ "blk_lo": [
+  2601,
+  1300,
+  134,
+  407,
+  3903,
+  1295,
+  3869,
+  2847,
+  3874,
+  3897,
+  420,
+  158,
+  2605,
+  3888
+ ],
+ "blk_must_cur": [
+  1,
+  0,
+  0,
+  0,
+  1,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "blk_must_re": [
+  1,
+  0,
+  0,
+  0,
+  1,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "blk_one_line_n": 1,
+ "blk_rows": [
+  3,
+  3,
+  2,
+  2,
+  1,
+  4,
+  4,
+  4,
+  3,
+  2,
+  4,
+  6,
+  2,
+  3
+ ],
+ "blk_rows_tot": 43,
+ "blk_tone_2616_rich": 1,
+ "blk_tone_ruler_close": 0,
+ "blk_vocab": [
+  22,
+  24,
+  20,
+  22,
+  8,
+  36,
+  36,
+  37,
+  24,
+  16,
+  34,
+  53,
+  13,
+  21
+ ],
+ "blk_words": [
+  23,
+  26,
+  21,
+  24,
+  8,
+  42,
+  42,
+  42,
+  26,
+  16,
+  46,
+  66,
+  14,
+  24
+ ],
+ "blk_words_per_row": [
+  7,
+  8,
+  10,
+  12,
+  8
+ ],
+ "blk_words_tot": 420,
+ "bom": [
+  0,
+  0,
+  0,
+  0,
+  1
+ ],
+ "bool_clos_n": 28,
+ "bool_clos_sum": 28,
+ "byte_cp_delta": [
+  0,
+  0,
+  0,
+  0,
+  34
+ ],
+ "bytes": [
+  422279,
+  235053,
+  17164,
+  25880,
+  502941
+ ],
+ "chars": [
+  422279,
+  235053,
+  17164,
+  25880,
+  502907
+ ],
+ "checks": 195,
+ "code_7231_drops": [
+  "401",
+  "416"
+ ],
+ "code_7231_drops_n": 2,
+ "code_7231_drops_two": 1,
+ "code_absent_lbl": [
+  [
+   "428",
+   "429",
+   "425",
+   "431",
+   "506",
+   "507",
+   "508",
+   "510",
+   "511"
+  ],
+  [
+   "401",
+   "416",
+   "428",
+   "429",
+   "425",
+   "431",
+   "506",
+   "507",
+   "508",
+   "510",
+   "511"
+  ],
+  [
+   "400",
+   "401",
+   "403",
+   "404",
+   "405",
+   "408",
+   "416",
+   "425",
+   "500",
+   "503",
+   "504",
+   "505",
+   "506",
+   "507",
+   "508",
+   "510"
+  ],
+  [
+   "400",
+   "401",
+   "403",
+   "404",
+   "405",
+   "408",
+   "416",
+   "428",
+   "429",
+   "425",
+   "431",
+   "500",
+   "503",
+   "504",
+   "505",
+   "506",
+   "507",
+   "508",
+   "510",
+   "511"
+  ],
+  [
+   "428",
+   "429",
+   "425",
+   "431",
+   "506",
+   "507",
+   "508",
+   "510",
+   "511"
+  ]
+ ],
+ "code_def_fams": [
+  11,
+  9,
+  4,
+  0,
+  11
+ ],
+ "code_defined": [
+  [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   1,
+   1,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   0,
+   1,
+   1,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   1,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   2,
+   2,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   2
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ ],
+ "code_defined_lbl": [
+  [
+   "400",
+   "401",
+   "403",
+   "404",
+   "405",
+   "408",
+   "416",
+   "500",
+   "503",
+   "504",
+   "505"
+  ],
+  [
+   "400",
+   "403",
+   "404",
+   "405",
+   "408",
+   "500",
+   "503",
+   "504",
+   "505"
+  ],
+  [
+   "428",
+   "429",
+   "431",
+   "511"
+  ],
+  [],
+  [
+   "400",
+   "401",
+   "403",
+   "404",
+   "405",
+   "408",
+   "416",
+   "500",
+   "503",
+   "504",
+   "505"
+  ]
+ ],
+ "code_defined_n": [
+  11,
+  9,
+  8,
+  0,
+  22
+ ],
+ "code_defined_raw": [
+  22,
+  18,
+  12,
+  0,
+  22
+ ],
+ "code_fam": [
+  "400",
+  "401",
+  "403",
+  "404",
+  "405",
+  "408",
+  "416",
+  "428",
+  "429",
+  "425",
+  "431",
+  "500",
+  "503",
+  "504",
+  "505",
+  "506",
+  "507",
+  "508",
+  "510",
+  "511"
+ ],
+ "code_set_2616_eq_9110": 1,
+ "code_set_same_2616_9110": 1,
+ "code_toc": [
+  11,
+  9,
+  4,
+  0,
+  0
+ ],
+ "comment": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "contract_n": 583,
+ "cr": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "dblspace_hidden_by_fold": 1,
+ "dblspace_in_fold": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "dead_needles": [],
+ "dead_needles_none": 1,
+ "defin_absent_7231": 0,
+ "defin_in_sec": 1,
+ "defin_in_sh": 1,
+ "digit_chars": [
+  9647,
+  6949,
+  499,
+  576,
+  11304
+ ],
+ "dot_dblspace_anywhere": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "enc_chars": 12954,
+ "ent_total": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ff": [
+  176,
+  101,
+  10,
+  12,
+  0
+ ],
+ "ff_exact": [
+  176,
+  101,
+  10,
+  12,
+  0
+ ],
+ "ff_inline": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ff_minus_pg": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ff_only": [
+  176,
+  101,
+  10,
+  12,
+  0
+ ],
+ "ff_only_vs_pick_lines": 1,
+ "fold_chars": [
+  374579,
+  209422,
+  14910,
+  22905,
+  457672
+ ],
+ "fold_minus_strict_keys": [
+  "a2616_passive",
+  "a2616_repeat",
+  "a2616_confirm",
+  "a2616_defin",
+  "a2616_sidefx",
+  "a2616_nonidem",
+  "a2616_abnf",
+  "a2616_dsec",
+  "a7231_idem",
+  "a7231_put",
+  "a7231_like",
+  "a6585_429",
+  "a6585_50",
+  "a6585_selfdeny",
+  "a6585_resub",
+  "a8470_425def",
+  "a8470_expect",
+  "a8470_should",
+  "a8470_mw",
+  "a8470_assume",
+  "a9110_idem",
+  "a9110_like",
+  "a9110_client",
+  "a9110_post",
+  "a9110_vcs",
+  "a9110_risk",
+  "a9110_might"
+ ],
+ "fold_minus_strict_n": 27,
+ "fold_minus_strict_own": [
+  8,
+  3,
+  4,
+  5,
+  7
+ ],
+ "fold_neg_own": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "hdr_dot1sp": [
+  2,
+  115,
+  0,
+  0,
+  21
+ ],
+ "hdr_dot2sp": [
+  0,
+  129,
+  7,
+  18,
+  523
+ ],
+ "hdr_indent_minus_tight": [
+  10,
+  7,
+  0,
+  1,
+  20
+ ],
+ "hdr_lines_indent": [
+  185,
+  107,
+  9,
+  12,
+  20
+ ],
+ "hdr_lines_tight": [
+  175,
+  100,
+  9,
+  11,
+  0
+ ],
+ "hdr_nodot": [
+  236,
+  3,
+  1,
+  0,
+  0
+ ],
+ "hdr_tight_vs_pick": 1,
+ "html_n": 0,
+ "hyb_idem": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "hyb_straddle": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "hyphen_break": [
+  75,
+  2,
+  0,
+  0,
+  38
+ ],
+ "hyphen_break_only_two": 1,
+ "idem_blk_row_gap": 2574,
+ "idem_blk_same": 1,
+ "idem_blk_verbatim": 1,
+ "idem_gap_equal": 1,
+ "idem_hyb_fold": [
+  5,
+  1,
+  0,
+  0,
+  2
+ ],
+ "idem_hyb_line": [
+  5,
+  1,
+  0,
+  0,
+  2
+ ],
+ "idem_line_7231": 1300,
+ "idem_line_9110": 3874,
+ "idem_line_occ": [
+  15,
+  14,
+  0,
+  0,
+  18
+ ],
+ "idem_line_rows": [
+  13,
+  13,
+  0,
+  0,
+  17
+ ],
+ "idem_row_minus_occ": [
+  2,
+  1,
+  0,
+  0,
+  1
+ ],
+ "idem_sent_same": 1,
+ "idem_shift": 2574,
+ "idem_str": [
+  15,
+  14,
+  0,
+  0,
+  18
+ ],
+ "idem_str_6585_8470": 0,
+ "idem_wrap_7231": 1,
+ "idem_wrap_9110": 1,
+ "issn_hdr": [
+  0,
+  1,
+  1,
+  1,
+  1
+ ],
+ "k9110_in_sec": 8,
+ "k9110_inside_sec": 1,
+ "k9110_no_sec": 0,
+ "k9110_tot": 8,
+ "label": [
+  "2616",
+  "7231",
+  "6585",
+  "8470",
+  "9110"
+ ],
+ "ladder_close": 0,
+ "ladder_monotone": 1,
+ "like_abs_7231": 1295,
+ "like_abs_9110": 3869,
+ "like_absent_2616": 0,
+ "like_blk_row_gap": 2574,
+ "like_blk_same": 1,
+ "like_hit_sh": [
+  1,
+  1
+ ],
+ "like_line_7231": 1,
+ "like_sent_same": 1,
+ "like_shift": 2574,
+ "lineage_close": 0,
+ "lineage_no_edge": [
+  3
+ ],
+ "lines": [
+  9860,
+  5660,
+  564,
+  676,
+  10786
+ ],
+ "lines_nl": [
+  9860,
+  5660,
+  564,
+  676,
+  10786
+ ],
+ "lines_split": [
+  10035,
+  5760,
+  573,
+  687,
+  10785
+ ],
+ "lines_split_close": 0,
+ "list_clos_n": 3,
+ "ln_425_8470": 407,
+ "ln_429_6585": 134,
+ "ln_assume_8470": 420,
+ "ln_client_9110": 3904,
+ "ln_client_head_9110": 3883,
+ "ln_confirm_end_2616": 2605,
+ "ln_idem_7231": 1300,
+ "ln_idem_9110": 3874,
+ "ln_might_end_9110": [
+  168822,
+  3899
+ ],
+ "ln_might_full_end_9110": [
+  168985,
+  3901
+ ],
+ "ln_might_head_9110": [
+  168822,
+  3898
+ ],
+ "ln_proxy_9110": 3903,
+ "ln_proxy_head_9110": 2770,
+ "ln_riskier_9110": 3897,
+ "ln_selfdeny_6585": 158,
+ "ln_verdict_2616": 2601,
+ "maxlen": [
+  72,
+  75,
+  72,
+  72,
+  72
+ ],
+ "meth_all": [
+  [
+   61,
+   34,
+   26,
+   7,
+   22,
+   10,
+   13,
+   5
+  ],
+  [
+   57,
+   32,
+   50,
+   18,
+   34,
+   17,
+   19,
+   23
+  ],
+  [
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   104,
+   51,
+   63,
+   23,
+   44,
+   18,
+   24,
+   33
+  ]
+ ],
+ "meth_all_n": [
+  8,
+  8,
+  1,
+  1,
+  8
+ ],
+ "meth_fam": [
+  "GET",
+  "HEAD",
+  "PUT",
+  "DELETE",
+  "POST",
+  "TRACE",
+  "OPTIONS",
+  "CONNECT"
+ ],
+ "meth_post_sec": [
+  0,
+  0,
+  0,
+  0,
+  2
+ ],
+ "meth_post_sec_other4": 0,
+ "meth_sec": [
+  [
+   1,
+   1,
+   1,
+   1,
+   0,
+   1,
+   1,
+   0
+  ],
+  [
+   0,
+   0,
+   2,
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   2,
+   1,
+   2,
+   0,
+   0,
+   0
+  ]
+ ],
+ "meth_sec_n": [
+  6,
+  2,
+  0,
+  0,
+  3
+ ],
+ "might_straddle": 1,
+ "might_straddle_one": 1,
+ "months": [
+  "June",
+  "June",
+  "April",
+  "September",
+  "June"
+ ],
+ "months_txt": [
+  "June 1999",
+  "June 2014",
+  "April 2012",
+  "September 2018",
+  "June 2022"
+ ],
+ "multi_8470_9110": 16,
+ "n_a2616_120": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "n_a2616_abnf": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "n_a2616_confirm": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "n_a2616_defin": [
+  0,
+  1,
+  1,
+  1
+ ],
+ "n_a2616_dsec": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "n_a2616_nonidem": [
+  0,
+  1,
+  1,
+  1
+ ],
+ "n_a2616_passive": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "n_a2616_repeat": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "n_a2616_sidefx": [
+  0,
+  1,
+  1,
+  1
+ ],
+ "n_a6585_3600": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "n_a6585_428": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "n_a6585_429": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "n_a6585_50": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "n_a6585_nocache": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "n_a6585_resub": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "n_a6585_selfdeny": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "n_a7231_abnf": [
+  2,
+  2,
+  2,
+  0
+ ],
+ "n_a7231_delaydef": [
+  1,
+  2,
+  2,
+  0
+ ],
+ "n_a7231_idem": [
+  0,
+  1,
+  1,
+  1
+ ],
+ "n_a7231_like": [
+  0,
+  1,
+  1,
+  1
+ ],
+ "n_a7231_put": [
+  0,
+  1,
+  1,
+  1
+ ],
+ "n_a8470_425def": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "n_a8470_assume": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "n_a8470_expect": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "n_a8470_mw": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "n_a8470_should": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "n_a9110_client": [
+  0,
+  1,
+  1,
+  1
+ ],
+ "n_a9110_idem": [
+  0,
+  1,
+  1,
+  1
+ ],
+ "n_a9110_like": [
+  0,
+  1,
+  1,
+  1
+ ],
+ "n_a9110_might": [
+  0,
+  1,
+  1,
+  1
+ ],
+ "n_a9110_post": [
+  0,
+  1,
+  1,
+  1
+ ],
+ "n_a9110_proxy": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "n_a9110_risk": [
+  0,
+  1,
+  1,
+  1
+ ],
+ "n_a9110_vcs": [
+  0,
+  1,
+  1,
+  1
+ ],
+ "n_n2616_3600": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "n_n2616_429": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "n_n2616_proxy": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "n_n6585_auto": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "n_n6585_idem": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "n_n7231_3600": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "n_n7231_429": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "n_n7231_proxy": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "n_n8470_3600": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "n_n8470_429": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "n_n8470_idem": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "n_n9110_3600": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "n_n9110_428": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "n_n9110_429": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "nd_len": [
+  157,
+  84,
+  120,
+  240,
+  99,
+  78,
+  61,
+  16,
+  23,
+  17,
+  36,
+  3,
+  177,
+  198,
+  265,
+  39,
+  23,
+  36,
+  3,
+  17,
+  287,
+  17,
+  86,
+  393,
+  65,
+  810,
+  89,
+  13,
+  10,
+  121,
+  134,
+  88,
+  247,
+  240,
+  10,
+  3,
+  17,
+  177,
+  265,
+  61,
+  65,
+  142,
+  324,
+  94,
+  194,
+  3,
+  27,
+  17
+ ],
+ "nd_len_max": 810,
+ "nd_len_tot": 5691,
+ "needle_n": 48,
+ "needles_owned": [
+  12,
+  8,
+  9,
+  8,
+  11
+ ],
+ "neg_all_cold": 1,
+ "neg_bnd": [
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   11
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   9
+  ],
+  [
+   9,
+   7,
+   0,
+   0,
+   1,
+   8,
+   7,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   20,
+   23,
+   0,
+   0,
+   0,
+   22,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   13
+  ]
+ ],
+ "neg_controls": [
+  "n2616_3600",
+  "n2616_429",
+  "n2616_proxy",
+  "n6585_auto",
+  "n6585_idem",
+  "n7231_3600",
+  "n7231_429",
+  "n7231_proxy",
+  "n8470_3600",
+  "n8470_429",
+  "n8470_idem",
+  "n9110_3600",
+  "n9110_428",
+  "n9110_429"
+ ],
+ "neg_digit": [
+  0,
+  5,
+  7
+ ],
+ "neg_false_sub": [
+  1,
+  0,
+  0,
+  0,
+  1
+ ],
+ "neg_false_sub_tot": 2,
+ "neg_fam": [
+  "429",
+  "Too Many Requests",
+  "Too Early",
+  "Early-Data",
+  "rate limiting",
+  "428",
+  "Precondition Required",
+  "425",
+  "idempotent"
+ ],
+ "neg_hit_strict": 0,
+ "neg_hit_widest": 0,
+ "neg_n": 14,
+ "neg_own": [
+  [],
+  [],
+  [
+   0,
+   1,
+   4,
+   5,
+   6
+  ],
+  [
+   2,
+   3,
+   7
+  ],
+  []
+ ],
+ "neg_own_lbl": [
+  [],
+  [],
+  [
+   "429",
+   "Too Many Requests",
+   "rate limiting",
+   "428",
+   "Precondition Required"
+  ],
+  [
+   "Too Early",
+   "Early-Data",
+   "425"
+  ],
+  []
+ ],
+ "neg_own_nd": [
+  3,
+  3,
+  2,
+  3,
+  3
+ ],
+ "neg_raw": [
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   11
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   9
+  ],
+  [
+   9,
+   7,
+   0,
+   0,
+   1,
+   8,
+   7,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   20,
+   23,
+   0,
+   0,
+   0,
+   22,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   13
+  ]
+ ],
+ "neg_tot": [
+  11,
+  9,
+  32,
+  65,
+  13
+ ],
+ "neg_zero_n": [
+  8,
+  8,
+  4,
+  6,
+  8
+ ],
+ "neither_428_429_in_2616": 1,
+ "neither_428_429_in_9110": 1,
+ "newlines": [
+  9859,
+  5659,
+  563,
+  675,
+  10785
+ ],
+ "no_auto_vocab_6585": 1,
+ "no_code_def_8470": 1,
+ "no_page_break_in_answer": 1,
+ "no_retry_after_8470": 1,
+ "nonascii": [
+  0,
+  0,
+  0,
+  0,
+  30
+ ],
+ "nonascii_extra": [
+  0,
+  0,
+  0,
+  0,
+  34
+ ],
+ "nonblank": [
+  6911,
+  3945,
+  323,
+  426,
+  8659
+ ],
+ "nonidem_straddle": [
+  0,
+  1,
+  1,
+  1
+ ],
+ "nsrc": 5,
+ "nul": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "num": [
+  [
+   1,
+   3,
+   0,
+   1,
+   0,
+   8,
+   16
+  ],
+  [
+   0,
+   1,
+   0,
+   1,
+   6,
+   0,
+   16
+  ],
+  [
+   1,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   0,
+   1,
+   6,
+   0,
+   32
+  ]
+ ],
+ "num_120_docs": [
+  3,
+  1,
+  0,
+  0,
+  1
+ ],
+ "num_3600_docs": [
+  1,
+  0,
+  1,
+  0,
+  0
+ ],
+ "num_delay_docs": [
+  0,
+  6,
+  0,
+  0,
+  6
+ ],
+ "num_dsec_docs": [
+  8,
+  0,
+  0,
+  0,
+  0
+ ],
+ "num_fam": [
+  "3600",
+  "120",
+  "50 requests per hour",
+  "2 minutes",
+  "delay-seconds",
+  "delta-seconds",
+  "HTTP-date"
+ ],
+ "num_httpdate_docs": [
+  16,
+  16,
+  0,
+  0,
+  32
+ ],
+ "num_own": [
+  [
+   "delta-seconds"
+  ],
+  [],
+  [
+   "50 requests per hour"
+  ],
+  [],
+  []
+ ],
+ "num_own_tot": 2,
+ "num_raw": [
+  [
+   1,
+   3,
+   0,
+   1,
+   0,
+   8,
+   16
+  ],
+  [
+   0,
+   1,
+   0,
+   1,
+   6,
+   0,
+   16
+  ],
+  [
+   1,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   0,
+   1,
+   6,
+   0,
+   32
+  ]
+ ],
+ "num_rename": [
+  -8,
+  6,
+  0,
+  0,
+  6
+ ],
+ "num_sub": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "num_tot": [
+  29,
+  24,
+  2,
+  0,
+  40
+ ],
+ "obs_blank_segs": [
+  0,
+  0,
+  0,
+  0,
+  1
+ ],
+ "obs_ids": [
+  [
+   "2068"
+  ],
+  [
+   "2616"
+  ],
+  [],
+  [],
+  [
+   "2818",
+   "7230",
+   "7231",
+   "7232",
+   "7233",
+   "7235",
+   ""
+  ]
+ ],
+ "obs_ids_clean": [
+  [
+   "2068"
+  ],
+  [
+   "2616"
+  ],
+  [],
+  [],
+  [
+   "2818",
+   "7230",
+   "7231",
+   "7232",
+   "7233",
+   "7235"
+  ]
+ ],
+ "obs_line": [
+  "Obsoletes: 2068                                              J. Gettys",
+  "Obsoletes: 2616                                          J. Reschke, Ed.",
+  null,
+  null,
+  "Obsoletes: 2818, 7230, 7231, 7232, 7233, 7235,                    Fastly"
+ ],
+ "obs_raw_segs": [
+  1,
+  1,
+  0,
+  0,
+  7
+ ],
+ "obs_target_in_lib": [
+  0,
+  1,
+  0,
+  0,
+  2
+ ],
+ "obs_total": 9,
+ "one_line_answer_only_9110": 1,
+ "one_maxlen_outlier": 1,
+ "only2_7231_9110": 1082,
+ "only2_8470_9110": 25,
+ "only2_dominates_max": 1,
+ "only_9110_straddle": 1,
+ "over72": [
+  0,
+  1,
+  0,
+  0,
+  0
+ ],
+ "overlap_extra": 0,
+ "pageless": [
+  0,
+  0,
+  0,
+  0,
+  1
+ ],
+ "pageless_9110_only": 1,
+ "pair_2616_7231": 90,
+ "pair_2616_9110": 105,
+ "pair_7231_9110": 1172,
+ "pair_all_share": 1,
+ "pair_byte": [
+  63,
+  2,
+  1,
+  68,
+  21,
+  19,
+  1147,
+  17,
+  14,
+  41
+ ],
+ "pair_byte_lines_ge_keys": 1,
+ "pair_byte_lines_to_keys": 1147,
+ "pair_byte_lines_vs_pick": 1,
+ "pair_byte_shell_gap": 0,
+ "pair_byte_tier": {
+  "2616-6585": [
+   0,
+   0,
+   1,
+   0,
+   1
+  ],
+  "2616-7231": [
+   0,
+   22,
+   40,
+   0,
+   1
+  ],
+  "2616-8470": [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  "2616-9110": [
+   0,
+   28,
+   39,
+   0,
+   1
+  ],
+  "6585-8470": [
+   0,
+   0,
+   3,
+   13,
+   1
+  ],
+  "6585-9110": [
+   0,
+   0,
+   0,
+   13,
+   1
+  ],
+  "7231-6585": [
+   0,
+   3,
+   4,
+   13,
+   1
+  ],
+  "7231-8470": [
+   0,
+   0,
+   4,
+   14,
+   1
+  ],
+  "7231-9110": [
+   0,
+   1082,
+   50,
+   14,
+   1
+  ],
+  "8470-9110": [
+   0,
+   25,
+   1,
+   14,
+   1
+  ]
+ },
+ "pair_byte_unit_gap": 16,
+ "pair_close": 0,
+ "pair_lbl": [
+  "2616·7231",
+  "2616·6585",
+  "2616·8470",
+  "2616·9110",
+  "7231·6585",
+  "7231·8470",
+  "7231·9110",
+  "6585·8470",
+  "6585·9110",
+  "8470·9110"
+ ],
+ "pair_lbl_idx": [
+  1,
+  4
+ ],
+ "pair_max": 1172,
+ "pair_max_byte_keys": 1147,
+ "pair_max_byte_lines": 1163,
+ "pair_max_lbl": "7231-9110",
+ "pair_max_norm_only_keys": 25,
+ "pair_max_norm_only_lines": 9,
+ "pair_min": 1,
+ "pair_min_lbl": "2616-8470",
+ "pair_nonzero": 10,
+ "pair_norm_lines_vs_pick": 1,
+ "pair_norm_only": [
+  27,
+  0,
+  0,
+  37,
+  5,
+  0,
+  25,
+  1,
+  3,
+  0
+ ],
+ "pair_pool_byte": 1147,
+ "pair_pool_norm_only": 25,
+ "pair_row_per_sent": 3,
+ "pair_share": [
+  90,
+  2,
+  1,
+  105,
+  26,
+  19,
+  1172,
+  18,
+  17,
+  41
+ ],
+ "pair_shared": {
+  "2616-6585": 2,
+  "2616-7231": 90,
+  "2616-8470": 1,
+  "2616-9110": 105,
+  "6585-8470": 18,
+  "6585-9110": 17,
+  "7231-6585": 26,
+  "7231-8470": 19,
+  "7231-9110": 1172,
+  "8470-9110": 41
+ },
+ "pair_zero": 0,
+ "paren": [
+  [
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0
+  ],
+  [
+   20,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0
+  ]
+ ],
+ "paren_2616_7231_9110": 0,
+ "paren_fam": [
+  "425 (Too Early)",
+  "428 (Precondition Required)",
+  "429 (Too Many Requests)"
+ ],
+ "paren_line": [
+  [
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0
+  ],
+  [
+   16,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0
+  ]
+ ],
+ "paren_only_8470": 1,
+ "paren_straddle": [
+  0,
+  0,
+  0,
+  4,
+  0
+ ],
+ "pb_2616_7231": 63,
+ "pb_2616_9110": 68,
+ "pb_7231_9110": 1147,
+ "pb_8470_9110": 41,
+ "pg_lines": [
+  176,
+  101,
+  10,
+  12,
+  0
+ ],
+ "ph_fold": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "ph_line": [
+  0,
+  0,
+  1,
+  0,
+  0
+ ],
+ "ph_raw_line": [
+  0,
+  0,
+  1,
+  0,
+  0
+ ],
+ "ph_straddle": [
+  1,
+  1,
+  0,
+  1,
+  1
+ ],
+ "ph_straddle_except_6585": 1,
+ "pick_agree": 167,
+ "pick_diff": 0,
+ "pin_rt": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "pin_rt_all": 1,
+ "pin_rt_n": 13,
+ "pin_rt_ok": 13,
+ "pin_rt_src": [
+  2,
+  1,
+  2,
+  2,
+  6
+ ],
+ "pin_wrap_probe": 1,
+ "pin_wrongline": 0,
+ "pool_incl": [
+  15953,
+  1491,
+  131,
+  19,
+  1
+ ],
+ "pool_n": 16635,
+ "pool_rows_minus_union": 2060,
+ "pool_tier": [
+  13293,
+  1202,
+  65,
+  14,
+  1
+ ],
+ "pool_tier_close": 0,
+ "pool_union": 14575,
+ "pp_gap_close": 0,
+ "pp_gap_is_shell_nonblank": 1,
+ "pp_gap_rows": [
+  175,
+  100,
+  9,
+  11,
+  0
+ ],
+ "pp_rows": [
+  6736,
+  3845,
+  314,
+  415,
+  8659
+ ],
+ "pp_shell_nonblank": [
+  175,
+  100,
+  9,
+  11,
+  0
+ ],
+ "pre_idem_7231_9110": 26,
+ "pre_like_7231_9110": 42,
+ "proxy_inside_head_9110": 1,
+ "ra_abnf_bar": [
+  1,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ra_abnf_forms": [
+  1,
+  1,
+  0,
+  0,
+  1
+ ],
+ "ra_abnf_ledger": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ra_abnf_lines": [
+  1,
+  2,
+  0,
+  0,
+  2
+ ],
+ "ra_abnf_quoted": [
+  1,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ra_abnf_slash": [
+  0,
+  2,
+  0,
+  0,
+  2
+ ],
+ "ra_colon_rows": [
+  2,
+  2,
+  1,
+  0,
+  2
+ ],
+ "ra_count": [
+  10,
+  15,
+  2,
+  0,
+  17
+ ],
+ "ra_delta_def": [
+  1,
+  1,
+  0,
+  0,
+  1
+ ],
+ "ra_exp_120": [
+  1,
+  1,
+  0,
+  0,
+  1
+ ],
+ "ra_exp_3600": [
+  0,
+  0,
+  1,
+  0,
+  0
+ ],
+ "ra_exp_date": [
+  1,
+  1,
+  0,
+  0,
+  1
+ ],
+ "ra_two_minutes": [
+  1,
+  1,
+  0,
+  0,
+  1
+ ],
+ "re_eq_cur": 1,
+ "rename_delta_vs_delay": 1,
+ "reword": [
+  [
+   22,
+   1,
+   2,
+   12,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   17,
+   1,
+   1,
+   7,
+   1,
+   1,
+   0,
+   1
+  ],
+  [
+   2,
+   0,
+   0,
+   0,
+   2,
+   1,
+   0,
+   0
+  ],
+  [
+   11,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   27,
+   2,
+   5,
+   14,
+   1,
+   1,
+   0,
+   1
+  ]
+ ],
+ "reword_fam": [
+  "retry",
+  "retrying",
+  "repeated",
+  "repeat",
+  "resubmit",
+  "try again",
+  "make a new request",
+  "follow-up request"
+ ],
+ "reword_make_tot": 0,
+ "reword_overlap": [
+  3,
+  2,
+  0,
+  1,
+  7
+ ],
+ "reword_own": [
+  [],
+  [],
+  [],
+  [],
+  []
+ ],
+ "reword_own_tot": 0,
+ "reword_tot": [
+  39,
+  29,
+  5,
+  12,
+  51
+ ],
+ "reword_union": [
+  36,
+  27,
+  5,
+  11,
+  44
+ ],
+ "reword_zero_n": [
+  2,
+  1,
+  5,
+  6,
+  1
+ ],
+ "s_incl": [
+  5635,
+  432,
+  39,
+  5,
+  0
+ ],
+ "s_pair_2616_9110": 23,
+ "s_pair_7231_9110": 347,
+ "s_pair_max": 347,
+ "s_pair_max_idx": 6,
+ "s_pair_max_lbl": "7231·9110",
+ "s_pair_nonzero": 8,
+ "s_pair_share": [
+  29,
+  0,
+  0,
+  23,
+  8,
+  6,
+  347,
+  7,
+  5,
+  7
+ ],
+ "s_pool_n": 5237,
+ "s_pool_tier": [
+  4868,
+  345,
+  19,
+  5,
+  0
+ ],
+ "s_pool_tier_close": 0,
+ "s_ruler_drop_7231_9110": 825,
+ "s_ruler_gain_2616_9110": -82,
+ "s_ruler_gain_7231_9110": -825,
+ "s_union_close": 0,
+ "s_union_incl": 5237,
+ "scalar_clos_n": 139,
+ "scalar_clos_sum": 139,
+ "sec_absent_n": 2,
+ "sec_body_line": [
+  2845,
+  1278,
+  null,
+  null,
+  3861
+ ],
+ "sec_chars": [
+  1163,
+  1317,
+  0,
+  0,
+  2409
+ ],
+ "sec_end_head": [
+  "9.2 OPTIONS",
+  "4.2.3.  Cacheable Methods",
+  null,
+  null,
+  "9.2.3.  Methods and Caching"
+ ],
+ "sec_end_head_fold": [
+  "9.2 OPTIONS",
+  "4.2.3. Cacheable Methods",
+  null,
+  null,
+  "9.2.3. Methods and Caching"
+ ],
+ "sec_end_head_gap": [
+  0,
+  1,
+  0,
+  0,
+  1
+ ],
+ "sec_end_head_rows": [
+  1,
+  1,
+  0,
+  0,
+  2
+ ],
+ "sec_end_kind": [
+  "heading",
+  "heading",
+  null,
+  null,
+  "heading"
+ ],
+ "sec_found_n": 3,
+ "sec_head_line": [
+  "9.1.2 Idempotent Methods",
+  "4.2.2.  Idempotent Methods",
+  null,
+  null,
+  "9.2.2.  Idempotent Methods"
+ ],
+ "sec_head_line_2616": 2845,
+ "sec_head_line_9110": 3861,
+ "sec_hit_n": [
+  1,
+  1,
+  0,
+  0,
+  2
+ ],
+ "sec_hit_tot": 4,
+ "sec_lines": [
+  30,
+  31,
+  0,
+  0,
+  45
+ ],
+ "sec_no": [
+  "9.1.2",
+  "4.2.2",
+  null,
+  null,
+  "9.2.2"
+ ],
+ "sec_row_dup": [
+  0,
+  0,
+  0,
+  0,
+  1
+ ],
+ "sec_scope": [
+  1,
+  1,
+  0,
+  0,
+  1
+ ],
+ "sec_scope_three": 1,
+ "sec_sents": [
+  7,
+  7,
+  0,
+  0,
+  14
+ ],
+ "sec_sents_gap": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "sec_sents_scan": [
+  7,
+  7,
+  0,
+  0,
+  14
+ ],
+ "sec_share_permille": [
+  3,
+  5,
+  0,
+  0,
+  5
+ ],
+ "sec_toc_line": [
+  null,
+  null,
+  null,
+  null,
+  182
+ ],
+ "sec_words": [
+  174,
+  189,
+  0,
+  0,
+  358
+ ],
+ "secw_chars": [
+  1030,
+  1199,
+  0,
+  0,
+  2286
+ ],
+ "sh_char_gap": [
+  -4900,
+  -5000,
+  -441,
+  -440,
+  0
+ ],
+ "sh_chars": [
+  369679,
+  204422,
+  14469,
+  22465,
+  457672
+ ],
+ "sh_equals_fold_for_9110": 1,
+ "sh_gains": [
+  0,
+  0,
+  1,
+  0,
+  0
+ ],
+ "sh_gains_keys": [
+  "a6585_428"
+ ],
+ "sh_gap_vs_pick": 1,
+ "sh_loses": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "sh_loses_keys": [],
+ "sh_no_sec_keys": [
+  "a2616_passive",
+  "a2616_repeat",
+  "a2616_confirm",
+  "a2616_abnf",
+  "a2616_120",
+  "a2616_dsec",
+  "a7231_abnf",
+  "a7231_delaydef"
+ ],
+ "sh_no_sec_n": 8,
+ "sh_no_sec_own": [
+  6,
+  2,
+  0,
+  0,
+  0
+ ],
+ "shell_both": [
+  3124,
+  1815,
+  250,
+  261,
+  2127
+ ],
+ "shell_ledger_close": 0,
+ "shell_lines": [
+  3124,
+  1815,
+  250,
+  261,
+  2127
+ ],
+ "shell_mk": [
+  3124,
+  1815,
+  250,
+  261,
+  2127
+ ],
+ "shell_mk_hdr": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "shell_mk_only": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "shell_pick": [
+  3124,
+  1815,
+  250,
+  261,
+  2127
+ ],
+ "shell_pick_hdr": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "shell_pick_only": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "sidefx_in_sec": 1,
+ "sn_fold_docs": [
+  9,
+  5,
+  6,
+  5,
+  8
+ ],
+ "sn_sec_docs": [
+  3,
+  3,
+  0,
+  0,
+  8
+ ],
+ "sn_sec_docs_scope": [
+  3,
+  3,
+  -1,
+  -1,
+  8
+ ],
+ "sn_sh_docs": [
+  9,
+  5,
+  7,
+  5,
+  8
+ ],
+ "sn_strict_docs": [
+  1,
+  2,
+  2,
+  0,
+  1
+ ],
+ "src": [
+  "corpus/raw/httpretry/rfc2616.txt",
+  "corpus/raw/httpretry/rfc7231.txt",
+  "corpus/raw/httpretry/rfc6585.txt",
+  "corpus/raw/httpretry/rfc8470.txt",
+  "corpus/raw/httpretry/rfc9110.txt"
+ ],
+ "std_line": [
+  null,
+  null,
+  null,
+  null,
+  "STD: 97                                               M. Nottingham, Ed."
+ ],
+ "std_n": 1,
+ "strict_neg_own": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "subj": [
+  [
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   1,
+   1,
+   0,
+   0,
+   1,
+   0
+  ],
+  [
+   1,
+   2,
+   0,
+   0,
+   0,
+   1,
+   1,
+   0,
+   0
+  ]
+ ],
+ "subj_active": [
+  1,
+  0,
+  0,
+  3,
+  5
+ ],
+ "subj_active_7231_6585": 0,
+ "subj_fam": [
+  "A proxy MUST NOT automatically retry",
+  "A client SHOULD NOT automatically retry",
+  "user agents MAY offer",
+  "SHOULD retry automatically",
+  "MAY automatically retry",
+  "can repeat a POST request automatically",
+  "might\nautomatically retry a POST",
+  "are expected to retry",
+  "MUST NOT be automatically retried"
+ ],
+ "subj_line": [
+  [
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   1,
+   1,
+   0,
+   0,
+   1,
+   0
+  ],
+  [
+   1,
+   1,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0
+  ]
+ ],
+ "subj_n": [
+  2,
+  0,
+  0,
+  3,
+  4
+ ],
+ "subj_only_passive_2616": 1,
+ "subj_passive": [
+  1,
+  0,
+  0,
+  0,
+  0
+ ],
+ "subj_sec": [
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   2,
+   0,
+   0,
+   0,
+   1,
+   1,
+   0,
+   0
+  ]
+ ],
+ "subj_sec_tot": [
+  0,
+  0,
+  0,
+  0,
+  5
+ ],
+ "subj_straddle": [
+  0,
+  0,
+  0,
+  0,
+  2
+ ],
+ "subj_straddle_k": [
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0
+  ]
+ ],
+ "subj_straddle_tot": 2,
+ "subj_straddled": [
+  [],
+  [],
+  [],
+  [],
+  [
+   "A client SHOULD NOT automatically retry",
+   "might\nautomatically retry a POST"
+  ]
+ ],
+ "suf_idem_7231_9110": 26,
+ "suf_like_7231_9110": 42,
+ "tag_2616": 10,
+ "tag_6585": 13,
+ "tag_7231": 7,
+ "tag_8470": 2,
+ "tag_9110": 10,
+ "tag_close": [
+  0,
+  0,
+  24,
+  0,
+  0
+ ],
+ "tag_open": [
+  25,
+  0,
+  24,
+  0,
+  6
+ ],
+ "tag_pseudo": [
+  21,
+  27,
+  0,
+  0,
+  27
+ ],
+ "tag_shape": [
+  47,
+  34,
+  51,
+  9,
+  130
+ ],
+ "tag_url": [
+  1,
+  7,
+  3,
+  9,
+  97
+ ],
+ "tail_nl": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "tone_alnum_gap": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "tone_case": [
+  [
+   125,
+   370,
+   45,
+   281,
+   257
+  ],
+  [
+   26,
+   72,
+   9,
+   51,
+   58
+  ],
+  [
+   5,
+   7,
+   3,
+   9,
+   10
+  ],
+  [
+   9,
+   23,
+   2,
+   6,
+   7
+  ],
+  [
+   77,
+   212,
+   33,
+   131,
+   126
+  ]
+ ],
+ "tone_case_gap": [
+  129,
+  15,
+  9,
+  4,
+  34
+ ],
+ "tone_fam": [
+  "MUST NOT",
+  "MUST",
+  "SHOULD NOT",
+  "SHOULD",
+  "MAY"
+ ],
+ "tone_fam_docs": [
+  [
+   123,
+   26,
+   5,
+   9,
+   77
+  ],
+  [
+   348,
+   69,
+   6,
+   22,
+   206
+  ],
+  [
+   42,
+   9,
+   3,
+   2,
+   32
+  ],
+  [
+   256,
+   50,
+   8,
+   6,
+   125
+  ],
+  [
+   180,
+   47,
+   3,
+   4,
+   105
+  ]
+ ],
+ "tone_fold_tot": [
+  949,
+  201,
+  25,
+  43,
+  545
+ ],
+ "tone_in_blk": [
+  2,
+  0,
+  0,
+  0,
+  1,
+  0,
+  0,
+  0,
+  0,
+  0,
+  1,
+  0,
+  1,
+  0
+ ],
+ "tone_in_blk_6585_8470": 1,
+ "tone_may_blk": [
+  1,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "tone_must_blk": [
+  1,
+  0,
+  0,
+  0,
+  1,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "tone_must_ledger": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "tone_must_pure": [
+  228,
+  44,
+  1,
+  13,
+  134
+ ],
+ "tone_mustnot_blk": [
+  1,
+  0,
+  0,
+  0,
+  1,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "tone_norm": [
+  [
+   120,
+   348,
+   42,
+   256,
+   180
+  ],
+  [
+   25,
+   69,
+   9,
+   50,
+   47
+  ],
+  [
+   5,
+   6,
+   3,
+   8,
+   3
+  ],
+  [
+   9,
+   22,
+   2,
+   6,
+   4
+  ],
+  [
+   72,
+   206,
+   28,
+   125,
+   105
+  ]
+ ],
+ "tone_norm_fold": [
+  [
+   123,
+   348,
+   42,
+   256,
+   180
+  ],
+  [
+   26,
+   69,
+   9,
+   50,
+   47
+  ],
+  [
+   5,
+   6,
+   3,
+   8,
+   3
+  ],
+  [
+   9,
+   22,
+   2,
+   6,
+   4
+  ],
+  [
+   77,
+   206,
+   32,
+   125,
+   105
+  ]
+ ],
+ "tone_ruler_close": 0,
+ "tone_sec": [
+  [
+   0,
+   0,
+   1,
+   1,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   1,
+   2,
+   2,
+   0
+  ]
+ ],
+ "tone_sec_per_mille": [
+  2,
+  0,
+  0,
+  0,
+  11
+ ],
+ "tone_sec_tot": [
+  2,
+  0,
+  0,
+  0,
+  6
+ ],
+ "tone_should_blk": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  1,
+  0,
+  1,
+  0
+ ],
+ "tone_straddle": [
+  3,
+  1,
+  0,
+  0,
+  9
+ ],
+ "tone_straddle_6585_8470": 0,
+ "tone_straddle_k": [
+  [
+   3,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   5,
+   0,
+   4,
+   0,
+   0
+  ]
+ ],
+ "tone_tot": [
+  946,
+  200,
+  25,
+  43,
+  536
+ ],
+ "tone_wide": [
+  [
+   123,
+   348,
+   42,
+   256,
+   180
+  ],
+  [
+   26,
+   69,
+   9,
+   50,
+   47
+  ],
+  [
+   5,
+   6,
+   3,
+   8,
+   3
+  ],
+  [
+   9,
+   22,
+   2,
+   6,
+   4
+  ],
+  [
+   77,
+   206,
+   32,
+   125,
+   105
+  ]
+ ],
+ "tone_wide_close": 0,
+ "tone_wide_re": [
+  [
+   123,
+   348,
+   42,
+   256,
+   180
+  ],
+  [
+   26,
+   69,
+   9,
+   50,
+   47
+  ],
+  [
+   5,
+   6,
+   3,
+   8,
+   3
+  ],
+  [
+   9,
+   22,
+   2,
+   6,
+   4
+  ],
+  [
+   77,
+   206,
+   32,
+   125,
+   105
+  ]
+ ],
+ "tone_word_lc": [
+  [
+   370,
+   281,
+   257,
+   217
+  ],
+  [
+   72,
+   51,
+   58,
+   137
+  ],
+  [
+   7,
+   9,
+   10,
+   9
+  ],
+  [
+   23,
+   6,
+   7,
+   34
+  ],
+  [
+   212,
+   131,
+   126,
+   341
+  ]
+ ],
+ "tone_word_lc_tot": [
+  1125,
+  318,
+  35,
+  70,
+  810
+ ],
+ "tone_zero_7231_sec": 1,
+ "txt_n": 5,
+ "union_close": 0,
+ "union_incl": 14575,
+ "upd_ids": [
+  [],
+  [
+   "2817"
+  ],
+  [
+   "2616"
+  ],
+  [],
+  [
+   "3864"
+  ]
+ ],
+ "upd_line": [
+  null,
+  "Updates: 2817                                                 greenbytes",
+  "Updates: 2616                                                R. Fielding",
+  null,
+  "Updates: 3864                                                 greenbytes"
+ ],
+ "upd_target_obsoleted": [
+  0,
+  0,
+  1,
+  0,
+  0
+ ],
+ "upd_total": 3,
+ "v2616_outside_own_sec": 1,
+ "v_in_sec": 0,
+ "v_in_sh": 3,
+ "v_keys": [
+  "a2616_passive",
+  "a2616_repeat",
+  "a2616_confirm"
+ ],
+ "v_sh_no_sec": 3,
+ "verdict_above_head_2616": 1,
+ "verdict_head_gap": 244,
+ "verdict_lines_abs": [
+  2601
+ ],
+ "verdict_xref_same_line": 1,
+ "w_common_idem": 24,
+ "w_ledger_close": 1,
+ "w_ledger_idem": 0,
+ "w_only_7231_idem": 0,
+ "w_only_9110_idem": 0,
+ "x_ident_n": 139,
+ "xref_line": 2,
+ "xref_lines_abs": [
+  2543,
+  2601
+ ],
+ "xref_to_head": [
+  302,
+  244
+ ],
+ "year_inversions": 1,
+ "year_one_inversion": 1,
+ "year_order_lbl": "2616 1999 ⇎ 7231 2014 ⇎ 6585 2012 ⇎ 8470 2018 ⇎ 9110 2022",
+ "year_span": 23,
+ "years": [
+  1999,
+  2014,
+  2012,
+  2018,
+  2022
+ ],
+ "zid_fail": []
+}

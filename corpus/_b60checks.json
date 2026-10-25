@@ -1,0 +1,1747 @@
+{
+ "anchor_total": 17,
+ "anchor_distinct": 15,
+ "tag_counts": {
+  "T": 5,
+  "O": 1,
+  "F": 4,
+  "N": 4,
+  "R": 3
+ },
+ "ameta": {
+  "anchor_total": 17,
+  "anchor_distinct": 15,
+  "anchor_err": 0,
+  "anchor_single": 11,
+  "anchor_cross": 4,
+  "anchor_all5": 0,
+  "checks": 75,
+  "tag_T": 5,
+  "tag_O": 1,
+  "tag_F": 4,
+  "tag_N": 4,
+  "tag_R": 3
+ },
+ "letters_in": 1370,
+ "letters_out": 680,
+ "tagn": 17,
+ "classes": {
+  "single": [
+   "       193  825-day Certificate Lifetimes       17-Mar-2017",
+   "   (notAfter).  Both notBefore and notAfter may be encoded as UTCTime or",
+   "   is zero.  GeneralizedTime values MUST NOT include fractional seconds.",
+   "   validity dates through the year 2049 as UTCTime; certificate validity",
+   " Industry rules will limit certificate lifetimes to a maximum of 47 days starting on March 15, 2029. As such, we will be reducing the maximum lifetime of our certificates to 45 days by February 2028 . ",
+   " Short-lived certificates with 6-day lifetimes are optionally available to all of our subscribers. ",
+   " We chose 90-day lifetimes for our initial offering because ninety days was short enough to strongly encourage automation, but long enough to make it possible to do things manually. While we wanted to encourage automation, that goal was subordinate to making it possible for everyone to enable HTTPS. At the time, automation wasn\u2019t as common as it is today, in part because the ecosystem of tools to enable it (e.g. ACME clients) was young. Today things are very different - automation is far more common and the ecosystem of tools to enable it is much more mature. As such, we are more comfortable with offerings shorter than ninety days now than we were then. ",
+   "1.7.1 SC31   398-day Re-use Period                                  2020        2-Jun-2021",
+   "March 2026, a Subscriber Certificate with a Validity Period less than or equal to 10 days (864,000",
+   "no more than 825 days prior to issuing the Certificate. Effective 2021-10-01, for validation",
+   "notAfter 2922 days (approx. 8 years)"
+  ],
+  "two": [
+   "MUST NOT have a Validity Period greater than 825 days. Subscriber Certificates issued",
+   "Period greater than 825 days. Subscriber Certificates issued after 1 July 2016 but prior to 1 March"
+  ],
+  "three": [
+   "Subordinate CA: A Certification Authority whose Certificate is signed by the Root CA, or"
+  ],
+  "four": [
+   "notBefore through notAfter, inclusive.\""
+  ],
+  "five": []
+ },
+ "collisions": {
+  "352580": [
+   "chars\u00b7X.509 \u89c4\u8303"
+  ],
+  "5": [
+   "ent_listed",
+   "sig_distinct",
+   "ceil_n\u00b7\u65e7\u57fa\u51c6",
+   "ceil_n\u00b7\u4e2d\u57fa\u51c6",
+   "lines_825\u00b7\u65e7\u57fa\u51c6",
+   "lines_825\u00b7\u4e2d\u57fa\u51c6",
+   "otherwin_total",
+   "day_hyph\u00b7CA \u8bf4\u660e",
+   "day_meta",
+   "\u5b50\u4e32\u6bd4\u8bcd\u754c\u591a\u00b7\u65b0\u57fa\u51c6",
+   "tag_T"
+  ],
+  "[]": [
+   "ent_unused",
+   "ceil_tri",
+   "ceil_tri",
+   "ceil_vals\u00b7CA \u8bf4\u660e",
+   "ceil_vals\u00b7X.509 \u89c4\u8303",
+   "day_set"
+  ],
+  "[('MUST NOT', '398'), ('MUST NOT', '825'), ('SHOULD NOT', '397')]": [
+   "ceil_tri"
+  ],
+  "3": [
+   "ceil_distinct\u00b7\u4e2d\u57fa\u51c6",
+   "validwin_825\u00b7\u65e7\u57fa\u51c6",
+   "validwin_825\u00b7\u4e2d\u57fa\u51c6",
+   "lifetime_ci\u00b7X.509 \u89c4\u8303",
+   "y2049",
+   "y2050",
+   "rfc_hit_R\u00b7\u4e2d\u57fa\u51c6",
+   "tag_R"
+  ],
+  "['397', '398', '825']": [
+   "ceil_vals\u00b7\u4e2d\u57fa\u51c6"
+  ],
+  "1": [
+   "d825_ceil\u00b7\u4e2d\u57fa\u51c6",
+   "d825_strict",
+   "ceil_wrap\u00b7\u65b0\u57fa\u51c6",
+   "vp_wrap\u00b7\u65e7\u57fa\u51c6",
+   "reusewin_825\u00b7\u65e7\u57fa\u51c6",
+   "reusewin_825\u00b7\u4e2d\u57fa\u51c6",
+   "reusewin_825\u00b7\u65b0\u57fa\u51c6",
+   "titlewin_825\u00b7\u65e7\u57fa\u51c6",
+   "titlewin_825\u00b7\u4e2d\u57fa\u51c6",
+   "titlewin_825\u00b7\u65b0\u57fa\u51c6",
+   "reusewin_398\u00b7\u65e7\u57fa\u51c6",
+   "reusewin_398\u00b7\u4e2d\u57fa\u51c6",
+   "reusewin_398\u00b7\u65b0\u57fa\u51c6",
+   "titlewin_398\u00b7\u65e7\u57fa\u51c6",
+   "titlewin_398\u00b7\u4e2d\u57fa\u51c6",
+   "titlewin_398\u00b7\u65b0\u57fa\u51c6",
+   "otherwin_90\u00b7\u65e7\u57fa\u51c6",
+   "otherwin_90\u00b7\u4e2d\u57fa\u51c6",
+   "otherwin_90\u00b7\u65b0\u57fa\u51c6",
+   "day_word\u00b7X.509 \u89c4\u8303",
+   "day_free\u00b7X.509 \u89c4\u8303",
+   "dup_kinds",
+   "lifetime_ci\u00b7\u65e7\u57fa\u51c6",
+   "lifetime_ci\u00b7\u4e2d\u57fa\u51c6",
+   "lifetime_ci\u00b7\u65b0\u57fa\u51c6",
+   "notafter\u00b7\u65e7\u57fa\u51c6",
+   "notafter\u00b7\u4e2d\u57fa\u51c6",
+   "ts_yyyymmddhhmmssz",
+   "month_year\u00b7CA \u8bf4\u660e",
+   "sec_cite_low\u00b7\u65b0\u57fa\u51c6",
+   "rfc2119\u00b7X.509 \u89c4\u8303",
+   "last_updated",
+   "share_TR",
+   "tag_O"
+  ],
+  "4": [
+   "ceil_wrap\u00b7\u65e7\u57fa\u51c6",
+   "lines_825\u00b7\u65b0\u57fa\u51c6",
+   "day_set_n\u00b7CA \u8bf4\u660e",
+   "notAfter \u51cf notBefore\u00b7X.509 \u89c4\u8303",
+   "must_l\u00b7X.509 \u89c4\u8303",
+   "h_must\u00b7\u65e7\u57fa\u51c6",
+   "rfc_hit_R\u00b7\u65b0\u57fa\u51c6",
+   "anchor_cross",
+   "tag_F",
+   "tag_N"
+  ],
+  "2": [
+   "ceil_wrap\u00b7\u4e2d\u57fa\u51c6",
+   "day_wrap\u00b7\u65e7\u57fa\u51c6",
+   "vp_wrap\u00b7\u4e2d\u57fa\u51c6",
+   "vp_wrap\u00b7\u65b0\u57fa\u51c6",
+   "vp_wrap\u00b7X.509 \u89c4\u8303",
+   "validwin_825\u00b7\u65b0\u57fa\u51c6",
+   "validwin_398\u00b7\u65e7\u57fa\u51c6",
+   "validwin_398\u00b7\u4e2d\u57fa\u51c6",
+   "validwin_398\u00b7\u65b0\u57fa\u51c6",
+   "validwin_397\u00b7\u65e7\u57fa\u51c6",
+   "validwin_397\u00b7\u4e2d\u57fa\u51c6",
+   "validwin_397\u00b7\u65b0\u57fa\u51c6",
+   "day_hyph\u00b7\u65e7\u57fa\u51c6",
+   "day_hyph\u00b7\u4e2d\u57fa\u51c6",
+   "day_hyph\u00b7\u65b0\u57fa\u51c6",
+   "day_spac\u00b7CA \u8bf4\u660e",
+   "day_free\u00b7CA \u8bf4\u660e",
+   "notbefore\u00b7\u65e7\u57fa\u51c6",
+   "notbefore\u00b7\u4e2d\u57fa\u51c6",
+   "will_ci\u00b7CA \u8bf4\u660e",
+   "h_must\u00b7\u4e2d\u57fa\u51c6",
+   "ts_yymmddhhmmssz",
+   "us_date\u00b7CA \u8bf4\u660e",
+   "sec_cite_low\u00b7\u4e2d\u57fa\u51c6",
+   "sec_head\u00b7X.509 \u89c4\u8303",
+   "sec_head_d\u00b7X.509 \u89c4\u8303",
+   "rfc_hit_R\u00b7\u65e7\u57fa\u51c6",
+   "rfc2119\u00b7\u65e7\u57fa\u51c6",
+   "rfc2119\u00b7\u4e2d\u57fa\u51c6",
+   "rfc2119\u00b7\u65b0\u57fa\u51c6",
+   "share_OR",
+   "share_FR",
+   "share_any_R"
+  ],
+  "29": [
+   "day_num\u00b7\u4e2d\u57fa\u51c6",
+   "day_num_flex\u00b7\u4e2d\u57fa\u51c6",
+   "vp_ci\u00b7\u65b0\u57fa\u51c6"
+  ],
+  "34": [
+   "day_num_flex\u00b7\u65b0\u57fa\u51c6",
+   "validity_stem\u00b7\u4e2d\u57fa\u51c6",
+   "u_must_not\u00b7X.509 \u89c4\u8303",
+   "kw_must_not\u00b7X.509 \u89c4\u8303"
+  ],
+  "7": [
+   "day_num_flex\u00b7CA \u8bf4\u660e",
+   "day_face",
+   "vp_caps\u00b7\u65e7\u57fa\u51c6",
+   "vp_caps\u00b7\u4e2d\u57fa\u51c6",
+   "vp_caps\u00b7\u65b0\u57fa\u51c6",
+   "vp_stem_gap\u00b7\u65e7\u57fa\u51c6",
+   "notbefore\u00b7X.509 \u89c4\u8303",
+   "h_shall\u00b7\u65b0\u57fa\u51c6"
+  ],
+  "12": [
+   "vp_ci\u00b7X.509 \u89c4\u8303",
+   "day_free\u00b7\u4e2d\u57fa\u51c6",
+   "vp_low\u00b7X.509 \u89c4\u8303"
+  ],
+  "28": [
+   "vp_flex_ci\u00b7\u4e2d\u57fa\u51c6",
+   "ts_utctime",
+   "rfc_set_n\u00b7\u65b0\u57fa\u51c6",
+   "ver_any"
+  ],
+  "31": [
+   "vp_flex_ci\u00b7\u65b0\u57fa\u51c6"
+  ],
+  "['5', '30', '90', '397', '398', '825']": [
+   "day_set"
+  ],
+  "6": [
+   "day_set_n\u00b7\u4e2d\u57fa\u51c6",
+   "vp_stem_gap\u00b7\u4e2d\u57fa\u51c6",
+   "notafter\u00b7\u65b0\u57fa\u51c6",
+   "h_shall\u00b7\u65e7\u57fa\u51c6",
+   "us_date\u00b7X.509 \u89c4\u8303"
+  ],
+  "27": [
+   "day_spac\u00b7\u65e7\u57fa\u51c6",
+   "day_spac\u00b7\u4e2d\u57fa\u51c6",
+   "baseline_reqs\u00b7\u65b0\u57fa\u51c6"
+  ],
+  "15": [
+   "day_free\u00b7\u65e7\u57fa\u51c6",
+   "day_free\u00b7\u65b0\u57fa\u51c6",
+   "lifetime_ci\u00b7CA \u8bf4\u660e",
+   "shall_ci\u00b7X.509 \u89c4\u8303",
+   "b_shall\u00b7X.509 \u89c4\u8303",
+   "baseline_reqs\u00b7\u65e7\u57fa\u51c6",
+   "anchor_distinct"
+  ],
+  "22": [
+   "vp_stem_gap\u00b7\u65b0\u57fa\u51c6",
+   "must_l\u00b7\u65b0\u57fa\u51c6",
+   "rfc_miss_n\u00b7\u4e2d\u57fa\u51c6",
+   "rfc_n5280\u00b7\u4e2d\u57fa\u51c6"
+  ],
+  "-1": [
+   "notAfter \u51cf notBefore\u00b7\u4e2d\u57fa\u51c6"
+  ],
+  "256": [
+   "kw_must\u00b7\u65e7\u57fa\u51c6"
+  ],
+  "282": [
+   "kw_must\u00b7\u4e2d\u57fa\u51c6"
+  ],
+  "304": [
+   "kw_must\u00b7X.509 \u89c4\u8303",
+   "b_must\u00b7X.509 \u89c4\u8303"
+  ],
+  "60": [
+   "kw_must_not\u00b7\u65e7\u57fa\u51c6",
+   "hist_n\u00b7\u65e7\u57fa\u51c6"
+  ],
+  "73": [
+   "kw_must_not\u00b7\u4e2d\u57fa\u51c6"
+  ],
+  "146": [
+   "kw_must_not\u00b7\u65b0\u57fa\u51c6"
+  ],
+  "10": [
+   "shall_u\u00b7X.509 \u89c4\u8303"
+  ],
+  "20": [
+   "will_ci\u00b7\u4e2d\u57fa\u51c6",
+   "lines_ge25\u00b7CA \u8bf4\u660e"
+  ],
+  "8": [
+   "h_must\u00b7\u65b0\u57fa\u51c6",
+   "asn1_mod\u00b7\u65b0\u57fa\u51c6"
+  ],
+  "629": [
+   "b_must\u00b7\u65b0\u57fa\u51c6"
+  ],
+  "11": [
+   "h_shall\u00b7\u4e2d\u57fa\u51c6",
+   "anchor_single"
+  ],
+  "213": [
+   "b_shall\u00b7\u65e7\u57fa\u51c6"
+  ],
+  "[0, 0, 0, 0]": [
+   "gt_non_R"
+  ],
+  "53": [
+   "iso_date\u00b7\u65e7\u57fa\u51c6"
+  ],
+  "16": [
+   "us_date\u00b7\u65e7\u57fa\u51c6"
+  ],
+  "18": [
+   "us_date\u00b7\u4e2d\u57fa\u51c6",
+   "us_date\u00b7\u65b0\u57fa\u51c6",
+   "rfc_n5280\u00b7\u65e7\u57fa\u51c6",
+   "baseline_reqs\u00b7\u4e2d\u57fa\u51c6"
+  ],
+  "17": [
+   "month_year\u00b7\u65e7\u57fa\u51c6",
+   "anchor_total"
+  ],
+  "24": [
+   "month_year\u00b7\u65b0\u57fa\u51c6",
+   "rfc_miss_n\u00b7\u65b0\u57fa\u51c6"
+  ],
+  "21": [
+   "rfc_set_n\u00b7\u65e7\u57fa\u51c6"
+  ],
+  "25": [
+   "rfc_set_n\u00b7\u4e2d\u57fa\u51c6"
+  ],
+  "38": [
+   "rfc_set_n\u00b7X.509 \u89c4\u8303",
+   "rfc_hit_R\u00b7X.509 \u89c4\u8303"
+  ],
+  "19": [
+   "rfc_miss_n\u00b7\u65e7\u57fa\u51c6"
+  ],
+  "44": [
+   "rfc_n5280\u00b7\u65b0\u57fa\u51c6"
+  ],
+  "[0, 0, 0, 0, 0]": [
+   "h_must_close",
+   "h_shall_close"
+  ]
+ },
+ "zero_terms": 143,
+ "deriv_keys": 164,
+ "deriv_points": 348,
+ "notes": {
+  "248273": "bytes\u00b7\u65e7\u57fa\u51c6",
+  "259837": "bytes\u00b7\u4e2d\u57fa\u51c6",
+  "363180": "bytes\u00b7\u65b0\u57fa\u51c6",
+  "28488": "bytes\u00b7CA \u8bf4\u660e",
+  "352580": "bytes\u00b7X.509 \u89c4\u8303",
+  "243533": "chars\u00b7\u65e7\u57fa\u51c6",
+  "255329": "chars\u00b7\u4e2d\u57fa\u51c6",
+  "356795": "chars\u00b7\u65b0\u57fa\u51c6",
+  "4215": "chars\u00b7CA \u8bf4\u660e",
+  "4741": "lines\u00b7\u65e7\u57fa\u51c6",
+  "4509": "lines\u00b7\u4e2d\u57fa\u51c6",
+  "6386": "lines\u00b7\u65b0\u57fa\u51c6",
+  "617": "lines\u00b7CA \u8bf4\u660e",
+  "8460": "lines\u00b7X.509 \u89c4\u8303",
+  "3517": "nonblank\u00b7\u65e7\u57fa\u51c6",
+  "3356": "nonblank\u00b7\u4e2d\u57fa\u51c6",
+  "4715": "nonblank\u00b7\u65b0\u57fa\u51c6",
+  "86": "nonblank\u00b7CA \u8bf4\u660e",
+  "5991": "nonblank\u00b7X.509 \u89c4\u8303",
+  "117": "maxlen\u00b7\u65e7\u57fa\u51c6",
+  "131": "maxlen\u00b7\u4e2d\u57fa\u51c6",
+  "161": "maxlen\u00b7\u65b0\u57fa\u51c6",
+  "662": "maxlen\u00b7CA \u8bf4\u660e",
+  "72": "maxlen\u00b7X.509 \u89c4\u8303",
+  "289455": "pdf_bytes",
+  "287608": "pdf_bytes",
+  "972214": "pdf_bytes",
+  "24585": "face_gap",
+  "25915": "face_gap",
+  "70568": "face_gap",
+  "1202": "line_gap",
+  "1179": "line_gap",
+  "1401": "line_gap",
+  "99": "formfeed",
+  "87": "formfeed",
+  "128": "formfeed",
+  "446": "le_tags",
+  "15": "le_ents",
+  "5": "le_scripts",
+  "63": "le_hrefs",
+  "12": "le_metas",
+  "24187": "le_dropped",
+  "[]": "ent_unnamed",
+  "[0, 0, 0, 0, 0]": "\u590d\u7b97\u5dee",
+  "[('MUST NOT', '398'), ('MUST NOT', '825'), ('SHOULD NOT', '397')]": "ceil_tri",
+  "[('MUST NOT', '398'), ('SHOULD NOT', '397')]": "ceil_tri",
+  "4": "ceil_n\u00b7\u65b0\u57fa\u51c6",
+  "3": "ceil_distinct\u00b7\u65e7\u57fa\u51c6",
+  "2": "ceil_distinct\u00b7\u65b0\u57fa\u51c6",
+  "['397', '398', '825']": "ceil_vals\u00b7\u65e7\u57fa\u51c6",
+  "['397', '398']": "ceil_vals\u00b7\u65b0\u57fa\u51c6",
+  "1": "d825_ceil\u00b7\u65e7\u57fa\u51c6",
+  "29": "day_num\u00b7\u65e7\u57fa\u51c6",
+  "34": "day_num\u00b7\u65b0\u57fa\u51c6",
+  "7": "day_num\u00b7CA \u8bf4\u660e",
+  "31": "day_num_flex\u00b7\u65e7\u57fa\u51c6",
+  "27": "vp_ci\u00b7\u65e7\u57fa\u51c6",
+  "26": "vp_ci\u00b7\u4e2d\u57fa\u51c6",
+  "28": "vp_flex_ci\u00b7\u65e7\u57fa\u51c6",
+  "14": "vp_flex_ci\u00b7X.509 \u89c4\u8303",
+  "['5', '30', '90', '397', '398', '825']": "day_set",
+  "['5', '7', '10', '30', '90', '397', '398', '825', '2922', '9132']": "day_set",
+  "['6', '45', '47', '90']": "day_set",
+  "6": "day_set_n\u00b7\u65e7\u57fa\u51c6",
+  "10": "day_set_n\u00b7\u65b0\u57fa\u51c6",
+  "['7', '10', '2922', '9132']": "set_only_F",
+  "['6', '45', '47']": "set_only_N",
+  "['90']": "set_shared_NF",
+  "32": "day_spac\u00b7\u65b0\u57fa\u51c6",
+  "44": "day_word\u00b7\u65e7\u57fa\u51c6",
+  "41": "day_word\u00b7\u4e2d\u57fa\u51c6",
+  "49": "day_word\u00b7\u65b0\u57fa\u51c6",
+  "9": "day_word\u00b7CA \u8bf4\u660e",
+  "[4, 3, 3, 3]": "shell_all",
+  "[2, 1, 1, 1]": "face_all",
+  "[2, 2, 2, 2]": "dup_gap",
+  "17": "day_shell",
+  "20": "vp_low\u00b7\u65e7\u57fa\u51c6",
+  "19": "vp_low\u00b7\u4e2d\u57fa\u51c6",
+  "22": "vp_low\u00b7\u65b0\u57fa\u51c6",
+  "35": "validity_stem\u00b7\u65e7\u57fa\u51c6",
+  "53": "validity_stem\u00b7\u65b0\u57fa\u51c6",
+  "38": "validity_stem\u00b7X.509 \u89c4\u8303",
+  "24": "vp_stem_gap\u00b7X.509 \u89c4\u8303",
+  "8": "notbefore\u00b7\u65b0\u57fa\u51c6",
+  "11": "notafter\u00b7X.509 \u89c4\u8303",
+  "-1": "notAfter \u51cf notBefore\u00b7\u65e7\u57fa\u51c6",
+  "-2": "notAfter \u51cf notBefore\u00b7\u65b0\u57fa\u51c6",
+  "256": "u_must\u00b7\u65e7\u57fa\u51c6",
+  "282": "u_must\u00b7\u4e2d\u57fa\u51c6",
+  "642": "u_must\u00b7\u65b0\u57fa\u51c6",
+  "304": "u_must\u00b7X.509 \u89c4\u8303",
+  "637": "kw_must\u00b7\u65b0\u57fa\u51c6",
+  "60": "u_must_not\u00b7\u65e7\u57fa\u51c6",
+  "73": "u_must_not\u00b7\u4e2d\u57fa\u51c6",
+  "146": "u_must_not\u00b7\u65b0\u57fa\u51c6",
+  "269": "must_ci\u00b7\u65e7\u57fa\u51c6",
+  "298": "must_ci\u00b7\u4e2d\u57fa\u51c6",
+  "659": "must_ci\u00b7\u65b0\u57fa\u51c6",
+  "308": "must_ci\u00b7X.509 \u89c4\u8303",
+  "13": "must_l\u00b7\u65e7\u57fa\u51c6",
+  "16": "must_l\u00b7\u4e2d\u57fa\u51c6",
+  "206": "shall_u\u00b7\u65e7\u57fa\u51c6",
+  "200": "shall_u\u00b7\u4e2d\u57fa\u51c6",
+  "207": "shall_u\u00b7\u65b0\u57fa\u51c6",
+  "219": "shall_ci\u00b7\u65e7\u57fa\u51c6",
+  "213": "shall_ci\u00b7\u4e2d\u57fa\u51c6",
+  "223": "shall_ci\u00b7\u65b0\u57fa\u51c6",
+  "18": "will_ci\u00b7\u65e7\u57fa\u51c6",
+  "37": "will_ci\u00b7\u65b0\u57fa\u51c6",
+  "52": "will_ci\u00b7X.509 \u89c4\u8303",
+  "613": "kw_upper\u00b7\u65e7\u57fa\u51c6",
+  "629": "kw_upper\u00b7\u4e2d\u57fa\u51c6",
+  "1052": "kw_upper\u00b7\u65b0\u57fa\u51c6",
+  "451": "kw_upper\u00b7X.509 \u89c4\u8303",
+  "706": "kw_ci\u00b7\u65e7\u57fa\u51c6",
+  "726": "kw_ci\u00b7\u4e2d\u57fa\u51c6",
+  "1182": "kw_ci\u00b7\u65b0\u57fa\u51c6",
+  "816": "kw_ci\u00b7X.509 \u89c4\u8303",
+  "252": "b_must\u00b7\u65e7\u57fa\u51c6",
+  "280": "b_must\u00b7\u4e2d\u57fa\u51c6",
+  "202": "b_shall\u00b7\u4e2d\u57fa\u51c6",
+  "216": "b_shall\u00b7\u65b0\u57fa\u51c6",
+  "74": "hist_n\u00b7\u4e2d\u57fa\u51c6",
+  "80": "hist_n\u00b7\u65b0\u57fa\u51c6",
+  "3925": "hist_chars\u00b7\u65e7\u57fa\u51c6",
+  "5576": "hist_chars\u00b7\u4e2d\u57fa\u51c6",
+  "5855": "hist_chars\u00b7\u65b0\u57fa\u51c6",
+  "25": "ts_generalizedtime",
+  "[0, 0, 0, 0]": "ts_non_R",
+  "47": "iso_date\u00b7\u4e2d\u57fa\u51c6",
+  "51": "iso_date\u00b7\u65b0\u57fa\u51c6",
+  "21": "month_year\u00b7\u4e2d\u57fa\u51c6",
+  "173": "month_year\u00b7X.509 \u89c4\u8303",
+  "142": "sec_cite\u00b7\u65e7\u57fa\u51c6",
+  "154": "sec_cite\u00b7\u4e2d\u57fa\u51c6",
+  "362": "sec_cite\u00b7\u65b0\u57fa\u51c6",
+  "136": "sec_cite\u00b7X.509 \u89c4\u8303",
+  "672": "sec_head\u00b7\u65e7\u57fa\u51c6",
+  "679": "sec_head\u00b7\u4e2d\u57fa\u51c6",
+  "674": "sec_head\u00b7\u65b0\u57fa\u51c6",
+  "348": "sec_head_d\u00b7\u65e7\u57fa\u51c6",
+  "358": "sec_head_d\u00b7\u4e2d\u57fa\u51c6",
+  "372": "sec_head_d\u00b7\u65b0\u57fa\u51c6",
+  "151": "rfc_n5280\u00b7X.509 \u89c4\u8303",
+  "['Version 1.7.7', 'Version 1.0', 'Version 1.1']": "ver_self",
+  "['Version 1.8.7', 'Version 1.0', 'Version 1.1']": "ver_self",
+  "['Version 2.0.2', 'Version 1.0', 'Version 1.1']": "ver_self",
+  "['Version 2.0']": "ver_self",
+  "66": "asn1_mod\u00b7X.509 \u89c4\u8303",
+  "601": "share_TO",
+  "1086": "share_OF",
+  "543": "share_TF",
+  "484": "share_TOF",
+  "7239": "union_TOF",
+  "2147": "only_T",
+  "1517": "only_O",
+  "2313": "only_F",
+  "2807": "lines_ge25\u00b7\u65e7\u57fa\u51c6",
+  "2720": "lines_ge25\u00b7\u4e2d\u57fa\u51c6",
+  "3458": "lines_ge25\u00b7\u65b0\u57fa\u51c6",
+  "4619": "lines_ge25\u00b7X.509 \u89c4\u8303",
+  "75": "checks"
+ },
+ "pool_used": 15,
+ "enc_chars": 8400,
+ "nsrc": 5,
+ "flat": {
+  "bytes": [
+   248273,
+   259837,
+   363180,
+   28488,
+   352580
+  ],
+  "chars": [
+   243533,
+   255329,
+   356795,
+   4215,
+   352580
+  ],
+  "lines": [
+   4741,
+   4509,
+   6386,
+   617,
+   8460
+  ],
+  "nonblank": [
+   3517,
+   3356,
+   4715,
+   86,
+   5991
+  ],
+  "formfeed": [
+   99,
+   87,
+   128,
+   0,
+   151
+  ],
+  "maxlen": [
+   117,
+   131,
+   161,
+   662,
+   72
+  ],
+  "trail": [
+   1,
+   1,
+   1,
+   533,
+   151
+  ],
+  "chars_rec": [
+   243533,
+   255329,
+   356795,
+   4215,
+   352580
+  ],
+  "lines_rec": [
+   4741,
+   4509,
+   6386,
+   617,
+   8460
+  ],
+  "rec_close": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "pdf_bytes": [
+   289455,
+   287608,
+   972214
+  ],
+  "raw_chars": [
+   218948,
+   229414,
+   286227
+  ],
+  "raw_lines": [
+   3539,
+   3330,
+   4985
+  ],
+  "raw_formfeed": [
+   99,
+   87,
+   128
+  ],
+  "face_gap": [
+   24585,
+   25915,
+   70568
+  ],
+  "line_gap": [
+   1202,
+   1179,
+   1401
+  ],
+  "ff_close": [
+   0,
+   0,
+   0
+  ],
+  "sig": [
+   "03063d6999fc7639",
+   "bfe2c79565e83989",
+   "380cd3758e0b5ddd",
+   "490df18ebdf07c3b",
+   "8852ff97b1fb7f05"
+  ],
+  "sig_distinct": 5,
+  "ent_listed": 5,
+  "ent_unused": [],
+  "ent_unnamed": [],
+  "le_scripts": 5,
+  "le_styles": 0,
+  "le_tags": 446,
+  "le_ents": 15,
+  "le_hrefs": 63,
+  "le_metas": 12,
+  "le_dropped": 24187,
+  "day_num": [
+   29,
+   29,
+   34,
+   7,
+   0
+  ],
+  "day_set": [
+   [
+    "5",
+    "30",
+    "90",
+    "397",
+    "398",
+    "825"
+   ],
+   [
+    "5",
+    "30",
+    "90",
+    "397",
+    "398",
+    "825"
+   ],
+   [
+    "5",
+    "7",
+    "10",
+    "30",
+    "90",
+    "397",
+    "398",
+    "825",
+    "2922",
+    "9132"
+   ],
+   [
+    "6",
+    "45",
+    "47",
+    "90"
+   ],
+   []
+  ],
+  "day_num_flex": [
+   31,
+   29,
+   34,
+   7,
+   0
+  ],
+  "day_hyph": [
+   2,
+   2,
+   2,
+   5,
+   0
+  ],
+  "day_spac": [
+   27,
+   27,
+   32,
+   2,
+   0
+  ],
+  "day_sing": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "day_word": [
+   44,
+   41,
+   49,
+   9,
+   1
+  ],
+  "day_set_n": [
+   6,
+   6,
+   10,
+   4,
+   0
+  ],
+  "day_wrap": [
+   2,
+   0,
+   0,
+   0,
+   0
+  ],
+  "day_num_close": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "day_free": [
+   15,
+   12,
+   15,
+   2,
+   1
+  ],
+  "ceil_tri": [
+   [
+    [
+     "MUST NOT",
+     "398"
+    ],
+    [
+     "MUST NOT",
+     "825"
+    ],
+    [
+     "SHOULD NOT",
+     "397"
+    ]
+   ],
+   [
+    [
+     "MUST NOT",
+     "398"
+    ],
+    [
+     "MUST NOT",
+     "825"
+    ],
+    [
+     "SHOULD NOT",
+     "397"
+    ]
+   ],
+   [
+    [
+     "MUST NOT",
+     "398"
+    ],
+    [
+     "SHOULD NOT",
+     "397"
+    ]
+   ],
+   [],
+   []
+  ],
+  "ceil_n": [
+   5,
+   5,
+   4,
+   0,
+   0
+  ],
+  "ceil_strict_n": [
+   1,
+   3,
+   3,
+   0,
+   0
+  ],
+  "ceil_vals": [
+   [
+    "397",
+    "398",
+    "825"
+   ],
+   [
+    "397",
+    "398",
+    "825"
+   ],
+   [
+    "397",
+    "398"
+   ],
+   [],
+   []
+  ],
+  "ceil_distinct": [
+   3,
+   3,
+   2,
+   0,
+   0
+  ],
+  "ceil_wrap": [
+   4,
+   2,
+   1,
+   0,
+   0
+  ],
+  "d825_ceil": [
+   1,
+   1,
+   0,
+   0,
+   0
+  ],
+  "d825_strict": [
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  "lines_825": [
+   5,
+   5,
+   4,
+   0,
+   0
+  ],
+  "validwin_825": [
+   3,
+   3,
+   2,
+   0,
+   0
+  ],
+  "reusewin_825": [
+   1,
+   1,
+   1,
+   0,
+   0
+  ],
+  "titlewin_825": [
+   1,
+   1,
+   1,
+   0,
+   0
+  ],
+  "otherwin_825": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "lines_398": [
+   4,
+   4,
+   4,
+   0,
+   0
+  ],
+  "validwin_398": [
+   2,
+   2,
+   2,
+   0,
+   0
+  ],
+  "reusewin_398": [
+   1,
+   1,
+   1,
+   0,
+   0
+  ],
+  "titlewin_398": [
+   1,
+   1,
+   1,
+   0,
+   0
+  ],
+  "otherwin_398": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "lines_397": [
+   2,
+   2,
+   2,
+   0,
+   0
+  ],
+  "validwin_397": [
+   2,
+   2,
+   2,
+   0,
+   0
+  ],
+  "reusewin_397": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "titlewin_397": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "otherwin_397": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "lines_90": [
+   1,
+   1,
+   1,
+   4,
+   0
+  ],
+  "validwin_90": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "reusewin_90": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "titlewin_90": [
+   0,
+   0,
+   0,
+   4,
+   0
+  ],
+  "otherwin_90": [
+   1,
+   1,
+   1,
+   0,
+   0
+  ],
+  "lines_45": [
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  "validwin_45": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "reusewin_45": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "titlewin_45": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "otherwin_45": [
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  "lines_47": [
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  "validwin_47": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "reusewin_47": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "titlewin_47": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "otherwin_47": [
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  "lines_6": [
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  "validwin_6": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "reusewin_6": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "titlewin_6": [
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  "otherwin_6": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "otherwin_total": 5,
+  "titlewin_total": 11,
+  "reusewin_total": 6,
+  "validwin_total": 20,
+  "win_close": 0,
+  "num_45_in_brs": 0,
+  "num_47_in_brs": 0,
+  "set_shared_NF": [
+   "90"
+  ],
+  "set_only_N": [
+   "6",
+   "45",
+   "47"
+  ],
+  "set_shared_TF": [
+   "5",
+   "30",
+   "90",
+   "397",
+   "398",
+   "825"
+  ],
+  "set_only_F": [
+   "7",
+   "10",
+   "2922",
+   "9132"
+  ],
+  "vp_caps": [
+   7,
+   7,
+   7,
+   0,
+   0
+  ],
+  "vp_low": [
+   20,
+   19,
+   22,
+   0,
+   12
+  ],
+  "vp_ci": [
+   27,
+   26,
+   29,
+   0,
+   12
+  ],
+  "vp_flex_ci": [
+   28,
+   28,
+   31,
+   0,
+   14
+  ],
+  "validity_stem": [
+   35,
+   34,
+   53,
+   0,
+   38
+  ],
+  "vp_wrap": [
+   1,
+   2,
+   2,
+   0,
+   2
+  ],
+  "vp_ci_close": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "vp_stem_gap": [
+   7,
+   6,
+   22,
+   0,
+   24
+  ],
+  "lifetime_ci": [
+   1,
+   1,
+   1,
+   15,
+   3
+  ],
+  "notbefore": [
+   2,
+   2,
+   8,
+   0,
+   7
+  ],
+  "notafter": [
+   1,
+   1,
+   6,
+   0,
+   11
+  ],
+  "nanb_gap": [
+   -1,
+   -1,
+   -2,
+   0,
+   4
+  ],
+  "u_must_not": [
+   60,
+   73,
+   146,
+   0,
+   34
+  ],
+  "u_should_not": [
+   16,
+   16,
+   9,
+   0,
+   13
+  ],
+  "u_must": [
+   256,
+   282,
+   642,
+   0,
+   304
+  ],
+  "u_should": [
+   40,
+   42,
+   45,
+   0,
+   82
+  ],
+  "u_may": [
+   111,
+   105,
+   164,
+   0,
+   55
+  ],
+  "kw_must": [
+   256,
+   282,
+   637,
+   0,
+   304
+  ],
+  "kw_must_not": [
+   60,
+   73,
+   146,
+   0,
+   34
+  ],
+  "kw_should": [
+   40,
+   42,
+   44,
+   0,
+   82
+  ],
+  "u_must_gap": [
+   196,
+   209,
+   496,
+   0,
+   270
+  ],
+  "u_should_gap": [
+   24,
+   26,
+   36,
+   0,
+   69
+  ],
+  "must_sub_gap": [
+   0,
+   0,
+   5,
+   0,
+   0
+  ],
+  "mustnot_sub_gap": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "must_ci": [
+   269,
+   298,
+   659,
+   0,
+   308
+  ],
+  "must_l": [
+   13,
+   16,
+   22,
+   0,
+   4
+  ],
+  "shall_u": [
+   206,
+   200,
+   207,
+   0,
+   10
+  ],
+  "shall_ci": [
+   219,
+   213,
+   223,
+   0,
+   15
+  ],
+  "shall_l": [
+   13,
+   13,
+   16,
+   0,
+   5
+  ],
+  "will_ci": [
+   18,
+   20,
+   37,
+   2,
+   52
+  ],
+  "kw_upper": [
+   613,
+   629,
+   1052,
+   0,
+   451
+  ],
+  "kw_ci": [
+   706,
+   726,
+   1182,
+   0,
+   816
+  ],
+  "hist_n": [
+   60,
+   74,
+   80,
+   0,
+   0
+  ],
+  "hist_chars": [
+   3925,
+   5576,
+   5855,
+   0,
+   0
+  ],
+  "h_must": [
+   4,
+   2,
+   8,
+   0,
+   0
+  ],
+  "b_must": [
+   252,
+   280,
+   629,
+   0,
+   304
+  ],
+  "h_must_close": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "h_shall": [
+   6,
+   11,
+   7,
+   0,
+   0
+  ],
+  "b_shall": [
+   213,
+   202,
+   216,
+   0,
+   15
+  ],
+  "h_shall_close": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "h_sub": [
+   4,
+   2,
+   8,
+   0,
+   0
+  ],
+  "b_sub": [
+   252,
+   280,
+   634,
+   0,
+   304
+  ],
+  "h_sub_close": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "ts_utctime": [
+   0,
+   0,
+   0,
+   0,
+   28
+  ],
+  "ts_generalizedtime": [
+   0,
+   0,
+   0,
+   0,
+   25
+  ],
+  "ts_yymmddhhmmssz": [
+   0,
+   0,
+   0,
+   0,
+   2
+  ],
+  "ts_yyyymmddhhmmssz": [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  "y2049": [
+   0,
+   0,
+   0,
+   0,
+   3
+  ],
+  "y2050": [
+   0,
+   0,
+   0,
+   0,
+   3
+  ],
+  "ts_non_R": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "ts_only_R": 28,
+  "gt_non_R": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "gt_only_R": 25,
+  "iso_date": [
+   53,
+   47,
+   51,
+   0,
+   0
+  ],
+  "us_date": [
+   16,
+   18,
+   18,
+   2,
+   6
+  ],
+  "month_year": [
+   17,
+   21,
+   24,
+   1,
+   173
+  ],
+  "yyyy_any": [
+   223,
+   239,
+   251,
+   5,
+   0
+  ],
+  "y2029": [
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  "y2028": [
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  "y2015": [
+   17,
+   17,
+   17,
+   1,
+   0
+  ],
+  "shell_s90": 4,
+  "face_s90": 2,
+  "shell_s6": 3,
+  "face_s6": 1,
+  "shell_s47": 3,
+  "face_s47": 1,
+  "shell_s45": 3,
+  "face_s45": 1,
+  "shell_all": [
+   4,
+   3,
+   3,
+   3
+  ],
+  "face_all": [
+   2,
+   1,
+   1,
+   1
+  ],
+  "dup_gap": [
+   2,
+   2,
+   2,
+   2
+  ],
+  "dup_kinds": 1,
+  "day_shell": 17,
+  "day_face": 7,
+  "day_meta": 5,
+  "day_shell_close": 0,
+  "sec_cite": [
+   142,
+   154,
+   362,
+   0,
+   136
+  ],
+  "sec_cite_low": [
+   0,
+   2,
+   1,
+   0,
+   0
+  ],
+  "sec_head": [
+   672,
+   679,
+   674,
+   0,
+   2
+  ],
+  "sec_head_d": [
+   348,
+   358,
+   372,
+   0,
+   2
+  ],
+  "rfc_set_n": [
+   21,
+   25,
+   28,
+   0,
+   38
+  ],
+  "rfc_hit_R": [
+   2,
+   3,
+   4,
+   0,
+   38
+  ],
+  "rfc_miss_n": [
+   19,
+   22,
+   24,
+   0,
+   0
+  ],
+  "rfc_n5280": [
+   18,
+   22,
+   44,
+   0,
+   151
+  ],
+  "ver_self": [
+   [
+    "Version 1.7.7",
+    "Version 1.0",
+    "Version 1.1"
+   ],
+   [
+    "Version 1.8.7",
+    "Version 1.0",
+    "Version 1.1"
+   ],
+   [
+    "Version 2.0.2",
+    "Version 1.0",
+    "Version 1.1"
+   ],
+   [],
+   [
+    "Version 2.0"
+   ]
+  ],
+  "ver_any": [
+   12,
+   13,
+   15,
+   0,
+   28
+  ],
+  "baseline_reqs": [
+   15,
+   18,
+   27,
+   0,
+   0
+  ],
+  "last_updated": [
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  "asn1_mod": [
+   0,
+   0,
+   8,
+   0,
+   66
+  ],
+  "rfc2119": [
+   2,
+   2,
+   2,
+   0,
+   1
+  ],
+  "lines_ge25": [
+   2807,
+   2720,
+   3458,
+   20,
+   4619
+  ],
+  "share_TO": 601,
+  "share_OF": 1086,
+  "share_TF": 543,
+  "share_TR": 1,
+  "share_OR": 2,
+  "share_FR": 2,
+  "share_TN": 0,
+  "share_ON": 0,
+  "share_FN": 0,
+  "share_NR": 0,
+  "share_TOF": 484,
+  "union_TOF": 7239,
+  "only_T": 2147,
+  "only_O": 1517,
+  "only_F": 2313,
+  "tof_close": 0,
+  "share_TR_lines": [
+   "CA      Certification Authority"
+  ],
+  "share_FR_lines": [
+   "CA    Certification Authority",
+   "notBefore through notAfter, inclusive.\""
+  ],
+  "share_any_R": 2,
+  "share_N_any": 0,
+  "pool_n": 15405,
+  "pool_tag_n": [
+   3101,
+   2980,
+   4103,
+   25,
+   5196
+  ],
+  "pool_1": 7932,
+  "pool_2": 1409,
+  "pool_3": 5786,
+  "pool_4": 219,
+  "pool_5": 59,
+  "pool_tiers": [
+   7932,
+   1409,
+   5786,
+   219,
+   59
+  ],
+  "pool_close": 0,
+  "pool_maxlen": 662,
+  "scalar_clos_n": 4,
+  "scalar_clos_sum": 0,
+  "scalar_clos_list": [
+   "day_shell_close",
+   "pool_close",
+   "tof_close",
+   "win_close"
+  ],
+  "list_clos_n": 7,
+  "anchor_total": 17,
+  "anchor_distinct": 15,
+  "anchor_err": 0,
+  "anchor_single": 11,
+  "anchor_cross": 4,
+  "anchor_all5": 0,
+  "checks": 75,
+  "tag_T": 5,
+  "tag_O": 1,
+  "tag_F": 4,
+  "tag_N": 4,
+  "tag_R": 3
+ },
+ "closure_keys": [
+  "rec_close",
+  "ff_close",
+  "day_num_close",
+  "win_close",
+  "vp_ci_close",
+  "h_must_close",
+  "h_shall_close",
+  "h_sub_close",
+  "day_shell_close",
+  "tof_close",
+  "pool_close"
+ ]
+}

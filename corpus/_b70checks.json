@@ -1,0 +1,2267 @@
+{
+ "anchor_total": 30,
+ "anchor_distinct": 27,
+ "anchor_err": 0,
+ "anchor_single": 19,
+ "anchor_cross": 8,
+ "anchor_all4": 0,
+ "checks": 108,
+ "enc_chars": 8097,
+ "nsrc": 4,
+ "tag_768": 6,
+ "tag_1122": 9,
+ "tag_8200": 7,
+ "tag_6935": 8,
+ "letters_in": 1258,
+ "letters_out": 771,
+ "classes": {
+  "single": [
+   "                 all 1's (65535).  No special action is required at the",
+   "                 is optional; the value zero is transmitted in the",
+   "                 turning off UDP checksumming is very controversial.",
+   "            A host MUST implement the facility to generate and validate",
+   "            An application MAY optionally be able to control whether UDP",
+   "            MUST default to checksumming on.",
+   "            checksum is never optional.  The sender MUST generate it and",
+   "            datagrams without checksums should be discarded or passed to",
+   "      header, as specified in [RFC2460].  IPv6 receivers MUST by default",
+   "      o  Unlike IPv4, the default behavior when UDP packets are",
+   "      the checksum MUST be changed to hex FFFF for placement in the UDP",
+   "   The following text in [RFC2460], Section 8.1, fourth bullet should be",
+   "   This specification updates IPv6 to allow a zero UDP checksum in the",
+   "   addresses from the IP header in its checksum computation must be",
+   "Checksum is the 16-bit one's complement of the one's complement sum of a",
+   "If the computed  checksum  is zero,  it is transmitted  as all ones (the",
+   "Source Port is an optional field, when meaningful, it indicates the port",
+   "checksum  value means that the transmitter  generated  no checksum  (for",
+   "not used, a value of zero is inserted."
+  ],
+  "cross": [
+   "         header.  IPv6 receivers must discard UDP packets containing a",
+   "         node must compute a UDP checksum over the packet and the",
+   "         zero checksum and should log the error.",
+   "         zero, it must be changed to hex FFFF for placement in the UDP",
+   "      UDP checksum is not optional.  That is, whenever originating a UDP",
+   "      an IPv6 node MUST compute a UDP checksum over the packet and the",
+   "      encapsulation MAY enable zero-checksum mode for a specific port"
+  ],
+  "three": [
+   "                         User Datagram Protocol"
+  ],
+  "four": []
+ },
+ "collisions": {
+  "5896": [
+   "码位·768"
+  ],
+  "289148": [
+   "码位·1122"
+  ],
+  "93162": [
+   "码位·8200"
+  ],
+  "29055": [
+   "码位·6935"
+  ],
+  "72": [
+   "最长行·1122",
+   "最长行·8200",
+   "最长行·6935",
+   "窗起·768",
+   "锚池最长"
+  ],
+  "65535": [
+   "hex折十·8200",
+   "hex折十·6935"
+  ],
+  "2": [
+   "十六进制字面·6935",
+   "32倍率",
+   "伪头连字·6935",
+   "伪头合计·6935",
+   "大写MAY·6935",
+   "首字母may·8200",
+   "零大写份数",
+   "optional且ck同行·1122",
+   "8200独有枚数",
+   "6935引文独有",
+   "共头词数",
+   "年份序索引3",
+   "窗外ck·8200",
+   "窗内opt·1122",
+   "写法族·8200",
+   "写法族·6935"
+  ],
+  "3": [
+   "给进制份数",
+   "逐行档·768",
+   "逐行档·6935",
+   "大写SHOULD·6935",
+   "小写should·768",
+   "不分大小写should·768",
+   "首字母may·1122",
+   "前词档数·1122",
+   "年份序索引2",
+   "标题含校验和",
+   "768合计·768",
+   "空格768·自指"
+  ],
+  "1": [
+   "游标落空份数",
+   "伪头空格·768",
+   "伪头合计·768",
+   "not optional·8200",
+   "阶梯单调",
+   "两轨相等",
+   "跨面针枚数",
+   "MUSTNOT·6935",
+   "小写must·768",
+   "小写may·768",
+   "不分大小写must·768",
+   "不分大小写may·768",
+   "首字母may·6935",
+   "STD头·8200",
+   "类别头·8200",
+   "类别头·6935",
+   "STD零大写判定",
+   "只小写判定",
+   "optional枚·768",
+   "optional枚·6935",
+   "optional且ck同行·6935",
+   " optional在后",
+   "never optional·1122",
+   "not optional折平·6935",
+   "not optional逐行·6935",
+   "引导语插入",
+   "逗号·6935引文",
+   "逗号差",
+   "替代段bydefault",
+   "废止枚数·8200",
+   "更新枚数·6935",
+   "目标号枚数",
+   "年份倒序数",
+   "年份序索引1",
+   "updates句·6935",
+   "updates句CI·6935",
+   "删除指令",
+   "窗外ck·768",
+   "窗内zero·1122",
+   "窗外zero·768",
+   "窗内opt·8200",
+   "窗内opt·6935",
+   "窗外opt·768",
+   "768合计·1122",
+   "6935合计·8200",
+   "8200引6935",
+   "短横768·1122",
+   "仅归一对·8200·6935",
+   "轴档非零数"
+  ],
+  "9": [
+   "伪头合计·8200",
+   "裸MUST·6935",
+   "768到1122年距",
+   "optional枚·8200",
+   "窗内ck·6935",
+   "清单闭合数",
+   "tag_1122"
+  ],
+  "12": [
+   "折平档·1122",
+   "折平档·6935",
+   "摘壳档·1122",
+   "摘壳档·6935",
+   "共尾·8200对替代段",
+   "窗外opt·1122",
+   "6936合计·6935"
+  ],
+  "6": [
+   "折平档·8200",
+   "摘壳档·768",
+   "摘壳档·8200",
+   "窗内ck·1122",
+   "空格式2460·6935",
+   "tag_768"
+  ],
+  "32": [
+   "小写may·8200"
+  ],
+  "52": [
+   "不分大小写must·8200",
+   "共有词"
+  ],
+  "27": [
+   "不分大小写should·8200",
+   "全篇zero·1122",
+   "anchor_distinct"
+  ],
+  "16": [
+   "不分大小写should·6935"
+  ],
+  "28": [
+   "默认⇎可选行距",
+   "年距·1122到8200"
+  ],
+  "31": [
+   "能力⇎可选行距"
+  ],
+  "466": [
+   "段起行·6935引文"
+  ],
+  "8": [
+   "段行数·8200段",
+   "窗内ck·8200",
+   "窗外opt·8200",
+   "窗内大写义务·6935",
+   "anchor_cross",
+   "tag_6935"
+  ],
+  "7": [
+   "段行数·6935引文",
+   "段行数·6935替代段",
+   "窗内zero·6935",
+   "窗外大写义务·6935",
+   "tag_8200"
+  ],
+  "5": [
+   "共尾词数",
+   "RFC2460方括号",
+   "窗内大写义务·1122",
+   "连写式2460·8200",
+   "连写式2460·6935"
+  ],
+  "4": [
+   "替代段大写",
+   "8200段小写",
+   "引文小写",
+   "6935到8200年距",
+   "命名节数",
+   "窗内ck·768",
+   "窗内zero·768",
+   "窗内zero·8200",
+   "6936合计·8200",
+   "nsrc"
+  ],
+  "20": [
+   "窗带宽"
+  ],
+  "41": [
+   "窗行数·768",
+   "窗行数·1122",
+   "窗行数·8200",
+   "窗行数·6935",
+   "窗内数字·6935",
+   "8200合计·8200"
+  ],
+  "26": [
+   "窗外zero·1122",
+   "窗外zero·8200"
+  ],
+  "15": [
+   "窗内数字·768"
+  ],
+  "92": [
+   "窗外数字·768"
+  ],
+  "14": [
+   "空格式2460·8200"
+  ],
+  "11": [
+   "6935合计·6935"
+  ],
+  "34": [
+   "短横793·1122"
+  ],
+  "19": [
+   "两现长行",
+   "anchor_single"
+  ],
+  "18": [
+   "字节对·8200·6935"
+  ],
+  "45": [
+   "标量恒等式数",
+   "恒等式条数",
+   "恒等式通过数"
+  ],
+  "30": [
+   "anchor_total"
+  ],
+  "108": [
+   "checks"
+  ]
+ },
+ "zero_terms": 210,
+ "deriv_keys": 114,
+ "deriv_points": 280,
+ "notes": {
+  "5896": "字节·768",
+  "289148": "字节·1122",
+  "93162": "字节·8200",
+  "29055": "字节·6935",
+  "174": "行数·768",
+  "6845": "行数·1122",
+  "2356": "行数·8200",
+  "676": "行数·6935",
+  "108": "非空行·768",
+  "4549": "非空行·1122",
+  "1488": "非空行·8200",
+  "466": "非空行·6935",
+  "72": "最长行·768",
+  "3": "换页符·768",
+  "116": "换页符·1122",
+  "42": "换页符·8200",
+  "12": "换页符·6935",
+  "67": "剥壳行·768",
+  "2527": "剥壳行·1122",
+  "911": "剥壳行·8200",
+  "226": "剥壳行·6935",
+  "4": "纯ASCII份数",
+  "65535": "十进制·1122",
+  "2": "十进制字面·1122",
+  "1": "十六进制字面·8200",
+  "16": "位宽·768",
+  "128": "128位·8200",
+  "32": "32位·8200",
+  "8": "128倍率",
+  "160": "两位宽之和",
+  "9": "伪头连字·8200",
+  "36": "针总数",
+  "7": "逐行档·1122",
+  "6": "折平档·768",
+  "23": "折行独有枚数",
+  "200": "大写MUST·1122",
+  "10": "大写MUST·6935",
+  "180": "裸MUST·1122",
+  "20": "MUSTNOT·1122",
+  "41": "大写MAY·1122",
+  "73": "大写SHOULD·1122",
+  "59": "小写must·1122",
+  "52": "小写must·8200",
+  "5": "小写must·6935",
+  "121": "小写may·1122",
+  "28": "小写may·6935",
+  "54": "小写should·1122",
+  "27": "小写should·8200",
+  "13": "小写should·6935",
+  "259": "不分大小写must·1122",
+  "15": "不分大小写must·6935",
+  "165": "不分大小写may·1122",
+  "34": "不分大小写may·8200",
+  "31": "不分大小写may·6935",
+  "127": "不分大小写should·1122",
+  "-141": "小写减大写·1122",
+  "14": "optional枚·1122",
+  "1530": "段起行·8200段",
+  "479": "段起行·6935替代段",
+  "1537": "段止行·8200段",
+  "472": "段止行·6935引文",
+  "485": "段止行·6935替代段",
+  "80": "段词数·8200段",
+  "75": "段词数·6935引文",
+  "70": "段词数·6935替代段",
+  "2460": "目标号",
+  "1980": "年份·768",
+  "1989": "年份·1122",
+  "2017": "年份·8200",
+  "2013": "年份·6935",
+  "August": "月份·768",
+  "October": "月份·1122",
+  "July": "月份·8200",
+  "April": "月份·6935",
+  "-4": "年距·8200到6935",
+  "45": "节行·768",
+  "139": "节行·1122",
+  "1465": "节行·8200",
+  "455": "节行·6935",
+  "92": "答句行·768",
+  "4587": "答句行·1122",
+  "1533": "答句行·8200",
+  "483": "答句行·6935",
+  "4567": "窗起·1122",
+  "1513": "窗起·8200",
+  "463": "窗起·6935",
+  "112": "窗止·768",
+  "4607": "窗止·1122",
+  "1553": "窗止·8200",
+  "503": "窗止·6935",
+  "26": "窗外ck·1122",
+  "64": "窗外ck·6935",
+  "35": "窗外zero·6935",
+  "309": "窗外大写义务·1122",
+  "18": "窗内数字·1122",
+  "33": "窗内数字·8200",
+  "5354": "窗外数字·1122",
+  "2154": "窗外数字·8200",
+  "524": "窗外数字·6935",
+  "30": "全篇zero·8200",
+  "19": "2460合计·8200",
+  "11": "2460合计·6935",
+  "115": "1122合计·1122",
+  "4740": "长行池",
+  "4723": "字母行长行",
+  "17": "边框行长行",
+  "60": "锚池标签·768",
+  "3691": "锚池标签·1122",
+  "1111": "锚池标签·8200",
+  "397": "锚池标签·6935",
+  "5217": "锚池分档·768",
+  "21": "锚池分档·1122",
+  "8097": "enc_chars"
+ },
+ "needle_n": 36,
+ "zid": [
+  [
+   "B70V('pair_close')",
+   "两两“归一同形”减“逐字节同形”再减“只归一同形”应回到零(池代数闭合)"
+  ],
+  [
+   "B70V('pool_tier_close')",
+   "共用长行按份数分档之和=池条数"
+  ],
+  [
+   "B70V('axis_close')",
+   "写法分家轴四桶之和=“归一同形而逐字节不同”的条数"
+  ],
+  [
+   "B70V('union_close')",
+   "按份数加权和=单份集合大小之和−两两交+…(容斥对账)"
+  ],
+  [
+   "B70V('apool_tier_close')",
+   "锚候选池按“几份面上出现”加权分档之和=池条目数"
+  ],
+  [
+   "B70V('apool_tag_close')",
+   "锚候选池按标签分布之和=池条目数"
+  ],
+  [
+   "B70V('ladder_monotone') - 1",
+   "三面阶梯单调: 逐行档 + 折行独有档 = 折平档"
+  ],
+  [
+   "B70V('re_eq_cur') - 1",
+   "正则字面轨与非重叠游标轨在同一批针上逐枚相等"
+  ],
+  [
+   "B70V('overlap_extra')",
+   "重叠口径减非重叠口径在全库针上合计为零(没有自重叠针)"
+  ],
+  [
+   "B70V('fold_line_zero')",
+   "折行独有的针按逐行口径必须全为零"
+  ],
+  [
+   "sum(B70V('sh_minus_fold'))",
+   "摘壳折平档一枚不丢(四份的壳行里没有答句)"
+  ],
+  [
+   "sum([abs(x) for x in B70V('up_ledger')])",
+   "大写 MUST 总数 = 裸 MUST + MUST NOT(正则轨⇎子串轨对齐)"
+  ],
+  [
+   "sum([abs(x) for x in B70V('case_ledger')])",
+   "每份面: 大写档 + 小写档 + 首字母大写档 = 不分大小写档(语气轨四轨咬合)"
+  ],
+  [
+   "B70V('win_close_sum')",
+   "答句邻域窗五轨(校验和⇎零⇎可选⇎数字符⇎大写义务词)带内+带外=全篇"
+  ],
+  [
+   "len(B70V('s3_examples')) - B70V('pool_3')",
+   "三份同现的共用长行枚数=池分档第三档"
+  ],
+  [
+   "B70V('base_value_agree')",
+   "1122 的十进制 65535 ⇎ 8200/6935 的 hex FFFF 现读同一枚值"
+  ],
+  [
+   "B70V('base_absent_768')",
+   "768 面上两种进制都读不到(它只写 all ones 不给数)"
+  ],
+  [
+   "B70V('radix_three')",
+   "四份里恰有三份给得出这枚补码值的进制写法"
+  ],
+  [
+   "B70V('bits128_close')",
+   "8200 的 128 位地址是 768 那枚校验和位宽的整数倍(整除余零)"
+  ],
+  [
+   "B70V('bits32_close')",
+   "8200 的 32 位地址同理"
+  ],
+  [
+   "B70V('year_perm_close')",
+   "标题页年份现读恰有一处倒序(8200 在 6935 之后出版, 序号不是时间序)"
+  ],
+  [
+   "B70V('target_agree')",
+   "8200 的 Obsoletes 与 6935 的 Updates 指向同一份 RFC 号、全库目标号只此一枚"
+  ],
+  [
+   "B70V('cite_dir_unique')",
+   "8200 引用 6935 而 6935 面上读不到 8200(引用只能流向后出的一方)"
+  ],
+  [
+   "sum(B70V('nul_faces'))",
+   "四份面上 NUL 全零(LF 面之外没有第二种控制符)"
+  ],
+  [
+   "sum(B70V('cr'))",
+   "四份 CR 全零"
+  ],
+  [
+   "sum(B70V('bom'))",
+   "四份都没有 BOM(与 9293 那代排版面不同)"
+  ],
+  [
+   "max([abs(B70V('byte_cp_delta')[i] - B70V('nonascii_extra')[i]) for i in range(4)])",
+   "字节数−码位数 = 每枚非 ASCII 码位的 utf-8 加字节数(全零⇒四份纯 ASCII)"
+  ],
+  [
+   "B70V('ascii_all') - 4",
+   "四份全是纯 ASCII 面"
+  ],
+  [
+   "len([1 for i in range(4) if B70V('ff')[i]]) - 4",
+   "四份都带换页符(768 也有 3 枚, 壳轨不为某一份空转)"
+  ],
+  [
+   "sum(B70V('cite_forms_close'))",
+   "2460 的三种写法子串轨相加=一条正则族读出的枚数(写法族账闭合)"
+  ],
+  [
+   "B70V('not_opt', 2) - B70V('not_opt', 3)",
+   "“not optional”半句在 8200 与 6935 面上各一枚(6935 引的就是它)"
+  ],
+  [
+   "1 - B70V('fold_split_8200')",
+   "8200 面上“not optional”被行界劈开: 折平档 1 枚 ⇎ 逐行档 0 枚(读到逐行档非零即为失败态)"
+  ],
+  [
+   "B70V('obs_n', 2) - B70V('upd_n', 3)",
+   "8200 废止一枚 ⇎ 6935 更新一枚: 数量同、动作词不同"
+  ],
+  [
+   "1 - B70V('both_2460')",
+   "8200 与 6935 的动作对象都读到 2460(读不到即为失败态)"
+  ],
+  [
+   "B70V('win_named') - 4",
+   "四份都定位到答句所在小节的标题行"
+  ],
+  [
+   "B70V('sn_strict_docs', 2)",
+   "8200 的答句整段被行界劈开: 逐行档一枚不中(本条折平档必需的最强证据)"
+  ],
+  [
+   "len([i for i in range(4) if B70V('sn_strict_docs')[i]]) - 3",
+   "逐行档命中三份, 8200 一份全落空(四份都落空则阶梯证据反了)"
+  ],
+  [
+   "B70V('cite_forms_2460', 3) - B70V('cite_forms_2460', 2)",
+   "2460 的引用写法族在 8200 ⇎ 6935 里同数(两族都现读)"
+  ],
+  [
+   "1 - B70V('std_no_upper')",
+   "8200 是带 STD: 号的现行标准而全篇零大写义务词(读到一枚即为失败态)"
+  ],
+  [
+   "len(B70V('up_zero_docs')) - 2",
+   "零大写义务词的恰是 768 与 8200 两份"
+  ],
+  [
+   "B70V('opt_line_ck', 0)",
+   "768 面上 optional 一枚都不与 checksum 同行(它唯一的 optional 说的是源端口)"
+  ],
+  [
+   "B70V('opt_word', 0) - 1",
+   "768 全篇只写了一枚 optional"
+  ],
+  [
+   "sum(B70V('never_opt')) - 1",
+   "“never optional”全库恰一枚, 落在 1122 的 TCP 侧(与同文 UDP 那句 optional 对照)"
+  ],
+  [
+   "B70V('digit_chars', 0) - B70V('win_dig_in', 0) - B70V('win_dig_out', 0)",
+   "768 短面上的数字符按窗切分前后一致"
+  ],
+  [
+   "sum(B70V('win_close_up'))",
+   "大写义务词按窗切分的带内+带外=全篇(与四轨账同向再核一遍)"
+  ]
+ ],
+ "litk": {
+  "z768_allones": "it is transmitted  as all ones (the",
+  "z768_equiv": "as all ones (the equivalent in one's complement arithmetic)",
+  "z768_allzero_means": "checksum value means that the transmitter generated no checksum (for debugging or for higher level protocols that don't care)",
+  "z768_srcport": "Source Port is an optional field, when meaningful",
+  "z768_zero_insert": "If not used, a value of zero is inserted.",
+  "z768_ui_should": "A user interface should allow",
+  "z1122_must_impl": "A host MUST implement the facility to generate and validate",
+  "z1122_may_ctrl": "An application MAY optionally be able to control whether a UDP checksum will be generated, but it MUST default to checksumming on.",
+  "z1122_discard": "UDP MUST silently discard the datagram.",
+  "z1122_recv_opt": "An application MAY optionally be able to control whether UDP datagrams without checksums should be discarded or passed to the application.",
+  "z1122_controversial": "turning off UDP checksumming is very controversial.",
+  "z1122_udp_optional": "Unlike the TCP checksum, the UDP checksum is optional; the value zero is transmitted in the checksum field of a UDP header to indicate the absence of a checksum.",
+  "z1122_all1s": "it must transmit the checksum as all 1's (65535).",
+  "z1122_tcp_never": "the TCP checksum is never optional.  The sender MUST generate it and the receiver MUST check it.",
+  "z1122_tbl_off": "Sender Option to not generate checksum",
+  "z1122_tbl_default": "Default is to checksum",
+  "z1122_tbl_recv": "Receiver Option to require checksum",
+  "z1122_ip_hdr": "A host MUST verify the IP header checksum on every received",
+  "z8200_modify": "addresses from the IP header in its checksum computation must be modified for use over IPv6, to include the 128-bit IPv6 addresses instead of 32-bit IPv4 addresses.",
+  "z8200_default": "the default behavior when UDP packets are originated by an IPv6 node is that the UDP checksum is not optional.",
+  "z8200_must_compute": "an IPv6 node must compute a UDP checksum over the packet and the pseudo-header, and, if that computation yields a result of zero, it must be changed to hex FFFF for placement in the UDP header.",
+  "z8200_discard": "IPv6 receivers must discard UDP packets containing a zero checksum and should log the error.",
+  "z8200_tunnel": "protocols that use UDP as a tunnel encapsulation may enable zero-checksum mode for a specific port (or set of ports) for sending and/or receiving.",
+  "z8200_6936": "Any node implementing zero-checksum mode must follow the requirements specified in \"Applicability Statement for the Use of IPv6 UDP Datagrams with Zero Checksums\" [RFC6936].",
+  "z6935_update": "This specification updates IPv6 to allow a zero UDP checksum in the outer encapsulating datagram of a tunnel protocol.",
+  "z6935_delete_lead": "The following text in [RFC2460], Section 8.1, fourth bullet should be deleted:",
+  "z6935_quote_lead": "Unlike IPv4, when UDP packets are originated by an IPv6 node, the UDP checksum is not optional.",
+  "z6935_quote_discard": "IPv6 receivers must discard UDP packets containing a zero checksum, and should log the error.",
+  "z6935_repl_compute": "an IPv6 node MUST compute a UDP checksum over the packet and the pseudo-header, and, if that computation yields a result of zero, the checksum MUST be changed to hex FFFF for placement in the UDP header, as specified in [RFC2460].",
+  "z6935_repl_discard": "IPv6 receivers MUST by default discard UDP packets containing a zero checksum and SHOULD log the error.",
+  "z6935_repl_may": "encapsulation MAY enable zero-checksum mode for a specific port (or set of ports) for sending and/or receiving.",
+  "z6935_must_follow": "implementing zero-checksum mode MUST follow the node requirements specified in Section 4 of \"Applicability Statement for the use of IPv6 UDP Datagrams with Zero Checksums\" [RFC6936].",
+  "z6935_permitted": "while sending a UDP datagram with a zero checksum is permitted in",
+  "z6935_unsuitable": "a zero UDP checksum is unsuitable, because it is necessary to provide the first level",
+  "z6935_middlebox": "Middleboxes supporting IPv6 MUST follow requirements 9, 10, and 11",
+  "z6935_abst_discard": "that IPv6 receivers MUST discard UDP packets with a zero checksum."
+ },
+ "sn": {
+  "z768_allones": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "z768_equiv": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z768_allzero_means": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z768_srcport": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "z768_zero_insert": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z768_ui_should": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "z1122_must_impl": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "z1122_may_ctrl": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z1122_discard": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "z1122_recv_opt": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z1122_controversial": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "z1122_udp_optional": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z1122_all1s": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z1122_tcp_never": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z1122_tbl_off": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "z1122_tbl_default": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "z1122_tbl_recv": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "z1122_ip_hdr": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "z8200_modify": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z8200_default": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z8200_must_compute": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z8200_discard": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z8200_tunnel": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z8200_6936": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z6935_update": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z6935_delete_lead": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z6935_quote_lead": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z6935_quote_discard": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z6935_repl_compute": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z6935_repl_discard": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z6935_repl_may": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z6935_must_follow": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z6935_permitted": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "z6935_unsuitable": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z6935_middlebox": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "z6935_abst_discard": [
+   0,
+   0,
+   0,
+   1
+  ]
+ },
+ "closure_keys": [
+  "apool_tag_close",
+  "apool_tier_close",
+  "axis_close",
+  "bits128_close",
+  "bits32_close",
+  "case_ledger",
+  "cite_forms_close",
+  "pair_close",
+  "pool_tier_close",
+  "pseudo_close",
+  "tone_rev_close",
+  "union_close",
+  "up_ledger",
+  "verb_track_close",
+  "w_row_close",
+  "win_close_ck",
+  "win_close_dig",
+  "win_close_opt",
+  "win_close_sum",
+  "win_close_up",
+  "win_close_zero",
+  "year_perm_close"
+ ],
+ "flat": {
+  "needle_n": 36,
+  "sn_strict_docs": [
+   3,
+   7,
+   0,
+   3
+  ],
+  "sn_fold_docs": [
+   6,
+   12,
+   6,
+   12
+  ],
+  "sn_sh_docs": [
+   6,
+   12,
+   6,
+   12
+  ],
+  "sn_re_docs": [
+   6,
+   12,
+   6,
+   12
+  ],
+  "fold_only_keys": [
+   "z768_equiv",
+   "z768_allzero_means",
+   "z768_zero_insert",
+   "z1122_may_ctrl",
+   "z1122_recv_opt",
+   "z1122_udp_optional",
+   "z1122_all1s",
+   "z1122_tcp_never",
+   "z8200_modify",
+   "z8200_default",
+   "z8200_must_compute",
+   "z8200_discard",
+   "z8200_tunnel",
+   "z8200_6936",
+   "z6935_update",
+   "z6935_delete_lead",
+   "z6935_quote_lead",
+   "z6935_quote_discard",
+   "z6935_repl_compute",
+   "z6935_repl_discard",
+   "z6935_repl_may",
+   "z6935_must_follow",
+   "z6935_unsuitable"
+  ],
+  "fold_only_own": [
+   3,
+   5,
+   6,
+   9
+  ],
+  "sh_lost_keys": [],
+  "ladder_monotone": 1,
+  "sh_minus_fold": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "fold_line_zero": 0,
+  "overlap_extra": 0,
+  "re_eq_cur": 1,
+  "shared_verbatim": [
+   "z8200_must_compute"
+  ],
+  "cross_needle_n": 1,
+  "n_z768_allones": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "n_z768_equiv": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "n_z768_allzero_means": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "n_z768_srcport": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "n_z768_zero_insert": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "n_z768_ui_should": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "n_z1122_must_impl": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "n_z1122_may_ctrl": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "n_z1122_discard": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "n_z1122_recv_opt": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "n_z1122_controversial": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "n_z1122_udp_optional": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "n_z1122_all1s": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "n_z1122_tcp_never": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "n_z1122_tbl_off": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "n_z1122_tbl_default": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "n_z1122_tbl_recv": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "n_z1122_ip_hdr": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "n_z8200_modify": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "n_z8200_default": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "n_z8200_must_compute": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "n_z8200_discard": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "n_z8200_tunnel": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "n_z8200_6936": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "n_z6935_update": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "n_z6935_delete_lead": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "n_z6935_quote_lead": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "n_z6935_quote_discard": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "n_z6935_repl_compute": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "n_z6935_repl_discard": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "n_z6935_repl_may": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "n_z6935_must_follow": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "n_z6935_permitted": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "n_z6935_unsuitable": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "n_z6935_middlebox": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "n_z6935_abst_discard": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "bytes": [
+   5896,
+   289148,
+   93162,
+   29055
+  ],
+  "chars": [
+   5896,
+   289148,
+   93162,
+   29055
+  ],
+  "lines": [
+   174,
+   6845,
+   2356,
+   676
+  ],
+  "nonblank": [
+   108,
+   4549,
+   1488,
+   466
+  ],
+  "maxlen": [
+   72,
+   72,
+   72,
+   72
+  ],
+  "ff": [
+   3,
+   116,
+   42,
+   12
+  ],
+  "ff_only": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "shell_n": [
+   107,
+   4318,
+   1445,
+   450
+  ],
+  "shell_strip": [
+   67,
+   2527,
+   911,
+   226
+  ],
+  "cr": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "nonascii": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "bom": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "nonascii_extra": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "byte_cp_delta": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "nul_faces": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "digit_chars": [
+   107,
+   5372,
+   2187,
+   565
+  ],
+  "dblspace": [
+   1416,
+   66670,
+   16379,
+   2572
+  ],
+  "dblspace_norm": [
+   190,
+   2014,
+   852,
+   218
+  ],
+  "ascii_all": 4,
+  "obs_n": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "upd_n": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "target_ids": [
+   2460
+  ],
+  "target_n": 1,
+  "both_2460": 1,
+  "obs_verb": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "upd_verb": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "std_hdr": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "cat_std": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "cat_lines": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "years": [
+   1980,
+   1989,
+   2017,
+   2013
+  ],
+  "months": [
+   "August",
+   "October",
+   "July",
+   "April"
+  ],
+  "year_n": 4,
+  "year_perm": [
+   0,
+   1,
+   3,
+   2
+  ],
+  "year_order": 0,
+  "year_inversions": 1,
+  "year_gap_6935_8200": 4,
+  "year_gaps": [
+   9,
+   28,
+   -4
+  ],
+  "up_must_all": [
+   0,
+   200,
+   0,
+   10
+  ],
+  "up_may": [
+   0,
+   41,
+   0,
+   2
+  ],
+  "up_should": [
+   0,
+   73,
+   0,
+   3
+  ],
+  "must_not": [
+   0,
+   20,
+   0,
+   1
+  ],
+  "may_not": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "should_not": [
+   0,
+   8,
+   0,
+   1
+  ],
+  "must_bare": [
+   0,
+   180,
+   0,
+   9
+  ],
+  "low_must": [
+   1,
+   59,
+   52,
+   5
+  ],
+  "low_may": [
+   1,
+   121,
+   32,
+   28
+  ],
+  "low_should": [
+   3,
+   54,
+   27,
+   13
+  ],
+  "ci_must": [
+   1,
+   259,
+   52,
+   15
+  ],
+  "ci_may": [
+   1,
+   165,
+   34,
+   31
+  ],
+  "ci_should": [
+   3,
+   127,
+   27,
+   16
+  ],
+  "title_must": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "title_may": [
+   0,
+   3,
+   2,
+   1
+  ],
+  "title_should": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "case_ledger": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "low_minus_up": [
+   1,
+   -141,
+   52,
+   -5
+  ],
+  "up_zero_docs": [
+   0,
+   2
+  ],
+  "up_zero_n": 2,
+  "lo_minus_up": [
+   1,
+   -141,
+   52,
+   -5
+  ],
+  "up_ledger": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "req_word": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "ck_word": [
+   5,
+   32,
+   10,
+   73
+  ],
+  "ck_caps": [
+   2,
+   9,
+   5,
+   21
+  ],
+  "opt_word": [
+   1,
+   14,
+   9,
+   1
+  ],
+  "zero_word": [
+   5,
+   27,
+   30,
+   42
+  ],
+  "zero_ck": [
+   0,
+   0,
+   1,
+   18
+  ],
+  "zero_hy": [
+   0,
+   0,
+   2,
+   3
+  ],
+  "zero_udp": [
+   0,
+   0,
+   0,
+   15
+  ],
+  "zero_forms": [
+   0,
+   0,
+   3,
+   36
+  ],
+  "not_opt": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "not_opt_line": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "never_opt": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "udp_opt_line": [
+   0,
+   8,
+   2,
+   27
+  ],
+  "opt_line_ck": [
+   0,
+   2,
+   0,
+   1
+  ],
+  "pseudo": [
+   1,
+   0,
+   9,
+   2
+  ],
+  "pseudo_hy": [
+   0,
+   0,
+   9,
+   2
+  ],
+  "pseudo_sp": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "pseudo_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "num_all1s_faces": [
+   0,
+   65535,
+   0,
+   0
+  ],
+  "num_ffff_faces": [
+   0,
+   0,
+   65535,
+   65535
+  ],
+  "num_all1s_dec": 65535,
+  "num_ffff_8200": 65535,
+  "num_ffff_6935": 65535,
+  "num_radix_faces": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "num_radix_forms": 2,
+  "num_cursor_miss": 1,
+  "num_bits_768": 16,
+  "num_bits128_8200": 128,
+  "num_bits32_8200": 32,
+  "num_mbtn_6935": 9,
+  "num_mbtn_hi_6935": 11,
+  "num_ones_word": [
+   3,
+   0,
+   0,
+   0
+  ],
+  "num_ones_compl_fold": [
+   3,
+   2,
+   0,
+   0
+  ],
+  "num_ffff_lit": [
+   0,
+   0,
+   1,
+   2
+  ],
+  "num_dec_lit": [
+   0,
+   2,
+   0,
+   0
+  ],
+  "num_radix_face_n": 3,
+  "bits_ratio128": 8,
+  "bits_ratio32": 2,
+  "bits_sum_8200": 160,
+  "mbtn_span_6935": 2,
+  "cite_sp_768": [
+   3,
+   0,
+   0,
+   0
+  ],
+  "cite_hy_768": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "cite_tk_768": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_al_768": [
+   3,
+   1,
+   0,
+   0
+  ],
+  "cite_sp_1122": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_hy_1122": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_1122": [
+   0,
+   115,
+   0,
+   0
+  ],
+  "cite_al_1122": [
+   0,
+   115,
+   0,
+   0
+  ],
+  "cite_sp_8200": [
+   0,
+   0,
+   41,
+   0
+  ],
+  "cite_hy_8200": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_8200": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_al_8200": [
+   0,
+   0,
+   41,
+   0
+  ],
+  "cite_sp_6935": [
+   0,
+   0,
+   1,
+   11
+  ],
+  "cite_hy_6935": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_6935": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_al_6935": [
+   0,
+   0,
+   1,
+   11
+  ],
+  "cite_sp_2460": [
+   0,
+   0,
+   14,
+   6
+  ],
+  "cite_hy_2460": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_2460": [
+   0,
+   0,
+   5,
+   5
+  ],
+  "cite_al_2460": [
+   0,
+   0,
+   19,
+   11
+  ],
+  "cite_sp_6936": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "cite_hy_6936": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_6936": [
+   0,
+   0,
+   3,
+   11
+  ],
+  "cite_al_6936": [
+   0,
+   0,
+   4,
+   12
+  ],
+  "cite_sp_793": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_hy_793": [
+   0,
+   34,
+   0,
+   0
+  ],
+  "cite_tk_793": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_al_793": [
+   0,
+   34,
+   0,
+   0
+  ],
+  "cite_forms_2460": [
+   0,
+   0,
+   2,
+   2
+  ],
+  "cite_forms_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_self": [
+   3,
+   115,
+   41,
+   11
+  ],
+  "cite_8200_in_6935": 0,
+  "cite_6935_in_8200": 1,
+  "cite_dir_8200_to_6935": 1,
+  "cite_dir_6935_to_8200": 0,
+  "cite_2460_in_6935": 11,
+  "cite_2460_in_8200": 19,
+  "cite_6936": [
+   0,
+   0,
+   4,
+   12
+  ],
+  "win_head": [
+   "Fields",
+   "4.1.3.4  UDP Checksums ................................   78",
+   "8.1.  Upper-Layer Checksums",
+   "5.  The Zero UDP Checksum Update"
+  ],
+  "win_sec": [
+   45,
+   139,
+   1465,
+   455
+  ],
+  "win_ans": [
+   92,
+   4587,
+   1533,
+   483
+  ],
+  "win_start": [
+   72,
+   4567,
+   1513,
+   463
+  ],
+  "win_end": [
+   112,
+   4607,
+   1553,
+   503
+  ],
+  "win_rows": [
+   41,
+   41,
+   41,
+   41
+  ],
+  "win_chars": [
+   1607,
+   1737,
+   2310,
+   2038
+  ],
+  "win_chars_out": [
+   4288,
+   287410,
+   90851,
+   27016
+  ],
+  "win_ck_in": [
+   4,
+   6,
+   8,
+   9
+  ],
+  "win_ck_out": [
+   1,
+   26,
+   2,
+   64
+  ],
+  "win_zero_in": [
+   4,
+   1,
+   4,
+   7
+  ],
+  "win_zero_out": [
+   1,
+   26,
+   26,
+   35
+  ],
+  "win_opt_in": [
+   0,
+   2,
+   1,
+   1
+  ],
+  "win_opt_out": [
+   1,
+   12,
+   8,
+   0
+  ],
+  "win_dig_in": [
+   15,
+   18,
+   33,
+   41
+  ],
+  "win_dig_out": [
+   92,
+   5354,
+   2154,
+   524
+  ],
+  "win_up_in": [
+   0,
+   5,
+   0,
+   8
+  ],
+  "win_up_out": [
+   0,
+   309,
+   0,
+   7
+  ],
+  "win_band": 20,
+  "win_named": 4,
+  "win_close_ck": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "win_close_zero": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "win_close_opt": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "win_close_up": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "win_close_dig": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "win_close_sum": 0,
+  "win_spans": [
+   41,
+   41,
+   41,
+   41
+  ],
+  "win_share": 3,
+  "pool_n": 4740,
+  "pool_tier": [
+   4721,
+   19,
+   0,
+   0
+  ],
+  "pool_tier_close": 0,
+  "pool_4": 0,
+  "pool_3": 0,
+  "pool_2": 19,
+  "pool_1": 4721,
+  "pair_share": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   19
+  ],
+  "pair_byte": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   18
+  ],
+  "pair_norm_only": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  "pair_nonzero": 1,
+  "pair_close": 0,
+  "s3_examples": [],
+  "s3_docs": 0,
+  "tri_share": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "pool_incl": [
+   4759,
+   19,
+   0,
+   0
+  ],
+  "union_incl": 4740,
+  "union_close": 0,
+  "pool_letters": 4723,
+  "pool_border": 17,
+  "axis_counts": {
+   "case": 0,
+   "hyph": 0,
+   "space": 1,
+   "multi": 0
+  },
+  "axis_total": 1,
+  "axis_close": 0,
+  "axis_str": "case0⇎hyph0⇎space1⇎multi0",
+  "axis_str_n": 1,
+  "apool_n": 5238,
+  "apool_raw_n": 5321,
+  "apool_face_raw": [
+   60,
+   3704,
+   1158,
+   399
+  ],
+  "apool_tag_n": [
+   60,
+   3691,
+   1111,
+   397
+  ],
+  "apool_dup": [
+   0,
+   13,
+   47,
+   2
+  ],
+  "apool_tag_close": 0,
+  "apool_tier": [
+   5217,
+   21,
+   0,
+   0
+  ],
+  "apool_uniq": 5238,
+  "apool_pairs": 5259,
+  "apool_weight": 5259,
+  "apool_tier_close": 0,
+  "apool_maxlen": 72,
+  "year_gap": 4,
+  "fold_split_8200": 1,
+  "std_no_upper": 1,
+  "low_only_8200": 1,
+  "base_value_agree": 0,
+  "base_absent_768": 0,
+  "radix_three": 0,
+  "bits128_close": 0,
+  "bits32_close": 0,
+  "year_perm_close": 0,
+  "target_agree": 0,
+  "cite_dir_unique": 0,
+  "zid_n": 45,
+  "zid_fail": [],
+  "scalar_clos_n": 45,
+  "scalar_clos_sum": 45,
+  "list_clos_n": 9,
+  "x_ident_n": 45,
+  "blk_lo": [
+   1530,
+   466,
+   479
+  ],
+  "blk_hi": [
+   1537,
+   472,
+   485
+  ],
+  "blk_rows": [
+   8,
+   7,
+   7
+  ],
+  "blk_words": [
+   80,
+   75,
+   70
+  ],
+  "w82_only": [
+   "behavior",
+   "default"
+  ],
+  "w6q_only": [
+   "checksum,",
+   "node,"
+  ],
+  "w82_only_n": 2,
+  "w6q_only_n": 2,
+  "w_common": 52,
+  "w_row_close": 0,
+  "lead_insert": 1,
+  "repl_bydefault": 1,
+  "p82_bydefault": 0,
+  "comma_82": 0,
+  "comma_q69": 1,
+  "comma_diff": 1,
+  "suf_82_q69": 5,
+  "pre_82_q69": 2,
+  "suf_82_6r": 12,
+  "pre_82_6r": 0,
+  "tone_up_repl": 4,
+  "tone_lo_repl": 0,
+  "tone_lo_82": 4,
+  "tone_up_82": 0,
+  "tone_lo_q69": 4,
+  "tone_up_q69": 0,
+  "tone_swap": 0,
+  "tone_rev_close": 0,
+  "verb_updates_6935": 1,
+  "verb_updates_8200": 0,
+  "verb_updates_ci": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "verb_up": [
+   1,
+   0
+  ],
+  "verb_track_close": 0,
+  "delete_order": 1,
+  "delete_order_8200": 0,
+  "quote_marker_6935": 5,
+  "ln_ctrl_1122": 4587,
+  "ln_opt_1122": 4615,
+  "ln_impl_1122": 4584,
+  "ctrl_opt_span": 28,
+  "impl_opt_span": 31,
+  "opt_vs_must_dir": 1,
+  "opt_prev": [
+   [
+    [
+     "an",
+     1
+    ]
+   ],
+   [
+    [
+     "may",
+     4
+    ],
+    [
+     "is",
+     3
+    ],
+    [
+     "are",
+     1
+    ]
+   ],
+   [
+    [
+     "carry",
+     3
+    ],
+    [
+     "made",
+     1
+    ],
+    [
+     "",
+     1
+    ]
+   ],
+   [
+    [
+     "not",
+     1
+    ]
+   ]
+  ],
+  "opt_prev_n": [
+   1,
+   3,
+   3,
+   1
+  ],
+  "port_word": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "must_default_str": "MUST default to checksumming on",
+  "n_must_impl": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "cross_needles": [
+   "z8200_must_compute"
+  ],
+  "ladder_str": "3⇎7⇎0⇎3",
+  "fold_only_str": "z768_equiv ⇎ z768_allzero_means ⇎ z768_zero_insert ⇎ z1122_may_ctrl ⇎ z1122_recv_opt ⇎ z1122_udp_optional ⇎ z1122_all1s ⇎ z1122_tcp_never ⇎ z8200_modify ⇎ z8200_default ⇎ z8200_must_compute ⇎ z8200_discard ⇎ z8200_tunnel ⇎ z8200_6936 ⇎ z6935_update ⇎ z6935_delete_lead ⇎ z6935_quote_lead ⇎ z6935_quote_discard ⇎ z6935_repl_compute ⇎ z6935_repl_discard ⇎ z6935_repl_may ⇎ z6935_must_follow ⇎ z6935_unsuitable",
+  "fold_only_n": 23,
+  "line_hit_keys": [
+   "z768_allones",
+   "z768_srcport",
+   "z768_ui_should",
+   "z1122_must_impl",
+   "z1122_discard",
+   "z1122_controversial",
+   "z1122_tbl_off",
+   "z1122_tbl_default",
+   "z1122_tbl_recv",
+   "z1122_ip_hdr",
+   "z6935_permitted",
+   "z6935_middlebox",
+   "z6935_abst_discard"
+  ],
+  "dead_needles": [],
+  "anchor_total": 30,
+  "anchor_distinct": 27,
+  "anchor_err": 0,
+  "anchor_single": 19,
+  "anchor_cross": 8,
+  "anchor_all4": 0,
+  "checks": 108,
+  "enc_chars": 8097,
+  "nsrc": 4,
+  "tag_768": 6,
+  "tag_1122": 9,
+  "tag_8200": 7,
+  "tag_6935": 8
+ }
+}

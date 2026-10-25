@@ -1,0 +1,18 @@
+You are the lead structural forensic engineer retained the night after a moderate earthquake (MMI VII at the site) to decide whether an eight-storey 1976 reinforced-concrete flat-slab office building can be re-occupied in the morning. Give your working, not a clean conclusion.
+
+Measured and observed facts:
+- The damage is concentrated at column C-21, second storey: a diagonal shear crack at mid-height with 0.6 mm opening, cover spalled over roughly 200 mm height at the base hinge region, two longitudinal bars visibly buckled. Adjacent columns in the same storey show only hairline vertical flexural cracking.
+- Residual (permanent) storey drift measured over the second storey: 45 mm against a 3.6 m storey height. Total drift during the event is unknown; no strong-motion record exists.
+- Flat slab, 190 mm, no drops or rails; the laser scan shows a 22 mm local depression of the slab soffit in the panel immediately around C-21.
+- Axial load in C-21 under current gravity: 1 450 kN. Concrete core strength 28 MPa. Stirrups 8 mm at 200 mm centres, d = 420 mm; measured cover is 55 mm where the splice region was opened for a probe, versus 40 mm on drawings. Reinforcement grade unknown — drawings say 40 ksi but the mill records are lost, and 50 ksi was already common in 1976.
+- Unreinforced masonry infill panels fill the two bays framing into C-21 on the north face; both show stepped diagonal cracking through the mortar joints.
+- The owner's engineer states in writing: "The diagonal crack is cosmetic. ASCE 41 lets us stay in Collapse Prevention up to 2 percent drift, the residual drift is 1.25 percent, so the building may be re-occupied immediately with no repair." This is the assertion you must rule on. The building is not a designated essential facility; the local jurisdiction has adopted an emergency-ordinance provision allowing re-occupancy after a Life-Safety-level evaluation by a licensed engineer.
+
+Tasks.
+(1) Decide which damage is governing — the mid-height diagonal shear crack, the base hinge spalling and bar buckling, or the slab-soffit depression around the column — and justify by the mechanism each one implies. Say what a single crack width cannot tell you.
+(2) Reason about the storey mechanism: which elements carried the lateral demand in the panels with infill and which carried it without, and how the presence of stepped infill cracking changes the demand on the bare columns. State every quantity you must assume.
+(3) Show what you can and cannot compute about residual capacity with the data given. If you use any expression, define its terms and say which input you trust least.
+(4) Rule on the owner's engineer's ASCE 41 assertion, and, as a matter of reasoning method rather than citation, explain how you decide which performance level and which procedure of a standard actually governs a re-occupancy decision.
+(5) List the alternative explanations you considered for the diagonal crack and the slab depression, and reject each with the specific observation that kills it.
+(6) Name the three measurements that would most change your answer, and say in which direction.
+(7) State the confidence of each conclusion, and identify the single link that a plaintiff's attorney would attack first.

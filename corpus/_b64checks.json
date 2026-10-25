@@ -1,0 +1,2608 @@
+{
+ "anchor_total": 22,
+ "anchor_distinct": 17,
+ "tag_counts": {
+  "A": 7,
+  "B": 5,
+  "C": 4,
+  "D": 6
+ },
+ "ameta": {
+  "anchor_total": 22,
+  "anchor_distinct": 17,
+  "anchor_err": 0,
+  "anchor_single": 11,
+  "anchor_cross": 6,
+  "anchor_all4": 0,
+  "checks": 68,
+  "tag_A": 7,
+  "tag_B": 5,
+  "tag_C": 4,
+  "tag_D": 6
+ },
+ "letters_in": 762,
+ "letters_out": 963,
+ "tagn": 22,
+ "classes": {
+  "single": [
+   "   120 seconds, significantly reducing the aggregated traffic at the",
+   "   A DHCP client MUST ignore any SOL_MAX_RT option values that are less",
+   "   A DHCP server sends the SOL_MAX_RT option to a client to override the",
+   "   An updated SOL_MAX_RT value applies only to the network interface on",
+   "   REL_MAX_RC        5       MAX Release attempts",
+   "   defaults to (0.5 * duration_of_lease).  T2 defaults to (0.875 *",
+   "   duration_of_lease).  Times T1 and T2 SHOULD be chosen with some",
+   "   internetwork, the delay before the first retransmission SHOULD be 4",
+   "   or Information-request message every 3600 seconds rather than every",
+   "   subsequent retransmissions up to a maximum of 64 seconds.  The client",
+   "   unavailable.  Therefore, this value is expected to be retained for as"
+  ],
+  "two": [
+   "      SOL_MAX_RT      120 secs  Max Solicit timeout value",
+   "      SOL_MAX_RT     3600 secs  Max Solicit timeout value",
+   "   INF_MAX_RT      120 secs  Max Information-request timeout value",
+   "   REN_MAX_RT      600 secs  Max Renew timeout value",
+   "   SOL_MAX_RT      120 secs  Max Solicit timeout value",
+   "   | SOL_MAX_RT      | 3600 secs        | Max Solicit timeout value    |"
+  ],
+  "three": [],
+  "four": []
+ },
+ "collisions": {
+  "113738": [
+   "chars\u00b797 \u516d\u5341\u56db"
+  ],
+  "231402": [
+   "chars\u00b703 \u4e00\u767e\u4e8c"
+  ],
+  "14630": [
+   "chars\u00b713 \u500d\u4e09\u5341"
+  ],
+  "370298": [
+   "chars\u00b718 \u53ef\u4e0b\u53d1"
+  ],
+  "72": [
+   "maxlen\u00b713 \u500d\u4e09\u5341",
+   "maxlen\u00b718 \u53ef\u4e0b\u53d1",
+   "v_rebind\u00b718 \u53ef\u4e0b\u53d1"
+  ],
+  "1": [
+   "sec_hit\u00b703 \u4e00\u767e\u4e8c",
+   "sec_hit\u00b713 \u500d\u4e09\u5341",
+   "sec_hit\u00b718 \u53ef\u4e0b\u53d1",
+   "tbl_n",
+   "tbl_n",
+   "y_ignore_inf",
+   "y_must_ignore_n\u00b703 \u4e00\u767e\u4e8c",
+   "y_clamp_86400\u00b713 \u500d\u4e09\u5341",
+   "secw_solmaxrt\u00b703 \u4e00\u767e\u4e8c",
+   "secw_solmaxrt\u00b718 \u53ef\u4e0b\u53d1",
+   "outw_solmaxrt\u00b703 \u4e00\u767e\u4e8c",
+   "secw_v86400\u00b718 \u53ef\u4e0b\u53d1",
+   "lit_retain",
+   "y_unit_n\u00b797 \u516d\u5341\u56db",
+   "y_dur_wrap\u00b797 \u516d\u5341\u56db",
+   "y_dur_out_n\u00b797 \u516d\u5341\u56db",
+   "y_dur_out_n\u00b703 \u4e00\u767e\u4e8c",
+   "y_dur_out_n\u00b713 \u500d\u4e09\u5341",
+   "s_max64full",
+   "s_max64sp_fold",
+   "s_retainfull_fold",
+   "wrap_pin_hit",
+   "wrap_total",
+   "lit_durdef875_fold",
+   "lit_durdef875_gap\u00b797 \u516d\u5341\u56db",
+   "lit_durdef875_gap_sum",
+   "u_must_not\u00b713 \u500d\u4e09\u5341",
+   "l_must\u00b713 \u500d\u4e09\u5341",
+   "rfc2119_ref\u00b703 \u4e00\u767e\u4e8c",
+   "lit_infin\u00b797 \u516d\u5341\u56db",
+   "lit_preferre\u00b703 \u4e00\u767e\u4e8c",
+   "cat_std\u00b797 \u516d\u5341\u56db",
+   "cat_std\u00b703 \u4e00\u767e\u4e8c",
+   "cat_std\u00b713 \u500d\u4e09\u5341",
+   "cat_std\u00b718 \u53ef\u4e0b\u53d1",
+   "obs_hdr\u00b797 \u516d\u5341\u56db",
+   "obs_hdr\u00b718 \u53ef\u4e0b\u53d1",
+   "upd_hdr\u00b713 \u500d\u4e09\u5341",
+   "issn_hdr\u00b713 \u500d\u4e09\u5341",
+   "issn_hdr\u00b718 \u53ef\u4e0b\u53d1",
+   "req_rc\u00b797 \u516d\u5341\u56db",
+   "req_rc\u00b703 \u4e00\u767e\u4e8c",
+   "req_rc\u00b713 \u500d\u4e09\u5341",
+   "req_rc\u00b718 \u53ef\u4e0b\u53d1",
+   "cite_2131\u00b703 \u4e00\u767e\u4e8c",
+   "cite_2132\u00b703 \u4e00\u767e\u4e8c",
+   "\u542b\u58f3\u2212\u53bb\u58f3\u00b797 \u516d\u5341\u56db"
+  ],
+  "44": [
+   "hdr\u00b797 \u516d\u5341\u56db",
+   "outw_solmaxrt\u00b718 \u53ef\u4e0b\u53d1",
+   "u_may\u00b703 \u4e00\u767e\u4e8c",
+   "y_outw_may\u00b797 \u516d\u5341\u56db",
+   "y_outw_may\u00b703 \u4e00\u767e\u4e8c",
+   "lit_infmaxrt\u00b713 \u500d\u4e09\u5341",
+   "cite_2131\u00b797 \u516d\u5341\u56db"
+  ],
+  "100": [
+   "hdr\u00b703 \u4e00\u767e\u4e8c",
+   "cite_3315\u00b703 \u4e00\u767e\u4e8c"
+  ],
+  "6": [
+   "hdr\u00b713 \u500d\u4e09\u5341",
+   "wrap_pin_n",
+   "rfc2119_ref\u00b718 \u53ef\u4e0b\u53d1",
+   "cite_7083\u00b713 \u500d\u4e09\u5341",
+   "anchor_cross",
+   "tag_D"
+  ],
+  "153": [
+   "hdr\u00b718 \u53ef\u4e0b\u53d1",
+   "cite_8415\u00b718 \u53ef\u4e0b\u53d1"
+  ],
+  "101": [
+   "foot\u00b703 \u4e00\u767e\u4e8c",
+   "pg\u00b703 \u4e00\u767e\u4e8c",
+   "formfeed\u00b703 \u4e00\u767e\u4e8c",
+   "trail\u00b703 \u4e00\u767e\u4e8c",
+   "nb_gap\u00b703 \u4e00\u767e\u4e8c",
+   "ff_only_lines\u00b703 \u4e00\u767e\u4e8c",
+   "y_self_lit\u00b703 \u4e00\u767e\u4e8c",
+   "\u4ec5\u5f52\u4e00\u540c"
+  ],
+  "45": [
+   "pg\u00b797 \u516d\u5341\u56db",
+   "formfeed\u00b797 \u516d\u5341\u56db",
+   "trail\u00b797 \u516d\u5341\u56db",
+   "nb_gap\u00b797 \u516d\u5341\u56db",
+   "ff_only_lines\u00b797 \u516d\u5341\u56db",
+   "lit_solmaxrt\u00b718 \u53ef\u4e0b\u53d1",
+   "y_self_lit\u00b797 \u516d\u5341\u56db"
+  ],
+  "7": [
+   "pg\u00b713 \u500d\u4e09\u5341",
+   "formfeed\u00b713 \u500d\u4e09\u5341",
+   "trail\u00b713 \u500d\u4e09\u5341",
+   "nb_gap\u00b713 \u500d\u4e09\u5341",
+   "ff_only_lines\u00b713 \u500d\u4e09\u5341",
+   "durlit_a",
+   "durlit_c",
+   "y_dur_win_n\u00b703 \u4e00\u767e\u4e8c",
+   "lit_infreq\u00b713 \u500d\u4e09\u5341",
+   "lit_ffffffff\u00b703 \u4e00\u767e\u4e8c",
+   "tag_A"
+  ],
+  "154": [
+   "pg\u00b718 \u53ef\u4e0b\u53d1",
+   "formfeed\u00b718 \u53ef\u4e0b\u53d1",
+   "trail\u00b718 \u53ef\u4e0b\u53d1",
+   "nb_gap\u00b718 \u53ef\u4e0b\u53d1",
+   "ff_only_lines\u00b718 \u53ef\u4e0b\u53d1"
+  ],
+  "4": [
+   "a_doublings",
+   "tbl_row_delta",
+   "bd_diff_n",
+   "secw_solmaxrt\u00b713 \u500d\u4e09\u5341",
+   "outw_v86400\u00b718 \u53ef\u4e0b\u53d1",
+   "y_secw_may\u00b797 \u516d\u5341\u56db",
+   "rfc2119_ref\u00b713 \u500d\u4e09\u5341",
+   "lit_rectimeout\u00b703 \u4e00\u767e\u4e8c",
+   "lit_infin\u00b703 \u4e00\u767e\u4e8c",
+   "cite_2131\u00b718 \u53ef\u4e0b\u53d1",
+   "cite_2132\u00b718 \u53ef\u4e0b\u53d1",
+   "tag_C"
+  ],
+  "2": [
+   "lit_durword",
+   "lit_s120\u00b703 \u4e00\u767e\u4e8c",
+   "lit_s120\u00b713 \u500d\u4e09\u5341",
+   "lit_solmaxrt\u00b703 \u4e00\u767e\u4e8c",
+   "y_clamp_lit",
+   "y_clamp_lit",
+   "al_n",
+   "al_norm_diff",
+   "y_must_ignore_n\u00b713 \u500d\u4e09\u5341",
+   "y_clamp_86400\u00b718 \u53ef\u4e0b\u53d1",
+   "lit_iface",
+   "y_unit_n\u00b713 \u500d\u4e09\u5341",
+   "y_dur_win_n\u00b713 \u500d\u4e09\u5341",
+   "wrap_sn_hit",
+   "wrap_sn_total",
+   "u_should\u00b713 \u500d\u4e09\u5341",
+   "l_may\u00b713 \u500d\u4e09\u5341",
+   "y_outw_should\u00b713 \u500d\u4e09\u5341",
+   "lit_infmaxrt\u00b703 \u4e00\u767e\u4e8c",
+   "lit_reqmaxrt\u00b703 \u4e00\u767e\u4e8c",
+   "lit_reqmaxrt\u00b718 \u53ef\u4e0b\u53d1",
+   "lit_renmaxrt\u00b703 \u4e00\u767e\u4e8c",
+   "lit_renmaxrt\u00b718 \u53ef\u4e0b\u53d1",
+   "lit_rebmaxrt\u00b703 \u4e00\u767e\u4e8c",
+   "lit_rebmaxrt\u00b718 \u53ef\u4e0b\u53d1",
+   "lit_reqmaxrc\u00b703 \u4e00\u767e\u4e8c",
+   "lit_reqmaxrc\u00b718 \u53ef\u4e0b\u53d1",
+   "lit_relmaxrc\u00b703 \u4e00\u767e\u4e8c",
+   "lit_relmaxrc\u00b718 \u53ef\u4e0b\u53d1",
+   "lit_decmaxrc\u00b703 \u4e00\u767e\u4e8c",
+   "lit_decmaxrc\u00b718 \u53ef\u4e0b\u53d1",
+   "lit_retrans\u00b713 \u500d\u4e09\u5341",
+   "lit_preferre\u00b718 \u53ef\u4e0b\u53d1"
+  ],
+  "3600000": [
+   "y_ans_ms\u00b718 \u53ef\u4e0b\u53d1"
+  ],
+  "secs": [
+   "y_ans_unit\u00b713 \u500d\u4e09\u5341",
+   "y_ans_unit\u00b718 \u53ef\u4e0b\u53d1"
+  ],
+  "50": [
+   "lit_srt_minus_irt"
+  ],
+  "3": [
+   "outw_v86400\u00b713 \u500d\u4e09\u5341",
+   "y_unit_n\u00b703 \u4e00\u767e\u4e8c",
+   "y_unit_n\u00b718 \u53ef\u4e0b\u53d1",
+   "y_dur_win_n\u00b797 \u516d\u5341\u56db",
+   "y_dur_out_n\u00b718 \u53ef\u4e0b\u53d1",
+   "oblig_low\u00b713 \u500d\u4e09\u5341",
+   "lit_rectimeout\u00b718 \u53ef\u4e0b\u53d1",
+   "obsoleted_by\u00b718 \u53ef\u4e0b\u53d1",
+   "list_clos_n"
+  ],
+  "20": [
+   "durlit_b"
+  ],
+  "9": [
+   "y_dur_win_n\u00b718 \u53ef\u4e0b\u53d1",
+   "v_solicit\u00b713 \u500d\u4e09\u5341",
+   "share_bc"
+  ],
+  "11": [
+   "wrap_sn_n",
+   "y_secw_should\u00b797 \u516d\u5341\u56db",
+   "lit_infin\u00b718 \u53ef\u4e0b\u53d1",
+   "anchor_single"
+  ],
+  "5": [
+   "u_may\u00b713 \u500d\u4e09\u5341",
+   "y_outw_may\u00b713 \u500d\u4e09\u5341",
+   "share_ab",
+   "tag_B"
+  ],
+  "65": [
+   "u_may\u00b718 \u53ef\u4e0b\u53d1",
+   "y_outw_may\u00b718 \u53ef\u4e0b\u53d1"
+  ],
+  "46": [
+   "u_must_not\u00b797 \u516d\u5341\u56db",
+   "l_should\u00b718 \u53ef\u4e0b\u53d1",
+   "lit_retrans\u00b718 \u53ef\u4e0b\u53d1",
+   "lit_infreq\u00b703 \u4e00\u767e\u4e8c"
+  ],
+  "22": [
+   "oblig_up\u00b713 \u500d\u4e09\u5341",
+   "l_must\u00b797 \u516d\u5341\u56db",
+   "l_should\u00b797 \u516d\u5341\u56db",
+   "anchor_total"
+  ],
+  "26": [
+   "l_must\u00b718 \u53ef\u4e0b\u53d1"
+  ],
+  "16": [
+   "l_should\u00b703 \u4e00\u767e\u4e8c",
+   "scalar_clos_n"
+  ],
+  "215": [
+   "oblig_low\u00b718 \u53ef\u4e0b\u53d1"
+  ],
+  "136": [
+   "y_outw_must\u00b703 \u4e00\u767e\u4e8c"
+  ],
+  "15": [
+   "y_outw_must\u00b713 \u500d\u4e09\u5341"
+  ],
+  "220": [
+   "y_outw_must\u00b718 \u53ef\u4e0b\u53d1"
+  ],
+  "35": [
+   "y_outw_should\u00b703 \u4e00\u767e\u4e8c"
+  ],
+  "74": [
+   "y_outw_should\u00b718 \u53ef\u4e0b\u53d1"
+  ],
+  "28": [
+   "y_oblig_win\u00b797 \u516d\u5341\u56db"
+  ],
+  "43": [
+   "lit_infmaxrt\u00b718 \u53ef\u4e0b\u53d1"
+  ],
+  "13": [
+   "lit_ffffffff\u00b718 \u53ef\u4e0b\u53d1",
+   "cite_7083\u00b718 \u53ef\u4e0b\u53d1"
+  ],
+  "19": [
+   "cite_3315\u00b713 \u500d\u4e09\u5341"
+  ],
+  "21": [
+   "cite_3315\u00b718 \u53ef\u4e0b\u53d1",
+   "num_lines\u00b797 \u516d\u5341\u56db",
+   "num_lines_a"
+  ],
+  "36": [
+   "num_lines_b"
+  ],
+  "42": [
+   "num_lines_c"
+  ],
+  "116": [
+   "num_lines_d"
+  ],
+  "27": [
+   "share_cd",
+   "y_cd_byte_shared",
+   "x_ident_n"
+  ],
+  "5621": [
+   "abcd_incl"
+  ],
+  "25": [
+   "B64V('chars',3)//B64V('chars',2)"
+  ],
+  "17": [
+   "anchor_distinct"
+  ],
+  "4000": [
+   "\u5217\u8868\u5143\u7d20\u00b74000"
+  ],
+  "8000": [
+   "\u5217\u8868\u5143\u7d20\u00b78000"
+  ],
+  "10000": [
+   "\u5217\u8868\u5143\u7d20\u00b710000"
+  ],
+  "20000": [
+   "\u5217\u8868\u5143\u7d20\u00b720000"
+  ],
+  "30000": [
+   "\u5217\u8868\u5143\u7d20\u00b730000"
+  ],
+  "60000": [
+   "\u5217\u8868\u5143\u7d20\u00b760000"
+  ],
+  "600000": [
+   "\u5217\u8868\u5143\u7d20\u00b7600000"
+  ]
+ },
+ "zero_terms": 157,
+ "deriv_keys": 147,
+ "deriv_points": 361,
+ "notes": {
+  "113738": "bytes\u00b797 \u516d\u5341\u56db",
+  "231402": "bytes\u00b703 \u4e00\u767e\u4e8c",
+  "14630": "bytes\u00b713 \u500d\u4e09\u5341",
+  "370298": "bytes\u00b718 \u53ef\u4e0b\u53d1",
+  "2524": "lines\u00b797 \u516d\u5341\u56db",
+  "5660": "lines\u00b703 \u4e00\u767e\u4e8c",
+  "396": "lines\u00b713 \u500d\u4e09\u5341",
+  "8628": "lines\u00b718 \u53ef\u4e0b\u53d1",
+  "1800": "nonblank\u00b797 \u516d\u5341\u56db",
+  "3768": "nonblank\u00b703 \u4e00\u767e\u4e8c",
+  "254": "nonblank\u00b713 \u500d\u4e09\u5341",
+  "5875": "nonblank\u00b718 \u53ef\u4e0b\u53d1",
+  "75": "maxlen\u00b797 \u516d\u5341\u56db",
+  "72": "maxlen\u00b703 \u4e00\u767e\u4e8c",
+  "355668": "bytes_span",
+  "8944": "sec_len\u00b797 \u516d\u5341\u56db",
+  "1583": "sec_len\u00b703 \u4e00\u767e\u4e8c",
+  "970": "sec_len\u00b713 \u500d\u4e09\u5341",
+  "5162": "sec_len\u00b718 \u53ef\u4e0b\u53d1",
+  "1223": "sec_a",
+  "1386": "sec_b",
+  "846": "sec_a",
+  "878": "sec_b",
+  "101": "sec_a",
+  "130": "sec_b",
+  "1462": "sec_a",
+  "1544": "sec_b",
+  "4.1 Constructing and sending DHCP messages": "sec_head",
+  "5.5. Transmission and Retransmission Parameters": "sec_head",
+  "3.  Updates to SOL_MAX_RT and INF_MAX_RT in RFC 3315": "sec_head",
+  "7.6.  Transmission and Retransmission Parameters": "sec_head",
+  "1": "sec_hit\u00b797 \u516d\u5341\u56db",
+  "44": "hdr_sp\u00b797 \u516d\u5341\u56db",
+  "100": "hdr_sp\u00b703 \u4e00\u767e\u4e8c",
+  "6": "hdr_sp\u00b713 \u500d\u4e09\u5341",
+  "153": "hdr_sp\u00b718 \u53ef\u4e0b\u53d1",
+  "45": "foot\u00b797 \u516d\u5341\u56db",
+  "7": "foot\u00b713 \u500d\u4e09\u5341",
+  "154": "foot\u00b718 \u53ef\u4e0b\u53d1",
+  "1845": "nonblank_asciib\u00b797 \u516d\u5341\u56db",
+  "3869": "nonblank_asciib\u00b703 \u4e00\u767e\u4e8c",
+  "261": "nonblank_asciib\u00b713 \u500d\u4e09\u5341",
+  "6029": "nonblank_asciib\u00b718 \u53ef\u4e0b\u53d1",
+  "4": "sig_distinct",
+  "[4, 8, 16, 32, 64]": "a_seq",
+  "5": "a_seq_n",
+  "16": "a_ratio",
+  "24": "tbl_rows_0",
+  "28": "tbl_rows_0",
+  "[851]": "tbl_start",
+  "[1471]": "tbl_start",
+  "21": "bd_n",
+  "17": "bd_same",
+  "[['SOL_MAX_RT', 120, 3600], ['INF_MAX_RT', 120, 3600], ['REL_MAX_RC', 5, 4], ['DEC_MAX_RC', 5, 4]]": "bd_diff",
+  "[30, 30, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]": "bd_ratio",
+  "30": "cap_ratio_d_b",
+  "9": "on_n_c",
+  "[['SOL_MAX_RT', 120, 3600, 3], ['INF_MAX_RT', 120, 3600, 3], ['MUST', None, None, 7], ['MUST', None, None, 9]]": "on_pair_c",
+  "22": "on_span",
+  "['SOL_MAX_RT', 'INF_MAX_RT']": "on_changed",
+  "[30, 30]": "on_ratio",
+  "2": "bd_unproposed_n",
+  "['REL_MAX_RC', 'DEC_MAX_RC']": "bd_unproposed",
+  "64000": "y_ans_ms\u00b797 \u516d\u5341\u56db",
+  "120000": "y_ans_ms\u00b703 \u4e00\u767e\u4e8c",
+  "3600000": "y_ans_ms\u00b713 \u500d\u4e09\u5341",
+  "seconds": "y_ans_unit\u00b797 \u516d\u5341\u56db",
+  "secs": "y_ans_unit\u00b703 \u4e00\u767e\u4e8c",
+  "3": "y_ans_distinct",
+  "56": "y_ans_ratio",
+  "16000": "y_ans_rem",
+  "50": "lit_solmaxrt\u00b713 \u500d\u4e09\u5341",
+  "19": "lit_irt",
+  "26": "lit_srt_minus_irt",
+  "20": "al_char_delta",
+  "11": "y_must_ignore_n\u00b718 \u53ef\u4e0b\u53d1",
+  "46": "outw_solmaxrt\u00b713 \u500d\u4e09\u5341",
+  "[4000, 8000, 60000, 64000]": "durms_a",
+  "[1000, 2000, 4000, 10000, 30000, 120000, 600000]": "durms_b",
+  "[120000, 3600000]": "durms_c",
+  "[1000, 2000, 4000, 10000, 20000, 30000, 60000, 600000, 3600000, 86400000]": "durms_d",
+  "25": "durlit_d",
+  "1000": "dur_ms_lo",
+  "86400000": "dur_ms_hi",
+  "[86400]": "dur_ratio",
+  "[0]": "dur_rem",
+  "[[4000], [], [], []]": "y_dur_wrap_ms",
+  "8": "y_self_lit\u00b713 \u500d\u4e09\u5341",
+  "155": "y_self_lit\u00b718 \u53ef\u4e0b\u53d1",
+  "6562": "pool_1",
+  "3057": "pool_2",
+  "161": "pool_3",
+  "81": "pool_4",
+  "9861": "pool_n",
+  "118": "u_must\u00b797 \u516d\u5341\u56db",
+  "136": "u_must\u00b703 \u4e00\u767e\u4e8c",
+  "15": "u_must\u00b713 \u500d\u4e09\u5341",
+  "220": "u_must\u00b718 \u53ef\u4e0b\u53d1",
+  "65": "u_should\u00b797 \u516d\u5341\u56db",
+  "35": "u_should\u00b703 \u4e00\u767e\u4e8c",
+  "74": "u_should\u00b718 \u53ef\u4e0b\u53d1",
+  "48": "u_may\u00b797 \u516d\u5341\u56db",
+  "18": "u_must_not\u00b703 \u4e00\u767e\u4e8c",
+  "43": "u_must_not\u00b718 \u53ef\u4e0b\u53d1",
+  "231": "oblig_up\u00b797 \u516d\u5341\u56db",
+  "215": "oblig_up\u00b703 \u4e00\u767e\u4e8c",
+  "359": "oblig_up\u00b718 \u53ef\u4e0b\u53d1",
+  "23": "l_must\u00b703 \u4e00\u767e\u4e8c",
+  "87": "l_may\u00b797 \u516d\u5341\u56db",
+  "89": "l_may\u00b703 \u4e00\u767e\u4e8c",
+  "143": "l_may\u00b718 \u53ef\u4e0b\u53d1",
+  "131": "oblig_low\u00b797 \u516d\u5341\u56db",
+  "128": "oblig_low\u00b703 \u4e00\u767e\u4e8c",
+  "13": "y_secw_must\u00b797 \u516d\u5341\u56db",
+  "105": "y_outw_must\u00b797 \u516d\u5341\u56db",
+  "54": "y_outw_should\u00b797 \u516d\u5341\u56db",
+  "27": "lit_retrans\u00b797 \u516d\u5341\u56db",
+  "32": "lit_retrans\u00b703 \u4e00\u767e\u4e8c",
+  "77": "v_solicit\u00b703 \u4e00\u767e\u4e8c",
+  "83": "v_solicit\u00b718 \u53ef\u4e0b\u53d1",
+  "67": "lit_infreq\u00b718 \u53ef\u4e0b\u53d1",
+  "64": "v_renew\u00b703 \u4e00\u767e\u4e8c",
+  "71": "v_renew\u00b718 \u53ef\u4e0b\u53d1",
+  "38": "v_rebind\u00b703 \u4e00\u767e\u4e8c",
+  "10": "lit_ffffffff\u00b797 \u516d\u5341\u56db",
+  "12": "cite_4941\u00b718 \u53ef\u4e0b\u53d1",
+  "36": "num_lines\u00b703 \u4e00\u767e\u4e8c",
+  "42": "num_lines\u00b713 \u500d\u4e09\u5341",
+  "116": "num_lines\u00b718 \u53ef\u4e0b\u53d1",
+  "627": "share_bd",
+  "526": "y_bd_byte_shared",
+  "5621": "union_abcd",
+  "3206": "union_abc",
+  "2415": "union_delta",
+  "84": "only_c",
+  "4192": "B64V('sec_len',3)-B64V('sec_len',2)",
+  "68": "checks",
+  "851": "\u5217\u8868\u5143\u7d20\u00b7851",
+  "1471": "\u5217\u8868\u5143\u7d20\u00b71471",
+  "4000": "\u5217\u8868\u5143\u7d20\u00b74000",
+  "8000": "\u5217\u8868\u5143\u7d20\u00b78000",
+  "10000": "\u5217\u8868\u5143\u7d20\u00b710000",
+  "20000": "\u5217\u8868\u5143\u7d20\u00b720000",
+  "30000": "\u5217\u8868\u5143\u7d20\u00b730000",
+  "60000": "\u5217\u8868\u5143\u7d20\u00b760000",
+  "600000": "\u5217\u8868\u5143\u7d20\u00b7600000"
+ },
+ "pool_used": 17,
+ "enc_chars": 8850,
+ "nsrc": 4,
+ "flat": {
+  "bytes": [
+   113738,
+   231402,
+   14630,
+   370298
+  ],
+  "chars": [
+   113738,
+   231402,
+   14630,
+   370298
+  ],
+  "lines": [
+   2524,
+   5660,
+   396,
+   8628
+  ],
+  "nonblank": [
+   1800,
+   3768,
+   254,
+   5875
+  ],
+  "nonblank_asciib": [
+   1845,
+   3869,
+   261,
+   6029
+  ],
+  "ff_only_lines": [
+   45,
+   101,
+   7,
+   154
+  ],
+  "cr": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "nonascii": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "bom": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "formfeed": [
+   45,
+   101,
+   7,
+   154
+  ],
+  "maxlen": [
+   75,
+   72,
+   72,
+   72
+  ],
+  "trail": [
+   45,
+   101,
+   7,
+   154
+  ],
+  "nb_gap": [
+   45,
+   101,
+   7,
+   154
+  ],
+  "bytes_span": 355668,
+  "chars_no_nl": [
+   111215,
+   225743,
+   14235,
+   361671
+  ],
+  "rec_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "sig": [
+   "951ded0299806484",
+   "b1bc6324b739ac9e",
+   "ff99808223d9041a",
+   "3f0d185890c2b519"
+  ],
+  "sig_distinct": 4,
+  "hdr_sp": [
+   44,
+   100,
+   6,
+   153
+  ],
+  "hdr_ns": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "hdr": [
+   44,
+   100,
+   6,
+   153
+  ],
+  "foot": [
+   45,
+   101,
+   7,
+   154
+  ],
+  "foot_brk": [
+   45,
+   101,
+   7,
+   154
+  ],
+  "pg": [
+   45,
+   101,
+   7,
+   154
+  ],
+  "pagelines": [
+   89,
+   201,
+   13,
+   307
+  ],
+  "pages_est": [
+   45,
+   101,
+   7,
+   154
+  ],
+  "hdr_ledger": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "hdr_ledger_sum": 0,
+  "ff_foot_sum": 0,
+  "nb_ff_sum": 0,
+  "pg_foot_sum": 0,
+  "lit_clamp": [
+   0,
+   0,
+   2,
+   2
+  ],
+  "lit_cnfmaxrt": [
+   0,
+   2,
+   0,
+   2
+  ],
+  "lit_d4s": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "lit_d64": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "lit_d8s": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "lit_decmaxrc": [
+   0,
+   2,
+   0,
+   2
+  ],
+  "lit_discard": [
+   0,
+   1,
+   0,
+   2
+  ],
+  "lit_ffffffff": [
+   10,
+   7,
+   0,
+   13
+  ],
+  "lit_ignore": [
+   0,
+   1,
+   2,
+   11
+  ],
+  "lit_infin": [
+   1,
+   4,
+   0,
+   11
+  ],
+  "lit_infmaxrt": [
+   0,
+   2,
+   44,
+   43
+  ],
+  "lit_infreq": [
+   0,
+   46,
+   7,
+   67
+  ],
+  "lit_irc": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_irt": [
+   0,
+   13,
+   0,
+   19
+  ],
+  "lit_leasedur": [
+   3,
+   0,
+   0,
+   0
+  ],
+  "lit_max64": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "lit_newlbl": [
+   0,
+   0,
+   5,
+   0
+  ],
+  "lit_oldlbl": [
+   0,
+   0,
+   4,
+   0
+  ],
+  "lit_optionreq": [
+   0,
+   15,
+   3,
+   27
+  ],
+  "lit_p05": [
+   1,
+   0,
+   0,
+   3
+  ],
+  "lit_p08": [
+   1,
+   0,
+   0,
+   2
+  ],
+  "lit_p50": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_p875": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_pd": [
+   0,
+   0,
+   2,
+   95
+  ],
+  "lit_preferre": [
+   0,
+   1,
+   0,
+   2
+  ],
+  "lit_reback": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "lit_rebmaxrt": [
+   0,
+   2,
+   0,
+   2
+  ],
+  "lit_rectimeout": [
+   0,
+   4,
+   0,
+   3
+  ],
+  "lit_relmaxrc": [
+   0,
+   2,
+   0,
+   2
+  ],
+  "lit_renmaxrt": [
+   0,
+   2,
+   0,
+   2
+  ],
+  "lit_reqmaxrc": [
+   0,
+   2,
+   0,
+   2
+  ],
+  "lit_reqmaxrt": [
+   0,
+   2,
+   0,
+   2
+  ],
+  "lit_retrans": [
+   27,
+   32,
+   2,
+   46
+  ],
+  "lit_s120": [
+   0,
+   2,
+   2,
+   0
+  ],
+  "lit_s1sec": [
+   0,
+   9,
+   0,
+   9
+  ],
+  "lit_s3600": [
+   0,
+   0,
+   2,
+   2
+  ],
+  "lit_s600": [
+   0,
+   2,
+   2,
+   5
+  ],
+  "lit_solmaxdelay": [
+   0,
+   2,
+   0,
+   2
+  ],
+  "lit_solmaxrt": [
+   0,
+   2,
+   50,
+   45
+  ],
+  "lit_soltimeout": [
+   0,
+   2,
+   0,
+   2
+  ],
+  "lit_t1": [
+   16,
+   37,
+   0,
+   84
+  ],
+  "lit_t2": [
+   15,
+   38,
+   0,
+   82
+  ],
+  "lit_ta": [
+   0,
+   47,
+   2,
+   71
+  ],
+  "lit_v120": [
+   0,
+   2,
+   4,
+   2
+  ],
+  "lit_v3600": [
+   0,
+   0,
+   3,
+   2
+  ],
+  "lit_v604800": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_v86400": [
+   0,
+   0,
+   3,
+   5
+  ],
+  "lit_durdef": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "lit_durdef875": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_durdef875_fold": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "lit_durdef875_gap": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "lit_durdef875_gap_sum": 1,
+  "lit_durword": [
+   2,
+   0,
+   0,
+   0
+  ],
+  "lit_t1def": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "lit_sameacross": [
+   0,
+   0,
+   0,
+   2
+  ],
+  "lit_iface": [
+   0,
+   0,
+   0,
+   2
+  ],
+  "lit_retain": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "lit_retain_sp": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_srt_minus_irt": [
+   0,
+   -11,
+   50,
+   26
+  ],
+  "tbl_n": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "tbl_rows": [
+   [],
+   [
+    24
+   ],
+   [],
+   [
+    28
+   ]
+  ],
+  "tbl_start": [
+   [],
+   [
+    851
+   ],
+   [],
+   [
+    1471
+   ]
+  ],
+  "tbl_rows_0": [
+   0,
+   24,
+   0,
+   28
+  ],
+  "tbl_row_delta": 4,
+  "pv_sol_max_rt": [
+   [],
+   [
+    120
+   ],
+   [],
+   [
+    3600
+   ]
+  ],
+  "pv_inf_max_rt": [
+   [],
+   [
+    120
+   ],
+   [],
+   [
+    3600
+   ]
+  ],
+  "pv_ren_max_rt": [
+   [],
+   [
+    600
+   ],
+   [],
+   [
+    600
+   ]
+  ],
+  "pv_reb_max_rt": [
+   [],
+   [
+    600
+   ],
+   [],
+   [
+    600
+   ]
+  ],
+  "pv_req_max_rt": [
+   [],
+   [
+    30
+   ],
+   [],
+   [
+    30
+   ]
+  ],
+  "pv_sol_timeout": [
+   [],
+   [
+    1
+   ],
+   [],
+   [
+    1
+   ]
+  ],
+  "pv_req_timeout": [
+   [],
+   [
+    1
+   ],
+   [],
+   [
+    1
+   ]
+  ],
+  "pv_reb_timeout": [
+   [],
+   [
+    10
+   ],
+   [],
+   [
+    10
+   ]
+  ],
+  "pv_inf_timeout": [
+   [],
+   [
+    1
+   ],
+   [],
+   [
+    1
+   ]
+  ],
+  "pv_rel_timeout": [
+   [],
+   [
+    1
+   ],
+   [],
+   [
+    1
+   ]
+  ],
+  "pv_dec_timeout": [
+   [],
+   [
+    1
+   ],
+   [],
+   [
+    1
+   ]
+  ],
+  "pv_cnf_timeout": [
+   [],
+   [
+    1
+   ],
+   [],
+   [
+    1
+   ]
+  ],
+  "pv_rec_timeout": [
+   [],
+   [
+    2
+   ],
+   [],
+   [
+    2
+   ]
+  ],
+  "pv_sol_max_delay": [
+   [],
+   [
+    1
+   ],
+   [],
+   [
+    1
+   ]
+  ],
+  "pv_cnf_max_delay": [
+   [],
+   [
+    1
+   ],
+   [],
+   [
+    1
+   ]
+  ],
+  "pv_inf_max_delay": [
+   [],
+   [
+    1
+   ],
+   [],
+   [
+    1
+   ]
+  ],
+  "pv_cnf_max_rd": [
+   [],
+   [
+    10
+   ],
+   [],
+   [
+    10
+   ]
+  ],
+  "pv_req_max_rc": [
+   [],
+   [
+    10
+   ],
+   [],
+   [
+    10
+   ]
+  ],
+  "pv_rel_max_rc": [
+   [],
+   [
+    5
+   ],
+   [],
+   [
+    4
+   ]
+  ],
+  "pv_dec_max_rc": [
+   [],
+   [
+    5
+   ],
+   [],
+   [
+    4
+   ]
+  ],
+  "pv_cnf_max_rc": [
+   [],
+   [],
+   [],
+   []
+  ],
+  "pv_rec_max_rc": [
+   [],
+   [
+    8
+   ],
+   [],
+   [
+    8
+   ]
+  ],
+  "pv_max_rc": [
+   [],
+   [],
+   [],
+   []
+  ],
+  "bd_n": 21,
+  "bd_same": 17,
+  "bd_diff": [
+   [
+    "SOL_MAX_RT",
+    120,
+    3600
+   ],
+   [
+    "INF_MAX_RT",
+    120,
+    3600
+   ],
+   [
+    "REL_MAX_RC",
+    5,
+    4
+   ],
+   [
+    "DEC_MAX_RC",
+    5,
+    4
+   ]
+  ],
+  "bd_ratio": [
+   30,
+   30,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "bd_close": 0,
+  "bd_pv_same": 17,
+  "bd_diff_n": 4,
+  "bd_unproposed": [
+   "REL_MAX_RC",
+   "DEC_MAX_RC"
+  ],
+  "bd_unproposed_n": 2,
+  "cap_ratio_d_b": 30,
+  "on_pair_a": [],
+  "on_n_a": 0,
+  "on_pair_b": [],
+  "on_n_b": 0,
+  "on_pair_c": [
+   [
+    "SOL_MAX_RT",
+    120,
+    3600,
+    3
+   ],
+   [
+    "INF_MAX_RT",
+    120,
+    3600,
+    3
+   ],
+   [
+    "MUST",
+    null,
+    null,
+    7
+   ],
+   [
+    "MUST",
+    null,
+    null,
+    9
+   ]
+  ],
+  "on_n_c": 9,
+  "on_pair_d": [],
+  "on_n_d": 0,
+  "on_changed": [
+   "SOL_MAX_RT",
+   "INF_MAX_RT"
+  ],
+  "on_ratio": [
+   30,
+   30
+  ],
+  "on_span": 22,
+  "on_changed_n": 2,
+  "on_ratio_cap_close": 0,
+  "y_ans_ms": [
+   64000,
+   120000,
+   3600000,
+   3600000
+  ],
+  "y_ans_num": [
+   "64",
+   "120",
+   "3600",
+   "3600"
+  ],
+  "y_ans_unit": [
+   "seconds",
+   "secs",
+   "secs",
+   "secs"
+  ],
+  "y_ans_wrap": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "y_ans_s": [
+   64,
+   120,
+   3600,
+   3600
+  ],
+  "y_ans_distinct": 3,
+  "y_ans_max": 3600000,
+  "y_ans_min": 64000,
+  "y_ans_ratio": 56,
+  "y_ans_rem": 16000,
+  "y_ans_span_close": 0,
+  "y_cd_ans_close": 0,
+  "y_bc_ans_gap": 56000,
+  "y_db_ans_gap": 3480000,
+  "y_a_first": 4000,
+  "y_a_next": 8000,
+  "y_a_first_wrap": 1,
+  "y_a_next_wrap": 0,
+  "a_seq_ms": [
+   4000,
+   8000,
+   16000,
+   32000,
+   64000
+  ],
+  "a_seq": [
+   4,
+   8,
+   16,
+   32,
+   64
+  ],
+  "a_seq_n": 5,
+  "a_doublings": 4,
+  "a_ratio": 16,
+  "a_seq_close": 0,
+  "a_seq_next_close": 0,
+  "a_ratio_pow_close": 0,
+  "a_cap_x_first_close": 0,
+  "a_first_lit": [
+   2,
+   0,
+   0,
+   0
+  ],
+  "a_cap_ratio_d_b": 56,
+  "clamp_lo": [
+   0,
+   0,
+   60,
+   60
+  ],
+  "clamp_hi": [
+   0,
+   0,
+   86400,
+   86400
+  ],
+  "clamp_span": 1440,
+  "clamp_span_close": 0,
+  "y_clamp_lit": [
+   0,
+   0,
+   2,
+   2
+  ],
+  "clamp_cd_lo_close": 0,
+  "clamp_cd_hi_close": 0,
+  "y_clamp_86400": [
+   0,
+   0,
+   1,
+   2
+  ],
+  "y_ignore_srt": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "y_ignore_inf": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "y_must_ignore_n": [
+   0,
+   1,
+   2,
+   11
+  ],
+  "y_cd_lines": [
+   2,
+   2
+  ],
+  "al_n": 2,
+  "al_same_bytes": 0,
+  "al_punct_only": 0,
+  "al_norm_diff": 2,
+  "al_close": 0,
+  "al_char_delta": 20,
+  "s_c120": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "s_c120_fold": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "wrapgap_c120": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_c3600": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "s_c3600_fold": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "wrapgap_c3600": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_clampfull": [
+   0,
+   0,
+   0,
+   2
+  ],
+  "s_clampfull_fold": [
+   0,
+   0,
+   0,
+   2
+  ],
+  "wrapgap_clampfull": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_ignorefull": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "s_ignorefull_fold": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "wrapgap_ignorefull": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_max64full": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "s_max64full_fold": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "wrapgap_max64full": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_max64sp": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_max64sp_fold": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "wrapgap_max64sp": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "s_retainfull": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_retainfull_fold": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "wrapgap_retainfull": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "s_samefull": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "s_samefull_fold": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "wrapgap_samefull": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_discfull": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "s_discfull_fold": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "wrapgap_discfull": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_reback": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "s_reback_fold": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "wrapgap_reback": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_ifacefull": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "s_ifacefull_fold": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "wrapgap_ifacefull": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "wrap_sn_n": 11,
+  "wrap_sn_hit": 2,
+  "wrap_sn_total": 2,
+  "n_p05": [
+   1,
+   0,
+   0,
+   3
+  ],
+  "n_p05_fold": [
+   1,
+   0,
+   0,
+   3
+  ],
+  "wrap_p05": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_p08": [
+   1,
+   0,
+   0,
+   2
+  ],
+  "n_p08_fold": [
+   1,
+   0,
+   0,
+   2
+  ],
+  "wrap_p08": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_ld": [
+   3,
+   0,
+   0,
+   0
+  ],
+  "n_ld_fold": [
+   3,
+   0,
+   0,
+   0
+  ],
+  "wrap_ld": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_spl": [
+   0,
+   1,
+   0,
+   2
+  ],
+  "n_spl_fold": [
+   0,
+   1,
+   0,
+   2
+  ],
+  "wrap_spl": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_userval": [
+   5,
+   5,
+   0,
+   6
+  ],
+  "n_userval_fold": [
+   6,
+   5,
+   0,
+   6
+  ],
+  "wrap_userval": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "n_zerorule": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "n_zerorule_fold": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "wrap_zerorule": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "wrap_pin_n": 6,
+  "wrap_pin_hit": 1,
+  "wrap_total": 1,
+  "sec_w": [
+   [
+    1223,
+    1386
+   ],
+   [
+    846,
+    878
+   ],
+   [
+    101,
+    130
+   ],
+   [
+    1462,
+    1544
+   ]
+  ],
+  "sec_num": [
+   "4..1",
+   "5..5",
+   "3",
+   "7..6"
+  ],
+  "sec_a": [
+   1223,
+   846,
+   101,
+   1462
+  ],
+  "sec_b": [
+   1386,
+   878,
+   130,
+   1544
+  ],
+  "sec_head": [
+   "4.1 Constructing and sending DHCP messages",
+   "5.5. Transmission and Retransmission Parameters",
+   "3.  Updates to SOL_MAX_RT and INF_MAX_RT in RFC 3315",
+   "7.6.  Transmission and Retransmission Parameters"
+  ],
+  "sec_hit": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "sec_len": [
+   8944,
+   1583,
+   970,
+   5162
+  ],
+  "sec_len_a": 8944,
+  "sec_off_a": [
+   56663,
+   65607
+  ],
+  "sec_len_b": 1583,
+  "sec_off_b": [
+   40321,
+   41904
+  ],
+  "sec_len_c": 970,
+  "sec_off_c": [
+   4080,
+   5050
+  ],
+  "sec_len_d": 5162,
+  "sec_off_d": [
+   67688,
+   72850
+  ],
+  "secw_solmaxrt": [
+   0,
+   1,
+   4,
+   1
+  ],
+  "outw_solmaxrt": [
+   0,
+   1,
+   46,
+   44
+  ],
+  "secw_infmaxrt": [
+   0,
+   1,
+   3,
+   1
+  ],
+  "outw_infmaxrt": [
+   0,
+   1,
+   41,
+   42
+  ],
+  "secw_v86400": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "outw_v86400": [
+   0,
+   0,
+   3,
+   4
+  ],
+  "secw_s120": [
+   0,
+   2,
+   2,
+   0
+  ],
+  "outw_s120": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "secw_s3600": [
+   0,
+   0,
+   2,
+   2
+  ],
+  "outw_s3600": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "secw_ignore": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "outw_ignore": [
+   0,
+   1,
+   2,
+   11
+  ],
+  "secw_t1": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "outw_t1": [
+   16,
+   37,
+   0,
+   84
+  ],
+  "secw_infin": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "outw_infin": [
+   1,
+   4,
+   0,
+   11
+  ],
+  "y_secw_may": [
+   4,
+   0,
+   0,
+   0
+  ],
+  "y_outw_may": [
+   44,
+   44,
+   5,
+   65
+  ],
+  "y_secw_must": [
+   13,
+   0,
+   0,
+   0
+  ],
+  "y_outw_must": [
+   105,
+   136,
+   15,
+   220
+  ],
+  "y_secw_should": [
+   11,
+   0,
+   0,
+   0
+  ],
+  "y_outw_should": [
+   54,
+   35,
+   2,
+   74
+  ],
+  "y_secw_should_not": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "y_outw_should_not": [
+   46,
+   18,
+   1,
+   43
+  ],
+  "durms_a": [
+   4000,
+   8000,
+   60000,
+   64000
+  ],
+  "durms_n_a": 4,
+  "durlit_a": 7,
+  "durms_b": [
+   1000,
+   2000,
+   4000,
+   10000,
+   30000,
+   120000,
+   600000
+  ],
+  "durms_n_b": 7,
+  "durlit_b": 20,
+  "durms_c": [
+   120000,
+   3600000
+  ],
+  "durms_n_c": 2,
+  "durlit_c": 7,
+  "durms_d": [
+   1000,
+   2000,
+   4000,
+   10000,
+   20000,
+   30000,
+   60000,
+   600000,
+   3600000,
+   86400000
+  ],
+  "durms_n_d": 10,
+  "durlit_d": 25,
+  "dur_ms_lo": 1000,
+  "dur_ms_hi": 86400000,
+  "dur_ratio": [
+   86400
+  ],
+  "dur_rem": [
+   0
+  ],
+  "y_dur_wrap": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "y_dur_wrap_ms": [
+   [
+    4000
+   ],
+   [],
+   [],
+   []
+  ],
+  "y_unit_used": [
+   [
+    "seconds"
+   ],
+   [
+    "sec",
+    "seconds",
+    "secs"
+   ],
+   [
+    "seconds",
+    "secs"
+   ],
+   [
+    "sec",
+    "seconds",
+    "secs"
+   ]
+  ],
+  "y_unit_n": [
+   1,
+   3,
+   2,
+   3
+  ],
+  "y_dur_win": [
+   [
+    4000,
+    8000,
+    64000
+   ],
+   [
+    1000,
+    2000,
+    4000,
+    10000,
+    30000,
+    120000,
+    600000
+   ],
+   [
+    120000,
+    3600000
+   ],
+   [
+    1000,
+    2000,
+    4000,
+    10000,
+    30000,
+    60000,
+    600000,
+    3600000,
+    86400000
+   ]
+  ],
+  "y_dur_out": [
+   [
+    60000
+   ],
+   [
+    2000
+   ],
+   [
+    120000
+   ],
+   [
+    2000,
+    20000,
+    30000
+   ]
+  ],
+  "y_dur_win_n": [
+   3,
+   7,
+   2,
+   9
+  ],
+  "y_dur_out_n": [
+   1,
+   1,
+   1,
+   3
+  ],
+  "v_dhcp": [
+   586,
+   366,
+   40,
+   543
+  ],
+  "v_dhcp4": [
+   0,
+   7,
+   0,
+   11
+  ],
+  "v_dhcp6": [
+   0,
+   18,
+   38,
+   67
+  ],
+  "v_solicit": [
+   0,
+   77,
+   9,
+   83
+  ],
+  "v_renew": [
+   0,
+   64,
+   0,
+   71
+  ],
+  "v_rebind": [
+   0,
+   38,
+   0,
+   72
+  ],
+  "v_inform": [
+   0,
+   46,
+   7,
+   67
+  ],
+  "v_timeout": [
+   4,
+   17,
+   4,
+   17
+  ],
+  "v_timer": [
+   4,
+   0,
+   0,
+   7
+  ],
+  "v_backoff": [
+   1,
+   0,
+   1,
+   1
+  ],
+  "v_retransword": [
+   14,
+   16,
+   2,
+   25
+  ],
+  "v_admin": [
+   18,
+   9,
+   0,
+   8
+  ],
+  "v_traffic": [
+   1,
+   1,
+   5,
+   12
+  ],
+  "v_interface": [
+   12,
+   64,
+   1,
+   99
+  ],
+  "v_server": [
+   287,
+   599,
+   20,
+   774
+  ],
+  "v_client": [
+   514,
+   773,
+   36,
+   1013
+  ],
+  "u_must_not": [
+   46,
+   18,
+   1,
+   43
+  ],
+  "u_must": [
+   118,
+   136,
+   15,
+   220
+  ],
+  "u_should_not": [
+   11,
+   3,
+   1,
+   12
+  ],
+  "u_should": [
+   65,
+   35,
+   2,
+   74
+  ],
+  "u_may": [
+   48,
+   44,
+   5,
+   65
+  ],
+  "u_required": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "oblig_up": [
+   231,
+   215,
+   22,
+   359
+  ],
+  "y_oblig_win": [
+   28,
+   0,
+   0,
+   0
+  ],
+  "l_must": [
+   22,
+   23,
+   1,
+   26
+  ],
+  "l_should": [
+   22,
+   16,
+   0,
+   46
+  ],
+  "l_may": [
+   87,
+   89,
+   2,
+   143
+  ],
+  "oblig_low": [
+   131,
+   128,
+   3,
+   215
+  ],
+  "rfc2119_ref": [
+   0,
+   1,
+   4,
+   6
+  ],
+  "cat_std": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "cat_bcp": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cat_info": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cat_exp": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "obs_hdr": [
+   1,
+   0,
+   0,
+   1
+  ],
+  "upd_hdr": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "issn_hdr": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "req_rc": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "obsoleted_by": [
+   0,
+   0,
+   0,
+   3
+  ],
+  "cite_2131": [
+   44,
+   1,
+   0,
+   4
+  ],
+  "cite_2132": [
+   0,
+   1,
+   0,
+   4
+  ],
+  "cite_3315": [
+   0,
+   100,
+   19,
+   21
+  ],
+  "cite_7083": [
+   0,
+   0,
+   6,
+   13
+  ],
+  "cite_8415": [
+   0,
+   0,
+   0,
+   153
+  ],
+  "cite_4941": [
+   0,
+   0,
+   0,
+   12
+  ],
+  "cite_6221": [
+   0,
+   0,
+   0,
+   5
+  ],
+  "cite_7542": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_2119": [
+   0,
+   1,
+   4,
+   5
+  ],
+  "cite_3315_sp": [
+   0,
+   100,
+   15,
+   10
+  ],
+  "cite_3315_ns": [
+   0,
+   0,
+   4,
+   11
+  ],
+  "cite_ns_3315": [
+   0,
+   100,
+   19,
+   21
+  ],
+  "y_cite_ledger_3315": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "y_cite_ledger_3315_sum": 0,
+  "y_self_lit": [
+   45,
+   101,
+   8,
+   155
+  ],
+  "lines_ge40": [
+   1112,
+   1988,
+   120,
+   3069
+  ],
+  "lines_ge40_nos": [
+   1111,
+   1988,
+   120,
+   3069
+  ],
+  "share_ab": 5,
+  "share_ac": 0,
+  "share_ad": 0,
+  "share_bc": 9,
+  "share_bd": 627,
+  "share_cd": 27,
+  "union_abc": 3206,
+  "union_abcd": 5621,
+  "only_c": 84,
+  "share_ab_nos": 5,
+  "share_ac_nos": 0,
+  "share_ad_nos": 0,
+  "share_bc_nos": 9,
+  "share_bd_nos": 627,
+  "share_cd_nos": 27,
+  "union_abc_nos": 3205,
+  "union_abcd_nos": 5620,
+  "only_c_nos": 84,
+  "shell_delta": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "union_delta": 2415,
+  "abcd_incl": 5621,
+  "abcd_close": 0,
+  "y_bd_byte_shared": 526,
+  "y_bd_norm_only": 101,
+  "y_cd_byte_shared": 27,
+  "y_cd_norm_only": 0,
+  "num_lines": [
+   21,
+   36,
+   42,
+   116
+  ],
+  "num_lines_a": 21,
+  "num_lines_b": 36,
+  "num_lines_c": 42,
+  "num_lines_d": 116,
+  "pool_n": 9861,
+  "pool_tag_n": [
+   1604,
+   3121,
+   205,
+   4931
+  ],
+  "pool_1": 6562,
+  "pool_2": 3057,
+  "pool_3": 161,
+  "pool_4": 81,
+  "pool_tiers": [
+   6562,
+   3057,
+   161,
+   81
+  ],
+  "pool_close": 0,
+  "scalar_clos_n": 16,
+  "scalar_clos_sum": 0,
+  "list_clos_n": 3,
+  "x_ident_n": 27,
+  "anchor_total": 22,
+  "anchor_distinct": 17,
+  "anchor_err": 0,
+  "anchor_single": 11,
+  "anchor_cross": 6,
+  "anchor_all4": 0,
+  "checks": 68,
+  "tag_A": 7,
+  "tag_B": 5,
+  "tag_C": 4,
+  "tag_D": 6
+ },
+ "closure_keys": [
+  "rec_close",
+  "bd_close",
+  "on_ratio_cap_close",
+  "y_ans_span_close",
+  "y_cd_ans_close",
+  "a_seq_close",
+  "a_seq_next_close",
+  "a_ratio_pow_close",
+  "a_cap_x_first_close",
+  "clamp_span_close",
+  "clamp_cd_lo_close",
+  "clamp_cd_hi_close",
+  "al_close",
+  "abcd_close",
+  "pool_close"
+ ]
+}

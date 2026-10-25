@@ -1,0 +1,83 @@
+{
+ "chars": [
+  26755
+ ],
+ "words": [
+  3775
+ ],
+ "n_this_ad": [
+  46
+ ],
+ "n_unsafe_condition": [
+  7
+ ],
+ "n_prompted_by": [
+  4
+ ],
+ "n_cf34": [
+  56
+ ],
+ "n_group_1": [
+  3
+ ],
+ "n_group_2": [
+  3
+ ],
+ "n_v6.50": [
+  1
+ ],
+ "n_v6.60": [
+  1
+ ],
+ "n_v5.60": [
+  1
+ ],
+ "n_v5.70": [
+  1
+ ],
+ "n_eec_fadec": [
+  19
+ ],
+ "n_variable_geometry": [
+  2
+ ],
+ "n_corrosion": [
+  4
+ ],
+ "n_engine_degraded": [
+  6
+ ],
+ "n_amends": [
+  2
+ ],
+ "n_docket": [
+  13
+ ],
+ "n_cost": [
+  34
+ ],
+ "n_horizon_air": [
+  4
+ ],
+ "n_12_months": [
+  2
+ ],
+ "n_replace": [
+  4
+ ],
+ "n_reporting_requirement": [
+  2
+ ],
+ "n_executive_order": [
+  4
+ ],
+ "atom_n": 6,
+ "atom_lines": [
+  "This AD requires removing certain electronic engine control (EEC) full authority digital electronic control (FADEC) software versions from service",
+  "corrosion of the variable geometry system actuator",
+  "Group 1 engines, within 12 months after the effective date of this AD, replace any EEC FADEC software version that is V6.50 or earlier",
+  "any software version that is V5.70 or later approved version",
+  "GE Model CF34-8E2, CF34-8E2A1, CF34- 8E5, CF34-8E5A1, CF34-8E5A2, CF34-8E5A2HA, CF34-8E6, and CF34-8E6A1 engines",
+  "to prevent EEC FADEC software from automatically locking the engin"
+ ]
+}

@@ -1,0 +1,20 @@
+== med_gitalb ⇎ med_gitalb_s2 ==
+同题=True (sha 5044e4bd ⇎ 5044e4bd) 模型 deepseek-v4.1-flash-free ⇎ deepseek-v4.1-flash-free 时刻 2026-10-19T18:12:48 ⇎ 2026-10-21T04:55:50
+推理字符 22985 ⇎ 101356 (比值 4.41) ⇎ 磁盘 24177 ⇎ 109336 ⇎ 行 102 ⇎ 639 ⇎ 句 312 ⇎ 1299
+逐行复现 交 0 行 (占A 0.0% ⇎ Jaccard 0.0%)
+逐句复现 交 12 句 (占A 4.0% ⇎ Jaccard 0.8%)
+五词串复现 交 179 (Jaccard 1.09%)
+字符层: 逐字命中共 4794 字符 (占A 20.9% ⇎ SequenceMatcher ratio 0.077), 最长连续 97 字符
+  最长块: - Congenital adrenal hyperplasia (11β-hydroxylase, 17α-hydroxylase): h
+首个不同行 0 ⇎ 前缀同 0 行
+末字符 '5' ⇎ '.'
+回答区 0 ⇎ 6748 字符
+共有长行 top5: 
+复现拆解(块>=8 字, 共 154 块 2842 字符): 题面回声 791 (27.8%) ⇎ 推理复用 2051 (72.2%)
+  题面回声最长块 92 字:  "enumerate every cause of hypokalemic metabolic alkalosis with normal-to-low 
+  推理复用里最长 3 块: 97 字 - Congenital adrenal hyperplasia (11β-hydroxylase, 17α-hydro ‖ 49 字 - Renin-secreting tumor: hypertension, high renin ‖ 42 字 Need maybe mention "urine diuretic screen 
+  推理复用 >=8 字段落数 117 ⇎ 最长连续 97 字
+共有 12 句里题面来 1 句 ⇎ 共有 179 个五词串里题面来 46 个
+词法计数 actually 4⇎20(+16) arrow 6⇎41(+35) assume 0⇎3(+3) bold 0⇎2(+2) caveat 1⇎6(+5) equality 2⇎29(+27) final 0⇎18(+18) hmm 1⇎4(+3) however 43⇎254(+211) letme 0⇎0(+0) lets 14⇎31(+17) maybe 18⇎438(+420) must 0⇎0(+0) need 38⇎440(+402) prob 10⇎25(+15) q 75⇎172(+97) redo 0⇎0(+0) therefore 7⇎42(+35) unsure 0⇎2(+2) verif 4⇎21(+17) wait 1⇎4(+3) wrong 0⇎0(+0)
+回答区摘录 A: (空)
+回答区摘录 B: **Most likely diagnosis: Gitelman syndrome.**   ⏎ **Confirmatory test: genetic tes

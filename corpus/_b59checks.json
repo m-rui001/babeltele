@@ -1,0 +1,1511 @@
+{
+ "anchor_total": 25,
+ "anchor_distinct": 21,
+ "tag_counts": {
+  "T": 8,
+  "O": 5,
+  "F": 7,
+  "N": 5
+ },
+ "ameta": {
+  "anchor_total": 25,
+  "anchor_distinct": 21,
+  "anchor_err": 0,
+  "anchor_single": 21,
+  "anchor_cross": 0,
+  "anchor_all4": 0,
+  "checks": 84,
+  "tag_T": 8,
+  "tag_O": 5,
+  "tag_F": 7,
+  "tag_N": 5
+ },
+ "letters_in": 5266,
+ "letters_out": 657,
+ "tagn": 25,
+ "classes": {
+  "single": [
+   "A Memorized Secret authenticator - commonly referred to as a password or, if numeric, a PIN - is a secret value intended to be chosen and memorized by the user. Memorized secrets need to be of sufficient complexity and secrecy that it would be impractical for an attacker to guess or otherwise discover the correct secret value. A memorized secret is something you know.",
+   "A documented list of specific elements that are blocked, per policy decision. This concept has historically been known as a \"blacklist.\"",
+   "A type of authenticator consisting of a character string that is intended to be memorized or memorable by the subscriber to permit the claimant to demonstrate something they know as part of an authentication process. Passwords were referred to as memorized secrets in the initial release of SP 800-63B.",
+   "Allow at least 64 characters in length to support the use of passphrases. Encourage users to make memorized secrets as lengthy as they want, using any characters they like (including spaces), thus aiding memorization.",
+   "Authenticators that use activation secrets SHALL require the secrets to be at least four characters in length and SHOULD require the secrets to be at least six characters in length. Activation secrets MAY be entirely numeric (i.e., a PIN). Otherwise, all printing ASCII [RFC20] characters, the space character, and Unicode [ISO/ISC 10646] characters SHOULD be permitted in activation secrets. The authenticator or its management tools SHOULD implement a blocklist to discourage subscribers from selecting commonly used activation secrets (e.g., 123456).",
+   "If MFA is enabled passwords shorter than 8 characters are considered to be weak (NIST SP800-63B).",
+   "If MFA is not enabled passwords shorter than 15 characters are considered to be weak (NIST SP800-63B).",
+   "Implement a reasonable maximum password length, at least 64 characters, as discussed in the Implement Proper Password Strength Controls section.",
+   "Longer passphrases are effective because they raise the number of guesses an attacker's dictionary or wordlist has to cover, not because of a precise entropy value: NIST notes that \"estimating entropy for user-chosen passwords is challenging\" and recommends length and blocklist checks (see below) over composition or entropy math (NIST SP800-63B, Strength of Passwords). Entropy estimates rely on assumptions about the search space and should be treated as illustrative rather than as absolute measures of password strength.",
+   "Maximum password length should be at least 64 characters to allow passphrases (NIST SP800-63B). Note that certain implementations of hashing algorithms may cause long password denial of service.",
+   "Memorized secrets SHALL be at least 8 characters in length if chosen by the subscriber. Memorized secrets chosen randomly by the CSP or verifier SHALL be at least 6 characters in length and MAY be entirely numeric. If the CSP or verifier disallows a chosen memorized secret based on its appearance on a blacklist of compromised values, the subscriber SHALL be required to choose a different memorized secret. No other complexity requirements for memorized secrets SHOULD be imposed. A rationale for this is presented in Appendix A Strength of Memorized Secrets.",
+   "Memorized secrets that are randomly chosen by the CSP (e.g., at enrollment) or by the verifier (e.g., when a user requests a new PIN) SHALL be at least 6 characters in length and SHALL be generated using an approved random bit generator [SP 800-90Ar1].",
+   "Passwords, called \"Memorized Secrets\" by NIST 800-63, include passwords, PINs, unlock patterns, pick the correct kitten or another image element, and passphrases. They are generally considered \"something you know\", and often used as single-factor authenticators. There are significant challenges to the continued use of single-factor authentication, including billions of valid usernames and passwords disclosed on the Internet, default or weak passwords, rainbow tables and ordered dictionaries of the most common passwords.",
+   "Users' password choices are very predictable, so attackers are likely to guess passwords that have been successful in the past. These include dictionary words and passwords from previous breaches, such as the \"Password1!\" example above. For this reason, it is recommended that passwords chosen by users be compared against a \"black list\" of unacceptable passwords. This list should include passwords from previous breach corpuses, dictionary words, and specific words (such as the name of the service itself) that users are likely to choose. Since user choice of passwords will also be governed by a minimum length requirement, this dictionary need only include entries meeting that requirement.",
+   "Verifiers SHOULD NOT impose other composition rules (e.g., requiring mixtures of different character types or prohibiting consecutively repeated characters) for memorized secrets. Verifiers SHOULD NOT require memorized secrets to be changed arbitrarily (e.g., periodically). However, verifiers SHALL force a change if there is evidence of compromise of the authenticator.",
+   "Verifiers and CSPs SHALL NOT impose other composition rules (e.g., requiring mixtures of different character types) for passwords.",
+   "Verifiers and CSPs SHALL require passwords that are used as a single-factor authentication mechanism to be a minimum of 15 characters in length. Verifiers and CSPs MAY allow passwords that are only used as part of multi-factor authentication processes to be shorter but SHALL require them to be a minimum of eight characters in length.",
+   "When processing a request to establish or change a password, verifiers SHALL compare the prospective secret against a blocklist that contains known commonly used, expected, or compromised passwords. The entire password SHALL be subject to comparison, not substrings or words that might be contained therein. For example, the list may include:",
+   "| **2.1.1** | Verify that user set passwords are at least 12 characters in length (after multiple spaces are combined). ([C6](https://owasp.org/www-project-proactive-controls/#div-numbering)) | \u2713 | \u2713 | \u2713 | 521 | 5.1.1.2 |",
+   "| **2.1.12** | Verify that the user can choose to either temporarily view the entire masked password, or temporarily view the last typed character of the password on platforms that do not have this as built-in functionality. | \u2713 | \u2713 | \u2713 | 521 | 5.1.1.2 |",
+   "| **2.1.9** | Verify that there are no password composition rules limiting the type of characters permitted. There should be no requirement for upper or lower case or numbers or special characters. ([C6](https://owasp.org/www-project-proactive-controls/#div-numbering)) | \u2713 | \u2713 | \u2713 | 521 | 5.1.1.2 |"
+  ],
+  "two": [],
+  "three": [],
+  "four": []
+ },
+ "collisions": {
+  "9": [
+   "script_tags\u00b7\u65b0\u8349\u6848",
+   "asvs_rows_noref",
+   "kw_upper_total\u00b7\u9a8c\u8bc1\u6807\u51c6",
+   "bit_112\u00b7\u65b0\u8349\u6848"
+  ],
+  "4": [
+   "tr_rows\u00b7\u5907\u5fd8\u5355",
+   "ctx_occ\u00b7\u9a8c\u8bc1\u6807\u51c6",
+   "ctx_occ\u00b7\u5907\u5fd8\u5355",
+   "ctx_distinct\u00b7\u9a8c\u8bc1\u6807\u51c6",
+   "th_digit8",
+   "cite_unspaced",
+   "cite_63b_docs",
+   "tm_memorized",
+   "mc_ratelimit\u00b7\u5907\u5fd8\u5355",
+   "bit_20\u00b7\u65e7\u89c4\u8303",
+   "id_211_occ",
+   "sec_cite_word\u00b7\u5907\u5fd8\u5355",
+   "sec_cite_any\u00b7\u5907\u5fd8\u5355",
+   "sec_T_inF_text",
+   "pool_4"
+  ],
+  "1": [
+   "table_tags\u00b7\u5907\u5fd8\u5355",
+   "th_word_eight",
+   "th_digit64\u00b7\u9a8c\u8bc1\u6807\u51c6",
+   "th_digit128",
+   "th_digit15",
+   "th_digit15",
+   "cite_rev4num",
+   "cite_draftself",
+   "sup_nist",
+   "sup_openid",
+   "tm_defline\u00b7\u65b0\u8349\u6848",
+   "kw_may_u\u00b7\u9a8c\u8bc1\u6807\u51c6",
+   "kw_must_t",
+   "\u7981\u4ee4\u53e3\u5f84\u5dee\u00b7\u65e7\u89c4\u8303",
+   "comp_shouldnot\u00b7\u65e7\u89c4\u8303",
+   "comp_shallnot\u00b7\u65b0\u8349\u6848",
+   "\u540c\u6761\u65e0\u5f3a\u5ea6\u884c\u00b7\u9a8c\u8bc1\u6807\u51c6",
+   "\u540c\u6761\u65e0\u5f3a\u5ea6\u884c\u00b7\u5907\u5fd8\u5355",
+   "chg_shallnot\u00b7\u65b0\u8349\u6848",
+   "mc_forcechange\u00b7\u65e7\u89c4\u8303",
+   "mc_forcechange\u00b7\u65b0\u8349\u6848",
+   "mc_ratelimit\u00b7\u9a8c\u8bc1\u6807\u51c6",
+   "bit_64\u00b7\u9a8c\u8bc1\u6807\u51c6",
+   "bit_32\u00b7\u65e7\u89c4\u8303",
+   "bit_32\u00b7\u9a8c\u8bc1\u6807\u51c6",
+   "bit_20\u00b7\u9a8c\u8bc1\u6807\u51c6",
+   "bit_40\u00b7\u65b0\u8349\u6848",
+   "asvs_tick_legend",
+   "id_211_bold",
+   "id_211_occ",
+   "sent_share_th",
+   "sent_shared_ON"
+  ],
+  "6": [
+   "\u8349\u6848\u4e24\u5199\u6cd5\u4e4b\u548c",
+   "ctx_occ\u00b7\u65b0\u8349\u6848",
+   "cite_spaced\u00b7\u5907\u5fd8\u5355",
+   "tm_memorized_caps",
+   "kw_must_l\u00b7\u65e7\u89c4\u8303",
+   "kw_must_l\u00b7\u5907\u5fd8\u5355",
+   "bl_blacklist",
+   "mc_breach\u00b7\u65b0\u8349\u6848"
+  ],
+  "5": [
+   "ctx_distinct\u00b7\u65b0\u8349\u6848",
+   "kw_should_u\u00b7\u9a8c\u8bc1\u6807\u51c6",
+   "blk_def_lines",
+   "mc_breach\u00b7\u65e7\u89c4\u8303",
+   "bit_64\u00b7\u65b0\u8349\u6848",
+   "\u56db\u4efd\u51fa\u73b0\u5904\u4e4b\u548c",
+   "",
+   ""
+  ],
+  "3": [
+   "ctx_distinct\u00b7\u5907\u5fd8\u5355",
+   "ctx_digit_form",
+   "ctx_word_form",
+   "cite_spaced\u00b7\u65b0\u8349\u6848",
+   "tm_memorized",
+   "kw_shall_u\u00b7\u9a8c\u8bc1\u6807\u51c6",
+   "\u7981\u4ee4\u53e3\u5f84\u5dee\u00b7\u65b0\u8349\u6848",
+   "\u540c\u6761\u65e0\u5f3a\u5ea6\u884c\u00b7\u65e7\u89c4\u8303",
+   "\u540c\u6761\u65e0\u5f3a\u5ea6\u884c\u00b7\u65b0\u8349\u6848",
+   "mc_breach\u00b7\u5907\u5fd8\u5355"
+  ],
+  "2": [
+   "th_digit64\u00b7\u65b0\u8349\u6848",
+   "th_digit64\u00b7\u5907\u5fd8\u5355",
+   "ctx_815_docs",
+   "cite_spaced\u00b7\u65e7\u89c4\u8303",
+   "kw_must_l\u00b7\u9a8c\u8bc1\u6807\u51c6",
+   "mc_blocklist",
+   "bl_spaced",
+   "bl_word_any\u00b7\u5907\u5fd8\u5355",
+   "mc_lockout\u00b7\u9a8c\u8bc1\u6807\u51c6",
+   "mc_copypaste\u00b7\u65e7\u89c4\u8303",
+   "mc_copypaste\u00b7\u65b0\u8349\u6848",
+   "bit_112\u00b7\u9a8c\u8bc1\u6807\u51c6",
+   "bit_32\u00b7\u65b0\u8349\u6848",
+   "id_211_docs",
+   "sec_cite_word\u00b7\u9a8c\u8bc1\u6807\u51c6",
+   "sec_cite_any\u00b7\u9a8c\u8bc1\u6807\u51c6"
+  ],
+  "16": [
+   "\u8349\u6848\u4fa7\u672a\u547d\u4e2d\u679a\u6570",
+   "asvs_ref_distinct",
+   "asvs_ref_inT",
+   "asvs_ref_inT_text",
+   "kw_must_l\u00b7\u65b0\u8349\u6848"
+  ],
+  "57": [
+   "asvs_req_rows"
+  ],
+  "12": [
+   "asvs_url_head"
+  ],
+  "40": [
+   "tm_pw_plural\u00b7\u65e7\u89c4\u8303"
+  ],
+  "113": [
+   "tm_pw_plural\u00b7\u65b0\u8349\u6848"
+  ],
+  "134": [
+   "tm_pw_any\u00b7\u5907\u5fd8\u5355"
+  ],
+  "63": [
+   "kw_should_u\u00b7\u65e7\u89c4\u8303",
+   "carry_shared",
+   "carry_prose"
+  ],
+  "114": [
+   "kw_gap\u00b7\u65e7\u89c4\u8303"
+  ],
+  "46": [
+   "kw_gap\u00b7\u5907\u5fd8\u5355"
+  ],
+  "29": [
+   "kw_shallnot_u\u00b7\u65e7\u89c4\u8303"
+  ],
+  "8": [
+   "kw_shouldnot_u\u00b7\u65b0\u8349\u6848",
+   "bl_black",
+   "bl_word_any\u00b7\u65e7\u89c4\u8303",
+   "mc_lockout\u00b7\u65b0\u8349\u6848",
+   "bit_64\u00b7\u65e7\u89c4\u8303",
+   ""
+  ],
+  "17": [
+   "mc_blocklist"
+  ],
+  "10": [
+   "mc_breach\u00b7\u9a8c\u8bc1\u6807\u51c6",
+   "mc_lockout\u00b7\u65e7\u89c4\u8303"
+  ],
+  "25": [
+   "mc_ratelimit\u00b7\u65b0\u8349\u6848",
+   "asvs_5112\u00b7\u9a8c\u8bc1\u6807\u51c6",
+   ""
+  ],
+  "19": [
+   "mc_lockout\u00b7\u5907\u5fd8\u5355"
+  ],
+  "['112', '20', '32', '64']": [
+   "bit_set"
+  ],
+  "[]": [
+   "bit_set"
+  ],
+  "27": [
+   "asvs_tick_cols"
+  ],
+  "48": [
+   "asvs_tick_cols"
+  ],
+  "53": [
+   "asvs_tick_cols"
+  ],
+  "117": [
+   "sec_cite_any\u00b7\u65e7\u89c4\u8303"
+  ],
+  "80": [
+   "carry_sub_TF"
+  ],
+  "122": [
+   "pool_tag_n\u00b7\u9a8c\u8bc1\u6807\u51c6"
+  ],
+  "20": [
+   "pool_3"
+  ],
+  "1352": [
+   "pool_maxlen"
+  ],
+  "21": [
+   ""
+  ],
+  "7": [
+   ""
+  ]
+ },
+ "zero_terms": 106,
+ "deriv_keys": 120,
+ "deriv_points": 253,
+ "notes": {
+  "213": "\u4e24\u4ee3\u8868\u884c\u4e4b\u548c",
+  "4": "\u56db\u4efd\u7b7e\u540d\u79cd\u6570",
+  "215987": "bytes\u00b7\u65e7\u89c4\u8303",
+  "30539": "bytes\u00b7\u9a8c\u8bc1\u6807\u51c6",
+  "353757": "bytes\u00b7\u65b0\u8349\u6848",
+  "135420": "bytes\u00b7\u5907\u5fd8\u5355",
+  "173270": "chars\u00b7\u65e7\u89c4\u8303",
+  "30220": "chars\u00b7\u9a8c\u8bc1\u6807\u51c6",
+  "258623": "chars\u00b7\u65b0\u8349\u6848",
+  "53212": "chars\u00b7\u5907\u5fd8\u5355",
+  "2470": "lines\u00b7\u65e7\u89c4\u8303",
+  "211": "lines\u00b7\u9a8c\u8bc1\u6807\u51c6",
+  "4032": "lines\u00b7\u65b0\u8349\u6848",
+  "6073": "lines\u00b7\u5907\u5fd8\u5355",
+  "1787": "nonblank\u00b7\u65e7\u89c4\u8303",
+  "149": "nonblank\u00b7\u9a8c\u8bc1\u6807\u51c6",
+  "2570": "nonblank\u00b7\u65b0\u8349\u6848",
+  "2380": "nonblank\u00b7\u5907\u5fd8\u5355",
+  "941": "\u4e24\u53e3\u5f84\u5b57\u6570\u5dee\u00b7\u65e7\u89c4\u8303",
+  "2529": "\u4e24\u53e3\u5f84\u5b57\u6570\u5dee\u00b7\u65b0\u8349\u6848",
+  "1824": "\u4e24\u53e3\u5f84\u5b57\u6570\u5dee\u00b7\u5907\u5fd8\u5355",
+  "9": "script_tags\u00b7\u65e7\u89c4\u8303",
+  "6": "script_tags\u00b7\u5907\u5fd8\u5355",
+  "1": "style_tags\u00b7\u5907\u5fd8\u5355",
+  "114": "tr_rows\u00b7\u65e7\u89c4\u8303",
+  "99": "tr_rows\u00b7\u65b0\u8349\u6848",
+  "16": "table_tags\u00b7\u65e7\u89c4\u8303",
+  "5": "table_tags\u00b7\u65b0\u8349\u6848",
+  "655": "MD \u7ad6\u7ebf",
+  "442": "\u7ad6\u7ebf\u4e0e\u8868\u884c\u4e4b\u5dee",
+  "57": "bold_marks",
+  "36": "md_links",
+  "1285": "maxlen\u00b7\u65e7\u89c4\u8303",
+  "998": "maxlen\u00b7\u9a8c\u8bc1\u6807\u51c6",
+  "1352": "maxlen\u00b7\u65b0\u8349\u6848",
+  "770": "maxlen\u00b7\u5907\u5fd8\u5355",
+  "10": "ctx_occ\u00b7\u65e7\u89c4\u8303",
+  "3": "ctx_distinct\u00b7\u65e7\u89c4\u8303",
+  "[6, 8, 64]": "ctx_set\u00b7\u65e7\u89c4\u8303",
+  "[6, 12, 64, 128]": "ctx_set\u00b7\u9a8c\u8bc1\u6807\u51c6",
+  "[4, 6, 8, 15, 64]": "ctx_set\u00b7\u65b0\u8349\u6848",
+  "[8, 15, 64]": "ctx_set\u00b7\u5907\u5fd8\u5355",
+  "2": "th_digit64\u00b7\u65e7\u89c4\u8303",
+  "48": "asvs_ref_occ",
+  "73": "sec_T_n",
+  "12": "sec_F_n",
+  "[]": "asvs_ref_missT",
+  "15": "cite_url_nist",
+  "113": "tm_memorized",
+  "40": "tm_pw_sing\u00b7\u65e7\u89c4\u8303",
+  "45": "tm_pw_sing\u00b7\u9a8c\u8bc1\u6807\u51c6",
+  "134": "tm_pw_sing\u00b7\u65b0\u8349\u6848",
+  "105": "tm_pw_sing\u00b7\u5907\u5fd8\u5355",
+  "32": "tm_pw_plural\u00b7\u9a8c\u8bc1\u6807\u51c6",
+  "29": "tm_pw_plural\u00b7\u5907\u5fd8\u5355",
+  "80": "tm_pw_any\u00b7\u65e7\u89c4\u8303",
+  "77": "tm_pw_any\u00b7\u9a8c\u8bc1\u6807\u51c6",
+  "247": "tm_pw_any\u00b7\u65b0\u8349\u6848",
+  "63": "share_TF",
+  "742": "only_T",
+  "1096": "only_F",
+  "1901": "union_TF",
+  "122": "only_O",
+  "354": "only_N",
+  "476": "union_ON",
+  "283": "kw_shall_u\u00b7\u65e7\u89c4\u8303",
+  "337": "kw_shall_u\u00b7\u65b0\u8349\u6848",
+  "97": "kw_should_u\u00b7\u65b0\u8349\u6848",
+  "53": "kw_may_u\u00b7\u65e7\u89c4\u8303",
+  "74": "kw_may_u\u00b7\u65b0\u8349\u6848",
+  "399": "kw_upper_total\u00b7\u65e7\u89c4\u8303",
+  "508": "kw_upper_total\u00b7\u65b0\u8349\u6848",
+  "513": "kw_ci_total\u00b7\u65e7\u89c4\u8303",
+  "26": "kw_ci_total\u00b7\u9a8c\u8bc1\u6807\u51c6",
+  "673": "kw_ci_total\u00b7\u65b0\u8349\u6848",
+  "46": "kw_ci_total\u00b7\u5907\u5fd8\u5355",
+  "17": "kw_gap\u00b7\u9a8c\u8bc1\u6807\u51c6",
+  "165": "kw_gap\u00b7\u65b0\u8349\u6848",
+  "25": "kw_shallnot_u\u00b7\u65b0\u8349\u6848",
+  "8": "kw_shouldnot_u\u00b7\u65e7\u89c4\u8303",
+  "19": "bl_word_any\u00b7\u65b0\u8349\u6848",
+  "20": "mc_ratelimit\u00b7\u65e7\u89c4\u8303",
+  "['112', '20', '32', '64']": "bit_set",
+  "['112', '32', '40', '64']": "bit_set",
+  "['20']": "bit_lost",
+  "['40']": "bit_new",
+  "11": "bit_112\u00b7\u65e7\u89c4\u8303",
+  "79": "mc_multifactor\u00b7\u65e7\u89c4\u8303",
+  "14": "mc_multifactor\u00b7\u9a8c\u8bc1\u6807\u51c6",
+  "87": "mc_multifactor\u00b7\u65b0\u8349\u6848",
+  "27": "mc_multifactor\u00b7\u5907\u5fd8\u5355",
+  "128": "asvs_tick_total",
+  "129": "asvs_tick_glyph",
+  "22": "asvs_cwe_distinct",
+  "153": "sec_cite_sec",
+  "117": "sec_cite_word\u00b7\u65e7\u89c4\u8303",
+  "47": "sec_cite_word\u00b7\u65b0\u8349\u6848",
+  "200": "sec_cite_any\u00b7\u65b0\u8349\u6848",
+  "7": "asvs_5112\u00b7\u65e7\u89c4\u8303",
+  "142": "carry_sub_FT",
+  "222": "carry_sub_overlap",
+  "159": "carry_caliber_gap",
+  "95": "sent_shared_TF",
+  "1104": "sent_n",
+  "1677": "sent_n",
+  "2686": "sent_union_TF",
+  "1009": "sent_only_T",
+  "1582": "sent_only_F",
+  "231": "sent_n",
+  "166": "sent_n",
+  "2.5": "\u6c60\u5343\u4f4d",
+  "816": "pool_tag_n\u00b7\u65e7\u89c4\u8303",
+  "1169": "pool_tag_n\u00b7\u65b0\u8349\u6848",
+  "356": "pool_tag_n\u00b7\u5907\u5fd8\u5355",
+  "2218": "pool_1",
+  "221": "pool_2",
+  "['5.1.1.1', '5.1.1.2', '5.1.2.2', '5.1.3.2', '5.1.5.2', '5.1.7.2', '5.2.1', '5.2.10', '5.2.3', '5.2.5', '5.2.6', '5.2.8', '5.2.9', '6.1.2.3', '6.1.3', '6.1.4']": "asvs_ref_missF",
+  "21": "",
+  "84": ""
+ },
+ "pool_used": 21,
+ "enc_chars": 15331,
+ "nsrc": 4,
+ "flat": {
+  "bytes": [
+   215987,
+   30539,
+   353757,
+   135420
+  ],
+  "chars": [
+   173270,
+   30220,
+   258623,
+   53212
+  ],
+  "chars_untagged": [
+   174211,
+   30220,
+   261152,
+   55036
+  ],
+  "js_gap": [
+   941,
+   0,
+   2529,
+   1824
+  ],
+  "script_tags": [
+   9,
+   0,
+   9,
+   6
+  ],
+  "style_tags": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "lt_tags": [
+   4221,
+   0,
+   7474,
+   2761
+  ],
+  "lines": [
+   2470,
+   211,
+   4032,
+   6073
+  ],
+  "nonblank": [
+   1787,
+   149,
+   2570,
+   2380
+  ],
+  "rlines": [
+   2469,
+   211,
+   3991,
+   6073
+  ],
+  "rnonblank": [
+   1053,
+   149,
+   1521,
+   534
+  ],
+  "tabs": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "nonascii": [
+   359,
+   129,
+   393,
+   16
+  ],
+  "bom": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "maxlen": [
+   1285,
+   998,
+   1352,
+   770
+  ],
+  "sha16": [
+   "06a431a299688500",
+   "ea47056e8e8fc0df",
+   "d2aaa165c945efb0",
+   "911f19e84d5debb7"
+  ],
+  "pipe_cells": [
+   4,
+   655,
+   5,
+   0
+  ],
+  "bold_marks": [
+   0,
+   57,
+   0,
+   0
+  ],
+  "md_links": [
+   0,
+   36,
+   0,
+   0
+  ],
+  "table_tags": [
+   16,
+   0,
+   5,
+   1
+  ],
+  "tr_rows": [
+   114,
+   0,
+   99,
+   4
+  ],
+  "ent_all": [
+   6,
+   13,
+   11,
+   52
+  ],
+  "pipe_vs_row": 442,
+  "sig_distinct": 4,
+  "th_digit8": [
+   4,
+   1,
+   0,
+   1
+  ],
+  "th_word_eight": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "th_digit12": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "th_digit15": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "th_digit64": [
+   2,
+   1,
+   2,
+   2
+  ],
+  "th_digit128": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "th_digit6": [
+   4,
+   1,
+   0,
+   0
+  ],
+  "ctx_occ": [
+   10,
+   4,
+   6,
+   4
+  ],
+  "ctx_distinct": [
+   3,
+   4,
+   5,
+   3
+  ],
+  "ctx_set": [
+   [
+    6,
+    8,
+    64
+   ],
+   [
+    6,
+    12,
+    64,
+    128
+   ],
+   [
+    4,
+    6,
+    8,
+    15,
+    64
+   ],
+   [
+    8,
+    15,
+    64
+   ]
+  ],
+  "ctx_word_form": [
+   0,
+   0,
+   3,
+   0
+  ],
+  "ctx_digit_form": [
+   10,
+   4,
+   3,
+   4
+  ],
+  "ctx_form_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "ctx_eight_docs": 1,
+  "ctx_d8_docs": 3,
+  "ctx_815_docs": 2,
+  "ctx_12_only": 1,
+  "ctx_128_only": 1,
+  "th_line_norm": [
+   4,
+   0,
+   1,
+   0
+  ],
+  "th_line_bare": [
+   3,
+   2,
+   1,
+   4
+  ],
+  "kw_shall_u": [
+   283,
+   3,
+   337,
+   0
+  ],
+  "kw_shall_l": [
+   4,
+   0,
+   2,
+   0
+  ],
+  "kw_shall_t": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "kw_shall_ci": [
+   287,
+   3,
+   339,
+   0
+  ],
+  "kw_should_u": [
+   63,
+   5,
+   97,
+   0
+  ],
+  "kw_should_l": [
+   19,
+   11,
+   27,
+   24
+  ],
+  "kw_should_t": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "kw_should_ci": [
+   82,
+   16,
+   124,
+   24
+  ],
+  "kw_may_u": [
+   53,
+   1,
+   74,
+   0
+  ],
+  "kw_may_l": [
+   82,
+   4,
+   119,
+   16
+  ],
+  "kw_may_t": [
+   3,
+   0,
+   0,
+   0
+  ],
+  "kw_may_ci": [
+   138,
+   5,
+   193,
+   16
+  ],
+  "kw_must_u": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "kw_must_l": [
+   6,
+   2,
+   16,
+   6
+  ],
+  "kw_must_t": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "kw_must_ci": [
+   6,
+   2,
+   17,
+   6
+  ],
+  "kw_close": {
+   "SHALL": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "SHOULD": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "MAY": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "MUST": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "kw_close_sum": 0,
+  "must_upper_all4": 0,
+  "kw_upper_total": [
+   399,
+   9,
+   508,
+   0
+  ],
+  "kw_ci_total": [
+   513,
+   26,
+   673,
+   46
+  ],
+  "kw_gap": [
+   114,
+   17,
+   165,
+   46
+  ],
+  "kw_shallnot_u": [
+   29,
+   0,
+   25,
+   0
+  ],
+  "kw_shallnot_ci": [
+   30,
+   0,
+   28,
+   0
+  ],
+  "kw_shouldnot_u": [
+   8,
+   0,
+   8,
+   0
+  ],
+  "kw_shouldnot_ci": [
+   9,
+   0,
+   10,
+   4
+  ],
+  "kw_shallnot_gap": [
+   1,
+   0,
+   3,
+   0
+  ],
+  "kw_shouldnot_gap": [
+   1,
+   0,
+   2,
+   4
+  ],
+  "tm_memorized": [
+   113,
+   3,
+   4,
+   0
+  ],
+  "tm_memorized_caps": [
+   6,
+   1,
+   0,
+   0
+  ],
+  "tm_pw_sing": [
+   40,
+   45,
+   134,
+   105
+  ],
+  "tm_pw_plural": [
+   40,
+   32,
+   113,
+   29
+  ],
+  "tm_pw_any": [
+   80,
+   77,
+   247,
+   134
+  ],
+  "tm_bridge": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "tm_defline": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "tm_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "mc_blocklist": [
+   0,
+   0,
+   17,
+   2
+  ],
+  "mc_blocklist_lines": [
+   0,
+   0,
+   11,
+   2
+  ],
+  "mc_breach": [
+   5,
+   10,
+   6,
+   3
+  ],
+  "mc_breach_lines": [
+   4,
+   4,
+   5,
+   3
+  ],
+  "mc_composition": [
+   5,
+   1,
+   5,
+   1
+  ],
+  "mc_composition_lines": [
+   4,
+   1,
+   4,
+   1
+  ],
+  "mc_hint": [
+   1,
+   1,
+   1,
+   0
+  ],
+  "mc_hint_lines": [
+   1,
+   1,
+   1,
+   0
+  ],
+  "mc_copypaste": [
+   2,
+   0,
+   2,
+   0
+  ],
+  "mc_copypaste_lines": [
+   2,
+   0,
+   2,
+   0
+  ],
+  "mc_ratelimit": [
+   20,
+   1,
+   25,
+   4
+  ],
+  "mc_ratelimit_lines": [
+   17,
+   1,
+   19,
+   4
+  ],
+  "mc_lockout": [
+   10,
+   2,
+   8,
+   19
+  ],
+  "mc_lockout_lines": [
+   8,
+   1,
+   6,
+   12
+  ],
+  "mc_periodic": [
+   8,
+   1,
+   9,
+   2
+  ],
+  "mc_periodic_lines": [
+   8,
+   1,
+   9,
+   1
+  ],
+  "mc_entropy": [
+   16,
+   3,
+   9,
+   4
+  ],
+  "mc_entropy_lines": [
+   12,
+   2,
+   6,
+   1
+  ],
+  "mc_multifactor": [
+   79,
+   14,
+   87,
+   27
+  ],
+  "mc_multifactor_lines": [
+   60,
+   10,
+   70,
+   22
+  ],
+  "mc_arbitrary": [
+   1,
+   0,
+   3,
+   2
+  ],
+  "mc_arbitrary_lines": [
+   1,
+   0,
+   3,
+   2
+  ],
+  "mc_forcechange": [
+   1,
+   0,
+   1,
+   0
+  ],
+  "mc_forcechange_lines": [
+   1,
+   0,
+   1,
+   0
+  ],
+  "comp_shouldnot": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "comp_shallnot": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "comp_norm_free": [
+   3,
+   1,
+   3,
+   1
+  ],
+  "chg_shallnot": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "chg_shouldnot": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "blk_def_lines": 5,
+  "bl_blacklist": [
+   6,
+   0,
+   2,
+   0
+  ],
+  "bl_spaced": [
+   2,
+   0,
+   0,
+   0
+  ],
+  "bl_black": [
+   8,
+   0,
+   2,
+   0
+  ],
+  "bl_word_any": [
+   8,
+   0,
+   19,
+   2
+  ],
+  "bl_word_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "bl_black_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_url_nist": [
+   0,
+   15,
+   0,
+   0
+  ],
+  "cite_spaced": [
+   2,
+   0,
+   3,
+   6
+  ],
+  "cite_unspaced": [
+   0,
+   0,
+   0,
+   4
+  ],
+  "cite_rev4num": [
+   1,
+   0,
+   2,
+   0
+  ],
+  "cite_rev3num": [
+   5,
+   14,
+   0,
+   0
+  ],
+  "cite_superseded": [
+   1,
+   0,
+   0,
+   1
+  ],
+  "cite_draftself": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "cite_http_any": [
+   50,
+   36,
+   58,
+   0
+  ],
+  "sup_openid": 1,
+  "sup_nist": 1,
+  "cite_63b_docs": 4,
+  "cite_forms": 3,
+  "sec_head_n": [
+   80,
+   0,
+   13,
+   0
+  ],
+  "sec_T_set": [
+   "10.2.1",
+   "10.2.2",
+   "10.2.3",
+   "10.2.4",
+   "10.2.5",
+   "10.2.6",
+   "10.2.7",
+   "10.2.8",
+   "10.2.9",
+   "4.1.1",
+   "4.1.2",
+   "4.1.3",
+   "4.1.4",
+   "4.1.5",
+   "4.2.1",
+   "4.2.2",
+   "4.2.3",
+   "4.2.4",
+   "4.2.5",
+   "4.3.1",
+   "4.3.2",
+   "4.3.3",
+   "4.3.4",
+   "4.3.5",
+   "5.1.1",
+   "5.1.1.1",
+   "5.1.1.2",
+   "5.1.2",
+   "5.1.2.1",
+   "5.1.2.2",
+   "5.1.3",
+   "5.1.3.1",
+   "5.1.3.2",
+   "5.1.3.3",
+   "5.1.4",
+   "5.1.4.1",
+   "5.1.4.2",
+   "5.1.5",
+   "5.1.5.1",
+   "5.1.5.2",
+   "5.1.6",
+   "5.1.6.1",
+   "5.1.6.2",
+   "5.1.7",
+   "5.1.7.1",
+   "5.1.7.2",
+   "5.1.8",
+   "5.1.8.1",
+   "5.1.8.2",
+   "5.1.9",
+   "5.1.9.1",
+   "5.1.9.2",
+   "5.2.1",
+   "5.2.10",
+   "5.2.2",
+   "5.2.3",
+   "5.2.4",
+   "5.2.5",
+   "5.2.6",
+   "5.2.7",
+   "5.2.8",
+   "5.2.9",
+   "6.1.1",
+   "6.1.2",
+   "6.1.2.1",
+   "6.1.2.2",
+   "6.1.2.3",
+   "6.1.3",
+   "6.1.4",
+   "7.1.1",
+   "7.1.2",
+   "7.1.3",
+   "7.2.1"
+  ],
+  "sec_F_set": [
+   "2.2.2",
+   "2.3.2",
+   "3.1.1",
+   "3.1.2",
+   "3.1.3",
+   "3.1.3.1",
+   "3.1.7.1",
+   "3.2.10",
+   "3.2.2",
+   "3.2.5",
+   "3.2.7",
+   "3.2.8"
+  ],
+  "sec_T_n": 73,
+  "sec_F_n": 12,
+  "sec_shared": 0,
+  "sec_T_inF_text": 4,
+  "asvs_req_rows": 57,
+  "asvs_bold_ids": 57,
+  "asvs_refs": [
+   "5.1.1.1",
+   "5.1.1.2",
+   "5.1.2.2",
+   "5.1.3.2",
+   "5.1.5.2",
+   "5.1.7.2",
+   "5.2.1",
+   "5.2.10",
+   "5.2.3",
+   "5.2.5",
+   "5.2.6",
+   "5.2.8",
+   "5.2.9",
+   "6.1.2.3",
+   "6.1.3",
+   "6.1.4"
+  ],
+  "asvs_ref_occ": 48,
+  "asvs_ref_distinct": 16,
+  "asvs_rows_noref": 9,
+  "asvs_ref_inT": 16,
+  "asvs_ref_inF": 0,
+  "asvs_ref_inT_text": 16,
+  "asvs_ref_inF_text": 0,
+  "asvs_ref_missT": [],
+  "asvs_ref_missF": [
+   "5.1.1.1",
+   "5.1.1.2",
+   "5.1.2.2",
+   "5.1.3.2",
+   "5.1.5.2",
+   "5.1.7.2",
+   "5.2.1",
+   "5.2.10",
+   "5.2.3",
+   "5.2.5",
+   "5.2.6",
+   "5.2.8",
+   "5.2.9",
+   "6.1.2.3",
+   "6.1.3",
+   "6.1.4"
+  ],
+  "asvs_ref_close": 0,
+  "asvs_tick_cols": [
+   27,
+   48,
+   53
+  ],
+  "asvs_tick_total": 128,
+  "asvs_tick_legend": 1,
+  "asvs_tick_glyph": 129,
+  "asvs_tick_close": 0,
+  "asvs_cwe": [
+   "16",
+   "255",
+   "256",
+   "263",
+   "287",
+   "304",
+   "307",
+   "308",
+   "310",
+   "319",
+   "320",
+   "326",
+   "327",
+   "330",
+   "521",
+   "522",
+   "523",
+   "613",
+   "620",
+   "640",
+   "798",
+   "916"
+  ],
+  "asvs_cwe_distinct": 22,
+  "asvs_url_head": 12,
+  "asvs_5112": [
+   7,
+   25,
+   0,
+   0
+  ],
+  "id_211_bold": 1,
+  "id_211_occ": [
+   0,
+   4,
+   1,
+   0
+  ],
+  "id_211_docs": 2,
+  "sec_cite_sec": [
+   0,
+   0,
+   153,
+   0
+  ],
+  "sec_cite_word": [
+   117,
+   2,
+   47,
+   4
+  ],
+  "sec_cite_any": [
+   117,
+   2,
+   200,
+   4
+  ],
+  "sec_cite_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "bit_20": [
+   4,
+   1,
+   0,
+   0
+  ],
+  "bit_32": [
+   1,
+   1,
+   2,
+   0
+  ],
+  "bit_40": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "bit_64": [
+   8,
+   1,
+   5,
+   0
+  ],
+  "bit_112": [
+   11,
+   2,
+   9,
+   0
+  ],
+  "bit_any": [
+   24,
+   5,
+   17,
+   0
+  ],
+  "bit_set": [
+   [
+    "112",
+    "20",
+    "32",
+    "64"
+   ],
+   [
+    "112",
+    "20",
+    "32",
+    "64"
+   ],
+   [
+    "112",
+    "32",
+    "40",
+    "64"
+   ],
+   []
+  ],
+  "bit_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "bit_lost": [
+   "20"
+  ],
+  "bit_new": [
+   "40"
+  ],
+  "lines_ge20": [
+   805,
+   122,
+   1159,
+   354
+  ],
+  "share_TO": 0,
+  "share_TF": 63,
+  "share_OF": 0,
+  "share_TN": 0,
+  "share_ON": 0,
+  "share_FN": 3,
+  "share_all4": 0,
+  "only_T": 742,
+  "only_F": 1096,
+  "union_TF": 1901,
+  "share_close_TF": 0,
+  "only_O": 122,
+  "only_N": 354,
+  "union_ON": 476,
+  "share_close_ON": 0,
+  "carry_sub_TF": 80,
+  "carry_sub_FT": 142,
+  "carry_sub_overlap": 222,
+  "carry_caliber_gap": 159,
+  "sent_n": [
+   1104,
+   166,
+   1677,
+   231
+  ],
+  "sent_shared_TF": 95,
+  "sent_shared_ON": 1,
+  "sent_union_TF": 2686,
+  "sent_only_T": 1009,
+  "sent_only_F": 1582,
+  "sent_close_TF": 0,
+  "sent_share_th": 1,
+  "carry_shared": 63,
+  "carry_ref": 0,
+  "carry_toc": 0,
+  "carry_prose": 63,
+  "carry_split_close": 0,
+  "pool_n": 2463,
+  "pool_tag_n": [
+   816,
+   122,
+   1169,
+   356
+  ],
+  "pool_1": 2218,
+  "pool_2": 221,
+  "pool_3": 20,
+  "pool_4": 4,
+  "pool_tiers": [
+   2218,
+   221,
+   20,
+   4
+  ],
+  "pool_close": 0,
+  "pool_maxlen": 1352,
+  "scalar_clos_n": 8,
+  "scalar_clos_sum": 0,
+  "scalar_clos_list": [
+   "asvs_ref_close",
+   "asvs_tick_close",
+   "carry_split_close",
+   "kw_close_sum",
+   "pool_close",
+   "sent_close_TF",
+   "share_close_ON",
+   "share_close_TF"
+  ],
+  "list_clos_n": 6,
+  "anchor_total": 25,
+  "anchor_distinct": 21,
+  "anchor_err": 0,
+  "anchor_single": 21,
+  "anchor_cross": 0,
+  "anchor_all4": 0,
+  "checks": 84,
+  "tag_T": 8,
+  "tag_O": 5,
+  "tag_F": 7,
+  "tag_N": 5
+ },
+ "closure_keys": [
+  "ctx_form_close",
+  "kw_close",
+  "tm_close",
+  "bl_word_close",
+  "bl_black_close",
+  "asvs_ref_close",
+  "asvs_tick_close",
+  "sec_cite_close",
+  "bit_close",
+  "carry_split_close",
+  "pool_close"
+ ]
+}

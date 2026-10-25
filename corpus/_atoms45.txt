@@ -1,0 +1,13 @@
+<h1>Time zone and daylight saving time data
+<title>Time zone and daylight saving time data
+AD +4230+00131 Europe/Andorra
+AE,OM,RE,SC,TF +2518+05518 Asia/Dubai Crozet
+AG +1703-06148 America/Antigua
+AR -3436-05827 America/Argentina/Buenos_Aires Buenos Aires (BA, CF)
+AX +6006+01957 Europe/Mariehamn
+GB,GG,IM,JE +513030-0000731 Europe/London
+It is in the public domain
+PR,AG,CA,AI,AW,BL,BQ,CW,DM,GD,GP,KN,LC,MF,MS,SX,TT,VC,VG,VI +182806-0660622 America/Puerto_Rico AST - QC (Lower North Shore)
+RU,UA +4457+03406 Europe/Simferopol Crimea
+daylight-saving
+https://data.iana.org/time-zones/tzcode-latest.tar.gz wget https

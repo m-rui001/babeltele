@@ -1,0 +1,26 @@
+# All text uses UTF-8 encoding.  The columns of the table are as follows:
+# a single tab.  Lines beginning with ‘#’ are comments.  All text uses
+# separated by a single tab.  Lines beginning with ‘#’ are comments.
+# to take or endorse any position on legal or territorial claims.
+#     of names are useful (e.g., “Samoa (American)” and “Samoa
+#     ISO/TC 46 N1127 (2024-02-29).  See: ISO/TC 46 Documents
+# This file is in the public domain, so clarified as of
+#code	name of country, territory, area, or subdivision
+Brazil (northeast: MA, PI, CE, RN, PB)
+# The table is sorted by country code.
+# From Paul Eggert (2025-07-01):
+America/Argentina/Buenos_Aires
+# tzdb timezone descriptions
+Description: Côte d'Ivoire
+Description: Private use
+Description: Micronesia
+Description: East Timor
+Deprecated: 2002-05-20
+Preferred-Value: TL
+Turks & Caicos Is
+Europe/Andorra
+Côte d’Ivoire
+Type: region
+East Timor
+Micronesia
+#country-

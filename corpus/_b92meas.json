@@ -1,0 +1,1434 @@
+{
+ "ans": [
+  20,
+  50,
+  30,
+  10,
+  30
+ ],
+ "ans_alt_v": [
+  20,
+  50,
+  30,
+  10,
+  30
+ ],
+ "ans_alts": {
+  "cli": 50,
+  "fet": 20,
+  "go": 10,
+  "lib": 30,
+  "req": 30
+ },
+ "ans_doc_code_diff": [
+  0,
+  30
+ ],
+ "ans_end": [
+  3675,
+  22,
+  42,
+  78,
+  486
+ ],
+ "ans_h": [
+  3,
+  3,
+  13,
+  14,
+  3
+ ],
+ "ans_line": [
+  3673,
+  20,
+  30,
+  65,
+  484
+ ],
+ "ans_read": {
+  "cli_alt": 50,
+  "cli_rgx": 50,
+  "fet_alt": 20,
+  "fet_rgx": 20,
+  "go_alt": 10,
+  "go_code": 10,
+  "go_err": 10,
+  "go_rgx": 10,
+  "lib_alt": 30,
+  "lib_rgx": 30,
+  "lib_zero": 0,
+  "req_alt": 30,
+  "req_code30": 0,
+  "req_rgx": 30
+ },
+ "ans_reads": {
+  "cli": 50,
+  "fet": 20,
+  "go": 10,
+  "lib": 30,
+  "req": 30
+ },
+ "ans_spread": 5,
+ "ans_win": [
+  [
+   "fet",
+   3673,
+   3675,
+   3
+  ],
+  [
+   "cli",
+   20,
+   22,
+   3
+  ],
+  [
+   "lib",
+   30,
+   42,
+   13
+  ],
+  [
+   "go",
+   65,
+   78,
+   14
+  ],
+  [
+   "req",
+   484,
+   486,
+   3
+  ]
+ ],
+ "body_lines": [
+  7764,
+  5,
+  41,
+  612,
+  804
+ ],
+ "byte_cp_ledger": [
+  3547,
+  0,
+  0,
+  4,
+  0
+ ],
+ "cmt_only": [
+  21,
+  24,
+  26,
+  28
+ ],
+ "codes30x": [
+  [
+   2,
+   5,
+   5,
+   0,
+   1,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   8,
+   8,
+   8,
+   0,
+   8,
+   8
+  ],
+  [
+   1,
+   1,
+   0,
+   0,
+   0,
+   0
+  ]
+ ],
+ "digit_tok": [
+  [
+   9,
+   0,
+   4,
+   6,
+   114,
+   125,
+   221
+  ],
+  [
+   0,
+   1,
+   0,
+   0,
+   0,
+   1,
+   1
+  ],
+  [
+   0,
+   0,
+   1,
+   0,
+   3,
+   2,
+   9
+  ],
+  [
+   0,
+   0,
+   0,
+   6,
+   11,
+   15,
+   3
+  ],
+  [
+   0,
+   0,
+   1,
+   0,
+   5,
+   8,
+   2
+  ]
+ ],
+ "eq_guard": [
+  1,
+  0,
+  0,
+  0,
+  0
+ ],
+ "excl_mat": [
+  [
+   "fet"
+  ],
+  [
+   "cli"
+  ],
+  [
+   "lib"
+  ],
+  [
+   "go"
+  ],
+  [
+   "req"
+  ],
+  [
+   "lib"
+  ],
+  [
+   "cli"
+  ],
+  [
+   "lib"
+  ],
+  [
+   "req"
+  ],
+  [
+   "lib"
+  ],
+  [
+   "fet"
+  ],
+  [
+   "cli",
+   "lib"
+  ]
+ ],
+ "excl_multi": 1,
+ "excl_owner_n": [
+  2,
+  2,
+  4,
+  1,
+  2
+ ],
+ "excl_probes": 12,
+ "excl_single": 11,
+ "fet_blk_re": 11,
+ "fet_html_bytes": 1854393,
+ "fet_html_chars": 1839728,
+ "fet_html_lines": 18915,
+ "fet_strip_chars": 294288,
+ "fet_strip_lines": 7763,
+ "fet_tags_re": 38100,
+ "fm_close": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "fm_only": [
+  13,
+  20
+ ],
+ "fold_gain": [
+  2,
+  2,
+  0,
+  0,
+  0
+ ],
+ "ge_tok": [
+  1,
+  0,
+  0,
+  1,
+  1
+ ],
+ "go_eff": 9,
+ "go_guard": 10,
+ "go_msg": 10,
+ "grp_sub": [
+  [
+   167,
+   24,
+   0,
+   0,
+   6,
+   1,
+   6,
+   0,
+   16,
+   0,
+   0,
+   0
+  ],
+  [
+   4,
+   3,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   12,
+   4,
+   2,
+   1,
+   0,
+   0,
+   1,
+   1,
+   1,
+   1,
+   1,
+   0
+  ],
+  [
+   100,
+   17,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   1,
+   1
+  ],
+  [
+   58,
+   33,
+   1,
+   0,
+   4,
+   1,
+   1,
+   0,
+   2,
+   0,
+   0,
+   0
+  ]
+ ],
+ "grp_word": [
+  [
+   121,
+   24,
+   0,
+   0,
+   6,
+   1,
+   6,
+   0,
+   5,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   3,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   6,
+   4,
+   1,
+   1,
+   0,
+   0,
+   0,
+   1,
+   1,
+   1,
+   1,
+   0
+  ],
+  [
+   37,
+   17,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   1
+  ],
+  [
+   17,
+   30,
+   1,
+   0,
+   4,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ ],
+ "issue_tok": [
+  8,
+  0,
+  0,
+  8,
+  1
+ ],
+ "lib_zero": 0,
+ "line_close": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "mark_rescued": [
+  25,
+  27,
+  32
+ ],
+ "na_extra_bytes": [
+  3547,
+  0,
+  0,
+  4,
+  0
+ ],
+ "needle5": [
+  [
+   "fet",
+   "if request ’s redirect count is 20, then return a network error",
+   0,
+   1,
+   1,
+   0,
+   -1
+  ],
+  [
+   "fet",
+   "redirect count is 20",
+   1,
+   1,
+   1,
+   0,
+   -1
+  ],
+  [
+   "fet",
+   "increase request ’s redirect count by 1",
+   1,
+   1,
+   1,
+   0,
+   -1
+  ],
+  [
+   "fet",
+   "a request has an associated redirect count",
+   0,
+   1,
+   1,
+   0,
+   -1
+  ],
+  [
+   "fet",
+   "unless stated otherwise, it is zero",
+   1,
+   1,
+   1,
+   1,
+   -1
+  ],
+  [
+   "fet",
+   "301, 302, 303, 307, or 308",
+   1,
+   1,
+   1,
+   1,
+   -1
+  ],
+  [
+   "fet",
+   "network error",
+   81,
+   81,
+   81,
+   91,
+   -1
+  ],
+  [
+   "fet",
+   "redirect count",
+   5,
+   5,
+   5,
+   8,
+   -1
+  ],
+  [
+   "fet",
+   "updated tue oct 13 14:27:53 2026 -0700",
+   0,
+   0,
+   0,
+   1,
+   -1
+  ],
+  [
+   "cli",
+   "set the maximum number of redirections to follow",
+   1,
+   1,
+   1,
+   -1,
+   -1
+  ],
+  [
+   "cli",
+   "by default the limit is set to 50 redirects",
+   0,
+   1,
+   1,
+   -1,
+   -1
+  ],
+  [
+   "cli",
+   "set this option to -1 to make it unlimited",
+   0,
+   1,
+   1,
+   -1,
+   -1
+  ],
+  [
+   "cli",
+   "prevents curl from following too many redirects",
+   1,
+   1,
+   1,
+   -1,
+   -1
+  ],
+  [
+   "cli",
+   "added: 7.5",
+   1,
+   1,
+   0,
+   -1,
+   -1
+  ],
+  [
+   "lib",
+   "the set number is the redirection limit",
+   1,
+   1,
+   1,
+   -1,
+   -1
+  ],
+  [
+   "lib",
+   "the next redirect triggers the error",
+   1,
+   1,
+   1,
+   -1,
+   -1
+  ],
+  [
+   "lib",
+   "setting the limit to 0 makes libcurl refuse any redirect",
+   1,
+   1,
+   1,
+   -1,
+   -1
+  ],
+  [
+   "lib",
+   "set it to -1 for an infinite number of redirects",
+   1,
+   1,
+   1,
+   -1,
+   -1
+  ],
+  [
+   "lib",
+   "never-ending redirect loops",
+   1,
+   1,
+   1,
+   -1,
+   -1
+  ],
+  [
+   "lib",
+   "30 (since 8.3.0), it was previously unlimited",
+   1,
+   1,
+   1,
+   -1,
+   -1
+  ],
+  [
+   "lib",
+   "added-in: 7.5",
+   1,
+   1,
+   0,
+   -1,
+   -1
+  ],
+  [
+   "go",
+   "which is to stop after 10 consecutive requests",
+   1,
+   1,
+   0,
+   -1,
+   1
+  ],
+  [
+   "go",
+   "if len(via) >= 10 {",
+   1,
+   1,
+   1,
+   -1,
+   1
+  ],
+  [
+   "go",
+   "stopped after 10 redirects",
+   1,
+   1,
+   1,
+   -1,
+   1
+  ],
+  [
+   "go",
+   "checkredirect returns erruselastresponse",
+   1,
+   1,
+   0,
+   -1,
+   1
+  ],
+  [
+   "go",
+   "before following an http redirect",
+   0,
+   0,
+   0,
+   -1,
+   1
+  ],
+  [
+   "req",
+   "maximum number of redirects allowed",
+   1,
+   1,
+   0,
+   -1,
+   1
+  ],
+  [
+   "req",
+   "this defaults to requests.models.default_redirect_limit, which is 30",
+   0,
+   0,
+   0,
+   -1,
+   1
+  ],
+  [
+   "req",
+   "a :class:`toomanyredirects` exception is raised",
+   1,
+   1,
+   0,
+   -1,
+   1
+  ],
+  [
+   "req",
+   "if len(resp.history) >= self.max_redirects:",
+   1,
+   1,
+   1,
+   -1,
+   1
+  ],
+  [
+   "req",
+   "exceeded {self.max_redirects} redirects.",
+   1,
+   1,
+   1,
+   -1,
+   1
+  ],
+  [
+   "req",
+   "raise toomanyredirects(",
+   1,
+   1,
+   1,
+   -1,
+   1
+  ],
+  [
+   "req",
+   "if the request exceeds this limit, a",
+   0,
+   0,
+   0,
+   -1,
+   1
+  ],
+  [
+   "fet",
+   "an earlier version of this specification recommended a maximum of five redirections",
+   0,
+   0,
+   0,
+   0,
+   -1
+  ],
+  [
+   "go",
+   "setting the limit to 0 makes libcurl refuse any redirect",
+   0,
+   0,
+   0,
+   -1,
+   0
+  ],
+  [
+   "cli",
+   "redirect count is 20, then return a network error",
+   0,
+   0,
+   0,
+   -1,
+   -1
+  ]
+ ],
+ "needle_cold_list": [
+  33,
+  34,
+  35
+ ],
+ "needle_n": 36,
+ "neterr_html": 91,
+ "neterr_txt": 81,
+ "num_body": [
+  9,
+  1,
+  1,
+  3,
+  0
+ ],
+ "numwin": [
+  [
+   "0",
+   "1",
+   "2",
+   "2.1",
+   "2.2",
+   "2.3",
+   "2.6",
+   "2.7",
+   "20",
+   "206",
+   "301",
+   "302",
+   "303",
+   "307",
+   "308",
+   "4",
+   "4.2",
+   "4.3",
+   "4.4",
+   "4.5",
+   "4.6",
+   "4.7",
+   "416",
+   "5.3",
+   "5.4",
+   "5.5"
+  ],
+  [
+   "50",
+   "7.5"
+  ],
+  [
+   "0",
+   "1",
+   "3",
+   "30",
+   "7.5",
+   "8.3"
+  ],
+  [
+   "0",
+   "02",
+   "1.7",
+   "10",
+   "10008",
+   "18570",
+   "2.5",
+   "22233",
+   "2616",
+   "3",
+   "301",
+   "302",
+   "303",
+   "307",
+   "308",
+   "3795",
+   "7231"
+  ],
+  [
+   "1808",
+   "30",
+   "4"
+  ]
+ ],
+ "numwin_n": [
+  26,
+  2,
+  6,
+  17,
+  3
+ ],
+ "numwin_narrow": [
+  [
+   "1",
+   "2.2",
+   "20",
+   "5.4"
+  ],
+  [],
+  [],
+  [],
+  []
+ ],
+ "ob_low_fold": [
+  [
+   28,
+   45,
+   19,
+   99
+  ],
+  [
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   8,
+   16,
+   9,
+   8
+  ],
+  [
+   4,
+   6,
+   8,
+   3
+  ]
+ ],
+ "ob_up_fold": [
+  [
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0
+  ]
+ ],
+ "ob_up_foldcase": [
+  [
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   1,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0
+  ]
+ ],
+ "ob_up_line": [
+  [
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   1,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0
+  ]
+ ],
+ "pair_share": [
+  [
+   "fet",
+   "lib",
+   1,
+   1,
+   [
+    "}"
+   ]
+  ],
+  [
+   "fet",
+   "go",
+   3,
+   1,
+   [
+    "}",
+    "} else {",
+    "})"
+   ]
+  ],
+  [
+   "fet",
+   "req",
+   2,
+   0,
+   [
+    "redirect).",
+    "}"
+   ]
+  ],
+  [
+   "cli",
+   "lib",
+   4,
+   4,
+   [
+    "---",
+    "c: copyright (c) daniel stenberg, <daniel@haxx.se>, et al.",
+    "see-also:"
+   ]
+  ],
+  [
+   "lib",
+   "go",
+   1,
+   1,
+   [
+    "}"
+   ]
+  ],
+  [
+   "lib",
+   "req",
+   1,
+   0,
+   [
+    "}"
+   ]
+  ],
+  [
+   "go",
+   "req",
+   4,
+   1,
+   [
+    ")",
+    "return false",
+    "return true"
+   ]
+  ]
+ ],
+ "py_hash_cmt": 35,
+ "rcnt_html": 8,
+ "rcnt_txt": 5,
+ "req_body_num": 0,
+ "rescued_html": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "rfc_n": [
+  24,
+  0,
+  0,
+  4,
+  4
+ ],
+ "rfc_nums": [
+  [
+   "1035",
+   "2397",
+   "3986",
+   "5234",
+   "5861",
+   "5952",
+   "6454",
+   "6797",
+   "6960",
+   "7301",
+   "7405",
+   "7578",
+   "7918",
+   "8470",
+   "9110",
+   "9111",
+   "9112",
+   "9114",
+   "9163",
+   "9218",
+   "9297",
+   "9460",
+   "9651",
+   "9846"
+  ],
+  [],
+  [],
+  [
+   "2616",
+   "2617",
+   "7230",
+   "7231"
+  ],
+  [
+   "1808",
+   "3986",
+   "7231",
+   "7235"
+  ]
+ ],
+ "rfc_tok": [
+  73,
+  0,
+  0,
+  7,
+  6
+ ],
+ "row_cold": [
+  0,
+  3,
+  10,
+  11
+ ],
+ "s_blank": [
+  1,
+  3,
+  22,
+  80,
+  163
+ ],
+ "s_bom": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_bytes": [
+  297835,
+  558,
+  1657,
+  35914,
+  34072
+ ],
+ "s_chars": [
+  294288,
+  558,
+  1657,
+  35910,
+  34072
+ ],
+ "s_cr": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_endnl": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "s_ff": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_lf": [
+  7763,
+  23,
+  76,
+  1064,
+  920
+ ],
+ "s_lines": [
+  7764,
+  24,
+  77,
+  1065,
+  921
+ ],
+ "s_maxlen": [
+  269,
+  77,
+  78,
+  162,
+  137
+ ],
+ "s_nonascii": [
+  2102,
+  0,
+  0,
+  2,
+  0
+ ],
+ "s_nonblank": [
+  7763,
+  21,
+  55,
+  985,
+  758
+ ],
+ "s_splitlines": [
+  7763,
+  23,
+  76,
+  1064,
+  920
+ ],
+ "s_tab": [
+  0,
+  0,
+  0,
+  1247,
+  0
+ ],
+ "sh_cl": 4,
+ "sh_cl_raw": 4,
+ "share_max": 4,
+ "share_pairs": 7,
+ "share_raw_tot": 8,
+ "share_tot": 16,
+ "shell_lines": [
+  0,
+  19,
+  36,
+  453,
+  117
+ ],
+ "shell_only": [
+  8
+ ],
+ "split_close": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "sub_delta": [
+  46,
+  4,
+  6,
+  63,
+  41
+ ],
+ "tier_both_diff": 2,
+ "tier_cmt_only": 4,
+ "tier_cold": 4,
+ "tier_diff_list": [
+  [
+   "network error",
+   91,
+   81
+  ],
+  [
+   "redirect count",
+   8,
+   5
+  ]
+ ],
+ "tier_fm_only": 2,
+ "tier_fold": [
+  2,
+  2,
+  0,
+  0,
+  0
+ ],
+ "tier_html_rescued": 4,
+ "tier_mark_rescued": 3,
+ "tier_neg": 3,
+ "tier_shell_only": 1,
+ "up_fold_lower_all": 0,
+ "up_fold_lowered_tot": 0,
+ "up_foldcase_all": 1,
+ "up_foldcase_tot": [
+  0,
+  0,
+  0,
+  1,
+  0
+ ],
+ "up_line_all": 1,
+ "up_line_tot": [
+  0,
+  0,
+  0,
+  1,
+  0
+ ],
+ "ver_tok": [
+  [
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   1,
+   1,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0
+  ]
+ ],
+ "year_html": [
+  "1987",
+  "1989",
+  "1998",
+  "2005",
+  "2008",
+  "2010",
+  "2011",
+  "2012",
+  "2013",
+  "2014",
+  "2015",
+  "2016",
+  "2018",
+  "2019",
+  "2022",
+  "2023",
+  "2024",
+  "2026",
+  "2049"
+ ],
+ "year_html_n": 34,
+ "year_n": [
+  17,
+  0,
+  0,
+  1,
+  0
+ ],
+ "year_txt": [
+  [
+   "1987",
+   "1998",
+   "2005",
+   "2008",
+   "2010",
+   "2011",
+   "2012",
+   "2013",
+   "2014",
+   "2015",
+   "2016",
+   "2018",
+   "2022",
+   "2023",
+   "2024",
+   "2026",
+   "2049"
+  ],
+  [],
+  [],
+  [
+   "2009"
+  ],
+  []
+ ]
+}

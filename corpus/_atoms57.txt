@@ -1,0 +1,27 @@
+RFC 5246                          TLS                        August 2008
+Obsoletes: 5077, 5246, 6961                                  August 2018
+Obsoletes: 7525                                              Independent
+Obsoletes: 3268, 4346, 4366                                  E. Rescorla
+Updates: 5288, 6066                                           T. Fossati
+RFC 7525                   TLS Recommendations                  May 2015
+This pseudorandom function (PRF) takes as input a secret, a seed, and
+Legacy algorithms:  Indicates algorithms which are being deprecated
+the SHA-256 hash algorithm is RECOMMENDED and SHA-1 or MD5 MUST NOT
+Curves of less than 224 bits MUST NOT be used.  This recommendation
+MUST NOT be used in any signatures of CertificateVerify messages.
+SHA-1, etc.) are used for MAC computations.  The Record Protocol
+All SHA-1 signature algorithms in this specification are defined
+TLS 1.3 servers MUST NOT offer a SHA-1 signed certificate unless
+A TLS-compliant application MUST support digital signatures with
+Rationale: Based on [RFC3766], at least 112 bits of security is
+signatures to be used with digest algorithms other than SHA-1,
+none(0), md5(1), sha1(2), sha224(3), sha256(4), sha384(5),
+Rationale: Today, SSLv2 is considered insecure [RFC6176].
+o  Implementations MUST NOT negotiate RC4 cipher suites.
+*  Implementations MUST NOT negotiate SSL version 2.
+(MAC) algorithm stronger than HMAC-SHA1 [RFC5289]
+TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 and
+less than 192 bits SHOULD NOT be used.
+supports MD5 and SHA-1.
+rsa_pkcs1_sha1(0x0201),
+/* Legacy algorithms */

@@ -1,0 +1,94 @@
+下面是一份“高密度语料条目”的三部分: 头部(标题/来源行/联结/标签)、判词区(用 ⟦T⟧/⟦E⟧ 标签和 ⟨锚⟩ 引用两份原始文件的片段)、解读注。
+原始文件本机有, 但你没有; 因此只提文本内部就能定罪的缺陷, 不要猜测原文。
+请只列缺陷, 按四类各给行内引用:
+(A) 前后自相矛盾的数字或说法(同一个量在别处给了另一个值, 或“都没有”与“有几处”并存);
+(B) 把“只能复算/只在本机成立”的事写成可直接核对的事实, 或反过来;
+(C) 中文语句自身不通、指代不明、量词与单位缺失(读者无法据此复原被压缩的断言);
+(D) 冗余: 同一断言在同一区里说了两遍且无新信息。
+最后给一句总判: 这份条目可否作为“形状对照”样本入库。控制在 400 字内, 不要客套。
+
+=== 头部 ===
+# B54 同一秒抓下的两份 .html：一份是 355 行常数的定宽表，一份是可读正文只剩一句话的错误页
+src: corpus/raw\codata_table.html (40801 字节／非空行 360／'<' 0 枚) ⇎ corpus/raw\codata_all.html (5371 字节／非空行 79／'<' 155 枚) (两份由同一秒的抓取落盘; 内容侧的抓取时刻住在错误页那枚挑战串里, 可永久复算; 磁盘 mtime 与它同秒只在本机成立, 不进门槛)
+；联结不是“同一份数据的两种序列化”, 而是同一秒抓下的两份 .html: 清单那份 40801 字节里 '<' 0 枚(整份是一张定宽表), 错误页那份 5371 字节里 '<' 155 枚而可读正文只剩一句“请求不合格式”; 两源共同 URL 0 个, 整行级候选池重合 0 条, 而短语级关键串 12 枚里两源同现 6 枚; 清单自己有三层可数的事: 排序四键逆序 45⇎22⇎0, (exact) 81 行 ⇎ 带截断点 62 行 ⇎ 小数位相等 274 行
+tags: 定宽列两法互证 表头与数据错位 排序四键阶梯 (exact)与截断分档 小数位对齐隐不变量 三位分组末组例外 正指数不写加号 标签与注释计数 链接只活在属性里 声明字符集而未用 base64 抓取时刻 整行池零重合须分口径 锚归属由正文现推
+## [[原始语料|ORIGINAL]]
+### ⟦T⟧ ⟸ corpus/raw/codata_table.html
+
+Fundamental Physical Constants --- Complete Listing 2022 CODATA adjustment From: http://physics.nist.gov/constants Quantity Value Uncertainty Unit ------------------------
+
+alpha particle-electron mass ratio 7294.299 541 71 0.000 000 17 alpha particle mass 6.64
+
+alpha particle mass energy equivalent in MeV 3727.379 4118 0.000 0012 MeV alpha particle mass in u
+
+alpha particle molar mass 4.001 506 1833 e-3 0.000 000 0012 e-3 kg mol^-1 alpha particle-proton ma
+
+Avogadro constant 6.022 140 76 e23 (exact) mol^-1 Bohr magneton 9.274 010
+
+electron mag. mom. to Bohr magneton ratio -1.001 159 652 180 46 0.000 000 000 000 18 electron mag.
+
+electron volt-inverse meter relationship 8.065 543 937... e5 (exact) m^-1 electron volt-joule rela
+
+shielded proton mag. mom. to Bohr magneton ratio 1.520 993 1551 e-3 0.000 000 0062 e-3 shielded proton mag.
+
+vacuum mag. permeability 1.256 637 061 27 e-6 0.000 000 000 20 e-6 N A^-2 von Klitzing constant 25 812.807 45... (exact) ohm weak mixing angle 0.223 05 0.000 23 Wien frequency displacement law constant 5.878 925 757... e10 (exact) Hz K^-1 Wien wavelength displace
+
+W to Z mass ratio 0.881 45 0.000 13
+
+### ⟦E⟧ ⟸ corpus/raw/codata_all.html
+
+META HTTP-EQUIV="content-type" CONTENT="text/html;charset=iso-8859-1"> <META NAME="generator" CONTENT="GoLive CyberStudio"> <TITLE>CODATA Values of the Fundamental Constants</TITLE> <!-- Google Analtyics 4 --> <script async="async" s
+
+SCRIPT async id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOC&subagency=NIST&pua=UA-37115410-46&yt=false&exts=ppsx,pps,f90,sch,rtf,wrl,txz,m1v,xlsm,msi,xsd,f,tif,eps,mpg,xml,pl,xlt,c"></script> </HEAD> <BODY TEXT="#00
+
+TD ALIGN="CENTER" NOWRAP BGCOLOR="#C9EDD6"><B><FONT FACE="Myriad Roman,Helvetica,Arial,Geneva" SIZE="2" COLOR="#330099"><A HREF="/cuu/Constants/index.html">Values</A></FONT></B></TD> </TR> <TR> <TD ALIGN="C
+
+P><B><FONT FACE="Myriad Roman,Syntax,Arial,Helvetica" SIZE="5" COLOR="#9C0010">Sorry, </FONT><FONT FACE="Myri
+
+you have supplied an ill-formed request. </FONT></B></P><FONT COLOR="#3142BD"> <P><B><FONT FACE="Myri
+
+A HREF="/cuu/Constants/index.html">Try a new search</A></FONT></B></P> <!-- </FONT></P> <P><br
+
+script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4ce9ef92f91eb83',t:'MTc5MjQwMDcyNQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></BODY> </HTML>
+
+
+=== 判词区 ===
+## ⟪BabelTele⟫
+🧭 体例 ⟦T⟧⟨Fundamental Physical Constants --- Complete Listing⟩ ‖ ⟦T⟧⟨2022 CODATA adjustment⟩ ‖ ⟦E⟧⟨you have supplied an ill-formed request. </FONT></B></P><FONT COLOR="#3142BD">⟩ ⇒ 在库的是同一秒落盘的两份 .html: 清单那一份 40801 字节里 '<' 出现 0 次(整份就是一张定宽表, 连 DOCTYPE 都不写), 错误页这一份 5371 字节里 '<' 155 枚、DOCTYPE 0 ⇎ 1 枚、'>' 155 枚而可读的话只剩一句“请求不合格式”。两份都是纯 ASCII(0 ⇎ 0), 所以字符数与字节数在 2 份里各自相等; sha16 各取前 16 位后 2 种全不同(整串见 ⛓解读注, 它是旁证不是门槛)。两源的 URL 交集 0 个(清单里 1 个, 错误页里 2 个), 所以“同一批抓取”不是这两份文件的字面关系, 而是从错误页内容里那枚挑战串读出来的, 见 ⏳。
+📏 同一批抓取的两份产物在量纲上反号 366 ⇎ 97 个换行 ⇎ 367 ⇎ 98 段 ⇎ 360 ⇎ 79 非空行 ⇎ 7 ⇎ 19 空行 ⇒ 清单那份额外有一条 125 字符的分隔线和 113 字符的表头行, 数据 355 行、行长只落在 110～124 之间: 比表头还长的有 100 行, 与分隔线等长的 0 行; 数据行合计 40056 字符, 占整份文件 98%。错误页去掉标签还剩 1956 字符(21 行), 其中脚本源码就占 1093 字符——真正给人读的话只剩 16 行; 反过来清单是它字节的 760%。清单那一头行数的两端: 首行 ⟦T⟧⟨alpha particle-electron mass ratio                          7294.299 541 71          0.000 000 17⟩, 末行 ⟦T⟧⟨W to Z mass ratio                                           0.881 45                 0.000 13⟩——相邻行对因此是 354 双, 下一段拿它做排序检查。
+🔤 数字记法在这张表里自有一套写法 ⟦T⟧⟨von Klitzing constant                                       25 812.807 45...         (exact)                  ohm⟩ ‖ ⟦T⟧⟨alpha particle mass energy equivalent in MeV                3727.379 4118            0.000 0012               MeV⟩ ‖ ⟦T⟧⟨Wien frequency displacement law constant                    5.878 925 757... e10     (exact)                  Hz K^-1⟩ ‖ ⟦T⟧⟨electron volt-inverse meter relationship                    8.065 543 937... e5      (exact)                  m^-1⟩ ⇒ 数字内部的分隔空格 1384 处; 小数部分的组共 1986 组, 三位一组只占 1519 组, 其余 467 组, 组大小从 1 位到 4 位都有——三位是中间组的规矩, 最后一组装可疑位, 2 位与 4 位都合法; 整数部分 649 组里 544 组只有一位(105 组不止)。指数写法: 负指数 182 枚 ⇎ 正而不带符号 49 枚 ⇎ 带 '+' 的 0 枚(三者相加校住总数 231); 值与不确定度同时带指数的 173 行里写法不同者 0 行——同带指数时两边符号一致(例如 ⟦T⟧⟨shielded proton mag. mom. to Bohr magneton ratio            1.520 993 1551 e-3       0.000 000 0062 e-3⟩), 只有值带指数的另算 58 行。“末组不必三位”与“正指数不写 '+'”这两条在文件里零词面, 只能复算。
+🧱 字段边界有两条独立判法: 断列(两个以上空格切开) ⇎ 定宽列(按现数出的列位切) ⇒ 列位是数出来的: 四列起点依次 0 ⇎ 60 ⇎ 85 ⇎ 110, 其中值列主位置覆盖 355 行、单位列主位置覆盖 262 行(单位列的另一种“起点”是那一格根本不存在); 拿这套列位回头复现断列结果: 1420 次逐格比对里不一致 0 处。表头四个词的位置与数据列位分别是 2 ⇎ 5 ⇎ 2 ⇎ -1 的差, 非零者 4 处——表头并不是照着数据列对齐的, 锚 ⟦T⟧⟨Quantity                                                       Value                 Uncertainty           Unit⟩ 那一行就是证据。
+🧲 “这张表按字母排”有四种判法, 数出四个数 ⇒ 字节键逆序 45 对, 并大小写后 22 对, 只留字母数字后 0 对(相等 0 对), 整行同键 0 对; 逐级降下 23 ⇎ 22 对。字节键下共 45 对逆序(在 354 对相邻行里), 第一处就在第 1 对: ⟦T⟧⟨alpha particle-electron mass ratio                          7294.299 541 71          0.000 000 17⟩ 之后紧跟 ⟦T⟧⟨alpha particle molar mass                                   4.001 506 1833 e-3       0.000 000 0012 e-3       kg mol^-1⟩——'-' 的码位比空格大, 所以 'particle-el' 排在 'particle m' 之前。而表的末行 ⟦T⟧⟨W to Z mass ratio                                           0.881 45                 0.000 13⟩ 自己就不守这个序('W to Z' 落在 'Wien…' 之后)。名单里 42 行首字母大写, 119 行带连字符, 68 行带缩写点(名长 8～55 字), 而表里没有一处写着它按哪一键排。
+🖼 错误页的壳可以拆开数 ⟦E⟧⟨<TITLE>CODATA Values of the Fundamental Constants</TITLE>⟩ ‖ ⟦E⟧⟨<META HTTP-EQUIV="content-type" CONTENT="text/html;charset=iso-8859-1">⟩ ‖ ⟦E⟧⟨<META NAME="generator" CONTENT="GoLive CyberStudio">⟩ ‖ ⟦E⟧⟨<!-- Google Analtyics 4 -->⟩ ⇒ 整份 85 枚开标签 ⇎ 66 枚闭标签 ⇎ 16 种, 最多的四种是 font 13 ⇎ td 12 ⇎ tr 11 ⇎ a 10(合计 46 枚); 注释 3 段共 238 字符, 其中带 HREF 证据的两类各算一次合计 2 处, 'Analtyics' 这种拼错只在注释里 1 处而正确的 'Analytics' 2 处。声明与使用对不上: 声明 charset 有 1 处而整份 0 枚非 ASCII(0), 清单那份连 charset 都不写(0 处)。链接活在属性里: /cuu/Constants/index.html 在整份 4 处, 去标签后 0 处, 注释里 1 处——⟦E⟧⟨<A HREF="/cuu/Constants/index.html">Try a new search</A></FONT></B></P>⟩ 那一行的去处随标签一起被删; 一次性短语(ill-formed 那句、Sorry、Try a new search、New search、Analtyics)合计 5 处。壳里的部件各数一遍: meta 2 枚、img 3 枚、hr 2 枚、script 4 段(noscript 回落文本 863 字符)、href 10 处, 实体引用只有 1 枚; 三代分析代码同页——⟦E⟧⟨<META NAME="generator" CONTENT="GoLive CyberStudio">⟩ 署 GoLive CyberStudio(1 处), gtag 串 2 次, ⟦E⟧⟨<SCRIPT async id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOC&subagency=NIST&pua=UA-37115410-46&yt=false&exts=ppsx,pps,f90,sch,rtf,wrl,txz,m1v,xlsm,msi,xsd,f,tif,eps,mpg,xml,pl,xlt,c"></script>⟩ 是联邦那一份; ⟦E⟧⟨<TD ALIGN="CENTER" NOWRAP BGCOLOR="#C9EDD6"><B><FONT FACE="Myriad Roman,Helvetica,Arial,Geneva" SIZE="2" COLOR="#330099"><A HREF="/cuu/Constants/index.html">Values</A></FONT></B></TD>⟩ 那一格落在三段注释之外, 而 ⟦E⟧⟨<P><B><FONT FACE="Myriad Roman,Syntax,Arial,Helvetica" SIZE="5" COLOR="#9C0010">Sorry,⟩ 之后那两句才是这页给人读的全部内容。
+📐 不确定度那一栏把 355 行分三层 81 ⇎ 274 ⇎ 0(三者相加校住行数) ⇒ '(exact)' 81 行, 其余 274 行给数字不确定度, 该栏空着的 0 行。值里带 '...' 的 62 行(点号共 62 处)全部落在 '(exact)' 里: 截断者 62, 不在其内者 0; 于是 '(exact)' 又分两式——被截断的 62 行与给全的 19 行(⟦T⟧⟨Avogadro constant                                           6.022 140 76 e23         (exact)                  mol^-1⟩、⟦T⟧⟨electron volt-inverse meter relationship                    8.065 543 937... e5      (exact)                  m^-1⟩ 都在给全那一式)。这一分档不是排版小事: 它决定小数位对齐那条不变量能核到哪一层, 见 🧵。
+🧵 表里没写出来的排版不变量 ⇒ 把值与不确定度各按小数点数位: 可判的 274 行里位位相等 274 行, 不等 0 行——这条“两边小数位数相同”在文件里零词面, 只能复算(位位可判的 274 行里位数最多的一行是 ⟦T⟧⟨electron mag. mom. to Bohr magneton ratio                   -1.001 159 652 180 46    0.000 000 000 000 18⟩: 两边各 18 位小数); 它对 '...' 那 62 行根本不适用(值已被截断)。单位栏的另两个数: 空 93 行 ⇎ 有值 262 行, 种数 75(断列法与定宽法各数一遍是 75 ⇎ 75, 相差 0), 只出现一次者 40 种, 带 '^' 幂写法 97 行, 含空格的组合单位 92 行; 最多的三种 J(23) ⇎ m(23) ⇎ kg(22) 各占 23 ⇎ 23 ⇎ 22 行(三名合计 68 行)。空单位与 '(exact)' 的交集 0 行——“无量纲”与“定义值”在这张表里是两件事(锚 ⟦T⟧⟨weak mixing angle                                           0.223 05                 0.000 23⟩ 是前者, ⟦T⟧⟨vacuum mag. permeability                                    1.256 637 061 27 e-6     0.000 000 000 20 e-6     N A^-2⟩ 是后者)。
+⏳ 时间只有内容侧那一条能永久复算 ⟦E⟧⟨<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4ce9ef92f91eb83',t:'MTc5MjQwMDcyNQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></BODY>⟩ ⇒ 错误页里那枚挑战串 t:'…' 长 16 字符, base64 解出整数 1792400725, 换成 UTC 就是 2026-10-19 09:05:25; 同段的 r:'…' 是 16 位十六进制。这份时刻与磁盘 mtime 同秒这件事只在本机成立(拷贝一次文件就失效), 所以它写在注里而不进门槛。表自己写的年份是 '2022' 1 处(⟦T⟧⟨2022 CODATA adjustment⟩), 而错误页里 '2022' 0 处——两份文件在文字层几乎不重合, 见 🗂。出处也只有清单那一头写着: ⟦T⟧⟨From:  http://physics.nist.gov/constants⟩ 把来源印成一行, 错误页反过来只把去处指回 /cuu/Constants/index.html(4 处)——两份文件互不引用, 同一批抓取的关系只留在那枚 base64 串里。
+🗂 关键串穿两源 12 枚(归一键: 只留字母数字并小写) ⇒ 两源同现 6 枚 ⇎ 只现一源 6 枚(清单独占 3, 错误页独占 3) ⇎ 一枚不中 0 枚; 同现的是 CODATA ／ constants ／ Fundamental Physical Constants ／ uncertainty ／ value ／ unit。而整行级的候选池里两源重合 0 条(池中清单行 355 行, 拿错误页全文去配命中 0 行): 短语级 6 枚与行级 0 条不矛盾——前者问“这几个字母两边都出现过吗”, 后者问“这一整行两边都是它吗”。两种口径都写在这里, 不留给读者猜; 本条正文的锚因此全是单源锚(两源同现 0 条)。
+🧪 这条的可核事实分三档 ⟦T⟧⟨von Klitzing constant                                       25 812.807 45...         (exact)                  ohm⟩ ‖ ⟦T⟧⟨Wien frequency displacement law constant                    5.878 925 757... e10     (exact)                  Hz K^-1⟩ ‖ ⟦E⟧⟨<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4ce9ef92f91eb83',t:'MTc5MjQwMDcyNQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></BODY>⟩ ⇒ 第一档 B54V 可复算: 两源的字节/行/段/空行/'<'/'>'/非 ASCII, 定宽列位与两法互证(1420 格 0 处不一致), 表头与数据列位差 4 处, 排序四键阶梯 45⇎22⇎0⇎0, '(exact)' 与 '...' 的分层, 小数位对齐 274⇎0, 分组与指数的记数法, 单位列两遍统计(种数差 0), 错误页的标签/注释/属性计数, 以及那枚 base64 时间戳。第二档只在本机成立: 磁盘 mtime 与那枚时间戳同秒——它进注不进门槛, 因为门槛要能在任何一份拷贝上重跑。第三档不可核, 由成因决定: 错误页是哪一次请求造成的、'physics.nist.gov/constants' 与 /cuu/ 两个入口谁才是这份清单的正身、'2022 CODATA adjustment' 之后官方又改过什么——库里只有这两份字节, 没有请求日志也没有当前线上状态。锚的可核性只有一条: 正文里“源标签紧接原子引文”的配对共 34 处／26 条去重串, 归属由正文现推, 每条对两源逐一判成员共 52 次检查, 单源 26 ⇎ 两源同现 0, 错配 0 处。
+∴ 骨架 ⇒ ① 同批两份 .html 字节 40801 ⇎ 5371, 换行 366 ⇎ 97, 非空行 360 ⇎ 79, '<' 0 ⇎ 155, 非 ASCII 0 ⇎ 0(纯 ASCII 故字符=字节 2 份); ② 清单是定宽表: 数据 355 行占字符 98%, 列位 0⇎60⇎85⇎110, 两法 1420 格比对不一致 0 处, 表头与列位非零差 4 处; ③ 排序四键逆序 45⇎22⇎0⇎0, 大小写切掉 23 对, 标点再切掉 22 对, 第一处在第 1 对; ④ 不确定度分三层 81⇎274⇎0, '...' 的 62 行全在 '(exact)' 内, 故 '(exact)' 又分截断 62 ⇎ 给全 19; ⑤ 隐不变量: 值与不确定度小数位相等 274 行 ⇎ 不等 0 行(适用面 274 行); ⑥ 记法: 小数末组非三位 467 组(最大 4 位), 指数负 182 ⇎ 正而不写 '+' 49 ⇎ 写 '+' 0; ⑦ 错误页: 开标签 85／闭 66／种 16, 注释 3 段 238 字符, 链接 4 处 → 去标签 0 处, 去标签后 1956 字符里脚本 1093 字符; ⑧ 穿两源 12 枚关键串同现 6 枚, 整行锚池重合 0 条, 内容侧时间戳 1792400725。判词: 一个文件是什么由它的字节自己说——同后缀的两份, 字节 40801 ⇎ 5371, 一份 0 枚 '<' 一份 155 枚; 命名相反(table 才是数据, all 是一页错误); 而两边几乎不相交(0 个共同 URL、整行重合 0 条)却是同一秒抓下的。
+ℒ 方法 ⇒ 遇到“同名的两份文件”先别问哪份对, 先各自建口径再问重合: 本条把字段边界写成两条独立判法(断列 ⇎ 定宽列), 1420 格 0 处不一致才算坐实定宽; 把“按字母排”写成四键阶梯并逐级报降幅(23 ⇎ 22), 因为只报“排没排”会把连字符与大小写两种成因糊成一谈; 把隐不变量单独立一栏(小数位对齐 274⇎0)并写明它的适用面 274 行——剩下 62 行被截断而不适用; 把重合写成两级(短语 6 枚 ⇎ 整行 0 条), 免得一个 0 看上去推翻另一个数; 最后把时间分两档: base64 解出的 1792400725 住在字节里, 永久可复算, 磁盘 mtime 与它同秒只在本机成立, 所以只进注。错误页也不当垃圾: 标签 85／66／16、注释里拼错 1 处、链接 4⇎0 的落差都是可数的事实。
+✂️ 为什么这份编码比摘要窗口长 ⇒ 两源各 40801 ⇎ 5371 字符, 窗口只能取锚点触到的行; 而本条的结论全是跨行量: 355 行的四键排序阶梯、1420 格的两法互证、274 行的小数位对齐、75 种单位的两遍计数。尤其带 '...' 的 62 行与给全的 19 行 '(exact)' 分档, 任何单窗口都装不下这张表的层级。读它请按“这个数是对哪一列、用哪种边界口径数出来的”来读, 而不是按“少抄了多少原文”。
+
+
+=== 解读注 ===
+## ⛓解读注
+
+- 三套实现与一处非独立: 采集侧 _pick54.py ⇎ 建条目侧 _mkB54.py(扁平契约 148 键) ⇎ 门槛内 _b54_scan()。本注是第四遍: 上面 148 个键逐个与审计器快照对齐(不符即停机), 另自行从两份字节重取了行数 355、'(exact)' 81 行、给全的 19 行、base64 时刻 1792400725 ——四个数与契约逐一相同。
+- _b54_scan 的量测段由 _wire54.py 从 _mkB54.py 的 SCAN 段逐行抽出(只改路径常量与模块别名), 插门前把 _b54flat.json 的 148 个键与 DERIV['B54'] 的 81 条算式在抽出体上跑过; 因此真正独立的两遍是 _pick54.py 与本注, 它们用的是两套不同的字段切法(采集侧按 gap 定列, 本注同样按 gap 但另数一遍)。
+- 门槛的账: DERIV 键 81 个 ⇎ 引用点 243 处 ⇎ 同数共键 27 组(两名以上 10 组) ⇎ 0 键折 26 项。同数的字面不取第一条算式, 而是复合式 LIT*(1-(max(全部算式)-min(全部算式))): 每条算式都等于该字面时括号才为 1。
+  - 同数 1(9 条): first_inv ⇎ grp_frac_min ⇎ e_annotyics ⇎ e_amp ⇎ e_charset ⇎ e_gen ⇎ e_link_comment ⇎ t_year ⇎ t_url_n
+  - 同数 2(9 条): sha16 种数 ⇎ 表头与数据列位差·第1列 ⇎ 表头与数据列位差·第3列 ⇎ e_cmt_marks ⇎ e_analytics ⇎ e_hr ⇎ e_meta ⇎ e_gtag_occ ⇎ e_url_n
+  - 同数 16(3 条): e_noscript_nb ⇎ tok_len ⇎ r_hexlen
+  - 同数 274(3 条): align_rows ⇎ align_eq ⇎ demo_rows
+  - 同数 3(3 条): e_img ⇎ hitkT ⇎ hitkE
+  - 同数 4(3 条): grp_frac_max ⇎ e_script_n ⇎ e_link_raw
+  - 同数 22(2 条): punct_cuts ⇎ 第3名单位行数
+  - 同数 23(2 条): 第1名单位行数 ⇎ 第2名单位行数
+- 两份文件的指纹(旁证, 判词里只报“种数”而不报串, 因为串里的数字段无法由字节直接命中): 77fb90e66c40db3e6eb16630bc9c88e4c7c8beddbe5e71be406f2f26e3f67e67 ⇎ 97dc17d765e3065f4b2848cd4b2b556319436b0355c7bb11811f9a193a553c4d; 字节 40801 ⇎ 5371。sha256 全长 64 位, 此处只列全串以免与判词里的数字锚混起来。
+- 时间分两档(第二档只在本机): 内容侧 t:'MTc5MjQwMDcyNQ==' → 1792400725 → 2026-10-19 09:05:25 UTC, 这一条在任何一份拷贝上都复算得出, 已进 DERIV(键 tok_epoch 与 tok_utc); 磁盘 mtime(换成 UTC 后)分别是 2026-10-19 09:05:25 ⇎ 2026-10-19 09:05:25, 与该时刻差 0.889 ⇎ 0.067 秒——同一秒落盘这件事拷贝一次就失效, 所以它只写在这里。
+- 锚的账: 去重 26 串 ⇎ 正文 34 处 ⇎ 每标签 {'T': 22, 'E': 12} ⇎ 单源 26 ⇎ 两源同现 0 ⇎ 成员检查 52 次 ⇎ 错配 0 处; 本注另按“整串在该源字节里逐字出现”复查: 26/26 串命中。
+- 锚的口径(与 B53 不同, 必须单写): 两源都用原文件行判成员, 不设“去标签正文”这一层——清单那份整份 0 枚 '<', 去标签与不去标签是同一份字节; 错误页那一份若去掉标签, “ill-formed request”那句会与它的 <FONT> 壳一起被切掉。穿两源的 12 枚关键串用的是同一归一键(只留字母数字并小写)。
+- '(exact)' 给全(不带 '...')的 19 行名单: atomic unit of charge、Avogadro constant、Boltzmann constant、conventional value of Josephson constant、conventional value of von Klitzing constant、electron volt、electron volt-joule relationship、elementary charge、hertz-joule relationship、hyperfine transition frequency of Cs-133、inverse meter-hertz relationship、kelvin-joule relationship、luminous efficacy、natural unit of velocity、Planck constant、speed of light in vacuum、standard acceleration of gravity、standard atmosphere、standard-state pressure。截断的 62 行不在此列, 于是“小数位对齐”那条不变量的适用面是 274 行而不是 355 行。
+- 单位列两遍计数是 75 ⇎ 75(差 0), 逐格两法互证 1420 格不一致 0 处: 这两笔是本条里唯一“同一件事由两条独立判法各数一遍”的账, 它们在门槛里各占一个键, 不是靠断言假设相等。
+- 同一份字节被两代制度各压过一次: B06 的 src 指向的就是本条的 ⟦T⟧(sha16 77fb90e66c40db3e), 两条不重叠也不冲突——B06 抄表里的数值, 本条数表的形状; B06 编码区里片段锚 0 枚(第一代不用锚点), 与本条 26 串锚交集 0 处; 要核“同一份 raw 能不能有两种条目”就拿这两条对照, 而不是拿本条的 ⟦E⟧。
+- 不可核清单(写成判词而非待核, 因库里无相应字节): 错误页由哪一次请求造成; 'physics.nist.gov/constants' 与 /cuu/ 两个入口谁才是这份清单的正身; 2022 调整之后官方是否又改过数值; 那三段注释里被留着的旧导航块是哪一代模板。

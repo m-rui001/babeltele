@@ -1,0 +1,35 @@
+enumerate every cause of hypokalemic metabolic alkalosis with normal-to-low blood pressure, then eliminate each one by explicit reference to a specific number or finding above, and state the single most likely diagnosis plus the confirmatory test. Explain the mechanistic reason behind each elimination step, including why the urinary chloride and the fractional calcium excretion discriminate the way they do, and why Mg is low.
+- Urine Cl 104 also excludes vomiting/NG suction because in those, Cl loss is extrarenal, urine Cl low; excludes post-diuretic state because after diuretic effect wanes, urine Cl low; excludes congenital chloride diarrhea (stool Cl high, urine Cl low); excludes laxative abuse (usually acidosis, low urine Cl).
+The high urine Cl and Na exclude GI chloride loss; the low FeCa excludes Bartter and loop diuretic; the negative diuretic screen excludes thiazide; the normal BP and elevated renin/aldo exclude Liddle, AME, primary aldosteronism, Cushing, CAH, and reninoma/renal artery stenosis.
+Alternative interpretation: "largest possible number of pairs (a,b) of elements of a set S of n positive integers with a<b such that a+b divides a*b" Maybe they ask max over S, and since C(n,2) trivial, maybe the "characterize sets attaining it" means characterize complete sets.
+Determine, with proof, the largest possible number of pairs (a, b) of elements of a set S of n positive integers with a < b such that a + b divides a*b. Give the exact extremal value as a function of n and characterize the sets attaining it." I
+Need enumerate and eliminate each with specific numbers: BP 104/66 no HTN; renin elevated eliminates low-renin states; aldosterone elevated eliminates low-aldosterone states; primary aldosteronism would have suppressed renin and usually HTN.
+Determine, with proof, the largest possible number of pairs (a, b) of elements of a set S of n positive integers with a < b such that a + b divides a*b. Give the exact extremal value as a function of n and characterize the sets attaining it.
+Trying to extend \(\{20,30,60\}\) by hand also dead-ends: any fourth element \(d\) must satisfy \(d+20\mid400\), so, apart from \(30,60\), the candidates are \(5,80,180,380\); direct checks against \(30\) eliminate all of them.
+Mention "this is the one mimic that survives the biochemistry; it is excluded by the negative screen/history, but clinically one would confirm with SLC12A3 testing and/or a supervised diuretic screen." This shows false lead.
+Could state "Gitelman is far more likely; CLCNKB-related Bartter III is the main genetic mimic and can be covered by a tubulopathy gene panel." Confirmatory test: SLC12A3 sequencing; if negative, CLCNKB.
+A natural guess from extremal graph theory might be \(\lfloor n^2/4\rfloor\), but \(n=3\) already disproves it: \(\lfloor9/4\rfloor=2\), while the triangle above has \(3\) good pairs.
+This is the key invariant: every finite configuration can be made admissible by one common dilation, because the obstructions are just finitely many divisibility conditions on \(M\).
+Thus, for the problem as stated, the extremal number is the full binomial coefficient, and the extremal sets are governed only by the finite scaling obstruction \(\Lambda(T)\).
+| **Gitelman syndrome** | Fits every finding: K 2.7, HCO3 34, urine K 78, urine Na 96, urine Cl 104, high renin/aldo, BP 104/66, Mg 0.58, FeCa 0.8%, cramps, and salt craving.
+Need exact extremal value C(n,2), characterization likely all sets satisfying pairwise condition, but perhaps can give structural characterization.
+Wait urine anion gap = (Na+ + K+) - Cl-; if positive, unmeasured anions (HCO3-) present; if negative, NH4+ high.
+- Congenital adrenal hyperplasia (11β-hydroxylase, 17α-hydroxylase): hypertension, low renin/aldo
+Wait our triangle {20,30,60}: minimum 20; other b from divisors of 400: 30 (sum50), 60 (sum80).
+"enumerate every cause of hypokalemic metabolic alkalosis with normal-to-low blood pressure
+Wait for any finite set R of positive integers, choose L = lcm_{i<j}(r_i+r_j).
+decreased intracellular Na and increased basolateral Na/Ca exchange
+metabolic alkalosis, hypomagnesemia, hypocalciuria, high renin/aldo
+Wait maximum number of pairs is trivially all if construction.
+. Reason out loud, showing every arithmetic check you make."
+={1,2,3,4}, L=lcm(3,4,5,5,6,7)=420. S={420,840,1260,1680}.
+sets. That is a clean characterization: S is extrem
+We need answer medical diagnostic reasoning.
+- DCT (Gitelman, thiazides) reabsorbs ~5
+We can produce maybe 1500-2500 words?
+We need answer clinical reasoning.
+We need solve math problem.
+Need accurate mechanism.
+Gitelman
+Hmm.
+no.

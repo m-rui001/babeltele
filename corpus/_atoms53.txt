@@ -1,0 +1,25 @@
+<div class="hidden-sm hidden-xs hidden-xxs" id="pub-detail-abstract-info"><p>This Standard specifies the Secure Hash Algorithm-3 (SHA-3) family of functions on binary data. Each of the SHA-3 functions is based on an instance of the K<small>ECCAK</small> algorithm that NIST selected as the winner of the SHA-3 Cryptographic Hash Algorithm Competition. This Standard also specifies the K<small>ECCAK</small>-p family of mathematical permutations, including the permutation that underlies K<small>ECCAK</small>, in order to facilitate the development of additional permutation-based cryptographic functions. The SHA-3 family consists of four cryptographic hash functions, called SHA3-224, SHA3-256, SHA3-384, and SHA3-512, and two extendable-output functions (XOFs), called SHAKE128 and SHAKE256. Hash functions are components for many important information security applications, including 1) the generation and verification of digital signatures, 2) key derivation, and 3) pseudorandom bit generation. The hash functions specified in this Standard supplement the SHA-1 hash function and the SHA-2 family of hash functions that are specified in FIPS 180-4, the Secure Hash Standard. Extendable-output functions are different from hash functions, but it is possible to use them in similar ways, with the flexibility to be adapted directly to the requirements of individual applications, subject to additional security considerations.</p></div>
+FOREWORD The Federal Information Processing Standards (FIPS) Publication Series of the National Institute of Standards and Technology (NIST) is the official series of publications relating to standards and guidelines adopted and promulgated under the provisions of the Federal Information Security Management Act (FISMA) of 2002. Comments concerning FIPS publications are welcomed and should be addressed to the Director, Information Technology Laboratory, National Institute of Standards and Technology, 100 Bureau Drive, Stop 8900, Gaithersburg, MD 20899-8900.
+The KECCAK-p permutations were designed to be suitable as the main components for a variety of cryptographic functions, including keyed functions for authentication and/or encryption. The six SHA-3 functions can be considered as modes of operation (modes) of the KECCAKp[1600,24] permutation. In the future, additional modes of this permutation or other KECCAK-p permutations may be specified and approved in FIPS publications or in NIST Special Publications.
+2. Return A. The dot in the right side of the assignment for Step 1 indicates integer multiplication, which in this case is equivalent to the intended Boolean "AND" operation. The effect of  is to XOR each bit with a non-linear function of two other bits in its row, as illustrated in Figure 6 below.
+<script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());   gtag('config', 'G-TSQ0PLGJZP'); </script>
+<p>This is a potential security issue, you are being redirected to <a href="https://csrc.nist.gov">https://csrc.nist.gov</a>.</p>
+SHA-1 SHA-224 SHA-512/224 SHA-256 SHA-512/256 SHA-384 SHA-512 SHA3-224 SHA3-256 SHA3-384 SHA3-512 SHAKE128 SHAKE256
+<title>FIPS 202, SHA-3 Standard: Permutation-Based Hash and Extendable-Output Functions | CSRC</title>
+<strong style="font-size: 1.6rem;">You are viewing this page in an unauthorized frame window.</strong>
+In Step 1, the indices are defined for the hexadecimal digits. In Step 2a, each pair of hexadecimal
+concatenating and/or truncating digests from hash functions--generally do exhibit this property.
+concatenating and/or truncating digests from hash functions—generally do exhibit this property.
+a. for all z such that 0 ≤ z < w, let A′[x, y, z]  =  A[x, y, (z – (t + 1)(t + 2)/2) mod w];
+SHAKE128         The SHA-3 XOF that generally supports 128 bits of security strength, if
+Lane (0, 0) = A[0, 0, 0] || A[0, 0, 1] || A[0, 0, 2] || … || A[0, 0, 62] || A[0, 0, 63]
+A[0, 0, 1] = S [1]     A[1, 0, 1] = S [65]                       A[4, 0, 2] = S [258]
+1. Name of Standard: SHA-3 Standard: Permutation-Based Hash and Extendable-Output
+Version 3, January 2011, http://keccak.noekeon.org/Keccak-submission-3.pdf.
+C[x, z] = A[x, 0, z] ⊕ A[x, 1, z] ⊕ A[x, 2, z] ⊕ A[x, 3, z] ⊕ A[x, 4, z].
+D[x, z] = C[(x1) mod 5, z] ⊕ C[(x+1) mod 5, (z – 1) mod w].
+D[x, z] = C[(x1) mod 5, z]  C[(x+1) mod 5, (z � 1) mod w].
+Function  Output             Security Strengths in Bits
+An official website of the United States government
+http://dx.doi.org/10.6028/NIST.FIPS.202
+Table 3:  Input block sizes for HMAC

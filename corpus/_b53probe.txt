@@ -1,0 +1,46 @@
+# B53 侦察(FIPS 202 四种序列化; 本机 pdftotext 现生两份, 官方两份), 仅选材与量纲
+bytes                  {'off_txt': 72542, 'off_html': 48779, 'gen_layout': 77812, 'gen_plain': 68458}
+chars                  {'off_txt': 70069, 'off_html': 48089, 'gen_layout': 76354, 'gen_plain': 67543}
+html_a                 92
+html_tagkinds          38
+html_tags              494
+html_title             FIPS 202, SHA-3 Standard: Permutation-Based Hash and Extendable-Output Functions | CSRC
+linelen_med            {'off_txt': 35, 'off_html': 31, 'gen_layout': 77, 'gen_plain': 47}
+lines                  {'off_txt': 1925, 'off_html': 676, 'gen_layout': 1458, 'gen_plain': 915}
+lines_gt120            {'off_txt': 40, 'off_html': 60, 'gen_layout': 41, 'gen_plain': 162}
+lines_le20             {'off_txt': 576, 'off_html': 239, 'gen_layout': 181, 'gen_plain': 216}
+nonblank               {'off_txt': 1426, 'off_html': 577, 'gen_layout': 1060, 'gen_plain': 581}
+pdf_pages              44
+pdf_streams            198
+pool_cross             {'gen_layout×2层': 114, 'gen_layout×3层': 103, 'gen_plain×2层': 47, 'gen_plain×3层': 162, 'gen_plain×4层': 1, 'off_txt×2层': 4, 'off_txt×3层': 673, 'off_txt×4层': 24}
+pool_multi             1128
+pool_n                 1263
+pool_own               {'off_txt': 788, 'off_html': 12, 'gen_layout': 231, 'gen_plain': 232}
+regen_equal            True
+regen_sha              28ce2c326a19fb04
+run_html_vs_off        [64, 41, 41, 41, 41, 1135, 41, 64, 319, 55, 44, 49, 40, 47, 41, 68, 42, 55, 40, 41, 41, 44, 41]
+run_layout_vs_off      [518, 545, 1363, 2053, 2488, 1424, 52, 1878, 112, 112, 112, 112, 113, 2652, 230, 114, 120, 113, 319, 57, 57, 440, 194, 1113, 1250, 79, 1687, 968, 366, 739, 227, 402, 62, 42, 621, 257, 106, 145, 49, 55, 230, 1020, 1843, 106, 220, 522, 105, 139, 282, 148, 191, 70, 100, 62, 62, 50, 214, 54, 54, 54, 54, 54, 54, 54, 54, 54, 54, 54, 54, 54, 61, 314, 166, 129, 191, 133, 102, 45, 80, 42, 55, 297, 111, 297, 142, 194, 183, 234, 122, 110, 42, 144, 227, 136, 43, 55, 51, 103, 128, 162, 83, 42, 681, 167, 53, 188, 119, 68, 535, 679, 85, 56, 58, 777, 44, 88, 491, 101, 1062, 1405, 56, 104, 808, 41, 945, 807, 79, 88, 1658, 958, 225, 55, 151, 1261, 629, 408, 70, 50, 78, 40, 516, 67, 514, 49, 45, 54, 64, 43, 476, 264, 53, 85, 937, 1149]
+run_layout_vs_plain    [3618, 1768, 4000, 99, 4000, 131, 4000, 4000, 220, 56, 81, 53, 43, 61, 4000, 1545, 93, 3084, 4000, 4000, 4000, 1636, 4000, 2475, 1201, 2749]
+run_plain_vs_off       [518, 545, 1363, 1191, 861, 906, 1581, 1424, 52, 1878, 112, 112, 112, 112, 113, 2652, 230, 114, 120, 113, 319, 57, 57, 440, 194, 1113, 1250, 79, 1687, 968, 366, 739, 227, 42, 56, 81, 53, 41, 69, 42, 621, 257, 106, 145, 49, 55, 230, 1020, 1843, 106, 220, 522, 90, 191, 70, 100, 62, 62, 50, 214, 54, 54, 54, 54, 54, 54, 54, 54, 54, 54, 54, 54, 54, 61, 314, 166, 129, 191, 133, 88, 45, 80, 42, 55, 297, 111, 297, 142, 194, 183, 234, 122, 110, 42, 144, 227, 136, 43, 55, 51, 103, 128, 162, 83, 42, 681, 167, 53, 188, 119, 68, 535, 679, 85, 56, 58, 777, 44, 88, 491, 101, 1062, 1405, 56, 104, 808, 41, 945, 800, 51, 79, 88, 1658, 958, 225, 55, 151, 1261, 629, 408, 70, 50, 78, 40, 503, 514, 49, 45, 54, 64, 43, 262, 213, 264, 53, 85, 937, 1125]
+wocc                   {'off_txt': 11525, 'off_html': 1249, 'gen_layout': 11488, 'gen_plain': 11484}
+wset                   {'off_txt': 1268, 'off_html': 442, 'gen_layout': 1281, 'gen_plain': 1285}
+wset_inter             {'layout_off': 1268, 'plain_off': 1268, 'html_off': 231, 'layout_plain': 1280}
+wset_only              {'off_not_layout': 0, 'layout_not_off': 13, 'plain_not_layout': 5, 'off_not_plain': 0}
+sym AlgorithmN gen_layout 24 ⇎ gen_plain 24 ⇎ off_html 1 ⇎ off_txt 24
+sym StepN      gen_layout 10 ⇎ gen_plain 11 ⇎ off_html 0 ⇎ off_txt 10
+sym absorb     gen_layout 1 ⇎ gen_plain 1 ⇎ off_html 0 ⇎ off_txt 1
+sym appendix   gen_layout 0 ⇎ gen_plain 0 ⇎ off_html 1 ⇎ off_txt 0
+sym bar        gen_layout 0 ⇎ gen_plain 0 ⇎ off_html 0 ⇎ off_txt 0
+sym capacity   gen_layout 6 ⇎ gen_plain 6 ⇎ off_html 0 ⇎ off_txt 6
+sym ell        gen_layout 0 ⇎ gen_plain 0 ⇎ off_html 0 ⇎ off_txt 0
+sym leftarrow  gen_layout 0 ⇎ gen_plain 0 ⇎ off_html 0 ⇎ off_txt 0
+sym omega      gen_layout 0 ⇎ gen_plain 0 ⇎ off_html 0 ⇎ off_txt 0
+sym oplus      gen_layout 0 ⇎ gen_plain 0 ⇎ off_html 0 ⇎ off_txt 15
+sym padding    gen_layout 52 ⇎ gen_plain 52 ⇎ off_html 1 ⇎ off_txt 52
+sym pi         gen_layout 0 ⇎ gen_plain 0 ⇎ off_html 0 ⇎ off_txt 11
+sym rate       gen_layout 16 ⇎ gen_plain 15 ⇎ off_html 0 ⇎ off_txt 16
+sym sha3       gen_layout 43 ⇎ gen_plain 43 ⇎ off_html 8 ⇎ off_txt 43
+sym shakexof   gen_layout 63 ⇎ gen_plain 63 ⇎ off_html 4 ⇎ off_txt 63
+sym sponge     gen_layout 46 ⇎ gen_plain 46 ⇎ off_html 2 ⇎ off_txt 46
+sym squeeze    gen_layout 1 ⇎ gen_plain 1 ⇎ off_html 0 ⇎ off_txt 1
+sha gen_layout f5f0afde806407dd ⇎ gen_plain 1cd4796ad0b9416c ⇎ off_html c3454a273bbb8da1 ⇎ off_txt 4cea27762f1ba02f

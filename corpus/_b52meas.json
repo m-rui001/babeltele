@@ -1,0 +1,1417 @@
+{
+ "meas": {
+  "version": "2026e",
+  "stat": {
+   "N": {
+    "bytes": 8425,
+    "chars": 8417,
+    "nonempty": 302,
+    "com": 211,
+    "dat": 91,
+    "tabline": 92,
+    "nonascii": 5
+   },
+   "Z": {
+    "bytes": 17592,
+    "chars": 17536,
+    "nonempty": 375,
+    "com": 63,
+    "dat": 312,
+    "tabline": 318,
+    "nonascii": 38
+   },
+   "K": {
+    "bytes": 1212,
+    "chars": 1212,
+    "nonempty": 54,
+    "com": 2,
+    "dat": 52,
+    "tabline": 0,
+    "nonascii": 0
+   },
+   "M": {
+    "bytes": 56501,
+    "chars": 56466,
+    "nonempty": 1305,
+    "com": 546,
+    "dat": 759,
+    "tabline": 659,
+    "nonascii": 22
+   }
+  },
+  "fld": {
+   "N": {
+    "4": 91
+   },
+   "Z": {
+    "3": 111,
+    "4": 201
+   },
+   "T": {
+    "3": 216,
+    "4": 202
+   }
+  },
+  "grp_sizes": {
+   "1": 91
+  },
+  "grp": 91,
+  "rows": 91,
+  "off_kinds": 37,
+  "off_repeat": 24,
+  "dst_groups": 34,
+  "ab_groups": 52,
+  "dup_tag": 0,
+  "bare_hash": 97,
+  "other_com": 23,
+  "with_par": 48,
+  "with_first": 48,
+  "with_tag": 52,
+  "eq_first": 42,
+  "eq_last": 42,
+  "in_any": 42,
+  "gap_list": [
+   [
+    "America/Adak",
+    "HST / HDT",
+    [
+     "HST/HDT"
+    ]
+   ],
+   [
+    "America/Vancouver",
+    "PST/PDT",
+    [
+     "MST",
+     "most areas"
+    ]
+   ],
+   [
+    "America/Edmonton",
+    "MST/MDT",
+    [
+     "CST"
+    ]
+   ],
+   [
+    "America/Winnipeg",
+    "CST/CDT",
+    [
+     "EST"
+    ]
+   ],
+   [
+    "America/Havana",
+    "CST/CDT",
+    []
+   ],
+   [
+    "Antarctica/Troll",
+    "Troll DST",
+    []
+   ],
+   [
+    "Africa/Cairo",
+    "EET/EEST",
+    []
+   ],
+   [
+    "Asia/Beirut",
+    "EET/EEST",
+    []
+   ],
+   [
+    "Asia/Gaza",
+    "EET/EEST",
+    []
+   ],
+   [
+    "Asia/Jerusalem",
+    "IST/IDT",
+    []
+   ]
+  ],
+  "reverse_gap": 2,
+  "nparen": 49,
+  "two_par": 1,
+  "gap_nopar": 6,
+  "gap_tense": 3,
+  "gap_space": 1,
+  "expire": [
+   [
+    "America/Vancouver",
+    "PST/PDT",
+    "MST",
+    "-08",
+    "-07"
+   ],
+   [
+    "America/Edmonton",
+    "MST/MDT",
+    "CST",
+    "-07",
+    "-06"
+   ],
+   [
+    "America/Winnipeg",
+    "CST/CDT",
+    "EST",
+    "-06",
+    "-05"
+   ]
+  ],
+  "step": {
+   "-1": 2,
+   "0.5": 1,
+   "1": 30,
+   "2": 1
+  },
+  "k2inv": 0,
+  "k3pairs": 20,
+  "k3inv": 0,
+  "max_per_off": 8,
+  "off_pair_kinds": 56,
+  "inv": 0,
+  "zinv": 0,
+  "off_first": -11,
+  "off_last": 14,
+  "nonint": 13,
+  "minutes": [
+   30,
+   45
+  ],
+  "row_off_any": 0,
+  "row_off_cmt": 0,
+  "row_off_zone": 0,
+  "coord_w": {
+   "11": 75,
+   "15": 16
+  },
+  "lat_w": {
+   "4": 75,
+   "6": 16
+  },
+  "lon_w": {
+   "5": 75,
+   "7": 16
+  },
+  "latl": [
+   4,
+   6
+  ],
+  "lonl": [
+   5,
+   7
+  ],
+  "lead0": 56,
+  "lead0c": 62,
+  "mixed": 0,
+  "nast": {
+   "N": [
+    "á",
+    "é",
+    "’"
+   ],
+   "Z": [
+    "±",
+    "Ö",
+    "á",
+    "é",
+    "í",
+    "ó",
+    "ô",
+    "ö",
+    "ü",
+    "ū",
+    "‘",
+    "’",
+    "“",
+    "”"
+   ],
+   "K": [],
+   "M": [
+    "§",
+    "«",
+    "°",
+    "±",
+    "»",
+    "½",
+    "¾",
+    "¿",
+    "×",
+    "–",
+    "‘",
+    "’",
+    "“",
+    "”",
+    "•",
+    "→",
+    "−",
+    "≤",
+    "★",
+    "⟨",
+    "⟩",
+    "⯪"
+   ]
+  },
+  "c4_semi": 25,
+  "c4_par": 48,
+  "c4_both": 12,
+  "c4_kind": 91,
+  "iso": 4,
+  "iso_c": 4,
+  "iso_d": 0,
+  "dates": [
+   "2023-12-18",
+   "2026-11-01"
+  ],
+  "until": 3,
+  "gap_day": 1049,
+  "gap_bir": 514,
+  "pred": 2,
+  "pred70": 1,
+  "nowph": 2,
+  "col1_kind": 1,
+  "z_multi": 34,
+  "z_kind": 160,
+  "z4_empty": 111,
+  "z4_has": 54,
+  "z4_kind": 201,
+  "coord_eq": 91,
+  "cc_eq": 0,
+  "c4_eq": 6,
+  "n_shared": 91,
+  "only70": 221,
+  "onlytab": 327,
+  "dupn": 0,
+  "dup70": 0,
+  "duptab": 0,
+  "grain": {
+   "line": 0,
+   "coord": 91,
+   "zone": 91,
+   "c4": 6,
+   "shang": 49,
+   "shang_nt": 42,
+   "shang_self": 0
+  },
+  "sh_n": 777,
+  "sh_z": 2367,
+  "sh_t": 2802,
+  "sh3": {
+   "n_c3": 770,
+   "c_c3": 474,
+   "nc3": 0,
+   "nc2": 16,
+   "zc3": 0
+  },
+  "hit": {
+   "zdump_table": "KM",
+   "zdump-now.tab": "M",
+   "zdump-1970.tab": "M",
+   "from now on": "NK",
+   "agree from now on": "N",
+   "irrelevant and ignored": "N",
+   "XX": "NM",
+   "Pacific/Kiritimati": "NZ",
+   "-1416-17042": "NZ",
+   "+12:45/+13:45": "N",
+   "zone1970.tab": "NM",
+   "zonenow.tab": "KM",
+   "checknow.awk": "M",
+   "now.ck": "M",
+   "until 2026-11-01": "N"
+  },
+  "k_fref": [
+   "0",
+   "3"
+  ],
+  "k_frefc": {
+   "0": 4,
+   "1": 0,
+   "2": 0,
+   "3": 1,
+   "4": 0
+  },
+  "k_fs": [
+   "\\t"
+  ],
+  "k_fsline": 22,
+  "k_gtline": 10,
+  "k_ext": [
+   "now",
+   "now_out",
+   "zdump_table"
+  ],
+  "k_exth": {
+   "now": 2,
+   "now_out": 2,
+   "zdump_table": 1
+  },
+  "k_unset": [
+   "now",
+   "now_out",
+   "zdump_table"
+  ],
+  "k_printf": 4,
+  "k_printf_kinds": 4,
+  "k_status": 3,
+  "k_exit": 1,
+  "k_skip": 1,
+  "k_zdumpnow": 0,
+  "k_zone_data": 3,
+  "k_zonenowd": 4,
+  "k_ident": 1,
+  "k_nodata": 1,
+  "k_lines": 54,
+  "k_com": 2,
+  "m_prereq": 7,
+  "m_prereq_ok": 3,
+  "m_prereq_missing": [
+   "date",
+   "tzdata.zi",
+   "zdump",
+   "zic"
+  ],
+  "m_ck": 11,
+  "m_rm": 2,
+  "m_mkdir": 1,
+  "m_zic": 1,
+  "m_horizon": [
+   "$$now,$$future",
+   "0,$$future"
+  ],
+  "m_years": 28,
+  "m_secs": 885427200,
+  "m_secs365": 883008000,
+  "m_big_years": 2800,
+  "m_ratio": 100,
+  "m_names": [
+   "'*.tab'",
+   "Etc"
+  ],
+  "m_finds": 2,
+  "m_zdump_files": 0,
+  "m_ck_files": 0,
+  "m_check_deps": [
+   "check_mild",
+   "back.ck",
+   "now.ck"
+  ],
+  "m_mvout": 1,
+  "m_dollarnow": 3,
+  "m_nontab": 1,
+  "m_awkcall": 2,
+  "m_tablearg": 1,
+  "m_sysv": 5,
+  "occ": {
+   "zdump_table": [
+    0,
+    0,
+    1,
+    2
+   ],
+   "zdump-now.tab": [
+    0,
+    0,
+    0,
+    2
+   ],
+   "zdump-1970.tab": [
+    0,
+    0,
+    0,
+    2
+   ],
+   "now.ck": [
+    0,
+    0,
+    0,
+    2
+   ],
+   "checknow.awk": [
+    0,
+    0,
+    0,
+    5
+   ],
+   "zonenow.tab": [
+    0,
+    0,
+    1,
+    5
+   ],
+   "zone1970.tab": [
+    3,
+    0,
+    0,
+    5
+   ],
+   "from now on": [
+    2,
+    0,
+    1,
+    0
+   ],
+   "XX": [
+    92,
+    0,
+    0,
+    2
+   ],
+   "irrelevant": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "1970": [
+    4,
+    1,
+    0,
+    8
+   ],
+   "until": [
+    3,
+    0,
+    0,
+    0
+   ]
+  },
+  "anchors_pool": 115
+ },
+ "tags": [
+  "N",
+  "Z",
+  "K",
+  "M"
+ ],
+ "paths": [
+  "corpus/raw/tz/zonenow.tab",
+  "corpus/raw/tz/zone1970.tab",
+  "corpus/raw/tz/checknow.awk",
+  "corpus/raw/tz/Makefile"
+ ],
+ "pool": [
+  [
+   "header_rule",
+   "N",
+   "# 1.  Each timezone corresponds to a set of clocks that are planned",
+   "N",
+   "single",
+   67
+  ],
+  [
+   "header_rule",
+   "N",
+   "# 2.  The first column is irrelevant and ignored.",
+   "N",
+   "single",
+   49
+  ],
+  [
+   "header_rule",
+   "N",
+   "# 3.  The table is sorted in a different way:",
+   "N",
+   "single",
+   45
+  ],
+  [
+   "header_rule",
+   "N",
+   "# 4.  Every timezone has a nonempty comments column, with wording",
+   "N",
+   "single",
+   65
+  ],
+  [
+   "header_rule",
+   "N",
+   "# The format of this table is experimental, and may change in future versions.",
+   "N",
+   "single",
+   78
+  ],
+  [
+   "predicate",
+   "N",
+   "# where civil timestamps are predicted to agree from now on.",
+   "N",
+   "single",
+   60
+  ],
+  [
+   "predicate",
+   "N",
+   "#     to agree from now on.  This is a larger set of clocks than in",
+   "N",
+   "single",
+   67
+  ],
+  [
+   "predicate",
+   "N",
+   "# From Paul Eggert (2023-12-18):",
+   "N",
+   "single",
+   32
+  ],
+  [
+   "predicate",
+   "N",
+   "# -08/-07 - PST/PDT (North America DST) until 2026-11-01 02:00; then MST",
+   "N",
+   "single",
+   72
+  ],
+  [
+   "predicate",
+   "N",
+   "# -07/-06 - MST/MDT (North America DST) until 2026-11-01 02:00; then CST",
+   "N",
+   "single",
+   72
+  ],
+  [
+   "predicate",
+   "N",
+   "# -06/-05 - CST/CDT (North America DST) until 2026-11-01 02:00; then EST",
+   "N",
+   "single",
+   72
+  ],
+  [
+   "colhdr",
+   "N",
+   "#XX\tcoordinates\tTZ\tcomments",
+   "N",
+   "single",
+   27
+  ],
+  [
+   "tag_nonint",
+   "N",
+   "# -03:30/-02:30 - NST/NDT (North America DST)",
+   "N",
+   "single",
+   45
+  ],
+  [
+   "tag_nonint",
+   "N",
+   "# +09:30/+10:30 - ACST/ACDT (Australia DST)",
+   "N",
+   "single",
+   43
+  ],
+  [
+   "tag_nonint",
+   "N",
+   "# +12:45/+13:45 (Chatham DST)",
+   "N",
+   "single",
+   29
+  ],
+  [
+   "tag_longest",
+   "N",
+   "# -10/-09 - HST / HDT (North America DST)",
+   "N",
+   "single",
+   41
+  ],
+  [
+   "tag_head",
+   "N",
+   "# -11 - SST",
+   "N",
+   "single",
+   11
+  ],
+  [
+   "tag_head",
+   "N",
+   "# -10 - HST",
+   "N",
+   "single",
+   11
+  ],
+  [
+   "tag_head",
+   "N",
+   "# -09:30",
+   "N",
+   "single",
+   8
+  ],
+  [
+   "tag_head",
+   "N",
+   "# -09/-08 - AKST/AKDT (North America DST)",
+   "N",
+   "single",
+   41
+  ],
+  [
+   "tag_head",
+   "N",
+   "# -08/-07 - PST/PDT (North America DST)",
+   "N",
+   "single",
+   39
+  ],
+  [
+   "tag_head",
+   "N",
+   "# -07 - MST",
+   "N",
+   "single",
+   11
+  ],
+  [
+   "row_n",
+   "N",
+   "XX\t-1416-17042\tPacific/Pago_Pago\tMidway; Samoa (SST)",
+   "N",
+   "single",
+   52
+  ],
+  [
+   "row_n",
+   "N",
+   "XX\t-1901-16955\tPacific/Niue\tNiue",
+   "N",
+   "single",
+   32
+  ],
+  [
+   "row_n",
+   "N",
+   "XX\t+211825-1575130\tPacific/Honolulu\tHawaii (HST)",
+   "N",
+   "single",
+   48
+  ],
+  [
+   "row_n",
+   "N",
+   "XX\t-1732-14934\tPacific/Tahiti\tTahiti; Cook Islands",
+   "N",
+   "single",
+   50
+  ],
+  [
+   "row_n",
+   "N",
+   "XX\t+515248-1763929\tAmerica/Adak\twestern Aleutians in Alaska (HST/HDT)",
+   "N",
+   "single",
+   69
+  ],
+  [
+   "row_n",
+   "N",
+   "XX\t-0900-13930\tPacific/Marquesas\tMarquesas",
+   "N",
+   "single",
+   42
+  ],
+  [
+   "row_n",
+   "N",
+   "XX\t+1924-09909\tAmerica/Mexico_City\tCentral Standard (CST) - Saskatchewan; central Mexico; Central America",
+   "N",
+   "single",
+   105
+  ],
+  [
+   "row_n",
+   "N",
+   "XX\t+175805-0764736\tAmerica/Jamaica\tEastern Standard (EST) - Caymans; Jamaica; eastern Mexico; Panama",
+   "N",
+   "single",
+   100
+  ],
+  [
+   "row_n",
+   "N",
+   "XX\t+394421-1045903\tAmerica/Denver\tMountain (MST/MDT) - US; Mexico near US border; western Nunavut",
+   "N",
+   "single",
+   97
+  ],
+  [
+   "row_n",
+   "N",
+   "XX\t+415100-0873900\tAmerica/Chicago\tCentral (CST/CDT) - US; Mexico near US border; central Nunavut",
+   "N",
+   "single",
+   97
+  ],
+  [
+   "row_n",
+   "N",
+   "XX\t+4120+06918\tAsia/Tashkent\tRussia; Kazakhstan; Tajikistan; Turkmenistan; Uzbekistan; Maldives",
+   "N",
+   "single",
+   95
+  ],
+  [
+   "row_n",
+   "N",
+   "XX\t+611305-1495401\tAmerica/Anchorage\tmost of Alaska (AKST/AKDT)",
+   "N",
+   "single",
+   63
+  ],
+  [
+   "row_n",
+   "N",
+   "XX\t+340308-1181434\tAmerica/Los_Angeles\tPacific (PST/PDT) - US; Mexico near US border",
+   "N",
+   "single",
+   84
+  ],
+  [
+   "row_n",
+   "N",
+   "XX\t+332654-1120424\tAmerica/Phoenix\tMountain Standard (MST) - Arizona; western Mexico; Yukon",
+   "N",
+   "single",
+   91
+  ],
+  [
+   "row_z",
+   "Z",
+   "PR,AG,CA,AI,AW,BL,BQ,CW,DM,GD,GP,KN,LC,MF,MS,SX,TT,VC,VG,VI\t+182806-0660622\tAmerica/Puerto_Rico\tAST - QC (Lower North Shore)",
+   "Z",
+   "single",
+   124
+  ],
+  [
+   "row_z",
+   "Z",
+   "CI,BF,GH,GM,GN,IS,ML,MR,SH,SL,SN,TG\t+0519-00402\tAfrica/Abidjan",
+   "Z",
+   "single",
+   62
+  ],
+  [
+   "row_z",
+   "Z",
+   "KE,DJ,ER,ET,KM,MG,SO,TZ,UG,YT\t-0117+03649\tAfrica/Nairobi",
+   "Z",
+   "single",
+   56
+  ],
+  [
+   "row_z",
+   "Z",
+   "NG,AO,BJ,CD,CF,CG,CM,GA,GQ,NE\t+0627+00324\tAfrica/Lagos\tWest Africa Time",
+   "Z",
+   "single",
+   71
+  ],
+  [
+   "row_z",
+   "Z",
+   "AD\t+4230+00131\tEurope/Andorra",
+   "Z",
+   "single",
+   29
+  ],
+  [
+   "row_z",
+   "Z",
+   "AE,OM,RE,SC,TF\t+2518+05518\tAsia/Dubai\tCrozet",
+   "Z",
+   "single",
+   44
+  ],
+  [
+   "row_z",
+   "Z",
+   "AF\t+3431+06912\tAsia/Kabul",
+   "Z",
+   "single",
+   25
+  ],
+  [
+   "pred_z",
+   "Z",
+   "# civil timestamps have agreed since 1970.  Columns are separated by",
+   "Z",
+   "single",
+   68
+  ],
+  [
+   "header_z",
+   "Z",
+   "# tzdb timezone descriptions",
+   "NZ",
+   "cross",
+   28
+  ],
+  [
+   "header_z",
+   "Z",
+   "# This file is in the public domain.",
+   "NZK",
+   "cross",
+   36
+  ],
+  [
+   "header_z",
+   "Z",
+   "# From Paul Eggert (2025-05-15):",
+   "Z",
+   "single",
+   32
+  ],
+  [
+   "header_z",
+   "Z",
+   "# This file contains a table where each row stands for a timezone where",
+   "NZ",
+   "cross",
+   71
+  ],
+  [
+   "header_z",
+   "Z",
+   "# a single tab.  Lines beginning with ‘#’ are comments.  All text uses",
+   "Z",
+   "single",
+   70
+  ],
+  [
+   "header_z_num",
+   "Z",
+   "# 1.  The countries that overlap the timezone, as a comma-separated list",
+   "Z",
+   "single",
+   72
+  ],
+  [
+   "header_z_num",
+   "Z",
+   "# 2.  Latitude and longitude of the timezone’s principal location",
+   "Z",
+   "single",
+   65
+  ],
+  [
+   "header_z_num",
+   "Z",
+   "# 3.  Timezone name used in value of TZ environment variable.",
+   "Z",
+   "single",
+   61
+  ],
+  [
+   "header_z_num",
+   "Z",
+   "# 4.  Comments; present if and only if countries have multiple timezones,",
+   "Z",
+   "single",
+   73
+  ],
+  [
+   "awk_rule",
+   "K",
+   "zone = $3",
+   "K",
+   "single",
+   9
+  ],
+  [
+   "awk_rule",
+   "K",
+   "while (getline <zdump_table) {",
+   "K",
+   "single",
+   30
+  ],
+  [
+   "awk_rule",
+   "K",
+   "printf \"%s: no data\\n\", zone",
+   "K",
+   "single",
+   28
+  ],
+  [
+   "awk_rule",
+   "K",
+   "printf \"zones %s and %s identical from now on\\n\", zone, zone2",
+   "K",
+   "single",
+   61
+  ],
+  [
+   "awk_rule",
+   "K",
+   "printf \"Zone table should have one of:%s\\n\", zones[data]",
+   "K",
+   "single",
+   56
+  ],
+  [
+   "awk_rule",
+   "K",
+   "printf \"%s=%s\\n\", now, zones[data] >>now_out",
+   "K",
+   "single",
+   44
+  ],
+  [
+   "awk_rule",
+   "K",
+   "FS = \"\\t\"",
+   "K",
+   "single",
+   9
+  ],
+  [
+   "awk_rule",
+   "K",
+   "exit status",
+   "K",
+   "single",
+   11
+  ],
+  [
+   "awk_rule",
+   "K",
+   "zone2 = zonenow[data]",
+   "K",
+   "single",
+   21
+  ],
+  [
+   "awk_rule",
+   "K",
+   "zonenow[data] = zone",
+   "K",
+   "single",
+   20
+  ],
+  [
+   "awk_rule",
+   "K",
+   "if (data && !zonenow[data]) {",
+   "K",
+   "single",
+   29
+  ],
+  [
+   "awk_rule",
+   "K",
+   "zonenow[data] = zone # This suppresses duplicate diagnostics.",
+   "K",
+   "single",
+   61
+  ],
+  [
+   "awk_rule",
+   "K",
+   "status = 1",
+   "K",
+   "single",
+   10
+  ],
+  [
+   "awk_rule",
+   "K",
+   "# Check zonenow.tab for consistency with primary data.",
+   "K",
+   "single",
+   54
+  ],
+  [
+   "awk_rule",
+   "K",
+   "# Contributed by Paul Eggert.  This file is in the public domain.",
+   "K",
+   "single",
+   65
+  ],
+  [
+   "awk_rule",
+   "K",
+   "sub(/.*\\.ckd\\//, \"\", zone)",
+   "K",
+   "single",
+   26
+  ],
+  [
+   "awk_rule",
+   "K",
+   "sub(/\\/\\//, \"/\", zone)",
+   "K",
+   "single",
+   22
+  ],
+  [
+   "awk_rule",
+   "K",
+   "sub(/\"/, \"\", zone)",
+   "K",
+   "single",
+   18
+  ],
+  [
+   "make_rule",
+   "M",
+   "zic=\t\t./zic",
+   "M",
+   "single",
+   11
+  ],
+  [
+   "make_rule",
+   "M",
+   "mv $@.out $@",
+   "M",
+   "single",
+   12
+  ],
+  [
+   "make_rule",
+   "M",
+   "check: check_mild back.ck now.ck",
+   "M",
+   "single",
+   32
+  ],
+  [
+   "make_rule",
+   "M",
+   "# 2800+ years but that would take a long time to check.",
+   "M",
+   "single",
+   55
+  ],
+  [
+   "make_rule",
+   "M",
+   "CHECK_NOW_TIMESTAMP = $$(./date +%s)",
+   "M",
+   "single",
+   36
+  ],
+  [
+   "make_rule",
+   "M",
+   "CHECK_NOW_FUTURE_YEARS = 28",
+   "M",
+   "single",
+   27
+  ],
+  [
+   "make_rule",
+   "M",
+   "CHECK_NOW_FUTURE_SECS = $(CHECK_NOW_FUTURE_YEARS) * 366 * 24 * 60 * 60",
+   "M",
+   "single",
+   70
+  ],
+  [
+   "make_rule",
+   "M",
+   "now.ck: checknow.awk date tzdata.zi zdump zic zone1970.tab zonenow.tab",
+   "M",
+   "single",
+   70
+  ],
+  [
+   "make_rule",
+   "M",
+   "rm -fr $@d",
+   "M",
+   "single",
+   10
+  ],
+  [
+   "make_rule",
+   "M",
+   "mkdir $@d",
+   "M",
+   "single",
+   9
+  ],
+  [
+   "make_rule",
+   "M",
+   "./zic -d $@d tzdata.zi",
+   "M",
+   "single",
+   22
+  ],
+  [
+   "make_rule",
+   "M",
+   "now=$(CHECK_NOW_TIMESTAMP) && \\",
+   "M",
+   "single",
+   31
+  ],
+  [
+   "make_rule",
+   "M",
+   "future=$$(($(CHECK_NOW_FUTURE_SECS) + $$now)) && \\",
+   "M",
+   "single",
+   50
+  ],
+  [
+   "make_rule",
+   "M",
+   "./zdump -i -t $$now,$$future \\",
+   "M",
+   "single",
+   30
+  ],
+  [
+   "make_rule",
+   "M",
+   ">$@d/zdump-now.tab && \\",
+   "M",
+   "single",
+   23
+  ],
+  [
+   "make_rule",
+   "M",
+   "./zdump -i -t 0,$$future \\",
+   "M",
+   "single",
+   26
+  ],
+  [
+   "make_rule",
+   "M",
+   ">$@d/zdump-1970.tab && \\",
+   "M",
+   "single",
+   24
+  ],
+  [
+   "make_rule",
+   "M",
+   "-v zdump_table=$@d/zdump-now.tab \\",
+   "M",
+   "single",
+   34
+  ],
+  [
+   "make_rule",
+   "M",
+   "-f checknow.awk zonenow.tab",
+   "M",
+   "single",
+   27
+  ],
+  [
+   "make_rule",
+   "M",
+   "-v zdump_table=$@d/zdump-1970.tab \\",
+   "M",
+   "single",
+   35
+  ],
+  [
+   "make_rule",
+   "M",
+   "-f checknow.awk",
+   "M",
+   "single",
+   15
+  ],
+  [
+   "make_rule",
+   "M",
+   "rm -fr $@d t-$@d shrunk-$@d",
+   "M",
+   "single",
+   27
+  ],
+  [
+   "make_rule",
+   "M",
+   "mkdir $@d t-$@d shrunk-$@d",
+   "M",
+   "single",
+   26
+  ],
+  [
+   "cross_coord",
+   "N",
+   "-1416-17042",
+   "NZ",
+   "cross",
+   11
+  ],
+  [
+   "cross_zone",
+   "N",
+   "Pacific/Pago_Pago",
+   "NZ",
+   "cross",
+   17
+  ],
+  [
+   "cross_coord",
+   "N",
+   "-1901-16955",
+   "NZ",
+   "cross",
+   11
+  ],
+  [
+   "cross_zone",
+   "N",
+   "Pacific/Niue",
+   "NZ",
+   "cross",
+   12
+  ],
+  [
+   "cross_coord",
+   "N",
+   "+211825-1575130",
+   "NZ",
+   "cross",
+   15
+  ],
+  [
+   "cross_zone",
+   "N",
+   "Pacific/Honolulu",
+   "NZ",
+   "cross",
+   16
+  ],
+  [
+   "cross_coord",
+   "N",
+   "-1732-14934",
+   "NZ",
+   "cross",
+   11
+  ],
+  [
+   "cross_zone",
+   "N",
+   "Pacific/Tahiti",
+   "NZ",
+   "cross",
+   14
+  ],
+  [
+   "cross_phrase",
+   "N",
+   "from now on",
+   "NK",
+   "cross",
+   11
+  ],
+  [
+   "cross_phrase",
+   "N",
+   "agree from now on",
+   "N",
+   "single",
+   17
+  ],
+  [
+   "cross_phrase",
+   "N",
+   "irrelevant and ignored",
+   "N",
+   "single",
+   22
+  ],
+  [
+   "cross_phrase",
+   "N",
+   "until 2026-11-01",
+   "N",
+   "single",
+   16
+  ],
+  [
+   "cross_code",
+   "M",
+   "zdump_table",
+   "KM",
+   "cross",
+   11
+  ],
+  [
+   "cross_code",
+   "M",
+   "zdump-now.tab",
+   "M",
+   "single",
+   13
+  ],
+  [
+   "cross_code",
+   "M",
+   "now.ck",
+   "M",
+   "single",
+   6
+  ],
+  [
+   "cross_code",
+   "M",
+   "checknow.awk",
+   "M",
+   "single",
+   12
+  ],
+  [
+   "cross_code",
+   "M",
+   "-v zdump_table",
+   "M",
+   "single",
+   14
+  ],
+  [
+   "cross_code",
+   "M",
+   "identical from now on",
+   "K",
+   "single",
+   21
+  ],
+  [
+   "expire_pair",
+   "N",
+   "Mountain Standard (MST) - British Columbia (most areas)",
+   "N",
+   "single",
+   55
+  ],
+  [
+   "expire_pair",
+   "N",
+   "Central Standard (CST) - Alberta, NWT, and some neighbors",
+   "N",
+   "single",
+   57
+  ],
+  [
+   "expire_pair",
+   "N",
+   "Eastern Standard (EST) - Manitoba, northwestern Ontario",
+   "N",
+   "single",
+   55
+  ]
+ ]
+}

@@ -1,0 +1,54 @@
+A	Default Address Selection for IPv6
+B	Default Address Selection for IPv6
+A	the following default policy table:
+B	the following default policy table:
+A	default policy table
+B	default policy table
+F	default policy table
+G	default policy table
+A	longest-matching-prefix lookup table
+B	longest-matching-prefix lookup table
+A	Prefix Precedence Label
+B	Prefix Precedence Label
+A	::ffff:0:0/96
+B	::ffff:0:0/96
+E	::ffff:0:0/96
+F	::ffff:0:0/96
+E	2001:0::/32
+F	2001:10::/28
+A	Rule 5.5
+A	Prefer higher precedence
+B	Prefer higher precedence
+A	Prefer matching label
+B	Prefer matching label
+G	Prefer matching label
+A	Prefer temporary addresses
+B	Prefer temporary addresses
+A	Prefer public addresses
+B	Prefer public addresses
+A	Prefer public address
+B	Prefer public address
+G	Prefer public address
+A	Automatic Row Additions
+A	MUST NOT override
+A	IPv6 implementations SHOULD support configurable address selection
+B	IPv6 implementations SHOULD support configurable address selection
+A	Obsoletes: 3484
+A	obsoletes RFC 3484
+A	Source Address Selection
+B	Source Address Selection
+C	Source Address Selection
+F	Source Address Selection
+G	Source Address Selection
+E	the default table is not used
+F	Default policy table (RFC6724 + extensions)
+F	Labels for ULA and 6to4 are different from labels listed in RFC6724
+G	Choose an appropriate source address (RFC3484)
+A	LOOPBACK
+B	LOOPBACK
+F	LOOPBACK
+G	LOOPBACK
+F	V4MAPPED
+F	COMPATv4
+G	COMPATv4
+E	highest success rate

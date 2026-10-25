@@ -1,0 +1,6 @@
+This AD requires removing certain electronic engine control (EEC) full authority digital electronic control (FADEC) software versions from service
+corrosion of the variable geometry system actuator
+Group 1 engines, within 12 months after the effective date of this AD, replace any EEC FADEC software version that is V6.50 or earlier
+any software version that is V5.70 or later approved version
+GE Model CF34-8E2, CF34-8E2A1, CF34- 8E5, CF34-8E5A1, CF34-8E5A2, CF34-8E5A2HA, CF34-8E6, and CF34-8E6A1 engines
+to prevent EEC FADEC software from automatically locking the engin

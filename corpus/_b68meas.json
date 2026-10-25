@@ -1,0 +1,683 @@
+{
+"blank_lines_extra": 2498,
+"bom": [
+0,
+0,
+0,
+0
+],
+"bytes": [
+126103,
+122549,
+25476,
+36989
+],
+"chars": [
+126103,
+122549,
+25476,
+36989
+],
+"cr": [
+0,
+0,
+0,
+0
+],
+"delta_cache_leak": [
+0,
+0,
+0,
+0
+],
+"delta_cached_for": [
+0,
+0,
+0,
+0
+],
+"delta_different_ttls": [
+0,
+0,
+0,
+0
+],
+"delta_expire_kw": [
+0,
+0,
+0,
+0
+],
+"delta_expire_week": [
+0,
+0,
+0,
+0
+],
+"delta_floor_sent": [
+1,
+0,
+0,
+0
+],
+"delta_here_86400": [
+0,
+0,
+0,
+0
+],
+"delta_hi31": [
+0,
+0,
+0,
+0
+],
+"delta_max_lit": [
+0,
+0,
+0,
+0
+],
+"delta_max_pow": [
+0,
+0,
+0,
+0
+],
+"delta_min0": [
+0,
+0,
+0,
+0
+],
+"delta_min_day": [
+0,
+0,
+0,
+0
+],
+"delta_minimum_kw": [
+0,
+0,
+0,
+0
+],
+"delta_not_mandatory": [
+0,
+0,
+0,
+1
+],
+"delta_one_day": [
+0,
+0,
+0,
+0
+],
+"delta_refresh_kw": [
+0,
+0,
+0,
+0
+],
+"delta_retry_kw": [
+0,
+0,
+0,
+0
+],
+"delta_rrset_same": [
+0,
+0,
+0,
+0
+],
+"delta_signed32": [
+0,
+0,
+0,
+0
+],
+"delta_signed_word": [
+0,
+0,
+0,
+0
+],
+"delta_ttl_expires": [
+0,
+0,
+0,
+0
+],
+"delta_unsigned_word": [
+0,
+0,
+0,
+0
+],
+"delta_upper_bound": [
+0,
+0,
+0,
+0
+],
+"dur_distinct": [
+6,
+4,
+0,
+1
+],
+"dur_distinct_close": 0,
+"dur_repeat_extra": 69,
+"dur_set": [
+[
+6,
+0,
+0,
+3,
+3,
+23,
+34,
+3,
+0,
+0
+],
+[
+3,
+2,
+1,
+0,
+0,
+0,
+0,
+0,
+1,
+0
+],
+[
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0
+],
+[
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+1
+]
+],
+"ff_only": [
+0,
+0,
+0,
+0
+],
+"fold_cache_leak": [
+0,
+0,
+1,
+0
+],
+"fold_cached_for": [
+0,
+0,
+1,
+0
+],
+"fold_different_ttls": [
+1,
+0,
+0,
+1
+],
+"fold_expire_kw": [
+2,
+3,
+0,
+0
+],
+"fold_expire_week": [
+2,
+0,
+0,
+0
+],
+"fold_floor_sent": [
+1,
+0,
+0,
+0
+],
+"fold_here_86400": [
+1,
+0,
+0,
+0
+],
+"fold_hi31": [
+0,
+0,
+0,
+1
+],
+"fold_max_lit": [
+0,
+0,
+0,
+1
+],
+"fold_max_pow": [
+0,
+0,
+0,
+1
+],
+"fold_min0": [
+0,
+0,
+0,
+1
+],
+"fold_min_day": [
+2,
+0,
+0,
+0
+],
+"fold_minimum_kw": [
+4,
+10,
+0,
+0
+],
+"fold_not_mandatory": [
+0,
+0,
+0,
+1
+],
+"fold_one_day": [
+1,
+0,
+0,
+0
+],
+"fold_refresh_kw": [
+3,
+3,
+0,
+0
+],
+"fold_retry_kw": [
+2,
+3,
+0,
+0
+],
+"fold_rrset_same": [
+0,
+0,
+0,
+1
+],
+"fold_signed32": [
+0,
+1,
+0,
+0
+],
+"fold_signed_word": [
+6,
+15,
+0,
+7
+],
+"fold_total_delta": 2,
+"fold_ttl_expires": [
+0,
+0,
+1,
+0
+],
+"fold_unsigned_word": [
+0,
+9,
+0,
+2
+],
+"fold_upper_bound": [
+0,
+0,
+0,
+1
+],
+"lines": [
+3078,
+3078,
+675,
+843
+],
+"lit_cache_leak": [
+0,
+0,
+1,
+0
+],
+"lit_cached_for": [
+0,
+0,
+1,
+0
+],
+"lit_different_ttls": [
+1,
+0,
+0,
+1
+],
+"lit_expire_kw": [
+2,
+3,
+0,
+0
+],
+"lit_expire_week": [
+2,
+0,
+0,
+0
+],
+"lit_floor_sent": [
+0,
+0,
+0,
+0
+],
+"lit_here_86400": [
+1,
+0,
+0,
+0
+],
+"lit_hi31": [
+0,
+0,
+0,
+1
+],
+"lit_max_lit": [
+0,
+0,
+0,
+1
+],
+"lit_max_pow": [
+0,
+0,
+0,
+1
+],
+"lit_min0": [
+0,
+0,
+0,
+1
+],
+"lit_min_day": [
+2,
+0,
+0,
+0
+],
+"lit_minimum_kw": [
+4,
+10,
+0,
+0
+],
+"lit_not_mandatory": [
+0,
+0,
+0,
+0
+],
+"lit_one_day": [
+1,
+0,
+0,
+0
+],
+"lit_refresh_kw": [
+3,
+3,
+0,
+0
+],
+"lit_retry_kw": [
+2,
+3,
+0,
+0
+],
+"lit_rrset_same": [
+0,
+0,
+0,
+1
+],
+"lit_signed32": [
+0,
+1,
+0,
+0
+],
+"lit_signed_word": [
+6,
+15,
+0,
+7
+],
+"lit_ttl_expires": [
+0,
+0,
+1,
+0
+],
+"lit_unsigned_word": [
+0,
+9,
+0,
+2
+],
+"lit_upper_bound": [
+0,
+0,
+0,
+1
+],
+"nonascii": [
+0,
+0,
+0,
+0
+],
+"nonblank": [
+2080,
+2070,
+443,
+583
+],
+"only_each": [
+1065,
+1013,
+279,
+459
+],
+"pair_byte": [
+114,
+0,
+0,
+0,
+0,
+0
+],
+"pair_close": 0,
+"pair_norm_only": [
+3,
+3,
+0,
+1,
+0,
+0
+],
+"pair_share": [
+117,
+3,
+0,
+1,
+0,
+0
+],
+"pool_4": 0,
+"pool_n": 2625,
+"pool_tier": [
+2577,
+48,
+0,
+0
+],
+"pool_tier_close": 0,
+"set_sizes": [
+1185,
+1131,
+283,
+459
+],
+"share4_axis_case": 0,
+"share4_axis_close": 0,
+"share4_axis_hyph": 0,
+"share4_axis_multi": 0,
+"share4_axis_space": 0,
+"share4_byte4": 0,
+"share4_diff": [],
+"share4_notbyte": 0,
+"soa_case_delta": [
+10,
+-5,
+0,
+0
+],
+"soa_keys": [
+[
+"EXPIRE",
+"MINIMUM",
+"REFRESH",
+"RETRY",
+"SERIAL"
+],
+[
+"EXPIRE",
+"MINIMUM",
+"REFRESH",
+"RETRY",
+"SERIAL"
+],
+[],
+[]
+],
+"soa_lower": [
+10,
+0,
+0,
+0
+],
+"soa_n_lines": [
+10,
+5,
+0,
+0
+],
+"soa_paren": [
+1,
+1,
+0,
+0
+],
+"soa_upper": [
+0,
+5,
+0,
+0
+],
+"soa_vals": [
+{
+"EXPIRE": [
+604800,
+604800
+],
+"MINIMUM": [
+86400,
+86400
+],
+"REFRESH": [
+1800,
+1800
+],
+"RETRY": [
+300,
+300
+],
+"SERIAL": [
+870611,
+870729
+]
+},
+{
+"EXPIRE": [
+3600000
+],
+"MINIMUM": [
+60
+],
+"REFRESH": [
+7200
+],
+"RETRY": [
+600
+],
+"SERIAL": [
+20
+]
+},
+{},
+{}
+],
+"tags": [
+"1034",
+"1035",
+"1536",
+"2181"
+],
+"tri_share": [
+0,
+0,
+0,
+0
+],
+"union_all": 2937,
+"union_close": 0
+}

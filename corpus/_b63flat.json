@@ -1,0 +1,1863 @@
+{
+ "ABC_inter": 0,
+ "BC_inter": 95,
+ "a_1122_resid": 0,
+ "a_self_lit": 116,
+ "a_shell_1122_sp": 1,
+ "abcd_close": 0,
+ "abcd_incl": 3726,
+ "align_char_delta": 1,
+ "align_close": 0,
+ "align_comma": 1,
+ "align_n": 4,
+ "align_norm_diff": 0,
+ "align_punct_only": 1,
+ "align_same_bytes": 3,
+ "anchor_all4": 0,
+ "anchor_cross": 8,
+ "anchor_distinct": 32,
+ "anchor_err": 0,
+ "anchor_single": 24,
+ "anchor_total": 49,
+ "assign_forms": [
+  1,
+  5,
+  5,
+  0
+ ],
+ "assign_gap": [
+  -1,
+  5,
+  5,
+  0
+ ],
+ "bom": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "braden_foot": [
+  7,
+  1,
+  2,
+  0
+ ],
+ "bytes": [
+  289148,
+  15280,
+  22454,
+  89071
+ ],
+ "cat_exp": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "cat_hist": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "cat_info": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "cat_std": [
+  0,
+  1,
+  1,
+  1
+ ],
+ "chars": [
+  289148,
+  15280,
+  22454,
+  89053
+ ],
+ "chars_no_nl": [
+  282304,
+  14829,
+  21835,
+  86983
+ ],
+ "chars_split": [
+  289148,
+  15280,
+  22454,
+  89053
+ ],
+ "checks": 128,
+ "cite_1122": [
+  115,
+  5,
+  4,
+  0
+ ],
+ "cite_1122_ns": [
+  115,
+  0,
+  0,
+  0
+ ],
+ "cite_1122_sp": [
+  0,
+  5,
+  4,
+  0
+ ],
+ "cite_1123": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "cite_2988": [
+  0,
+  7,
+  4,
+  0
+ ],
+ "cite_6298": [
+  0,
+  0,
+  10,
+  8
+ ],
+ "cite_793": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "cite_9002": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "cite_ns_1122": [
+  115,
+  5,
+  4,
+  0
+ ],
+ "cr": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "dur_ms_hi": 240000,
+ "dur_ms_lo": 1,
+ "dur_ratio": [
+  240000
+ ],
+ "durhi_cap_close": 0,
+ "durlit": [
+  11,
+  8,
+  24,
+  5
+ ],
+ "durlit_a": 11,
+ "durlit_b": 8,
+ "durlit_c": 24,
+ "durlit_d": 5,
+ "durlo_gran_close": 0,
+ "durms_a": [
+  3000,
+  5000,
+  60000,
+  100000,
+  120000,
+  240000
+ ],
+ "durms_b": [
+  1000,
+  3000,
+  5000,
+  60000
+ ],
+ "durms_c": [
+  1000,
+  3000,
+  60000
+ ],
+ "durms_d": [
+  1,
+  333,
+  1000
+ ],
+ "durms_n": [
+  6,
+  4,
+  3,
+  3
+ ],
+ "durms_n_a": 6,
+ "durms_n_b": 4,
+ "durms_n_c": 3,
+ "durms_n_d": 3,
+ "editor_hdr": [
+  2,
+  1,
+  0,
+  0
+ ],
+ "errata": [
+  0,
+  0,
+  1,
+  1
+ ],
+ "ff_foot_sum": 0,
+ "floor_close": 0,
+ "floor_diff_bytes": [
+  0
+ ],
+ "floor_forms_gap": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "floor_pair": [
+  1,
+  1
+ ],
+ "floor_same_bytes": [
+  1
+ ],
+ "floor_same_norm": [
+  1
+ ],
+ "foot": [
+  116,
+  8,
+  11,
+  0
+ ],
+ "foot_brk": [
+  116,
+  8,
+  11,
+  0
+ ],
+ "foot_ietf": [
+  116,
+  0,
+  0,
+  0
+ ],
+ "foot_old": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "formfeed": [
+  116,
+  8,
+  11,
+  0
+ ],
+ "hdr": [
+  115,
+  7,
+  10,
+  0
+ ],
+ "hdr_ledger": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "hdr_ledger_sum": 0,
+ "hdr_ns": [
+  115,
+  0,
+  0,
+  0
+ ],
+ "hdr_sp": [
+  0,
+  7,
+  10,
+  0
+ ],
+ "ietf_vs_ff": [
+  0,
+  -8,
+  -11,
+  0
+ ],
+ "ietf_vs_ff_sum": -19,
+ "issn_hdr": [
+  0,
+  0,
+  1,
+  1
+ ],
+ "key_words_boiler": [
+  0,
+  2,
+  2,
+  2
+ ],
+ "l_may": [
+  121,
+  9,
+  6,
+  14
+ ],
+ "l_must": [
+  59,
+  1,
+  1,
+  2
+ ],
+ "l_should": [
+  54,
+  3,
+  5,
+  4
+ ],
+ "lines": [
+  6845,
+  452,
+  620,
+  2071
+ ],
+ "lines_ge40": [
+  2531,
+  167,
+  235,
+  901
+ ],
+ "lines_ge40_nos": [
+  2531,
+  166,
+  234,
+  901
+ ],
+ "lines_nl": [
+  6845,
+  452,
+  620,
+  2071
+ ],
+ "list_clos_n": 4,
+ "lit_1ms": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "lit_1second": [
+  0,
+  2,
+  12,
+  1
+ ],
+ "lit_200ms": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "lit_333full": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "lit_333ms": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "lit_3seconds": [
+  1,
+  1,
+  9,
+  0
+ ],
+ "lit_4k_rttvar": [
+  0,
+  0,
+  0,
+  4
+ ],
+ "lit_4xrttvar": [
+  0,
+  0,
+  0,
+  4
+ ],
+ "lit_backoff": [
+  0,
+  2,
+  2,
+  0
+ ],
+ "lit_commab": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "lit_commac": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "lit_half": [
+  0,
+  0,
+  0,
+  2
+ ],
+ "lit_inirto": [
+  0,
+  0,
+  13,
+  0
+ ],
+ "lit_jaco": [
+  13,
+  3,
+  4,
+  0
+ ],
+ "lit_kgran": [
+  0,
+  0,
+  0,
+  11
+ ],
+ "lit_kinirtt": [
+  0,
+  0,
+  0,
+  7
+ ],
+ "lit_onesecclaim": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "lit_pto": [
+  0,
+  0,
+  0,
+  79
+ ],
+ "lit_pto_eq": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "lit_revert": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "lit_rounded": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "lit_rto": [
+  10,
+  36,
+  58,
+  15
+ ],
+ "lit_rtoarrow": [
+  0,
+  5,
+  5,
+  0
+ ],
+ "lit_rtovalue": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "lit_rttvar_l": [
+  0,
+  0,
+  0,
+  27
+ ],
+ "lit_rttvar_u": [
+  0,
+  14,
+  14,
+  0
+ ],
+ "lit_setrto": [
+  0,
+  2,
+  2,
+  0
+ ],
+ "lit_smoothed": [
+  0,
+  0,
+  0,
+  38
+ ],
+ "lit_smoothinit": [
+  0,
+  0,
+  0,
+  2
+ ],
+ "lit_srtt": [
+  0,
+  15,
+  15,
+  0
+ ],
+ "lit_tcpinitrto": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "maxlen": [
+  72,
+  73,
+  72,
+  72
+ ],
+ "nonascii": [
+  0,
+  0,
+  0,
+  8
+ ],
+ "nonascii_raw": [
+  0,
+  0,
+  0,
+  9
+ ],
+ "nonblank": [
+  4549,
+  264,
+  387,
+  1635
+ ],
+ "num_lines": [
+  8,
+  27,
+  54,
+  81
+ ],
+ "num_lines_a": 8,
+ "num_lines_b": 27,
+ "num_lines_c": 54,
+ "num_lines_d": 81,
+ "oblig_low": [
+  234,
+  13,
+  12,
+  20
+ ],
+ "oblig_up": [
+  314,
+  26,
+  27,
+  83
+ ],
+ "obs_hdr": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "obsoleted_by": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "only_b": 72,
+ "only_b_nos": 71,
+ "only_c": 128,
+ "only_c_nos": 127,
+ "only_d": 888,
+ "only_d_nos": 888,
+ "outw_1second": [
+  0,
+  0,
+  8,
+  0
+ ],
+ "outw_333full": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "outw_333ms": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "outw_3seconds": [
+  0,
+  0,
+  8,
+  0
+ ],
+ "outw_kgran": [
+  0,
+  0,
+  0,
+  11
+ ],
+ "outw_rounded": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "outw_rtoarrow": [
+  0,
+  2,
+  2,
+  0
+ ],
+ "pagelines": [
+  231,
+  15,
+  21,
+  0
+ ],
+ "pages_est": [
+  116,
+  8,
+  11,
+  0
+ ],
+ "pool_1": 5758,
+ "pool_2": 399,
+ "pool_3": 35,
+ "pool_4": 56,
+ "pool_close": 0,
+ "pool_maxlen": 73,
+ "pool_n": 6248,
+ "pool_tag_n": [
+  4189,
+  235,
+  343,
+  1481
+ ],
+ "pool_tiers": [
+  5758,
+  399,
+  35,
+  56
+ ],
+ "rec_close": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "req_rc": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "rfc2119_ref": [
+  0,
+  1,
+  1,
+  6
+ ],
+ "rfc_hdr": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_backoff5": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "s_backoff5_fold": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "s_cite6298": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_cite6298_fold": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_claim1s": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_claim1s_fold": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_floor": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "s_floor_fold": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "s_granrec": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_granrec_fold": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_half": [
+  0,
+  0,
+  0,
+  2
+ ],
+ "s_half_fold": [
+  0,
+  0,
+  0,
+  2
+ ],
+ "s_init1": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "s_init1_fold": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "s_init3": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "s_init3_fold": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "s_ms333": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_ms333_fold": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_pto_eq": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_pto_eq_fold": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_revert": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "s_revert_fold": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "s_rounded": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "s_rounded_fold": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "s_tcpinit": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_tcpinit_fold": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_v3": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "s_v3_fold": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "scalar_clos_list": [
+  "a_1122_resid",
+  "abcd_close",
+  "align_close",
+  "durhi_cap_close",
+  "durlo_gran_close",
+  "floor_close",
+  "hdr_ledger_sum",
+  "pool_close",
+  "y_b_c_half_close",
+  "y_b_kdef_close",
+  "y_bc_floor_close",
+  "y_cap_ratio_close",
+  "y_d_three_close",
+  "y_half_close",
+  "y_k_close"
+ ],
+ "scalar_clos_n": 15,
+ "scalar_clos_sum": 0,
+ "sec_a": [
+  5576,
+  71,
+  102,
+  693
+ ],
+ "sec_b": [
+  5645,
+  145,
+  181,
+  744
+ ],
+ "sec_head": [
+  "4.2.3.1  Retransmission Timeout Calculation",
+  "2   The Basic Algorithm",
+  "2.  The Basic Algorithm",
+  "6.2.2.  Handshakes and New Paths"
+ ],
+ "sec_hit": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "sec_len": [
+  3047,
+  2814,
+  2797,
+  2712
+ ],
+ "sec_len_a": 3047,
+ "sec_len_b": 2814,
+ "sec_len_c": 2797,
+ "sec_len_d": 2712,
+ "sec_num": [
+  "4..2..3..1",
+  "2",
+  "2",
+  "6..2..2"
+ ],
+ "sec_off_a": [
+  237834,
+  240881
+ ],
+ "sec_off_b": [
+  2607,
+  5421
+ ],
+ "sec_off_c": [
+  3805,
+  6602
+ ],
+ "sec_off_d": [
+  31350,
+  34062
+ ],
+ "sec_sub": [
+  2,
+  0,
+  0,
+  0
+ ],
+ "sec_w": [
+  [
+   5576,
+   5645
+  ],
+  [
+   71,
+   145
+  ],
+  [
+   102,
+   181
+  ],
+  [
+   693,
+   744
+  ]
+ ],
+ "secw_1second": [
+  0,
+  2,
+  4,
+  1
+ ],
+ "secw_333full": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "secw_333ms": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "secw_3seconds": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "secw_kgran": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "secw_rounded": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "secw_rtoarrow": [
+  0,
+  3,
+  3,
+  0
+ ],
+ "share_ab": 0,
+ "share_ab_nos": 0,
+ "share_ac": 0,
+ "share_ac_nos": 0,
+ "share_ad": 0,
+ "share_ad_nos": 0,
+ "share_bc": 95,
+ "share_bc_nos": 95,
+ "share_bc_plus": 1,
+ "share_bc_plus_nos": 1,
+ "share_bd": 1,
+ "share_bd_nos": 1,
+ "share_cd": 13,
+ "share_cd_nos": 13,
+ "shell_delta": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "sig": [
+  "58c04fa30f933753",
+  "0e61db0cc8dcb449",
+  "4090bd3999c43d8c",
+  "1c4c5f45094363ae"
+ ],
+ "sig_distinct": 4,
+ "std_lvl": [
+  0,
+  9,
+  13,
+  2
+ ],
+ "tag_A": 14,
+ "tag_B": 11,
+ "tag_C": 11,
+ "tag_D": 13,
+ "trail": [
+  116,
+  8,
+  11,
+  0
+ ],
+ "trail_foot_sum": 0,
+ "u_may": [
+  41,
+  3,
+  4,
+  21
+ ],
+ "u_must": [
+  200,
+  15,
+  16,
+  35
+ ],
+ "u_must_not": [
+  20,
+  3,
+  3,
+  9
+ ],
+ "u_required": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "u_should": [
+  73,
+  8,
+  7,
+  27
+ ],
+ "u_should_not": [
+  8,
+  1,
+  1,
+  7
+ ],
+ "union_abc": 2838,
+ "union_abc_nos": 2836,
+ "union_abcd": 3726,
+ "union_abcd_nos": 3724,
+ "union_delta": 888,
+ "unit_both_333": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "unit_mill_word": [
+  2,
+  0,
+  0,
+  2
+ ],
+ "unit_ms": [
+  161,
+  3,
+  4,
+  34
+ ],
+ "unit_seconds": [
+  25,
+  15,
+  30,
+  3
+ ],
+ "upd_hdr": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "v_backoff_word": [
+  0,
+  1,
+  3,
+  0
+ ],
+ "v_clock": [
+  0,
+  2,
+  2,
+  0
+ ],
+ "v_congest": [
+  0,
+  0,
+  0,
+  31
+ ],
+ "v_gran": [
+  1,
+  4,
+  3,
+  3
+ ],
+ "v_initrto_cap": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "v_initrto_low": [
+  0,
+  0,
+  13,
+  0
+ ],
+ "v_persist": [
+  0,
+  0,
+  0,
+  30
+ ],
+ "v_probe": [
+  12,
+  0,
+  0,
+  9
+ ],
+ "v_pto": [
+  0,
+  0,
+  0,
+  79
+ ],
+ "v_retrans": [
+  43,
+  18,
+  29,
+  20
+ ],
+ "v_rto": [
+  10,
+  36,
+  58,
+  15
+ ],
+ "v_rtt": [
+  7,
+  50,
+  56,
+  113
+ ],
+ "v_rtt_low": [
+  0,
+  0,
+  0,
+  128
+ ],
+ "v_slowstart": [
+  2,
+  0,
+  0,
+  15
+ ],
+ "v_timer": [
+  9,
+  18,
+  15,
+  58
+ ],
+ "v_variance": [
+  5,
+  1,
+  1,
+  0
+ ],
+ "wrap_gap_backoff5": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "wrap_gap_cite6298": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wrap_gap_claim1s": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wrap_gap_floor": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wrap_gap_granrec": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wrap_gap_half": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wrap_gap_init1": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wrap_gap_init3": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wrap_gap_ms333": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wrap_gap_pto_eq": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wrap_gap_revert": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wrap_gap_rounded": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wrap_gap_tcpinit": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wrap_gap_total": 1,
+ "wrap_gap_v3": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wrap_pin_hit": 1,
+ "wrap_pin_n": 14,
+ "x_ident_n": 30,
+ "y_a_cap": [
+  240000,
+  "240",
+  "seconds",
+  1
+ ],
+ "y_a_cap_ms": 240000,
+ "y_a_cap_win": 1,
+ "y_a_cap_wrap": 1,
+ "y_a_msl_word": 8,
+ "y_a_mult": 2,
+ "y_a_r2": [
+  100000,
+  "100",
+  "seconds",
+  0
+ ],
+ "y_a_r2_ms": 100000,
+ "y_a_reass_hi": [
+  120000,
+  "120",
+  "seconds",
+  1
+ ],
+ "y_a_reass_hi_ms": 120000,
+ "y_a_reass_hi_wrap": 1,
+ "y_a_rule_in_bc": [
+  0,
+  0,
+  0
+ ],
+ "y_a_rule_line": "            (b)  RTO = 3 seconds.  (The smoothed variance is to be",
+ "y_a_sent_in_bc": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "y_a_varfrom": 1,
+ "y_ans_distinct": 3,
+ "y_ans_max": 3000,
+ "y_ans_min": 333,
+ "y_ans_ms": [
+  3000,
+  3000,
+  1000,
+  333
+ ],
+ "y_ans_num": [
+  "3",
+  "3",
+  "1",
+  "333"
+ ],
+ "y_ans_ratio": 9,
+ "y_ans_rem": 3,
+ "y_ans_unit": [
+  "seconds",
+  "seconds",
+  "second",
+  "milliseconds"
+ ],
+ "y_ans_unit_sing": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "y_ans_wrap": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "y_b_c_half_close": 0,
+ "y_b_floor_gap": 2000,
+ "y_b_kdef": 4,
+ "y_b_kdef_close": 0,
+ "y_b_may_still": 0,
+ "y_bc_byte_shared": 84,
+ "y_bc_cap_ms": [
+  0,
+  60000,
+  60000,
+  0
+ ],
+ "y_bc_cap_win": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "y_bc_cap_wrap": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "y_bc_floor_close": 0,
+ "y_bc_kdef": [
+  0,
+  4,
+  4,
+  0
+ ],
+ "y_bc_norm_only": 11,
+ "y_bc_varfrom": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "y_c_floor_eq_init": 0,
+ "y_c_kdef": 4,
+ "y_c_lower_note": 1,
+ "y_c_may_still": 1,
+ "y_c_may_still_fold": 1,
+ "y_c_revert_eq_a": 0,
+ "y_c_revert_eq_b": 0,
+ "y_c_revert_ms": 3000,
+ "y_c_revert_wrap": 0,
+ "y_cap_ratio": 4,
+ "y_cap_ratio_close": 0,
+ "y_cap_ref_ms": 60000,
+ "y_cap_rem": 0,
+ "y_case_gap_rttvar": [
+  0,
+  14,
+  14,
+  -27
+ ],
+ "y_cite_ledger_1122": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "y_claim_distinct": 2,
+ "y_claim_ms": [
+  3000,
+  3000,
+  1000,
+  1000
+ ],
+ "y_claim_vs_ans": -1,
+ "y_clause_pair_n": 4,
+ "y_coef_islit": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "y_coef_num": [
+  0,
+  0,
+  0,
+  4
+ ],
+ "y_d_claim_ms": 1000,
+ "y_d_floor": 1,
+ "y_d_gap_exact": 1,
+ "y_d_gap_int": 3,
+ "y_d_gran": 1,
+ "y_d_gran_binds": 0,
+ "y_d_gran_unit": "ms",
+ "y_d_k": 4,
+ "y_d_kinit": 333,
+ "y_d_kinit_lit": 1,
+ "y_d_mad0": 1,
+ "y_d_pto_exact": 999,
+ "y_d_pto_int": 997,
+ "y_d_pto_spread": 2,
+ "y_d_three": 3,
+ "y_d_three_close": 0,
+ "y_d_var_frac": 1,
+ "y_d_var_int": 166,
+ "y_dur_frac": [
+  3,
+  3,
+  0,
+  0
+ ],
+ "y_dur_frac_only": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "y_dur_frac_vals": [
+  [
+   0,
+   5000
+  ],
+  [
+   5000
+  ],
+  [],
+  []
+ ],
+ "y_dur_out": [
+  [
+   5000,
+   60000,
+   100000,
+   120000
+  ],
+  [],
+  [
+   1000,
+   3000
+  ],
+  [
+   1,
+   333
+  ]
+ ],
+ "y_dur_out_n": [
+  4,
+  0,
+  2,
+  2
+ ],
+ "y_dur_ratio": 240000,
+ "y_dur_rem": 0,
+ "y_dur_win": [
+  [
+   3000,
+   240000
+  ],
+  [
+   1000,
+   3000,
+   5000,
+   60000
+  ],
+  [
+   1000,
+   3000,
+   60000
+  ],
+  [
+   333,
+   1000
+  ]
+ ],
+ "y_dur_win_n": [
+  2,
+  4,
+  3,
+  2
+ ],
+ "y_dur_wrap": [
+  4,
+  2,
+  3,
+  0
+ ],
+ "y_dur_wrap_ms": [
+  [
+   0,
+   60000,
+   120000,
+   240000
+  ],
+  [
+   3000,
+   60000
+  ],
+  [
+   1000,
+   3000,
+   60000
+  ],
+  []
+ ],
+ "y_dur_zero": [
+  2,
+  0,
+  0,
+  0
+ ],
+ "y_dur_zero_frac": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "y_dur_zero_wrap": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "y_floor_lines": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "y_floor_ms": [
+  0,
+  1000,
+  1000,
+  0
+ ],
+ "y_floor_wrap": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "y_gransym": [
+  0,
+  2,
+  1,
+  0
+ ],
+ "y_half_b": 2,
+ "y_half_c": 2,
+ "y_half_close": 0,
+ "y_half_d": 2,
+ "y_k_close": 0,
+ "y_klit_close": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "y_klit_ns": [
+  0,
+  0,
+  0,
+  4
+ ],
+ "y_klit_sp": [
+  0,
+  0,
+  0,
+  4
+ ],
+ "y_name_family": [
+  0,
+  29,
+  29,
+  0
+ ],
+ "y_name_family_l": [
+  0,
+  0,
+  0,
+  65
+ ],
+ "y_oblig_win": [
+  5,
+  9,
+  9,
+  9
+ ],
+ "y_only_bcd": 1088,
+ "y_outw_appendix": [
+  1,
+  0,
+  2,
+  8
+ ],
+ "y_outw_inirto": [
+  0,
+  0,
+  12,
+  0
+ ],
+ "y_outw_may": [
+  41,
+  2,
+  2,
+  19
+ ],
+ "y_outw_must": [
+  198,
+  11,
+  12,
+  30
+ ],
+ "y_outw_should": [
+  70,
+  4,
+  4,
+  25
+ ],
+ "y_outw_threesec": [
+  0,
+  0,
+  8,
+  0
+ ],
+ "y_roundg": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "y_rtt0": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "y_secw_appendix": [
+  0,
+  0,
+  1,
+  1
+ ],
+ "y_secw_inirto": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "y_secw_may": [
+  0,
+  1,
+  2,
+  2
+ ],
+ "y_secw_must": [
+  2,
+  4,
+  4,
+  5
+ ],
+ "y_secw_must_not": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "y_secw_should": [
+  3,
+  4,
+  3,
+  2
+ ],
+ "y_secw_threesec": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "y_sum_base": [
+  "",
+  "SRTT",
+  "SRTT",
+  "smoothed_rtt"
+ ],
+ "y_sum_coef": [
+  "",
+  "K",
+  "K",
+  "4"
+ ],
+ "y_sum_lhs": [
+  "",
+  "RTO",
+  "RTO",
+  "PTO"
+ ],
+ "y_sum_mfirst": [
+  "",
+  "G",
+  "G",
+  "4*rttvar"
+ ],
+ "y_sum_msecond": [
+  "",
+  "K*RTTVAR",
+  "K*RTTVAR",
+  "kGranularity"
+ ],
+ "y_sum_mvar": [
+  "",
+  "RTTVAR",
+  "RTTVAR",
+  "rttvar"
+ ],
+ "y_sum_n": [
+  0,
+  3,
+  3,
+  1
+ ],
+ "y_sum_nterms": [
+  0,
+  2,
+  2,
+  3
+ ],
+ "y_sum_op": [
+  "",
+  "<-",
+  "<-",
+  "="
+ ],
+ "y_sum_shape": [
+  "无和式",
+  "RTO<-G+K*RTTVAR",
+  "RTO<-G+K*RTTVAR",
+  "PTO=4*rttvar+kGranularity"
+ ],
+ "y_sum_tail": [
+  "",
+  "",
+  "",
+  "max_ack_delay"
+ ],
+ "y_sum_tail_n": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "y_sum_var_first": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "y_unit_n": [
+  1,
+  2,
+  2,
+  4
+ ],
+ "y_unit_used": [
+  [
+   "seconds"
+  ],
+  [
+   "second",
+   "seconds"
+  ],
+  [
+   "second",
+   "seconds"
+  ],
+  [
+   "millisecond",
+   "milliseconds",
+   "ms",
+   "second"
+  ]
+ ]
+}

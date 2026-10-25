@@ -1,0 +1,56 @@
+A	may send a source quench message for every message that it discards
+A	should cut back the rate at which it is sending traffic
+A	when it approaches its capacity limit rather than waiting
+A	must be implemented by every IP module
+B	must be prepared to limit the frequency with which it sends
+B	for every N dropped datagrams
+B	at most once per T millseconds
+B	settable as part of the configuration of the gateway
+B	disables sending Source Quenches
+B	never sent about ICMP error messages
+B	of the order of 100 bytes
+B	2,000 datagrams per second per interface
+B	throughput of 8,000 datagrams
+B	would imply 16,000 datagrams
+C	The recommended maximum rate is 1 per second per
+C	very low rate, e.g., 0.005 per second
+C	should throttle itself back
+C	includes the Internet header and at least the first 8
+C	MUST NOT be sent as the result of receiving
+D	MUST NOT be sent as the result of receiving
+C	host MAY send a Source Quench message if it is
+D	MUST be able to limit the rate at which the messages can be generated
+D	SHOULD also be able to limit the rate at which it sends other sorts
+D	SHOULD be settable as part of the configuration
+D	is left to the implementor
+D	send an ICMP error message for every N dropped packets
+D	at most once per T milliseconds
+D	limit the rate at which ICMP messages are sent over a particular
+D	SHOULD NOT originate ICMP Source Quench
+D	exceeding 576 bytes
+D	(20 bytes = 5 words)
+E	MUST limit the rate of ICMPv6 error messages it originates
+E	token bucket, limiting the average rate
+E	N can be either packets/second or a fraction
+E	allowing up to B error messages to be transmitted in a burst
+E	allowing an error message every T
+E	is not reasonable
+E	The rate-limiting parameters SHOULD be configurable
+E	the possible defaults could be B=10
+E	Rate-limiting of forwarded ICMP messages is out of scope
+E	Removed the Timer-based and the Bandwidth-based methods
+C	TAKE PRECEDENCE OVER ANY REQUIREMENT ELSEWHERE
+D	TAKE PRECEDENCE OVER ANY REQUIREMENT ELSEWHERE
+E	TAKE PRECEDENCE OVER ANY REQUIREMENT ELSEWHERE
+E	exactly 32 bits of type-specific data
+F	otherwise the minimal space between responses in
+F	icmp_msgs_per_sec limits the number
+F	Limit maximal number of ICMP packets sent per second from this host
+F	controls the burst size of these packets
+F	Mask made of ICMP types for which rates are being limited
+F	These are rate limited by default
+F	violate RFC1122 by sending bogus responses
+F	0 to disable any limiting
+F	0000001100000011000 (6168)
+F	Limit the maximal rates for sending ICMPv6 messages
+D	left to the implementor

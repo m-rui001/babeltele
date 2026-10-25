@@ -1,0 +1,19 @@
+A called party may revoke prior express consent, including prior express written consent, to receive calls or text messages made pursuant to paragraphs (a)(1) through (3) and (c)(2) of this section
+Callers may designate any of the following methods as the exclusive means to revoke consent
+an automated, interactive voice or key press-activated opt-out mechanism on a call
+must be honored within a reasonable time not to exceed ten business days from receipt of such request
+The use of any means to revoke consent not listed in paragraph (a)(10) of this section creates a rebuttable presumption that the consumer has revoked consent when the called party satisfies their obligation to produce evidence that such a request has been made, absent evidence to the contrary
+a totality of circumstances analysis will determine whether the caller can demonstrate that a request to revoke consent has not been conveyed in a reasonable manner
+Callers may interpret a revocation request made in response to an informational call or text message (i.e., a call or text message that does not contain any advertising or telemarketing) as applying only to the specific category of informational robocalls and text messages to which the revocation was directed and not to all communications
+Revocation requests made in response to calls or text messages that contain an advertisement or constitute telemarketing revoke consent to all future calls or text messages containing an advertisement or constitute telemarketing from that caller
+If the confirmation text is sent within five minutes of receipt, it will be presumed to fall within the consumer’s prior express consent
+Callers that do not designate an exclusive means to revoke consent pursuant to paragraph (a)(10) of this section must process revocation requests made by any reasonable means
+supplied by a spouse or other family member who is authorized to be on the account; obtained when the customer calls the financial institution; or included in records obtained from another financial institution
+The revised rule amendments contained herein become effective November 25, 2026
+previously extended to January 31, 2027
+supersede the delayed effective date of the relevant portion of that rule that was previously extended to January 31, 2027
+We make clear that substantive changes to these rules are excluded from this delegation of authority
+two-way texting is not available due to technical limitations of the texting protocol
+following standardized words: ``stop,'' ``quit,'' ``end,'' ``revoke,'' ``opt out,'' ``cancel,'' or ``unsubscribe''
+Text senders that designate a reply text message as the exclusive means to revoke consent can satisfy the disclosure obligation by including at least one of the standardized words
+The Chief Counsel did not file any comments in response to the proposed rules in this proceeding

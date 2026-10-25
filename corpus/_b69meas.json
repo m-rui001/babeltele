@@ -1,0 +1,764 @@
+{
+ "fold_only": {
+  "eng_whole": [
+   1,
+   0,
+   0,
+   1
+  ],
+  "twoboth": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "quiet_whole": [
+   0,
+   0,
+   0,
+   1
+  ]
+ },
+ "fold_only_linefree": {
+  "eng_whole": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "twoboth": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "quiet_whole": [
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "needle_docs": {
+  "quiet_sent": 1,
+  "msl2_sent": 2,
+  "eng_choice": 1,
+  "violate": 1,
+  "arb2": 1,
+  "isn_455": 1,
+  "msl_lt_455": 1,
+  "fig_2msl": 2,
+  "linger_2x": 1,
+  "may_accept": 1,
+  "cond_isn": 2,
+  "cond_return": 2,
+  "pair_busy": 1,
+  "shorten": 1,
+  "ka_may": 1,
+  "star_2msl": 1,
+  "last_seen": 1,
+  "tw_ref": 1,
+  "quiet_two": 1,
+  "linger_the": 1,
+  "endpoint_quiet": 1,
+  "clock_must": 1,
+  "paws_rec": 1,
+  "obsoletes": 1
+ },
+ "hit": {
+  "quiet_sent": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "msl2_sent": [
+   1,
+   0,
+   0,
+   1
+  ],
+  "eng_choice": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "violate": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "arb2": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "isn_455": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "msl_lt_455": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "fig_2msl": [
+   1,
+   0,
+   0,
+   1
+  ],
+  "linger_2x": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "may_accept": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "cond_isn": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "cond_return": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "pair_busy": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "shorten": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "ka_may": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "star_2msl": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "last_seen": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "tw_ref": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "quiet_two": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "linger_the": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "endpoint_quiet": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "clock_must": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "paws_rec": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "obsoletes": [
+   0,
+   0,
+   0,
+   1
+  ]
+ },
+ "where": {
+  "quiet_sent": [
+   [
+    1849
+   ],
+   [],
+   [],
+   []
+  ],
+  "msl2_sent": [
+   [
+    1852
+   ],
+   [],
+   [],
+   [
+    1107
+   ]
+  ],
+  "eng_choice": [
+   [
+    1853
+   ],
+   [],
+   [],
+   []
+  ],
+  "violate": [
+   [
+    1867
+   ],
+   [],
+   [],
+   []
+  ],
+  "arb2": [
+   [
+    4975
+   ],
+   [],
+   [],
+   []
+  ],
+  "isn_455": [
+   [
+    1793
+   ],
+   [],
+   [],
+   []
+  ],
+  "msl_lt_455": [
+   [
+    1795
+   ],
+   [],
+   [],
+   []
+  ],
+  "fig_2msl": [
+   [
+    1578
+   ],
+   [],
+   [],
+   [
+    834
+   ]
+  ],
+  "linger_2x": [
+   [],
+   [
+    5159
+   ],
+   [],
+   []
+  ],
+  "may_accept": [
+   [],
+   [
+    5160
+   ],
+   [],
+   []
+  ],
+  "cond_isn": [
+   [],
+   [
+    5163
+   ],
+   [],
+   [
+    1658
+   ]
+  ],
+  "cond_return": [
+   [],
+   [
+    5168
+   ],
+   [],
+   [
+    1662
+   ]
+  ],
+  "pair_busy": [
+   [],
+   [
+    5199
+   ],
+   [],
+   []
+  ],
+  "shorten": [
+   [],
+   [
+    5201
+   ],
+   [],
+   []
+  ],
+  "ka_may": [
+   [],
+   [
+    5939
+   ],
+   [],
+   []
+  ],
+  "star_2msl": [
+   [],
+   [],
+   [
+    130
+   ],
+   []
+  ],
+  "last_seen": [
+   [],
+   [],
+   [
+    131
+   ],
+   []
+  ],
+  "tw_ref": [
+   [],
+   [],
+   [
+    133
+   ],
+   []
+  ],
+  "quiet_two": [
+   [],
+   [],
+   [
+    234
+   ],
+   []
+  ],
+  "linger_the": [
+   [],
+   [],
+   [],
+   [
+    1653
+   ]
+  ],
+  "endpoint_quiet": [
+   [],
+   [],
+   [],
+   [
+    1104
+   ]
+  ],
+  "clock_must": [
+   [],
+   [],
+   [],
+   [
+    1032
+   ]
+  ],
+  "paws_rec": [
+   [],
+   [],
+   [],
+   [
+    1029
+   ]
+  ],
+  "obsoletes": [
+   [],
+   [],
+   [],
+   [
+    8
+   ]
+  ]
+ },
+ "needle_ndl": {
+  "quiet_sent": "the TCP must keep quiet for a maximum segment lifetime",
+  "msl2_sent": "For this specification the MSL is taken to be 2 minutes.",
+  "eng_choice": "is an engineering choice, and may be changed if experience indicates",
+  "violate": "TCP implementors may violate the \"quiet time\" restriction, but only",
+  "arb2": "Arbitrarily defined to be 2 minutes.",
+  "isn_455": "Thus, the ISN cycles approximately every 4.55 hours.",
+  "msl_lt_455": "the MSL is less than 4.55",
+  "fig_2msl": "Timeout=2MSL",
+  "linger_2x": "TIME-WAIT state for a time 2xMSL (Maximum Segment Lifetime).",
+  "may_accept": "However, it MAY accept a new SYN from the remote TCP to",
+  "cond_isn": "assigns its initial sequence number for the new",
+  "cond_return": "returns to TIME-WAIT state if the SYN turns out to be",
+  "pair_busy": "local socket) pair that defines the connection is busy",
+  "shorten": "port pair is tied up, some TCPs allow a new SYN to be",
+  "ka_may": "Implementors MAY include \"keep-alives\" in their TCP",
+  "star_2msl": "previous connection before 2*MSL have passed since a segment",
+  "last_seen": "corresponding to the old incarnation was last seen (where \"MSL\" is",
+  "tw_ref": "the TIME-WAIT state and TCP's \"quiet time\" concept (see Appendix B of",
+  "quiet_two": "kept or a quiet time observed for two maximum segment lifetimes",
+  "linger_the": "When a connection is closed actively, it MUST linger in the TIME-WAIT",
+  "endpoint_quiet": "the TCP endpoint must keep quiet for an MSL",
+  "clock_must": "A TCP implementation MUST use the above type of \"clock\" for clock-",
+  "paws_rec": "it is recommended to implement the",
+  "obsoletes": "Obsoletes: 793, 879, 2873, 6093, 6429, 6528,"
+ },
+ "tags": [
+  "a",
+  "b",
+  "c",
+  "d"
+ ],
+ "paths": {
+  "a": "corpus/raw/tcpTW/rfc793.txt",
+  "b": "corpus/raw/tcpRTO/rfc1122.txt",
+  "c": "corpus/raw/tcpTW/rfc6528.txt",
+  "d": "corpus/raw/tcpTW/rfc9293.txt"
+ },
+ "bytes": [
+  172710,
+  289148,
+  26917,
+  263696
+ ],
+ "chars": [
+  172710,
+  289148,
+  26917,
+  263692
+ ],
+ "lines": [
+  5248,
+  6845,
+  676,
+  5577
+ ],
+ "nonblank": [
+  2975,
+  4549,
+  437,
+  4370
+ ],
+ "ff": [
+  91,
+  116,
+  12,
+  0
+ ],
+ "ff_only": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "cr": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "nonascii": [
+  0,
+  0,
+  0,
+  3
+ ],
+ "bom": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "msl": [
+  16,
+  8,
+  2,
+  21
+ ],
+ "tw": [
+  28,
+  8,
+  4,
+  47
+ ],
+ "form_2msl": [
+  1,
+  0,
+  0,
+  2
+ ],
+ "form_2xmsl": [
+  0,
+  3,
+  0,
+  1
+ ],
+ "form_2starmsl": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "form_2_x_msl": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "quiet": [
+  2,
+  1,
+  2,
+  6
+ ],
+ "linger": [
+  0,
+  1,
+  0,
+  1
+ ],
+ "issn": [
+  0,
+  0,
+  1,
+  1
+ ],
+ "obsoletes_hdr": [
+  0,
+  0,
+  1,
+  1
+ ],
+ "updates_hdr": [
+  0,
+  0,
+  1,
+  1
+ ],
+ "std_hdr": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "cat_std": [
+  0,
+  0,
+  1,
+  1
+ ],
+ "cat_info": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "rfc793_ref": [
+  0,
+  34,
+  0,
+  0
+ ],
+ "rfc793_bare": [
+  0,
+  0,
+  5,
+  60
+ ],
+ "rfc1122_ref": [
+  0,
+  0,
+  0,
+  25
+ ],
+ "rfc1122_dash": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "rfc6528_ref": [
+  0,
+  0,
+  13,
+  8
+ ],
+ "two_minutes": [
+  2,
+  1,
+  0,
+  1
+ ],
+ "four_micro": [
+  0,
+  0,
+  2,
+  1
+ ],
+ "hours_455": [
+  1,
+  0,
+  0,
+  1
+ ],
+ "keepalive_dash": [
+  0,
+  10,
+  0,
+  6
+ ],
+ "keepalive_bare": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "urgent": [
+  60,
+  11,
+  0,
+  78
+ ],
+ "form_all": [
+  1,
+  4,
+  1,
+  3
+ ],
+ "up_MUST": [
+  0,
+  200,
+  4,
+  228
+ ],
+ "up_SHOULD": [
+  0,
+  73,
+  3,
+  40
+ ],
+ "up_MAY": [
+  0,
+  41,
+  1,
+  58
+ ],
+ "up_MUSTNOT": [
+  0,
+  20,
+  2,
+  7
+ ],
+ "low_must": [
+  56,
+  56,
+  2,
+  42
+ ],
+ "low_may": [
+  71,
+  116,
+  4,
+  76
+ ],
+ "hdr": [
+  0,
+  115,
+  11,
+  0
+ ],
+ "foot_bracket": [
+  88,
+  1,
+  0,
+  1
+ ],
+ "foot_page": [
+  45,
+  116,
+  12,
+  0
+ ],
+ "hdr_dash": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "pool_n": 9149,
+ "pool_tier": [
+  8767,
+  381,
+  1,
+  0
+ ],
+ "pair": {
+  "ab": 0,
+  "ac": 0,
+  "ad": 350,
+  "bc": 0,
+  "bd": 15,
+  "cd": 16
+ },
+ "shared_docs": [
+  9149,
+  382,
+  1,
+  0
+ ],
+ "only_each": [
+  1633,
+  3804,
+  358,
+  2972
+ ],
+ "sizes": [
+  2036,
+  3840,
+  374,
+  3479
+ ],
+ "union": 9149,
+ "tier_close": 0,
+ "pool_3": 1,
+ "pool_4": 0,
+ "pair_sum": 381,
+ "tri_sum": 1,
+ "union_close": 200
+}

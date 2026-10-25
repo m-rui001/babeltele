@@ -1,0 +1,4 @@
+(1) National banks and their subsidiaries; (2) Federal savings associations and their subsidiaries; (3) Federal branches and their subsidiaries; (4) Foreign payment stablecoin issuers; (5) Nonbank entities that seek to be or are approved as Federal qualified payment stablecoin issuers; and (6) State qualified payment stablecoin issuers for which the OCC has regulatory or enforcement authority
+That is, or is designed to be, used as a means of payment or settlement
+Affiliate means a person that controls, is controlled by, or is under common control with another person.
+Sensitive customer information means any combination of components of customer information that would reveal the identity of the customer

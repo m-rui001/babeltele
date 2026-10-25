@@ -1,0 +1,68 @@
+{
+ "chars": [
+  1839
+ ],
+ "words": [
+  254
+ ],
+ "submit_year": [
+  2026
+ ],
+ "arxiv_id": [
+  "2610.31657"
+ ],
+ "ticket_corpus": [
+  47837
+ ],
+ "test_subset": [
+  1000
+ ],
+ "thr": [
+  0.6
+ ],
+ "cost_before": [
+  0.763
+ ],
+ "cost_after": [
+  0.472
+ ],
+ "ci_lo": [
+  35.7
+ ],
+ "ci_hi": [
+  40.4
+ ],
+ "wrong_before": [
+  15.3
+ ],
+ "wrong_after": [
+  3.5
+ ],
+ "llm_acc": [
+  0.477
+ ],
+ "bert_acc": [
+  0.879
+ ],
+ "auroc_flat": [
+  0.5
+ ],
+ "breakeven_p": [
+  0.8
+ ],
+ "n_cost": [
+  8
+ ],
+ "n_calibration": [
+  6
+ ],
+ "n_abstention": [
+  2
+ ],
+ "n_ticket": [
+  5
+ ],
+ "n_policy": [
+  2
+ ]
+}

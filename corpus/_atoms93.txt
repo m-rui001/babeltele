@@ -1,0 +1,46 @@
+A	The number of consecutive Neighbor Solicitation messages sent while performing Duplicate Address
+A	A value of one indicates a single transmission with no follow-up retransmissions
+A	Default: 1, but may be overridden by a link-type specific value
+A	An interface whose DupAddrDetectTransmits variable is set to zero
+A	each separated by RetransTimer milliseconds
+A	within RetransTimer milliseconds after having sent DupAddrDetectTransmits
+A	a random delay between 0 and MAX_RTR_SOLICITATION_DELAY as specified in
+A	the time a node waits after sending the last Neighbor
+A	Duplicate Address Detection MUST be performed on all unicast
+A	the number expected based on the loopback semantics
+B	MAX_MULTICAST_SOLICIT 3 transmissions
+B	RETRANS_TIMER 1,000 milliseconds
+B	REACHABLE_TIME 30,000 milliseconds
+B	DELAY_FIRST_PROBE_TIME 5 seconds
+B	MAX_RTR_SOLICITATION_DELAY 1 second
+B	RTR_SOLICITATION_INTERVAL 4 seconds
+B	MAX_INITIAL_RTR_ADVERT_INTERVAL 16 seconds
+B	MAX_RA_DELAY_TIME .5 seconds
+B	MIN_RANDOM_FACTOR .5
+B	after waiting RetransTimer milliseconds after sending the
+B	solicitations, retransmissions cease and the
+B	the sender changes the state to DELAY and sets a timer to
+B	a node retransmits Neighbor Solicitation messages every RetransTimer milliseconds
+C	remove the RetransTimer delay during address configuration
+C	It is not sufficient to merely reduce RetransTimer in order to reduce
+C	reduced by increasing the RFC 2462 DupAddrDetectTransmits variable to
+C	Optimistic DAD suffers from similar problems to Standard DAD
+D	dad_transmits - INTEGER
+D	The amount of Duplicate Address Detection probes to send
+D	Whether to accept DAD (Duplicate Address Detection)
+D	1: Enable DAD (default)
+D	Whether to perform Optimistic Duplicate Address Detection (RFC 4429)
+D	Include a nonce option in the IPv6 neighbor solicitation messages used for
+D	The maximum number of multicast probes in INCOMPLETE state
+D	The maximum number of unicast probes in PROBE state
+D	Number of seconds to wait between Router Solicitations
+D	Quoting from RFC 2461, section 4.4
+E	Configures the amount of IPv6 Duplicate Address Detection
+E	probes to send. When unset, the kernel's default will be
+E	Configures the maximum timeout for IPv4 Duplicate Address
+E	Must be a value between 1 millisecond and 60 seconds
+E	randomized time between 57% (4/7) and 100% of the given value
+E	If unset, defaults to 200 milliseconds
+E	A value of zero is ignored and the kernel's current
+E	When "ipv6", performs IPv6 Duplicate Address Detection
+E	The time between retransmitted Neighbor Solicitation messages

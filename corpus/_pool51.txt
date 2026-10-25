@@ -1,0 +1,113 @@
+  0 shared_sent   ⟦C⟧ [CD:pair] 24 Need accurate mechanism.
+  1 scaffold4     ⟦A⟧ [ABCD:all4] 3 no.
+  2 scaffold4     ⟦A⟧ [ABCD:all4] 4 Hmm.
+  3 cross_sent    ⟦B⟧ [BD:cross] 37 We can produce maybe 1500-2500 words?
+  4 digit_only    ⟦A⟧ [A:single] 189 d=1:3|30*2^{...} yes; d=2:5|30 yes; d=3:9∤30; d=4:17∤; so {30,60,120,240?} 30 and120 edge d=2 yes (3
+  5 digit_only    ⟦A⟧ [A:single] 174 Give the exact extremal value as a function of n and characterize the sets attaining it." If all pai
+  6 digit_only    ⟦A⟧ [A:single] 163 Maybe there is a theorem: if n≥3 and S pairwise good, then there exists a common divisor D of all el
+  7 digit_only    ⟦A⟧ [A:single] 158 There may be no triangle due to "no 3 pairwise" known problem: Find distinct positive integers a,b,c
+  8 digit_only    ⟦A⟧ [A:single] 147 Need exact extremal value C(n,2), characterization likely all sets satisfying pairwise condition, bu
+  9 digit_only    ⟦A⟧ [A:single] 126 Could the problem have intended "a+b divides ab" for "a,b elements of S" and perhaps no scaling beca
+ 10 digit_only    ⟦A⟧ [A:single] 121 Maybe known problem: "maximum number of pairs (a,b) with a+b divides ab" maybe result floor(n^2/4) o
+ 11 digit_only    ⟦A⟧ [A:single] 121 If all s_i = d r_i, then s_i+s_j=d(r_i+r_j), s_i s_j=d^2 r_i r_j; condition d(r_i+r_j)|d^2 r_i r_j ⇔
+ 12 digit_only    ⟦A⟧ [A:single] 119 S={30*2^i}: pair ratio 2^d; condition a+b =30*2^i(1+2^d), ab=900*2^{i+j}; need (1+2^d)|30*2^{j-i}; o
+ 13 digit_only    ⟦A⟧ [A:single] 119 Here pair sums 3,5,6 not all divide g (6∤30), but condition holds due to gcd with xy for pair 2,4: r
+ 14 digit_only    ⟦A⟧ [A:single] 118 Not necessarily; but if x+y | L, then definitely condition holds (since L(x+y) | L^2 xy if x+y | Lxy
+ 15 digit_only    ⟦A⟧ [A:single] 110 Prove number of pairs (a,b) such that a+b divides ab is at most ..." Maybe answer floor(n^2/4) plus 
+ 16 digit_only    ⟦B⟧ [B:single] 391 Let's see if maximum all pairs might have been recognized but problem asks exact extremal value as f
+ 17 digit_only    ⟦B⟧ [B:single] 279 Alternative interpretation: "largest possible number of pairs (a,b) of elements of a set S of n posi
+ 18 digit_only    ⟦B⟧ [B:single] 266 Maybe there is a theorem: All finite sets S with pairwise a+b|ab can be obtained from a set T of pos
+ 19 digit_only    ⟦B⟧ [B:single] 203 Now maybe mention "If the intended problem imposed \(S\subseteq\{1,\ldots,n\}\), the problem is diff
+ 20 digit_only    ⟦B⟧ [B:single] 200 - First natural route: try classify good pairs via a+b|a^2 (since mod a+b, ab ≡ -a^2), and count par
+ 21 digit_only    ⟦B⟧ [B:single] 200 Let's see if the user expects "characterize sets attaining it" in a more standard way maybe "all set
+ 22 digit_only    ⟦B⟧ [B:single] 188 Maybe include a brief remark: "If one intended S⊂{1,...,n}, that is a different (and much harder) pr
+ 23 digit_only    ⟦B⟧ [B:single] 185 If S={1,...,n}, max number satisfying condition is a different function and characterization of sets
+ 24 digit_only    ⟦B⟧ [B:single] 183 Could also derive scaling lemma from this criterion: scaling S by M multiplies gcds by M while ratio
+ 25 digit_only    ⟦B⟧ [B:single] 182 Let's consider if the actual challenge maybe max is not C(n,2) because they might intend "a,b elemen
+ 26 digit_only    ⟦B⟧ [B:single] 181 Let's think about possible requests "State any lemma you use and prove it." We'll label Lemma 1 (loc
+ 27 digit_only    ⟦B⟧ [B:single] 179 A final remark could say "Under an additional bound such as \(S\subset\{1,\dots,n\}\), this scaling 
+ 28 digit_only    ⟦C⟧ [C:single] 358 We can include "GI losses (vomiting, NG suction, gastric outlet obstruction; laxative abuse, villous
+ 29 digit_only    ⟦C⟧ [C:single] 333 We can state mechanistically: NCC loss reduces DCT Na reabsorption and the electrical/regulatory env
+ 30 digit_only    ⟦C⟧ [C:single] 310 - Urine Cl 104 also excludes vomiting/NG suction because in those, Cl loss is extrarenal, urine Cl l
+ 31 digit_only    ⟦C⟧ [C:single] 241 Need enumerate and eliminate each with specific numbers: BP 104/66 no HTN; renin elevated eliminates
+ 32 digit_only    ⟦C⟧ [C:single] 231 - Gitelman syndrome: DCT thiazide-sensitive NaCl cotransporter (SLC12A3); hypokalemia, metabolic alk
+ 33 digit_only    ⟦C⟧ [C:single] 225 Need maybe mention "urine Cl 104" is high, but in metabolic alkalosis with high urine Cl, causes: di
+ 34 digit_only    ⟦C⟧ [C:single] 215 Gitelman hypomagnesemia due to impaired DCT magnesium reabsorption, likely secondary to reduced NCC 
+ 35 digit_only    ⟦C⟧ [C:single] 206 Some sources: hypomagnesemia in Gitelman is due to downregulation of TRPM6 in DCT, perhaps because N
+ 36 digit_only    ⟦C⟧ [C:single] 206 Renal chloride-wasting (urine Cl >20): diuretics (loop, thiazide), Bartter, Gitelman, tubulopathies,
+ 37 digit_only    ⟦C⟧ [C:single] 203 Could state "Gitelman is far more likely; CLCNKB-related Bartter III is the main genetic mimic and c
+ 38 digit_only    ⟦C⟧ [C:single] 202 - Apparent mineralocorticoid excess (AME), 11β-HSD2 deficiency, licorice, carbenoxolone: hypertensio
+ 39 digit_only    ⟦C⟧ [C:single] 189 Literature: "Bartter syndrome type III" often presents with hypokalemia, metabolic alkalosis, hyperc
+ 40 digit_only    ⟦D⟧ [D:single] 326 We can say "Primary Mg deficiency (poor intake, alcohol, diarrhea, PPIs, aminoglycosides, cisplatin)
+ 41 digit_only    ⟦D⟧ [D:single] 293 We can say "The high urine Na is consistent with bicarbonaturia and salt wasting; the high urine Cl 
+ 42 digit_only    ⟦D⟧ [D:single] 285 Need maybe mention "Mg deficiency" as cause: "Primary Mg deficiency can cause hypokalemia and alkalo
+ 43 digit_only    ⟦D⟧ [D:single] 259 Mechanism: DCT is major site of active Mg reabsorption via TRPM6; NCC dysfunction reduces apical Na 
+ 44 digit_only    ⟦D⟧ [D:single] 252 Need maybe mention "Gitelman syndrome can present in adulthood with cramps, salt craving, normal BP;
+ 45 digit_only    ⟦D⟧ [D:single] 239 Secondary hyperaldosteronism and salt wasting further increase Mg excretion." For Bartter, TAL parac
+ 46 digit_only    ⟦D⟧ [D:single] 236 Need maybe mention "The urine K 78 is high, but in Gitelman it's due to high distal Na delivery and 
+ 47 digit_only    ⟦D⟧ [D:single] 231 Saline responsive: urine Cl <20 (vomiting, NG suction, diuretics, posthypercapnia, villous adenoma?)
+ 48 digit_only    ⟦D⟧ [D:single] 230 Need maybe table row for "Severe K depletion/primary Mg deficiency" says "can cause hypokalemia/alka
+ 49 digit_only    ⟦D⟧ [D:single] 224 Mention "this is the one mimic that survives the biochemistry; it is excluded by the negative screen
+ 50 digit_only    ⟦D⟧ [D:single] 220 - In DCT, NCC reabsorbs NaCl; loss of NCC (Gitelman or thiazide) reduces intracellular Na, increasin
+ 51 digit_only    ⟦D⟧ [D:single] 219 | Vomiting, NG suction, gastric outlet obstruction, bulimia | Hypokalemic alkalosis, high renin/aldo
+ 52 hedge_only    ⟦A⟧ [A:single] 78 Wait for any finite set R of positive integers, choose L = lcm_{i<j}(r_i+r_j).
+ 53 hedge_only    ⟦A⟧ [A:single] 62 Wait maximum number of pairs is trivially all if construction.
+ 54 hedge_only    ⟦A⟧ [A:single] 61 Wait edge condition a+b|ab equivalent (a+b)/(ab)=1/a+1/b=1/m.
+ 55 hedge_only    ⟦A⟧ [A:single] 61 Wait check construction with R={1,...,n}, L=lcm of pair sums.
+ 56 hedge_only    ⟦A⟧ [A:single] 41 Wait S=gR with gcd(R)=1 means g = gcd(S).
+ 57 hedge_only    ⟦B⟧ [B:single] 203 Wait for λ integer, if original then scaled good; but more important for construction: even if origi
+ 58 hedge_only    ⟦B⟧ [B:single] 126 Wait perhaps condition is "a+b divides a*b" for pairs of elements of S **with a<b**, but if all pair
+ 59 hedge_only    ⟦B⟧ [B:single] 113 Wait if \(M T\) complete iff Λ(T)|M, then for S arbitrary choose T primitive, g=gcd S, S=gT; complet
+ 60 hedge_only    ⟦B⟧ [B:single] 95 Wait our triangle {20,30,60}: minimum 20; other b from divisors of 400: 30 (sum50), 60 (sum80).
+ 61 hedge_only    ⟦B⟧ [B:single] 95 Wait condition for pair a+b|ab automatically equivalent to q divides lcm; q values 336,400,525.
+ 62 hedge_only    ⟦B⟧ [B:single] 92 Wait if we choose arbitrary ℓ and R divisors with pair sums divide ℓ, then S={ℓ/r} complete.
+ 63 hedge_only    ⟦B⟧ [B:single] 87 Wait any extremal S is complete; our representation uses T=S/g primitive but arbitrary?
+ 64 hedge_only    ⟦B⟧ [B:single] 79 Wait in construction S={L,2L,...,nL} with L=lcm pair sums, not necessarily lcm.
+ 65 hedge_only    ⟦C⟧ [C:single] 44 Wait, how does Gitelman cause hypocalciuria?
+ 66 hedge_only    ⟦D⟧ [D:single] 112 Wait urine anion gap = (Na+ + K+) - Cl-; if positive, unmeasured anions (HCO3-) present; if negative
+ 67 hedge_only    ⟦D⟧ [D:single] 95 Wait adrenal insufficiency causes hypotension, hyperkalemia, metabolic acidosis, not alkalosis.
+ 68 hedge_only    ⟦D⟧ [D:single] 90 Need maybe mention "Bartter type III (ClC-Kb) can have hypocalciuria?" Wait, let's verify.
+ 69 prompt_quote  ⟦A⟧ [AB:pair] 241 Determine, with proof, the largest possible number of pairs (a, b) of elements of a set S of n posit
+ 70 prompt_quote  ⟦B⟧ [B:single] 270 Let n be a positive integer. Determine, with proof, the largest possible number of pairs (a, b) of e
+ 71 prompt_quote  ⟦C⟧ [C:single] 429 enumerate every cause of hypokalemic metabolic alkalosis with normal-to-low blood pressure, then eli
+ 72 prompt_quote  ⟦D⟧ [D:single] 111 A 34-year-old woman presents with 3 months of muscle cramps and salt craving. BP 104/66 mmHg (no hyp
+ 73 pair_sub      ⟦A⟧ [AB:pair] 244 Determine, with proof, the largest possible number of pairs (a, b) of elements of a set S of n posit
+ 74 pair_sub      ⟦A⟧ [AB:pair] 124 research mathematician would: search for structure, try small n by hand, form a conjecture, then pro
+ 75 pair_sub      ⟦A⟧ [AB:pair] 60 . Reason out loud, showing every arithmetic check you make."
+ 76 pair_sub      ⟦A⟧ [AB:pair] 58 ={1,2,3,4}, L=lcm(3,4,5,5,6,7)=420. S={420,840,1260,1680}.
+ 77 pair_sub      ⟦A⟧ [AB:pair] 58 Reason out loud, showing every arithmetic check you make."
+ 78 pair_sub      ⟦A⟧ [AB:pair] 55 b) of elements of a set S of n positive integers with a
+ 79 pair_sub      ⟦A⟧ [AB:pair] 53 asks "Solve it the way a research mathematician would
+ 80 pair_sub      ⟦A⟧ [AB:pair] 51 dead ends and the moment the key invariant appears.
+ 81 pair_sub      ⟦A⟧ [AB:pair] 47 search for structure, try small n by hand, form
+ 82 pair_sub      ⟦C⟧ [CD:pair] 97 - Congenital adrenal hyperplasia (11β-hydroxylase, 17α-hydroxylase): hypertension, low renin/aldo
+ 83 pair_sub      ⟦C⟧ [CD:pair] 91 "enumerate every cause of hypokalemic metabolic alkalosis with normal-to-low blood pressure
+ 84 pair_sub      ⟦C⟧ [CD:pair] 87 ... then eliminate each one by explicit reference to a specific number or finding above
+ 85 pair_sub      ⟦C⟧ [CD:pair] 67 decreased intracellular Na and increased basolateral Na/Ca exchange
+ 86 pair_sub      ⟦C⟧ [CD:pair] 67 metabolic alkalosis, hypomagnesemia, hypocalciuria, high renin/aldo
+ 87 pair_sub      ⟦C⟧ [CD:pair] 67 - Congenital adrenal hyperplasia (11β-hydroxylase, 17α-hydroxylase)
+ 88 pair_sub      ⟦C⟧ [CD:pair] 65 every cause of hypokalemic metabolic alkalosis with normal-to-low
+ 89 pair_sub      ⟦C⟧ [CD:pair] 64 very cause of hypokalemic metabolic alkalosis with normal-to-low
+ 90 pair_sub      ⟦C⟧ [CD:pair] 58 eason out loud; show false leads you consider and reject."
+ 91 pair_sub      ⟦C⟧ [CD:pair] 57 axative abuse can cause hypokalemia, metabolic alkalosis?
+ 92 tail          ⟦A⟧ [A:single] 51 sets. That is a clean characterization: S is extrem
+ 93 opening       ⟦A⟧ [A:single] 27 We need solve math problem.
+ 94 tail          ⟦C⟧ [C:single] 40 - DCT (Gitelman, thiazides) reabsorbs ~5
+ 95 opening       ⟦C⟧ [C:single] 34 We need answer clinical reasoning.
+ 96 opening       ⟦D⟧ [D:single] 44 We need answer medical diagnostic reasoning.
+ 97 answer_judge  ⟦B⟧ [B:single] 227 Trying to extend \(\{20,30,60\}\) by hand also dead-ends: any fourth element \(d\) must satisfy \(d+
+ 98 answer_judge  ⟦B⟧ [B:single] 218 There is no restriction on the normalized ratios \(x_i\): any primitive \(n\)-set \(T\) can be compl
+ 99 answer_judge  ⟦B⟧ [B:single] 183 A natural guess from extremal graph theory might be \(\lfloor n^2/4\rfloor\), but \(n=3\) already di
+100 answer_judge  ⟦B⟧ [B:single] 182 This is the key invariant: every finite configuration can be made admissible by one common dilation,
+101 answer_judge  ⟦B⟧ [B:single] 176 Thus, for the problem as stated, the extremal number is the full binomial coefficient, and the extre
+102 answer_judge  ⟦B⟧ [B:single] 166 where \(\ell\) is a positive integer and \(R\) is a set of \(n\) distinct divisors of \(\ell\) such 
+103 answer_judge  ⟦B⟧ [B:single] 124 But the number of divisors of \(a^2\) is unbounded as \(a\) varies, so this gives no uniform bound b
+104 answer_judge  ⟦B⟧ [B:single] 112 is pairwise admissible exactly when \(M\) is a common multiple of all numbers \(\delta(x,y)\), \(x<y
+105 answer_judge  ⟦D⟧ [D:single] 279 The high urine Cl and Na exclude GI chloride loss; the low FeCa excludes Bartter and loop diuretic; 
+106 answer_judge  ⟦D⟧ [D:single] 191 The chemistry is a **hypokalemic, hypochloremic metabolic alkalosis with renal K wasting, renal NaCl
+107 answer_judge  ⟦D⟧ [D:single] 190 - **Gitelman/thiazide**: NCC loss in the DCT lowers intracellular Na, enhancing basolateral Na/Ca ex
+108 answer_judge  ⟦D⟧ [D:single] 189 | **Severe K depletion / primary Mg deficiency** | Can cause hypokalemia, alkalosis, and renal K was
+109 answer_judge  ⟦D⟧ [D:single] 174 | **Gitelman syndrome** | Fits every finding: K 2.7, HCO3 34, urine K 78, urine Na 96, urine Cl 104,
+110 answer_judge  ⟦D⟧ [D:single] 172 Low Mg also relieves the Mg-mediated block of ROMK in the distal nephron, increasing K secretion and
+111 answer_judge  ⟦D⟧ [D:single] 164 - **Bartter/loop diuretic**: TAL NKCC2/ROMK dysfunction abolishes the lumen-positive potential that 
+112 answer_judge  ⟦D⟧ [D:single] 148 **Confirmatory test: genetic testing for *SLC12A3* loss-of-function mutations** (the gene encoding t

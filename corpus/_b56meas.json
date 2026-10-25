@@ -1,0 +1,7774 @@
+{
+ "meas": {
+  "bytes": [
+   4841,
+   17592,
+   731819
+  ],
+  "chars": [
+   4786,
+   17536,
+   731077
+  ],
+  "lines": [
+   279,
+   375,
+   49316
+  ],
+  "segments": [
+   280,
+   376,
+   49317
+  ],
+  "nonblank": [
+   279,
+   375,
+   49316
+  ],
+  "blank": [
+   1,
+   1,
+   1
+  ],
+  "lt": [
+   0,
+   3,
+   0
+  ],
+  "gt": [
+   0,
+   3,
+   0
+  ],
+  "nonascii": [
+   30,
+   38,
+   723
+  ],
+  "tabs": [
+   250,
+   833,
+   0
+  ],
+  "hash": [
+   30,
+   63,
+   0
+  ],
+  "sha16": [
+   "837c80785080c843",
+   "5f23781702bf5140",
+   "755fad43283be7b4"
+  ],
+  "ascii_eq": [
+   0,
+   0,
+   0
+  ],
+  "i_rows": 249,
+  "i_cols": [
+   2
+  ],
+  "i_code_n": 249,
+  "i_code_dist": 249,
+  "i_code_dup": 0,
+  "i_name_dist": 249,
+  "i_name_dup": 0,
+  "i_name_dupv": [],
+  "i_sorted_desc": 0,
+  "i_hdr_cmt": 1,
+  "i_tab_expect": 250,
+  "i_tab_diff": 0,
+  "i_len2": 249,
+  "i_amp": 11,
+  "i_paren": 14,
+  "i_dot": 4,
+  "i_comma": 0,
+  "i_nonascii_names": 4,
+  "i_apos_curly": 1,
+  "i_maxlen": 42,
+  "i_maxlen_v": [
+   "South Georgia & the South Sandwich Islands"
+  ],
+  "i_minlen": 4,
+  "i_name_chars": 2375,
+  "i_cmt_lines": 30,
+  "i_cmt_chars": 1385,
+  "i_dates": [
+   "2009-05-17",
+   "2024-02-29",
+   "2025-07-01"
+  ],
+  "i_utf8_strict": 1,
+  "i_bytegap": 55,
+  "i_claim_samoa": 2,
+  "i_samoa_adj": 0,
+  "i_claim_oldnames": 3,
+  "i_claim_absent": 3,
+  "i_stem_adj": 4,
+  "i_stem_kinds": 245,
+  "i_stem_multi": 4,
+  "i_stem_contig": 4,
+  "i_claim_used": 5,
+  "i_claim_avoided": 6,
+  "i_claim_open": 0,
+  "i_avoided_present": 0,
+  "i_dot_names": [
+   "Congo (Dem. Rep.)",
+   "Central African Rep.",
+   "Congo (Rep.)",
+   "French S. Terr."
+  ],
+  "i_url": 1,
+  "i_tab_in_cmt": 1,
+  "i_tab_data": 249,
+  "i_hdr_split": 1,
+  "i_date_pos": [
+   93,
+   149,
+   454
+  ],
+  "i_dates_byline": [
+   "2009-05-17",
+   "2025-07-01",
+   "2024-02-29"
+  ],
+  "i_date_unsorted": 1,
+  "i_leap_ok": 1,
+  "z_rows": 312,
+  "z_cols": [
+   3,
+   4
+  ],
+  "z_col3": 111,
+  "z_col4": 201,
+  "z_cc_occ": 423,
+  "z_cc_dist": 247,
+  "z_multi_rows": 34,
+  "z_maxm": 20,
+  "z_shared_rows": 201,
+  "z_at": 5,
+  "z_hdr_tab": 3,
+  "z_tab_expect": 833,
+  "z_tab_diff": 0,
+  "z_first_desc": 0,
+  "z_tail_un": 1,
+  "z_whole_un": 21,
+  "z_lat4": 265,
+  "z_lat6": 47,
+  "z_coord_sum": 0,
+  "r_segs": 9297,
+  "r_sep": 9296,
+  "r_region_n": 305,
+  "r_alpha": 272,
+  "r_digit": 31,
+  "r_range": 2,
+  "r_other": 0,
+  "r_desc_amp": 0,
+  "r_desc_paren": 5,
+  "r_desc_nonascii": 5,
+  "r_desc_dist": 302,
+  "r_desc_reuse": 3,
+  "inter3": 247,
+  "z_in_i": 247,
+  "z_only_i": [],
+  "i_only_z": [
+   "BV",
+   "HM"
+  ],
+  "i_only_z_n": 2,
+  "z_only_i_n": 0,
+  "i_in_r": 249,
+  "i_only_r": 0,
+  "r_only_i": 56,
+  "r_only_i_alpha": 23,
+  "r_only_i_digit": 31,
+  "r_only_i_range": 2,
+  "r_only_i_sum": 0,
+  "z_only_r_n": 0,
+  "r_alpha_in_i": 249,
+  "r_alpha_close": 0,
+  "rz_alpha": 25,
+  "rz_alpha_close": 0,
+  "bridge_precond": 0,
+  "alpha_gap_bridge": 0,
+  "name_cmp": 249,
+  "name_eq": 202,
+  "name_dif": 47,
+  "name_lex": 10,
+  "name_sem": 37,
+  "name_lex_plus_sem": 0,
+  "name_amp_all_lex": 3,
+  "name_apos": 1,
+  "name_longer_r": 39,
+  "name_longer_i": 5,
+  "name_samelen": 3,
+  "name_dif_chars": 355,
+  "name_str_pool": 204,
+  "i_dif_first": "AG",
+  "i_dif_first_pair": [
+   "Antigua & Barbuda",
+   "Antigua and Barbuda"
+  ],
+  "sem_examples": [
+   [
+    "AS",
+    "Samoa (American)",
+    "American Samoa"
+   ],
+   [
+    "BL",
+    "St Barthelemy",
+    "Saint Barthélemy"
+   ],
+   [
+    "BN",
+    "Brunei",
+    "Brunei Darussalam"
+   ]
+  ],
+  "lex_examples": [
+   [
+    "AG",
+    "Antigua & Barbuda",
+    "Antigua and Barbuda"
+   ],
+   [
+    "BA",
+    "Bosnia & Herzegovina",
+    "Bosnia and Herzegovina"
+   ],
+   [
+    "CI",
+    "Côte d’Ivoire",
+    "Côte d'Ivoire"
+   ]
+  ],
+  "z_name_hits": 47,
+  "z_name_dist": 249,
+  "z_tail_comp": 22,
+  "z_mid_comp": 3,
+  "z_cmt_only": 22,
+  "z_tier_close": 0,
+  "z_name_cols": [
+   3,
+   4
+  ],
+  "z_space_names": 73,
+  "z_us_plain": 2,
+  "z_us_only": 5,
+  "z_code_cmt": 5,
+  "i_cross_code_names": 2,
+  "i_cross_code_pairs": [
+   [
+    "FM",
+    "Micronesia",
+    [
+     "057"
+    ]
+   ],
+   [
+    "TL",
+    "East Timor",
+    [
+     "TP"
+    ]
+   ]
+  ],
+  "i_amp_and_r": 11,
+  "i_amp_close": 0,
+  "r_only_deprecated": 11,
+  "r_shared_deprecated": 0,
+  "key_n": 25,
+  "key_3": 3,
+  "key_2": 15,
+  "key_1": 7,
+  "key_0": 0,
+  "key_3names": [
+   "tab",
+   "Andorra",
+   "alpha"
+  ],
+  "key_0names": [],
+  "key_sum": 0,
+  "cmt_line_shared": 1,
+  "cmt_line_shared_v": [
+   "#country-"
+  ],
+  "cmt_lines": [
+   30,
+   63,
+   0
+  ],
+  "cmt_chars": [
+   1385,
+   2990
+  ],
+  "cmt_sent_n": [
+   14,
+   25
+  ],
+  "cmt_sent_shared": 4,
+  "cmt_sent_shared_v": [
+   "All text uses UTF-8 encoding.",
+   "Columns are separated by a single tab.",
+   "Lines beginning with ‘#’ are comments.",
+   "The columns of the table are as follows: 1."
+  ],
+  "cmt_contig_both": 1,
+  "cmt_contig_i": 2,
+  "cmt_contig_z": 1,
+  "cmt_contig_none": 2,
+  "curly": [
+   25,
+   18,
+   5
+  ],
+  "cmt_sorted_word": [
+   2,
+   1,
+   0
+  ],
+  "pool_n": 1481,
+  "pool_1": 1257,
+  "pool_2": 178,
+  "pool_3": 46,
+  "pool_0": 0,
+  "pool_by_tag": {
+   "I": 273,
+   "Z": 870,
+   "R": 338
+  },
+  "sel3_n": 224
+ },
+ "pool": [
+  [
+   "I",
+   3,
+   "Andorra"
+  ],
+  [
+   "I",
+   2,
+   "United Arab Emirates"
+  ],
+  [
+   "I",
+   2,
+   "Afghanistan"
+  ],
+  [
+   "I",
+   1,
+   "Antigua & Barbuda"
+  ],
+  [
+   "I",
+   2,
+   "Anguilla"
+  ],
+  [
+   "I",
+   2,
+   "Albania"
+  ],
+  [
+   "I",
+   2,
+   "Armenia"
+  ],
+  [
+   "I",
+   2,
+   "Angola"
+  ],
+  [
+   "I",
+   3,
+   "Antarctica"
+  ],
+  [
+   "I",
+   3,
+   "Argentina"
+  ],
+  [
+   "I",
+   1,
+   "Samoa (American)"
+  ],
+  [
+   "I",
+   2,
+   "Austria"
+  ],
+  [
+   "I",
+   3,
+   "Australia"
+  ],
+  [
+   "I",
+   2,
+   "Aruba"
+  ],
+  [
+   "I",
+   2,
+   "Åland Islands"
+  ],
+  [
+   "I",
+   2,
+   "Azerbaijan"
+  ],
+  [
+   "I",
+   1,
+   "Bosnia & Herzegovina"
+  ],
+  [
+   "I",
+   3,
+   "Barbados"
+  ],
+  [
+   "I",
+   2,
+   "Bangladesh"
+  ],
+  [
+   "I",
+   2,
+   "Belgium"
+  ],
+  [
+   "I",
+   2,
+   "Burkina Faso"
+  ],
+  [
+   "I",
+   2,
+   "Bulgaria"
+  ],
+  [
+   "I",
+   2,
+   "Bahrain"
+  ],
+  [
+   "I",
+   2,
+   "Burundi"
+  ],
+  [
+   "I",
+   2,
+   "Benin"
+  ],
+  [
+   "I",
+   1,
+   "St Barthelemy"
+  ],
+  [
+   "I",
+   3,
+   "Bermuda"
+  ],
+  [
+   "I",
+   2,
+   "Brunei"
+  ],
+  [
+   "I",
+   2,
+   "Bolivia"
+  ],
+  [
+   "I",
+   1,
+   "Caribbean NL"
+  ],
+  [
+   "I",
+   3,
+   "Brazil"
+  ],
+  [
+   "I",
+   2,
+   "Bahamas"
+  ],
+  [
+   "I",
+   2,
+   "Bhutan"
+  ],
+  [
+   "I",
+   2,
+   "Bouvet Island"
+  ],
+  [
+   "I",
+   2,
+   "Botswana"
+  ],
+  [
+   "I",
+   2,
+   "Belarus"
+  ],
+  [
+   "I",
+   3,
+   "Belize"
+  ],
+  [
+   "I",
+   2,
+   "Canada"
+  ],
+  [
+   "I",
+   2,
+   "Cocos (Keeling) Islands"
+  ],
+  [
+   "I",
+   1,
+   "Congo (Dem. Rep.)"
+  ],
+  [
+   "I",
+   1,
+   "Central African Rep."
+  ],
+  [
+   "I",
+   1,
+   "Congo (Rep.)"
+  ],
+  [
+   "I",
+   3,
+   "Switzerland"
+  ],
+  [
+   "I",
+   1,
+   "Côte d’Ivoire"
+  ],
+  [
+   "I",
+   2,
+   "Cook Islands"
+  ],
+  [
+   "I",
+   3,
+   "Chile"
+  ],
+  [
+   "I",
+   2,
+   "Cameroon"
+  ],
+  [
+   "I",
+   2,
+   "China"
+  ],
+  [
+   "I",
+   2,
+   "Colombia"
+  ],
+  [
+   "I",
+   2,
+   "Costa Rica"
+  ],
+  [
+   "I",
+   2,
+   "Cuba"
+  ],
+  [
+   "I",
+   2,
+   "Cape Verde"
+  ],
+  [
+   "I",
+   2,
+   "Curaçao"
+  ],
+  [
+   "I",
+   2,
+   "Christmas Island"
+  ],
+  [
+   "I",
+   3,
+   "Cyprus"
+  ],
+  [
+   "I",
+   2,
+   "Czech Republic"
+  ],
+  [
+   "I",
+   3,
+   "Germany"
+  ],
+  [
+   "I",
+   2,
+   "Djibouti"
+  ],
+  [
+   "I",
+   2,
+   "Denmark"
+  ],
+  [
+   "I",
+   2,
+   "Dominica"
+  ],
+  [
+   "I",
+   2,
+   "Dominican Republic"
+  ],
+  [
+   "I",
+   2,
+   "Algeria"
+  ],
+  [
+   "I",
+   3,
+   "Ecuador"
+  ],
+  [
+   "I",
+   2,
+   "Estonia"
+  ],
+  [
+   "I",
+   2,
+   "Egypt"
+  ],
+  [
+   "I",
+   2,
+   "Western Sahara"
+  ],
+  [
+   "I",
+   2,
+   "Eritrea"
+  ],
+  [
+   "I",
+   3,
+   "Spain"
+  ],
+  [
+   "I",
+   2,
+   "Ethiopia"
+  ],
+  [
+   "I",
+   2,
+   "Finland"
+  ],
+  [
+   "I",
+   3,
+   "Fiji"
+  ],
+  [
+   "I",
+   2,
+   "Falkland Islands"
+  ],
+  [
+   "I",
+   2,
+   "Micronesia"
+  ],
+  [
+   "I",
+   2,
+   "Faroe Islands"
+  ],
+  [
+   "I",
+   2,
+   "France"
+  ],
+  [
+   "I",
+   2,
+   "Gabon"
+  ],
+  [
+   "I",
+   1,
+   "Britain (UK)"
+  ],
+  [
+   "I",
+   2,
+   "Grenada"
+  ],
+  [
+   "I",
+   3,
+   "Georgia"
+  ],
+  [
+   "I",
+   2,
+   "French Guiana"
+  ],
+  [
+   "I",
+   2,
+   "Guernsey"
+  ],
+  [
+   "I",
+   2,
+   "Ghana"
+  ],
+  [
+   "I",
+   3,
+   "Gibraltar"
+  ],
+  [
+   "I",
+   3,
+   "Greenland"
+  ],
+  [
+   "I",
+   2,
+   "Gambia"
+  ],
+  [
+   "I",
+   3,
+   "Guinea"
+  ],
+  [
+   "I",
+   2,
+   "Guadeloupe"
+  ],
+  [
+   "I",
+   2,
+   "Equatorial Guinea"
+  ],
+  [
+   "I",
+   2,
+   "Greece"
+  ],
+  [
+   "I",
+   1,
+   "South Georgia & the South Sandwich Islands"
+  ],
+  [
+   "I",
+   3,
+   "Guatemala"
+  ],
+  [
+   "I",
+   3,
+   "Guam"
+  ],
+  [
+   "I",
+   2,
+   "Guinea-Bissau"
+  ],
+  [
+   "I",
+   3,
+   "Guyana"
+  ],
+  [
+   "I",
+   2,
+   "Hong Kong"
+  ],
+  [
+   "I",
+   1,
+   "Heard Island & McDonald Islands"
+  ],
+  [
+   "I",
+   2,
+   "Honduras"
+  ],
+  [
+   "I",
+   2,
+   "Croatia"
+  ],
+  [
+   "I",
+   2,
+   "Haiti"
+  ],
+  [
+   "I",
+   2,
+   "Hungary"
+  ],
+  [
+   "I",
+   2,
+   "Indonesia"
+  ],
+  [
+   "I",
+   2,
+   "Ireland"
+  ],
+  [
+   "I",
+   2,
+   "Israel"
+  ],
+  [
+   "I",
+   2,
+   "Isle of Man"
+  ],
+  [
+   "I",
+   3,
+   "India"
+  ],
+  [
+   "I",
+   2,
+   "British Indian Ocean Territory"
+  ],
+  [
+   "I",
+   2,
+   "Iraq"
+  ],
+  [
+   "I",
+   2,
+   "Iran"
+  ],
+  [
+   "I",
+   2,
+   "Iceland"
+  ],
+  [
+   "I",
+   2,
+   "Italy"
+  ],
+  [
+   "I",
+   2,
+   "Jersey"
+  ],
+  [
+   "I",
+   3,
+   "Jamaica"
+  ],
+  [
+   "I",
+   2,
+   "Jordan"
+  ],
+  [
+   "I",
+   2,
+   "Japan"
+  ],
+  [
+   "I",
+   2,
+   "Kenya"
+  ],
+  [
+   "I",
+   2,
+   "Kyrgyzstan"
+  ],
+  [
+   "I",
+   2,
+   "Cambodia"
+  ],
+  [
+   "I",
+   2,
+   "Kiribati"
+  ],
+  [
+   "I",
+   2,
+   "Comoros"
+  ],
+  [
+   "I",
+   1,
+   "St Kitts & Nevis"
+  ],
+  [
+   "I",
+   1,
+   "Korea (North)"
+  ],
+  [
+   "I",
+   1,
+   "Korea (South)"
+  ],
+  [
+   "I",
+   2,
+   "Kuwait"
+  ],
+  [
+   "I",
+   2,
+   "Cayman Islands"
+  ],
+  [
+   "I",
+   3,
+   "Kazakhstan"
+  ],
+  [
+   "I",
+   2,
+   "Laos"
+  ],
+  [
+   "I",
+   2,
+   "Lebanon"
+  ],
+  [
+   "I",
+   1,
+   "St Lucia"
+  ],
+  [
+   "I",
+   2,
+   "Liechtenstein"
+  ],
+  [
+   "I",
+   2,
+   "Sri Lanka"
+  ],
+  [
+   "I",
+   2,
+   "Liberia"
+  ],
+  [
+   "I",
+   2,
+   "Lesotho"
+  ],
+  [
+   "I",
+   2,
+   "Lithuania"
+  ],
+  [
+   "I",
+   2,
+   "Luxembourg"
+  ],
+  [
+   "I",
+   2,
+   "Latvia"
+  ],
+  [
+   "I",
+   2,
+   "Libya"
+  ],
+  [
+   "I",
+   2,
+   "Morocco"
+  ],
+  [
+   "I",
+   2,
+   "Monaco"
+  ],
+  [
+   "I",
+   2,
+   "Moldova"
+  ],
+  [
+   "I",
+   2,
+   "Montenegro"
+  ],
+  [
+   "I",
+   1,
+   "St Martin (French)"
+  ],
+  [
+   "I",
+   2,
+   "Madagascar"
+  ],
+  [
+   "I",
+   2,
+   "Marshall Islands"
+  ],
+  [
+   "I",
+   2,
+   "North Macedonia"
+  ],
+  [
+   "I",
+   2,
+   "Mali"
+  ],
+  [
+   "I",
+   1,
+   "Myanmar (Burma)"
+  ],
+  [
+   "I",
+   3,
+   "Mongolia"
+  ],
+  [
+   "I",
+   2,
+   "Macau"
+  ],
+  [
+   "I",
+   2,
+   "Northern Mariana Islands"
+  ],
+  [
+   "I",
+   3,
+   "Martinique"
+  ],
+  [
+   "I",
+   2,
+   "Mauritania"
+  ],
+  [
+   "I",
+   2,
+   "Montserrat"
+  ],
+  [
+   "I",
+   3,
+   "Malta"
+  ],
+  [
+   "I",
+   3,
+   "Mauritius"
+  ],
+  [
+   "I",
+   3,
+   "Maldives"
+  ],
+  [
+   "I",
+   2,
+   "Malawi"
+  ],
+  [
+   "I",
+   3,
+   "Mexico"
+  ],
+  [
+   "I",
+   3,
+   "Malaysia"
+  ],
+  [
+   "I",
+   2,
+   "Mozambique"
+  ],
+  [
+   "I",
+   2,
+   "Namibia"
+  ],
+  [
+   "I",
+   2,
+   "New Caledonia"
+  ],
+  [
+   "I",
+   2,
+   "Niger"
+  ],
+  [
+   "I",
+   2,
+   "Norfolk Island"
+  ],
+  [
+   "I",
+   2,
+   "Nigeria"
+  ],
+  [
+   "I",
+   2,
+   "Nicaragua"
+  ],
+  [
+   "I",
+   2,
+   "Netherlands"
+  ],
+  [
+   "I",
+   2,
+   "Norway"
+  ],
+  [
+   "I",
+   2,
+   "Nepal"
+  ],
+  [
+   "I",
+   3,
+   "Nauru"
+  ],
+  [
+   "I",
+   3,
+   "Niue"
+  ],
+  [
+   "I",
+   3,
+   "New Zealand"
+  ],
+  [
+   "I",
+   2,
+   "Oman"
+  ],
+  [
+   "I",
+   3,
+   "Panama"
+  ],
+  [
+   "I",
+   2,
+   "Peru"
+  ],
+  [
+   "I",
+   2,
+   "French Polynesia"
+  ],
+  [
+   "I",
+   3,
+   "Papua New Guinea"
+  ],
+  [
+   "I",
+   2,
+   "Philippines"
+  ],
+  [
+   "I",
+   2,
+   "Pakistan"
+  ],
+  [
+   "I",
+   2,
+   "Poland"
+  ],
+  [
+   "I",
+   1,
+   "St Pierre & Miquelon"
+  ],
+  [
+   "I",
+   3,
+   "Pitcairn"
+  ],
+  [
+   "I",
+   2,
+   "Puerto Rico"
+  ],
+  [
+   "I",
+   2,
+   "Palestine"
+  ],
+  [
+   "I",
+   3,
+   "Portugal"
+  ],
+  [
+   "I",
+   3,
+   "Palau"
+  ],
+  [
+   "I",
+   2,
+   "Paraguay"
+  ],
+  [
+   "I",
+   3,
+   "Qatar"
+  ],
+  [
+   "I",
+   2,
+   "Réunion"
+  ],
+  [
+   "I",
+   2,
+   "Romania"
+  ],
+  [
+   "I",
+   2,
+   "Serbia"
+  ],
+  [
+   "I",
+   2,
+   "Russia"
+  ],
+  [
+   "I",
+   2,
+   "Rwanda"
+  ],
+  [
+   "I",
+   2,
+   "Saudi Arabia"
+  ],
+  [
+   "I",
+   2,
+   "Solomon Islands"
+  ],
+  [
+   "I",
+   2,
+   "Seychelles"
+  ],
+  [
+   "I",
+   2,
+   "Sudan"
+  ],
+  [
+   "I",
+   2,
+   "Sweden"
+  ],
+  [
+   "I",
+   3,
+   "Singapore"
+  ],
+  [
+   "I",
+   1,
+   "St Helena"
+  ],
+  [
+   "I",
+   2,
+   "Slovenia"
+  ],
+  [
+   "I",
+   1,
+   "Svalbard & Jan Mayen"
+  ],
+  [
+   "I",
+   2,
+   "Slovakia"
+  ],
+  [
+   "I",
+   2,
+   "Sierra Leone"
+  ],
+  [
+   "I",
+   2,
+   "San Marino"
+  ],
+  [
+   "I",
+   2,
+   "Senegal"
+  ],
+  [
+   "I",
+   2,
+   "Somalia"
+  ],
+  [
+   "I",
+   2,
+   "Suriname"
+  ],
+  [
+   "I",
+   2,
+   "South Sudan"
+  ],
+  [
+   "I",
+   1,
+   "Sao Tome & Principe"
+  ],
+  [
+   "I",
+   2,
+   "El Salvador"
+  ],
+  [
+   "I",
+   1,
+   "St Maarten (Dutch)"
+  ],
+  [
+   "I",
+   2,
+   "Syria"
+  ],
+  [
+   "I",
+   1,
+   "Eswatini (Swaziland)"
+  ],
+  [
+   "I",
+   1,
+   "Turks & Caicos Is"
+  ],
+  [
+   "I",
+   2,
+   "Chad"
+  ],
+  [
+   "I",
+   1,
+   "French S. Terr."
+  ],
+  [
+   "I",
+   2,
+   "Togo"
+  ],
+  [
+   "I",
+   2,
+   "Thailand"
+  ],
+  [
+   "I",
+   2,
+   "Tajikistan"
+  ],
+  [
+   "I",
+   2,
+   "Tokelau"
+  ],
+  [
+   "I",
+   2,
+   "East Timor"
+  ],
+  [
+   "I",
+   2,
+   "Turkmenistan"
+  ],
+  [
+   "I",
+   2,
+   "Tunisia"
+  ],
+  [
+   "I",
+   3,
+   "Tonga"
+  ],
+  [
+   "I",
+   2,
+   "Turkey"
+  ],
+  [
+   "I",
+   1,
+   "Trinidad & Tobago"
+  ],
+  [
+   "I",
+   2,
+   "Tuvalu"
+  ],
+  [
+   "I",
+   2,
+   "Taiwan"
+  ],
+  [
+   "I",
+   2,
+   "Tanzania"
+  ],
+  [
+   "I",
+   3,
+   "Ukraine"
+  ],
+  [
+   "I",
+   2,
+   "Uganda"
+  ],
+  [
+   "I",
+   1,
+   "US minor outlying islands"
+  ],
+  [
+   "I",
+   2,
+   "United States"
+  ],
+  [
+   "I",
+   2,
+   "Uruguay"
+  ],
+  [
+   "I",
+   3,
+   "Uzbekistan"
+  ],
+  [
+   "I",
+   2,
+   "Vatican City"
+  ],
+  [
+   "I",
+   1,
+   "St Vincent"
+  ],
+  [
+   "I",
+   2,
+   "Venezuela"
+  ],
+  [
+   "I",
+   1,
+   "Virgin Islands (UK)"
+  ],
+  [
+   "I",
+   1,
+   "Virgin Islands (US)"
+  ],
+  [
+   "I",
+   3,
+   "Vietnam"
+  ],
+  [
+   "I",
+   2,
+   "Vanuatu"
+  ],
+  [
+   "I",
+   1,
+   "Wallis & Futuna"
+  ],
+  [
+   "I",
+   1,
+   "Samoa (western)"
+  ],
+  [
+   "I",
+   2,
+   "Yemen"
+  ],
+  [
+   "I",
+   2,
+   "Mayotte"
+  ],
+  [
+   "I",
+   2,
+   "South Africa"
+  ],
+  [
+   "I",
+   2,
+   "Zambia"
+  ],
+  [
+   "I",
+   2,
+   "Zimbabwe"
+  ],
+  [
+   "I",
+   1,
+   "# ISO 3166 alpha-2 country codes"
+  ],
+  [
+   "I",
+   1,
+   "# This file is in the public domain, so clarified as of"
+  ],
+  [
+   "I",
+   1,
+   "# 2009-05-17 by Arthur David Olson."
+  ],
+  [
+   "I",
+   1,
+   "# From Paul Eggert (2025-07-01):"
+  ],
+  [
+   "I",
+   1,
+   "# This file contains a table of two-letter country codes.  Columns are"
+  ],
+  [
+   "I",
+   1,
+   "# separated by a single tab.  Lines beginning with ‘#’ are comments."
+  ],
+  [
+   "I",
+   1,
+   "# All text uses UTF-8 encoding.  The columns of the table are as follows:"
+  ],
+  [
+   "I",
+   1,
+   "# 1.  ISO 3166-1 alpha-2 country code, current as of"
+  ],
+  [
+   "I",
+   1,
+   "#     ISO/TC 46 N1127 (2024-02-29).  See: ISO/TC 46 Documents"
+  ],
+  [
+   "I",
+   1,
+   "#     https://www.iso.org/committee/48750.html?view=documents"
+  ],
+  [
+   "I",
+   1,
+   "# 2.  The usual English name for the coded region.  This sometimes"
+  ],
+  [
+   "I",
+   1,
+   "#     departs from ISO-listed names, sometimes so that sorted subsets"
+  ],
+  [
+   "I",
+   1,
+   "#     of names are useful (e.g., “Samoa (American)” and “Samoa"
+  ],
+  [
+   "I",
+   1,
+   "#     (western)” rather than “American Samoa” and “Samoa”),"
+  ],
+  [
+   "I",
+   1,
+   "#     sometimes to avoid confusion among non-experts (e.g.,"
+  ],
+  [
+   "I",
+   1,
+   "#     “Czech Republic” and “Turkey” rather than “Czechia” and “Türkiye”),"
+  ],
+  [
+   "I",
+   1,
+   "#     and sometimes to omit needless detail or churn (e.g., “Netherlands”"
+  ],
+  [
+   "I",
+   1,
+   "#     rather than “Netherlands (the)” or “Netherlands (Kingdom of the)”)."
+  ],
+  [
+   "I",
+   1,
+   "# The table is sorted by country code."
+  ],
+  [
+   "I",
+   2,
+   "# This table is intended as an aid for users, to help them select time"
+  ],
+  [
+   "I",
+   1,
+   "# zone data appropriate for their practical needs.  It is not intended"
+  ],
+  [
+   "I",
+   1,
+   "# to take or endorse any position on legal or territorial claims."
+  ],
+  [
+   "I",
+   2,
+   "#country-"
+  ],
+  [
+   "I",
+   1,
+   "#code\tname of country, territory, area, or subdivision"
+  ],
+  [
+   "Z",
+   1,
+   "# tzdb timezone descriptions"
+  ],
+  [
+   "Z",
+   1,
+   "# This file is in the public domain."
+  ],
+  [
+   "Z",
+   1,
+   "# From Paul Eggert (2025-05-15):"
+  ],
+  [
+   "Z",
+   1,
+   "# This file contains a table where each row stands for a timezone where"
+  ],
+  [
+   "Z",
+   1,
+   "# civil timestamps have agreed since 1970.  Columns are separated by"
+  ],
+  [
+   "Z",
+   1,
+   "# a single tab.  Lines beginning with ‘#’ are comments.  All text uses"
+  ],
+  [
+   "Z",
+   1,
+   "# UTF-8 encoding.  The columns of the table are as follows:"
+  ],
+  [
+   "Z",
+   1,
+   "# 1.  The countries that overlap the timezone, as a comma-separated list"
+  ],
+  [
+   "Z",
+   1,
+   "#     of ISO 3166 2-character country codes."
+  ],
+  [
+   "Z",
+   1,
+   "# 2.  Latitude and longitude of the timezone’s principal location"
+  ],
+  [
+   "Z",
+   1,
+   "#     in ISO 6709 sign-degrees-minutes-seconds format,"
+  ],
+  [
+   "Z",
+   1,
+   "#     either ±DDMM±DDDMM or ±DDMMSS±DDDMMSS,"
+  ],
+  [
+   "Z",
+   1,
+   "#     first latitude (+ is north), then longitude (+ is east)."
+  ],
+  [
+   "Z",
+   1,
+   "# 3.  Timezone name used in value of TZ environment variable."
+  ],
+  [
+   "Z",
+   1,
+   "#     Please see the theory.html file for how these names are chosen."
+  ],
+  [
+   "Z",
+   1,
+   "#     If multiple timezones overlap a country, each has a row in the"
+  ],
+  [
+   "Z",
+   1,
+   "#     table, with each column 1 containing the country code."
+  ],
+  [
+   "Z",
+   1,
+   "# 4.  Comments; present if and only if countries have multiple timezones,"
+  ],
+  [
+   "Z",
+   1,
+   "#     and useful only for those countries.  For example, the comments"
+  ],
+  [
+   "Z",
+   1,
+   "#     for the row with countries CH,DE,LI and name Europe/Zurich"
+  ],
+  [
+   "Z",
+   1,
+   "#     are useful only for DE, since CH and LI have no other timezones."
+  ],
+  [
+   "Z",
+   1,
+   "# If a timezone covers multiple countries, the most-populous city is used,"
+  ],
+  [
+   "Z",
+   1,
+   "# and that country is listed first in column 1; any other countries"
+  ],
+  [
+   "Z",
+   1,
+   "# are listed alphabetically by country code.  The table is sorted"
+  ],
+  [
+   "Z",
+   1,
+   "# first by country code, then (if possible) by an order within the"
+  ],
+  [
+   "Z",
+   1,
+   "# country that (1) makes some geographical sense, and (2) puts the"
+  ],
+  [
+   "Z",
+   1,
+   "# most populous timezones first, where that does not contradict (1)."
+  ],
+  [
+   "Z",
+   1,
+   "# This table is intended as an aid for users, to help them select timezones"
+  ],
+  [
+   "Z",
+   1,
+   "# appropriate for their practical needs.  It is not intended to take or"
+  ],
+  [
+   "Z",
+   1,
+   "# endorse any position on legal or territorial claims."
+  ],
+  [
+   "Z",
+   2,
+   "#country-"
+  ],
+  [
+   "Z",
+   1,
+   "# Mention RU and UA alphabetically.  See “territorial claims” above."
+  ],
+  [
+   "Z",
+   1,
+   "# The next section contains experimental tab-separated comments for"
+  ],
+  [
+   "Z",
+   1,
+   "# use by user agents like tzselect that identify continents and oceans."
+  ],
+  [
+   "Z",
+   1,
+   "# For example, the comment ‘#@AQ<tab>Antarctica/’ means the country code"
+  ],
+  [
+   "Z",
+   1,
+   "# AQ is in the continent Antarctica regardless of the Zone name,"
+  ],
+  [
+   "Z",
+   1,
+   "# so Pacific/Auckland should be listed under Antarctica as well as"
+  ],
+  [
+   "Z",
+   1,
+   "# under the Pacific because its line’s country codes include AQ."
+  ],
+  [
+   "Z",
+   1,
+   "# If more than one country code is affected each is listed separated"
+  ],
+  [
+   "Z",
+   1,
+   "# by commas, e.g., ‘#@IS,SH<tab>Atlantic/’.  If a country code is in"
+  ],
+  [
+   "Z",
+   1,
+   "# more than one continent or ocean, each is listed separated by"
+  ],
+  [
+   "Z",
+   1,
+   "# commas, e.g., the second column of ‘#@CY,TR<tab>Asia/,Europe/’."
+  ],
+  [
+   "Z",
+   1,
+   "# These experimental comments are present only for country codes where"
+  ],
+  [
+   "Z",
+   1,
+   "# the continent or ocean is not already obvious from the Zone name."
+  ],
+  [
+   "Z",
+   1,
+   "# For example, there is no such comment for RU since it already"
+  ],
+  [
+   "Z",
+   1,
+   "# corresponds to Zone names starting with both ‘Europe/’ and ‘Asia/’."
+  ],
+  [
+   "Z",
+   1,
+   "+4230+00131"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Andorra"
+  ],
+  [
+   "Z",
+   1,
+   "AE,OM,RE,SC,TF"
+  ],
+  [
+   "Z",
+   1,
+   "+2518+05518"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Dubai"
+  ],
+  [
+   "Z",
+   1,
+   "+3431+06912"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Kabul"
+  ],
+  [
+   "Z",
+   1,
+   "+4120+01950"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Tirane"
+  ],
+  [
+   "Z",
+   1,
+   "+4011+04430"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Yerevan"
+  ],
+  [
+   "Z",
+   1,
+   "-6617+11031"
+  ],
+  [
+   "Z",
+   1,
+   "Antarctica/Casey"
+  ],
+  [
+   "Z",
+   1,
+   "-6835+07758"
+  ],
+  [
+   "Z",
+   1,
+   "Antarctica/Davis"
+  ],
+  [
+   "Z",
+   1,
+   "-6736+06253"
+  ],
+  [
+   "Z",
+   1,
+   "Antarctica/Mawson"
+  ],
+  [
+   "Z",
+   1,
+   "-6448-06406"
+  ],
+  [
+   "Z",
+   1,
+   "Antarctica/Palmer"
+  ],
+  [
+   "Z",
+   1,
+   "-6734-06808"
+  ],
+  [
+   "Z",
+   1,
+   "Antarctica/Rothera"
+  ],
+  [
+   "Z",
+   1,
+   "-720041+0023206"
+  ],
+  [
+   "Z",
+   1,
+   "Antarctica/Troll"
+  ],
+  [
+   "Z",
+   1,
+   "-7824+10654"
+  ],
+  [
+   "Z",
+   1,
+   "Antarctica/Vostok"
+  ],
+  [
+   "Z",
+   1,
+   "-3436-05827"
+  ],
+  [
+   "Z",
+   1,
+   "America/Argentina/Buenos_Aires"
+  ],
+  [
+   "Z",
+   1,
+   "Buenos Aires (BA, CF)"
+  ],
+  [
+   "Z",
+   1,
+   "-3124-06411"
+  ],
+  [
+   "Z",
+   1,
+   "America/Argentina/Cordoba"
+  ],
+  [
+   "Z",
+   1,
+   "most areas: CB, CC, CN, ER, FM, MN, SE, SF"
+  ],
+  [
+   "Z",
+   1,
+   "-2447-06525"
+  ],
+  [
+   "Z",
+   1,
+   "America/Argentina/Salta"
+  ],
+  [
+   "Z",
+   1,
+   "Salta (SA, LP, NQ, RN)"
+  ],
+  [
+   "Z",
+   1,
+   "-2411-06518"
+  ],
+  [
+   "Z",
+   1,
+   "America/Argentina/Jujuy"
+  ],
+  [
+   "Z",
+   1,
+   "Jujuy (JY)"
+  ],
+  [
+   "Z",
+   1,
+   "-2649-06513"
+  ],
+  [
+   "Z",
+   1,
+   "America/Argentina/Tucuman"
+  ],
+  [
+   "Z",
+   1,
+   "Tucumán (TM)"
+  ],
+  [
+   "Z",
+   1,
+   "-2828-06547"
+  ],
+  [
+   "Z",
+   1,
+   "America/Argentina/Catamarca"
+  ],
+  [
+   "Z",
+   1,
+   "Catamarca (CT), Chubut (CH)"
+  ],
+  [
+   "Z",
+   1,
+   "-2926-06651"
+  ],
+  [
+   "Z",
+   1,
+   "America/Argentina/La_Rioja"
+  ],
+  [
+   "Z",
+   1,
+   "La Rioja (LR)"
+  ],
+  [
+   "Z",
+   1,
+   "-3132-06831"
+  ],
+  [
+   "Z",
+   1,
+   "America/Argentina/San_Juan"
+  ],
+  [
+   "Z",
+   1,
+   "San Juan (SJ)"
+  ],
+  [
+   "Z",
+   1,
+   "-3253-06849"
+  ],
+  [
+   "Z",
+   1,
+   "America/Argentina/Mendoza"
+  ],
+  [
+   "Z",
+   1,
+   "Mendoza (MZ)"
+  ],
+  [
+   "Z",
+   1,
+   "-3319-06621"
+  ],
+  [
+   "Z",
+   1,
+   "America/Argentina/San_Luis"
+  ],
+  [
+   "Z",
+   1,
+   "San Luis (SL)"
+  ],
+  [
+   "Z",
+   1,
+   "-5138-06913"
+  ],
+  [
+   "Z",
+   1,
+   "America/Argentina/Rio_Gallegos"
+  ],
+  [
+   "Z",
+   1,
+   "Santa Cruz (SC)"
+  ],
+  [
+   "Z",
+   1,
+   "-5448-06818"
+  ],
+  [
+   "Z",
+   1,
+   "America/Argentina/Ushuaia"
+  ],
+  [
+   "Z",
+   1,
+   "Tierra del Fuego (TF)"
+  ],
+  [
+   "Z",
+   1,
+   "-1416-17042"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Pago_Pago"
+  ],
+  [
+   "Z",
+   1,
+   "+4813+01620"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Vienna"
+  ],
+  [
+   "Z",
+   1,
+   "-3133+15905"
+  ],
+  [
+   "Z",
+   1,
+   "Australia/Lord_Howe"
+  ],
+  [
+   "Z",
+   1,
+   "Lord Howe Island"
+  ],
+  [
+   "Z",
+   1,
+   "-5430+15857"
+  ],
+  [
+   "Z",
+   1,
+   "Antarctica/Macquarie"
+  ],
+  [
+   "Z",
+   1,
+   "Macquarie Island"
+  ],
+  [
+   "Z",
+   1,
+   "-4253+14719"
+  ],
+  [
+   "Z",
+   1,
+   "Australia/Hobart"
+  ],
+  [
+   "Z",
+   2,
+   "Tasmania"
+  ],
+  [
+   "Z",
+   1,
+   "-3749+14458"
+  ],
+  [
+   "Z",
+   1,
+   "Australia/Melbourne"
+  ],
+  [
+   "Z",
+   1,
+   "Victoria"
+  ],
+  [
+   "Z",
+   1,
+   "-3352+15113"
+  ],
+  [
+   "Z",
+   1,
+   "Australia/Sydney"
+  ],
+  [
+   "Z",
+   1,
+   "New South Wales (most areas)"
+  ],
+  [
+   "Z",
+   1,
+   "-3157+14127"
+  ],
+  [
+   "Z",
+   1,
+   "Australia/Broken_Hill"
+  ],
+  [
+   "Z",
+   1,
+   "New South Wales (Yancowinna)"
+  ],
+  [
+   "Z",
+   1,
+   "-2728+15302"
+  ],
+  [
+   "Z",
+   1,
+   "Australia/Brisbane"
+  ],
+  [
+   "Z",
+   1,
+   "Queensland (most areas)"
+  ],
+  [
+   "Z",
+   1,
+   "-2016+14900"
+  ],
+  [
+   "Z",
+   1,
+   "Australia/Lindeman"
+  ],
+  [
+   "Z",
+   1,
+   "Queensland (Whitsunday Islands)"
+  ],
+  [
+   "Z",
+   1,
+   "-3455+13835"
+  ],
+  [
+   "Z",
+   1,
+   "Australia/Adelaide"
+  ],
+  [
+   "Z",
+   1,
+   "South Australia"
+  ],
+  [
+   "Z",
+   1,
+   "-1228+13050"
+  ],
+  [
+   "Z",
+   1,
+   "Australia/Darwin"
+  ],
+  [
+   "Z",
+   1,
+   "Northern Territory"
+  ],
+  [
+   "Z",
+   1,
+   "-3157+11551"
+  ],
+  [
+   "Z",
+   1,
+   "Australia/Perth"
+  ],
+  [
+   "Z",
+   1,
+   "Western Australia (most areas)"
+  ],
+  [
+   "Z",
+   1,
+   "-3143+12852"
+  ],
+  [
+   "Z",
+   1,
+   "Australia/Eucla"
+  ],
+  [
+   "Z",
+   1,
+   "Western Australia (Eucla)"
+  ],
+  [
+   "Z",
+   1,
+   "+4023+04951"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Baku"
+  ],
+  [
+   "Z",
+   1,
+   "+1306-05937"
+  ],
+  [
+   "Z",
+   1,
+   "America/Barbados"
+  ],
+  [
+   "Z",
+   1,
+   "+2343+09025"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Dhaka"
+  ],
+  [
+   "Z",
+   1,
+   "BE,LU,NL"
+  ],
+  [
+   "Z",
+   1,
+   "+5050+00420"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Brussels"
+  ],
+  [
+   "Z",
+   1,
+   "+4241+02319"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Sofia"
+  ],
+  [
+   "Z",
+   1,
+   "+3217-06446"
+  ],
+  [
+   "Z",
+   1,
+   "Atlantic/Bermuda"
+  ],
+  [
+   "Z",
+   1,
+   "-1630-06809"
+  ],
+  [
+   "Z",
+   1,
+   "America/La_Paz"
+  ],
+  [
+   "Z",
+   1,
+   "-0351-03225"
+  ],
+  [
+   "Z",
+   1,
+   "America/Noronha"
+  ],
+  [
+   "Z",
+   1,
+   "Atlantic islands"
+  ],
+  [
+   "Z",
+   1,
+   "-0127-04829"
+  ],
+  [
+   "Z",
+   1,
+   "America/Belem"
+  ],
+  [
+   "Z",
+   1,
+   "Pará (east), Amapá"
+  ],
+  [
+   "Z",
+   1,
+   "-0343-03830"
+  ],
+  [
+   "Z",
+   1,
+   "America/Fortaleza"
+  ],
+  [
+   "Z",
+   1,
+   "Brazil (northeast: MA, PI, CE, RN, PB)"
+  ],
+  [
+   "Z",
+   1,
+   "-0803-03454"
+  ],
+  [
+   "Z",
+   1,
+   "America/Recife"
+  ],
+  [
+   "Z",
+   1,
+   "Pernambuco"
+  ],
+  [
+   "Z",
+   1,
+   "-0712-04812"
+  ],
+  [
+   "Z",
+   1,
+   "America/Araguaina"
+  ],
+  [
+   "Z",
+   2,
+   "Tocantins"
+  ],
+  [
+   "Z",
+   1,
+   "-0940-03543"
+  ],
+  [
+   "Z",
+   1,
+   "America/Maceio"
+  ],
+  [
+   "Z",
+   1,
+   "Alagoas, Sergipe"
+  ],
+  [
+   "Z",
+   1,
+   "-1259-03831"
+  ],
+  [
+   "Z",
+   1,
+   "America/Bahia"
+  ],
+  [
+   "Z",
+   1,
+   "-2332-04637"
+  ],
+  [
+   "Z",
+   1,
+   "America/Sao_Paulo"
+  ],
+  [
+   "Z",
+   1,
+   "Brazil (southeast: GO, DF, MG, ES, RJ, SP, PR, SC, RS)"
+  ],
+  [
+   "Z",
+   1,
+   "-2027-05437"
+  ],
+  [
+   "Z",
+   1,
+   "America/Campo_Grande"
+  ],
+  [
+   "Z",
+   1,
+   "Mato Grosso do Sul"
+  ],
+  [
+   "Z",
+   1,
+   "-1535-05605"
+  ],
+  [
+   "Z",
+   1,
+   "America/Cuiaba"
+  ],
+  [
+   "Z",
+   2,
+   "Mato Grosso"
+  ],
+  [
+   "Z",
+   1,
+   "-0226-05452"
+  ],
+  [
+   "Z",
+   1,
+   "America/Santarem"
+  ],
+  [
+   "Z",
+   1,
+   "Pará (west)"
+  ],
+  [
+   "Z",
+   1,
+   "-0846-06354"
+  ],
+  [
+   "Z",
+   1,
+   "America/Porto_Velho"
+  ],
+  [
+   "Z",
+   1,
+   "Rondônia"
+  ],
+  [
+   "Z",
+   1,
+   "+0249-06040"
+  ],
+  [
+   "Z",
+   1,
+   "America/Boa_Vista"
+  ],
+  [
+   "Z",
+   1,
+   "-0308-06001"
+  ],
+  [
+   "Z",
+   1,
+   "America/Manaus"
+  ],
+  [
+   "Z",
+   1,
+   "Amazonas (east)"
+  ],
+  [
+   "Z",
+   1,
+   "-0640-06952"
+  ],
+  [
+   "Z",
+   1,
+   "America/Eirunepe"
+  ],
+  [
+   "Z",
+   1,
+   "Amazonas (west)"
+  ],
+  [
+   "Z",
+   1,
+   "-0958-06748"
+  ],
+  [
+   "Z",
+   1,
+   "America/Rio_Branco"
+  ],
+  [
+   "Z",
+   1,
+   "+2728+08939"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Thimphu"
+  ],
+  [
+   "Z",
+   1,
+   "+5354+02734"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Minsk"
+  ],
+  [
+   "Z",
+   1,
+   "+1730-08812"
+  ],
+  [
+   "Z",
+   1,
+   "America/Belize"
+  ],
+  [
+   "Z",
+   1,
+   "+4734-05243"
+  ],
+  [
+   "Z",
+   1,
+   "America/St_Johns"
+  ],
+  [
+   "Z",
+   1,
+   "Newfoundland, Labrador (SE)"
+  ],
+  [
+   "Z",
+   1,
+   "+4439-06336"
+  ],
+  [
+   "Z",
+   1,
+   "America/Halifax"
+  ],
+  [
+   "Z",
+   1,
+   "Atlantic - NS (most areas), PE"
+  ],
+  [
+   "Z",
+   1,
+   "+4612-05957"
+  ],
+  [
+   "Z",
+   1,
+   "America/Glace_Bay"
+  ],
+  [
+   "Z",
+   1,
+   "Atlantic - NS (Cape Breton)"
+  ],
+  [
+   "Z",
+   1,
+   "+4606-06447"
+  ],
+  [
+   "Z",
+   1,
+   "America/Moncton"
+  ],
+  [
+   "Z",
+   1,
+   "Atlantic - New Brunswick"
+  ],
+  [
+   "Z",
+   1,
+   "+5320-06025"
+  ],
+  [
+   "Z",
+   1,
+   "America/Goose_Bay"
+  ],
+  [
+   "Z",
+   1,
+   "Atlantic - Labrador (most areas)"
+  ],
+  [
+   "Z",
+   1,
+   "+4339-07923"
+  ],
+  [
+   "Z",
+   1,
+   "America/Toronto"
+  ],
+  [
+   "Z",
+   1,
+   "Eastern - ON & QC (most areas)"
+  ],
+  [
+   "Z",
+   1,
+   "+6344-06828"
+  ],
+  [
+   "Z",
+   1,
+   "America/Iqaluit"
+  ],
+  [
+   "Z",
+   1,
+   "Eastern - NU (most areas)"
+  ],
+  [
+   "Z",
+   1,
+   "+4953-09709"
+  ],
+  [
+   "Z",
+   1,
+   "America/Winnipeg"
+  ],
+  [
+   "Z",
+   1,
+   "EST - Manitoba, ON (northwest)"
+  ],
+  [
+   "Z",
+   1,
+   "+744144-0944945"
+  ],
+  [
+   "Z",
+   1,
+   "America/Resolute"
+  ],
+  [
+   "Z",
+   1,
+   "Central - NU (Resolute)"
+  ],
+  [
+   "Z",
+   1,
+   "+624900-0920459"
+  ],
+  [
+   "Z",
+   1,
+   "America/Rankin_Inlet"
+  ],
+  [
+   "Z",
+   1,
+   "Central - NU (central)"
+  ],
+  [
+   "Z",
+   1,
+   "+5024-10439"
+  ],
+  [
+   "Z",
+   1,
+   "America/Regina"
+  ],
+  [
+   "Z",
+   1,
+   "CST - SK (most areas)"
+  ],
+  [
+   "Z",
+   1,
+   "+5017-10750"
+  ],
+  [
+   "Z",
+   1,
+   "America/Swift_Current"
+  ],
+  [
+   "Z",
+   1,
+   "CST - SK (midwest)"
+  ],
+  [
+   "Z",
+   1,
+   "+5333-11328"
+  ],
+  [
+   "Z",
+   1,
+   "America/Edmonton"
+  ],
+  [
+   "Z",
+   1,
+   "CST - AB, BC(E), NT(E), SK(W)"
+  ],
+  [
+   "Z",
+   1,
+   "+690650-1050310"
+  ],
+  [
+   "Z",
+   1,
+   "America/Cambridge_Bay"
+  ],
+  [
+   "Z",
+   1,
+   "Mountain - NU (west)"
+  ],
+  [
+   "Z",
+   1,
+   "+682059-1334300"
+  ],
+  [
+   "Z",
+   1,
+   "America/Inuvik"
+  ],
+  [
+   "Z",
+   1,
+   "CST - NT (west)"
+  ],
+  [
+   "Z",
+   1,
+   "+4916-12307"
+  ],
+  [
+   "Z",
+   1,
+   "America/Vancouver"
+  ],
+  [
+   "Z",
+   1,
+   "MST - BC (most areas)"
+  ],
+  [
+   "Z",
+   1,
+   "+5546-12014"
+  ],
+  [
+   "Z",
+   1,
+   "America/Dawson_Creek"
+  ],
+  [
+   "Z",
+   1,
+   "MST - BC (Dawson Cr, Ft St John)"
+  ],
+  [
+   "Z",
+   1,
+   "+5848-12242"
+  ],
+  [
+   "Z",
+   1,
+   "America/Fort_Nelson"
+  ],
+  [
+   "Z",
+   1,
+   "MST - BC (Ft Nelson)"
+  ],
+  [
+   "Z",
+   1,
+   "+6043-13503"
+  ],
+  [
+   "Z",
+   1,
+   "America/Whitehorse"
+  ],
+  [
+   "Z",
+   1,
+   "MST - Yukon (east)"
+  ],
+  [
+   "Z",
+   1,
+   "+6404-13925"
+  ],
+  [
+   "Z",
+   1,
+   "America/Dawson"
+  ],
+  [
+   "Z",
+   1,
+   "MST - Yukon (west)"
+  ],
+  [
+   "Z",
+   1,
+   "CH,DE,LI"
+  ],
+  [
+   "Z",
+   1,
+   "+4723+00832"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Zurich"
+  ],
+  [
+   "Z",
+   1,
+   "Büsingen"
+  ],
+  [
+   "Z",
+   1,
+   "CI,BF,GH,GM,GN,IS,ML,MR,SH,SL,SN,TG"
+  ],
+  [
+   "Z",
+   1,
+   "+0519-00402"
+  ],
+  [
+   "Z",
+   1,
+   "Africa/Abidjan"
+  ],
+  [
+   "Z",
+   1,
+   "-2114-15946"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Rarotonga"
+  ],
+  [
+   "Z",
+   1,
+   "-3327-07040"
+  ],
+  [
+   "Z",
+   1,
+   "America/Santiago"
+  ],
+  [
+   "Z",
+   1,
+   "most of Chile"
+  ],
+  [
+   "Z",
+   1,
+   "-4534-07204"
+  ],
+  [
+   "Z",
+   1,
+   "America/Coyhaique"
+  ],
+  [
+   "Z",
+   1,
+   "Aysén Region"
+  ],
+  [
+   "Z",
+   1,
+   "-5309-07055"
+  ],
+  [
+   "Z",
+   1,
+   "America/Punta_Arenas"
+  ],
+  [
+   "Z",
+   1,
+   "Magallanes Region"
+  ],
+  [
+   "Z",
+   1,
+   "-2709-10926"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Easter"
+  ],
+  [
+   "Z",
+   1,
+   "Easter Island"
+  ],
+  [
+   "Z",
+   1,
+   "+3114+12128"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Shanghai"
+  ],
+  [
+   "Z",
+   1,
+   "Beijing Time"
+  ],
+  [
+   "Z",
+   1,
+   "+4348+08735"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Urumqi"
+  ],
+  [
+   "Z",
+   1,
+   "Xinjiang Time"
+  ],
+  [
+   "Z",
+   1,
+   "+0436-07405"
+  ],
+  [
+   "Z",
+   1,
+   "America/Bogota"
+  ],
+  [
+   "Z",
+   1,
+   "+0956-08405"
+  ],
+  [
+   "Z",
+   1,
+   "America/Costa_Rica"
+  ],
+  [
+   "Z",
+   1,
+   "+2308-08222"
+  ],
+  [
+   "Z",
+   1,
+   "America/Havana"
+  ],
+  [
+   "Z",
+   1,
+   "+1455-02331"
+  ],
+  [
+   "Z",
+   1,
+   "Atlantic/Cape_Verde"
+  ],
+  [
+   "Z",
+   1,
+   "+3510+03322"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Nicosia"
+  ],
+  [
+   "Z",
+   1,
+   "most of Cyprus"
+  ],
+  [
+   "Z",
+   1,
+   "+3507+03357"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Famagusta"
+  ],
+  [
+   "Z",
+   1,
+   "Northern Cyprus"
+  ],
+  [
+   "Z",
+   1,
+   "+5005+01426"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Prague"
+  ],
+  [
+   "Z",
+   1,
+   "DE,DK,NO,SE,SJ"
+  ],
+  [
+   "Z",
+   1,
+   "+5230+01322"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Berlin"
+  ],
+  [
+   "Z",
+   1,
+   "most of Germany"
+  ],
+  [
+   "Z",
+   1,
+   "+1828-06954"
+  ],
+  [
+   "Z",
+   1,
+   "America/Santo_Domingo"
+  ],
+  [
+   "Z",
+   1,
+   "+3647+00303"
+  ],
+  [
+   "Z",
+   1,
+   "Africa/Algiers"
+  ],
+  [
+   "Z",
+   1,
+   "-0210-07950"
+  ],
+  [
+   "Z",
+   1,
+   "America/Guayaquil"
+  ],
+  [
+   "Z",
+   1,
+   "Ecuador (mainland)"
+  ],
+  [
+   "Z",
+   1,
+   "-0054-08936"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Galapagos"
+  ],
+  [
+   "Z",
+   1,
+   "Galápagos Islands"
+  ],
+  [
+   "Z",
+   1,
+   "+5925+02445"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Tallinn"
+  ],
+  [
+   "Z",
+   1,
+   "+3003+03115"
+  ],
+  [
+   "Z",
+   1,
+   "Africa/Cairo"
+  ],
+  [
+   "Z",
+   1,
+   "+2709-01312"
+  ],
+  [
+   "Z",
+   1,
+   "Africa/El_Aaiun"
+  ],
+  [
+   "Z",
+   1,
+   "+4024-00341"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Madrid"
+  ],
+  [
+   "Z",
+   1,
+   "Spain (mainland)"
+  ],
+  [
+   "Z",
+   1,
+   "+3553-00519"
+  ],
+  [
+   "Z",
+   1,
+   "Africa/Ceuta"
+  ],
+  [
+   "Z",
+   2,
+   "Ceuta, Melilla"
+  ],
+  [
+   "Z",
+   1,
+   "+2806-01524"
+  ],
+  [
+   "Z",
+   1,
+   "Atlantic/Canary"
+  ],
+  [
+   "Z",
+   2,
+   "Canary Islands"
+  ],
+  [
+   "Z",
+   1,
+   "+6010+02458"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Helsinki"
+  ],
+  [
+   "Z",
+   1,
+   "-1808+17825"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Fiji"
+  ],
+  [
+   "Z",
+   1,
+   "-5142-05751"
+  ],
+  [
+   "Z",
+   1,
+   "Atlantic/Stanley"
+  ],
+  [
+   "Z",
+   1,
+   "+0519+16259"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Kosrae"
+  ],
+  [
+   "Z",
+   1,
+   "+6201-00646"
+  ],
+  [
+   "Z",
+   1,
+   "Atlantic/Faroe"
+  ],
+  [
+   "Z",
+   1,
+   "+4852+00220"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Paris"
+  ],
+  [
+   "Z",
+   1,
+   "GB,GG,IM,JE"
+  ],
+  [
+   "Z",
+   1,
+   "+513030-0000731"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/London"
+  ],
+  [
+   "Z",
+   1,
+   "+4143+04449"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Tbilisi"
+  ],
+  [
+   "Z",
+   1,
+   "+0456-05220"
+  ],
+  [
+   "Z",
+   1,
+   "America/Cayenne"
+  ],
+  [
+   "Z",
+   1,
+   "+3608-00521"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Gibraltar"
+  ],
+  [
+   "Z",
+   1,
+   "+6411-05144"
+  ],
+  [
+   "Z",
+   1,
+   "America/Nuuk"
+  ],
+  [
+   "Z",
+   1,
+   "most of Greenland"
+  ],
+  [
+   "Z",
+   1,
+   "+7646-01840"
+  ],
+  [
+   "Z",
+   1,
+   "America/Danmarkshavn"
+  ],
+  [
+   "Z",
+   1,
+   "National Park (east coast)"
+  ],
+  [
+   "Z",
+   1,
+   "+7029-02158"
+  ],
+  [
+   "Z",
+   1,
+   "America/Scoresbysund"
+  ],
+  [
+   "Z",
+   1,
+   "Scoresbysund/Ittoqqortoormiit"
+  ],
+  [
+   "Z",
+   1,
+   "+7634-06847"
+  ],
+  [
+   "Z",
+   1,
+   "America/Thule"
+  ],
+  [
+   "Z",
+   1,
+   "Thule/Pituffik"
+  ],
+  [
+   "Z",
+   1,
+   "+3758+02343"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Athens"
+  ],
+  [
+   "Z",
+   1,
+   "-5416-03632"
+  ],
+  [
+   "Z",
+   1,
+   "Atlantic/South_Georgia"
+  ],
+  [
+   "Z",
+   1,
+   "+1438-09031"
+  ],
+  [
+   "Z",
+   1,
+   "America/Guatemala"
+  ],
+  [
+   "Z",
+   1,
+   "+1328+14445"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Guam"
+  ],
+  [
+   "Z",
+   1,
+   "+1151-01535"
+  ],
+  [
+   "Z",
+   1,
+   "Africa/Bissau"
+  ],
+  [
+   "Z",
+   1,
+   "+0648-05810"
+  ],
+  [
+   "Z",
+   1,
+   "America/Guyana"
+  ],
+  [
+   "Z",
+   1,
+   "+2217+11409"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Hong_Kong"
+  ],
+  [
+   "Z",
+   1,
+   "+1406-08713"
+  ],
+  [
+   "Z",
+   1,
+   "America/Tegucigalpa"
+  ],
+  [
+   "Z",
+   1,
+   "+1832-07220"
+  ],
+  [
+   "Z",
+   1,
+   "America/Port-au-Prince"
+  ],
+  [
+   "Z",
+   1,
+   "+4730+01905"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Budapest"
+  ],
+  [
+   "Z",
+   1,
+   "-0610+10648"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Jakarta"
+  ],
+  [
+   "Z",
+   1,
+   "Java, Sumatra"
+  ],
+  [
+   "Z",
+   1,
+   "-0002+10920"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Pontianak"
+  ],
+  [
+   "Z",
+   1,
+   "Borneo (west, central)"
+  ],
+  [
+   "Z",
+   1,
+   "-0507+11924"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Makassar"
+  ],
+  [
+   "Z",
+   1,
+   "Borneo (east, south), Sulawesi/Celebes, Bali, Nusa Tengarra, Timor (west)"
+  ],
+  [
+   "Z",
+   1,
+   "-0232+14042"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Jayapura"
+  ],
+  [
+   "Z",
+   1,
+   "New Guinea (West Papua / Irian Jaya), Malukus/Moluccas"
+  ],
+  [
+   "Z",
+   1,
+   "+5320-00615"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Dublin"
+  ],
+  [
+   "Z",
+   1,
+   "+314650+0351326"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Jerusalem"
+  ],
+  [
+   "Z",
+   1,
+   "+2232+08822"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Kolkata"
+  ],
+  [
+   "Z",
+   1,
+   "-0720+07225"
+  ],
+  [
+   "Z",
+   1,
+   "Indian/Chagos"
+  ],
+  [
+   "Z",
+   1,
+   "+3321+04425"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Baghdad"
+  ],
+  [
+   "Z",
+   1,
+   "+3540+05126"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Tehran"
+  ],
+  [
+   "Z",
+   1,
+   "IT,SM,VA"
+  ],
+  [
+   "Z",
+   1,
+   "+4154+01229"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Rome"
+  ],
+  [
+   "Z",
+   1,
+   "+175805-0764736"
+  ],
+  [
+   "Z",
+   1,
+   "America/Jamaica"
+  ],
+  [
+   "Z",
+   1,
+   "+3157+03556"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Amman"
+  ],
+  [
+   "Z",
+   1,
+   "+353916+1394441"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Tokyo"
+  ],
+  [
+   "Z",
+   1,
+   "Eyre Bird Observatory"
+  ],
+  [
+   "Z",
+   1,
+   "KE,DJ,ER,ET,KM,MG,SO,TZ,UG,YT"
+  ],
+  [
+   "Z",
+   1,
+   "-0117+03649"
+  ],
+  [
+   "Z",
+   1,
+   "Africa/Nairobi"
+  ],
+  [
+   "Z",
+   1,
+   "+4254+07436"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Bishkek"
+  ],
+  [
+   "Z",
+   1,
+   "KI,MH,TV,UM,WF"
+  ],
+  [
+   "Z",
+   1,
+   "+0125+17300"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Tarawa"
+  ],
+  [
+   "Z",
+   1,
+   "Gilberts, Marshalls, Wake"
+  ],
+  [
+   "Z",
+   1,
+   "-0247-17143"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Kanton"
+  ],
+  [
+   "Z",
+   1,
+   "Phoenix Islands"
+  ],
+  [
+   "Z",
+   1,
+   "+0152-15720"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Kiritimati"
+  ],
+  [
+   "Z",
+   1,
+   "Line Islands"
+  ],
+  [
+   "Z",
+   1,
+   "+3901+12545"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Pyongyang"
+  ],
+  [
+   "Z",
+   1,
+   "+3733+12658"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Seoul"
+  ],
+  [
+   "Z",
+   1,
+   "+4315+07657"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Almaty"
+  ],
+  [
+   "Z",
+   1,
+   "most of Kazakhstan"
+  ],
+  [
+   "Z",
+   1,
+   "+4448+06528"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Qyzylorda"
+  ],
+  [
+   "Z",
+   1,
+   "Qyzylorda/Kyzylorda/Kzyl-Orda"
+  ],
+  [
+   "Z",
+   1,
+   "+5312+06337"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Qostanay"
+  ],
+  [
+   "Z",
+   1,
+   "Qostanay/Kostanay/Kustanay"
+  ],
+  [
+   "Z",
+   1,
+   "+5017+05710"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Aqtobe"
+  ],
+  [
+   "Z",
+   1,
+   "Aqtöbe/Aktobe"
+  ],
+  [
+   "Z",
+   1,
+   "+4431+05016"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Aqtau"
+  ],
+  [
+   "Z",
+   1,
+   "Mangghystaū/Mankistau"
+  ],
+  [
+   "Z",
+   1,
+   "+4707+05156"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Atyrau"
+  ],
+  [
+   "Z",
+   1,
+   "Atyraū/Atirau/Gur’yev"
+  ],
+  [
+   "Z",
+   1,
+   "+5113+05121"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Oral"
+  ],
+  [
+   "Z",
+   1,
+   "West Kazakhstan"
+  ],
+  [
+   "Z",
+   1,
+   "+3353+03530"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Beirut"
+  ],
+  [
+   "Z",
+   1,
+   "+0656+07951"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Colombo"
+  ],
+  [
+   "Z",
+   1,
+   "+0618-01047"
+  ],
+  [
+   "Z",
+   1,
+   "Africa/Monrovia"
+  ],
+  [
+   "Z",
+   1,
+   "+5441+02519"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Vilnius"
+  ],
+  [
+   "Z",
+   1,
+   "+5657+02406"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Riga"
+  ],
+  [
+   "Z",
+   1,
+   "+3254+01311"
+  ],
+  [
+   "Z",
+   1,
+   "Africa/Tripoli"
+  ],
+  [
+   "Z",
+   1,
+   "+3339-00735"
+  ],
+  [
+   "Z",
+   1,
+   "Africa/Casablanca"
+  ],
+  [
+   "Z",
+   1,
+   "+4700+02850"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Chisinau"
+  ],
+  [
+   "Z",
+   1,
+   "+0905+16720"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Kwajalein"
+  ],
+  [
+   "Z",
+   1,
+   "Kwajalein"
+  ],
+  [
+   "Z",
+   1,
+   "+1647+09610"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Yangon"
+  ],
+  [
+   "Z",
+   1,
+   "+4755+10653"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Ulaanbaatar"
+  ],
+  [
+   "Z",
+   1,
+   "most of Mongolia"
+  ],
+  [
+   "Z",
+   1,
+   "+4801+09139"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Hovd"
+  ],
+  [
+   "Z",
+   1,
+   "Bayan-Ölgii, Hovd, Uvs"
+  ],
+  [
+   "Z",
+   1,
+   "+221150+1133230"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Macau"
+  ],
+  [
+   "Z",
+   1,
+   "+1436-06105"
+  ],
+  [
+   "Z",
+   1,
+   "America/Martinique"
+  ],
+  [
+   "Z",
+   1,
+   "+3554+01431"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Malta"
+  ],
+  [
+   "Z",
+   1,
+   "-2010+05730"
+  ],
+  [
+   "Z",
+   1,
+   "Indian/Mauritius"
+  ],
+  [
+   "Z",
+   1,
+   "+0410+07330"
+  ],
+  [
+   "Z",
+   1,
+   "Indian/Maldives"
+  ],
+  [
+   "Z",
+   1,
+   "Kerguelen, St Paul I, Amsterdam I"
+  ],
+  [
+   "Z",
+   1,
+   "+1924-09909"
+  ],
+  [
+   "Z",
+   1,
+   "America/Mexico_City"
+  ],
+  [
+   "Z",
+   1,
+   "Central Mexico"
+  ],
+  [
+   "Z",
+   1,
+   "+2105-08646"
+  ],
+  [
+   "Z",
+   1,
+   "America/Cancun"
+  ],
+  [
+   "Z",
+   1,
+   "Quintana Roo"
+  ],
+  [
+   "Z",
+   1,
+   "+2058-08937"
+  ],
+  [
+   "Z",
+   1,
+   "America/Merida"
+  ],
+  [
+   "Z",
+   1,
+   "Campeche, Yucatán"
+  ],
+  [
+   "Z",
+   1,
+   "+2540-10019"
+  ],
+  [
+   "Z",
+   1,
+   "America/Monterrey"
+  ],
+  [
+   "Z",
+   1,
+   "Durango; Coahuila, Nuevo León, Tamaulipas (most areas)"
+  ],
+  [
+   "Z",
+   1,
+   "+2550-09730"
+  ],
+  [
+   "Z",
+   1,
+   "America/Matamoros"
+  ],
+  [
+   "Z",
+   1,
+   "Coahuila, Nuevo León, Tamaulipas (US border)"
+  ],
+  [
+   "Z",
+   1,
+   "+2838-10605"
+  ],
+  [
+   "Z",
+   1,
+   "America/Chihuahua"
+  ],
+  [
+   "Z",
+   1,
+   "Chihuahua (most areas)"
+  ],
+  [
+   "Z",
+   1,
+   "+3144-10629"
+  ],
+  [
+   "Z",
+   1,
+   "America/Ciudad_Juarez"
+  ],
+  [
+   "Z",
+   1,
+   "Chihuahua (US border - west)"
+  ],
+  [
+   "Z",
+   1,
+   "+2934-10425"
+  ],
+  [
+   "Z",
+   1,
+   "America/Ojinaga"
+  ],
+  [
+   "Z",
+   1,
+   "Chihuahua (US border - east)"
+  ],
+  [
+   "Z",
+   1,
+   "+2313-10625"
+  ],
+  [
+   "Z",
+   1,
+   "America/Mazatlan"
+  ],
+  [
+   "Z",
+   1,
+   "Baja California Sur, Nayarit (most areas), Sinaloa"
+  ],
+  [
+   "Z",
+   1,
+   "+2048-10515"
+  ],
+  [
+   "Z",
+   1,
+   "America/Bahia_Banderas"
+  ],
+  [
+   "Z",
+   1,
+   "Bahía de Banderas"
+  ],
+  [
+   "Z",
+   1,
+   "+2904-11058"
+  ],
+  [
+   "Z",
+   1,
+   "America/Hermosillo"
+  ],
+  [
+   "Z",
+   1,
+   "+3232-11701"
+  ],
+  [
+   "Z",
+   1,
+   "America/Tijuana"
+  ],
+  [
+   "Z",
+   1,
+   "Baja California"
+  ],
+  [
+   "Z",
+   1,
+   "+0133+11020"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Kuching"
+  ],
+  [
+   "Z",
+   1,
+   "Sabah, Sarawak"
+  ],
+  [
+   "Z",
+   1,
+   "MZ,BI,BW,CD,MW,RW,ZM,ZW"
+  ],
+  [
+   "Z",
+   1,
+   "-2558+03235"
+  ],
+  [
+   "Z",
+   1,
+   "Africa/Maputo"
+  ],
+  [
+   "Z",
+   1,
+   "Central Africa Time"
+  ],
+  [
+   "Z",
+   1,
+   "-2234+01706"
+  ],
+  [
+   "Z",
+   1,
+   "Africa/Windhoek"
+  ],
+  [
+   "Z",
+   1,
+   "-2216+16627"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Noumea"
+  ],
+  [
+   "Z",
+   1,
+   "-2903+16758"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Norfolk"
+  ],
+  [
+   "Z",
+   1,
+   "NG,AO,BJ,CD,CF,CG,CM,GA,GQ,NE"
+  ],
+  [
+   "Z",
+   1,
+   "+0627+00324"
+  ],
+  [
+   "Z",
+   1,
+   "Africa/Lagos"
+  ],
+  [
+   "Z",
+   1,
+   "West Africa Time"
+  ],
+  [
+   "Z",
+   1,
+   "+1209-08617"
+  ],
+  [
+   "Z",
+   1,
+   "America/Managua"
+  ],
+  [
+   "Z",
+   1,
+   "+2743+08519"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Kathmandu"
+  ],
+  [
+   "Z",
+   1,
+   "-0031+16655"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Nauru"
+  ],
+  [
+   "Z",
+   1,
+   "-1901-16955"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Niue"
+  ],
+  [
+   "Z",
+   1,
+   "-3652+17446"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Auckland"
+  ],
+  [
+   "Z",
+   1,
+   "New Zealand time"
+  ],
+  [
+   "Z",
+   1,
+   "-4357-17633"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Chatham"
+  ],
+  [
+   "Z",
+   1,
+   "Chatham Islands"
+  ],
+  [
+   "Z",
+   1,
+   "PA,CA,KY"
+  ],
+  [
+   "Z",
+   1,
+   "+0858-07932"
+  ],
+  [
+   "Z",
+   1,
+   "America/Panama"
+  ],
+  [
+   "Z",
+   1,
+   "EST - ON (Atikokan), NU (Coral H)"
+  ],
+  [
+   "Z",
+   1,
+   "-1203-07703"
+  ],
+  [
+   "Z",
+   1,
+   "America/Lima"
+  ],
+  [
+   "Z",
+   1,
+   "-1732-14934"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Tahiti"
+  ],
+  [
+   "Z",
+   1,
+   "Society Islands"
+  ],
+  [
+   "Z",
+   1,
+   "-0900-13930"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Marquesas"
+  ],
+  [
+   "Z",
+   1,
+   "Marquesas Islands"
+  ],
+  [
+   "Z",
+   1,
+   "-2308-13457"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Gambier"
+  ],
+  [
+   "Z",
+   1,
+   "Gambier Islands"
+  ],
+  [
+   "Z",
+   1,
+   "PG,AQ,FM"
+  ],
+  [
+   "Z",
+   1,
+   "-0930+14710"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Port_Moresby"
+  ],
+  [
+   "Z",
+   1,
+   "Papua New Guinea (most areas), Chuuk, Yap, Dumont d’Urville"
+  ],
+  [
+   "Z",
+   1,
+   "-0613+15534"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Bougainville"
+  ],
+  [
+   "Z",
+   1,
+   "Bougainville"
+  ],
+  [
+   "Z",
+   1,
+   "+143512+1205804"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Manila"
+  ],
+  [
+   "Z",
+   1,
+   "+2452+06703"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Karachi"
+  ],
+  [
+   "Z",
+   1,
+   "+5215+02100"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Warsaw"
+  ],
+  [
+   "Z",
+   1,
+   "+4703-05620"
+  ],
+  [
+   "Z",
+   1,
+   "America/Miquelon"
+  ],
+  [
+   "Z",
+   1,
+   "-2504-13005"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Pitcairn"
+  ],
+  [
+   "Z",
+   1,
+   "PR,AG,CA,AI,AW,BL,BQ,CW,DM,GD,GP,KN,LC,MF,MS,SX,TT,VC,VG,VI"
+  ],
+  [
+   "Z",
+   1,
+   "+182806-0660622"
+  ],
+  [
+   "Z",
+   1,
+   "America/Puerto_Rico"
+  ],
+  [
+   "Z",
+   1,
+   "AST - QC (Lower North Shore)"
+  ],
+  [
+   "Z",
+   1,
+   "+3130+03428"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Gaza"
+  ],
+  [
+   "Z",
+   1,
+   "Gaza Strip"
+  ],
+  [
+   "Z",
+   1,
+   "+313200+0350542"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Hebron"
+  ],
+  [
+   "Z",
+   1,
+   "West Bank"
+  ],
+  [
+   "Z",
+   1,
+   "+3843-00908"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Lisbon"
+  ],
+  [
+   "Z",
+   1,
+   "Portugal (mainland)"
+  ],
+  [
+   "Z",
+   1,
+   "+3238-01654"
+  ],
+  [
+   "Z",
+   1,
+   "Atlantic/Madeira"
+  ],
+  [
+   "Z",
+   1,
+   "Madeira Islands"
+  ],
+  [
+   "Z",
+   1,
+   "+3744-02540"
+  ],
+  [
+   "Z",
+   1,
+   "Atlantic/Azores"
+  ],
+  [
+   "Z",
+   1,
+   "+0720+13429"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Palau"
+  ],
+  [
+   "Z",
+   1,
+   "-2516-05740"
+  ],
+  [
+   "Z",
+   1,
+   "America/Asuncion"
+  ],
+  [
+   "Z",
+   1,
+   "+2517+05132"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Qatar"
+  ],
+  [
+   "Z",
+   1,
+   "+4426+02606"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Bucharest"
+  ],
+  [
+   "Z",
+   1,
+   "RS,BA,HR,ME,MK,SI"
+  ],
+  [
+   "Z",
+   1,
+   "+4450+02030"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Belgrade"
+  ],
+  [
+   "Z",
+   1,
+   "+5443+02030"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Kaliningrad"
+  ],
+  [
+   "Z",
+   1,
+   "MSK-01 - Kaliningrad"
+  ],
+  [
+   "Z",
+   1,
+   "+554521+0373704"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Moscow"
+  ],
+  [
+   "Z",
+   1,
+   "MSK+00 - Moscow area"
+  ],
+  [
+   "Z",
+   1,
+   "+4457+03406"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Simferopol"
+  ],
+  [
+   "Z",
+   1,
+   "+5836+04939"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Kirov"
+  ],
+  [
+   "Z",
+   1,
+   "MSK+00 - Kirov"
+  ],
+  [
+   "Z",
+   1,
+   "+4844+04425"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Volgograd"
+  ],
+  [
+   "Z",
+   1,
+   "MSK+00 - Volgograd"
+  ],
+  [
+   "Z",
+   1,
+   "+4621+04803"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Astrakhan"
+  ],
+  [
+   "Z",
+   1,
+   "MSK+01 - Astrakhan"
+  ],
+  [
+   "Z",
+   1,
+   "+5134+04602"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Saratov"
+  ],
+  [
+   "Z",
+   1,
+   "MSK+01 - Saratov"
+  ],
+  [
+   "Z",
+   1,
+   "+5420+04824"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Ulyanovsk"
+  ],
+  [
+   "Z",
+   1,
+   "MSK+01 - Ulyanovsk"
+  ],
+  [
+   "Z",
+   1,
+   "+5312+05009"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Samara"
+  ],
+  [
+   "Z",
+   1,
+   "MSK+01 - Samara, Udmurtia"
+  ],
+  [
+   "Z",
+   1,
+   "+5651+06036"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Yekaterinburg"
+  ],
+  [
+   "Z",
+   1,
+   "MSK+02 - Urals"
+  ],
+  [
+   "Z",
+   1,
+   "+5500+07324"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Omsk"
+  ],
+  [
+   "Z",
+   1,
+   "MSK+03 - Omsk"
+  ],
+  [
+   "Z",
+   1,
+   "+5502+08255"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Novosibirsk"
+  ],
+  [
+   "Z",
+   1,
+   "MSK+04 - Novosibirsk"
+  ],
+  [
+   "Z",
+   1,
+   "+5322+08345"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Barnaul"
+  ],
+  [
+   "Z",
+   1,
+   "MSK+04 - Altai"
+  ],
+  [
+   "Z",
+   1,
+   "+5630+08458"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Tomsk"
+  ],
+  [
+   "Z",
+   1,
+   "MSK+04 - Tomsk"
+  ],
+  [
+   "Z",
+   1,
+   "+5345+08707"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Novokuznetsk"
+  ],
+  [
+   "Z",
+   1,
+   "MSK+04 - Kemerovo"
+  ],
+  [
+   "Z",
+   1,
+   "+5601+09250"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Krasnoyarsk"
+  ],
+  [
+   "Z",
+   1,
+   "MSK+04 - Krasnoyarsk area"
+  ],
+  [
+   "Z",
+   1,
+   "+5216+10420"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Irkutsk"
+  ],
+  [
+   "Z",
+   1,
+   "MSK+05 - Irkutsk, Buryatia"
+  ],
+  [
+   "Z",
+   1,
+   "+5203+11328"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Chita"
+  ],
+  [
+   "Z",
+   1,
+   "MSK+06 - Zabaykalsky"
+  ],
+  [
+   "Z",
+   1,
+   "+6200+12940"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Yakutsk"
+  ],
+  [
+   "Z",
+   1,
+   "MSK+06 - Lena River"
+  ],
+  [
+   "Z",
+   1,
+   "+623923+1353314"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Khandyga"
+  ],
+  [
+   "Z",
+   1,
+   "MSK+06 - Tomponsky, Ust-Maysky"
+  ],
+  [
+   "Z",
+   1,
+   "+4310+13156"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Vladivostok"
+  ],
+  [
+   "Z",
+   1,
+   "MSK+07 - Amur River"
+  ],
+  [
+   "Z",
+   1,
+   "+643337+1431336"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Ust-Nera"
+  ],
+  [
+   "Z",
+   1,
+   "MSK+07 - Oymyakonsky"
+  ],
+  [
+   "Z",
+   1,
+   "+5934+15048"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Magadan"
+  ],
+  [
+   "Z",
+   1,
+   "MSK+08 - Magadan"
+  ],
+  [
+   "Z",
+   1,
+   "+4658+14242"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Sakhalin"
+  ],
+  [
+   "Z",
+   1,
+   "MSK+08 - Sakhalin Island"
+  ],
+  [
+   "Z",
+   1,
+   "+6728+15343"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Srednekolymsk"
+  ],
+  [
+   "Z",
+   1,
+   "MSK+08 - Sakha (E), N Kuril Is"
+  ],
+  [
+   "Z",
+   1,
+   "+5301+15839"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Kamchatka"
+  ],
+  [
+   "Z",
+   1,
+   "MSK+09 - Kamchatka"
+  ],
+  [
+   "Z",
+   1,
+   "+6445+17729"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Anadyr"
+  ],
+  [
+   "Z",
+   1,
+   "MSK+09 - Bering Sea"
+  ],
+  [
+   "Z",
+   1,
+   "SA,AQ,KW,YE"
+  ],
+  [
+   "Z",
+   1,
+   "+2438+04643"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Riyadh"
+  ],
+  [
+   "Z",
+   1,
+   "-0932+16012"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Guadalcanal"
+  ],
+  [
+   "Z",
+   1,
+   "+1536+03232"
+  ],
+  [
+   "Z",
+   1,
+   "Africa/Khartoum"
+  ],
+  [
+   "Z",
+   1,
+   "SG,AQ,MY"
+  ],
+  [
+   "Z",
+   1,
+   "+0117+10351"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Singapore"
+  ],
+  [
+   "Z",
+   1,
+   "peninsular Malaysia, Concordia"
+  ],
+  [
+   "Z",
+   1,
+   "+0550-05510"
+  ],
+  [
+   "Z",
+   1,
+   "America/Paramaribo"
+  ],
+  [
+   "Z",
+   1,
+   "+0451+03137"
+  ],
+  [
+   "Z",
+   1,
+   "Africa/Juba"
+  ],
+  [
+   "Z",
+   1,
+   "+0020+00644"
+  ],
+  [
+   "Z",
+   1,
+   "Africa/Sao_Tome"
+  ],
+  [
+   "Z",
+   1,
+   "+1342-08912"
+  ],
+  [
+   "Z",
+   1,
+   "America/El_Salvador"
+  ],
+  [
+   "Z",
+   1,
+   "+3330+03618"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Damascus"
+  ],
+  [
+   "Z",
+   1,
+   "+2128-07108"
+  ],
+  [
+   "Z",
+   1,
+   "America/Grand_Turk"
+  ],
+  [
+   "Z",
+   1,
+   "+1207+01503"
+  ],
+  [
+   "Z",
+   1,
+   "Africa/Ndjamena"
+  ],
+  [
+   "Z",
+   1,
+   "TH,CX,KH,LA,VN"
+  ],
+  [
+   "Z",
+   1,
+   "+1345+10031"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Bangkok"
+  ],
+  [
+   "Z",
+   1,
+   "north Vietnam"
+  ],
+  [
+   "Z",
+   1,
+   "+3835+06848"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Dushanbe"
+  ],
+  [
+   "Z",
+   1,
+   "-0922-17114"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Fakaofo"
+  ],
+  [
+   "Z",
+   1,
+   "-0833+12535"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Dili"
+  ],
+  [
+   "Z",
+   1,
+   "+3757+05823"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Ashgabat"
+  ],
+  [
+   "Z",
+   1,
+   "+3648+01011"
+  ],
+  [
+   "Z",
+   1,
+   "Africa/Tunis"
+  ],
+  [
+   "Z",
+   1,
+   "-210800-1751200"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Tongatapu"
+  ],
+  [
+   "Z",
+   1,
+   "+4101+02858"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Istanbul"
+  ],
+  [
+   "Z",
+   1,
+   "+2503+12130"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Taipei"
+  ],
+  [
+   "Z",
+   1,
+   "+5026+03031"
+  ],
+  [
+   "Z",
+   1,
+   "Europe/Kyiv"
+  ],
+  [
+   "Z",
+   1,
+   "most of Ukraine"
+  ],
+  [
+   "Z",
+   1,
+   "+404251-0740023"
+  ],
+  [
+   "Z",
+   1,
+   "America/New_York"
+  ],
+  [
+   "Z",
+   1,
+   "Eastern (most areas)"
+  ],
+  [
+   "Z",
+   1,
+   "+421953-0830245"
+  ],
+  [
+   "Z",
+   1,
+   "America/Detroit"
+  ],
+  [
+   "Z",
+   1,
+   "Eastern - MI (most areas)"
+  ],
+  [
+   "Z",
+   1,
+   "+381515-0854534"
+  ],
+  [
+   "Z",
+   1,
+   "America/Kentucky/Louisville"
+  ],
+  [
+   "Z",
+   1,
+   "Eastern - KY (Louisville area)"
+  ],
+  [
+   "Z",
+   1,
+   "+364947-0845057"
+  ],
+  [
+   "Z",
+   1,
+   "America/Kentucky/Monticello"
+  ],
+  [
+   "Z",
+   1,
+   "Eastern - KY (Wayne)"
+  ],
+  [
+   "Z",
+   1,
+   "+394606-0860929"
+  ],
+  [
+   "Z",
+   1,
+   "America/Indiana/Indianapolis"
+  ],
+  [
+   "Z",
+   1,
+   "Eastern - IN (most areas)"
+  ],
+  [
+   "Z",
+   1,
+   "+384038-0873143"
+  ],
+  [
+   "Z",
+   1,
+   "America/Indiana/Vincennes"
+  ],
+  [
+   "Z",
+   1,
+   "Eastern - IN (Da, Du, K, Mn)"
+  ],
+  [
+   "Z",
+   1,
+   "+410305-0863611"
+  ],
+  [
+   "Z",
+   1,
+   "America/Indiana/Winamac"
+  ],
+  [
+   "Z",
+   1,
+   "Eastern - IN (Pulaski)"
+  ],
+  [
+   "Z",
+   1,
+   "+382232-0862041"
+  ],
+  [
+   "Z",
+   1,
+   "America/Indiana/Marengo"
+  ],
+  [
+   "Z",
+   1,
+   "Eastern - IN (Crawford)"
+  ],
+  [
+   "Z",
+   1,
+   "+382931-0871643"
+  ],
+  [
+   "Z",
+   1,
+   "America/Indiana/Petersburg"
+  ],
+  [
+   "Z",
+   1,
+   "Eastern - IN (Pike)"
+  ],
+  [
+   "Z",
+   1,
+   "+384452-0850402"
+  ],
+  [
+   "Z",
+   1,
+   "America/Indiana/Vevay"
+  ],
+  [
+   "Z",
+   1,
+   "Eastern - IN (Switzerland)"
+  ],
+  [
+   "Z",
+   1,
+   "+415100-0873900"
+  ],
+  [
+   "Z",
+   1,
+   "America/Chicago"
+  ],
+  [
+   "Z",
+   1,
+   "Central (most areas)"
+  ],
+  [
+   "Z",
+   1,
+   "+375711-0864541"
+  ],
+  [
+   "Z",
+   1,
+   "America/Indiana/Tell_City"
+  ],
+  [
+   "Z",
+   1,
+   "Central - IN (Perry)"
+  ],
+  [
+   "Z",
+   1,
+   "+411745-0863730"
+  ],
+  [
+   "Z",
+   1,
+   "America/Indiana/Knox"
+  ],
+  [
+   "Z",
+   1,
+   "Central - IN (Starke)"
+  ],
+  [
+   "Z",
+   1,
+   "+450628-0873651"
+  ],
+  [
+   "Z",
+   1,
+   "America/Menominee"
+  ],
+  [
+   "Z",
+   1,
+   "Central - MI (Wisconsin border)"
+  ],
+  [
+   "Z",
+   1,
+   "+470659-1011757"
+  ],
+  [
+   "Z",
+   1,
+   "America/North_Dakota/Center"
+  ],
+  [
+   "Z",
+   1,
+   "Central - ND (Oliver)"
+  ],
+  [
+   "Z",
+   1,
+   "+465042-1012439"
+  ],
+  [
+   "Z",
+   1,
+   "America/North_Dakota/New_Salem"
+  ],
+  [
+   "Z",
+   1,
+   "Central - ND (Morton rural)"
+  ],
+  [
+   "Z",
+   1,
+   "+471551-1014640"
+  ],
+  [
+   "Z",
+   1,
+   "America/North_Dakota/Beulah"
+  ],
+  [
+   "Z",
+   1,
+   "Central - ND (Mercer)"
+  ],
+  [
+   "Z",
+   1,
+   "+394421-1045903"
+  ],
+  [
+   "Z",
+   1,
+   "America/Denver"
+  ],
+  [
+   "Z",
+   1,
+   "Mountain (most areas)"
+  ],
+  [
+   "Z",
+   1,
+   "+433649-1161209"
+  ],
+  [
+   "Z",
+   1,
+   "America/Boise"
+  ],
+  [
+   "Z",
+   1,
+   "Mountain - ID (south), OR (east)"
+  ],
+  [
+   "Z",
+   1,
+   "+332654-1120424"
+  ],
+  [
+   "Z",
+   1,
+   "America/Phoenix"
+  ],
+  [
+   "Z",
+   1,
+   "MST - AZ (most areas), Creston BC"
+  ],
+  [
+   "Z",
+   1,
+   "+340308-1181434"
+  ],
+  [
+   "Z",
+   1,
+   "America/Los_Angeles"
+  ],
+  [
+   "Z",
+   1,
+   "+611305-1495401"
+  ],
+  [
+   "Z",
+   1,
+   "America/Anchorage"
+  ],
+  [
+   "Z",
+   1,
+   "Alaska (most areas)"
+  ],
+  [
+   "Z",
+   1,
+   "+581807-1342511"
+  ],
+  [
+   "Z",
+   1,
+   "America/Juneau"
+  ],
+  [
+   "Z",
+   1,
+   "Alaska - Juneau area"
+  ],
+  [
+   "Z",
+   1,
+   "+571035-1351807"
+  ],
+  [
+   "Z",
+   1,
+   "America/Sitka"
+  ],
+  [
+   "Z",
+   1,
+   "Alaska - Sitka area"
+  ],
+  [
+   "Z",
+   1,
+   "+550737-1313435"
+  ],
+  [
+   "Z",
+   1,
+   "America/Metlakatla"
+  ],
+  [
+   "Z",
+   1,
+   "Alaska - Annette Island"
+  ],
+  [
+   "Z",
+   1,
+   "+593249-1394338"
+  ],
+  [
+   "Z",
+   1,
+   "America/Yakutat"
+  ],
+  [
+   "Z",
+   1,
+   "Alaska - Yakutat"
+  ],
+  [
+   "Z",
+   1,
+   "+643004-1652423"
+  ],
+  [
+   "Z",
+   1,
+   "America/Nome"
+  ],
+  [
+   "Z",
+   1,
+   "Alaska (west)"
+  ],
+  [
+   "Z",
+   1,
+   "+515248-1763929"
+  ],
+  [
+   "Z",
+   1,
+   "America/Adak"
+  ],
+  [
+   "Z",
+   1,
+   "Alaska - western Aleutians"
+  ],
+  [
+   "Z",
+   1,
+   "+211825-1575130"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Honolulu"
+  ],
+  [
+   "Z",
+   1,
+   "-345433-0561245"
+  ],
+  [
+   "Z",
+   1,
+   "America/Montevideo"
+  ],
+  [
+   "Z",
+   1,
+   "+3940+06648"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Samarkand"
+  ],
+  [
+   "Z",
+   1,
+   "Uzbekistan (west)"
+  ],
+  [
+   "Z",
+   1,
+   "+4120+06918"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Tashkent"
+  ],
+  [
+   "Z",
+   1,
+   "Uzbekistan (east)"
+  ],
+  [
+   "Z",
+   1,
+   "+1030-06656"
+  ],
+  [
+   "Z",
+   1,
+   "America/Caracas"
+  ],
+  [
+   "Z",
+   1,
+   "+1045+10640"
+  ],
+  [
+   "Z",
+   1,
+   "Asia/Ho_Chi_Minh"
+  ],
+  [
+   "Z",
+   1,
+   "south Vietnam"
+  ],
+  [
+   "Z",
+   1,
+   "-1740+16825"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Efate"
+  ],
+  [
+   "Z",
+   1,
+   "-1350-17144"
+  ],
+  [
+   "Z",
+   1,
+   "Pacific/Apia"
+  ],
+  [
+   "Z",
+   1,
+   "ZA,LS,SZ"
+  ],
+  [
+   "Z",
+   1,
+   "-2615+02800"
+  ],
+  [
+   "Z",
+   1,
+   "Africa/Johannesburg"
+  ],
+  [
+   "R",
+   1,
+   "Type: region"
+  ],
+  [
+   "R",
+   1,
+   "Added: 2005-10-16"
+  ],
+  [
+   "R",
+   1,
+   "Added: 2009-07-29"
+  ],
+  [
+   "R",
+   1,
+   "Deprecated: 2011-01-07"
+  ],
+  [
+   "R",
+   1,
+   "Added: 2007-11-02"
+  ],
+  [
+   "R",
+   1,
+   "Added: 2011-01-07"
+  ],
+  [
+   "R",
+   1,
+   "Deprecated: 1989-12-05"
+  ],
+  [
+   "R",
+   1,
+   "Preferred-Value: MM"
+  ],
+  [
+   "R",
+   1,
+   "Added: 2023-02-07"
+  ],
+  [
+   "R",
+   1,
+   "Deprecated: 2006-10-05"
+  ],
+  [
+   "R",
+   1,
+   "Deprecated: 1990-10-30"
+  ],
+  [
+   "R",
+   1,
+   "Preferred-Value: DE"
+  ],
+  [
+   "R",
+   1,
+   "Added: 2016-07-14"
+  ],
+  [
+   "R",
+   1,
+   "Deprecated: 1997-07-14"
+  ],
+  [
+   "R",
+   1,
+   "Preferred-Value: FR"
+  ],
+  [
+   "R",
+   1,
+   "Added: 2006-03-29"
+  ],
+  [
+   "R",
+   1,
+   "Added: 2006-10-05"
+  ],
+  [
+   "R",
+   1,
+   "Deprecated: 1993-07-12"
+  ],
+  [
+   "R",
+   1,
+   "Subtag: QM..QZ"
+  ],
+  [
+   "R",
+   1,
+   "Added: 2011-08-25"
+  ],
+  [
+   "R",
+   1,
+   "Deprecated: 1992-08-30"
+  ],
+  [
+   "R",
+   1,
+   "Deprecated: 2002-05-20"
+  ],
+  [
+   "R",
+   1,
+   "Preferred-Value: TL"
+  ],
+  [
+   "R",
+   1,
+   "Subtag: XA..XZ"
+  ],
+  [
+   "R",
+   1,
+   "Deprecated: 1990-08-14"
+  ],
+  [
+   "R",
+   1,
+   "Preferred-Value: YE"
+  ],
+  [
+   "R",
+   1,
+   "Deprecated: 2003-07-23"
+  ],
+  [
+   "R",
+   1,
+   "Preferred-Value: CD"
+  ],
+  [
+   "R",
+   1,
+   "Added: 2010-08-16"
+  ],
+  [
+   "R",
+   1,
+   "Added: 2017-04-18"
+  ],
+  [
+   "R",
+   1,
+   "Description: Private use"
+  ],
+  [
+   "R",
+   1,
+   "Description: Ascension Island"
+  ],
+  [
+   "R",
+   1,
+   "Description: Andorra"
+  ],
+  [
+   "R",
+   1,
+   "Description: United Arab Emirates"
+  ],
+  [
+   "R",
+   1,
+   "Description: Afghanistan"
+  ],
+  [
+   "R",
+   1,
+   "Description: Antigua and Barbuda"
+  ],
+  [
+   "R",
+   1,
+   "Description: Anguilla"
+  ],
+  [
+   "R",
+   1,
+   "Description: Albania"
+  ],
+  [
+   "R",
+   1,
+   "Description: Armenia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Netherlands Antilles"
+  ],
+  [
+   "R",
+   1,
+   "Comments: see BQ, CW, and SX"
+  ],
+  [
+   "R",
+   1,
+   "Description: Angola"
+  ],
+  [
+   "R",
+   1,
+   "Description: Antarctica"
+  ],
+  [
+   "R",
+   1,
+   "Description: Argentina"
+  ],
+  [
+   "R",
+   1,
+   "Description: American Samoa"
+  ],
+  [
+   "R",
+   1,
+   "Description: Austria"
+  ],
+  [
+   "R",
+   1,
+   "Description: Australia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Aruba"
+  ],
+  [
+   "R",
+   1,
+   "Description: Åland Islands"
+  ],
+  [
+   "R",
+   1,
+   "Description: Azerbaijan"
+  ],
+  [
+   "R",
+   1,
+   "Description: Bosnia and Herzegovina"
+  ],
+  [
+   "R",
+   1,
+   "Description: Barbados"
+  ],
+  [
+   "R",
+   1,
+   "Description: Bangladesh"
+  ],
+  [
+   "R",
+   1,
+   "Description: Belgium"
+  ],
+  [
+   "R",
+   1,
+   "Description: Burkina Faso"
+  ],
+  [
+   "R",
+   1,
+   "Description: Bulgaria"
+  ],
+  [
+   "R",
+   1,
+   "Description: Bahrain"
+  ],
+  [
+   "R",
+   1,
+   "Description: Burundi"
+  ],
+  [
+   "R",
+   1,
+   "Description: Benin"
+  ],
+  [
+   "R",
+   1,
+   "Description: Saint Barthélemy"
+  ],
+  [
+   "R",
+   1,
+   "Description: Bermuda"
+  ],
+  [
+   "R",
+   1,
+   "Description: Brunei Darussalam"
+  ],
+  [
+   "R",
+   1,
+   "Description: Bolivia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Bonaire, Sint Eustatius and Saba"
+  ],
+  [
+   "R",
+   1,
+   "Description: Brazil"
+  ],
+  [
+   "R",
+   1,
+   "Description: Bahamas"
+  ],
+  [
+   "R",
+   1,
+   "Description: Bhutan"
+  ],
+  [
+   "R",
+   1,
+   "Description: Burma"
+  ],
+  [
+   "R",
+   1,
+   "Description: Bouvet Island"
+  ],
+  [
+   "R",
+   1,
+   "Description: Botswana"
+  ],
+  [
+   "R",
+   1,
+   "Description: Belarus"
+  ],
+  [
+   "R",
+   1,
+   "Description: Belize"
+  ],
+  [
+   "R",
+   1,
+   "Description: Canada"
+  ],
+  [
+   "R",
+   1,
+   "Description: Cocos (Keeling) Islands"
+  ],
+  [
+   "R",
+   1,
+   "Description: The Democratic Republic of the Congo"
+  ],
+  [
+   "R",
+   1,
+   "Description: Central African Republic"
+  ],
+  [
+   "R",
+   1,
+   "Description: Congo"
+  ],
+  [
+   "R",
+   1,
+   "Description: Switzerland"
+  ],
+  [
+   "R",
+   1,
+   "Description: Côte d'Ivoire"
+  ],
+  [
+   "R",
+   1,
+   "Description: Cook Islands"
+  ],
+  [
+   "R",
+   1,
+   "Description: Chile"
+  ],
+  [
+   "R",
+   1,
+   "Description: Cameroon"
+  ],
+  [
+   "R",
+   1,
+   "Description: China"
+  ],
+  [
+   "R",
+   1,
+   "Description: Colombia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Clipperton Island"
+  ],
+  [
+   "R",
+   1,
+   "Description: Sark"
+  ],
+  [
+   "R",
+   1,
+   "Description: Costa Rica"
+  ],
+  [
+   "R",
+   1,
+   "Description: Serbia and Montenegro"
+  ],
+  [
+   "R",
+   1,
+   "Comments: see RS for Serbia or ME for Montenegro"
+  ],
+  [
+   "R",
+   1,
+   "Description: Cuba"
+  ],
+  [
+   "R",
+   1,
+   "Description: Cape Verde"
+  ],
+  [
+   "R",
+   1,
+   "Description: Curaçao"
+  ],
+  [
+   "R",
+   1,
+   "Description: Christmas Island"
+  ],
+  [
+   "R",
+   1,
+   "Description: Cyprus"
+  ],
+  [
+   "R",
+   1,
+   "Description: Czech Republic"
+  ],
+  [
+   "R",
+   1,
+   "Description: German Democratic Republic"
+  ],
+  [
+   "R",
+   1,
+   "Description: Germany"
+  ],
+  [
+   "R",
+   1,
+   "Description: Diego Garcia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Djibouti"
+  ],
+  [
+   "R",
+   1,
+   "Description: Denmark"
+  ],
+  [
+   "R",
+   1,
+   "Description: Dominica"
+  ],
+  [
+   "R",
+   1,
+   "Description: Dominican Republic"
+  ],
+  [
+   "R",
+   1,
+   "Description: Algeria"
+  ],
+  [
+   "R",
+   1,
+   "Description: Ceuta, Melilla"
+  ],
+  [
+   "R",
+   1,
+   "Description: Ecuador"
+  ],
+  [
+   "R",
+   1,
+   "Description: Estonia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Egypt"
+  ],
+  [
+   "R",
+   1,
+   "Description: Western Sahara"
+  ],
+  [
+   "R",
+   1,
+   "Description: Eritrea"
+  ],
+  [
+   "R",
+   1,
+   "Description: Spain"
+  ],
+  [
+   "R",
+   1,
+   "Description: Ethiopia"
+  ],
+  [
+   "R",
+   1,
+   "Description: European Union"
+  ],
+  [
+   "R",
+   1,
+   "Description: Eurozone"
+  ],
+  [
+   "R",
+   1,
+   "Description: Finland"
+  ],
+  [
+   "R",
+   1,
+   "Description: Fiji"
+  ],
+  [
+   "R",
+   1,
+   "Description: Falkland Islands (Malvinas)"
+  ],
+  [
+   "R",
+   1,
+   "Description: Federated States of Micronesia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Faroe Islands"
+  ],
+  [
+   "R",
+   1,
+   "Description: France"
+  ],
+  [
+   "R",
+   1,
+   "Description: Metropolitan France"
+  ],
+  [
+   "R",
+   1,
+   "Description: Gabon"
+  ],
+  [
+   "R",
+   1,
+   "Description: United Kingdom"
+  ],
+  [
+   "R",
+   1,
+   "Comments: as of 2006-03-29 GB no longer includes the Channel Islands and"
+  ],
+  [
+   "R",
+   1,
+   "Description: Grenada"
+  ],
+  [
+   "R",
+   1,
+   "Description: Georgia"
+  ],
+  [
+   "R",
+   1,
+   "Description: French Guiana"
+  ],
+  [
+   "R",
+   1,
+   "Description: Guernsey"
+  ],
+  [
+   "R",
+   1,
+   "Description: Ghana"
+  ],
+  [
+   "R",
+   1,
+   "Description: Gibraltar"
+  ],
+  [
+   "R",
+   1,
+   "Description: Greenland"
+  ],
+  [
+   "R",
+   1,
+   "Description: Gambia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Guinea"
+  ],
+  [
+   "R",
+   1,
+   "Description: Guadeloupe"
+  ],
+  [
+   "R",
+   1,
+   "Description: Equatorial Guinea"
+  ],
+  [
+   "R",
+   1,
+   "Description: Greece"
+  ],
+  [
+   "R",
+   1,
+   "Description: South Georgia and the South Sandwich Islands"
+  ],
+  [
+   "R",
+   1,
+   "Description: Guatemala"
+  ],
+  [
+   "R",
+   1,
+   "Description: Guam"
+  ],
+  [
+   "R",
+   1,
+   "Description: Guinea-Bissau"
+  ],
+  [
+   "R",
+   1,
+   "Description: Guyana"
+  ],
+  [
+   "R",
+   1,
+   "Description: Hong Kong"
+  ],
+  [
+   "R",
+   1,
+   "Description: Heard Island and McDonald Islands"
+  ],
+  [
+   "R",
+   1,
+   "Description: Honduras"
+  ],
+  [
+   "R",
+   1,
+   "Description: Croatia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Haiti"
+  ],
+  [
+   "R",
+   1,
+   "Description: Hungary"
+  ],
+  [
+   "R",
+   1,
+   "Description: Canary Islands"
+  ],
+  [
+   "R",
+   1,
+   "Description: Indonesia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Ireland"
+  ],
+  [
+   "R",
+   1,
+   "Description: Israel"
+  ],
+  [
+   "R",
+   1,
+   "Description: Isle of Man"
+  ],
+  [
+   "R",
+   1,
+   "Description: India"
+  ],
+  [
+   "R",
+   1,
+   "Description: British Indian Ocean Territory"
+  ],
+  [
+   "R",
+   1,
+   "Description: Iraq"
+  ],
+  [
+   "R",
+   1,
+   "Description: Islamic Republic of Iran"
+  ],
+  [
+   "R",
+   1,
+   "Description: Iceland"
+  ],
+  [
+   "R",
+   1,
+   "Description: Italy"
+  ],
+  [
+   "R",
+   1,
+   "Description: Jersey"
+  ],
+  [
+   "R",
+   1,
+   "Description: Jamaica"
+  ],
+  [
+   "R",
+   1,
+   "Description: Jordan"
+  ],
+  [
+   "R",
+   1,
+   "Description: Japan"
+  ],
+  [
+   "R",
+   1,
+   "Description: Kenya"
+  ],
+  [
+   "R",
+   1,
+   "Description: Kyrgyzstan"
+  ],
+  [
+   "R",
+   1,
+   "Description: Cambodia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Kiribati"
+  ],
+  [
+   "R",
+   1,
+   "Description: Comoros"
+  ],
+  [
+   "R",
+   1,
+   "Description: Saint Kitts and Nevis"
+  ],
+  [
+   "R",
+   1,
+   "Description: Democratic People's Republic of Korea"
+  ],
+  [
+   "R",
+   1,
+   "Description: Republic of Korea"
+  ],
+  [
+   "R",
+   1,
+   "Description: Kuwait"
+  ],
+  [
+   "R",
+   1,
+   "Description: Cayman Islands"
+  ],
+  [
+   "R",
+   1,
+   "Description: Kazakhstan"
+  ],
+  [
+   "R",
+   1,
+   "Description: Lao People's Democratic Republic"
+  ],
+  [
+   "R",
+   1,
+   "Description: Lebanon"
+  ],
+  [
+   "R",
+   1,
+   "Description: Saint Lucia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Liechtenstein"
+  ],
+  [
+   "R",
+   1,
+   "Description: Sri Lanka"
+  ],
+  [
+   "R",
+   1,
+   "Description: Liberia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Lesotho"
+  ],
+  [
+   "R",
+   1,
+   "Description: Lithuania"
+  ],
+  [
+   "R",
+   1,
+   "Description: Luxembourg"
+  ],
+  [
+   "R",
+   1,
+   "Description: Latvia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Libya"
+  ],
+  [
+   "R",
+   1,
+   "Description: Morocco"
+  ],
+  [
+   "R",
+   1,
+   "Description: Monaco"
+  ],
+  [
+   "R",
+   1,
+   "Description: Moldova"
+  ],
+  [
+   "R",
+   1,
+   "Description: Montenegro"
+  ],
+  [
+   "R",
+   1,
+   "Description: Saint Martin (French part)"
+  ],
+  [
+   "R",
+   1,
+   "Description: Madagascar"
+  ],
+  [
+   "R",
+   1,
+   "Description: Marshall Islands"
+  ],
+  [
+   "R",
+   1,
+   "Description: North Macedonia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Mali"
+  ],
+  [
+   "R",
+   1,
+   "Description: Myanmar"
+  ],
+  [
+   "R",
+   1,
+   "Description: Mongolia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Macao"
+  ],
+  [
+   "R",
+   1,
+   "Description: Northern Mariana Islands"
+  ],
+  [
+   "R",
+   1,
+   "Description: Martinique"
+  ],
+  [
+   "R",
+   1,
+   "Description: Mauritania"
+  ],
+  [
+   "R",
+   1,
+   "Description: Montserrat"
+  ],
+  [
+   "R",
+   1,
+   "Description: Malta"
+  ],
+  [
+   "R",
+   1,
+   "Description: Mauritius"
+  ],
+  [
+   "R",
+   1,
+   "Description: Maldives"
+  ],
+  [
+   "R",
+   1,
+   "Description: Malawi"
+  ],
+  [
+   "R",
+   1,
+   "Description: Mexico"
+  ],
+  [
+   "R",
+   1,
+   "Description: Malaysia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Mozambique"
+  ],
+  [
+   "R",
+   1,
+   "Description: Namibia"
+  ],
+  [
+   "R",
+   1,
+   "Description: New Caledonia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Niger"
+  ],
+  [
+   "R",
+   1,
+   "Description: Norfolk Island"
+  ],
+  [
+   "R",
+   1,
+   "Description: Nigeria"
+  ],
+  [
+   "R",
+   1,
+   "Description: Nicaragua"
+  ],
+  [
+   "R",
+   1,
+   "Description: Netherlands"
+  ],
+  [
+   "R",
+   1,
+   "Description: Norway"
+  ],
+  [
+   "R",
+   1,
+   "Description: Nepal"
+  ],
+  [
+   "R",
+   1,
+   "Description: Nauru"
+  ],
+  [
+   "R",
+   1,
+   "Description: Neutral Zone"
+  ],
+  [
+   "R",
+   1,
+   "Description: Niue"
+  ],
+  [
+   "R",
+   1,
+   "Description: New Zealand"
+  ],
+  [
+   "R",
+   1,
+   "Description: Oman"
+  ],
+  [
+   "R",
+   1,
+   "Description: Panama"
+  ],
+  [
+   "R",
+   1,
+   "Description: Peru"
+  ],
+  [
+   "R",
+   1,
+   "Description: French Polynesia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Papua New Guinea"
+  ],
+  [
+   "R",
+   1,
+   "Description: Philippines"
+  ],
+  [
+   "R",
+   1,
+   "Description: Pakistan"
+  ],
+  [
+   "R",
+   1,
+   "Description: Poland"
+  ],
+  [
+   "R",
+   1,
+   "Description: Saint Pierre and Miquelon"
+  ],
+  [
+   "R",
+   1,
+   "Description: Pitcairn"
+  ],
+  [
+   "R",
+   1,
+   "Description: Puerto Rico"
+  ],
+  [
+   "R",
+   1,
+   "Description: State of Palestine"
+  ],
+  [
+   "R",
+   1,
+   "Description: Portugal"
+  ],
+  [
+   "R",
+   1,
+   "Description: Palau"
+  ],
+  [
+   "R",
+   1,
+   "Description: Paraguay"
+  ],
+  [
+   "R",
+   1,
+   "Description: Qatar"
+  ],
+  [
+   "R",
+   1,
+   "Description: Réunion"
+  ],
+  [
+   "R",
+   1,
+   "Description: Romania"
+  ],
+  [
+   "R",
+   1,
+   "Description: Serbia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Russian Federation"
+  ],
+  [
+   "R",
+   1,
+   "Description: Rwanda"
+  ],
+  [
+   "R",
+   1,
+   "Description: Saudi Arabia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Solomon Islands"
+  ],
+  [
+   "R",
+   1,
+   "Description: Seychelles"
+  ],
+  [
+   "R",
+   1,
+   "Description: Sudan"
+  ],
+  [
+   "R",
+   1,
+   "Description: Sweden"
+  ],
+  [
+   "R",
+   1,
+   "Description: Singapore"
+  ],
+  [
+   "R",
+   1,
+   "Description: Saint Helena, Ascension and Tristan da Cunha"
+  ],
+  [
+   "R",
+   1,
+   "Description: Slovenia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Svalbard and Jan Mayen"
+  ],
+  [
+   "R",
+   1,
+   "Description: Slovakia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Sierra Leone"
+  ],
+  [
+   "R",
+   1,
+   "Description: San Marino"
+  ],
+  [
+   "R",
+   1,
+   "Description: Senegal"
+  ],
+  [
+   "R",
+   1,
+   "Description: Somalia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Suriname"
+  ],
+  [
+   "R",
+   1,
+   "Description: South Sudan"
+  ],
+  [
+   "R",
+   1,
+   "Description: Sao Tome and Principe"
+  ],
+  [
+   "R",
+   1,
+   "Description: Union of Soviet Socialist Republics"
+  ],
+  [
+   "R",
+   1,
+   "Description: El Salvador"
+  ],
+  [
+   "R",
+   1,
+   "Description: Sint Maarten (Dutch part)"
+  ],
+  [
+   "R",
+   1,
+   "Description: Syrian Arab Republic"
+  ],
+  [
+   "R",
+   1,
+   "Description: Swaziland"
+  ],
+  [
+   "R",
+   1,
+   "Description: Tristan da Cunha"
+  ],
+  [
+   "R",
+   1,
+   "Description: Turks and Caicos Islands"
+  ],
+  [
+   "R",
+   1,
+   "Description: Chad"
+  ],
+  [
+   "R",
+   1,
+   "Description: French Southern Territories"
+  ],
+  [
+   "R",
+   1,
+   "Description: Togo"
+  ],
+  [
+   "R",
+   1,
+   "Description: Thailand"
+  ],
+  [
+   "R",
+   1,
+   "Description: Tajikistan"
+  ],
+  [
+   "R",
+   1,
+   "Description: Tokelau"
+  ],
+  [
+   "R",
+   1,
+   "Description: Timor-Leste"
+  ],
+  [
+   "R",
+   1,
+   "Description: Turkmenistan"
+  ],
+  [
+   "R",
+   1,
+   "Description: Tunisia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Tonga"
+  ],
+  [
+   "R",
+   1,
+   "Description: East Timor"
+  ],
+  [
+   "R",
+   1,
+   "Description: Turkey"
+  ],
+  [
+   "R",
+   1,
+   "Description: Trinidad and Tobago"
+  ],
+  [
+   "R",
+   1,
+   "Description: Tuvalu"
+  ],
+  [
+   "R",
+   1,
+   "Description: Taiwan, Province of China"
+  ],
+  [
+   "R",
+   1,
+   "Description: United Republic of Tanzania"
+  ],
+  [
+   "R",
+   1,
+   "Description: Ukraine"
+  ],
+  [
+   "R",
+   1,
+   "Description: Uganda"
+  ],
+  [
+   "R",
+   1,
+   "Description: United States Minor Outlying Islands"
+  ],
+  [
+   "R",
+   1,
+   "Description: United Nations"
+  ],
+  [
+   "R",
+   1,
+   "Description: United States"
+  ],
+  [
+   "R",
+   1,
+   "Description: Uruguay"
+  ],
+  [
+   "R",
+   1,
+   "Description: Uzbekistan"
+  ],
+  [
+   "R",
+   1,
+   "Description: Holy See (Vatican City State)"
+  ],
+  [
+   "R",
+   1,
+   "Description: Saint Vincent and the Grenadines"
+  ],
+  [
+   "R",
+   1,
+   "Description: Venezuela"
+  ],
+  [
+   "R",
+   1,
+   "Description: British Virgin Islands"
+  ],
+  [
+   "R",
+   1,
+   "Description: U.S. Virgin Islands"
+  ],
+  [
+   "R",
+   1,
+   "Description: Viet Nam"
+  ],
+  [
+   "R",
+   1,
+   "Description: Vanuatu"
+  ],
+  [
+   "R",
+   1,
+   "Description: Wallis and Futuna"
+  ],
+  [
+   "R",
+   1,
+   "Description: Samoa"
+  ],
+  [
+   "R",
+   1,
+   "Description: Democratic Yemen"
+  ],
+  [
+   "R",
+   1,
+   "Description: Yemen"
+  ],
+  [
+   "R",
+   1,
+   "Description: Mayotte"
+  ],
+  [
+   "R",
+   1,
+   "Description: Yugoslavia"
+  ],
+  [
+   "R",
+   1,
+   "Comments: see BA, HR, ME, MK, RS, or SI"
+  ],
+  [
+   "R",
+   1,
+   "Description: South Africa"
+  ],
+  [
+   "R",
+   1,
+   "Description: Zambia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Zaire"
+  ],
+  [
+   "R",
+   1,
+   "Description: Zimbabwe"
+  ],
+  [
+   "R",
+   1,
+   "Description: World"
+  ],
+  [
+   "R",
+   1,
+   "Description: Africa"
+  ],
+  [
+   "R",
+   1,
+   "Description: North America"
+  ],
+  [
+   "R",
+   1,
+   "Comments: Includes Northern America (021), Caribbean (029), and Central"
+  ],
+  [
+   "R",
+   1,
+   "Description: South America"
+  ],
+  [
+   "R",
+   1,
+   "Description: Oceania"
+  ],
+  [
+   "R",
+   1,
+   "Description: Western Africa"
+  ],
+  [
+   "R",
+   1,
+   "Description: Central America"
+  ],
+  [
+   "R",
+   1,
+   "Description: Eastern Africa"
+  ],
+  [
+   "R",
+   1,
+   "Description: Northern Africa"
+  ],
+  [
+   "R",
+   1,
+   "Description: Middle Africa"
+  ],
+  [
+   "R",
+   1,
+   "Description: Southern Africa"
+  ],
+  [
+   "R",
+   1,
+   "Description: Americas"
+  ],
+  [
+   "R",
+   1,
+   "Description: Northern America"
+  ],
+  [
+   "R",
+   1,
+   "Comments: Does not include Caribbean (029) or Central America (013); see"
+  ],
+  [
+   "R",
+   1,
+   "Description: Caribbean"
+  ],
+  [
+   "R",
+   1,
+   "Description: Eastern Asia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Southern Asia"
+  ],
+  [
+   "R",
+   1,
+   "Description: South-Eastern Asia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Southern Europe"
+  ],
+  [
+   "R",
+   1,
+   "Description: Australia and New Zealand"
+  ],
+  [
+   "R",
+   1,
+   "Description: Melanesia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Micronesia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Polynesia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Asia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Central Asia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Western Asia"
+  ],
+  [
+   "R",
+   1,
+   "Description: Europe"
+  ],
+  [
+   "R",
+   1,
+   "Description: Eastern Europe"
+  ],
+  [
+   "R",
+   1,
+   "Description: Northern Europe"
+  ],
+  [
+   "R",
+   1,
+   "Description: Western Europe"
+  ],
+  [
+   "R",
+   1,
+   "Description: Sub-Saharan Africa"
+  ],
+  [
+   "R",
+   1,
+   "Description: Latin America and the Caribbean"
+  ]
+ ],
+ "sel": [
+  "Andorra",
+  "United Arab Emirates",
+  "Afghanistan",
+  "Anguilla",
+  "Albania",
+  "Armenia"
+ ],
+ "tags": [
+  "I",
+  "Z",
+  "R"
+ ],
+ "paths": [
+  "corpus/raw/tz/iso3166.tab",
+  "corpus/raw/tz/zone1970.tab",
+  "corpus/raw/langsubtag.txt"
+ ],
+ "labels": [
+  "ISO 3166 码表",
+  "时区表",
+  "子标签注册表"
+ ]
+}

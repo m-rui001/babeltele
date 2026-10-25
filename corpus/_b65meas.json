@@ -1,0 +1,1524 @@
+{
+"abortedseq_wrap": [
+0,
+0,
+1,
+0
+],
+"ans_fold_present": [
+1,
+1,
+1,
+1
+],
+"ans_gap": [
+0,
+0,
+0,
+0
+],
+"ans_line_a": [
+2541
+],
+"ans_line_b": [
+2615
+],
+"ans_line_c": [
+3049
+],
+"ans_line_d": [
+1442
+],
+"ans_linefold_a": [
+2541
+],
+"ans_linefold_b": [
+2615
+],
+"ans_linefold_c": [
+3049
+],
+"ans_linefold_d": [
+1442
+],
+"ans_lit_present": [
+1,
+1,
+1,
+1
+],
+"bcp_hdr": [
+0,
+0,
+0,
+0
+],
+"bom": [
+0,
+0,
+0,
+1
+],
+"bytes": [
+378114,
+422279,
+205947,
+109913
+],
+"cat_std": [
+1,
+1,
+1,
+1
+],
+"ch_c64": [
+0,
+0,
+1,
+0
+],
+"ch_c64_fold": [
+0,
+0,
+2,
+0
+],
+"ch_c64_two": [
+0,
+0,
+1,
+0
+],
+"ch_d94": [
+0,
+0,
+0,
+0
+],
+"ch_d94_fold": [
+0,
+0,
+0,
+2
+],
+"ch_d94_gain": [
+0,
+0,
+0,
+2
+],
+"ch_d94_two": [
+0,
+0,
+0,
+2
+],
+"ch_fold_eq": [
+0,
+0,
+0,
+0
+],
+"ch_fold_gain": [
+0,
+0,
+1,
+0
+],
+"chars": [
+378114,
+422279,
+205947,
+109909
+],
+"cite_2068": [
+161,
+16,
+6,
+4
+],
+"cite_2119": [
+0,
+3,
+3,
+4
+],
+"cite_2145": [
+0,
+4,
+4,
+0
+],
+"cite_2616": [
+0,
+175,
+8,
+0
+],
+"cite_7230": [
+0,
+0,
+88,
+9
+],
+"cite_7231": [
+0,
+0,
+38,
+0
+],
+"cite_7235": [
+0,
+0,
+4,
+0
+],
+"cite_9110": [
+0,
+0,
+0,
+2
+],
+"cite_9112": [
+0,
+0,
+0,
+3
+],
+"cite_http_brk": [
+0,
+0,
+0,
+79
+],
+"cite_rfc_brk": [
+0,
+1,
+154,
+35
+],
+"cr": [
+0,
+0,
+0,
+0
+],
+"ff_only_lines": [
+162,
+176,
+89,
+0
+],
+"foot": [
+162,
+176,
+89,
+0
+],
+"formfeed": [
+162,
+176,
+89,
+0
+],
+"hdr": [
+161,
+175,
+88,
+0
+],
+"hdr_ns": [
+0,
+0,
+0,
+0
+],
+"hdr_sp": [
+161,
+175,
+88,
+0
+],
+"hyb_cont": [
+39,
+75,
+8,
+14
+],
+"hyb_eol": [
+79,
+114,
+10,
+21
+],
+"in_scope": [
+0,
+0,
+1,
+1
+],
+"ise": [
+0,
+0,
+1,
+1
+],
+"issn_hdr": [
+0,
+0,
+1,
+1
+],
+"lines": [
+9076,
+9860,
+4988,
+2462
+],
+"lines_ge40": [
+3980,
+4483,
+2152,
+1192
+],
+"lines_ge40_nos": [
+3980,
+4483,
+2151,
+1192
+],
+"lit_abortedreq": [
+1,
+0,
+0,
+0
+],
+"lit_abortedseq": [
+0,
+1,
+0,
+0
+],
+"lit_abortedseq_fold": [
+0,
+1,
+1,
+0
+],
+"lit_apchttp": [
+0,
+4,
+6,
+6
+],
+"lit_asares": [
+0,
+0,
+1,
+1
+],
+"lit_atleastone": [
+1,
+1,
+0,
+0
+],
+"lit_atmost2": [
+1,
+0,
+0,
+0
+],
+"lit_avoidcong": [
+1,
+0,
+0,
+0
+],
+"lit_bigcontent": [
+0,
+0,
+0,
+1
+],
+"lit_closeopt": [
+3,
+3,
+18,
+16
+],
+"lit_congnet": [
+0,
+0,
+1,
+1
+],
+"lit_conservative": [
+0,
+0,
+1,
+1
+],
+"lit_dos": [
+0,
+2,
+4,
+2
+],
+"lit_graceful": [
+1,
+1,
+1,
+1
+],
+"lit_headol": [
+0,
+0,
+1,
+1
+],
+"lit_hyphen_gap": [
+3,
+4,
+0,
+0
+],
+"lit_idemhave": [
+0,
+0,
+2,
+1
+],
+"lit_idemmethods": [
+0,
+2,
+2,
+1
+],
+"lit_impractical": [
+0,
+0,
+1,
+1
+],
+"lit_keepa_lower": [
+0,
+0,
+5,
+4
+],
+"lit_keepa_upper": [
+20,
+8,
+5,
+4
+],
+"lit_leno": [
+1,
+1,
+1,
+1
+],
+"lit_methodid": [
+1,
+0,
+0,
+0
+],
+"lit_more2": [
+0,
+1,
+0,
+0
+],
+"lit_msghttp": [
+4,
+5,
+11,
+12
+],
+"lit_nomandate": [
+0,
+0,
+1,
+1
+],
+"lit_nu": [
+1,
+1,
+0,
+0
+],
+"lit_orx": [
+0,
+1,
+0,
+0
+],
+"lit_oughttolimit": [
+0,
+0,
+2,
+2
+],
+"lit_payloadblk": [
+0,
+0,
+1,
+0
+],
+"lit_persistent": [
+14,
+14,
+11,
+10
+],
+"lit_plain_in_ab": [
+-3,
+-4,
+4,
+4
+],
+"lit_pn": [
+1,
+1,
+0,
+0
+],
+"lit_recovery": [
+1,
+1,
+1,
+1
+],
+"lit_removed2": [
+0,
+0,
+1,
+0
+],
+"lit_retransseq": [
+0,
+0,
+1,
+0
+],
+"lit_retrydef": [
+0,
+0,
+0,
+1
+],
+"lit_sec922": [
+0,
+0,
+0,
+2
+],
+"lit_seqidem": [
+0,
+0,
+0,
+0
+],
+"lit_seqidem_fold": [
+0,
+1,
+0,
+0
+],
+"lit_seqretry": [
+0,
+0,
+1,
+0
+],
+"lit_shouldlimit": [
+1,
+1,
+0,
+0
+],
+"lit_sidec": [
+0,
+0,
+1,
+0
+],
+"lit_sidec_fold": [
+0,
+0,
+1,
+1
+],
+"lit_sided": [
+0,
+0,
+0,
+1
+],
+"lit_sided_fold": [
+0,
+0,
+1,
+1
+],
+"lit_simcon": [
+1,
+1,
+0,
+0
+],
+"lit_simopen": [
+0,
+0,
+1,
+1
+],
+"lit_singleuser": [
+1,
+1,
+0,
+0
+],
+"lit_specnum": [
+0,
+0,
+1,
+1
+],
+"lit_srvto_h": [
+1,
+1,
+0,
+0
+],
+"lit_srvto_p": [
+0,
+0,
+1,
+1
+],
+"lit_sustain": [
+0,
+0,
+1,
+1
+],
+"lit_timeout_h": [
+3,
+4,
+0,
+0
+],
+"lit_timeout_p": [
+0,
+0,
+4,
+4
+],
+"lit_two_both": [
+1,
+1,
+0,
+0
+],
+"lo_may": [
+251,
+69,
+5,
+7
+],
+"lo_must": [
+56,
+22,
+1,
+1
+],
+"lo_should": [
+91,
+25,
+0,
+0
+],
+"maxlen": [
+75,
+72,
+72,
+72
+],
+"nb_gap": [
+162,
+176,
+89,
+0
+],
+"nonascii": [
+0,
+0,
+0,
+1
+],
+"nonascii_cp": [
+[],
+[],
+[],
+[
+"0xfc"
+]
+],
+"nonblank": [
+6234,
+6911,
+3464,
+1931
+],
+"nonblank_asciib": [
+6396,
+7087,
+3553,
+1931
+],
+"oblig_low": [
+398,
+116,
+6,
+8
+],
+"oblig_up": [
+551,
+784,
+222,
+140
+],
+"obs_hdr": [
+0,
+1,
+1,
+1
+],
+"obsoleted_by": [
+1,
+1,
+0,
+1
+],
+"only_a": 1676,
+"only_a_nos": 1676,
+"only_d": 710,
+"only_d_nos": 710,
+"pagelines": [
+323,
+351,
+177,
+0
+],
+"pages_est": [
+162,
+176,
+89,
+0
+],
+"pg": [
+162,
+176,
+89,
+0
+],
+"pool_n": 3572,
+"pool_share1_2068": 700,
+"pool_share1_2616": 732,
+"pool_share1_7230": 647,
+"pool_share1_9112": 249,
+"pool_share2_ab": 989,
+"pool_share2_cd": 223,
+"pool_share4": [
+"aclientserverorproxymayclosethetransportconnectionatany",
+"connectionfromtheserverspointofviewtheconnectionisbeing",
+"nolongermaintainaninactiveconnectionproxyserversmightmake",
+"serverswillusuallyhavesometimeoutvaluebeyondwhichtheywill",
+"thefirstlineofaresponsemessageisthestatuslineconsisting",
+"thisahighervaluesinceitislikelythattheclientwillbemaking"
+],
+"pool_tier": [
+2328,
+1218,
+20,
+6
+],
+"pool_tier_close": 0,
+"req_rc": [
+1,
+1,
+1,
+1
+],
+"rfc2119_ref": [
+0,
+3,
+3,
+6
+],
+"s_a2": [
+0,
+0,
+0,
+0
+],
+"s_a2_fold": [
+1,
+0,
+0,
+0
+],
+"s_a_len": [
+0,
+0,
+0,
+0
+],
+"s_a_len_fold": [
+1,
+0,
+0,
+0
+],
+"s_a_retry": [
+0,
+0,
+0,
+0
+],
+"s_a_retry_fold": [
+1,
+0,
+0,
+0
+],
+"s_b2": [
+0,
+0,
+0,
+0
+],
+"s_b2_fold": [
+0,
+1,
+0,
+0
+],
+"s_b_len": [
+0,
+0,
+0,
+0
+],
+"s_b_len_fold": [
+0,
+1,
+0,
+0
+],
+"s_b_retry": [
+0,
+0,
+0,
+0
+],
+"s_b_retry_fold": [
+0,
+1,
+0,
+0
+],
+"s_c_nmand": [
+0,
+0,
+0,
+0
+],
+"s_c_nmand_fold": [
+0,
+0,
+1,
+1
+],
+"s_cd_len": [
+0,
+0,
+0,
+0
+],
+"s_cd_len_fold": [
+0,
+0,
+1,
+1
+],
+"s_cd_same": [
+0,
+0,
+0,
+0
+],
+"s_cd_same_fold": [
+0,
+0,
+1,
+1
+],
+"s_dosnote": [
+0,
+0,
+0,
+0
+],
+"s_dosnote_fold": [
+0,
+0,
+1,
+1
+],
+"s_grace_conn": [
+0,
+0,
+0,
+0
+],
+"s_grace_conn_fold": [
+0,
+0,
+1,
+1
+],
+"s_grace_it": [
+0,
+0,
+0,
+0
+],
+"s_grace_it_fold": [
+1,
+1,
+0,
+0
+],
+"s_grace_that": [
+0,
+0,
+0,
+0
+],
+"s_grace_that_fold": [
+0,
+0,
+1,
+1
+],
+"s_grace_trac": [
+1,
+1,
+0,
+0
+],
+"s_grace_trac_fold": [
+1,
+1,
+0,
+0
+],
+"s_hol": [
+0,
+0,
+1,
+1
+],
+"s_hol_c": [
+0,
+0,
+0,
+0
+],
+"s_hol_c_fold": [
+0,
+0,
+1,
+0
+],
+"s_hol_d": [
+0,
+0,
+0,
+0
+],
+"s_hol_d_fold": [
+0,
+0,
+0,
+1
+],
+"s_hol_fold": [
+0,
+0,
+1,
+1
+],
+"s_oneper": [
+1,
+1,
+0,
+0
+],
+"s_oneper_fold": [
+1,
+1,
+0,
+0
+],
+"s_proxy": [
+0,
+0,
+0,
+0
+],
+"s_proxy_fold": [
+1,
+1,
+0,
+0
+],
+"s_remove": [
+0,
+0,
+0,
+0
+],
+"s_remove_fold": [
+0,
+0,
+1,
+1
+],
+"s_sust": [
+0,
+0,
+1,
+1
+],
+"s_sust_fold": [
+0,
+0,
+1,
+1
+],
+"s_tline_h": [
+1,
+1,
+0,
+0
+],
+"s_tline_h_fold": [
+1,
+1,
+0,
+0
+],
+"s_tline_p": [
+0,
+0,
+1,
+1
+],
+"s_tline_p_fold": [
+0,
+0,
+1,
+1
+],
+"sec_concurrency": [
+0,
+0,
+2,
+2
+],
+"sec_concurrency_line": [
+[],
+[],
+[
+162,
+3042
+],
+[
+107,
+1435
+]
+],
+"sec_estab": [
+0,
+0,
+0,
+2
+],
+"sec_estab_line": [
+[],
+[],
+[],
+[
+102,
+1306
+]
+],
+"sec_failures": [
+0,
+0,
+2,
+2
+],
+"sec_failures_line": [
+[],
+[],
+[
+163,
+3064
+],
+[
+108,
+1463
+]
+],
+"sec_persistence": [
+0,
+0,
+0,
+2
+],
+"sec_persistence_line": [
+[],
+[],
+[],
+[
+104,
+1335
+]
+],
+"sec_practical": [
+2,
+2,
+0,
+0
+],
+"sec_practical_line": [
+[
+107,
+2492
+],
+[
+129,
+2565
+],
+[],
+[]
+],
+"sec_teardown": [
+0,
+0,
+0,
+2
+],
+"sec_teardown_line": [
+[],
+[],
+[],
+[
+109,
+1498
+]
+],
+"share4_axis_case": 1,
+"share4_axis_close": 0,
+"share4_axis_hyph": 1,
+"share4_axis_multi": 0,
+"share4_axis_space": 2,
+"share4_byte4": 2,
+"share4_diff": [
+[
+"case",
+"thefirstlineofaresponsemessageisthestatuslineconsisting"
+],
+[
+"hyph",
+"serverswillusuallyhavesometimeoutvaluebeyondwhichtheywill"
+],
+[
+"space",
+"connectionfromtheserverspointofviewtheconnectionisbeing"
+],
+[
+"space",
+"nolongermaintainaninactiveconnectionproxyserversmightmake"
+]
+],
+"share4_notbyte": 4,
+"share_ab": 2301,
+"share_ab_nos": 2301,
+"share_ac": 45,
+"share_ac_nos": 45,
+"share_ad": 22,
+"share_ad_nos": 22,
+"share_bc": 55,
+"share_bc_nos": 55,
+"share_bd": 30,
+"share_bd_nos": 30,
+"share_cd": 470,
+"share_cd_delta": 0,
+"share_cd_nos": 470,
+"shell_delta": [
+0,
+0,
+1,
+0
+],
+"sig_distinct": 4,
+"sig_sha256_16": [
+"d6c4e471389f2d30",
+"10211d2885196b97",
+"c7fdc8bebdf1f819",
+"e4f426bac6206b67"
+],
+"sn_fold_docs": [
+8,
+8,
+11,
+11
+],
+"sn_only_fold": [
+"a2",
+"b2",
+"proxy",
+"remove",
+"c_nmand",
+"hol_c",
+"hol_d",
+"cd_same",
+"a_len",
+"b_len",
+"cd_len",
+"grace_it",
+"grace_that",
+"grace_conn",
+"a_retry",
+"b_retry",
+"dosnote"
+],
+"sn_strict_docs": [
+3,
+3,
+3,
+3
+],
+"srv_side_art": [
+0,
+0,
+0,
+1
+],
+"srv_side_raw": [
+0,
+0,
+1,
+0
+],
+"std_hdr": [
+0,
+0,
+0,
+1
+],
+"toc_lines": [
+233,
+251,
+93,
+0
+],
+"trail": [
+162,
+176,
+89,
+0
+],
+"u_may": [
+98,
+180,
+42,
+22
+],
+"u_may_not": [
+1,
+0,
+0,
+0
+],
+"u_must": [
+262,
+348,
+130,
+87
+],
+"u_must_not": [
+78,
+120,
+43,
+22
+],
+"u_recommended": [
+0,
+1,
+2,
+3
+],
+"u_required": [
+0,
+5,
+1,
+1
+],
+"u_should": [
+191,
+256,
+50,
+31
+],
+"u_should_not": [
+22,
+42,
+13,
+6
+],
+"union_all": 8968,
+"union_all_nos": 8967,
+"upd_hdr": [
+0,
+0,
+1,
+0
+],
+"v_browser": [
+2,
+3,
+8,
+2
+],
+"v_client": [
+278,
+310,
+146,
+108
+],
+"v_congest": [
+5,
+5,
+1,
+2
+],
+"v_conn": [
+135,
+129,
+224,
+176
+],
+"v_idem": [
+2,
+11,
+7,
+2
+],
+"v_keepw": [
+4,
+2,
+6,
+5
+],
+"v_persist": [
+29,
+26,
+19,
+19
+],
+"v_proxy": [
+95,
+126,
+69,
+24
+],
+"v_retransmit": [
+2,
+2,
+1,
+0
+],
+"v_retry": [
+14,
+11,
+10,
+5
+],
+"v_server": [
+534,
+569,
+208,
+119
+],
+"v_state": [
+12,
+15,
+8,
+3
+],
+"v_timeoutw": [
+0,
+0,
+4,
+4
+],
+"wrap_sn_hit": 17,
+"wrap_sn_n": 23,
+"wrap_sn_total": 26,
+"wrapgap_a2": [
+1,
+0,
+0,
+0
+],
+"wrapgap_a_len": [
+1,
+0,
+0,
+0
+],
+"wrapgap_a_retry": [
+1,
+0,
+0,
+0
+],
+"wrapgap_b2": [
+0,
+1,
+0,
+0
+],
+"wrapgap_b_len": [
+0,
+1,
+0,
+0
+],
+"wrapgap_b_retry": [
+0,
+1,
+0,
+0
+],
+"wrapgap_c_nmand": [
+0,
+0,
+1,
+1
+],
+"wrapgap_cd_len": [
+0,
+0,
+1,
+1
+],
+"wrapgap_cd_same": [
+0,
+0,
+1,
+1
+],
+"wrapgap_dosnote": [
+0,
+0,
+1,
+1
+],
+"wrapgap_grace_conn": [
+0,
+0,
+1,
+1
+],
+"wrapgap_grace_it": [
+1,
+1,
+0,
+0
+],
+"wrapgap_grace_that": [
+0,
+0,
+1,
+1
+],
+"wrapgap_grace_trac": [
+0,
+0,
+0,
+0
+],
+"wrapgap_hol": [
+0,
+0,
+0,
+0
+],
+"wrapgap_hol_c": [
+0,
+0,
+1,
+0
+],
+"wrapgap_hol_d": [
+0,
+0,
+0,
+1
+],
+"wrapgap_oneper": [
+0,
+0,
+0,
+0
+],
+"wrapgap_proxy": [
+1,
+1,
+0,
+0
+],
+"wrapgap_remove": [
+0,
+0,
+1,
+1
+],
+"wrapgap_sust": [
+0,
+0,
+0,
+0
+],
+"wrapgap_tline_h": [
+0,
+0,
+0,
+0
+],
+"wrapgap_tline_p": [
+0,
+0,
+0,
+0
+]
+}

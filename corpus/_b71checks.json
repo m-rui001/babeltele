@@ -1,0 +1,2363 @@
+{
+ "anchor_total": 17,
+ "anchor_distinct": 14,
+ "anchor_err": 0,
+ "anchor_single": 12,
+ "anchor_cross": 2,
+ "anchor_all4": 0,
+ "checks": 56,
+ "enc_chars": 7298,
+ "nsrc": 4,
+ "tag_4507": 4,
+ "tag_5077": 2,
+ "tag_8446": 8,
+ "tag_9001": 3,
+ "letters_in": 656,
+ "letters_out": 727,
+ "classes": {
+  "single": [
+   "      604800 seconds (7 days).  The value of zero indicates that the",
+   "      MAY treat a ticket as valid for a shorter period of time than what",
+   "      ticket should be discarded immediately.  Clients MUST NOT cache",
+   "   Because ticket lifetimes are restricted to a week, 32 bits is enough",
+   "   Clients SHOULD NOT reuse a ticket for multiple connections.  Reuse of",
+   "   [TLS13] sets a limit of seven days on the time between the original",
+   "   avoid creating this correlation.  Clients SHOULD NOT reuse tickets as",
+   "   document applies to both TLS 1.0 defined in [RFC2246] and TLS 1.1",
+   "   modulo 2^32) is within a small tolerance of the time since the ticket",
+   "   relative to when the ticket is received.  A value of zero is reserved",
+   "Obsoletes: 4507                                            Cisco Systems",
+   "Obsoletes: 5077, 5246, 6961                                  August 2018"
+  ],
+  "cross": [
+   "   The ticket lifetime may be longer than the 24-hour lifetime",
+   "   value of zero is reserved to indicate that the lifetime of the ticket"
+  ],
+  "three": [],
+  "four": []
+ },
+ "collisions": {
+  "35329": [
+   "码位·4507"
+  ],
+  "41989": [
+   "码位·5077"
+  ],
+  "337736": [
+   "码位·8446"
+  ],
+  "72": [
+   "最长行·5077",
+   "最长行·8446",
+   "最长行·9001"
+  ],
+  "17": [
+   "换页独占行·4507",
+   "anchor_total"
+  ],
+  "20": [
+   "换页独占行·5077",
+   "窗带宽"
+  ],
+  "160": [
+   "换页独占行·8446"
+  ],
+  "12": [
+   "加字节·9001",
+   "lifetime词·4507",
+   "lifetime词·8446",
+   "anchor_single"
+  ],
+  "7": [
+   "上限倍率",
+   "plain字段·8446",
+   "折平档·4507",
+   "摘壳档·4507",
+   "折行独有·份·8446",
+   "目标号枚数",
+   "更新动词·8446",
+   "窗外lifetime·8446",
+   "同形对·4507·8446"
+  ],
+  "1": [
+   "给上限份数",
+   "9001无自建",
+   "上限字面·8446",
+   "上限句·8446",
+   "hint声明·4507",
+   "hint声明·5077",
+   "字段改名",
+   "逐行档·4507",
+   "阶梯单调",
+   "两轨相等",
+   "零=未定·4507针·4507",
+   "零=未定·4507针·5077",
+   "零=未定·5077针·5077",
+   "整句·5077在4507摘壳面",
+   "短针·4507在5077摘壳面",
+   "短针·4507在5077全篇面",
+   "零值翻转",
+   "丢弃句原样针·4507",
+   "丢弃句原样针·5077",
+   "SHOULDNOT·4507",
+   "SHOULDNOT·5077",
+   "复用缺席",
+   "起点插入",
+   "共头·50对84",
+   "段内hint·4507段",
+   "段内hint·5077段",
+   "段内or longer·4507段",
+   "段内or longer·5077段",
+   "or longer折平·4507",
+   "or longer折平·5077",
+   "只剩shorter·8446",
+   "砍掉or longer",
+   "issuance折平·8446",
+   "issuance唯一",
+   "9001复用句·9001",
+   "8446复用句·8446",
+   "转述判定",
+   "week词·8446",
+   "week唯一",
+   "24小时·4507",
+   "24小时·5077",
+   "废止枚数·5077",
+   "链条闭合",
+   "废止动词·5077",
+   "废止动词·8446",
+   "更新动词·9001",
+   "更新头行·8446",
+   "类别行·4507",
+   "类别行·5077",
+   "类别行·8446",
+   "类别行·9001",
+   "类别ST·4507",
+   "类别ST·5077",
+   "类别ST·8446",
+   "类别ST·9001",
+   "ISSN·8446",
+   "ISSN·9001",
+   "年份序索引1",
+   "窗内zero·8446",
+   "窗内上限·8446",
+   "互引单向",
+   "字节对·4507·8446",
+   "字节对·4507·9001",
+   "仅归一对·4507·9001",
+   "仅归一对·8446·9001"
+  ],
+  "3": [
+   "hint字段·4507",
+   "hint字段·5077",
+   "小写must·4507",
+   "小写must·5077",
+   "段行数·8446段",
+   "定义⇎起点行距",
+   "年距·8446到9001",
+   "年份序索引3",
+   "2246合计·5077",
+   "三现长行",
+   "tag_9001"
+  ],
+  "5": [
+   "hint词·5077",
+   "大写SHOULD·4507",
+   "大写SHOULD·5077",
+   "discard小写·8446",
+   "窗内lifetime·8446",
+   "5077合计·8446",
+   "2246合计·4507",
+   "8446引5077"
+  ],
+  "2": [
+   "逐行档·8446",
+   "逐行档·9001",
+   "折行独有·份·9001",
+   "小写must·9001",
+   "SHOULDNOT·9001",
+   "reuse词·9001",
+   "lifetime词·9001",
+   "unspecified·4507",
+   "unspecified·5077",
+   "unspecified·8446",
+   "discard小写·4507",
+   "discard小写·5077",
+   "更新枚数·8446",
+   "年距·4507到5077",
+   "年份序索引2",
+   "窗外lifetime·9001",
+   "窗内zero·4507",
+   "窗内zero·5077",
+   "窗外zero·4507",
+   "窗外zero·5077",
+   "窗外reuse·9001",
+   "8446合计·9001",
+   "2246写法族·4507",
+   "2246写法族·5077",
+   "四现长行",
+   "轴档非零数",
+   "同形对·4507·9001",
+   "同形对·5077·9001",
+   "字节对·5077·9001",
+   "仅归一对·5077·8446",
+   "锚池分档·9001",
+   "anchor_cross",
+   "tag_5077"
+  ],
+  "6": [
+   "摘壳档·5077",
+   "折行独有·份·4507",
+   "折行独有·份·5077",
+   "5077针数",
+   "大写MAY·4507",
+   "大写MAY·5077",
+   "段行数·5077段",
+   "字节对·5077·8446",
+   "仅归一对·4507·8446"
+  ],
+  "9": [
+   "摘壳档·8446",
+   "裸MUST·4507",
+   "裸MUST·5077",
+   "MUSTNOT·4507",
+   "MUSTNOT·5077",
+   "immediately·9001",
+   "窗外lifetime·5077",
+   "清单闭合数"
+  ],
+  "4": [
+   "摘壳档·9001",
+   "reuse词·8446",
+   "废止枚数·8446",
+   "命名节数",
+   "命名答句数",
+   "窗内lifetime·4507",
+   "窗内lifetime·5077",
+   "窗外reuse·8446",
+   "4346合计·4507",
+   "4346合计·8446",
+   "nsrc",
+   "tag_4507"
+  ],
+  "18": [
+   "大写MUST·5077"
+  ],
+  "24": [
+   "大写MAY·9001",
+   "discard小写·9001",
+   "4507合计·5077",
+   "5077引4507",
+   "仅归一对·4507·5077",
+   "最大对仅归一"
+  ],
+  "21": [
+   "大写SHOULD·9001",
+   "段词数·8446段"
+  ],
+  "389": [
+   "段起行·4507段"
+  ],
+  "15": [
+   "段行数·4507段"
+  ],
+  "62": [
+   "段词数·5077段",
+   "共尾·45对50",
+   "共头·45对50"
+  ],
+  "2018": [
+   "目标号",
+   "年份·8446"
+  ],
+  "4507": [
+   "目标号"
+  ],
+  "5077": [
+   "目标号"
+  ],
+  "5246": [
+   "目标号"
+  ],
+  "5705": [
+   "目标号"
+  ],
+  "6066": [
+   "目标号"
+  ],
+  "6961": [
+   "目标号"
+  ],
+  "May": [
+   "月份·9001"
+  ],
+  "10": [
+   "年距·5077到8446"
+  ],
+  "438": [
+   "答句行·5077"
+  ],
+  "767": [
+   "窗起·9001"
+  ],
+  "41": [
+   "窗行数·5077",
+   "窗行数·8446",
+   "窗行数·9001"
+  ],
+  "8": [
+   "窗外lifetime·4507",
+   "窗外zero·9001",
+   "4346合计·5077",
+   "同形对·5077·8446",
+   "锚池分档·8446",
+   "tag_8446"
+  ],
+  "14": [
+   "窗内数字·4507",
+   "窗内数字·5077",
+   "anchor_distinct"
+  ],
+  "16": [
+   "4507合计·4507",
+   "自指·4507",
+   "边框行长行"
+  ],
+  "19": [
+   "自指·5077"
+  ],
+  "192": [
+   "自指·8446"
+  ],
+  "30": [
+   "仅归一串数"
+  ],
+  "40": [
+   "同形对·8446·9001"
+  ],
+  "259": [
+   "最大对枚数"
+  ],
+  "235": [
+   "最大对字节"
+  ],
+  "57": [
+   "恒等式条数",
+   "恒等式通过数"
+  ]
+ },
+ "zero_terms": 227,
+ "deriv_keys": 117,
+ "deriv_points": 335,
+ "notes": {
+  "35329": "字节·4507",
+  "41989": "字节·5077",
+  "337736": "字节·8446",
+  "126175": "字节·9001",
+  "126163": "码位·9001",
+  "956": "行数·4507",
+  "1124": "行数·5077",
+  "8964": "行数·8446",
+  "2757": "行数·9001",
+  "608": "非空行·4507",
+  "710": "非空行·5077",
+  "5848": "非空行·8446",
+  "2186": "非空行·9001",
+  "72": "最长行·4507",
+  "17": "换页符·4507",
+  "20": "换页符·5077",
+  "160": "换页符·8446",
+  "384": "剥壳行·4507",
+  "457": "剥壳行·5077",
+  "3440": "剥壳行·8446",
+  "574": "剥壳行·9001",
+  "1": "BOM·9001",
+  "8": "非ASCII·9001",
+  "12": "字节码位差·9001",
+  "3": "纯ASCII份数",
+  "604800": "上限秒·8446",
+  "7": "括注日数",
+  "24": "24时数",
+  "86400": "日秒数",
+  "32": "模幂",
+  "2": "plain声明·8446",
+  "5": "hint词·4507",
+  "28": "针总数",
+  "6": "折平档·5077",
+  "9": "折平档·8446",
+  "4": "折平档·9001",
+  "21": "折行独有枚数",
+  "389": "零句行",
+  "399": "未定行",
+  "10": "零句跨页距",
+  "11": "跨面针枚数",
+  "-1": "上限⇎零值行距",
+  "18": "大写MUST·4507",
+  "330": "大写MUST·8446",
+  "85": "大写MUST·9001",
+  "256": "裸MUST·8446",
+  "60": "裸MUST·9001",
+  "74": "MUSTNOT·8446",
+  "25": "MUSTNOT·9001",
+  "58": "大写MAY·8446",
+  "76": "大写SHOULD·8446",
+  "14": "小写must·8446",
+  "15": "SHOULDNOT·8446",
+  "438": "段起行·5077段",
+  "4124": "段起行·8446段",
+  "403": "段止行·4507段",
+  "443": "段止行·5077段",
+  "4126": "段止行·8446段",
+  "62": "段词数·4507段",
+  "43": "共有词",
+  "31": "TLS13记号·9001",
+  "13": "lifetime词·5077",
+  "16": "immediately·8446",
+  "4507": "5077废止对象",
+  "2018": "8446废止对象",
+  "5077": "8446废止对象",
+  "5246": "8446废止对象",
+  "6961": "8446废止对象",
+  "5705": "8446更新对象",
+  "6066": "8446更新对象",
+  "2006": "年份·4507",
+  "2008": "年份·5077",
+  "2021": "年份·9001",
+  "May": "月份·4507",
+  "January": "月份·5077",
+  "August": "月份·8446",
+  "360": "节行·4507",
+  "406": "节行·5077",
+  "4051": "节行·8446",
+  "767": "节行·9001",
+  "387": "答句行·4507",
+  "4121": "答句行·8446",
+  "787": "答句行·9001",
+  "367": "窗起·4507",
+  "418": "窗起·5077",
+  "4101": "窗起·8446",
+  "407": "窗止·4507",
+  "458": "窗止·5077",
+  "4141": "窗止·8446",
+  "807": "窗止·9001",
+  "41": "窗行数·4507",
+  "40": "窗外zero·8446",
+  "33": "窗内数字·8446",
+  "30": "窗内数字·9001",
+  "634": "窗外数字·4507",
+  "854": "窗外数字·5077",
+  "9282": "窗外数字·8446",
+  "5552": "窗外数字·9001",
+  "19": "5077合计·5077",
+  "192": "8446合计·8446",
+  "5710": "长行池",
+  "5694": "字母行长行",
+  "297": "两现长行",
+  "259": "同形对·4507·5077",
+  "235": "字节对·4507·5077",
+  "39": "字节对·8446·9001",
+  "4507·5077": "最大对名",
+  "422": "锚池标签·4507",
+  "505": "锚池标签·5077",
+  "4249": "锚池标签·8446",
+  "1766": "锚池标签·9001",
+  "6216": "锚池分档·4507",
+  "347": "锚池分档·5077",
+  "57": "标量恒等式数",
+  "56": "checks",
+  "7298": "enc_chars"
+ },
+ "needle_n": 28,
+ "zid": [
+  [
+   "B71V('pair_close')",
+   "两两“归一同形”减“逐字节同形”再减“只归一同形”应回到零(池代数闭合)"
+  ],
+  [
+   "B71V('pool_tier_close')",
+   "共用长行按份数分档之和=池条数"
+  ],
+  [
+   "B71V('axis_close')",
+   "写法分家轴四桶之和=“归一同形而逐字节不同”的条数"
+  ],
+  [
+   "B71V('union_close')",
+   "按份数加权和=单份集合大小之和−两两交+…(容斥对账)"
+  ],
+  [
+   "B71V('apool_tier_close')",
+   "锚候选池按“几份面上出现”加权分档之和=池条目数"
+  ],
+  [
+   "B71V('apool_tag_close')",
+   "锚候选池按标签分布之和=池条目数"
+  ],
+  [
+   "B71V('ladder_monotone') - 1",
+   "三面阶梯单调: 逐行档 + 折行独有档 = 折平档"
+  ],
+  [
+   "B71V('re_eq_cur') - 1",
+   "正则字面轨与非重叠游标轨在同一批针上逐枚相等"
+  ],
+  [
+   "B71V('overlap_extra')",
+   "重叠口径减非重叠口径在全库针上合计为零"
+  ],
+  [
+   "B71V('fold_line_zero')",
+   "折行独有的针按逐行口径必须全为零"
+  ],
+  [
+   "sum(B71V('sh_minus_fold'))",
+   "摘壳折平档一枚不丢(壳行里没有答句)"
+  ],
+  [
+   "sum([abs(x) for x in B71V('up_ledger')])",
+   "大写 MUST 总数 = 裸 MUST + MUST NOT"
+  ],
+  [
+   "sum([abs(x) for x in B71V('case_ledger')])",
+   "每份面: 大写档+小写档+首字母大写档=不分大小写档"
+  ],
+  [
+   "B71V('win_close_sum')",
+   "答句邻域窗五轨(lifetime⇎zero⇎604800⇎reuse⇎数字符)带内+带外=全篇"
+  ],
+  [
+   "len(B71V('s3_examples')) - (B71V('pool_3') + B71V('pool_4'))",
+   "三份及以上同现的共用长行枚数=池分档第三+第四档"
+  ],
+  [
+   "B71V('zero_flip') - 1",
+   "零值语义翻转判定: 4507⇎5077=未定, 8446=立即丢弃, 9001 面上连这句都没有"
+  ],
+  [
+   "B71V('zero_res_agree')",
+   "“零值=未定”那枚整句在 4507 与 5077 面上都读得到"
+  ],
+  [
+   "B71V('zero_ind_unique')",
+   "“零=立即丢弃”句式全库只 8446 一枚"
+  ],
+  [
+   "B71V('cap_unique')",
+   "604800 这枚读数全库只有一份给得出"
+  ],
+  [
+   "B71V('cap_ratio_close')",
+   "604800 秒 = 7 日整(游标倍率与括注日数同枚、余零)"
+  ],
+  [
+   "B71V('day_lt_cap')",
+   "24 小时的秒数严格小于硬上限"
+  ],
+  [
+   "B71V('drop_or_longer') - 1",
+   "“shorter or longer”在 8446 被砍成“shorter”: 前两份各一枚、8446 零枚而其变体一枚"
+  ],
+  [
+   "B71V('rel_inserted') - 1",
+   "relative to when the ticket is received 只活在 5077 面(4507 零枚)"
+  ],
+  [
+   "B71V('from_issuance_only') - 1",
+   "“from the time of ticket issuance”只 8446 一枚(起算点被换掉)"
+  ],
+  [
+   "B71V('field_renamed') - 1",
+   "ticket_lifetime_hint 在 8446⇎9001 面上零枚, uint32 声明行前两份各一枚 ⇎ 8446 现 plain 式"
+  ],
+  [
+   "B71V('reuse_absent') - 1",
+   "“不得复用票据”只在 8446⇎9001 两份面上, 4507/5077 零枚"
+  ],
+  [
+   "B71V('delegates') - 1",
+   "9001 不自建时长: 七日上限那句带 [TLS13] 主语, 而 lifetime 一词它仍用"
+  ],
+  [
+   "B71V('no_self_lifetime') - 1",
+   "9001 面上读不到 MUST NOT use any value greater than ⇎ 604800 ⇎ “A value of zero”"
+  ],
+  [
+   "B71V('week_only_8446') - 1",
+   "week 这个词只有 8446 用(“restricted to a week”), 其余三份零枚"
+  ],
+  [
+   "B71V('24hour_pair')",
+   "24-hour 恰在 4507⇎5077 各一枚, 后两份零枚"
+  ],
+  [
+   "B71V('year_order')",
+   "标题页年份 2006→2008→2018→2021 严格递增、零倒序(与 B70 恰有一处倒序对照)"
+  ],
+  [
+   "B71V('cat_close')",
+   "四份的 Category: 行全是 Standards Track(在库字节只给得出这个名分)"
+  ],
+  [
+   "B71V('obs_5077_unique')",
+   "5077 的 Obsoletes: 头恰一枚对象"
+  ],
+  [
+   "B71V('chain_closed') - 1",
+   "废止链: 5077←8446 逐号可查, 而 4507 只被 5077 废止、不出现在 8446 的头里"
+  ],
+  [
+   "B71V('cite_dir') - 1",
+   "互引单向: 5077 引 4507 ⇎ 8446 引 5077 ⇎ 8446 面上读不到 9001"
+  ],
+  [
+   "sum(B71V('cr'))",
+   "四份 CR 全零(纯 LF 面)"
+  ],
+  [
+   "sum(B71V('nul_faces'))",
+   "四份面上 NUL 全零"
+  ],
+  [
+   "sum(B71V('bom')) - 1",
+   "BOM 恰一枚: 只有 9001 带"
+  ],
+  [
+   "max([abs(B71V('byte_cp_delta')[i] - B71V('nonascii_extra')[i]) for i in range(4)])",
+   "字节数−码位数 = 每枚非 ASCII 码位的 utf-8 加字节数(9001 的差恰由 BOM+取变音符补足)"
+  ],
+  [
+   "B71V('ascii_all') - (4 - 1)",
+   "四份里三份是纯 ASCII 面"
+  ],
+  [
+   "B71V('ff', 3)",
+   "9001 零换页符 ⇒ 阶梯第三档对它是空操作"
+  ],
+  [
+   "len([1 for i in range(4) if B71V('ff')[i]]) - (4 - 1)",
+   "带换页符的恰是前三份"
+  ],
+  [
+   "sum(B71V('cite_forms_close'))",
+   "2246 的子串三式相加=一条正则族读出的枚数(写法族账闭合)"
+  ],
+  [
+   "B71V('win_named') - B71V('win_ans_named')",
+   "四份都定位到答句行与节标题行"
+  ],
+  [
+   "B71V('num_cap_lit', 2) - B71V('n_z8446_cap', 2)",
+   "8446 面上 604800 字面枚数=那句大写 MUST NOT 的游标枚数"
+  ],
+  [
+   "B71V('fld_close', 0) - B71V('fld_close', 1)",
+   "字段名带下划线时用词界正则: plain 计数−hint 计数在前两份一致(改名只发生在后两份)"
+  ],
+  [
+   "B71V('n_z4507_no_relative', 0)",
+   "4507 面上“relative to when the ticket is received”整句零命中(反向针)"
+  ],
+  [
+   "B71V('n_z5077_zero_reserved', 0)",
+   "“零=未定”那枚连句号整句针在 4507 的全篇折平面上落空(页壳插在句中)"
+  ],
+  [
+   "B71V('n_z8446_shorter_only', 0)",
+   "8446 的“只剩 shorter”句式在 4507 面上零命中"
+  ],
+  [
+   "B71V('n_z9001_lifetime_word', 3) - B71V('lifetime_word', 3)",
+   "lifetime 的针轨与全篇词轨在 9001 面上同数"
+  ],
+  [
+   "B71V('num_day_seconds') - 24 * 3600",
+   "24 小时的秒数由游标读出的时数现乘"
+  ],
+  [
+   "sum(B71V('needles_owned')) - B71V('needle_n')",
+   "按份名下的针数相加=在册针总数(登记账不漏不重)"
+  ],
+  [
+   "B71V('axis_total') - B71V('norm_only_set')",
+   "写法分家轴四桶之和=“归一同形而逐字节不同”的去重串数"
+  ],
+  [
+   "B71V('must_cap_face', 0) + B71V('must_cap_face', 1)",
+   "4507⇎5077 面上都读不到那句 MUST NOT 上限(折平口径)"
+  ],
+  [
+   "B71V('fld_close', 0) + B71V('fld_close', 1) + B71V('fld_close', 2) + B71V('fld_close', 3)",
+   "词界正则把 ticket_lifetime 的每种写法分干净: 子串计数=hint式+plain式(改名前后都不漏)"
+  ],
+  [
+   "sum(B71V('zero_carry_sh')) - 2*len(B71V('zero_carry_sh')) + 2",
+   "摘壳折平面上那枚零值整句在对方两份面上各命中一次(逐字搬运, 只是行被页壳劈开)"
+  ],
+  [
+   "B71V('zero_carry_fold', 1)",
+   "含页壳的全篇折平面上 4507 读不到 5077 那句整句(壳把句子劈开: 读到非零即为失败态)"
+  ]
+ ],
+ "litk": {
+  "z4507_zero_reserved": "A value of zero is reserved to indicate that the lifetime of the ticket",
+  "z4507_unspec_end": "is unspecified.",
+  "z4507_should_delete": "A client SHOULD delete the ticket and associated state when the time expires",
+  "z4507_or_longer": "A server MAY treat a ticket as valid for a shorter or longer period of time than what is stated in the ticket_lifetime_hint",
+  "z4507_no_relative": "relative to when the ticket is received",
+  "z4507_24hour": "The ticket lifetime may be longer than the 24-hour lifetime recommended in [RFC2246]",
+  "z4507_may_be_unspec": "Since the lifetime of a ticket may be unspecified",
+  "z4507_hint_def": "ticket_lifetime_hint field contains a hint from the server about how long the ticket should be stored",
+  "z5077_zero_reserved": "A value of zero is reserved to indicate that the lifetime of the ticket is unspecified.",
+  "z5077_relative": "in seconds as a 32-bit unsigned integer in network byte order relative to when the ticket is received",
+  "z5077_should_delete": "A client SHOULD delete the ticket and associated state when the time expires",
+  "z5077_or_longer": "A server MAY treat a ticket as valid for a shorter or longer period of time than what is stated in the ticket_lifetime_hint",
+  "z5077_24hour": "The ticket lifetime may be longer than the 24-hour lifetime recommended in [RFC4346]",
+  "z5077_hint_def": "ticket_lifetime_hint field contains a hint from the server about how long the ticket should be stored",
+  "z8446_cap": "Servers MUST NOT use any value greater than 604800 seconds (7 days)",
+  "z8446_zero_discard": "The value of zero indicates that the ticket should be discarded immediately",
+  "z8446_cache7": "Clients MUST NOT cache tickets for longer than 7 days, regardless of the ticket_lifetime",
+  "z8446_shorter_only": "A server MAY treat a ticket as valid for a shorter period of time than what is stated in the ticket_lifetime",
+  "z8446_lifetime_from": "Indicates the lifetime in seconds as a 32-bit unsigned integer in network byte order from the time of ticket issuance",
+  "z8446_must_not_attempt": "Clients MUST NOT attempt to use tickets which have ages greater than the \"ticket_lifetime\" value",
+  "z8446_week": "Because ticket lifetimes are restricted to a week, 32 bits is enough to represent any plausible age, even in milliseconds",
+  "z8446_reuse": "Clients SHOULD NOT reuse a ticket for multiple connections",
+  "z8446_mod232": "modulo 2^32",
+  "z9001_seven_days": "[TLS13] sets a limit of seven days on the time between the original connection and any attempt to use 0-RTT",
+  "z9001_reuse": "Clients SHOULD NOT reuse tickets as that allows entities other than the server to correlate connections",
+  "z9001_cap_ref": "sets a limit of seven days",
+  "z9001_zero": "A value of zero",
+  "z9001_lifetime_word": "lifetime"
+ },
+ "sn": {
+  "z4507_zero_reserved": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z4507_unspec_end": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "z4507_should_delete": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z4507_or_longer": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z4507_no_relative": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "z4507_24hour": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z4507_may_be_unspec": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z4507_hint_def": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z5077_zero_reserved": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z5077_relative": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z5077_should_delete": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z5077_or_longer": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z5077_24hour": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z5077_hint_def": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z8446_cap": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z8446_zero_discard": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z8446_cache7": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z8446_shorter_only": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z8446_lifetime_from": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z8446_must_not_attempt": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z8446_week": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z8446_reuse": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "z8446_mod232": [
+   0,
+   0,
+   3,
+   0
+  ],
+  "z9001_seven_days": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z9001_reuse": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "z9001_cap_ref": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "z9001_zero": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "z9001_lifetime_word": [
+   10,
+   11,
+   11,
+   2
+  ]
+ },
+ "closure_keys": [
+  "apool_tag_close",
+  "apool_tier_close",
+  "axis_close",
+  "cap_ratio_close",
+  "case_ledger",
+  "cat_close",
+  "chain_closed",
+  "cite_forms_close",
+  "fld_close",
+  "num_sec_ms_close",
+  "pair_close",
+  "pool_tier_close",
+  "union_close",
+  "up_ledger",
+  "w_row_close",
+  "win_close_cap",
+  "win_close_dig",
+  "win_close_lt",
+  "win_close_reuse",
+  "win_close_sum",
+  "win_close_zero"
+ ],
+ "flat": {
+  "needle_n": 28,
+  "sn_strict_docs": [
+   1,
+   0,
+   2,
+   2
+  ],
+  "sn_fold_docs": [
+   7,
+   6,
+   9,
+   4
+  ],
+  "sn_sh_docs": [
+   7,
+   6,
+   9,
+   4
+  ],
+  "sn_re_docs": [
+   7,
+   6,
+   9,
+   4
+  ],
+  "fold_only_keys": [
+   "z4507_zero_reserved",
+   "z4507_should_delete",
+   "z4507_or_longer",
+   "z4507_24hour",
+   "z4507_may_be_unspec",
+   "z4507_hint_def",
+   "z5077_zero_reserved",
+   "z5077_relative",
+   "z5077_should_delete",
+   "z5077_or_longer",
+   "z5077_24hour",
+   "z5077_hint_def",
+   "z8446_cap",
+   "z8446_zero_discard",
+   "z8446_cache7",
+   "z8446_shorter_only",
+   "z8446_lifetime_from",
+   "z8446_must_not_attempt",
+   "z8446_week",
+   "z9001_seven_days",
+   "z9001_reuse"
+  ],
+  "fold_only_own": [
+   6,
+   6,
+   7,
+   2
+  ],
+  "sh_lost_keys": [],
+  "ladder_monotone": 1,
+  "sh_minus_fold": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "fold_line_zero": 0,
+  "overlap_extra": 0,
+  "re_eq_cur": 1,
+  "zero_carry_sh": [
+   1,
+   1
+  ],
+  "zero_carry_fold": [
+   1,
+   0
+  ],
+  "shared_verbatim": [
+   "z4507_zero_reserved",
+   "z4507_unspec_end",
+   "z4507_should_delete",
+   "z4507_or_longer",
+   "z4507_may_be_unspec",
+   "z4507_hint_def",
+   "z5077_should_delete",
+   "z5077_or_longer",
+   "z5077_hint_def",
+   "z9001_zero",
+   "z9001_lifetime_word"
+  ],
+  "cross_needle_n": 11,
+  "needles_owned": [
+   8,
+   6,
+   9,
+   5
+  ],
+  "n_z4507_zero_reserved": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "n_z4507_unspec_end": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "n_z4507_should_delete": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "n_z4507_or_longer": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "n_z4507_no_relative": [
+   0,
+   2,
+   0,
+   0
+  ],
+  "n_z4507_24hour": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "n_z4507_may_be_unspec": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "n_z4507_hint_def": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "n_z5077_zero_reserved": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "n_z5077_relative": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "n_z5077_should_delete": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "n_z5077_or_longer": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "n_z5077_24hour": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "n_z5077_hint_def": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "n_z8446_cap": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "n_z8446_zero_discard": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "n_z8446_cache7": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "n_z8446_shorter_only": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "n_z8446_lifetime_from": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "n_z8446_must_not_attempt": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "n_z8446_week": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "n_z8446_reuse": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "n_z8446_mod232": [
+   0,
+   0,
+   3,
+   0
+  ],
+  "n_z9001_seven_days": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "n_z9001_reuse": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "n_z9001_cap_ref": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "n_z9001_zero": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "n_z9001_lifetime_word": [
+   12,
+   13,
+   12,
+   2
+  ],
+  "bytes": [
+   35329,
+   41989,
+   337736,
+   126175
+  ],
+  "chars": [
+   35329,
+   41989,
+   337736,
+   126163
+  ],
+  "lines": [
+   956,
+   1124,
+   8964,
+   2757
+  ],
+  "nonblank": [
+   608,
+   710,
+   5848,
+   2186
+  ],
+  "maxlen": [
+   72,
+   72,
+   72,
+   72
+  ],
+  "ff": [
+   17,
+   20,
+   160,
+   0
+  ],
+  "ff_only": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "ff_exact": [
+   17,
+   20,
+   160,
+   0
+  ],
+  "shell_n": [
+   572,
+   667,
+   5524,
+   2183
+  ],
+  "shell_strip": [
+   384,
+   457,
+   3440,
+   574
+  ],
+  "cr": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "nonascii": [
+   0,
+   0,
+   0,
+   8
+  ],
+  "bom": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "nonascii_extra": [
+   0,
+   0,
+   0,
+   12
+  ],
+  "byte_cp_delta": [
+   0,
+   0,
+   0,
+   12
+  ],
+  "nul_faces": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "digit_chars": [
+   648,
+   868,
+   9315,
+   5582
+  ],
+  "dblspace": [
+   5274,
+   5841,
+   46099,
+   9635
+  ],
+  "ascii_all": 3,
+  "obs_set_5077": [
+   4507
+  ],
+  "obs_set_8446": [
+   2018,
+   5077,
+   5246,
+   6961
+  ],
+  "upd_set_8446": [
+   5705,
+   6066
+  ],
+  "obs_n": [
+   0,
+   1,
+   4,
+   0
+  ],
+  "upd_n": [
+   0,
+   0,
+   2,
+   0
+  ],
+  "target_ids": [
+   2018,
+   4507,
+   5077,
+   5246,
+   5705,
+   6066,
+   6961
+  ],
+  "target_n": 7,
+  "obs_verb": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "upd_verb": [
+   0,
+   0,
+   7,
+   1
+  ],
+  "upd_line": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "cat_std": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "cat_hdr": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "issn": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "exp_n": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "std_hdr": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "years": [
+   2006,
+   2008,
+   2018,
+   2021
+  ],
+  "months": [
+   "May",
+   "January",
+   "August",
+   "May"
+  ],
+  "year_n": 4,
+  "year_perm": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "year_order": 0,
+  "year_inversions": 0,
+  "year_gaps": [
+   2,
+   10,
+   3
+  ],
+  "up_must_all": [
+   18,
+   18,
+   330,
+   85
+  ],
+  "up_may": [
+   6,
+   6,
+   58,
+   24
+  ],
+  "up_should": [
+   5,
+   5,
+   76,
+   21
+  ],
+  "must_not": [
+   9,
+   9,
+   74,
+   25
+  ],
+  "should_not": [
+   1,
+   1,
+   15,
+   2
+  ],
+  "may_not": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "must_bare": [
+   9,
+   9,
+   256,
+   60
+  ],
+  "low_must": [
+   3,
+   3,
+   14,
+   2
+  ],
+  "low_may": [
+   14,
+   19,
+   79,
+   3
+  ],
+  "low_should": [
+   13,
+   16,
+   49,
+   0
+  ],
+  "ci_must": [
+   21,
+   21,
+   344,
+   87
+  ],
+  "ci_may": [
+   37,
+   27,
+   148,
+   35
+  ],
+  "ci_should": [
+   18,
+   21,
+   126,
+   21
+  ],
+  "title_must": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "title_may": [
+   17,
+   2,
+   11,
+   8
+  ],
+  "title_should": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "case_ledger": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "up_ledger": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "should_delete": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "must_cap_face": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "fld_hint": [
+   3,
+   3,
+   0,
+   0
+  ],
+  "fld_plain": [
+   0,
+   0,
+   7,
+   0
+  ],
+  "fld_sub": [
+   3,
+   3,
+   7,
+   0
+  ],
+  "fld_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "uint32_hint": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "uint32_plain": [
+   0,
+   0,
+   2,
+   0
+  ],
+  "hint_word": [
+   5,
+   5,
+   0,
+   0
+  ],
+  "zero_word": [
+   4,
+   4,
+   41,
+   8
+  ],
+  "unspec_word": [
+   2,
+   2,
+   2,
+   0
+  ],
+  "discard_low": [
+   2,
+   2,
+   5,
+   24
+  ],
+  "discard_cap": [
+   0,
+   0,
+   0,
+   10
+  ],
+  "imm_word": [
+   0,
+   0,
+   16,
+   9
+  ],
+  "seven_days": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "week_word": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "d24_hour": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "reuse_word": [
+   0,
+   0,
+   4,
+   2
+  ],
+  "orlonger": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "shorter_only": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "relative_in": [
+   0,
+   2,
+   0,
+   0
+  ],
+  "from_issuance": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "lifetime_word": [
+   12,
+   13,
+   12,
+   2
+  ],
+  "session_ticket": [
+   18,
+   20,
+   24,
+   4
+  ],
+  "recv_time": [
+   0,
+   2,
+   0,
+   0
+  ],
+  "num_cap_faces": [
+   0,
+   0,
+   604800,
+   0
+  ],
+  "num_cap_lit": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "num_cap_days": [
+   0,
+   0,
+   7,
+   0
+  ],
+  "num_d24": 24,
+  "num_day_seconds": 86400,
+  "num_cap_ratio": 7,
+  "num_cap_remainder": 0,
+  "num_cap_present_docs": 1,
+  "num_mod_pow": 32,
+  "num_ms_factor": 1000,
+  "num_sec_ms_close": 32,
+  "num_tls13_refs": [
+   0,
+   0,
+   0,
+   31
+  ],
+  "cite_sp_4507": [
+   16,
+   21,
+   0,
+   0
+  ],
+  "cite_hy_4507": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_4507": [
+   0,
+   3,
+   0,
+   0
+  ],
+  "cite_al_4507": [
+   16,
+   24,
+   0,
+   0
+  ],
+  "cite_sp_5077": [
+   0,
+   19,
+   1,
+   0
+  ],
+  "cite_hy_5077": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_5077": [
+   0,
+   0,
+   4,
+   0
+  ],
+  "cite_al_5077": [
+   0,
+   19,
+   5,
+   0
+  ],
+  "cite_sp_8446": [
+   0,
+   0,
+   192,
+   1
+  ],
+  "cite_hy_8446": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_8446": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "cite_al_8446": [
+   0,
+   0,
+   192,
+   2
+  ],
+  "cite_sp_9001": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_hy_9001": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_9001": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_al_9001": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_sp_2246": [
+   2,
+   1,
+   0,
+   0
+  ],
+  "cite_hy_2246": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_2246": [
+   3,
+   2,
+   0,
+   0
+  ],
+  "cite_al_2246": [
+   5,
+   3,
+   0,
+   0
+  ],
+  "cite_sp_4346": [
+   1,
+   3,
+   1,
+   0
+  ],
+  "cite_hy_4346": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_4346": [
+   3,
+   5,
+   3,
+   0
+  ],
+  "cite_al_4346": [
+   4,
+   8,
+   4,
+   0
+  ],
+  "cite_sp_5246": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "cite_hy_5246": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_5246": [
+   0,
+   0,
+   6,
+   0
+  ],
+  "cite_al_5246": [
+   0,
+   0,
+   7,
+   0
+  ],
+  "cite_sp_6961": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "cite_hy_6961": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_6961": [
+   0,
+   0,
+   6,
+   0
+  ],
+  "cite_al_6961": [
+   0,
+   0,
+   7,
+   0
+  ],
+  "cite_sp_5705": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "cite_hy_5705": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_5705": [
+   0,
+   0,
+   5,
+   0
+  ],
+  "cite_al_5705": [
+   0,
+   0,
+   6,
+   0
+  ],
+  "cite_sp_6066": [
+   0,
+   0,
+   7,
+   0
+  ],
+  "cite_hy_6066": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_6066": [
+   0,
+   0,
+   17,
+   0
+  ],
+  "cite_al_6066": [
+   0,
+   0,
+   24,
+   0
+  ],
+  "cite_forms_2246": [
+   2,
+   2,
+   0,
+   0
+  ],
+  "cite_forms_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_self": [
+   16,
+   19,
+   192,
+   0
+  ],
+  "cite_4507_in_5077": 24,
+  "cite_5077_in_8446": 5,
+  "cite_4507_in_8446": 0,
+  "cite_8446_in_9001": 2,
+  "cite_9001_in_8446": 0,
+  "cite_dir_5077_to_8446": 5,
+  "cite_dir_8446_to_9001": 0,
+  "cite_dir_9001_to_8446": 2,
+  "cite_8446_in_9001_sp": 1,
+  "win_head": [
+   "3.3.  NewSessionTicket Handshake Message",
+   "3.3.  NewSessionTicket Handshake Message",
+   "4.6.1.  New Session Ticket Message",
+   "4.6.  0-RTT"
+  ],
+  "win_sec": [
+   360,
+   406,
+   4051,
+   767
+  ],
+  "win_ans": [
+   387,
+   438,
+   4121,
+   787
+  ],
+  "win_start": [
+   367,
+   418,
+   4101,
+   767
+  ],
+  "win_end": [
+   407,
+   458,
+   4141,
+   807
+  ],
+  "win_rows": [
+   41,
+   41,
+   41,
+   41
+  ],
+  "win_chars": [
+   2047,
+   1862,
+   1841,
+   2099
+  ],
+  "win_chars_out": [
+   33281,
+   40126,
+   335894,
+   124063
+  ],
+  "win_lt_in": [
+   4,
+   4,
+   5,
+   0
+  ],
+  "win_lt_out": [
+   8,
+   9,
+   7,
+   2
+  ],
+  "win_zero_in": [
+   2,
+   2,
+   1,
+   0
+  ],
+  "win_zero_out": [
+   2,
+   2,
+   40,
+   8
+  ],
+  "win_cap_in": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "win_cap_out": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "win_reuse_in": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "win_reuse_out": [
+   0,
+   0,
+   4,
+   2
+  ],
+  "win_dig_in": [
+   14,
+   14,
+   33,
+   30
+  ],
+  "win_dig_out": [
+   634,
+   854,
+   9282,
+   5552
+  ],
+  "win_up_in": [
+   7,
+   5,
+   6,
+   1
+  ],
+  "win_up_out": [
+   22,
+   24,
+   458,
+   129
+  ],
+  "win_band": 20,
+  "win_named": 4,
+  "win_ans_named": 4,
+  "win_close_lt": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "win_close_zero": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "win_close_cap": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "win_close_reuse": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "win_close_dig": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "win_close_sum": 0,
+  "win_spans": [
+   41,
+   41,
+   41,
+   41
+  ],
+  "pool_n": 5710,
+  "pool_tier": [
+   5408,
+   297,
+   3,
+   2
+  ],
+  "pool_tier_close": 0,
+  "pool_4": 2,
+  "pool_3": 3,
+  "pool_2": 297,
+  "pool_1": 5408,
+  "pair_share": [
+   259,
+   7,
+   2,
+   8,
+   2,
+   40
+  ],
+  "pair_byte": [
+   235,
+   1,
+   1,
+   6,
+   2,
+   39
+  ],
+  "pair_norm_only": [
+   24,
+   6,
+   1,
+   2,
+   0,
+   1
+  ],
+  "pair_nonzero": 6,
+  "pair_close": 0,
+  "pair_lbl": [
+   "4507·5077",
+   "4507·8446",
+   "4507·9001",
+   "5077·8446",
+   "5077·9001",
+   "8446·9001"
+  ],
+  "pair_max": 259,
+  "pair_max_idx": 0,
+  "pair_max_byte": 235,
+  "pair_max_norm_only": 24,
+  "pair_max_lbl": "4507·5077",
+  "s3_examples": [
+   "[rfc2119] bradner, s., \"key words for use in rfcs to indicate",
+   "[rfc4346] dierks, t. and e. rescorla, \"the transport layer security",
+   "case certificate_request: certificaterequest;",
+   "case certificate_verify: certificateverify;",
+   "the key words \"must\", \"must not\", \"required\", \"shall\", \"shall not\","
+  ],
+  "tri_share": [
+   5,
+   5,
+   5,
+   2
+  ],
+  "pool_incl": [
+   6019,
+   318,
+   11,
+   2
+  ],
+  "union_incl": 5710,
+  "union_close": 0,
+  "pool_letters": 5694,
+  "pool_border": 16,
+  "shared_norm_only": 34,
+  "axis_counts": {
+   "case": 2,
+   "hyph": 0,
+   "space": 28,
+   "multi": 0
+  },
+  "axis_total": 30,
+  "norm_only_set": 30,
+  "axis_close": 0,
+  "axis_str": "case2⇎hyph0⇎space28⇎multi0",
+  "axis_str_n": 2,
+  "apool_n": 6573,
+  "apool_raw_n": 7247,
+  "apool_face_raw": [
+   433,
+   518,
+   4471,
+   1825
+  ],
+  "apool_tag_n": [
+   422,
+   505,
+   4249,
+   1766
+  ],
+  "apool_dup": [
+   11,
+   13,
+   222,
+   59
+  ],
+  "apool_tag_close": 0,
+  "apool_tier": [
+   6216,
+   347,
+   8,
+   2
+  ],
+  "apool_uniq": 6573,
+  "apool_pairs": 6942,
+  "apool_weight": 6942,
+  "apool_tier_close": 0,
+  "apool_maxlen": 69,
+  "zero_flip": 1,
+  "zero_res_agree": 0,
+  "zero_ind_unique": 0,
+  "cap_unique": 0,
+  "cap_ratio_close": 0,
+  "day_lt_cap": 0,
+  "drop_or_longer": 1,
+  "rel_inserted": 1,
+  "from_issuance_only": 1,
+  "field_renamed": 1,
+  "reuse_absent": 1,
+  "delegates": 1,
+  "no_self_lifetime": 1,
+  "week_only_8446": 1,
+  "24hour_pair": 0,
+  "cat_close": 0,
+  "obs_5077_unique": 0,
+  "chain_closed": 1,
+  "cite_dir": 1,
+  "up_zero_9001_cap": 0,
+  "zid_n": 57,
+  "zid_fail": [],
+  "scalar_clos_n": 57,
+  "scalar_clos_sum": 57,
+  "list_clos_n": 9,
+  "x_ident_n": 57,
+  "blk_lo": [
+   389,
+   438,
+   4124
+  ],
+  "blk_hi": [
+   403,
+   443,
+   4126
+  ],
+  "blk_rows": [
+   15,
+   6,
+   3
+  ],
+  "blk_words": [
+   62,
+   62,
+   21
+  ],
+  "w45_only": [],
+  "w50_only": [],
+  "w45_only_n": 0,
+  "w50_only_n": 0,
+  "w_common": 43,
+  "w_row_close": 0,
+  "hint_in_45": 1,
+  "hint_in_50": 1,
+  "hint_in_84": 0,
+  "suf_45_50": 62,
+  "pre_45_50": 62,
+  "suf_50_84": 0,
+  "pre_50_84": 1,
+  "orlonger_45": 1,
+  "orlonger_50": 1,
+  "orlonger_84": 0,
+  "tone_up_45": 3,
+  "tone_up_50": 3,
+  "tone_up_84": 1,
+  "tone_cap_84": 0,
+  "ln_zero_4507": 389,
+  "ln_unspec_4507": 399,
+  "zero_split_gap": 10,
+  "ln_relative_5077": 438,
+  "ln_hintdef_5077": 435,
+  "relative_span": 3,
+  "ln_cap_8446": 4121,
+  "ln_zeroind_8446": 4122,
+  "cap_zeroind_span": -1,
+  "dead_needles": [
+   "z4507_no_relative",
+   "z9001_zero"
+  ],
+  "cross_needles": [
+   "z4507_zero_reserved",
+   "z4507_unspec_end",
+   "z4507_should_delete",
+   "z4507_or_longer",
+   "z4507_may_be_unspec",
+   "z4507_hint_def",
+   "z5077_should_delete",
+   "z5077_or_longer",
+   "z5077_hint_def",
+   "z9001_zero",
+   "z9001_lifetime_word"
+  ],
+  "fold_only_n": 21,
+  "fold_only_str": "z4507_zero_reserved ⇎ z4507_should_delete ⇎ z4507_or_longer ⇎ z4507_24hour ⇎ z4507_may_be_unspec ⇎ z4507_hint_def ⇎ z5077_zero_reserved ⇎ z5077_relative ⇎ z5077_should_delete ⇎ z5077_or_longer ⇎ z5077_24hour ⇎ z5077_hint_def ⇎ z8446_cap ⇎ z8446_zero_discard ⇎ z8446_cache7 ⇎ z8446_shorter_only ⇎ z8446_lifetime_from ⇎ z8446_must_not_attempt ⇎ z8446_week ⇎ z9001_seven_days ⇎ z9001_reuse",
+  "line_hit_keys": [
+   "z4507_unspec_end",
+   "z8446_reuse",
+   "z8446_mod232",
+   "z9001_cap_ref",
+   "z9001_lifetime_word"
+  ],
+  "hint_in_blk": [
+   1,
+   1,
+   0
+  ],
+  "orlonger_blk": [
+   1,
+   1,
+   0
+  ],
+  "anchor_total": 17,
+  "anchor_distinct": 14,
+  "anchor_err": 0,
+  "anchor_single": 12,
+  "anchor_cross": 2,
+  "anchor_all4": 0,
+  "checks": 56,
+  "enc_chars": 7298,
+  "nsrc": 4,
+  "tag_4507": 4,
+  "tag_5077": 2,
+  "tag_8446": 8,
+  "tag_9001": 3
+ }
+}

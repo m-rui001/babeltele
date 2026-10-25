@@ -1,0 +1,115 @@
+  0 header_rule    ⟦N⟧ [N:single] 67 # 1.  Each timezone corresponds to a set of clocks that are planned
+  1 header_rule    ⟦N⟧ [N:single] 49 # 2.  The first column is irrelevant and ignored.
+  2 header_rule    ⟦N⟧ [N:single] 45 # 3.  The table is sorted in a different way:
+  3 header_rule    ⟦N⟧ [N:single] 65 # 4.  Every timezone has a nonempty comments column, with wording
+  4 header_rule    ⟦N⟧ [N:single] 78 # The format of this table is experimental, and may change in future versions.
+  5 predicate      ⟦N⟧ [N:single] 60 # where civil timestamps are predicted to agree from now on.
+  6 predicate      ⟦N⟧ [N:single] 67 #     to agree from now on.  This is a larger set of clocks than in
+  7 predicate      ⟦N⟧ [N:single] 32 # From Paul Eggert (2023-12-18):
+  8 predicate      ⟦N⟧ [N:single] 72 # -08/-07 - PST/PDT (North America DST) until 2026-11-01 02:00; then MST
+  9 predicate      ⟦N⟧ [N:single] 72 # -07/-06 - MST/MDT (North America DST) until 2026-11-01 02:00; then CST
+ 10 predicate      ⟦N⟧ [N:single] 72 # -06/-05 - CST/CDT (North America DST) until 2026-11-01 02:00; then EST
+ 11 colhdr         ⟦N⟧ [N:single] 27 #XX ⇥ coordinates ⇥ TZ ⇥ comments
+ 12 tag_nonint     ⟦N⟧ [N:single] 45 # -03:30/-02:30 - NST/NDT (North America DST)
+ 13 tag_nonint     ⟦N⟧ [N:single] 43 # +09:30/+10:30 - ACST/ACDT (Australia DST)
+ 14 tag_nonint     ⟦N⟧ [N:single] 29 # +12:45/+13:45 (Chatham DST)
+ 15 tag_longest    ⟦N⟧ [N:single] 41 # -10/-09 - HST / HDT (North America DST)
+ 16 tag_head       ⟦N⟧ [N:single] 11 # -11 - SST
+ 17 tag_head       ⟦N⟧ [N:single] 11 # -10 - HST
+ 18 tag_head       ⟦N⟧ [N:single] 8 # -09:30
+ 19 tag_head       ⟦N⟧ [N:single] 41 # -09/-08 - AKST/AKDT (North America DST)
+ 20 tag_head       ⟦N⟧ [N:single] 39 # -08/-07 - PST/PDT (North America DST)
+ 21 tag_head       ⟦N⟧ [N:single] 11 # -07 - MST
+ 22 row_n          ⟦N⟧ [N:single] 52 XX ⇥ -1416-17042 ⇥ Pacific/Pago_Pago ⇥ Midway; Samoa (SST)
+ 23 row_n          ⟦N⟧ [N:single] 32 XX ⇥ -1901-16955 ⇥ Pacific/Niue ⇥ Niue
+ 24 row_n          ⟦N⟧ [N:single] 48 XX ⇥ +211825-1575130 ⇥ Pacific/Honolulu ⇥ Hawaii (HST)
+ 25 row_n          ⟦N⟧ [N:single] 50 XX ⇥ -1732-14934 ⇥ Pacific/Tahiti ⇥ Tahiti; Cook Islands
+ 26 row_n          ⟦N⟧ [N:single] 69 XX ⇥ +515248-1763929 ⇥ America/Adak ⇥ western Aleutians in Alaska (HST/HDT)
+ 27 row_n          ⟦N⟧ [N:single] 42 XX ⇥ -0900-13930 ⇥ Pacific/Marquesas ⇥ Marquesas
+ 28 row_n          ⟦N⟧ [N:single] 105 XX ⇥ +1924-09909 ⇥ America/Mexico_City ⇥ Central Standard (CST) - Saskatchewan; central Mexico; Central Americ
+ 29 row_n          ⟦N⟧ [N:single] 100 XX ⇥ +175805-0764736 ⇥ America/Jamaica ⇥ Eastern Standard (EST) - Caymans; Jamaica; eastern Mexico; Panama
+ 30 row_n          ⟦N⟧ [N:single] 97 XX ⇥ +394421-1045903 ⇥ America/Denver ⇥ Mountain (MST/MDT) - US; Mexico near US border; western Nunavut
+ 31 row_n          ⟦N⟧ [N:single] 97 XX ⇥ +415100-0873900 ⇥ America/Chicago ⇥ Central (CST/CDT) - US; Mexico near US border; central Nunavut
+ 32 row_n          ⟦N⟧ [N:single] 95 XX ⇥ +4120+06918 ⇥ Asia/Tashkent ⇥ Russia; Kazakhstan; Tajikistan; Turkmenistan; Uzbekistan; Maldives
+ 33 row_n          ⟦N⟧ [N:single] 63 XX ⇥ +611305-1495401 ⇥ America/Anchorage ⇥ most of Alaska (AKST/AKDT)
+ 34 row_n          ⟦N⟧ [N:single] 84 XX ⇥ +340308-1181434 ⇥ America/Los_Angeles ⇥ Pacific (PST/PDT) - US; Mexico near US border
+ 35 row_n          ⟦N⟧ [N:single] 91 XX ⇥ +332654-1120424 ⇥ America/Phoenix ⇥ Mountain Standard (MST) - Arizona; western Mexico; Yukon
+ 36 row_z          ⟦Z⟧ [Z:single] 124 PR,AG,CA,AI,AW,BL,BQ,CW,DM,GD,GP,KN,LC,MF,MS,SX,TT,VC,VG,VI ⇥ +182806-0660622 ⇥ America/Puerto_Rico ⇥ AST - QC
+ 37 row_z          ⟦Z⟧ [Z:single] 62 CI,BF,GH,GM,GN,IS,ML,MR,SH,SL,SN,TG ⇥ +0519-00402 ⇥ Africa/Abidjan
+ 38 row_z          ⟦Z⟧ [Z:single] 56 KE,DJ,ER,ET,KM,MG,SO,TZ,UG,YT ⇥ -0117+03649 ⇥ Africa/Nairobi
+ 39 row_z          ⟦Z⟧ [Z:single] 71 NG,AO,BJ,CD,CF,CG,CM,GA,GQ,NE ⇥ +0627+00324 ⇥ Africa/Lagos ⇥ West Africa Time
+ 40 row_z          ⟦Z⟧ [Z:single] 29 AD ⇥ +4230+00131 ⇥ Europe/Andorra
+ 41 row_z          ⟦Z⟧ [Z:single] 44 AE,OM,RE,SC,TF ⇥ +2518+05518 ⇥ Asia/Dubai ⇥ Crozet
+ 42 row_z          ⟦Z⟧ [Z:single] 25 AF ⇥ +3431+06912 ⇥ Asia/Kabul
+ 43 pred_z         ⟦Z⟧ [Z:single] 68 # civil timestamps have agreed since 1970.  Columns are separated by
+ 44 header_z       ⟦Z⟧ [NZ:cross] 28 # tzdb timezone descriptions
+ 45 header_z       ⟦Z⟧ [NZK:cross] 36 # This file is in the public domain.
+ 46 header_z       ⟦Z⟧ [Z:single] 32 # From Paul Eggert (2025-05-15):
+ 47 header_z       ⟦Z⟧ [NZ:cross] 71 # This file contains a table where each row stands for a timezone where
+ 48 header_z       ⟦Z⟧ [Z:single] 70 # a single tab.  Lines beginning with ‘#’ are comments.  All text uses
+ 49 header_z_num   ⟦Z⟧ [Z:single] 72 # 1.  The countries that overlap the timezone, as a comma-separated list
+ 50 header_z_num   ⟦Z⟧ [Z:single] 65 # 2.  Latitude and longitude of the timezone’s principal location
+ 51 header_z_num   ⟦Z⟧ [Z:single] 61 # 3.  Timezone name used in value of TZ environment variable.
+ 52 header_z_num   ⟦Z⟧ [Z:single] 73 # 4.  Comments; present if and only if countries have multiple timezones,
+ 53 awk_rule       ⟦K⟧ [K:single] 9 zone = $3
+ 54 awk_rule       ⟦K⟧ [K:single] 30 while (getline <zdump_table) {
+ 55 awk_rule       ⟦K⟧ [K:single] 28 printf "%s: no data\n", zone
+ 56 awk_rule       ⟦K⟧ [K:single] 61 printf "zones %s and %s identical from now on\n", zone, zone2
+ 57 awk_rule       ⟦K⟧ [K:single] 56 printf "Zone table should have one of:%s\n", zones[data]
+ 58 awk_rule       ⟦K⟧ [K:single] 44 printf "%s=%s\n", now, zones[data] >>now_out
+ 59 awk_rule       ⟦K⟧ [K:single] 9 FS = "\t"
+ 60 awk_rule       ⟦K⟧ [K:single] 11 exit status
+ 61 awk_rule       ⟦K⟧ [K:single] 21 zone2 = zonenow[data]
+ 62 awk_rule       ⟦K⟧ [K:single] 20 zonenow[data] = zone
+ 63 awk_rule       ⟦K⟧ [K:single] 29 if (data && !zonenow[data]) {
+ 64 awk_rule       ⟦K⟧ [K:single] 61 zonenow[data] = zone # This suppresses duplicate diagnostics.
+ 65 awk_rule       ⟦K⟧ [K:single] 10 status = 1
+ 66 awk_rule       ⟦K⟧ [K:single] 54 # Check zonenow.tab for consistency with primary data.
+ 67 awk_rule       ⟦K⟧ [K:single] 65 # Contributed by Paul Eggert.  This file is in the public domain.
+ 68 awk_rule       ⟦K⟧ [K:single] 26 sub(/.*\.ckd\//, "", zone)
+ 69 awk_rule       ⟦K⟧ [K:single] 22 sub(/\/\//, "/", zone)
+ 70 awk_rule       ⟦K⟧ [K:single] 18 sub(/"/, "", zone)
+ 71 make_rule      ⟦M⟧ [M:single] 11 zic= ⇥  ⇥ ./zic
+ 72 make_rule      ⟦M⟧ [M:single] 12 mv $@.out $@
+ 73 make_rule      ⟦M⟧ [M:single] 32 check: check_mild back.ck now.ck
+ 74 make_rule      ⟦M⟧ [M:single] 55 # 2800+ years but that would take a long time to check.
+ 75 make_rule      ⟦M⟧ [M:single] 36 CHECK_NOW_TIMESTAMP = $$(./date +%s)
+ 76 make_rule      ⟦M⟧ [M:single] 27 CHECK_NOW_FUTURE_YEARS = 28
+ 77 make_rule      ⟦M⟧ [M:single] 70 CHECK_NOW_FUTURE_SECS = $(CHECK_NOW_FUTURE_YEARS) * 366 * 24 * 60 * 60
+ 78 make_rule      ⟦M⟧ [M:single] 70 now.ck: checknow.awk date tzdata.zi zdump zic zone1970.tab zonenow.tab
+ 79 make_rule      ⟦M⟧ [M:single] 10 rm -fr $@d
+ 80 make_rule      ⟦M⟧ [M:single] 9 mkdir $@d
+ 81 make_rule      ⟦M⟧ [M:single] 22 ./zic -d $@d tzdata.zi
+ 82 make_rule      ⟦M⟧ [M:single] 31 now=$(CHECK_NOW_TIMESTAMP) && \
+ 83 make_rule      ⟦M⟧ [M:single] 50 future=$$(($(CHECK_NOW_FUTURE_SECS) + $$now)) && \
+ 84 make_rule      ⟦M⟧ [M:single] 30 ./zdump -i -t $$now,$$future \
+ 85 make_rule      ⟦M⟧ [M:single] 23 >$@d/zdump-now.tab && \
+ 86 make_rule      ⟦M⟧ [M:single] 26 ./zdump -i -t 0,$$future \
+ 87 make_rule      ⟦M⟧ [M:single] 24 >$@d/zdump-1970.tab && \
+ 88 make_rule      ⟦M⟧ [M:single] 34 -v zdump_table=$@d/zdump-now.tab \
+ 89 make_rule      ⟦M⟧ [M:single] 27 -f checknow.awk zonenow.tab
+ 90 make_rule      ⟦M⟧ [M:single] 35 -v zdump_table=$@d/zdump-1970.tab \
+ 91 make_rule      ⟦M⟧ [M:single] 15 -f checknow.awk
+ 92 make_rule      ⟦M⟧ [M:single] 27 rm -fr $@d t-$@d shrunk-$@d
+ 93 make_rule      ⟦M⟧ [M:single] 26 mkdir $@d t-$@d shrunk-$@d
+ 94 cross_coord    ⟦N⟧ [NZ:cross] 11 -1416-17042
+ 95 cross_zone     ⟦N⟧ [NZ:cross] 17 Pacific/Pago_Pago
+ 96 cross_coord    ⟦N⟧ [NZ:cross] 11 -1901-16955
+ 97 cross_zone     ⟦N⟧ [NZ:cross] 12 Pacific/Niue
+ 98 cross_coord    ⟦N⟧ [NZ:cross] 15 +211825-1575130
+ 99 cross_zone     ⟦N⟧ [NZ:cross] 16 Pacific/Honolulu
+100 cross_coord    ⟦N⟧ [NZ:cross] 11 -1732-14934
+101 cross_zone     ⟦N⟧ [NZ:cross] 14 Pacific/Tahiti
+102 cross_phrase   ⟦N⟧ [NK:cross] 11 from now on
+103 cross_phrase   ⟦N⟧ [N:single] 17 agree from now on
+104 cross_phrase   ⟦N⟧ [N:single] 22 irrelevant and ignored
+105 cross_phrase   ⟦N⟧ [N:single] 16 until 2026-11-01
+106 cross_code     ⟦M⟧ [KM:cross] 11 zdump_table
+107 cross_code     ⟦M⟧ [M:single] 13 zdump-now.tab
+108 cross_code     ⟦M⟧ [M:single] 6 now.ck
+109 cross_code     ⟦M⟧ [M:single] 12 checknow.awk
+110 cross_code     ⟦M⟧ [M:single] 14 -v zdump_table
+111 cross_code     ⟦M⟧ [K:single] 21 identical from now on
+112 expire_pair    ⟦N⟧ [N:single] 55 Mountain Standard (MST) - British Columbia (most areas)
+113 expire_pair    ⟦N⟧ [N:single] 57 Central Standard (CST) - Alberta, NWT, and some neighbors
+114 expire_pair    ⟦N⟧ [N:single] 55 Eastern Standard (EST) - Manitoba, northwestern Ontario

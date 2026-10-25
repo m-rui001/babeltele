@@ -1,0 +1,1440 @@
+{
+ "24hour_pair": 0,
+ "anchor_all4": 0,
+ "anchor_cross": 2,
+ "anchor_distinct": 14,
+ "anchor_err": 0,
+ "anchor_single": 12,
+ "anchor_total": 17,
+ "apool_dup": [
+  11,
+  13,
+  222,
+  59
+ ],
+ "apool_face_raw": [
+  433,
+  518,
+  4471,
+  1825
+ ],
+ "apool_maxlen": 69,
+ "apool_n": 6573,
+ "apool_pairs": 6942,
+ "apool_raw_n": 7247,
+ "apool_tag_close": 0,
+ "apool_tag_n": [
+  422,
+  505,
+  4249,
+  1766
+ ],
+ "apool_tier": [
+  6216,
+  347,
+  8,
+  2
+ ],
+ "apool_tier_close": 0,
+ "apool_uniq": 6573,
+ "apool_weight": 6942,
+ "ascii_all": 3,
+ "axis_close": 0,
+ "axis_counts": {
+  "case": 2,
+  "hyph": 0,
+  "multi": 0,
+  "space": 28
+ },
+ "axis_str": "case2⇎hyph0⇎space28⇎multi0",
+ "axis_str_n": 2,
+ "axis_total": 30,
+ "blk_hi": [
+  403,
+  443,
+  4126
+ ],
+ "blk_lo": [
+  389,
+  438,
+  4124
+ ],
+ "blk_rows": [
+  15,
+  6,
+  3
+ ],
+ "blk_words": [
+  62,
+  62,
+  21
+ ],
+ "bom": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "byte_cp_delta": [
+  0,
+  0,
+  0,
+  12
+ ],
+ "bytes": [
+  35329,
+  41989,
+  337736,
+  126175
+ ],
+ "cap_ratio_close": 0,
+ "cap_unique": 0,
+ "cap_zeroind_span": -1,
+ "case_ledger": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "cat_close": 0,
+ "cat_hdr": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "cat_std": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "chain_closed": 1,
+ "chars": [
+  35329,
+  41989,
+  337736,
+  126163
+ ],
+ "checks": 56,
+ "ci_may": [
+  37,
+  27,
+  148,
+  35
+ ],
+ "ci_must": [
+  21,
+  21,
+  344,
+  87
+ ],
+ "ci_should": [
+  18,
+  21,
+  126,
+  21
+ ],
+ "cite_4507_in_5077": 24,
+ "cite_4507_in_8446": 0,
+ "cite_5077_in_8446": 5,
+ "cite_8446_in_9001": 2,
+ "cite_8446_in_9001_sp": 1,
+ "cite_9001_in_8446": 0,
+ "cite_al_2246": [
+  5,
+  3,
+  0,
+  0
+ ],
+ "cite_al_4346": [
+  4,
+  8,
+  4,
+  0
+ ],
+ "cite_al_4507": [
+  16,
+  24,
+  0,
+  0
+ ],
+ "cite_al_5077": [
+  0,
+  19,
+  5,
+  0
+ ],
+ "cite_al_5246": [
+  0,
+  0,
+  7,
+  0
+ ],
+ "cite_al_5705": [
+  0,
+  0,
+  6,
+  0
+ ],
+ "cite_al_6066": [
+  0,
+  0,
+  24,
+  0
+ ],
+ "cite_al_6961": [
+  0,
+  0,
+  7,
+  0
+ ],
+ "cite_al_8446": [
+  0,
+  0,
+  192,
+  2
+ ],
+ "cite_al_9001": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "cite_dir": 1,
+ "cite_dir_5077_to_8446": 5,
+ "cite_dir_8446_to_9001": 0,
+ "cite_dir_9001_to_8446": 2,
+ "cite_forms_2246": [
+  2,
+  2,
+  0,
+  0
+ ],
+ "cite_forms_close": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "cite_hy_2246": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "cite_hy_4346": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "cite_hy_4507": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "cite_hy_5077": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "cite_hy_5246": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "cite_hy_5705": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "cite_hy_6066": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "cite_hy_6961": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "cite_hy_8446": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "cite_hy_9001": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "cite_self": [
+  16,
+  19,
+  192,
+  0
+ ],
+ "cite_sp_2246": [
+  2,
+  1,
+  0,
+  0
+ ],
+ "cite_sp_4346": [
+  1,
+  3,
+  1,
+  0
+ ],
+ "cite_sp_4507": [
+  16,
+  21,
+  0,
+  0
+ ],
+ "cite_sp_5077": [
+  0,
+  19,
+  1,
+  0
+ ],
+ "cite_sp_5246": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "cite_sp_5705": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "cite_sp_6066": [
+  0,
+  0,
+  7,
+  0
+ ],
+ "cite_sp_6961": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "cite_sp_8446": [
+  0,
+  0,
+  192,
+  1
+ ],
+ "cite_sp_9001": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "cite_tk_2246": [
+  3,
+  2,
+  0,
+  0
+ ],
+ "cite_tk_4346": [
+  3,
+  5,
+  3,
+  0
+ ],
+ "cite_tk_4507": [
+  0,
+  3,
+  0,
+  0
+ ],
+ "cite_tk_5077": [
+  0,
+  0,
+  4,
+  0
+ ],
+ "cite_tk_5246": [
+  0,
+  0,
+  6,
+  0
+ ],
+ "cite_tk_5705": [
+  0,
+  0,
+  5,
+  0
+ ],
+ "cite_tk_6066": [
+  0,
+  0,
+  17,
+  0
+ ],
+ "cite_tk_6961": [
+  0,
+  0,
+  6,
+  0
+ ],
+ "cite_tk_8446": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "cite_tk_9001": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "cr": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "cross_needle_n": 11,
+ "cross_needles": [
+  "z4507_zero_reserved",
+  "z4507_unspec_end",
+  "z4507_should_delete",
+  "z4507_or_longer",
+  "z4507_may_be_unspec",
+  "z4507_hint_def",
+  "z5077_should_delete",
+  "z5077_or_longer",
+  "z5077_hint_def",
+  "z9001_zero",
+  "z9001_lifetime_word"
+ ],
+ "d24_hour": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "day_lt_cap": 0,
+ "dblspace": [
+  5274,
+  5841,
+  46099,
+  9635
+ ],
+ "dead_needles": [
+  "z4507_no_relative",
+  "z9001_zero"
+ ],
+ "delegates": 1,
+ "digit_chars": [
+  648,
+  868,
+  9315,
+  5582
+ ],
+ "discard_cap": [
+  0,
+  0,
+  0,
+  10
+ ],
+ "discard_low": [
+  2,
+  2,
+  5,
+  24
+ ],
+ "drop_or_longer": 1,
+ "enc_chars": 7298,
+ "exp_n": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "ff": [
+  17,
+  20,
+  160,
+  0
+ ],
+ "ff_exact": [
+  17,
+  20,
+  160,
+  0
+ ],
+ "ff_only": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "field_renamed": 1,
+ "fld_close": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "fld_hint": [
+  3,
+  3,
+  0,
+  0
+ ],
+ "fld_plain": [
+  0,
+  0,
+  7,
+  0
+ ],
+ "fld_sub": [
+  3,
+  3,
+  7,
+  0
+ ],
+ "fold_line_zero": 0,
+ "fold_only_keys": [
+  "z4507_zero_reserved",
+  "z4507_should_delete",
+  "z4507_or_longer",
+  "z4507_24hour",
+  "z4507_may_be_unspec",
+  "z4507_hint_def",
+  "z5077_zero_reserved",
+  "z5077_relative",
+  "z5077_should_delete",
+  "z5077_or_longer",
+  "z5077_24hour",
+  "z5077_hint_def",
+  "z8446_cap",
+  "z8446_zero_discard",
+  "z8446_cache7",
+  "z8446_shorter_only",
+  "z8446_lifetime_from",
+  "z8446_must_not_attempt",
+  "z8446_week",
+  "z9001_seven_days",
+  "z9001_reuse"
+ ],
+ "fold_only_n": 21,
+ "fold_only_own": [
+  6,
+  6,
+  7,
+  2
+ ],
+ "fold_only_str": "z4507_zero_reserved ⇎ z4507_should_delete ⇎ z4507_or_longer ⇎ z4507_24hour ⇎ z4507_may_be_unspec ⇎ z4507_hint_def ⇎ z5077_zero_reserved ⇎ z5077_relative ⇎ z5077_should_delete ⇎ z5077_or_longer ⇎ z5077_24hour ⇎ z5077_hint_def ⇎ z8446_cap ⇎ z8446_zero_discard ⇎ z8446_cache7 ⇎ z8446_shorter_only ⇎ z8446_lifetime_from ⇎ z8446_must_not_attempt ⇎ z8446_week ⇎ z9001_seven_days ⇎ z9001_reuse",
+ "from_issuance": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "from_issuance_only": 1,
+ "hint_in_45": 1,
+ "hint_in_50": 1,
+ "hint_in_84": 0,
+ "hint_in_blk": [
+  1,
+  1,
+  0
+ ],
+ "hint_word": [
+  5,
+  5,
+  0,
+  0
+ ],
+ "imm_word": [
+  0,
+  0,
+  16,
+  9
+ ],
+ "issn": [
+  0,
+  0,
+  1,
+  1
+ ],
+ "ladder_monotone": 1,
+ "lifetime_word": [
+  12,
+  13,
+  12,
+  2
+ ],
+ "line_hit_keys": [
+  "z4507_unspec_end",
+  "z8446_reuse",
+  "z8446_mod232",
+  "z9001_cap_ref",
+  "z9001_lifetime_word"
+ ],
+ "lines": [
+  956,
+  1124,
+  8964,
+  2757
+ ],
+ "list_clos_n": 9,
+ "ln_cap_8446": 4121,
+ "ln_hintdef_5077": 435,
+ "ln_relative_5077": 438,
+ "ln_unspec_4507": 399,
+ "ln_zero_4507": 389,
+ "ln_zeroind_8446": 4122,
+ "low_may": [
+  14,
+  19,
+  79,
+  3
+ ],
+ "low_must": [
+  3,
+  3,
+  14,
+  2
+ ],
+ "low_should": [
+  13,
+  16,
+  49,
+  0
+ ],
+ "maxlen": [
+  72,
+  72,
+  72,
+  72
+ ],
+ "may_not": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "months": [
+  "May",
+  "January",
+  "August",
+  "May"
+ ],
+ "must_bare": [
+  9,
+  9,
+  256,
+  60
+ ],
+ "must_cap_face": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "must_not": [
+  9,
+  9,
+  74,
+  25
+ ],
+ "n_z4507_24hour": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "n_z4507_hint_def": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "n_z4507_may_be_unspec": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "n_z4507_no_relative": [
+  0,
+  2,
+  0,
+  0
+ ],
+ "n_z4507_or_longer": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "n_z4507_should_delete": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "n_z4507_unspec_end": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "n_z4507_zero_reserved": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "n_z5077_24hour": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "n_z5077_hint_def": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "n_z5077_or_longer": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "n_z5077_relative": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "n_z5077_should_delete": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "n_z5077_zero_reserved": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "n_z8446_cache7": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "n_z8446_cap": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "n_z8446_lifetime_from": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "n_z8446_mod232": [
+  0,
+  0,
+  3,
+  0
+ ],
+ "n_z8446_must_not_attempt": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "n_z8446_reuse": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "n_z8446_shorter_only": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "n_z8446_week": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "n_z8446_zero_discard": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "n_z9001_cap_ref": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "n_z9001_lifetime_word": [
+  12,
+  13,
+  12,
+  2
+ ],
+ "n_z9001_reuse": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "n_z9001_seven_days": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "n_z9001_zero": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "needle_n": 28,
+ "needles_owned": [
+  8,
+  6,
+  9,
+  5
+ ],
+ "no_self_lifetime": 1,
+ "nonascii": [
+  0,
+  0,
+  0,
+  8
+ ],
+ "nonascii_extra": [
+  0,
+  0,
+  0,
+  12
+ ],
+ "nonblank": [
+  608,
+  710,
+  5848,
+  2186
+ ],
+ "norm_only_set": 30,
+ "nsrc": 4,
+ "nul_faces": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "num_cap_days": [
+  0,
+  0,
+  7,
+  0
+ ],
+ "num_cap_faces": [
+  0,
+  0,
+  604800,
+  0
+ ],
+ "num_cap_lit": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "num_cap_present_docs": 1,
+ "num_cap_ratio": 7,
+ "num_cap_remainder": 0,
+ "num_d24": 24,
+ "num_day_seconds": 86400,
+ "num_mod_pow": 32,
+ "num_ms_factor": 1000,
+ "num_sec_ms_close": 32,
+ "num_tls13_refs": [
+  0,
+  0,
+  0,
+  31
+ ],
+ "obs_5077_unique": 0,
+ "obs_n": [
+  0,
+  1,
+  4,
+  0
+ ],
+ "obs_set_5077": [
+  4507
+ ],
+ "obs_set_8446": [
+  2018,
+  5077,
+  5246,
+  6961
+ ],
+ "obs_verb": [
+  0,
+  1,
+  1,
+  0
+ ],
+ "orlonger": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "orlonger_45": 1,
+ "orlonger_50": 1,
+ "orlonger_84": 0,
+ "orlonger_blk": [
+  1,
+  1,
+  0
+ ],
+ "overlap_extra": 0,
+ "pair_byte": [
+  235,
+  1,
+  1,
+  6,
+  2,
+  39
+ ],
+ "pair_close": 0,
+ "pair_lbl": [
+  "4507·5077",
+  "4507·8446",
+  "4507·9001",
+  "5077·8446",
+  "5077·9001",
+  "8446·9001"
+ ],
+ "pair_max": 259,
+ "pair_max_byte": 235,
+ "pair_max_idx": 0,
+ "pair_max_lbl": "4507·5077",
+ "pair_max_norm_only": 24,
+ "pair_nonzero": 6,
+ "pair_norm_only": [
+  24,
+  6,
+  1,
+  2,
+  0,
+  1
+ ],
+ "pair_share": [
+  259,
+  7,
+  2,
+  8,
+  2,
+  40
+ ],
+ "pool_1": 5408,
+ "pool_2": 297,
+ "pool_3": 3,
+ "pool_4": 2,
+ "pool_border": 16,
+ "pool_incl": [
+  6019,
+  318,
+  11,
+  2
+ ],
+ "pool_letters": 5694,
+ "pool_n": 5710,
+ "pool_tier": [
+  5408,
+  297,
+  3,
+  2
+ ],
+ "pool_tier_close": 0,
+ "pre_45_50": 62,
+ "pre_50_84": 1,
+ "re_eq_cur": 1,
+ "recv_time": [
+  0,
+  2,
+  0,
+  0
+ ],
+ "rel_inserted": 1,
+ "relative_in": [
+  0,
+  2,
+  0,
+  0
+ ],
+ "relative_span": 3,
+ "reuse_absent": 1,
+ "reuse_word": [
+  0,
+  0,
+  4,
+  2
+ ],
+ "s3_examples": [
+  "[rfc2119] bradner, s., \"key words for use in rfcs to indicate",
+  "[rfc4346] dierks, t. and e. rescorla, \"the transport layer security",
+  "case certificate_request: certificaterequest;",
+  "case certificate_verify: certificateverify;",
+  "the key words \"must\", \"must not\", \"required\", \"shall\", \"shall not\","
+ ],
+ "scalar_clos_n": 57,
+ "scalar_clos_sum": 57,
+ "session_ticket": [
+  18,
+  20,
+  24,
+  4
+ ],
+ "seven_days": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "sh_lost_keys": [],
+ "sh_minus_fold": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "shared_norm_only": 34,
+ "shared_verbatim": [
+  "z4507_zero_reserved",
+  "z4507_unspec_end",
+  "z4507_should_delete",
+  "z4507_or_longer",
+  "z4507_may_be_unspec",
+  "z4507_hint_def",
+  "z5077_should_delete",
+  "z5077_or_longer",
+  "z5077_hint_def",
+  "z9001_zero",
+  "z9001_lifetime_word"
+ ],
+ "shell_n": [
+  572,
+  667,
+  5524,
+  2183
+ ],
+ "shell_strip": [
+  384,
+  457,
+  3440,
+  574
+ ],
+ "shorter_only": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "should_delete": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "should_not": [
+  1,
+  1,
+  15,
+  2
+ ],
+ "sn_fold_docs": [
+  7,
+  6,
+  9,
+  4
+ ],
+ "sn_re_docs": [
+  7,
+  6,
+  9,
+  4
+ ],
+ "sn_sh_docs": [
+  7,
+  6,
+  9,
+  4
+ ],
+ "sn_strict_docs": [
+  1,
+  0,
+  2,
+  2
+ ],
+ "std_hdr": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "suf_45_50": 62,
+ "suf_50_84": 0,
+ "tag_4507": 4,
+ "tag_5077": 2,
+ "tag_8446": 8,
+ "tag_9001": 3,
+ "target_ids": [
+  2018,
+  4507,
+  5077,
+  5246,
+  5705,
+  6066,
+  6961
+ ],
+ "target_n": 7,
+ "title_may": [
+  17,
+  2,
+  11,
+  8
+ ],
+ "title_must": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "title_should": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "tone_cap_84": 0,
+ "tone_up_45": 3,
+ "tone_up_50": 3,
+ "tone_up_84": 1,
+ "tri_share": [
+  5,
+  5,
+  5,
+  2
+ ],
+ "uint32_hint": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "uint32_plain": [
+  0,
+  0,
+  2,
+  0
+ ],
+ "union_close": 0,
+ "union_incl": 5710,
+ "unspec_word": [
+  2,
+  2,
+  2,
+  0
+ ],
+ "up_ledger": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "up_may": [
+  6,
+  6,
+  58,
+  24
+ ],
+ "up_must_all": [
+  18,
+  18,
+  330,
+  85
+ ],
+ "up_should": [
+  5,
+  5,
+  76,
+  21
+ ],
+ "up_zero_9001_cap": 0,
+ "upd_line": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "upd_n": [
+  0,
+  0,
+  2,
+  0
+ ],
+ "upd_set_8446": [
+  5705,
+  6066
+ ],
+ "upd_verb": [
+  0,
+  0,
+  7,
+  1
+ ],
+ "w45_only": [],
+ "w45_only_n": 0,
+ "w50_only": [],
+ "w50_only_n": 0,
+ "w_common": 43,
+ "w_row_close": 0,
+ "week_only_8446": 1,
+ "week_word": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "win_ans": [
+  387,
+  438,
+  4121,
+  787
+ ],
+ "win_ans_named": 4,
+ "win_band": 20,
+ "win_cap_in": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "win_cap_out": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "win_chars": [
+  2047,
+  1862,
+  1841,
+  2099
+ ],
+ "win_chars_out": [
+  33281,
+  40126,
+  335894,
+  124063
+ ],
+ "win_close_cap": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "win_close_dig": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "win_close_lt": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "win_close_reuse": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "win_close_sum": 0,
+ "win_close_zero": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "win_dig_in": [
+  14,
+  14,
+  33,
+  30
+ ],
+ "win_dig_out": [
+  634,
+  854,
+  9282,
+  5552
+ ],
+ "win_end": [
+  407,
+  458,
+  4141,
+  807
+ ],
+ "win_head": [
+  "3.3.  NewSessionTicket Handshake Message",
+  "3.3.  NewSessionTicket Handshake Message",
+  "4.6.1.  New Session Ticket Message",
+  "4.6.  0-RTT"
+ ],
+ "win_lt_in": [
+  4,
+  4,
+  5,
+  0
+ ],
+ "win_lt_out": [
+  8,
+  9,
+  7,
+  2
+ ],
+ "win_named": 4,
+ "win_reuse_in": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "win_reuse_out": [
+  0,
+  0,
+  4,
+  2
+ ],
+ "win_rows": [
+  41,
+  41,
+  41,
+  41
+ ],
+ "win_sec": [
+  360,
+  406,
+  4051,
+  767
+ ],
+ "win_spans": [
+  41,
+  41,
+  41,
+  41
+ ],
+ "win_start": [
+  367,
+  418,
+  4101,
+  767
+ ],
+ "win_up_in": [
+  7,
+  5,
+  6,
+  1
+ ],
+ "win_up_out": [
+  22,
+  24,
+  458,
+  129
+ ],
+ "win_zero_in": [
+  2,
+  2,
+  1,
+  0
+ ],
+ "win_zero_out": [
+  2,
+  2,
+  40,
+  8
+ ],
+ "x_ident_n": 57,
+ "year_gaps": [
+  2,
+  10,
+  3
+ ],
+ "year_inversions": 0,
+ "year_n": 4,
+ "year_order": 0,
+ "year_perm": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "years": [
+  2006,
+  2008,
+  2018,
+  2021
+ ],
+ "zero_carry_fold": [
+  1,
+  0
+ ],
+ "zero_carry_sh": [
+  1,
+  1
+ ],
+ "zero_flip": 1,
+ "zero_ind_unique": 0,
+ "zero_res_agree": 0,
+ "zero_split_gap": 10,
+ "zero_word": [
+  4,
+  4,
+  41,
+  8
+ ],
+ "zid_fail": [],
+ "zid_n": 57
+}

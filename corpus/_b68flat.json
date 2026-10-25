@@ -1,0 +1,2764 @@
+{
+ "anchor_all4": 0,
+ "anchor_cross": 2,
+ "anchor_distinct": 18,
+ "anchor_err": 0,
+ "anchor_single": 16,
+ "anchor_total": 24,
+ "apool_1": 3849,
+ "apool_2": 454,
+ "apool_3": 14,
+ "apool_4": 30,
+ "apool_n": 4347,
+ "apool_tag_n": [
+  1747,
+  1687,
+  373,
+  540
+ ],
+ "ascii_all": 4,
+ "bc_delta": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "bcp_hdr": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "bitloss_close": 0,
+ "blank_lines_extra": 2498,
+ "bom": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "both_ceil_floor": 0,
+ "brf": [
+  39,
+  39,
+  0,
+  14
+ ],
+ "bytes": [
+  126103,
+  122549,
+  25476,
+  36989
+ ],
+ "cache_sn_close": 0,
+ "cache_win_close_sum": 0,
+ "cat_std": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "ceil_docs_n": 1,
+ "ceil_floor_close": 0,
+ "ceil_sn_close": 0,
+ "chars": [
+  126103,
+  122549,
+  25476,
+  36989
+ ],
+ "checks": 72,
+ "cite_0819": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "cite_1010": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "cite_1033": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "cite_1034": [
+  54,
+  0,
+  4,
+  9
+ ],
+ "cite_1035": [
+  0,
+  54,
+  5,
+  5
+ ],
+ "cite_1123": [
+  0,
+  0,
+  0,
+  4
+ ],
+ "cite_1536": [
+  0,
+  0,
+  11,
+  0
+ ],
+ "cite_2181": [
+  0,
+  0,
+  0,
+  14
+ ],
+ "cite_self": [
+  54,
+  54,
+  11,
+  14
+ ],
+ "cr": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_bare32": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "delta_cache_leak": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_cached_for": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_cachesize": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_diff_dep": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_different_ttls": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_expire_kw": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_expire_week": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_floor_sent": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "delta_free_bound": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_here_86400": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_hereby_ttl": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_hi31": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_lower_bound": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "delta_max_lit": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_max_of": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_max_pow": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_min0": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_min_day": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_minimum_kw": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_msb_zero": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_negcache": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_not_clear": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_not_load": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "delta_not_mandatory": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "delta_one_day": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_refresh_kw": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_retry_kw": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_rrset_same": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_same_ttl": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_sec434": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_sec52": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_sgn_or_un": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_sign_bit": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_signed32": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_signed_word": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_std13_ttl": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_time_limit": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_time_live": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_ttl_cap": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_ttl_expires": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_ttl_low": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_typo_anis": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_typo_prov": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_unsg32": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_unsg_min": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_unsigned_word": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_upper_bound": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_within_ttl": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "delta_wrap_neg": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "deprecated": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "digit_density": [
+  8,
+  39,
+  6,
+  30
+ ],
+ "digit_runs": [
+  2240,
+  2098,
+  338,
+  488
+ ],
+ "digit_win_close": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "dns_family": [
+  54,
+  54,
+  9,
+  14
+ ],
+ "dur_distinct": [
+  6,
+  4,
+  0,
+  1
+ ],
+ "dur_distinct_close": 0,
+ "dur_hit_total": [
+  72,
+  7,
+  0,
+  1
+ ],
+ "dur_repeat_extra": 69,
+ "dur_set": [
+  [
+   6,
+   0,
+   0,
+   3,
+   3,
+   23,
+   34,
+   3,
+   0,
+   0
+  ],
+  [
+   3,
+   2,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1
+  ]
+ ],
+ "enc_close": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "ff_blank": [
+  55,
+  55,
+  12,
+  14
+ ],
+ "ff_model_close": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "ff_only": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "floor_day_close": 0,
+ "floor_sn_close": 0,
+ "floor_soa_close": 0,
+ "fold_bare32": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "fold_cache_leak": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "fold_cached_for": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "fold_cachesize": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "fold_diff_dep": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "fold_different_ttls": [
+  1,
+  0,
+  0,
+  1
+ ],
+ "fold_expire_kw": [
+  2,
+  3,
+  0,
+  0
+ ],
+ "fold_expire_week": [
+  2,
+  0,
+  0,
+  0
+ ],
+ "fold_extra_keys": 27,
+ "fold_floor_sent": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "fold_free_bound": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "fold_here_86400": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "fold_hereby_ttl": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "fold_hi31": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "fold_lower_bound": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "fold_max_lit": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "fold_max_of": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "fold_max_pow": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "fold_min0": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "fold_min_day": [
+  2,
+  0,
+  0,
+  0
+ ],
+ "fold_minimum_kw": [
+  4,
+  10,
+  0,
+  0
+ ],
+ "fold_msb_zero": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "fold_negcache": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "fold_not_clear": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "fold_not_load": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "fold_not_mandatory": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "fold_one_day": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "fold_refresh_kw": [
+  3,
+  3,
+  0,
+  0
+ ],
+ "fold_retry_kw": [
+  2,
+  3,
+  0,
+  0
+ ],
+ "fold_rrset_same": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "fold_same_ttl": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "fold_sec434": [
+  1,
+  0,
+  0,
+  1
+ ],
+ "fold_sec52": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "fold_sgn_or_un": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "fold_sign_bit": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "fold_signed32": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "fold_signed_word": [
+  6,
+  15,
+  0,
+  7
+ ],
+ "fold_std13_ttl": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "fold_time_limit": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "fold_time_live": [
+  1,
+  0,
+  0,
+  3
+ ],
+ "fold_total_delta": 2,
+ "fold_ttl_cap": [
+  30,
+  31,
+  12,
+  32
+ ],
+ "fold_ttl_expires": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "fold_ttl_low": [
+  0,
+  0,
+  0,
+  2
+ ],
+ "fold_typo_anis": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "fold_typo_prov": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "fold_unsg32": [
+  0,
+  2,
+  0,
+  0
+ ],
+ "fold_unsg_min": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "fold_unsigned_word": [
+  0,
+  9,
+  0,
+  2
+ ],
+ "fold_upper_bound": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "fold_within_ttl": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "fold_wrap_neg": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "foot": [
+  55,
+  55,
+  12,
+  15
+ ],
+ "foot_minus_hdr": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "foot_trail_gap": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "formfeed": [
+  55,
+  55,
+  12,
+  14
+ ],
+ "has_ceil": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "has_ceil_n": 1,
+ "has_floor": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "has_floor_n": 2,
+ "has_none": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "hdr": [
+  54,
+  54,
+  11,
+  14
+ ],
+ "hereby": [
+  0,
+  0,
+  0,
+  3
+ ],
+ "hereby_D_only": 0,
+ "ise": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "issn_hdr": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "lines": [
+  3078,
+  3078,
+  675,
+  843
+ ],
+ "list_clos_n": 15,
+ "lit_bare32": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "lit_cache_leak": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "lit_cached_for": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "lit_cachesize": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "lit_diff_dep": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "lit_different_ttls": [
+  1,
+  0,
+  0,
+  1
+ ],
+ "lit_expire_kw": [
+  2,
+  3,
+  0,
+  0
+ ],
+ "lit_expire_week": [
+  2,
+  0,
+  0,
+  0
+ ],
+ "lit_floor_sent": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "lit_free_bound": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "lit_here_86400": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "lit_hereby_ttl": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "lit_hi31": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "lit_lower_bound": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "lit_max_lit": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "lit_max_of": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "lit_max_pow": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "lit_min0": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "lit_min_day": [
+  2,
+  0,
+  0,
+  0
+ ],
+ "lit_minimum_kw": [
+  4,
+  10,
+  0,
+  0
+ ],
+ "lit_msb_zero": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "lit_negcache": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "lit_not_clear": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "lit_not_load": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "lit_not_mandatory": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "lit_one_day": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "lit_refresh_kw": [
+  3,
+  3,
+  0,
+  0
+ ],
+ "lit_retry_kw": [
+  2,
+  3,
+  0,
+  0
+ ],
+ "lit_rrset_same": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "lit_same_ttl": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "lit_sec434": [
+  1,
+  0,
+  0,
+  1
+ ],
+ "lit_sec52": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "lit_sgn_or_un": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "lit_sign_bit": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "lit_signed32": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "lit_signed_word": [
+  6,
+  15,
+  0,
+  7
+ ],
+ "lit_std13_ttl": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "lit_time_limit": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "lit_time_live": [
+  1,
+  0,
+  0,
+  3
+ ],
+ "lit_ttl_cap": [
+  30,
+  31,
+  12,
+  32
+ ],
+ "lit_ttl_expires": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "lit_ttl_low": [
+  0,
+  0,
+  0,
+  2
+ ],
+ "lit_typo_anis": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "lit_typo_prov": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "lit_unsg32": [
+  0,
+  2,
+  0,
+  0
+ ],
+ "lit_unsg_min": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "lit_unsigned_word": [
+  0,
+  9,
+  0,
+  2
+ ],
+ "lit_upper_bound": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "lit_within_ttl": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "lit_wrap_neg": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "lo_may": [
+  58,
+  46,
+  2,
+  28
+ ],
+ "lo_must": [
+  22,
+  23,
+  0,
+  22
+ ],
+ "lo_shall": [
+  0,
+  0,
+  0,
+  3
+ ],
+ "lo_should": [
+  59,
+  98,
+  24,
+  44
+ ],
+ "main4_close": 0,
+ "main4_each": 4,
+ "main4_fold": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "max_pow_close": 0,
+ "maxlen": [
+  72,
+  75,
+  74,
+  73
+ ],
+ "min_floor": 86400,
+ "msb_close": 0,
+ "nb_ff_close": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "nb_gap": [
+  55,
+  55,
+  12,
+  14
+ ],
+ "no_dur_docs": 1,
+ "nonascii": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "nonascii_utf8_extra": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "nonblank": [
+  2080,
+  2070,
+  443,
+  583
+ ],
+ "nonblank_asciib": [
+  2135,
+  2125,
+  455,
+  597
+ ],
+ "notmand_close": 0,
+ "notmand_docs": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "nwgroup": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "oblig_low": [
+  139,
+  167,
+  26,
+  94
+ ],
+ "oblig_low_close": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "oblig_up": [
+  0,
+  0,
+  0,
+  3
+ ],
+ "oblig_up_close": 0,
+ "obs_hdr": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "only_each": [
+  1065,
+  1013,
+  279,
+  459
+ ],
+ "outw_cache": [
+  59,
+  46,
+  6,
+  19
+ ],
+ "outw_cachecap": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "outw_digit": [
+  2203,
+  2085,
+  326,
+  456
+ ],
+ "outw_ttl": [
+  22,
+  30,
+  2,
+  25
+ ],
+ "outw_ttllow": [
+  0,
+  0,
+  0,
+  2
+ ],
+ "pair_byte": [
+  114,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "pair_close": 0,
+ "pair_nonzero": 3,
+ "pair_norm_only": [
+  3,
+  3,
+  0,
+  1,
+  0,
+  0
+ ],
+ "pair_share": [
+  117,
+  3,
+  0,
+  1,
+  0,
+  0
+ ],
+ "pg": [
+  55,
+  55,
+  12,
+  15
+ ],
+ "pg_foot_close": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "pool_1": 2577,
+ "pool_2": 48,
+ "pool_3": 0,
+ "pool_4": 0,
+ "pool_n": 2625,
+ "pool_share1_1034": 1002,
+ "pool_share1_1035": 878,
+ "pool_share1_1536": 263,
+ "pool_share1_2181": 434,
+ "pool_share2_ab": 44,
+ "pool_share4": [],
+ "pool_tier": [
+  2577,
+  48,
+  0,
+  0
+ ],
+ "pool_tier_close": 0,
+ "pow_bits_close": 0,
+ "req_rc": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "rfc2119_ref": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "row_bare": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "row_sign": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "row_unsign": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "rule_extra": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "rule_n": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_a_bare32": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_a_bare32_fold": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "s_a_bare32_sh": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "s_a_floor": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_a_floor_fold": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "s_a_floor_sh": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "s_a_neg": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_a_neg_fold": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "s_a_neg_sh": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "s_a_timelimit": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_a_timelimit_fold": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "s_a_timelimit_sh": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "s_a_wrap": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_a_wrap_fold": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "s_a_wrap_sh": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "s_b_lower": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_b_lower_fold": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "s_b_lower_sh": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "s_b_maxof": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_b_maxof_fold": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "s_b_maxof_sh": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "s_b_notload": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_b_notload_fold": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "s_b_notload_sh": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "s_b_row": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "s_b_row_fold": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "s_b_row_sh": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "s_b_typo": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_b_typo_fold": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "s_b_typo_sh": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "s_b_unsgmin": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_b_unsgmin_fold": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "s_b_unsgmin_sh": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "s_c_cached": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_c_cached_fold": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "s_c_cached_sh": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "s_c_limit": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_c_limit_fold": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "s_c_limit_sh": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "s_c_within": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_c_within_fold": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "s_c_within_sh": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "s_d_1034sec": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_d_1034sec_fold": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_d_1034sec_sh": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_d_bits": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_d_bits_fold": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_d_bits_sh": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_d_dep": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_d_dep_fold": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_d_dep_sh": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_d_diff": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_d_diff_fold": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_d_diff_sh": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_d_free": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_d_free_fold": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_d_free_sh": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_d_hereby": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_d_hereby_fold": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_d_hereby_sh": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_d_msb": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_d_msb_fold": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_d_msb_sh": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_d_notclear": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_d_notclear_fold": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_d_notclear_sh": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_d_notmand": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_d_notmand_fold": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_d_notmand_sh": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_d_pow": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_d_pow_fold": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_d_pow_sh": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_d_same": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_d_same_fold": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_d_same_sh": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_until": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_until_fold": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "s_until_sh": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "scalar_clos_n": 27,
+ "scalar_clos_sum": 0,
+ "sec_a": [
+  606,
+  517,
+  369,
+  550
+ ],
+ "sec_b": [
+  715,
+  530,
+  416,
+  576
+ ],
+ "sec_head": [
+  "3.6. Resource Records",
+  "2.3.4. Size limits",
+  "5. Cache Leaks:",
+  "8. Time to Live (TTL)"
+ ],
+ "sec_len": [
+  4240,
+  331,
+  1955,
+  1063
+ ],
+ "sec_lines": [
+  110,
+  14,
+  48,
+  27
+ ],
+ "secw_cache": [
+  3,
+  0,
+  12,
+  0
+ ],
+ "secw_cachecap": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "secw_digit": [
+  37,
+  13,
+  12,
+  32
+ ],
+ "secw_ttl": [
+  8,
+  1,
+  10,
+  7
+ ],
+ "secw_ttllow": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "self_ref": [
+  77,
+  72,
+  0,
+  0
+ ],
+ "selfcite_ABC": 0,
+ "selfcite_ledger": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "set_sizes": [
+  1185,
+  1131,
+  283,
+  459
+ ],
+ "sgn_bare": [
+  0,
+  2,
+  0,
+  2
+ ],
+ "sgn_bucket": [
+  [
+   0,
+   0,
+   6
+  ],
+  [
+   2,
+   9,
+   4
+  ],
+  [
+   0,
+   0,
+   0
+  ],
+  [
+   2,
+   2,
+   3
+  ]
+ ],
+ "sgn_bucket_close": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "sgn_in_un": [
+  0,
+  9,
+  0,
+  2
+ ],
+ "sgn_in_word": [
+  6,
+  4,
+  0,
+  3
+ ],
+ "sh_gap_total": 1,
+ "sh_hit_minus_only": 0,
+ "sh_ladder_bad": 0,
+ "sh_len": [
+  103068,
+  94248,
+  21340,
+  32505
+ ],
+ "sh_only_n": 1,
+ "sh_sn_hit": 1,
+ "shall_D_only": 0,
+ "share4_axis_case": 0,
+ "share4_axis_close": 0,
+ "share4_axis_hyph": 0,
+ "share4_axis_multi": 0,
+ "share4_axis_space": 0,
+ "share4_byte4": 0,
+ "share4_diff": [],
+ "share4_notbyte": 0,
+ "shell_chars": [
+  7957,
+  7957,
+  1679,
+  2117
+ ],
+ "shell_close": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "shell_lines": [
+  109,
+  109,
+  23,
+  29
+ ],
+ "shgap_a_bare32": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "shgap_a_floor": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "shgap_a_neg": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "shgap_a_timelimit": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "shgap_a_wrap": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "shgap_b_lower": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "shgap_b_maxof": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "shgap_b_notload": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "shgap_b_row": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "shgap_b_typo": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "shgap_b_unsgmin": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "shgap_c_cached": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "shgap_c_limit": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "shgap_c_within": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "shgap_d_1034sec": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "shgap_d_bits": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "shgap_d_dep": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "shgap_d_diff": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "shgap_d_free": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "shgap_d_hereby": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "shgap_d_msb": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "shgap_d_notclear": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "shgap_d_notmand": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "shgap_d_pow": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "shgap_d_same": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "shgap_until": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "sig": [
+  "4b6134d25e61a277",
+  "a5b508715ab314bb",
+  "a9df784184b578de",
+  "7bb528ff998d05f7"
+ ],
+ "sig_distinct": 4,
+ "sign_docs": [
+  0,
+  1,
+  0,
+  1
+ ],
+ "sign_docs_n": 2,
+ "sign_ledger": 0,
+ "size_b_rows": 4,
+ "size_num_rows": 3,
+ "size_nums": [
+  63,
+  255,
+  512
+ ],
+ "size_other_rows": [
+  0,
+  0,
+  0
+ ],
+ "size_row_close": 0,
+ "size_rows": [
+  0,
+  4,
+  0,
+  0
+ ],
+ "size_sign_rows": 1,
+ "size_ttl_val": "positive values of a signed 32 bit number.",
+ "sn_face_span": [
+  5,
+  5,
+  4,
+  11
+ ],
+ "sn_fold_docs": [
+  5,
+  6,
+  4,
+  10
+ ],
+ "sn_only_fold": [
+  "a_bare32",
+  "a_timelimit",
+  "a_floor",
+  "a_neg",
+  "a_wrap",
+  "b_unsgmin",
+  "b_maxof",
+  "b_lower",
+  "b_notload",
+  "b_typo",
+  "c_cached",
+  "until",
+  "c_limit",
+  "c_within",
+  "d_notclear",
+  "d_hereby",
+  "d_pow",
+  "d_msb",
+  "d_free",
+  "d_notmand",
+  "d_diff",
+  "d_dep",
+  "d_same",
+  "d_1034sec"
+ ],
+ "sn_only_sh": [
+  "d_bits"
+ ],
+ "sn_other_fold": [
+  4,
+  5,
+  3,
+  9
+ ],
+ "sn_sh_docs": [
+  5,
+  6,
+  4,
+  11
+ ],
+ "sn_sh_total": 26,
+ "sn_strict_docs": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "soa_AB_close": 0,
+ "soa_AB_shared": 5,
+ "soa_AB_union": 5,
+ "soa_AB_valshare": 0,
+ "soa_CD_empty": 2,
+ "soa_case_delta": [
+  10,
+  -5,
+  0,
+  0
+ ],
+ "soa_keys": [
+  [
+   "EXPIRE",
+   "MINIMUM",
+   "REFRESH",
+   "RETRY",
+   "SERIAL"
+  ],
+  [
+   "EXPIRE",
+   "MINIMUM",
+   "REFRESH",
+   "RETRY",
+   "SERIAL"
+  ],
+  [],
+  []
+ ],
+ "soa_lower": [
+  10,
+  0,
+  0,
+  0
+ ],
+ "soa_min_A": 86400,
+ "soa_n_lines": [
+  10,
+  5,
+  0,
+  0
+ ],
+ "soa_paren": [
+  1,
+  1,
+  0,
+  0
+ ],
+ "soa_upper": [
+  0,
+  5,
+  0,
+  0
+ ],
+ "soa_val_close": 0,
+ "soa_vals": [
+  {
+   "EXPIRE": [
+    604800,
+    604800
+   ],
+   "MINIMUM": [
+    86400,
+    86400
+   ],
+   "REFRESH": [
+    1800,
+    1800
+   ],
+   "RETRY": [
+    300,
+    300
+   ],
+   "SERIAL": [
+    870611,
+    870729
+   ]
+  },
+  {
+   "EXPIRE": [
+    3600000
+   ],
+   "MINIMUM": [
+    60
+   ],
+   "REFRESH": [
+    7200
+   ],
+   "RETRY": [
+    600
+   ],
+   "SERIAL": [
+    20
+   ]
+  },
+  {},
+  {}
+ ],
+ "std13": [
+  0,
+  0,
+  4,
+  3
+ ],
+ "std13_AB_close": 0,
+ "std_hdr": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "tag_A": 4,
+ "tag_B": 7,
+ "tag_C": 3,
+ "tag_D": 10,
+ "tail_ff": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "trail": [
+  55,
+  55,
+  12,
+  14
+ ],
+ "trail_hdr_close": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "tri_share": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "ttl_bits": 31,
+ "ttl_field_bits": 32,
+ "ttl_max": 2147483647,
+ "ttl_pow": 31,
+ "ttl_win_close_sum": 0,
+ "ttllow_win_close_sum": 0,
+ "u_may": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "u_may_not": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "u_must": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "u_must_not": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "u_recommended": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "u_required": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "u_should": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "u_should_not": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "union_all": 2937,
+ "union_close": 0,
+ "unsg_scan_close": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "up_ABC_zero": 0,
+ "up_D_n": 3,
+ "upd_hdr": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "win_close_cache": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "win_close_cachecap": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "win_close_ttl": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "win_close_ttllow": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wrap_close": 0,
+ "wrap_delta_hit": 2,
+ "wrap_hit_minus_onlyfold": 0,
+ "wrap_lit_zero": 2,
+ "wrap_onlyfold_n": 24,
+ "wrap_sn_hit": 24,
+ "wrap_sn_n": 26,
+ "wrap_sn_total": 24,
+ "wrapgap_a_bare32": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "wrapgap_a_floor": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "wrapgap_a_neg": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "wrapgap_a_timelimit": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "wrapgap_a_wrap": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "wrapgap_b_lower": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "wrapgap_b_maxof": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "wrapgap_b_notload": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "wrapgap_b_row": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wrapgap_b_typo": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "wrapgap_b_unsgmin": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "wrapgap_c_cached": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "wrapgap_c_limit": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "wrapgap_c_within": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "wrapgap_d_1034sec": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "wrapgap_d_bits": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wrapgap_d_dep": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "wrapgap_d_diff": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "wrapgap_d_free": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "wrapgap_d_hereby": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "wrapgap_d_msb": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "wrapgap_d_notclear": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "wrapgap_d_notmand": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "wrapgap_d_pow": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "wrapgap_d_same": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "wrapgap_until": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "x_ident_n": 49
+}

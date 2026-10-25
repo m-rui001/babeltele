@@ -1,0 +1,177 @@
+===== rfc6724.txt bytes 74407 chars 74407 lines 1796 ff 32 cr 0 tabs 0 nonascii 0
+  W 220 |    a situation where it needs to choose a destination address from
+  W 308 |    a routing table.  Given an address A, a lookup in the policy table
+  W 344 |       ::1/128               50     0
+  W 345 |       ::/0                  40     1
+  W 346 |       ::ffff:0:0/96         35     4
+  W 347 |       2002::/16             30     2
+  W 348 |       2001::/32              5     5
+  W 349 |       fc00::/7               3    13
+  W 350 |       ::/96                  1     3
+  W 351 |       fec0::/10              1    11
+  W 352 |       3ffe::/16              1    12
+  W 551 |    be included in a candidate set.
+  W 572 |    a source address that is in the candidate set for the destination,
+  W 605 |    a rule produces a single clear "winner" (or set of "winners" in the
+  W 667 |    be used to send to D and SB or SB's prefix is assigned by a different
+  W 710 |    be an administrative option to disable temporary addresses.
+  W 963 |    be sent over a path or network that might be more or less trusted
+  W 1017 |    db8:3::2 (home address)
+  W 1027 |    2001:db8:1::d5e3:7953:13eb:22e8 (temporary)
+  W 1057 |    db8:3::1 (home address) or fe80::2 (care-of address)
+  W 1102 |       ::1/128               50     0
+  W 1103 |       ::/0                  40     1
+  W 1104 |       ::ffff:0:0/96        100     4
+  W 1105 |       2002::/16             30     2
+  W 1106 |       2001::/32              5     5
+  W 1107 |       fc00::/7               3    13
+  W 1108 |       ::/96                  1     3
+  W 1109 |       fec0::/10              1    11
+  W 1110 |       3ffe::/16              1    12
+  W 1130 |    2001:db8::1 (src fe80::1) (prefer matching scope)
+  W 1161 |       ::1/128               50     0
+  W 1162 |       ::/0                  40     1
+  W 1163 |       ::ffff:0:0/96         35     4
+  W 1164 |       fe80::/10             33     1
+  W 1165 |       2002::/16             30     2
+  W 1166 |       2001::/32              5     5
+  W 1167 |       fc00::/7               3    13
+  W 1168 |       ::/96                  1     3
+  W 1169 |       fec0::/10              1    11
+  W 1170 |       3ffe::/16              1    12
+  W 1263 |       ::1/128               50     0
+  W 1264 |       2001:db8:1aaa::/48    43     6
+  W 1265 |       2001:db8:1bbb::/48    43     6
+  W 1266 |       ::/0                  40     1
+  W 1267 |       ::ffff:0:0/96         35     4
+  W 1268 |       2002::/16             30     2
+  W 1269 |       2001::/32              5     5
+  W 1270 |       fc00::/7               3    13
+  W 1271 |       ::/96                  1     3
+  W 1272 |       fec0::/10              1    11
+  W 1273 |       3ffe::/16              1    12
+  W 1281 |    70bb::b (src 2001:db8:70aa::a) (prefer higher precedence)
+  W 1299 |    1ccc::c (src 2001:db8:70aa::a) (longest matching prefix)
+  W 1322 |       ::1/128               50     0
+  W 1323 |       fd11:1111:1111::/48   45    14
+  W 1324 |       ::/0                  40     1
+  W 1325 |       ::ffff:0:0/96         35     4
+  W 1326 |       2002::/16             30     2
+  W 1327 |       2001::/32              5     5
+  W 1328 |       fc00::/7               3    13
+  W 1329 |       ::/96                  1     3
+  W 1330 |       fec0::/10              1    11
+  W 1331 |       3ffe::/16              1    12
+  W 1338 |    2222:2::2 (src fd11:1111:1111:1::1) (prefer higher precedence)
+  W 1354 |    db8:2::2 (src 2001:db8:1::1) (prefer higher precedence)
+  W 1384 |       ::1/128               50     0
+  W 1385 |       2002:c633:6401::/48   45    14
+  W 1386 |       ::/0                  40     1
+  W 1387 |       ::ffff:0:0/96         35     4
+  W 1388 |       2002::/16             30     2
+  W 1389 |       2001::/32              5     5
+  W 1390 |       fc00::/7               3    13
+  W 1391 |       ::/96                  1     3
+  W 1392 |       fec0::/10              1    11
+  W 1393 |       3ffe::/16              1    12
+  wide rows 75
+===== rfc3484.txt bytes 55076 chars 55076 lines 1348 ff 24 cr 0 tabs 0 nonascii 0
+  W 106 |    a global prefix per ISP.
+  W 155 |    2462 sense).  Furthermore, this document suggests a preferred method,
+  W 258 |    a routing table.  Given an address A, a lookup in the policy table
+  W 295 |       ::1/128               50     0
+  W 296 |       ::/0                  40     1
+  W 297 |       2002::/16             30     2
+  W 298 |       ::/96                 20     3
+  W 299 |       ::ffff:0:0/96         10     4
+  W 386 |    2462 sense) configuration status.
+  W 407 |    be treated as having "preferred" (in the RFC 2462 sense)
+  W 942 |    2001::1 (src 2001::2) (prefer smaller scope)
+  W 989 |       ::1/128               50     0
+  W 990 |       ::/0                  40     1
+  W 991 |       2002::/16             30     2
+  W 992 |       ::/96                 20     3
+  W 993 |       ::ffff:0:0/96        100     4
+  W 1031 |       ::1/128               50     0
+  W 1032 |       ::/0                  40     1
+  W 1033 |       fec0::/10             37     1
+  W 1034 |       fe80::/10             33     1
+  W 1035 |       2002::/16             30     2
+  W 1036 |       ::/96                 20     3
+  W 1037 |       ::ffff:0:0/96         10     4
+  W 1045 |    fe80::1 (src fe80::2) (prefer higher precedence)
+  W 1103 |    2006:cccc:cccc::c (src 2007:0:aaaa::a) (longest matching prefix)
+  W 1128 |       ::1                         50     0
+  W 1129 |       2001:aaaa:aaaa::/48         45     5
+  W 1130 |       2001:bbbb:bbbb::/48         45     5
+  W 1131 |       ::/0                        40     1
+  W 1132 |       2002::/16                   30     2
+  W 1133 |       ::/96                       20     3
+  W 1134 |       ::ffff:0:0/96               10     4
+  W 1142 |    2007:0:bbbb::b (src 2007:0:aaaa::a) (prefer higher precedence)
+  W 1151 |    2001:cccc:cccc::c (src 2007:0:aaaa::a) (longest matching prefix)
+  wide rows 34
+===== rfc7381.txt bytes 90299 chars 90299 lines 1964 ff 35 cr 0 tabs 0 nonascii 0
+  W 407 |    a few months.
+  W 593 |    A specific case of congruence is IPv6 Unique Local Addresses (ULAs)
+  W 629 |    a log entry to a host in their network because when the tracing is
+  W 805 |    A common deployment consideration for any enterprise network is how
+  W 864 |    a single, physical node may host many virtualized addressable
+  W 868 |    a virtual network established within an isolated lab environment may,
+  W 1019 |    a stateful firewall.  The security policies must be consistent for
+  W 1323 |    a DNS query.  It is recommended that system administrators
+  W 1364 |    6144 provides a framework for IPv4/IPv6 translation and describes in
+  W 1366 |    be used.  [RFC6145] describes stateless address translation.  In this
+  W 1375 |    AAAA resource records (RRs) from A RRs.  Together, RFCs 6146 and RFC
+  W 1376 |    6147 provide a viable method for an IPv6-only client to initiate
+  W 1446 |    A number of campus networks around the world have made some initial
+  W 1915 |    185 Berry Street, Suite 400
+  W 1929 |    13820 Sunrise Valley Drive
+  W 1937 |    150 Dow Street
+  W 1944 |    950 Route Des Colles
+  W 1951 |    De Kleetlaan 6a
+  wide rows 18
+===== rfc8407.txt bytes 123260 chars 123260 lines 3532 ff 63 cr 0 tabs 0 nonascii 0
+  W 415 |    be followed.  The guidelines for RFCs should be followed and are
+  W 516 |    A terminology section MUST be present if any terms are defined in the
+  W 588 |    A YIN syntax version of the module MAY also be present in the
+  W 804 |    A version of 'rfcstrip' that will extract YANG modules from an I-D or
+  W 860 |    A distinctive word or abbreviation (e.g., protocol name or working
+  W 1042 |    A module may be conceptually partitioned in several ways, using the
+  W 1080 |    be avoided.
+  W 1239 |    A server is only required to maintain the relative XML document order
+  W 1248 |    be used within numeric or boolean expressions.  There are boundary
+  W 1454 |    be present, as described in Section 3.1.
+  W 1468 |    A "revision" statement MUST be present for each published version of
+  W 1561 |    A standard namespace statement value SHOULD have the following form:
+  W 1596 |    be dereferenced.  They are used for module namespace identification
+  W 1633 |    a single subtree.  If data is too distributed, it becomes difficult
+  W 1640 |    A mandatory database data definition is defined as a node that a
+  W 1712 |    be present.  A single-quoted string SHOULD be used to specify the
+  W 1952 |    A reusable grouping is a YANG grouping that can be imported by
+  W 2069 |    a grouping, and not inline in the list statement.
+  W 2081 |    A non-presence container is used to organize data into specific
+  W 2215 |    add a YANG feature is the stability of the module in question.  It
+  W 2285 |    A top-level "augment" statement SHOULD NOT be used if the target data
+  W 2324 |    be required to provide any mandatory parameters that were not in the
+  W 2417 |    be platform specific and/or temporary.
+  W 2503 |       be coupled in different ways.  Tight coupling is achieved with a
+  W 2734 |    A temporary non-NMDA module allows a non-NMDA-aware client to access
+  W 2739 |    A server that needs to support both NMDA and non-NMDA clients can
+  W 2741 |    A non-NMDA client can use separate "foo" and "foo-state" subtrees,
+  W 3031 |    be unstable.  For example, in the IETF, the RFC document is used for
+  W 3148 |               2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
+  W 3313 |       8174 are included as normative references if the terminology
+  W 3318 |       a valid reason to do otherwise (for example, it is okay to include
+  W 3321 |       Be sure citations for all imported modules are present somewhere
+  wide rows 32
+===== gai_conf5.html bytes 10510 chars 10498 lines 258 ff 0 cr 0 tabs 0 nonascii 6
+  html: tags 273 detagged chars 6456 lines 250
+  W 72 | A call to  getaddrinfo(3)  might return multiple answers.  According
+  W 97 | added to the precedence table as specified in RFC 3484.
+  W 109 | Add another rule to the RFC 3484 scope table for IPv4
+===== addrlabel.c bytes 16009 chars 16009 lines 641 ff 0 cr 0 tabs 812 nonascii 0
+  wide rows 0
+===== addrconf.c bytes 194252 chars 194252 lines 7675 ff 0 cr 0 tabs 11297 nonascii 0
+  W 2026 | 			    : ifp->flags;
+  wide rows 1

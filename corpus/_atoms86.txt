@@ -1,0 +1,35 @@
+The maximum number of retransmissions that will be attempted on a given
+A maximum value MAY be placed on RTO provided it is at least 60
+The default value of 15 yields a hypothetical timeout of 924.6
+retransmissions MUST be handled in the general way
+retransmit N times before killing the connection
+RFC 1122 recommends at least 3 retransmissions
+The present global default is five minutes
+SYN retransmissions MUST be handled in the
+a threshold R2 greater than R1, close the
+RFC 1122 recommends at least 100 seconds
+send the segment at the front of the
+The present global default is five
+correspond to at least 100 seconds
+retransmission queue again
+CLOSED state, and return
+tcp_retries2 - INTEGER
+The value of R2 SHOULD
+a value of at least 8
+the TCP endpoint will
+set R2 to "infinity"
+individually labeled
+RFC 1122 recommends
+the TCP will
+general way
+at least 60
+Connection
+127seconds
+SHOULD NOT
+set R2 to
+must not
+seconds
+would
+924.6
+Path
+SYN

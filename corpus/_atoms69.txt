@@ -1,0 +1,22 @@
+Obsoletes: 793, 879, 2873, 6093, 6429, 6528,                            
+   (1)  assigns its initial sequence number for the new connection to be
+   remaining in the network, the TCP endpoint must keep quiet for an MSL
+          the internetwork system.  Arbitrarily defined to be 2 minutes.
+   When a connection is closed actively, it MUST linger in the TIME-WAIT
+            TIME-WAIT state for a time 2xMSL (Maximum Segment Lifetime).
+   the TIME-WAIT state and TCP's "quiet time" concept (see Appendix B of
+  lost.  For this specification the MSL is taken to be 2 minutes.  This
+   |  rcv FIN       -------------- |    Timeout=2MSL -------------- |  
+    TCP implementors may violate the "quiet time" restriction, but only
+   For this specification the MSL is taken to be 2 minutes.  This is an
+  the Maximum Segment Lifetime (MSL) and that the MSL is less than 4.55
+                 port pair is tied up, some TCPs allow a new SYN to be
+            (2)  returns to TIME-WAIT state if the SYN turns out to be
+  is an engineering choice, and may be changed if experience indicates
+   corresponding to the old incarnation was last seen (where "MSL" is
+  microseconds.  Thus, the ISN cycles approximately every 4.55 hours.
+            However, it MAY accept a new SYN from the remote TCP to
+   kept or a quiet time observed for two maximum segment lifetimes
+            (1)  assigns its initial sequence number for the new
+   previous connection before 2*MSL have passed since a segment
+        <SEQ=0><ACK=SEG.SEQ+SEG.LEN><CTL=RST,ACK>

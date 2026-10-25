@@ -1,0 +1,5 @@
+This AD was prompted by a safety review of the airplane fuel system, which identified that the electrical harness routing of the engine low pressure shut off valve (LPSOV) is not adequately protected against uncontained engine rotor failure (UERF).
+This AD requires modification of the LPSOV electrical harness routing on either the left-hand engine or the right-hand engine
+loss of engine fuel isolation capability in case of UERF, possibly resulting in an uncontrolled fire
+unsafe condition may exist on airplanes with two different types of engines installed
+This AD applies to the Airbus SAS airplanes specified in paragraphs (c)(1) through (3) of this AD

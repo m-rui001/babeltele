@@ -1,0 +1,34 @@
+{
+ "enc85": 549642,
+ "dig85": 427718,
+ "rate": "128.5%",
+ "union85": 2324,
+ "union84": 2317,
+ "audit_rows": 90,
+ "listed_rows": 85,
+ "unlisted": [
+  "B87",
+  "B88",
+  "B89",
+  "B90",
+  "B91"
+ ],
+ "delta_enc": 6107,
+ "delta_dig": 6859,
+ "delta_uni": 11,
+ "proofs": 4094,
+ "fail": [
+  "B89",
+  "B90",
+  "B91"
+ ],
+ "lines_before": 777,
+ "lines_after": 787,
+ "p86": 3836,
+ "g86": 3751,
+ "corpus86": 2247,
+ "cmds": 6,
+ "all_enc": 555749,
+ "all_dig": 434577,
+ "all_uni": 2335
+}

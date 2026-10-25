@@ -1,0 +1,18 @@
+Safety is a Supplemental metric which may be optionally assessed by a scoring provider with values of Not Defined (X), Present (P), or Negligible (N). In the case of a system that intends to have health-related functions, it might also have a Safety-related consequence if a vulnerability is exploited. Let's look at an example.
+0.85 | 0.62 (0.68 if Scope / Modified Scope is Changed) | 0.27 (0.50 if Scope / Modified Scope is Changed)
+If Modified Scope Changed 7.52 x [ISCModified-0.029] - 3.25 x [ISCModified-0.02]15
+example consider EQ3=2 which is defined in Table 26 as all metrics values such
+point arithmetic. For example, although the intuitive result of 0.1 + 0.2 is
+0.30000000000000004. A simple implementation of Roundup would round this up
+The score of a vector within each MacroVector is defined by interpolation.
+which differs from CVSS v3.0. See the User Guide for more details of this
+Scope Unchanged[4] Round up (Minimum [(Impact + Exploitability), 10]) |
+Since EQ3 and EQ6 are not independent they must be considered together
+Roundup returns the smallest number, specified to 1 decimal place,
+Scope Changed 7.52 x [ISCBase-0.029] - 3.25 x [ISCBase-0.02]15
+Roundup (Minimum [1.08 x (Impact + Exploitability), 10])
+7.52 x (MISS - 0.029) - 3.25 x (MISS x 0.9731 - 0.02)13
+CVSS v4 Score: Base + Threat + Environmental 6.6
+Network | Adjacent Network | Local | Physical
+Appendix A - Floating Point Rounding
+function Roundup (input):

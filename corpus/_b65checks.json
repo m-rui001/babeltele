@@ -1,0 +1,2501 @@
+{
+ "anchor_total": 30,
+ "anchor_distinct": 25,
+ "tag_counts": {
+  "A": 8,
+  "B": 6,
+  "C": 9,
+  "D": 7
+ },
+ "ameta": {
+  "anchor_total": 30,
+  "anchor_distinct": 25,
+  "anchor_err": 0,
+  "anchor_single": 15,
+  "anchor_cross": 9,
+  "anchor_all4": 1,
+  "checks": 100,
+  "tag_A": 8,
+  "tag_B": 6,
+  "tag_C": 9,
+  "tag_D": 7
+ },
+ "letters_in": 1255,
+ "letters_out": 1605,
+ "tagn": 30,
+ "classes": {
+  "single": [
+   "      6.4. Concurrency ...............................................55",
+   "     9.4.  Concurrency",
+   "   48155 M\u00fcnster",
+   "   The limit of two connections per server has been removed.  An",
+   "   and avoid congestion of the Internet or other networks.",
+   "   automatically retry a sequence of outstanding requests are defined in",
+   "   connections places no requirements on the length of this time-out for",
+   "   new connection and automatically retransmit an aborted sequence of",
+   "   server-side processing and/or has a large payload blocks subsequent",
+   "   side processing and/or transfers very large content would block",
+   "   single-user client SHOULD NOT maintain more than 2 connections with",
+   "   single-user client SHOULD maintain AT MOST 2 connections with any",
+   "   the request without user interaction so long as the request method is",
+   "   transport connection and retransmit the aborted request without user",
+   "   transport connection and retransmit the aborted sequence of requests"
+  ],
+  "two": [
+   "   A server SHOULD sustain persistent connections, when possible, and",
+   "   As a result, this specification does not mandate a particular maximum",
+   "   Furthermore, using multiple connections can cause undesirable side",
+   "   Previous revisions of HTTP gave a specific number of connections as a",
+   "   Servers SHOULD always respond to at least one request per connection,",
+   "   any server or proxy. A proxy SHOULD use up to 2*N connections to",
+   "   characteristic of a denial-of-service attack, such as an excessive",
+   "   server or proxy. A proxy SHOULD use up to 2*N connections to another"
+  ],
+  "three": [
+   "   connections places no requirements on the length (or existence) of"
+  ],
+  "four": [
+   "   Servers will usually have some time-out value beyond which they will"
+  ]
+ },
+ "collisions": {
+  "378114": [
+   "chars\u00b797 \u6700\u591a\u4e8c"
+  ],
+  "422279": [
+   "chars\u00b799 \u4e0d\u5f97\u8d85"
+  ],
+  "205947": [
+   "chars\u00b714 \u64a4\u4e0a\u9650"
+  ],
+  "72": [
+   "maxlen\u00b714 \u64a4\u4e0a\u9650",
+   "maxlen\u00b722 \u540c\u53e5\u64a4"
+  ],
+  "162": [
+   "foot\u00b797 \u6700\u591a\u4e8c",
+   "pg\u00b797 \u6700\u591a\u4e8c",
+   "nb_gap\u00b797 \u6700\u591a\u4e8c",
+   "ff_only_lines\u00b797 \u6700\u591a\u4e8c"
+  ],
+  "176": [
+   "foot\u00b799 \u4e0d\u5f97\u8d85",
+   "pg\u00b799 \u4e0d\u5f97\u8d85",
+   "nb_gap\u00b799 \u4e0d\u5f97\u8d85",
+   "ff_only_lines\u00b799 \u4e0d\u5f97\u8d85",
+   "v_conn\u00b722 \u540c\u53e5\u64a4"
+  ],
+  "89": [
+   "foot\u00b714 \u64a4\u4e0a\u9650",
+   "pg\u00b714 \u64a4\u4e0a\u9650",
+   "nb_gap\u00b714 \u64a4\u4e0a\u9650",
+   "ff_only_lines\u00b714 \u64a4\u4e0a\u9650"
+  ],
+  "161": [
+   "hdr\u00b797 \u6700\u591a\u4e8c",
+   "cite_self\u00b797 \u6700\u591a\u4e8c",
+   "cite_2068\u00b797 \u6700\u591a\u4e8c"
+  ],
+  "175": [
+   "hdr\u00b799 \u4e0d\u5f97\u8d85",
+   "cite_self\u00b799 \u4e0d\u5f97\u8d85",
+   "cite_2616\u00b799 \u4e0d\u5f97\u8d85"
+  ],
+  "88": [
+   "hdr\u00b714 \u64a4\u4e0a\u9650",
+   "cite_self\u00b714 \u64a4\u4e0a\u9650",
+   "cite_7230\u00b714 \u64a4\u4e0a\u9650"
+  ],
+  "1931": [
+   "nonblank_asciib\u00b722 \u540c\u53e5\u64a4"
+  ],
+  "1": [
+   "nonascii\u00b722 \u540c\u53e5\u64a4",
+   "pol_a",
+   "pol_b",
+   "lit_pn\u00b797 \u6700\u591a\u4e8c",
+   "lit_pn\u00b799 \u4e0d\u5f97\u8d85",
+   "lit_nu\u00b797 \u6700\u591a\u4e8c",
+   "lit_nu\u00b799 \u4e0d\u5f97\u8d85",
+   "lit_specnum\u00b714 \u64a4\u4e0a\u9650",
+   "lit_specnum\u00b722 \u540c\u53e5\u64a4",
+   "lit_impractical\u00b714 \u64a4\u4e0a\u9650",
+   "lit_impractical\u00b722 \u540c\u53e5\u64a4",
+   "lit_nomandate\u00b714 \u64a4\u4e0a\u9650",
+   "lit_nomandate\u00b722 \u540c\u53e5\u64a4",
+   "lit_removed2\u00b714 \u64a4\u4e0a\u9650",
+   "s_cd_same_fold",
+   "s_cd_same_fold",
+   "s_hol_c_fold",
+   "s_hol_d_fold",
+   "lit_orx\u00b799 \u4e0d\u5f97\u8d85",
+   "s_tline_h_fold\u00b797 \u6700\u591a\u4e8c",
+   "s_tline_h_fold\u00b799 \u4e0d\u5f97\u8d85",
+   "s_tline_p_fold\u00b714 \u64a4\u4e0a\u9650",
+   "s_tline_p_fold\u00b722 \u540c\u53e5\u64a4",
+   "lit_srvto_h\u00b797 \u6700\u591a\u4e8c",
+   "lit_srvto_h\u00b799 \u4e0d\u5f97\u8d85",
+   "lit_srvto_p\u00b714 \u64a4\u4e0a\u9650",
+   "lit_srvto_p\u00b722 \u540c\u53e5\u64a4",
+   "obs_hdr\u00b799 \u4e0d\u5f97\u8d85",
+   "obs_hdr\u00b714 \u64a4\u4e0a\u9650",
+   "obs_hdr\u00b722 \u540c\u53e5\u64a4",
+   "upd_hdr\u00b714 \u64a4\u4e0a\u9650",
+   "std_hdr\u00b722 \u540c\u53e5\u64a4",
+   "obsoleted_by\u00b797 \u6700\u591a\u4e8c",
+   "obsoleted_by\u00b799 \u4e0d\u5f97\u8d85",
+   "obsoleted_by\u00b722 \u540c\u53e5\u64a4",
+   "lit_methodid\u00b797 \u6700\u591a\u4e8c",
+   "lit_abortedseq\u00b799 \u4e0d\u5f97\u8d85",
+   "lit_abortedseq_fold\u00b799 \u4e0d\u5f97\u8d85",
+   "lit_abortedseq_fold\u00b714 \u64a4\u4e0a\u9650",
+   "lit_seqidem_fold",
+   "abortedseq_wrap\u00b714 \u64a4\u4e0a\u9650",
+   "lit_idemhave\u00b722 \u540c\u53e5\u64a4",
+   "lit_seqretry\u00b714 \u64a4\u4e0a\u9650",
+   "lit_sustain\u00b714 \u64a4\u4e0a\u9650",
+   "lit_sustain\u00b722 \u540c\u53e5\u64a4",
+   "lit_atleastone\u00b797 \u6700\u591a\u4e8c",
+   "lit_atleastone\u00b799 \u4e0d\u5f97\u8d85",
+   "secw_ought\u00b714 \u64a4\u4e0a\u9650",
+   "secw_ought\u00b722 \u540c\u53e5\u64a4",
+   "outw_ought\u00b797 \u6700\u591a\u4e8c",
+   "secw_atmost\u00b797 \u6700\u591a\u4e8c",
+   "secw_nomandate\u00b714 \u64a4\u4e0a\u9650",
+   "secw_nomandate\u00b722 \u540c\u53e5\u64a4",
+   "secw_lit_pn\u00b797 \u6700\u591a\u4e8c",
+   "secw_lit_pn\u00b799 \u4e0d\u5f97\u8d85",
+   "s_a2_fold",
+   "s_b2_fold",
+   "s_proxy_fold",
+   "s_proxy_fold",
+   "s_grace_it_fold\u00b797 \u6700\u591a\u4e8c",
+   "s_grace_it_fold\u00b799 \u4e0d\u5f97\u8d85",
+   "s_grace_that_fold\u00b714 \u64a4\u4e0a\u9650",
+   "s_grace_that_fold\u00b722 \u540c\u53e5\u64a4",
+   "s_grace_trac\u00b797 \u6700\u591a\u4e8c",
+   "s_grace_trac\u00b799 \u4e0d\u5f97\u8d85",
+   "s_grace_conn_fold\u00b714 \u64a4\u4e0a\u9650",
+   "s_grace_conn_fold\u00b722 \u540c\u53e5\u64a4",
+   "srv_side_raw",
+   "srv_side_art",
+   "srv_side_sum\u00b714 \u64a4\u4e0a\u9650",
+   "srv_side_sum\u00b722 \u540c\u53e5\u64a4",
+   "ch_c64",
+   "ch_c64_two",
+   "ch_fold_gain",
+   "share4_axis_case",
+   "share4_axis_hyph",
+   "\u6bcf\u5343\u5b57\u5927\u5199\u4e49\u52a1\u5bc6\u5ea6",
+   "\u6bcf\u5343\u5b57\u5927\u5199\u4e49\u52a1\u5bc6\u5ea6",
+   "\u6bcf\u5343\u5b57\u5927\u5199\u4e49\u52a1\u5bc6\u5ea6",
+   "u_required\u00b714 \u64a4\u4e0a\u9650",
+   "u_required\u00b722 \u540c\u53e5\u64a4",
+   "u_recommended\u00b799 \u4e0d\u5f97\u8d85",
+   "lo_must\u00b714 \u64a4\u4e0a\u9650",
+   "lo_must\u00b722 \u540c\u53e5\u64a4",
+   "lit_shouldlimit\u00b797 \u6700\u591a\u4e8c",
+   "lit_shouldlimit\u00b799 \u4e0d\u5f97\u8d85",
+   "v_retransmit\u00b714 \u64a4\u4e0a\u9650",
+   "v_congest\u00b714 \u64a4\u4e0a\u9650",
+   "lit_congnet\u00b714 \u64a4\u4e0a\u9650",
+   "lit_congnet\u00b722 \u540c\u53e5\u64a4",
+   "s_dosnote_fold\u00b714 \u64a4\u4e0a\u9650",
+   "s_dosnote_fold\u00b722 \u540c\u53e5\u64a4",
+   "lit_headol\u00b714 \u64a4\u4e0a\u9650",
+   "lit_headol\u00b722 \u540c\u53e5\u64a4",
+   "lit_avoidcong\u00b797 \u6700\u591a\u4e8c",
+   "lit_sidec\u00b714 \u64a4\u4e0a\u9650",
+   "lit_sidec_fold\u00b714 \u64a4\u4e0a\u9650",
+   "lit_sidec_fold\u00b722 \u540c\u53e5\u64a4",
+   "sidec_wrap\u00b722 \u540c\u53e5\u64a4",
+   "lit_sided\u00b722 \u540c\u53e5\u64a4",
+   "lit_sided_fold\u00b714 \u64a4\u4e0a\u9650",
+   "lit_sided_fold\u00b722 \u540c\u53e5\u64a4",
+   "sided_wrap\u00b714 \u64a4\u4e0a\u9650",
+   "cat_std\u00b797 \u6700\u591a\u4e8c",
+   "cat_std\u00b799 \u4e0d\u5f97\u8d85",
+   "cat_std\u00b714 \u64a4\u4e0a\u9650",
+   "cat_std\u00b722 \u540c\u53e5\u64a4",
+   "issn_hdr\u00b714 \u64a4\u4e0a\u9650",
+   "issn_hdr\u00b722 \u540c\u53e5\u64a4",
+   "req_rc\u00b797 \u6700\u591a\u4e8c",
+   "req_rc\u00b799 \u4e0d\u5f97\u8d85",
+   "req_rc\u00b714 \u64a4\u4e0a\u9650",
+   "req_rc\u00b722 \u540c\u53e5\u64a4",
+   "ise\u00b714 \u64a4\u4e0a\u9650",
+   "ise\u00b722 \u540c\u53e5\u64a4",
+   "in_scope\u00b714 \u64a4\u4e0a\u9650",
+   "in_scope\u00b722 \u540c\u53e5\u64a4",
+   "cite_rfc_brk\u00b799 \u4e0d\u5f97\u8d85",
+   "\u542b\u58f3\u2212\u53bb\u58f3\u00b714 \u64a4\u4e0a\u9650",
+   "anchor_all4"
+  ],
+  "4": [
+   "sig_distinct",
+   "lit_timeout_h\u00b799 \u4e0d\u5f97\u8d85",
+   "lit_timeout_p\u00b714 \u64a4\u4e0a\u9650",
+   "lit_timeout_p\u00b722 \u540c\u53e5\u64a4",
+   "lit_keepa_upper\u00b722 \u540c\u53e5\u64a4",
+   "lit_keepa_lower\u00b722 \u540c\u53e5\u64a4",
+   "share4_notbyte",
+   "lit_dos\u00b714 \u64a4\u4e0a\u9650",
+   "cite_2068\u00b722 \u540c\u53e5\u64a4",
+   "cite_2145\u00b799 \u4e0d\u5f97\u8d85",
+   "cite_2145\u00b714 \u64a4\u4e0a\u9650",
+   "cite_2119\u00b722 \u540c\u53e5\u64a4",
+   "cite_7235\u00b714 \u64a4\u4e0a\u9650"
+  ],
+  "2": [
+   "b_ceil",
+   "ceil_docs_n",
+   "nomandate_docs_n",
+   "lit_idemhave\u00b714 \u64a4\u4e0a\u9650",
+   "lit_sec922\u00b722 \u540c\u53e5\u64a4",
+   "main6_fold\u00b797 \u6700\u591a\u4e8c",
+   "main6_fold\u00b799 \u4e0d\u5f97\u8d85",
+   "secw_must\u00b797 \u6700\u591a\u4e8c",
+   "secw_must\u00b799 \u4e0d\u5f97\u8d85",
+   "\u4ee3\u7406\u53e5\u5288\u884c",
+   "ch_c64_fold",
+   "ch_d94_fold",
+   "ch_d94_gain",
+   "share4_byte4",
+   "share4_axis_space",
+   "\u6bcf\u5343\u5b57\u5927\u5199\u4e49\u52a1\u5bc6\u5ea6",
+   "u_recommended\u00b714 \u64a4\u4e0a\u9650",
+   "lit_oughttolimit\u00b714 \u64a4\u4e0a\u9650",
+   "lit_oughttolimit\u00b722 \u540c\u53e5\u64a4",
+   "v_retransmit\u00b797 \u6700\u591a\u4e8c",
+   "v_retransmit\u00b799 \u4e0d\u5f97\u8d85",
+   "v_idem\u00b797 \u6700\u591a\u4e8c",
+   "v_idem\u00b722 \u540c\u53e5\u64a4",
+   "v_congest\u00b722 \u540c\u53e5\u64a4",
+   "lit_dos\u00b799 \u4e0d\u5f97\u8d85",
+   "lit_dos\u00b722 \u540c\u53e5\u64a4",
+   "cite_9110\u00b722 \u540c\u53e5\u64a4",
+   "cd_verdict_same",
+   "cd_prose_diff"
+  ],
+  "[0, 0, 0, 0]": [
+   "\u8d85\u65f6\u53e5\u4e24\u4ee3"
+  ],
+  "5": [
+   "lit_keepa_lower\u00b714 \u64a4\u4e0a\u9650",
+   "u_required\u00b799 \u4e0d\u5f97\u8d85",
+   "lo_may\u00b714 \u64a4\u4e0a\u9650",
+   "v_congest\u00b797 \u6700\u591a\u4e8c",
+   "v_congest\u00b799 \u4e0d\u5f97\u8d85",
+   "\u7a97\u5360\u6bd4\u5343\u5206\u4f4d"
+  ],
+  "3": [
+   "lit_closeopt\u00b797 \u6700\u591a\u4e8c",
+   "lit_closeopt\u00b799 \u4e0d\u5f97\u8d85",
+   "main6_fold\u00b714 \u64a4\u4e0a\u9650",
+   "main6_fold\u00b722 \u540c\u53e5\u64a4",
+   "secw_may\u00b797 \u6700\u591a\u4e8c",
+   "secw_may\u00b799 \u4e0d\u5f97\u8d85",
+   "sn_strict_docs\u00b797 \u6700\u591a\u4e8c",
+   "sn_strict_docs\u00b799 \u4e0d\u5f97\u8d85",
+   "sn_strict_docs\u00b714 \u64a4\u4e0a\u9650",
+   "sn_strict_docs\u00b722 \u540c\u53e5\u64a4",
+   "cite_self\u00b722 \u540c\u53e5\u64a4",
+   "selfcite_ledger\u00b722 \u540c\u53e5\u64a4",
+   "u_recommended\u00b722 \u540c\u53e5\u64a4",
+   "rfc2119_ref\u00b799 \u4e0d\u5f97\u8d85",
+   "rfc2119_ref\u00b714 \u64a4\u4e0a\u9650",
+   "cite_9112\u00b722 \u540c\u53e5\u64a4",
+   "cite_2119\u00b799 \u4e0d\u5f97\u8d85",
+   "cite_2119\u00b714 \u64a4\u4e0a\u9650"
+  ],
+  "8.1.4 Practical Considerations": [
+   "sec_head\u00b799 \u4e0d\u5f97\u8d85"
+  ],
+  "6": [
+   "sn_other_fold\u00b799 \u4e0d\u5f97\u8d85",
+   "num_lines\u00b797 \u6700\u591a\u4e8c",
+   "num_lines\u00b799 \u4e0d\u5f97\u8d85",
+   "pool_4",
+   "oblig_low\u00b714 \u64a4\u4e0a\u9650",
+   "rfc2119_ref\u00b722 \u540c\u53e5\u64a4",
+   "cite_2068\u00b714 \u64a4\u4e0a\u9650",
+   "\u7a97\u5360\u6bd4\u5343\u5206\u4f4d",
+   "\u7a97\u5360\u6bd4\u5343\u5206\u4f4d",
+   "tag_B"
+  ],
+  "8": [
+   "sn_other_fold\u00b714 \u64a4\u4e0a\u9650",
+   "sn_other_fold\u00b722 \u540c\u53e5\u64a4",
+   "sn_fold_docs\u00b797 \u6700\u591a\u4e8c",
+   "sn_fold_docs\u00b799 \u4e0d\u5f97\u8d85",
+   "hyb_cont\u00b714 \u64a4\u4e0a\u9650",
+   "oblig_low\u00b722 \u540c\u53e5\u64a4",
+   "cite_2616\u00b714 \u64a4\u4e0a\u9650",
+   "tag_A"
+  ],
+  "11": [
+   "sn_fold_docs\u00b722 \u540c\u53e5\u64a4",
+   "lit_persistent\u00b714 \u64a4\u4e0a\u9650",
+   "v_idem\u00b799 \u4e0d\u5f97\u8d85"
+  ],
+  "9": [
+   "secw_should\u00b799 \u4e0d\u5f97\u8d85",
+   "cite_7230\u00b722 \u540c\u53e5\u64a4",
+   "anchor_cross",
+   "tag_C"
+  ],
+  "20": [
+   "outw_ought\u00b714 \u64a4\u4e0a\u9650",
+   "pool_3"
+  ],
+  "7": [
+   "num_lines\u00b722 \u540c\u53e5\u64a4",
+   "lo_may\u00b722 \u540c\u53e5\u64a4",
+   "v_idem\u00b714 \u64a4\u4e0a\u9650",
+   "tag_D"
+  ],
+  "79": [
+   "hyb_eol\u00b797 \u6700\u591a\u4e8c"
+  ],
+  "10": [
+   "hyb_eol\u00b714 \u64a4\u4e0a\u9650",
+   "lit_persistent\u00b722 \u540c\u53e5\u64a4"
+  ],
+  "75": [
+   "hyb_cont\u00b799 \u4e0d\u5f97\u8d85"
+  ],
+  "130": [
+   "u_must\u00b714 \u64a4\u4e0a\u9650"
+  ],
+  "87": [
+   "u_must\u00b722 \u540c\u53e5\u64a4"
+  ],
+  "50": [
+   "u_should\u00b714 \u64a4\u4e0a\u9650"
+  ],
+  "31": [
+   "u_should\u00b722 \u540c\u53e5\u64a4"
+  ],
+  "42": [
+   "u_may\u00b714 \u64a4\u4e0a\u9650"
+  ],
+  "22": [
+   "u_may\u00b722 \u540c\u53e5\u64a4",
+   "u_must_not\u00b722 \u540c\u53e5\u64a4",
+   "lo_must\u00b799 \u4e0d\u5f97\u8d85",
+   "share_ad",
+   "CD \u4ec5\u5f52\u4e00"
+  ],
+  "251": [
+   "lo_may\u00b797 \u6700\u591a\u4e8c"
+  ],
+  "14": [
+   "lit_persistent\u00b797 \u6700\u591a\u4e8c",
+   "lit_persistent\u00b799 \u4e0d\u5f97\u8d85"
+  ],
+  "95": [
+   "v_proxy\u00b797 \u6700\u591a\u4e8c"
+  ],
+  "69": [
+   "v_proxy\u00b714 \u64a4\u4e0a\u9650"
+  ],
+  "16": [
+   "cite_2068\u00b799 \u4e0d\u5f97\u8d85"
+  ],
+  "8968": [
+   "abcd_incl"
+  ],
+  "710": [
+   "only_d"
+  ],
+  "17": [
+   "scalar_clos_n"
+  ],
+  "25": [
+   "anchor_distinct"
+  ],
+  "15": [
+   "anchor_single"
+  ],
+  "30": [
+   "anchor_total"
+  ]
+ },
+ "zero_terms": 269,
+ "deriv_keys": 135,
+ "deriv_points": 407,
+ "notes": {
+  "378114": "bytes\u00b797 \u6700\u591a\u4e8c",
+  "422279": "bytes\u00b799 \u4e0d\u5f97\u8d85",
+  "205947": "bytes\u00b714 \u64a4\u4e0a\u9650",
+  "109913": "bytes\u00b722 \u540c\u53e5\u64a4",
+  "109909": "chars\u00b722 \u540c\u53e5\u64a4",
+  "9076": "lines\u00b797 \u6700\u591a\u4e8c",
+  "9860": "lines\u00b799 \u4e0d\u5f97\u8d85",
+  "4988": "lines\u00b714 \u64a4\u4e0a\u9650",
+  "2462": "lines\u00b722 \u540c\u53e5\u64a4",
+  "6234": "nonblank\u00b797 \u6700\u591a\u4e8c",
+  "6911": "nonblank\u00b799 \u4e0d\u5f97\u8d85",
+  "3464": "nonblank\u00b714 \u64a4\u4e0a\u9650",
+  "1931": "nonblank\u00b722 \u540c\u53e5\u64a4",
+  "75": "maxlen\u00b797 \u6700\u591a\u4e8c",
+  "72": "maxlen\u00b799 \u4e0d\u5f97\u8d85",
+  "79": "cite_http_brk",
+  "162": "formfeed\u00b797 \u6700\u591a\u4e8c",
+  "176": "formfeed\u00b799 \u4e0d\u5f97\u8d85",
+  "89": "formfeed\u00b714 \u64a4\u4e0a\u9650",
+  "161": "hdr_sp\u00b797 \u6700\u591a\u4e8c",
+  "175": "hdr_sp\u00b799 \u4e0d\u5f97\u8d85",
+  "88": "hdr_sp\u00b714 \u64a4\u4e0a\u9650",
+  "233": "toc_lines\u00b797 \u6700\u591a\u4e8c",
+  "251": "toc_lines\u00b799 \u4e0d\u5f97\u8d85",
+  "93": "toc_lines\u00b714 \u64a4\u4e0a\u9650",
+  "6396": "nonblank_asciib\u00b797 \u6700\u591a\u4e8c",
+  "7087": "nonblank_asciib\u00b799 \u4e0d\u5f97\u8d85",
+  "3553": "nonblank_asciib\u00b714 \u64a4\u4e0a\u9650",
+  "1": "\u5e26 BOM\u00b722 \u540c\u53e5\u64a4",
+  "[[], [], [], ['0xfc']]": "nonascii_cp",
+  "4": "bc_delta\u00b722 \u540c\u53e5\u64a4",
+  "[0, 0, 0, 0]": "\u7f16\u7801\u5dee",
+  "2": "a_ceil",
+  "3": "lit_timeout_h\u00b797 \u6700\u591a\u4e8c",
+  "20": "lit_keepa_upper\u00b797 \u6700\u591a\u4e8c",
+  "8": "lit_keepa_upper\u00b799 \u4e0d\u5f97\u8d85",
+  "5": "lit_keepa_upper\u00b714 \u64a4\u4e0a\u9650",
+  "18": "lit_closeopt\u00b714 \u64a4\u4e0a\u9650",
+  "16": "lit_closeopt\u00b722 \u540c\u53e5\u64a4",
+  "8.1.4 Practical Considerations": "sec_head\u00b797 \u6700\u591a\u4e8c",
+  "6.4.  Concurrency": "sec_head\u00b714 \u64a4\u4e0a\u9650",
+  "9.4.  Concurrency": "sec_head\u00b722 \u540c\u53e5\u64a4",
+  "2568": "sec_len\u00b797 \u6700\u591a\u4e8c",
+  "2724": "sec_len\u00b799 \u4e0d\u5f97\u8d85",
+  "1054": "sec_len\u00b714 \u64a4\u4e0a\u9650",
+  "1351": "sec_len\u00b722 \u540c\u53e5\u64a4",
+  "2492": "sec_a\u00b797 \u6700\u591a\u4e8c",
+  "2565": "sec_a\u00b799 \u4e0d\u5f97\u8d85",
+  "3042": "sec_a\u00b714 \u64a4\u4e0a\u9650",
+  "1435": "sec_a\u00b722 \u540c\u53e5\u64a4",
+  "2546": "sec_b\u00b797 \u6700\u591a\u4e8c",
+  "2620": "sec_b\u00b799 \u4e0d\u5f97\u8d85",
+  "3063": "sec_b\u00b714 \u64a4\u4e0a\u9650",
+  "1462": "sec_b\u00b722 \u540c\u53e5\u64a4",
+  "6": "sn_other_fold\u00b797 \u6700\u591a\u4e8c",
+  "11": "sn_fold_docs\u00b714 \u64a4\u4e0a\u9650",
+  "260": "outw_must\u00b797 \u6700\u591a\u4e8c",
+  "346": "outw_must\u00b799 \u4e0d\u5f97\u8d85",
+  "130": "outw_must\u00b714 \u64a4\u4e0a\u9650",
+  "87": "outw_must\u00b722 \u540c\u53e5\u64a4",
+  "9": "secw_should\u00b797 \u6700\u591a\u4e8c",
+  "182": "outw_should\u00b797 \u6700\u591a\u4e8c",
+  "247": "outw_should\u00b799 \u4e0d\u5f97\u8d85",
+  "50": "outw_should\u00b714 \u64a4\u4e0a\u9650",
+  "31": "outw_should\u00b722 \u540c\u53e5\u64a4",
+  "95": "outw_may\u00b797 \u6700\u591a\u4e8c",
+  "177": "outw_may\u00b799 \u4e0d\u5f97\u8d85",
+  "42": "outw_may\u00b714 \u64a4\u4e0a\u9650",
+  "22": "outw_may\u00b722 \u540c\u53e5\u64a4",
+  "13": "outw_ought\u00b799 \u4e0d\u5f97\u8d85",
+  "10": "outw_ought\u00b722 \u540c\u53e5\u64a4",
+  "7": "num_lines\u00b714 \u64a4\u4e0a\u9650",
+  "23": "wrap_sn_n",
+  "17": "wrap_sn_hit",
+  "26": "wrap_sn_total",
+  "114": "hyb_eol\u00b799 \u4e0d\u5f97\u8d85",
+  "21": "hyb_eol\u00b722 \u540c\u53e5\u64a4",
+  "39": "hyb_cont\u00b797 \u6700\u591a\u4e8c",
+  "14": "hyb_cont\u00b722 \u540c\u53e5\u64a4",
+  "2328": "pool_1",
+  "1218": "pool_2",
+  "3572": "pool_n",
+  "262": "u_must\u00b797 \u6700\u591a\u4e8c",
+  "348": "u_must\u00b799 \u4e0d\u5f97\u8d85",
+  "191": "u_should\u00b797 \u6700\u591a\u4e8c",
+  "256": "u_should\u00b799 \u4e0d\u5f97\u8d85",
+  "98": "u_may\u00b797 \u6700\u591a\u4e8c",
+  "180": "u_may\u00b799 \u4e0d\u5f97\u8d85",
+  "78": "u_must_not\u00b797 \u6700\u591a\u4e8c",
+  "120": "u_must_not\u00b799 \u4e0d\u5f97\u8d85",
+  "43": "u_must_not\u00b714 \u64a4\u4e0a\u9650",
+  "551": "oblig_up\u00b797 \u6700\u591a\u4e8c",
+  "784": "oblig_up\u00b799 \u4e0d\u5f97\u8d85",
+  "222": "oblig_up\u00b714 \u64a4\u4e0a\u9650",
+  "140": "oblig_up\u00b722 \u540c\u53e5\u64a4",
+  "56": "lo_must\u00b797 \u6700\u591a\u4e8c",
+  "91": "lo_should\u00b797 \u6700\u591a\u4e8c",
+  "25": "lo_should\u00b799 \u4e0d\u5f97\u8d85",
+  "69": "lo_may\u00b799 \u4e0d\u5f97\u8d85",
+  "398": "oblig_low\u00b797 \u6700\u591a\u4e8c",
+  "116": "oblig_low\u00b799 \u4e0d\u5f97\u8d85",
+  "135": "v_conn\u00b797 \u6700\u591a\u4e8c",
+  "129": "v_conn\u00b799 \u4e0d\u5f97\u8d85",
+  "224": "v_conn\u00b714 \u64a4\u4e0a\u9650",
+  "278": "v_client\u00b797 \u6700\u591a\u4e8c",
+  "310": "v_client\u00b799 \u4e0d\u5f97\u8d85",
+  "146": "v_client\u00b714 \u64a4\u4e0a\u9650",
+  "108": "v_client\u00b722 \u540c\u53e5\u64a4",
+  "534": "v_server\u00b797 \u6700\u591a\u4e8c",
+  "569": "v_server\u00b799 \u4e0d\u5f97\u8d85",
+  "208": "v_server\u00b714 \u64a4\u4e0a\u9650",
+  "119": "v_server\u00b722 \u540c\u53e5\u64a4",
+  "126": "v_proxy\u00b799 \u4e0d\u5f97\u8d85",
+  "24": "v_proxy\u00b722 \u540c\u53e5\u64a4",
+  "700": "pool_share1_2068",
+  "154": "cite_rfc_brk\u00b714 \u64a4\u4e0a\u9650",
+  "35": "cite_rfc_brk\u00b722 \u540c\u53e5\u64a4",
+  "38": "cite_7231\u00b714 \u64a4\u4e0a\u9650",
+  "2301": "share_ab",
+  "45": "share_ac",
+  "55": "share_bc",
+  "30": "share_bd",
+  "470": "share_cd",
+  "1956": "y_ab_byte_shared",
+  "345": "\u4ec5\u5f52\u4e00\u540c",
+  "448": "y_cd_byte_shared",
+  "8968": "union_all",
+  "8258": "union_abc",
+  "710": "union_delta",
+  "1676": "only_a",
+  "53": "x_ident_n",
+  "15": "list_clos_n",
+  "12": "\u7a97\u5360\u6bd4\u5343\u5206\u4f4d",
+  "100": "checks"
+ },
+ "pool_used": 25,
+ "enc_chars": 11374,
+ "nsrc": 4,
+ "flat": {
+  "bytes": [
+   378114,
+   422279,
+   205947,
+   109913
+  ],
+  "chars": [
+   378114,
+   422279,
+   205947,
+   109909
+  ],
+  "lines": [
+   9076,
+   9860,
+   4988,
+   2462
+  ],
+  "nonblank": [
+   6234,
+   6911,
+   3464,
+   1931
+  ],
+  "maxlen": [
+   75,
+   72,
+   72,
+   72
+  ],
+  "trail": [
+   162,
+   176,
+   89,
+   0
+  ],
+  "cr": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "nonascii": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "bom": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "formfeed": [
+   162,
+   176,
+   89,
+   0
+  ],
+  "nonblank_asciib": [
+   6396,
+   7087,
+   3553,
+   1931
+  ],
+  "ff_only_lines": [
+   162,
+   176,
+   89,
+   0
+  ],
+  "nb_gap": [
+   162,
+   176,
+   89,
+   0
+  ],
+  "hdr_sp": [
+   161,
+   175,
+   88,
+   0
+  ],
+  "hdr_ns": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "hdr": [
+   161,
+   175,
+   88,
+   0
+  ],
+  "foot": [
+   162,
+   176,
+   89,
+   0
+  ],
+  "pg": [
+   162,
+   176,
+   89,
+   0
+  ],
+  "pagelines": [
+   323,
+   351,
+   177,
+   0
+  ],
+  "pages_est": [
+   162,
+   176,
+   89,
+   0
+  ],
+  "sig": [
+   "8130c70a9bba2df0",
+   "1eb13697015e29a4",
+   "7cc86081c19f34a2",
+   "6789a9cd9e66eca2"
+  ],
+  "sig_distinct": 4,
+  "toc_lines": [
+   233,
+   251,
+   93,
+   0
+  ],
+  "nonascii_cp": [
+   [],
+   [],
+   [],
+   [
+    "0xfc"
+   ]
+  ],
+  "bc_delta": [
+   0,
+   0,
+   0,
+   4
+  ],
+  "nonascii_utf8_extra": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "enc_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_abortedreq": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "lit_abortedseq": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "lit_apchttp": [
+   0,
+   4,
+   6,
+   6
+  ],
+  "lit_asares": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "lit_atleastone": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "lit_atmost2": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "lit_avoidcong": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "lit_bigcontent": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "lit_closeopt": [
+   3,
+   3,
+   18,
+   16
+  ],
+  "lit_congnet": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "lit_conservative": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "lit_dos": [
+   0,
+   2,
+   4,
+   2
+  ],
+  "lit_graceful": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "lit_headol": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "lit_idemhave": [
+   0,
+   0,
+   2,
+   1
+  ],
+  "lit_idemmethods": [
+   0,
+   2,
+   2,
+   1
+  ],
+  "lit_impractical": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "lit_ingeneral": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_keepa_lower": [
+   0,
+   0,
+   5,
+   4
+  ],
+  "lit_keepa_upper": [
+   20,
+   8,
+   5,
+   4
+  ],
+  "lit_leno": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "lit_methodid": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "lit_more2": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "lit_msghttp": [
+   4,
+   5,
+   11,
+   12
+  ],
+  "lit_nomandate": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "lit_nu": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "lit_orx": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "lit_oughttolimit": [
+   0,
+   0,
+   2,
+   2
+  ],
+  "lit_payloadblk": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "lit_persistent": [
+   14,
+   14,
+   11,
+   10
+  ],
+  "lit_pn": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "lit_recovery": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "lit_removed2": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "lit_retransseq": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "lit_retrydef": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "lit_sec922": [
+   0,
+   0,
+   0,
+   2
+  ],
+  "lit_seqidem": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_seqretry": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "lit_shouldlimit": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "lit_sidec": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "lit_sided": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "lit_simcon": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "lit_simopen": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "lit_singleuser": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "lit_specnum": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "lit_srvto_h": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "lit_srvto_p": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "lit_sustain": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "lit_timeout_h": [
+   3,
+   4,
+   0,
+   0
+  ],
+  "lit_timeout_p": [
+   0,
+   0,
+   4,
+   4
+  ],
+  "lit_two_both": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "lit_hyphen_gap": [
+   3,
+   4,
+   0,
+   0
+  ],
+  "lit_plain_in_ab": [
+   -3,
+   -4,
+   4,
+   4
+  ],
+  "pol_a": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "pol_b": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "pol_own": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "pol_cross_ab": 0,
+  "pol_cross_ba": 0,
+  "pol_cross_close": 0,
+  "proxy_cd_sum": 0,
+  "gen_h": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "gen_p": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "gen_split_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_abortedseq_fold": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "lit_seqidem_fold": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "lit_sidec_fold": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "lit_sided_fold": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "srvto_pair_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "abortedseq_wrap": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "seqidem_wrap": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "sided_wrap": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "sidec_wrap": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "retry_form_close": 0,
+  "rem_decl_close": 0,
+  "retrydef_close": 0,
+  "sec922_close": 0,
+  "idemhave_ab_close": 0,
+  "idem_cd_n": 3,
+  "a_ceil": 2,
+  "b_ceil": 2,
+  "ceil_close": 0,
+  "ceil_docs": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "ceil_docs_n": 2,
+  "nomandate_docs": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "nomandate_docs_n": 2,
+  "ceil_nomandate_ledger": 0,
+  "s_a2": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_a2_fold": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "wrapgap_a2": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "s_b2": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_b2_fold": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "wrapgap_b2": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "s_proxy": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_proxy_fold": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "wrapgap_proxy": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "s_remove": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_remove_fold": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "wrapgap_remove": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "s_c_nmand": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_c_nmand_fold": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "wrapgap_c_nmand": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "s_hol_c": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_hol_c_fold": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "wrapgap_hol_c": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "s_hol_d": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_hol_d_fold": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "wrapgap_hol_d": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "s_cd_same": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_cd_same_fold": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "wrapgap_cd_same": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "s_a_len": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_a_len_fold": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "wrapgap_a_len": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "s_b_len": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_b_len_fold": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "wrapgap_b_len": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "s_cd_len": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_cd_len_fold": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "wrapgap_cd_len": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "s_grace_it": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_grace_it_fold": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "wrapgap_grace_it": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "s_grace_that": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_grace_that_fold": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "wrapgap_grace_that": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "s_grace_trac": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "s_grace_trac_fold": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "wrapgap_grace_trac": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_grace_conn": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_grace_conn_fold": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "wrapgap_grace_conn": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "s_a_retry": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_a_retry_fold": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "wrapgap_a_retry": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "s_b_retry": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_b_retry_fold": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "wrapgap_b_retry": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "s_sust": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "s_sust_fold": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "wrapgap_sust": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_oneper": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "s_oneper_fold": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "wrapgap_oneper": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_dosnote": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_dosnote_fold": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "wrapgap_dosnote": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "s_hol": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "s_hol_fold": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "wrapgap_hol": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_tline_h": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "s_tline_h_fold": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "wrapgap_tline_h": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_tline_p": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "s_tline_p_fold": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "wrapgap_tline_p": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "wrap_sn_n": 23,
+  "wrap_sn_hit": 17,
+  "wrap_sn_total": 26,
+  "sn_strict_docs": [
+   3,
+   3,
+   3,
+   3
+  ],
+  "sn_fold_docs": [
+   8,
+   8,
+   11,
+   11
+  ],
+  "hyb_eol": [
+   79,
+   114,
+   10,
+   21
+  ],
+  "hyb_cont": [
+   39,
+   75,
+   8,
+   14
+  ],
+  "srv_side_raw": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "srv_side_art": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "srv_side_sum": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "srv_side_cd_close": 0,
+  "ch_c64": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "ch_c64_two": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "ch_c64_fold": [
+   0,
+   0,
+   2,
+   0
+  ],
+  "ch_d94": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "ch_d94_two": [
+   0,
+   0,
+   0,
+   2
+  ],
+  "ch_d94_fold": [
+   0,
+   0,
+   0,
+   2
+  ],
+  "ch_fold_gain": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "ch_d94_gain": [
+   0,
+   0,
+   0,
+   2
+  ],
+  "ch_fold_eq": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "sn_only_fold": [
+   "a2",
+   "b2",
+   "proxy",
+   "remove",
+   "c_nmand",
+   "hol_c",
+   "hol_d",
+   "cd_same",
+   "a_len",
+   "b_len",
+   "cd_len",
+   "grace_it",
+   "grace_that",
+   "grace_conn",
+   "a_retry",
+   "b_retry",
+   "dosnote"
+  ],
+  "wrap_onlyfold_n": 17,
+  "tline_both_docs": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "tline_pair_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cd_verdict_same": 2,
+  "cd_prose_diff": 2,
+  "hol_excl": 0,
+  "cd_verdict_same_minus_hol": 0,
+  "grace_docs": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "grace_all_close": 0,
+  "grace_pair_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "grace_trac_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "wrap_proxy_ab": 2,
+  "wrap_hit_minus_onlyfold": 0,
+  "sec_practical": [
+   2,
+   2,
+   0,
+   0
+  ],
+  "sec_practical_line": [
+   [
+    107,
+    2492
+   ],
+   [
+    129,
+    2565
+   ],
+   [],
+   []
+  ],
+  "sec_concurrency": [
+   0,
+   0,
+   2,
+   2
+  ],
+  "sec_concurrency_line": [
+   [],
+   [],
+   [
+    162,
+    3042
+   ],
+   [
+    107,
+    1435
+   ]
+  ],
+  "sec_failures": [
+   0,
+   0,
+   2,
+   2
+  ],
+  "sec_failures_line": [
+   [],
+   [],
+   [
+    163,
+    3064
+   ],
+   [
+    108,
+    1463
+   ]
+  ],
+  "sec_persistence": [
+   0,
+   0,
+   0,
+   2
+  ],
+  "sec_persistence_line": [
+   [],
+   [],
+   [],
+   [
+    104,
+    1335
+   ]
+  ],
+  "sec_estab": [
+   0,
+   0,
+   0,
+   2
+  ],
+  "sec_estab_line": [
+   [],
+   [],
+   [],
+   [
+    102,
+    1306
+   ]
+  ],
+  "sec_teardown": [
+   0,
+   0,
+   0,
+   2
+  ],
+  "sec_teardown_line": [
+   [],
+   [],
+   [],
+   [
+    109,
+    1498
+   ]
+  ],
+  "sec_keys": [
+   1,
+   1,
+   2,
+   2
+  ],
+  "sec_pair_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "sec_keys_ledger": 0,
+  "ans_line_a": [
+   2541
+  ],
+  "ans_linefold_a": [
+   2541
+  ],
+  "ans_line_b": [
+   2615
+  ],
+  "ans_linefold_b": [
+   2615
+  ],
+  "ans_line_c": [
+   3049
+  ],
+  "ans_linefold_c": [
+   3049
+  ],
+  "ans_line_d": [
+   1442
+  ],
+  "ans_linefold_d": [
+   1442
+  ],
+  "ans_lit_present": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "ans_fold_present": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "ans_gap": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "ans_line_n": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "ans_line_close": 0,
+  "u_must_not": [
+   78,
+   120,
+   43,
+   22
+  ],
+  "u_must": [
+   262,
+   348,
+   130,
+   87
+  ],
+  "u_should_not": [
+   22,
+   42,
+   13,
+   6
+  ],
+  "u_should": [
+   191,
+   256,
+   50,
+   31
+  ],
+  "u_may": [
+   98,
+   180,
+   42,
+   22
+  ],
+  "u_required": [
+   0,
+   5,
+   1,
+   1
+  ],
+  "u_recommended": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "u_may_not": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "oblig_up": [
+   551,
+   784,
+   222,
+   140
+  ],
+  "sec_head": [
+   "8.1.4 Practical Considerations",
+   "8.1.4 Practical Considerations",
+   "6.4.  Concurrency",
+   "9.4.  Concurrency"
+  ],
+  "sec_len": [
+   2568,
+   2724,
+   1054,
+   1351
+  ],
+  "sec_a": [
+   2492,
+   2565,
+   3042,
+   1435
+  ],
+  "sec_b": [
+   2546,
+   2620,
+   3063,
+   1462
+  ],
+  "secw_must": [
+   2,
+   2,
+   0,
+   0
+  ],
+  "outw_must": [
+   260,
+   346,
+   130,
+   87
+  ],
+  "win_close_must": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "secw_should": [
+   9,
+   9,
+   0,
+   0
+  ],
+  "outw_should": [
+   182,
+   247,
+   50,
+   31
+  ],
+  "win_close_should": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "secw_may": [
+   3,
+   3,
+   0,
+   0
+  ],
+  "outw_may": [
+   95,
+   177,
+   42,
+   22
+  ],
+  "win_close_may": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "secw_ought": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "outw_ought": [
+   1,
+   13,
+   20,
+   10
+  ],
+  "secw_atmost": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "secw_nomandate": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "secw_lit_pn": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "main6_fold": [
+   2,
+   2,
+   3,
+   3
+  ],
+  "sn_other_fold": [
+   6,
+   6,
+   8,
+   8
+  ],
+  "must_win_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "should_win_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "may_win_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "must_win_close_sum": 0,
+  "lo_must": [
+   56,
+   22,
+   1,
+   1
+  ],
+  "lo_should": [
+   91,
+   25,
+   0,
+   0
+  ],
+  "lo_may": [
+   251,
+   69,
+   5,
+   7
+  ],
+  "oblig_low": [
+   398,
+   116,
+   6,
+   8
+  ],
+  "rfc2119_ref": [
+   0,
+   3,
+   3,
+   6
+  ],
+  "v_persist": [
+   29,
+   26,
+   19,
+   19
+  ],
+  "v_conn": [
+   135,
+   129,
+   224,
+   176
+  ],
+  "v_client": [
+   278,
+   310,
+   146,
+   108
+  ],
+  "v_server": [
+   534,
+   569,
+   208,
+   119
+  ],
+  "v_proxy": [
+   95,
+   126,
+   69,
+   24
+  ],
+  "v_timeoutw": [
+   0,
+   0,
+   4,
+   4
+  ],
+  "v_keepw": [
+   4,
+   2,
+   6,
+   5
+  ],
+  "v_retry": [
+   14,
+   11,
+   10,
+   5
+  ],
+  "v_retransmit": [
+   2,
+   2,
+   1,
+   0
+  ],
+  "v_idem": [
+   2,
+   11,
+   7,
+   2
+  ],
+  "v_browser": [
+   2,
+   3,
+   8,
+   2
+  ],
+  "v_congest": [
+   5,
+   5,
+   1,
+   2
+  ],
+  "v_state": [
+   12,
+   15,
+   8,
+   3
+  ],
+  "cat_std": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "obs_hdr": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "upd_hdr": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "std_hdr": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "bcp_hdr": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "issn_hdr": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "req_rc": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "obsoleted_by": [
+   1,
+   1,
+   0,
+   1
+  ],
+  "ise": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "in_scope": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "cite_2068": [
+   161,
+   16,
+   6,
+   4
+  ],
+  "cite_2616": [
+   0,
+   175,
+   8,
+   0
+  ],
+  "cite_2145": [
+   0,
+   4,
+   4,
+   0
+  ],
+  "cite_7230": [
+   0,
+   0,
+   88,
+   9
+  ],
+  "cite_7231": [
+   0,
+   0,
+   38,
+   0
+  ],
+  "cite_9110": [
+   0,
+   0,
+   0,
+   2
+  ],
+  "cite_9112": [
+   0,
+   0,
+   0,
+   3
+  ],
+  "cite_2119": [
+   0,
+   3,
+   3,
+   4
+  ],
+  "cite_7235": [
+   0,
+   0,
+   4,
+   0
+  ],
+  "cite_self": [
+   161,
+   175,
+   88,
+   3
+  ],
+  "selfcite_ledger": [
+   0,
+   0,
+   0,
+   3
+  ],
+  "selfcite_close3": 0,
+  "cite_http_brk": [
+   0,
+   0,
+   0,
+   79
+  ],
+  "cite_rfc_brk": [
+   0,
+   1,
+   154,
+   35
+  ],
+  "lines_ge40": [
+   3980,
+   4483,
+   2152,
+   1192
+  ],
+  "lines_ge40_nos": [
+   3980,
+   4483,
+   2151,
+   1192
+  ],
+  "share_ab": 2301,
+  "share_ac": 45,
+  "share_ad": 22,
+  "share_bc": 55,
+  "share_bd": 30,
+  "share_cd": 470,
+  "union_all": 8968,
+  "only_a": 1676,
+  "only_d": 710,
+  "share_ab_nos": 2301,
+  "share_ac_nos": 45,
+  "share_ad_nos": 22,
+  "share_bc_nos": 55,
+  "share_bd_nos": 30,
+  "share_cd_nos": 470,
+  "union_all_nos": 8967,
+  "only_a_nos": 1676,
+  "only_d_nos": 710,
+  "union_abc": 8258,
+  "union_delta": 710,
+  "shell_delta": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "share_cd_delta": 0,
+  "abcd_incl": 8968,
+  "abcd_close": 0,
+  "y_ab_byte_shared": 1956,
+  "y_ab_norm_only": 345,
+  "y_cd_byte_shared": 448,
+  "y_cd_norm_only": 22,
+  "num_lines": [
+   6,
+   6,
+   7,
+   7
+  ],
+  "pool_n": 3572,
+  "pool_tier": [
+   2328,
+   1218,
+   20,
+   6
+  ],
+  "pool_tier_close": 0,
+  "pool_1": 2328,
+  "pool_2": 1218,
+  "pool_3": 20,
+  "pool_4": 6,
+  "pool_share1_2068": 700,
+  "pool_share1_2616": 732,
+  "pool_share1_7230": 647,
+  "pool_share1_9112": 249,
+  "pool_share2_ab": 989,
+  "pool_share2_cd": 223,
+  "share4_byte4": 2,
+  "share4_notbyte": 4,
+  "share4_axis_case": 1,
+  "share4_axis_hyph": 1,
+  "share4_axis_space": 2,
+  "share4_axis_multi": 0,
+  "share4_axis_close": 0,
+  "pool_share4": [
+   "aclientserverorproxymayclosethetransportconnectionatany",
+   "connectionfromtheserverspointofviewtheconnectionisbeing",
+   "nolongermaintainaninactiveconnectionproxyserversmightmake",
+   "serverswillusuallyhavesometimeoutvaluebeyondwhichtheywill",
+   "thefirstlineofaresponsemessageisthestatuslineconsisting",
+   "thisahighervaluesinceitislikelythattheclientwillbemaking"
+  ],
+  "share4_diff": [
+   [
+    "case",
+    "thefirstlineofaresponsemessageisthestatuslineconsisting"
+   ],
+   [
+    "hyph",
+    "serverswillusuallyhavesometimeoutvaluebeyondwhichtheywill"
+   ],
+   [
+    "space",
+    "connectionfromtheserverspointofviewtheconnectionisbeing"
+   ],
+   [
+    "space",
+    "nolongermaintainaninactiveconnectionproxyserversmightmake"
+   ]
+  ],
+  "apool_n": 16624,
+  "apool_tag_n": [
+   5594,
+   6204,
+   3074,
+   1752
+  ],
+  "apool_1": 6613,
+  "apool_2": 9195,
+  "apool_3": 440,
+  "apool_4": 376,
+  "scalar_clos_n": 17,
+  "scalar_clos_sum": 0,
+  "list_clos_n": 15,
+  "x_ident_n": 53,
+  "pagelines_close": 0,
+  "ff_foot_sum": 0,
+  "pg_foot_sum": 0,
+  "nb_ff_sum": 0,
+  "oblig_up_close": 0,
+  "oblig_low_close": 0,
+  "keepa_ab_lower_zero": 0,
+  "nonascii_cp_close": 0,
+  "d_shell_zero": 0,
+  "anchor_total": 30,
+  "anchor_distinct": 25,
+  "anchor_err": 0,
+  "anchor_single": 15,
+  "anchor_cross": 9,
+  "anchor_all4": 1,
+  "checks": 100,
+  "tag_A": 8,
+  "tag_B": 6,
+  "tag_C": 9,
+  "tag_D": 7
+ },
+ "closure_keys": [
+  "enc_close",
+  "pol_cross_close",
+  "gen_split_close",
+  "srvto_pair_close",
+  "retry_form_close",
+  "rem_decl_close",
+  "retrydef_close",
+  "sec922_close",
+  "idemhave_ab_close",
+  "ceil_close",
+  "srv_side_cd_close",
+  "tline_pair_close",
+  "grace_all_close",
+  "grace_pair_close",
+  "grace_trac_close",
+  "sec_pair_close",
+  "ans_line_close",
+  "must_win_close",
+  "should_win_close",
+  "may_win_close",
+  "abcd_close",
+  "pool_tier_close",
+  "share4_axis_close",
+  "pagelines_close",
+  "oblig_up_close",
+  "oblig_low_close",
+  "nonascii_cp_close"
+ ]
+}

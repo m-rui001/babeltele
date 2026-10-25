@@ -1,0 +1,91 @@
+Viz.ai, Inc
+Caption Health
+Masimo SafetyNet Opioid System
+Viz.ai, Inc
+Caption Health
+Masimo SafetyNet Opioid System
+Final amendment; final order
+class II (special controls)
+This order is effective September 11, 2026. The classification was applicable on August 3, 2023.
+On February 19, 2020, FDA received Masimo Corporation’s request for De Novo classification of the Masimo SafetyNet Opioid System.
+FDA is required to classify the device by written order within 120 days
+within 120 days
+Any device that was not in commercial distribution before May 28, 1976, is automatically classified into, and remains within, class III and requires premarket approval unless and until FDA takes an action to classify or reclassify the device (21 U.S.C. 360c(f)(1)).
+We refer to these devices as ``postamendments devices’’
+At this time FDA has not made this determination for cardiovascular machine learning-based notification software.
+OMB control number
+De Novo
+class II
+510(k)
+OMB control number
+will provide a reasonable assurance of the safety and effectiveness of the device
+will provide a reasonable assurance of safety and effectiveness of the device
+reasonable assurance of safety
+Human factors assessment of the intended users in the intended use environment must evaluate the risk of misinterpretation of device output.
+(4) Usability assessment must be provided to demonstrate that intended device users can safely and correctly use the device.
+Device used in unsupported patient
+population or with unsupported input
+human factors
+usability
+misinterpretation of device output
+For devices using algorithms based on machine learning, the clinical validation must be completed using a dataset that is separate from the training dataset
+The test dataset must be independent from data used in training/development and contain sufficient numbers of cases from important cohorts
+The test dataset must be independent from data used in training/development and contain sufficient numbers of cases from important cohorts
+machine learning
+independent
+separate
+The performance assessment must be based on objective performance measures (e.g., error metrics, Bland-Altman plots, dice similarity coefficient, Hausdorff distance, sensitivity, specificity, predictive value).
+Objective performance measures (e.g., sensitivity, specificity, positive predictive value or negative predictive value) must be reported with relevant descriptive or developmental performance measures.
+dice
+Hausdorff
+Bland-Altman
+It is intended as the basis for further testing and is not intended to provide diagnostic quality output. It is not intended to identify or detect arrhythmias.
+Warnings identifying that the device is not designed to differentiate between the target condition (e.g., opioid-induced respiratory depression) and other conditions that may cause a false reading (e.g., obstructive sleep apnea);
+not intended
+not designed
+Adverse tissue reaction................ Biocompatibility evaluation.
+Sensor induced injury.................. Electrical, thermal, and mechanical safety testing.
+Failure to function as intended due to Electromagnetic compatibility electromagnetic and wireless radio testing; and frequency interference.
+Incorrect treatment or diagnosis due to Clinical performance testing; model bias or failure to adequately
+generalize to the intended use population.
+Overreliance on device output for Human factors assessment; and follow-up.
+biocompatible
+electromagnetic
+wireless
+Overreliance
+contain sufficient numbers of cases from important cohorts (e.g., demographic populations, subsets defined by clinically relevant confounders, comorbidities, and subsets defined by hardware and acquisition characteristics)
+including sensitivity, specificity, positive predictive value, and negative predictive value for each of the subpopulations, use environments, and opioid types
+demographic
+subpopulations
+use environments
+opioid types
+(vi) A description of situations in which the device may fail or may not operate at its expected performance level (e.g., poor image quality or for certain subpopulations), as applicable; and
+(iii) Warning that the user should not rely on the lack of a suspected finding to rule out follow-up;
+(v) Warnings against overreliance on the device; and
+The design specifications include planned modifications that may be made to the device consistent with an established predetermined change control plan.
+Implementation of modifications agreed Special controls (2)-(3) and in the authorized predetermined change 4(vii); and Certain activities control plan (PCCP) leads to algorithm identified in special controls producing inaccurate output,
+A version history, a description of how device modification(s) will be implemented, and a description of how users will be informed of device modification(s) made in accordance with the PCCP.
+predetermined change control
+PCCP
+Upon request, FDA (the Agency or we) has classified the cardiovascular machine learning-based notification software into class II (special controls)
+As part of the design verification and validation activities, you must document the planned device modifications
+All components of the device that contact the skin must be demonstrated to be biocompatible.
+we
+you
+must
+PCCP
+Grace R. Graham, Deputy Commissioner for Policy, Legislation, and International Affairs.
+Hetal Odobasic, Center for Devices and Radiological Health, Food and Drug Administration, 10903 New Hampshire Ave., Bldg. 66, Rm. 2108
+Neel Patel, Center for Devices and Radiological Health, Food and Drug Administration, 10903 New Hampshire Ave., Bldg. 66, Rm. 1232
+240-402-6540
+301-796-6167
+301-796-6274
+[Docket No. FDA-2026-N-9907]
+[Docket No. FDA-2026-N-6535]
+[Docket No. FDA-2026-N-6707]
+[FR Doc. 2026-13140 Filed 6-29-26; 8:45 am]
+Filed
+FDA notes that the ``ACTION’’ caption for this final order is styled as ``Final amendment; final order,’’ rather than ``Final order.’’
+FDA notes that the ACTION caption for this final order is styled as ``Final amendment; final order,’’ rather than ``Final order.’’
+Final amendment; final order
+ACTION

@@ -1,0 +1,8 @@
+Use the new diskused() extension to implement the ".diskused" dot-command.
+The ability to end an SQL command using the line that contains just "go" or "/"
+The ALTER TABLE command raises an error on any attempt to add, drop, or rename columns with the special names
+Added the %J and %j conversions used to render JSON string literals
+Drop support for WindowsXP and earlier Windows versions
+About 4% faster, as measured by counting CPU cycles in the speedtest1
+Added SQLITE_LIMIT_SCHEMA and SQLITE_LIMIT_TRIGGER_STEPS
+Added the "weekday -N" form of the weekday modifier

@@ -1,0 +1,92 @@
+Proposed amendment; proposed order; request for comments.
+Final amendment; final order.
+[Docket No. FDA-2025-N-1243]
+[Docket No. FDA-2025-N-1243]
+Grace R. Graham, Deputy Commissioner for Policy, Legislation, and International Affairs.
+Grace R. Graham, Deputy Commissioner for Policy, Legislation, and International Affairs.
+[Docket No. FDA-2025-N-1243]
+Proposed amendment; proposed order; request for comments.
+Final amendment; final order.
+[Pages 24540-24549]
+[Pages 53184-53191]
+II. Comments on the Proposed Order and FDA Responses
+FDA received comments from fewer than 5 commenters
+II. Comments on the Proposed Order and FDA Responses
+FDA received comments from fewer than 5 commenters
+The Food and Drug Administration (FDA) is proposing to reclassify
+The Food and Drug Administration (FDA, the Agency, or we) is issuing a final order
+The order of the comments and our response to them is purely for organizational purposes
+the Agency, or we
+The order of the comments and our response to them is purely for organizational purposes
+FDA agrees with the comments supporting this reclassification
+FDA declines to adopt the proposed revisions
+we separated different issues discussed by the same commenter and designate them as distinct comments
+One comment
+One commenter
+FDA received numerous comments supporting the proposed reclassification
+(Comment 13)
+(Comment 13)
+One comment
+One commenter
+All commenters provided support for the proposed reclassification with some comments also providing recommendations or proposed modifications for clarity
+(ix) Device performance data demonstrating appropriate specimen stability based on the intended use specimen type(s) of the device, as applicable.
+(viii) Device performance data demonstrating appropriate specimen stability based on the intended use specimen type(s) of the device, as applicable.
+(x) Clinical data generated using well-characterized clinical specimens
+(ix) Clinical data generated using well-characterized clinical specimens
+(viii) Device performance data demonstrating appropriate reagent stability for real-time and in-use stability; post-hybridization signal stability; and photostability of probe, as applicable.
+the Agency is removing proposed Sec. 864.1890(b)(1)(viii)
+quality system requirements set forth under part 820 (21 CFR part 820) are sufficient to ensure that reagents are appropriately assessed and labeled
+quality system requirements set forth under part 820 (21 CFR part 820) are sufficient to ensure that reagents are appropriately assessed and labeled
+criteria for all applicable signals must be provided
+criteria for all applicable signals must be included
+analytical sensitivity provided from studies
+analytical sensitivity from studies
+analytical sensitivity provided from studies
+analytical sensitivity from studies
+FDA has revised the design verification and validation special controls
+nor is FDA renumbering the identification and classification paragraphs as proposed
+FDA is not adding the proposed paragraph to Sec. 864.1890
+nor is FDA renumbering the identification and classification paragraphs as proposed
+to consider surrogate samples that adequately represent the intended use specimen type(s) and intended use biomarker(s), as appropriate, as determined by FDA, to supplement clinical specimens
+FDA will determine the appropriateness of surrogate samples based on clinical and scientific data and/or justification available to the Agency
+Device performance data demonstrating appropriate precision and reproducibility of the device using clinical specimens representing the intended use specimen type(s)
+Device performance data demonstrating appropriate precision and reproducibility of the device using clinical specimens representing the intended use specimen type(s)
+as determined by FDA
+FDA has revised the design verification and validation special controls to add to the existing proposed Sec. 864.1890(b)(1)(v) requirement the consideration of surrogate samples
+FDA has removed the proposed Sec. 864.1890(b)(1)(viii) requiring device performance data demonstrating reagent stability
+is finalizing the identification language in this final order without change
+is finalizing the identification language in this final order without change
+manufacturers must obtain 510(k) clearance before marketing the device
+FDA expects that manufacturers will submit a 510(k) premarket notification
+such devices may continue to be marketed under the previously issued PMA approval
+IV. Implementation Strategy
+manufacturers must obtain 510(k) clearance
+FDA expects that manufacturers will submit a 510(k) premarket notification
+IV. Implementation Strategy
+FDA proposes that any final order based on this proposed order become effective 30 days after
+This final order is effective 30 days after the date of its publication in the Federal Register
+must be submitted by August 11, 2025
+The comment period on the proposed order closed on August 11, 2025
+Dated: June 5, 2025.
+Dated: June 5, 2025.
+V. Risks to Health
+V. Analysis of Environmental Impact
+the risks to health identified in section V of the proposed order
+V. Risks to Health
+V. Analysis of Environmental Impact
+section V
+IV. Implementation Strategy
+section II.B
+Table 1--Risks to Health and Mitigation Measures for Oncology Therapeutic ISH-Based Test Systems
+in table 1 of the proposed order
+[verbar]
+[verbar]
+``[s]pecification for risk mitigation elements intended to mitigate risks associated with testing and results interpretation, including controls, procedures, and user training requirements, as appropriate.
+Specification for risk mitigation elements intended to mitigate risks associated with testing and results interpretation, including controls, procedures, and user training requirements, as appropriate.
+artificial intelligence (AI)/machine learning (ML) driven digital pathology (DP) algorithms
+device-specific PCCPs
+FDA encourages manufacturers to leverage the Q-Submission program
+device-specific PCCPs
+Soma Ghosh, Center for Devices and Radiological Health, Food and Drug Administration, 10903 New Hampshire Ave., Bldg. 66, Rm. 3316, Silver Spring, MD 20993, 240-402-5333, [email&#160;protected]
+Soma Ghosh, Center for Devices and Radiological Health, Food and Drug Administration, 10903 New Hampshire Ave., Bldg. 66, Rm. 3316, Silver Spring, MD 20993, 240-402-5333, [email&#160;protected]
+[email&#160;protected]

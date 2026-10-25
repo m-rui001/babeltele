@@ -1,0 +1,32 @@
+            (b)  RTO = 3 seconds.  (The smoothed variance is to be
+            (a)  RTT = 0 seconds.
+            A host TCP MUST implement Karn's algorithm and Jacobson's
+            RTO <- SRTT + max (G, K*RTTVAR)
+   the variance term MUST be rounded to G seconds (i.e., use the
+   PTO = smoothed_rtt + max(4*rttvar, kGranularity) + max_ack_delay
+         where K = 4.
+   the max_ack_delay in the PTO period computation is set to 0, since
+                 initialized to the value that will result in this RTO).
+         set RTO <- 3 seconds (per RFC 1122 [Bra89]), though the
+            that in fact yield a value between 2.5 seconds and 3
+         set RTO <- 1 second, though the "backing off" on repeated
+         Note that the previous version of this document used an initial
+         MUST be re-initialized to 3 seconds when data transmission
+Appendix A.  Rationale for Lowering the Initial RTO
+         RTO of 3 seconds [PA00].  A TCP implementation MAY still use
+   (2.4) Whenever RTO is computed, if it is less than 1 second, then the
+         RTO SHOULD be rounded up to 1 second.
+   SHOULD be set to 333 milliseconds.  This results in handshakes
+   starting with a PTO of 1 second, as recommended for TCP's initial
+   The PTO period MUST be at least kGranularity to avoid the timer
+      and Section 6.1.2 recommends a value of 1 ms.
+   rttvar = kInitialRtt / 2
+            speed LANs) and the upper bound should be 2*MSL, i.e., 240
+   (2.5) A maximum value MAY be placed on RTO provided it is at least 60
+         It is recommended that the value lie between 60 seconds and 120
+            less than 0.5 seconds, and in a stream of full-sized
+              assumes a value of 2 minutes for MSL.  This sets an upper
+         "backing off" on repeated retransmission discussed in (5.5)
+            RTTVAR <- R/2
+      recommended in Section 6.2.2 is 333 ms.
+   RTO; see Section 2 of [RFC6298].

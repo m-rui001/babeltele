@@ -1,0 +1,21 @@
+{
+ "0.472": "B90V('cost_after')",
+ "0.477": "B90V('llm_acc')",
+ "0.500": "B90V('auroc_flat')",
+ "0.60": "B90V('thr')",
+ "0.763": "B90V('cost_before')",
+ "0.80": "B90V('breakeven_p')",
+ "0.879": "B90V('bert_acc')",
+ "000": "B90V('test_subset') % 1000",
+ "1000": "B90V('test_subset')",
+ "15.3": "B90V('wrong_before')",
+ "1839": "B90V('chars')",
+ "2026": "B90V('submit_year')",
+ "254": "B90V('words')",
+ "2610.31657": "B90V('arxiv_id')",
+ "3.5": "B90V('wrong_after')",
+ "35.7": "B90V('ci_lo')",
+ "38.1": "round(100.0*(B90V('cost_before')-B90V('cost_after'))/B90V('cost_before'),1)",
+ "40.4": "B90V('ci_hi')",
+ "837": "B90V('ticket_corpus') % 1000"
+}

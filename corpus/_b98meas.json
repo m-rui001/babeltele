@@ -1,0 +1,1016 @@
+{
+ "body_rows": [
+  6539,
+  304,
+  3744,
+  8659,
+  32
+ ],
+ "cmp_incl_excl_diff": 0,
+ "cmp_only_a": 2,
+ "cmp_only_b": 2,
+ "cmp_same": 5,
+ "cmp_sents_a": 7,
+ "cmp_sents_b": 7,
+ "cmp_union": 9,
+ "curl_body_cp": 1026,
+ "curl_cap_minutes": 10,
+ "curl_cap_secs": 600,
+ "curl_first_secs": 1,
+ "curl_fm_rows": 16,
+ "curl_head_rows_after_fm": 16,
+ "curl_transient_codes": 8,
+ "dup7": 0,
+ "dup9": 0,
+ "ends_lf": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "ex_ra_mins": [
+  2,
+  -1,
+  2,
+  2,
+  -1
+ ],
+ "ex_ra_secs": [
+  120,
+  3600,
+  120,
+  120,
+  -1
+ ],
+ "face_bytes": [
+  422279,
+  17164,
+  235053,
+  502941,
+  1332
+ ],
+ "face_cp": [
+  422279,
+  17164,
+  235053,
+  502907,
+  1332
+ ],
+ "gram_colon": [
+  1,
+  0,
+  0,
+  0,
+  0
+ ],
+ "gram_slash": [
+  0,
+  0,
+  2,
+  2,
+  0
+ ],
+ "hd_win": [
+  2,
+  0,
+  2,
+  2,
+  0
+ ],
+ "maxlen_row": [
+  72,
+  72,
+  75,
+  72,
+  78
+ ],
+ "n3xx": [
+  5,
+  0,
+  10,
+  12,
+  0
+ ],
+ "n413": [
+  3,
+  0,
+  6,
+  5,
+  0
+ ],
+ "n429": [
+  0,
+  9,
+  0,
+  0,
+  1
+ ],
+ "n503": [
+  6,
+  0,
+  8,
+  7,
+  1
+ ],
+ "n_blank": [
+  2949,
+  241,
+  1715,
+  2127,
+  5
+ ],
+ "n_cr": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "n_ff": [
+  176,
+  10,
+  101,
+  0,
+  0
+ ],
+ "n_lf": [
+  9859,
+  563,
+  5659,
+  10785,
+  36
+ ],
+ "n_nonempty": [
+  6911,
+  323,
+  3945,
+  8659,
+  32
+ ],
+ "n_splitlines": [
+  10035,
+  573,
+  5760,
+  10785,
+  36
+ ],
+ "n_splitnl": [
+  9860,
+  564,
+  5660,
+  10786,
+  37
+ ],
+ "n_tab": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "n_vt": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "nd_after_receiving_the_response": [
+  0,
+  0,
+  0,
+  1,
+  0
+ ],
+ "nd_after_the_response_is_received": [
+  0,
+  0,
+  1,
+  0,
+  0
+ ],
+ "nd_after_the_time_of_the_response": [
+  1,
+  0,
+  0,
+  0,
+  0
+ ],
+ "nd_can_be_used_with_a_503": [
+  1,
+  0,
+  0,
+  0,
+  0
+ ],
+ "nd_can_override_the_retry_delay": [
+  0,
+  0,
+  0,
+  0,
+  1
+ ],
+ "nd_complies_with_the_retry_after": [
+  0,
+  0,
+  0,
+  0,
+  1
+ ],
+ "nd_delay_seconds": [
+  0,
+  0,
+  6,
+  6,
+  0
+ ],
+ "nd_delta_seconds": [
+  8,
+  0,
+  0,
+  0,
+  0
+ ],
+ "nd_does_not_imply_that_a_server_has_to_use_it": [
+  0,
+  0,
+  1,
+  0,
+  0
+ ],
+ "nd_doubles_the_waiting_time_until_it_reaches_10_minutes": [
+  0,
+  0,
+  0,
+  0,
+  1
+ ],
+ "nd_either_an_http_date_or_a_number_of_seconds_to_delay_after": [
+  0,
+  0,
+  1,
+  1,
+  0
+ ],
+ "nd_either_an_http_date_or_an_integer_number": [
+  1,
+  0,
+  0,
+  0,
+  0
+ ],
+ "nd_first_waits_one_second": [
+  0,
+  0,
+  0,
+  0,
+  1
+ ],
+ "nd_http_date": [
+  16,
+  0,
+  16,
+  32,
+  0
+ ],
+ "nd_if_no_retry_after_is_given": [
+  1,
+  0,
+  0,
+  0,
+  0
+ ],
+ "nd_in_decimal": [
+  1,
+  0,
+  0,
+  0,
+  0
+ ],
+ "nd_is_asked_to_wait": [
+  0,
+  0,
+  1,
+  1,
+  0
+ ],
+ "nd_is_asked_wait": [
+  1,
+  0,
+  0,
+  0,
+  0
+ ],
+ "nd_limit_the_total_retry_time": [
+  0,
+  0,
+  0,
+  0,
+  1
+ ],
+ "nd_may_also_be_used": [
+  1,
+  0,
+  0,
+  0,
+  0
+ ],
+ "nd_may_be_indicated_in_a_retry_after": [
+  1,
+  0,
+  0,
+  0,
+  0
+ ],
+ "nd_may_include_a_retry_after": [
+  0,
+  1,
+  0,
+  0,
+  0
+ ],
+ "nd_may_send_a_retry_after": [
+  0,
+  0,
+  1,
+  1,
+  0
+ ],
+ "nd_must_generate_a_retry_after": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "nd_must_include_a_retry_after": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "nd_must_send_a_retry_after": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "nd_non_negative_decimal_integer": [
+  1,
+  0,
+  1,
+  1,
+  0
+ ],
+ "nd_optional_servers_cannot_be_required": [
+  0,
+  1,
+  0,
+  0,
+  0
+ ],
+ "nd_ought_to_wait": [
+  0,
+  0,
+  1,
+  1,
+  0
+ ],
+ "nd_retry_after": [
+  10,
+  2,
+  15,
+  17,
+  1
+ ],
+ "nd_retry_after_120": [
+  1,
+  0,
+  1,
+  1,
+  0
+ ],
+ "nd_retry_after_3600": [
+  0,
+  1,
+  0,
+  0,
+  0
+ ],
+ "nd_retry_after_fri_31_dec_1999_23_59_59_gmt": [
+  1,
+  0,
+  1,
+  1,
+  0
+ ],
+ "nd_should_generate_a_retry_after": [
+  0,
+  0,
+  1,
+  1,
+  0
+ ],
+ "nd_the_delay_is_2_minutes": [
+  1,
+  0,
+  1,
+  1,
+  0
+ ],
+ "needle_n": 37,
+ "neg_clean": 7,
+ "neg_excl": [
+  [
+   0,
+   8,
+   0,
+   1
+  ],
+  [
+   1,
+   1,
+   0,
+   1
+  ],
+  [
+   2,
+   1,
+   0,
+   1
+  ],
+  [
+   3,
+   1,
+   0,
+   1
+  ],
+  [
+   4,
+   1,
+   0,
+   1
+  ],
+  [
+   0,
+   1,
+   0,
+   1
+  ],
+  [
+   1,
+   1,
+   0,
+   1
+  ]
+ ],
+ "neg_n": 7,
+ "nonascii_cp": [
+  [],
+  [],
+  [],
+  [
+   201,
+   229,
+   231,
+   233,
+   241,
+   246,
+   248,
+   252,
+   269,
+   324,
+   1044,
+   1055,
+   1072,
+   1074,
+   1079,
+   1080,
+   1083,
+   1085,
+   1086,
+   1091,
+   1103,
+   19968,
+   22885,
+   31298,
+   65279
+  ],
+  []
+ ],
+ "num_1999": [
+  180,
+  1,
+  3,
+  5,
+  0
+ ],
+ "num_hour_rate": 50,
+ "ra_capword_sent_wide": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ra_caseless": [
+  10,
+  2,
+  15,
+  17,
+  1
+ ],
+ "ra_decomp_diff": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ra_must_sent_wide": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ra_out": [
+  4,
+  0,
+  8,
+  9,
+  0
+ ],
+ "ra_rows": [
+  8,
+  2,
+  15,
+  17,
+  1
+ ],
+ "ra_total": [
+  10,
+  2,
+  15,
+  17,
+  1
+ ],
+ "ra_win": [
+  6,
+  2,
+  7,
+  8,
+  1
+ ],
+ "ratio_3600_per_hour": 60,
+ "ratio_6585_over_120": 30,
+ "rfcref_2616_in_9110": 10,
+ "risk_cut_mk": [
+  0,
+  0,
+  0,
+  1,
+  0
+ ],
+ "risk_cut_row": [
+  1,
+  0,
+  2,
+  1,
+  0
+ ],
+ "risk_cut_shell": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "risk_fold": [
+  [
+   1,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1,
+   1,
+   1,
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1,
+   1,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   1,
+   0,
+   0
+  ]
+ ],
+ "risk_mkfree": [
+  [
+   1,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1,
+   1,
+   1,
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1,
+   1,
+   1,
+   1,
+   0,
+   0,
+   1,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   1,
+   0,
+   0
+  ]
+ ],
+ "risk_n": 12,
+ "risk_row": [
+  [
+   1,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   1,
+   0,
+   0
+  ]
+ ],
+ "risk_shell": [
+  [
+   1,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1,
+   1,
+   1,
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1,
+   1,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   1,
+   0,
+   0
+  ]
+ ],
+ "shell_rows": [
+  351,
+  19,
+  201,
+  0,
+  0
+ ],
+ "splitlines_minus_splitnl": [
+  175,
+  9,
+  100,
+  -1,
+  -1
+ ],
+ "tbl_9110_mkfree": 3,
+ "tbl_9110_raw": 0,
+ "toc_rows": [
+  21,
+  0,
+  0,
+  0,
+  0
+ ],
+ "two_examples": [
+  1,
+  0,
+  1,
+  1,
+  0
+ ],
+ "unit_minute_from_doc": [
+  60,
+  -1,
+  60,
+  60,
+  -1
+ ],
+ "win_caps_may": [
+  1,
+  1,
+  0,
+  0,
+  0
+ ],
+ "win_caps_must": [
+  0,
+  1,
+  0,
+  0,
+  0
+ ],
+ "win_caps_ought": [
+  0,
+  0,
+  1,
+  1,
+  0
+ ],
+ "win_caps_should": [
+  0,
+  1,
+  0,
+  0,
+  0
+ ],
+ "win_cp": [
+  739,
+  1339,
+  1077,
+  921,
+  1025
+ ],
+ "win_end": [
+  7869,
+  174,
+  3877,
+  4825,
+  37
+ ],
+ "win_ns_rows": [
+  19,
+  41,
+  35,
+  27,
+  20
+ ],
+ "win_ns_text": [
+  "14.37 Retry-After\n\n   The Retry-After response-header field can be used with a 503 (Service\n   Unavailable) response to indicate how long the service is expected to\n   be unavailable to the requesting client. This field MAY also be used\n   with any 3xx (Redirection) response to indicate the minimum time the\n   user-agent is asked wait before issuing the redirected request. The\n   value of this field can be either an HTTP-date or an integer number\n   of seconds (in decimal) after the time of the response.\n\n       Retry-After  = \"Retry-After\" \":\" ( HTTP-date | delta-seconds )\n\n   Two examples of its use are\n\n       Retry-After: Fri, 31 Dec 1999 23:59:59 GMT\n       Retry-After: 120\n\n   In the latter example, the delay is 2 minutes.\n",
+  "4.  429 Too Many Requests\n\n   The 429 status code indicates that the user has sent too many\n   requests in a given amount of time (\"rate limiting\").\n\n   The response representations SHOULD include details explaining the\n   condition, and MAY include a Retry-After header indicating how long\n   to wait before making a new request.\n\n   For example:\n\n   HTTP/1.1 429 Too Many Requests\n   Content-Type: text/html\n   Retry-After: 3600\n\n   <html>\n      <head>\n         <title>Too Many Requests</title>\n      </head>\n      <body>\n         <h1>Too Many Requests</h1>\n         <p>I only allow 50 requests per hour to this Web site per\n            logged in user.  Try again soon.</p>\n      </body>\n   </html>\n\n   Note that this specification does not define how the origin server\n   identifies the user, nor how it counts requests.  For example, an\n   origin server that is limiting request rates can do so based upon\n   counts of requests on a per-resource basis, across the entire server,\n   or even among a set of servers.  Likewise, it might identify the user\n   by its authentication credentials, or a stateful cookie.\n\n   Responses with the 429 status code MUST NOT be stored by a cache.\n\n\n\n\n\f\n\n",
+  "7.1.3.  Retry-After\n\n   Servers send the \"Retry-After\" header field to indicate how long the\n   user agent ought to wait before making a follow-up request.  When\n   sent with a 503 (Service Unavailable) response, Retry-After indicates\n   how long the service is expected to be unavailable to the client.\n   When sent with any 3xx (Redirection) response, Retry-After indicates\n   the minimum time that the user agent is asked to wait before issuing\n   the redirected request.\n\n   The value of this field can be either an HTTP-date or a number of\n   seconds to delay after the response is received.\n\n     Retry-After = HTTP-date / delay-seconds\n\n   A delay-seconds value is a non-negative decimal integer, representing\n   time in seconds.\n\n     delay-seconds  = 1*DIGIT\n\n\n\n\n\n\n\f\n\n\n   Two examples of its use are\n\n     Retry-After: Fri, 31 Dec 1999 23:59:59 GMT\n     Retry-After: 120\n\n   In the latter example, the delay is 2 minutes.\n",
+  "10.2.3.  Retry-After\n\n   Servers send the \"Retry-After\" header field to indicate how long the\n   user agent ought to wait before making a follow-up request.  When\n   sent with a 503 (Service Unavailable) response, Retry-After indicates\n   how long the service is expected to be unavailable to the client.\n   When sent with any 3xx (Redirection) response, Retry-After indicates\n   the minimum time that the user agent is asked to wait before issuing\n   the redirected request.\n\n   The Retry-After field value can be either an HTTP-date or a number of\n   seconds to delay after receiving the response.\n\n     Retry-After = HTTP-date / delay-seconds\n\n   A delay-seconds value is a non-negative decimal integer, representing\n   time in seconds.\n\n     delay-seconds  = 1*DIGIT\n\n   Two examples of its use are\n\n   Retry-After: Fri, 31 Dec 1999 23:59:59 GMT\n   Retry-After: 120\n\n   In the latter example, the delay is 2 minutes.\n",
+  "# `--retry`\n\nIf a transient error is returned when curl tries to perform a transfer, it\nretries this number of times before giving up. Setting the number to 0 makes\ncurl do no retries (which is the default). Transient error means either: a\ntimeout, an FTP 4xx response code or an HTTP 408, 429, 500, 502, 503, 504, 522\nor 524 response code.\n\nWhen curl is about to retry a transfer, it first waits one second and then for\nall forthcoming retries it doubles the waiting time until it reaches 10\nminutes, which then remains the set fixed delay time between the rest of the\nretries. By using --retry-delay you disable this exponential backoff\nalgorithm. See also --retry-max-time to limit the total time allowed for\nretries.\n\ncurl complies with the Retry-After: response header if one was present to know\nwhen to issue the next retry (added in 7.66.0). That means the server can\noverride the retry delay. To handle server retry delays that may be longer\nthan expected, you can use --retry-max-time to limit the total retry time.\n"
+ ],
+ "win_rows": [
+  19,
+  43,
+  37,
+  27,
+  20
+ ],
+ "win_sents": [
+  4,
+  8,
+  7,
+  7,
+  9
+ ],
+ "win_shell_rows": [
+  0,
+  2,
+  2,
+  0,
+  0
+ ],
+ "win_start": [
+  7850,
+  131,
+  3840,
+  4798,
+  17
+ ],
+ "win_text": [
+  "14.37 Retry-After\n\n   The Retry-After response-header field can be used with a 503 (Service\n   Unavailable) response to indicate how long the service is expected to\n   be unavailable to the requesting client. This field MAY also be used\n   with any 3xx (Redirection) response to indicate the minimum time the\n   user-agent is asked wait before issuing the redirected request. The\n   value of this field can be either an HTTP-date or an integer number\n   of seconds (in decimal) after the time of the response.\n\n       Retry-After  = \"Retry-After\" \":\" ( HTTP-date | delta-seconds )\n\n   Two examples of its use are\n\n       Retry-After: Fri, 31 Dec 1999 23:59:59 GMT\n       Retry-After: 120\n\n   In the latter example, the delay is 2 minutes.\n",
+  "4.  429 Too Many Requests\n\n   The 429 status code indicates that the user has sent too many\n   requests in a given amount of time (\"rate limiting\").\n\n   The response representations SHOULD include details explaining the\n   condition, and MAY include a Retry-After header indicating how long\n   to wait before making a new request.\n\n   For example:\n\n   HTTP/1.1 429 Too Many Requests\n   Content-Type: text/html\n   Retry-After: 3600\n\n   <html>\n      <head>\n         <title>Too Many Requests</title>\n      </head>\n      <body>\n         <h1>Too Many Requests</h1>\n         <p>I only allow 50 requests per hour to this Web site per\n            logged in user.  Try again soon.</p>\n      </body>\n   </html>\n\n   Note that this specification does not define how the origin server\n   identifies the user, nor how it counts requests.  For example, an\n   origin server that is limiting request rates can do so based upon\n   counts of requests on a per-resource basis, across the entire server,\n   or even among a set of servers.  Likewise, it might identify the user\n   by its authentication credentials, or a stateful cookie.\n\n   Responses with the 429 status code MUST NOT be stored by a cache.\n\n\n\n\nNottingham & Fielding        Standards Track                    [Page 3]\n\f\nRFC 6585              Additional HTTP Status Codes            April 2012\n\n",
+  "7.1.3.  Retry-After\n\n   Servers send the \"Retry-After\" header field to indicate how long the\n   user agent ought to wait before making a follow-up request.  When\n   sent with a 503 (Service Unavailable) response, Retry-After indicates\n   how long the service is expected to be unavailable to the client.\n   When sent with any 3xx (Redirection) response, Retry-After indicates\n   the minimum time that the user agent is asked to wait before issuing\n   the redirected request.\n\n   The value of this field can be either an HTTP-date or a number of\n   seconds to delay after the response is received.\n\n     Retry-After = HTTP-date / delay-seconds\n\n   A delay-seconds value is a non-negative decimal integer, representing\n   time in seconds.\n\n     delay-seconds  = 1*DIGIT\n\n\n\n\n\n\nFielding & Reschke           Standards Track                   [Page 69]\n\f\nRFC 7231             HTTP/1.1 Semantics and Content            June 2014\n\n\n   Two examples of its use are\n\n     Retry-After: Fri, 31 Dec 1999 23:59:59 GMT\n     Retry-After: 120\n\n   In the latter example, the delay is 2 minutes.\n",
+  "10.2.3.  Retry-After\n\n   Servers send the \"Retry-After\" header field to indicate how long the\n   user agent ought to wait before making a follow-up request.  When\n   sent with a 503 (Service Unavailable) response, Retry-After indicates\n   how long the service is expected to be unavailable to the client.\n   When sent with any 3xx (Redirection) response, Retry-After indicates\n   the minimum time that the user agent is asked to wait before issuing\n   the redirected request.\n\n   The Retry-After field value can be either an HTTP-date or a number of\n   seconds to delay after receiving the response.\n\n     Retry-After = HTTP-date / delay-seconds\n\n   A delay-seconds value is a non-negative decimal integer, representing\n   time in seconds.\n\n     delay-seconds  = 1*DIGIT\n\n   Two examples of its use are\n\n   Retry-After: Fri, 31 Dec 1999 23:59:59 GMT\n   Retry-After: 120\n\n   In the latter example, the delay is 2 minutes.\n",
+  "# `--retry`\n\nIf a transient error is returned when curl tries to perform a transfer, it\nretries this number of times before giving up. Setting the number to 0 makes\ncurl do no retries (which is the default). Transient error means either: a\ntimeout, an FTP 4xx response code or an HTTP 408, 429, 500, 502, 503, 504, 522\nor 524 response code.\n\nWhen curl is about to retry a transfer, it first waits one second and then for\nall forthcoming retries it doubles the waiting time until it reaches 10\nminutes, which then remains the set fixed delay time between the rest of the\nretries. By using --retry-delay you disable this exponential backoff\nalgorithm. See also --retry-max-time to limit the total time allowed for\nretries.\n\ncurl complies with the Retry-After: response header if one was present to know\nwhen to issue the next retry (added in 7.66.0). That means the server can\noverride the retry delay. To handle server retry delays that may be longer\nthan expected, you can use --retry-max-time to limit the total retry time.\n"
+ ],
+ "win_verb_rows": [
+  3,
+  1,
+  3,
+  3,
+  2
+ ]
+}

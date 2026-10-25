@@ -1,0 +1,1081 @@
+{
+ "anchor_total": 33,
+ "anchor_distinct": 27,
+ "tag_counts": {
+  "T": 8,
+  "O": 7,
+  "F": 9,
+  "N": 9
+ },
+ "ameta": {
+  "anchor_total": 33,
+  "anchor_distinct": 27,
+  "anchor_err": 0,
+  "anchor_single": 24,
+  "anchor_cross": 3,
+  "anchor_all4": 0,
+  "checks": 108
+ },
+ "letters_in": 949,
+ "letters_out": 592,
+ "tagn": 33,
+ "classes": {
+  "single": [
+   "(MAC) algorithm stronger than HMAC-SHA1 [RFC5289]",
+   "/* Legacy algorithms */",
+   "A TLS-compliant application MUST support digital signatures with",
+   "All SHA-1 signature algorithms in this specification are defined",
+   "Curves of less than 224 bits MUST NOT be used.  This recommendation",
+   "Legacy algorithms:  Indicates algorithms which are being deprecated",
+   "MUST NOT be used in any signatures of CertificateVerify messages.",
+   "Obsoletes: 3268, 4346, 4366                                  E. Rescorla",
+   "Obsoletes: 5077, 5246, 6961                                  August 2018",
+   "Obsoletes: 7525                                              Independent",
+   "RFC 5246                          TLS                        August 2008",
+   "RFC 7525                   TLS Recommendations                  May 2015",
+   "SHA-1, etc.) are used for MAC computations.  The Record Protocol",
+   "TLS 1.3 servers MUST NOT offer a SHA-1 signed certificate unless",
+   "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 and",
+   "This pseudorandom function (PRF) takes as input a secret, a seed, and",
+   "Updates: 5288, 6066                                           T. Fossati",
+   "less than 192 bits SHOULD NOT be used.",
+   "none(0), md5(1), sha1(2), sha224(3), sha256(4), sha384(5),",
+   "o  Implementations MUST NOT negotiate RC4 cipher suites.",
+   "rsa_pkcs1_sha1(0x0201),",
+   "signatures to be used with digest algorithms other than SHA-1,",
+   "supports MD5 and SHA-1.",
+   "the SHA-256 hash algorithm is RECOMMENDED and SHA-1 or MD5 MUST NOT"
+  ],
+  "two": [
+   "*  Implementations MUST NOT negotiate SSL version 2.",
+   "Rationale: Based on [RFC3766], at least 112 bits of security is",
+   "Rationale: Today, SSLv2 is considered insecure [RFC6176]."
+  ],
+  "three": [],
+  "four": []
+ },
+ "collisions": {
+  "72": [
+   "\u6700\u957f\u884c\u00b7\u65e7\u5efa\u8bae",
+   "\u6700\u957f\u884c\u00b71.3 \u534f\u8bae",
+   "\u6700\u957f\u884c\u00b7\u65b0\u5efa\u8bae"
+  ],
+  "1": [
+   "\u9875\u6807\u51cf\u9875\u7709\u00b71.2 \u534f\u8bae",
+   "\u9875\u6807\u51cf\u9875\u7709\u00b7\u65e7\u5efa\u8bae",
+   "\u9875\u6807\u51cf\u9875\u7709\u00b71.3 \u534f\u8bae",
+   "\u9875\u7709\u7f72\u540d\u4e32\u79cd\u6570\u00b71.2 \u534f\u8bae",
+   "\u9875\u7709\u7f72\u540d\u4e32\u79cd\u6570\u00b7\u65e7\u5efa\u8bae",
+   "\u9875\u7709\u7f72\u540d\u4e32\u79cd\u6570\u00b71.3 \u534f\u8bae",
+   "\u4e25\u683c UTF-8 \u89e3\u7801\u00b71.2 \u534f\u8bae",
+   "\u4e25\u683c UTF-8 \u89e3\u7801\u00b7\u65e7\u5efa\u8bae",
+   "\u4e25\u683c UTF-8 \u89e3\u7801\u00b71.3 \u534f\u8bae",
+   "\u4e25\u683c UTF-8 \u89e3\u7801\u00b7\u65b0\u5efa\u8bae",
+   "MAY\u00b7\u65e7\u5efa\u8bae",
+   "NOT RECOMMENDED\u00b7\u65b0\u5efa\u8bae",
+   "SSLv2 \u7981\u4ee4\u884c\u00b7\u65e7\u5efa\u8bae",
+   "SSLv2 \u7981\u4ee4\u884c\u00b7\u65b0\u5efa\u8bae",
+   "'HMAC-SHA1'\u00b7\u65e7\u5efa\u8bae",
+   "'SHA1' \u51c0\u00b71.2 \u534f\u8bae",
+   "\u975e\u96f6\u62fc\u5199\u79cd\u6570\u00b7\u65b0\u5efa\u8bae",
+   "\u56db\u6863\u76f8\u52a0\u00b7\u65e7\u5efa\u8bae",
+   "\u60ac\u7a7a\u4e0b\u5212\u7ebf\u788e\u7247\u00b7\u65e7\u5efa\u8bae",
+   "\u60ac\u7a7a\u4e0b\u5212\u7ebf\u788e\u7247\u00b7\u65b0\u5efa\u8bae",
+   "Obsoletes \u5217\u51fa\u7684\u53f7\u00b7\u65b0\u5efa\u8bae",
+   "Updates \u5217\u51fa\u7684\u53f7\u00b71.2 \u534f\u8bae",
+   "\u5e9f\u6389\u7684\u53f7\u91cc\u5728\u5e93\u7684\u679a\u00b71.3 \u534f\u8bae",
+   "\u5e9f\u6389\u7684\u53f7\u91cc\u5728\u5e93\u7684\u679a\u00b7\u65b0\u5efa\u8bae",
+   "SHA/MD5 \u4e0e MUST NOT \u540c\u884c\u00b71.3 \u534f\u8bae",
+   "SHA/MD5 \u4e0e MUST NOT \u540c\u884c\u00b7\u65b0\u5efa\u8bae",
+   "'SHA-1' \u4e0e MUST NOT \u540c\u884c\u00b71.3 \u534f\u8bae",
+   "'SHA-1' \u4e0e MUST NOT \u540c\u884c\u00b7\u65b0\u5efa\u8bae",
+   "'112 bits'\u00b71.2 \u534f\u8bae",
+   "'112 bits'\u00b71.3 \u534f\u8bae",
+   "'128 bits'\u00b71.2 \u534f\u8bae",
+   "'128 bits'\u00b7\u65e7\u5efa\u8bae",
+   "'192 bits'\u00b7\u65e7\u5efa\u8bae",
+   "'224 bits'\u00b7\u65b0\u5efa\u8bae",
+   "'2048-bit'\u00b71.3 \u534f\u8bae",
+   "'1024'\u00b71.2 \u534f\u8bae",
+   "'less than 224 bits'\u00b7\u65b0\u5efa\u8bae",
+   "\u5171\u7528\u884c\u91cc\u7684\u7ae0\u8282\u53f7\u884c"
+  ],
+  "14": [
+   "MUST NOT\u00b7\u65b0\u5efa\u8bae"
+  ],
+  "15": [
+   "SHOULD NOT\u00b71.3 \u534f\u8bae",
+   "\u5c0f\u5199 'sha256'\u00b71.3 \u534f\u8bae",
+   "'forward secrecy'\u00b7\u65b0\u5efa\u8bae"
+  ],
+  "4": [
+   "MAY\u00b7\u65b0\u5efa\u8bae",
+   "\u5c0f\u5199 'md5'\u00b71.2 \u534f\u8bae",
+   "'SHA-256'\u00b71.3 \u534f\u8bae",
+   "'2048-bit'\u00b7\u65e7\u5efa\u8bae",
+   "\u679a\u4e3e\u9879\u540d\u542b sha1",
+   "\u9057\u7559\u5757\u5185\u679a\u4e3e\u9879",
+   "rsa_pss_rsae_sha256 \u679a"
+  ],
+  "7": [
+   "RECOMMENDED \u6392\u4ed6\u00b71.3 \u534f\u8bae",
+   "RECOMMENDED \u6392\u4ed6\u00b7\u65b0\u5efa\u8bae",
+   "\u4e24\u7248\u5efa\u8bae\u5957\u4ef6\u540d\u4ea4\u96c6",
+   "\u65e7\u5efa\u8bae\u70b9\u540d\u800c\u4e24\u4efd\u534f\u8bae\u90fd\u6ca1\u6709",
+   "\u96f6\u5f15\u7528\u5bf9",
+   "MUST NOT \u540e 6 \u884c\u5185\u6709 Rationale\u00b7\u65e7\u5efa\u8bae",
+   "'forward secrecy'\u00b7\u65e7\u5efa\u8bae",
+   "'forward secrecy'\u00b71.3 \u534f\u8bae"
+  ],
+  "3": [
+   "NOT RECOMMENDED\u00b71.3 \u534f\u8bae",
+   "\u975e\u96f6\u62fc\u5199\u79cd\u6570\u00b71.2 \u534f\u8bae",
+   "'MD5'\u00b71.3 \u534f\u8bae",
+   "'GCM_SHA256'\u00b7\u65b0\u5efa\u8bae",
+   "Obsoletes \u5217\u51fa\u7684\u53f7\u00b71.2 \u534f\u8bae",
+   "Obsoletes \u5217\u51fa\u7684\u53f7\u00b71.3 \u534f\u8bae",
+   "\u5e9f\u6389\u7684\u53f7\u91cc\u4e0d\u5728\u5e93\u7684\u679a\u00b71.2 \u534f\u8bae",
+   "\u65e5\u671f\u5355\u8c03\u6bb5\u6570",
+   "\u6587\u6863\u53f7\u4e0e\u65e5\u671f\u540c\u5e8f\u6bb5\u6570",
+   "'112 bits'\u00b7\u65e7\u5efa\u8bae",
+   "'112 bits'\u00b7\u65b0\u5efa\u8bae",
+   "'1024'\u00b7\u65b0\u5efa\u8bae",
+   "rsa_pkcs1_sha256 \u679a",
+   "\u5f52\u4e00\u5c5e\u4e24\u6216\u4e09\u6e90"
+  ],
+  "19": [
+   "'Rationale:' \u679a\u00b7\u65e7\u5efa\u8bae"
+  ],
+  "21": [
+   "'Rationale:' \u679a\u00b7\u65b0\u5efa\u8bae"
+  ],
+  "2": [
+   "\u53ea\u7528\u4e00\u79cd\u9879\u76ee\u7b26\u7684\u4efd\u6570",
+   "'Rationale:' \u975e\u96f6\u7684\u4efd\u6570",
+   "'SHA-1'\u00b7\u65b0\u5efa\u8bae",
+   "'HMAC-SHA1'\u00b71.2 \u534f\u8bae",
+   "\u975e\u96f6\u62fc\u5199\u79cd\u6570\u00b71.3 \u534f\u8bae",
+   "\u56db\u6863\u76f8\u52a0\u00b7\u65b0\u5efa\u8bae",
+   "'MD5'\u00b7\u65b0\u5efa\u8bae",
+   "'SHA-256'\u00b7\u65e7\u5efa\u8bae",
+   "'SHA-256'\u00b7\u65b0\u5efa\u8bae",
+   "'GCM_SHA256'\u00b71.3 \u534f\u8bae",
+   "'_SHA' \u7ed3\u5c3e\u5957\u4ef6\u00b7\u65e7\u5efa\u8bae",
+   "'_SHA' \u7ed3\u5c3e\u5957\u4ef6\u00b7\u65b0\u5efa\u8bae",
+   "\u65b0\u5efa\u8bae\u70b9\u540d\u4e14\u5728 1.2 \u534f\u8bae",
+   "\u65e7\u5efa\u8bae\u70b9\u540d\u4e14\u5728 1.2 \u534f\u8bae",
+   "Updates \u5217\u51fa\u7684\u53f7\u00b71.3 \u534f\u8bae",
+   "Updates \u5217\u51fa\u7684\u53f7\u00b7\u65b0\u5efa\u8bae",
+   "\u5e9f\u6389\u7684\u53f7\u91cc\u4e0d\u5728\u5e93\u7684\u679a\u00b71.3 \u534f\u8bae",
+   "\u5728\u5e93\u53d6\u4ee3\u5173\u7cfb\u5408\u8ba1",
+   "'128 bits'\u00b7\u65b0\u5efa\u8bae",
+   "rsa_pkcs1_sha1 \u679a",
+   "ecdsa_sha1 \u679a",
+   "\u660e\u6587\u5fc5\u652f\u6301\u7684\u7b7e\u540d\u679a",
+   "\u4e24\u4efd\u5224\u7981\u884c\u5408\u8ba1"
+  ],
+  "13": [
+   "'SHA-1'\u00b71.2 \u534f\u8bae",
+   "\u56db\u6863\u76f8\u52a0\u00b71.3 \u534f\u8bae",
+   "\u5957\u4ef6\u540d\u51fa\u73b0\u5904\u00b7\u65e7\u5efa\u8bae"
+  ],
+  "8": [
+   "'SHA-1'\u00b71.3 \u534f\u8bae",
+   "\u65b0\u5efa\u8bae\u70b9\u540d\u800c\u4e24\u4efd\u534f\u8bae\u90fd\u6ca1\u6709",
+   "MUST NOT \u540e 6 \u884c\u5185\u6709 Rationale\u00b7\u65b0\u5efa\u8bae"
+  ],
+  "5": [
+   "\u5c0f\u5199 'sha1'\u00b71.3 \u534f\u8bae",
+   "'SHA-256'\u00b71.2 \u534f\u8bae",
+   "\u975e\u96f6\u5f15\u7528\u5bf9",
+   "\u5c0f\u5199 sha1 \u5728\u679a\u4e3e\u884c\u00b71.3 \u534f\u8bae",
+   "'2048-bit'\u00b7\u65b0\u5efa\u8bae",
+   "'1024'\u00b7\u65e7\u5efa\u8bae"
+  ],
+  "6": [
+   "\u5c0f\u5199 'sha256'\u00b71.2 \u534f\u8bae",
+   "'GCM_SHA256'\u00b7\u65e7\u5efa\u8bae",
+   "\u5957\u4ef6\u540d\u79cd\u6570\u00b71.3 \u534f\u8bae",
+   "\u53ea\u5728 1.3 \u534f\u8bae\u51fa\u73b0"
+  ],
+  "31": [
+   "\u5957\u4ef6\u540d\u79cd\u6570\u00b71.2 \u534f\u8bae",
+   "\u6c60\u5185\u7a7f\u56db\u6e90"
+  ],
+  "9": [
+   "\u5957\u4ef6\u540d\u79cd\u6570\u00b7\u65e7\u5efa\u8bae",
+   "\u5957\u4ef6\u540d\u51fa\u73b0\u5904\u00b71.3 \u534f\u8bae",
+   "\u65e7\u5efa\u8bae\u70b9\u540d\u603b\u6570",
+   "\u65b0\u5efa\u8bae\u5f15\u7528\u5b83\u5e9f\u6389\u7684\u65e7\u5efa\u8bae"
+  ],
+  "10": [
+   "\u65b0\u5efa\u8bae\u70b9\u540d\u603b\u6570"
+  ],
+  "159": [
+   "RFC \u53f7\u51fa\u73b0\u5904\u00b7\u65e7\u5efa\u8bae"
+  ],
+  "36": [
+   "\u4e0d\u540c RFC \u53f7\u00b7\u65e7\u5efa\u8bae"
+  ],
+  "23": [
+   "\u65b9\u62ec\u53f7\u5f15\u7528\u00b71.2 \u534f\u8bae"
+  ],
+  "12": [
+   "\u6709\u5e8f\u5bf9\u603b\u6570"
+  ],
+  "171": [
+   "\u4e09\u6bb5\u6708\u5dee\u76f8\u52a0"
+  ],
+  "66": [
+   "\u5171\u7528\u53e5"
+  ],
+  "299": [
+   "\u5171\u7528\u884c\u7684\u539f\u6837\u6761\u6570"
+  ],
+  "876": [
+   "\u6c60\u5185\u6bcf\u6e90\u00b7\u65e7\u5efa\u8bae"
+  ],
+  "748": [
+   "B57V('carry_sent_o') + B57V('carry_sent_n') - B57V('carry_sent_shared')"
+  ],
+  "222395": [
+   "B57V('chars', 0)"
+  ],
+  "60283": [
+   "B57V('chars', 1)"
+  ],
+  "337736": [
+   "B57V('chars', 2)"
+  ],
+  "27": [
+   "\u951a\u53bb\u91cd\u4e32"
+  ]
+ },
+ "zero_terms": 109,
+ "deriv_keys": 105,
+ "deriv_points": 239,
+ "notes": {
+  "222395": "\u5b57\u8282\u00b71.2 \u534f\u8bae",
+  "60283": "\u5b57\u8282\u00b7\u65e7\u5efa\u8bae",
+  "337736": "\u5b57\u8282\u00b71.3 \u534f\u8bae",
+  "96608": "\u5b57\u8282\u00b7\u65b0\u5efa\u8bae",
+  "5827": "\u6362\u884c\u00b71.2 \u534f\u8bae",
+  "1515": "\u6362\u884c\u00b7\u65e7\u5efa\u8bae",
+  "8963": "\u6362\u884c\u00b71.3 \u534f\u8bae",
+  "1994": "\u6362\u884c\u00b7\u65b0\u5efa\u8bae",
+  "3979": "\u975e\u7a7a\u884c\u00b71.2 \u534f\u8bae",
+  "979": "\u975e\u7a7a\u884c\u00b7\u65e7\u5efa\u8bae",
+  "5848": "\u975e\u7a7a\u884c\u00b71.3 \u534f\u8bae",
+  "1592": "\u975e\u7a7a\u884c\u00b7\u65b0\u5efa\u8bae",
+  "72": "\u6700\u957f\u884c\u00b71.2 \u534f\u8bae",
+  "54": "\u5e73\u5747\u884c\u957f\u00b71.2 \u534f\u8bae",
+  "60": "\u5e73\u5747\u884c\u957f\u00b7\u65e7\u5efa\u8bae",
+  "56": "\u5e73\u5747\u884c\u957f\u00b71.3 \u534f\u8bae",
+  "59": "\u5e73\u5747\u884c\u957f\u00b7\u65b0\u5efa\u8bae",
+  "14": "\u975e ASCII \u679a\u00b7\u65b0\u5efa\u8bae",
+  "15": "\u5b57\u8282\u51cf\u5b57\u7b26\u00b7\u65b0\u5efa\u8bae",
+  "1": "BOM\u00b7\u65b0\u5efa\u8bae",
+  "3": "\u5b57\u7b26\u6570=\u5b57\u8282\u6570\u6210\u7acb\u7684\u4efd\u6570",
+  "4": "sha16 \u79cd\u6570",
+  "104": "'[Page N]' \u679a\u00b71.2 \u534f\u8bae",
+  "27": "'[Page N]' \u679a\u00b7\u65e7\u5efa\u8bae",
+  "160": "'[Page N]' \u679a\u00b71.3 \u534f\u8bae",
+  "103": "\u9875\u7709\u884c\u00b71.2 \u534f\u8bae",
+  "26": "\u9875\u7709\u884c\u00b7\u65e7\u5efa\u8bae",
+  "159": "\u9875\u7709\u884c\u00b71.3 \u534f\u8bae",
+  "19": "MUST NOT\u00b71.2 \u534f\u8bae",
+  "8": "MUST NOT\u00b7\u65e7\u5efa\u8bae",
+  "74": "MUST NOT\u00b71.3 \u534f\u8bae",
+  "119": "MUST \u6392\u4ed6\u00b71.2 \u534f\u8bae",
+  "13": "MUST \u6392\u4ed6\u00b7\u65e7\u5efa\u8bae",
+  "256": "MUST \u6392\u4ed6\u00b71.3 \u534f\u8bae",
+  "38": "MUST \u6392\u4ed6\u00b7\u65b0\u5efa\u8bae",
+  "6": "SHOULD NOT\u00b71.2 \u534f\u8bae",
+  "7": "SHOULD NOT\u00b7\u65e7\u5efa\u8bae",
+  "18": "SHOULD NOT\u00b7\u65b0\u5efa\u8bae",
+  "21": "SHOULD \u6392\u4ed6\u00b71.2 \u534f\u8bae",
+  "16": "SHOULD \u6392\u4ed6\u00b7\u65e7\u5efa\u8bae",
+  "61": "SHOULD \u6392\u4ed6\u00b71.3 \u534f\u8bae",
+  "31": "SHOULD \u6392\u4ed6\u00b7\u65b0\u5efa\u8bae",
+  "34": "MAY\u00b71.2 \u534f\u8bae",
+  "58": "MAY\u00b71.3 \u534f\u8bae",
+  "2": "RECOMMENDED \u6392\u4ed6\u00b71.2 \u534f\u8bae",
+  "5": "RECOMMENDED \u6392\u4ed6\u00b7\u65e7\u5efa\u8bae",
+  "49": "'o' \u9879\u76ee\u884c\u00b7\u65e7\u5efa\u8bae",
+  "62": "'*' \u9879\u76ee\u884c\u00b7\u65b0\u5efa\u8bae",
+  "9": "\u5c0f\u5199 'sha1'\u00b71.2 \u534f\u8bae",
+  "25": "\u56db\u6863\u76f8\u52a0\u00b71.2 \u534f\u8bae",
+  "23": "'MD5'\u00b71.2 \u534f\u8bae",
+  "36": "'_SHA' \u7ed3\u5c3e\u5957\u4ef6\u00b71.2 \u534f\u8bae",
+  "17": "1.2 \u534f\u8bae\u91cc _SHA \u7ed3\u5c3e\u7684\u5957\u4ef6\u540d\u79cd\u6570",
+  "10": "\u5957\u4ef6\u540d\u79cd\u6570\u00b7\u65b0\u5efa\u8bae",
+  "67": "\u5957\u4ef6\u540d\u51fa\u73b0\u5904\u00b71.2 \u534f\u8bae",
+  "12": "\u5957\u4ef6\u540d\u51fa\u73b0\u5904\u00b7\u65b0\u5efa\u8bae",
+  "29": "\u53ea\u5728 1.2 \u534f\u8bae\u51fa\u73b0",
+  "153": "RFC \u53f7\u51fa\u73b0\u5904\u00b71.2 \u534f\u8bae",
+  "498": "RFC \u53f7\u51fa\u73b0\u5904\u00b71.3 \u534f\u8bae",
+  "333": "RFC \u53f7\u51fa\u73b0\u5904\u00b7\u65b0\u5efa\u8bae",
+  "22": "\u4e0d\u540c RFC \u53f7\u00b71.2 \u534f\u8bae",
+  "50": "\u4e0d\u540c RFC \u53f7\u00b71.3 \u534f\u8bae",
+  "66": "\u4e0d\u540c RFC \u53f7\u00b7\u65b0\u5efa\u8bae",
+  "97": "\u65b9\u62ec\u53f7\u5f15\u7528\u00b7\u65e7\u5efa\u8bae",
+  "183": "\u65b9\u62ec\u53f7\u5f15\u7528\u00b71.3 \u534f\u8bae",
+  "194": "\u65b9\u62ec\u53f7\u5f15\u7528\u00b7\u65b0\u5efa\u8bae",
+  "171": "\u9996\u5c3e\u6708\u5dee",
+  "876": "\u65e7\u5efa\u8bae\u6574\u884c\u79cd\u6570",
+  "1447": "\u65b0\u5efa\u8bae\u6574\u884c\u79cd\u6570",
+  "299": "\u5171\u7528\u6574\u884c",
+  "577": "\u53ea\u5728\u65e7\u5efa\u8bae",
+  "1148": "\u53ea\u5728\u65b0\u5efa\u8bae",
+  "2024": "\u5e76\u96c6",
+  "326": "\u65e7\u5efa\u8bae\u53e5\u6570",
+  "488": "\u65b0\u5efa\u8bae\u53e5\u6570",
+  "748": "\u53e5\u5b50\u5e76\u96c6",
+  "407": "\u65e7\u5efa\u8bae\u884c\u5728\u65b0\u6587\u91cc\u518d\u73b0",
+  "431": "\u65b0\u5efa\u8bae\u884c\u5728\u65e7\u6587\u91cc\u518d\u73b0",
+  "838": "\u518d\u73b0\u53e3\u5f84\u4e24\u5411\u76f8\u52a0",
+  "539": "\u518d\u73b0\u53e3\u5f84\u6bd4\u884c\u96c6\u4ea4\u591a\u51fa\u7684",
+  "40": "\u4e24\u7248\u5efa\u8bae\u5199\u7406\u7531\u7684\u5408\u8ba1",
+  "41": "\u5171\u7528\u884c\u91cc\u7684\u53c2\u8003\u6587\u732e\u884c",
+  "257": "\u5171\u7528\u884c\u91cc\u7684\u6b63\u6587\u884c",
+  "233": "\u4e24\u53e3\u5f84\u4e4b\u5dee",
+  "28": "1.3 \u534f\u8bae\u679a\u4e3e\u884c\u5408\u8ba1",
+  "32": "1.3 \u534f\u8bae\u679a\u4e3e\u884c",
+  "9959": "\u951a\u5019\u9009\u6c60\u6761\u6570",
+  "3028": "\u6c60\u5185\u6bcf\u6e90\u00b71.2 \u534f\u8bae",
+  "4605": "\u6c60\u5185\u6bcf\u6e90\u00b71.3 \u534f\u8bae",
+  "1450": "\u6c60\u5185\u6bcf\u6e90\u00b7\u65b0\u5efa\u8bae",
+  "2665": "\u6c60\u5185\u6bcf\u6e90\u91cc\u53ea\u7a7f\u4e00\u6e90\u00b71.2 \u534f\u8bae",
+  "456": "\u6c60\u5185\u6bcf\u6e90\u91cc\u53ea\u7a7f\u4e00\u6e90\u00b7\u65e7\u5efa\u8bae",
+  "4018": "\u6c60\u5185\u6bcf\u6e90\u91cc\u53ea\u7a7f\u4e00\u6e90\u00b71.3 \u534f\u8bae",
+  "944": "\u6c60\u5185\u6bcf\u6e90\u91cc\u53ea\u7a7f\u4e00\u6e90\u00b7\u65b0\u5efa\u8bae",
+  "363": "\u6c60\u5185\u6bcf\u6e90\u91cc\u7a7f\u4e24\u6e90\u4ee5\u4e0a\u00b71.2 \u534f\u8bae",
+  "420": "\u6c60\u5185\u6bcf\u6e90\u91cc\u7a7f\u4e24\u6e90\u4ee5\u4e0a\u00b7\u65e7\u5efa\u8bae",
+  "587": "\u6c60\u5185\u6bcf\u6e90\u91cc\u7a7f\u4e24\u6e90\u4ee5\u4e0a\u00b71.3 \u534f\u8bae",
+  "506": "\u6c60\u5185\u6bcf\u6e90\u91cc\u7a7f\u4e24\u6e90\u4ee5\u4e0a\u00b7\u65b0\u5efa\u8bae",
+  "1690": "\u6c60\u5185\u7a7f\u4e24\u6e90",
+  "155": "\u6c60\u5185\u7a7f\u4e09\u6e90",
+  "96593": "B57V('chars', 3)",
+  "24": "\u5f52\u4e00\u5c5e\u4e00\u6e90",
+  "33": "\u951a\u5904",
+  "108": "\u9010\u6e90\u5224\u6210\u5458\u6b21\u6570"
+ },
+ "pool_used": 27,
+ "enc_chars": 8532,
+ "nsrc": 4,
+ "flat": {
+  "bytes": [
+   222395,
+   60283,
+   337736,
+   96608
+  ],
+  "chars": [
+   222395,
+   60283,
+   337736,
+   96593
+  ],
+  "lines": [
+   5827,
+   1515,
+   8963,
+   1994
+  ],
+  "nonblank": [
+   3979,
+   979,
+   5848,
+   1592
+  ],
+  "blank": [
+   1849,
+   537,
+   3116,
+   403
+  ],
+  "tabs": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "trailws": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "nonascii": [
+   0,
+   0,
+   0,
+   14
+  ],
+  "bom": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "maxlen": [
+   72,
+   72,
+   72,
+   72
+  ],
+  "meanlen": [
+   54,
+   60,
+   56,
+   59
+  ],
+  "sha16": [
+   "2ebe1b8e651696ae",
+   "728e0c3fd07d4307",
+   "47871bc8820a2c3b",
+   "e3475381d056bde1"
+  ],
+  "utf8_strict": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "pagemarks": [
+   104,
+   27,
+   160,
+   0
+  ],
+  "hdr": [
+   103,
+   26,
+   159,
+   0
+  ],
+  "page_gap": [
+   1,
+   1,
+   1,
+   0
+  ],
+  "crlf": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "bytegap": [
+   0,
+   0,
+   0,
+   15
+  ],
+  "ascii_eq": [
+   1,
+   1,
+   1,
+   0
+  ],
+  "eqc": 3,
+  "eqb": 3,
+  "sha_distinct": 4,
+  "author_hdr": [
+   1,
+   1,
+   1,
+   0
+  ],
+  "kw_mustnot": [
+   19,
+   8,
+   74,
+   14
+  ],
+  "kw_must_all": [
+   138,
+   21,
+   330,
+   52
+  ],
+  "kw_must": [
+   119,
+   13,
+   256,
+   38
+  ],
+  "kw_shouldnot": [
+   6,
+   7,
+   15,
+   18
+  ],
+  "kw_should_all": [
+   27,
+   23,
+   76,
+   49
+  ],
+  "kw_should": [
+   21,
+   16,
+   61,
+   31
+  ],
+  "kw_may": [
+   34,
+   1,
+   58,
+   4
+  ],
+  "kw_required": [
+   23,
+   5,
+   11,
+   2
+  ],
+  "kw_notrecommended": [
+   0,
+   0,
+   3,
+   1
+  ],
+  "kw_rec_all": [
+   2,
+   5,
+   10,
+   8
+  ],
+  "kw_recommended": [
+   2,
+   5,
+   7,
+   7
+  ],
+  "kw_optional": [
+   6,
+   1,
+   5,
+   2
+  ],
+  "kw_optional_up": [
+   1,
+   1,
+   2,
+   1
+  ],
+  "kw_rationale": [
+   0,
+   19,
+   0,
+   21
+  ],
+  "kwbullet_o": [
+   0,
+   49,
+   0,
+   0
+  ],
+  "kwbullet_star": [
+   0,
+   0,
+   0,
+   62
+  ],
+  "kwbullet_num": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "kw_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "kw_close2": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "kw_close3": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "kw_mix": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "kw_mix_docs": 0,
+  "kw_bullets_oneway": 2,
+  "kw_bullets_onlyone": 2,
+  "sp_sha1_hy": [
+   13,
+   0,
+   8,
+   2
+  ],
+  "sp_sha1_plain": [
+   3,
+   1,
+   0,
+   0
+  ],
+  "sp_hmac_sha1": [
+   2,
+   1,
+   0,
+   0
+  ],
+  "sp_sha1_net": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "sp_sha1_lower": [
+   9,
+   0,
+   5,
+   0
+  ],
+  "sp_md5_hy": [
+   23,
+   0,
+   3,
+   2
+  ],
+  "sp_md5_lower": [
+   4,
+   0,
+   0,
+   0
+  ],
+  "sp_md5sha1": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "sp_sha256_hy": [
+   5,
+   2,
+   4,
+   2
+  ],
+  "sp_sha256_lower": [
+   6,
+   0,
+   15,
+   0
+  ],
+  "sp_sha384_hy": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "sp_gcm_sha256": [
+   0,
+   6,
+   2,
+   3
+  ],
+  "sp_case_variants": [
+   3,
+   0,
+   2,
+   1
+  ],
+  "sp_total_sha1_family": [
+   25,
+   1,
+   13,
+   2
+  ],
+  "sp_suite_endsha": [
+   36,
+   2,
+   0,
+   2
+  ],
+  "id_rsa_pkcs1_sha1": [
+   0,
+   0,
+   2,
+   0
+  ],
+  "id_ecdsa_sha1": [
+   0,
+   0,
+   2,
+   0
+  ],
+  "id_dsa_sha1": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "id_dsa_sha1_text": [
+   0,
+   0,
+   3,
+   0
+  ],
+  "id_rsa_pkcs1_sha256": [
+   0,
+   0,
+   3,
+   0
+  ],
+  "id_rsa_pss_rsae_sha256": [
+   0,
+   0,
+   4,
+   0
+  ],
+  "id_ecdsa_secp256r1_sha256": [
+   0,
+   0,
+   4,
+   0
+  ],
+  "id_rsa_pss_pss_sha256": [
+   0,
+   0,
+   3,
+   0
+  ],
+  "id_scheme_total": [
+   4,
+   0,
+   28,
+   0
+  ],
+  "id_sha1_schemes": [
+   0,
+   0,
+   4,
+   0
+  ],
+  "id_legacy_block": [
+   0,
+   0,
+   4,
+   0
+  ],
+  "id_must_support_n": 2,
+  "id_must_support_sha1": 0,
+  "id_enum_lines": [
+   0,
+   0,
+   32,
+   0
+  ],
+  "id_enum_total": [
+   0,
+   0,
+   28,
+   0
+  ],
+  "suite_distinct": [
+   31,
+   9,
+   6,
+   10
+  ],
+  "suite_occ": [
+   67,
+   13,
+   9,
+   12
+  ],
+  "frag_tail": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "suite_from_N_in_T": 2,
+  "suite_from_N_in_F": 0,
+  "suite_from_N_in_none": 8,
+  "suite_N_total": 10,
+  "suite_bridge_close": 0,
+  "suite_from_O_in_T": 2,
+  "suite_from_O_in_F": 0,
+  "suite_from_O_in_none": 7,
+  "suite_O_total": 9,
+  "suite_O_bridge_close": 0,
+  "suite_F_only": 6,
+  "suite_T_only": 29,
+  "suite_common_TF": 0,
+  "suite_common_ON": 7,
+  "suite_endsha_T": 17,
+  "cite_rfc_tokens": [
+   153,
+   159,
+   498,
+   333
+  ],
+  "cite_rfc_distinct": [
+   22,
+   36,
+   50,
+   66
+  ],
+  "cite_bracket": [
+   23,
+   97,
+   183,
+   194
+  ],
+  "cite_T_to_O": 0,
+  "cite_rfc_T_to_O": 0,
+  "cite_T_to_F": 0,
+  "cite_rfc_T_to_F": 0,
+  "cite_T_to_N": 0,
+  "cite_rfc_T_to_N": 0,
+  "cite_O_to_T": 2,
+  "cite_rfc_O_to_T": 7,
+  "cite_O_to_F": 0,
+  "cite_rfc_O_to_F": 0,
+  "cite_O_to_N": 0,
+  "cite_rfc_O_to_N": 0,
+  "cite_F_to_T": 3,
+  "cite_rfc_F_to_T": 7,
+  "cite_F_to_O": 0,
+  "cite_rfc_F_to_O": 0,
+  "cite_F_to_N": 0,
+  "cite_rfc_F_to_N": 0,
+  "cite_N_to_T": 2,
+  "cite_rfc_N_to_T": 8,
+  "cite_N_to_O": 9,
+  "cite_rfc_N_to_O": 15,
+  "cite_N_to_F": 1,
+  "cite_rfc_N_to_F": 16,
+  "cite_pairs_total": 12,
+  "cite_pairs_nonzero": 5,
+  "cite_pairs_zero": 7,
+  "cite_rfc_pairs_total": 12,
+  "cite_rfc_pairs_nonzero": 5,
+  "cite_pairs_occ": 17,
+  "cite_rfc_pairs_occ": 53,
+  "cite_obsoletes_n": [
+   3,
+   0,
+   3,
+   1
+  ],
+  "cite_updates_n": [
+   1,
+   0,
+   2,
+   2
+  ],
+  "cite_obsoleted_inrepo": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "cite_obsoletes_notinrepo": [
+   3,
+   0,
+   2,
+   0
+  ],
+  "cite_obsoleted_inrepo_all": 2,
+  "cite_backward_violations": 0,
+  "cite_self_obsoleted": 9,
+  "date_raw": [
+   "August 2008",
+   "May 2015",
+   "August 2018",
+   "November 2022"
+  ],
+  "date_ym": [
+   [
+    2008,
+    8
+   ],
+   [
+    2015,
+    5
+   ],
+   [
+    2018,
+    8
+   ],
+   [
+    2022,
+    11
+   ]
+  ],
+  "month_num": [
+   24104,
+   24185,
+   24224,
+   24275
+  ],
+  "month_gap_prev": [
+   0,
+   81,
+   39,
+   51
+  ],
+  "month_span": 171,
+  "date_seg_ok": [
+   1,
+   1,
+   1
+  ],
+  "date_seg_n": 3,
+  "date_docnum_mono": 3,
+  "line_sha_mustnot": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "line_sha_mustnot_hy": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "line_sha_in_enum": [
+   0,
+   0,
+   5,
+   0
+  ],
+  "line_rationale_mustnot": [
+   0,
+   7,
+   0,
+   8
+  ],
+  "line_sha_in_prose": [
+   13,
+   0,
+   8,
+   2
+  ],
+  "carry_line_o": 876,
+  "carry_line_n": 1447,
+  "carry_shared": 299,
+  "carry_only_o": 577,
+  "carry_only_n": 1148,
+  "carry_union": 2024,
+  "carry_close": 0,
+  "carry_o_in_n_text": 407,
+  "carry_n_in_o_text": 431,
+  "carry_sub_overlap": 838,
+  "carry_sent_o": 326,
+  "carry_sent_n": 488,
+  "carry_sent_shared": 66,
+  "carry_sent_union": 748,
+  "carry_shared_raw": 299,
+  "carry_shared_ref": 41,
+  "carry_shared_toc": 1,
+  "carry_shared_prose": 257,
+  "carry_split_close": 0,
+  "carry_sent_close": 0,
+  "carry_sent_rat": 0,
+  "carry_thr_192": 0,
+  "carry_thr_224": 0,
+  "carry_caliber_gap": 233,
+  "bits_112": [
+   1,
+   3,
+   1,
+   3
+  ],
+  "bits_128": [
+   1,
+   1,
+   0,
+   2
+  ],
+  "bits_192": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "bits_224": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "modulus_2048": [
+   0,
+   4,
+   1,
+   5
+  ],
+  "modulus_1024": [
+   1,
+   5,
+   0,
+   3
+  ],
+  "curves_below_224": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "fwd_secrecy": [
+   0,
+   7,
+   7,
+   15
+  ],
+  "ssl_v2_ban": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "pool_n": 9959,
+  "pool_tag_n": [
+   3028,
+   876,
+   4605,
+   1450
+  ],
+  "pool_tag_1": [
+   2665,
+   456,
+   4018,
+   944
+  ],
+  "pool_tag_x": [
+   363,
+   420,
+   587,
+   506
+  ],
+  "pool_2": 1690,
+  "pool_3": 155,
+  "pool_4": 31,
+  "pool_1": 8083,
+  "pool_tiers": [
+   8083,
+   1690,
+   155,
+   31
+  ],
+  "pool_close": 0
+ }
+}

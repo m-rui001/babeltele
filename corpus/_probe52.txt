@@ -1,0 +1,69 @@
+now: 非空行 302 = 注释 211 + 数据 91; 数据里带制表符的 91; 字节 8425
+   每行字段数分布 {4: 91}
+1970: 非空行 375 = 注释 63 + 数据 312; 数据里带制表符的 312; 字节 17592
+   每行字段数分布 {3: 111, 4: 201}
+zone: 非空行 448 = 注释 30 + 数据 418; 数据里带制表符的 418; 字节 18809
+   每行字段数分布 {3: 216, 4: 202}
+
+zonenow 第一列取值分布: {'XX': 91} (种类 1)
+   头部原话: ['# 2.  The first column is irrelevant and ignored.']
+第三列(TZ)行数 91, 去重 91, 含逗号的 0, 含斜杠多段的 0
+   多时区行的例子: []
+第四列非空行数 91/91; 空注释行 0; 含分号(合并多地)的 25
+
+偏移标签注释行 91 行, 其中可解析 91, 解析失败 0: []
+偏移分组注释行 91 组; 组内行数合计 91; 未归组的 0
+   组内行数分布 {1: 91} (标签行数 ⇎ 数据行数 = 91 ⇎ 91)
+   带第二枚偏移(DST)的组 34; 带缩写的组 53; 两组之间夹的纯注释行(#) 97
+   前 6 组标签: ['-11 - SST', '-11', '-10 - HST', '-10', '-10/-09 - HST / HDT (North America DST)', '-09:30']
+   双偏移组标签例子: ['-10/-09 - HST / HDT (North America DST)', '-09/-08 - AKST/AKDT (North America DST)', '-08/-07 - PST/PDT (North America DST)', '-08/-07 - PST/PDT (North America DST) until 2026-11-01 02:00; then MST']
+   行数最多的 4 组: [('-11 - SST', 1), ('-11', 1), ('-10 - HST', 1), ('-10', 1)]
+   空组(有标签无行) 0 个: []
+   组标签偏移是否单调不减: True; 首末 -11.0 ⇎ 14.0; 逆序对数 0
+   偏移种类 37 种; 同一偏移出现两次以上的 [-11.0, -10.0, -9.0, -8.0, -7.0, -6.0, -5.0, -4.0, -3.0, -2.0, -1.0, 0.0, 1.0, 2.0, 3.0, 5.0, 5.5, 7.0, 8.0, 9.0, 9.5, 10.0, 11.0, 12.0]
+   带缩写的标签 53; 同行注释以括号缩写收尾的 34; 逐字相等 32; 去空格后相等 33
+   去空格仍不等的例子: [('HST / HDT', 'HST/HDT'), ('PST/PDT (North America DST) until 2026-11-01 02:00; then MST', 'most areas')]
+   有括号缩写而标签无缩写的行数(反方向): 1
+   标签与数据行是否严格 1:1 交错: True
+   列头注释行: ['#XX\tcoordinates\tTZ\tcomments']
+   任何数据列里出现 :00 之类偏移写法的行数: 0
+   坐标字符数分布 {11: 75, 15: 16}; 以 0 补位的 13 行; 秒位缺失(只有分)的 0 行
+   坐标可解析 75/91; 纬度位数种类 [2] ⇎ 经度位数种类 [3]
+   同一纬度位数在不同行混用: False
+   第四列含分号的 25 ⇎ 含括号的 48 ⇎ 含“; ”的 25; 第四列里出现国名/地区词的例: ['Midway; Samoa (SST)', 'Niue', 'Hawaii (HST)']
+
+带 ISO 日期的行 4(注释 4 ⇎ 数据 0); 日期集合 2 种: ['2023-12-18', '2026-11-01']
+   [注释] 2023-12-18  | # From Paul Eggert (2023-12-18):
+   [注释] 2026-11-01 02:00 | # -08/-07 - PST/PDT (North America DST) until 2026-11-01 02:00; then MST
+   [注释] 2026-11-01 02:00 | # -07/-06 - MST/MDT (North America DST) until 2026-11-01 02:00; then CST
+   [注释] 2026-11-01 02:00 | # -06/-05 - CST/CDT (North America DST) until 2026-11-01 02:00; then EST
+
+头部谓词句: ['# where civil timestamps are predicted to agree from now on.', '#     to agree from now on.  This is a larger set of clocks than in']
+   出现 “now” 的行数 2; 出现 “1970” 的行数 2
+
+checknow.awk: 字节 1212 行数 54
+   出现的字段引用 $n: ['0', '3']
+   FS 赋值: ['FS = "\\t"']
+   外部变量: ['now', 'now_out', 'zdump_table']
+   被引用但从未赋值的输入文件名在库内是否存在: zdump_table -> []
+   诊断语句(printf 首参): ['%s: no data\\n', 'zones %s and %s identical from now on\\n', 'Zone table should have one of:%s\\n', '%s=%s\\n']
+   退出与状态: ['status = 1', 'status = 1', 'status = 1', 'if (now_out)', 'exit status']
+   是否提到 -v zdump_table 或 Makefile 里的生成处: 1
+   Makefile 里含 zdump_table 的行 2 条; 含 checknow 的行 5 条
+      AWK_SCRIPTS=	checklinks.awk checknow.awk checktab.awk leapseconds.awk \
+      checklinks.awk checknow.awk checktab.awk \
+      now.ck: checknow.awk date tzdata.zi zdump zic zone1970.tab zonenow.tab
+      -v zdump_table=$@d/zdump-now.tab \
+      -f checknow.awk zonenow.tab
+      -v zdump_table=$@d/zdump-1970.tab \
+      -f checknow.awk
+
+时区名集合: zonenow 91 行 ⇎ zone1970 312 行 ⇎ zone.tab 418 行
+   去重后: now 91 ⇎ 1970 312 ⇎ tab 418; now−1970 []; 1970−now 221 个
+   1970−now 前 8: ['Africa/Bissau', 'Africa/Ceuta', 'Africa/El_Aaiun', 'Africa/Juba', 'Africa/Khartoum', 'Africa/Monrovia', 'Africa/Ndjamena', 'Africa/Sao_Tome']
+   tab−now 327 个 ⇎ now−tab 0 个
+   zonenow 第一列全为 XX 的行 91/91; zone1970 第一列多码行(含逗号) 34
+   同一时区在两表里国码不同的行数: 91
+   例子: [('Africa/Abidjan', 'XX', 'CI,BF,GH,GM,GN,IS,ML,MR,SH,SL,SN,TG'), ('Africa/Algiers', 'XX', 'DZ'), ('Africa/Cairo', 'XX', 'EG'), ('Africa/Casablanca', 'XX', 'MA'), ('Africa/Johannesburg', 'XX', 'ZA,LS,SZ')]
+   坐标一致的共有时区 91/91(共有 91)
+   坐标不一致的例子: []

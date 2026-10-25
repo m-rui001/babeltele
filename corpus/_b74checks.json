@@ -1,0 +1,4816 @@
+{
+ "anchor_total": 31,
+ "anchor_distinct": 29,
+ "anchor_err": 0,
+ "anchor_single": 22,
+ "anchor_cross": 7,
+ "anchor_all5": 0,
+ "checks": 145,
+ "enc_chars": 9489,
+ "nsrc": 5,
+ "tag_821": 6,
+ "tag_1123": 8,
+ "tag_5321": 9,
+ "tag_exim": 5,
+ "tag_postfix": 3,
+ "letters_in": 1130,
+ "letters_out": 822,
+ "classes": {
+  "single": [
+   "                      default of no less than 5 seconds should be used.",
+   "               encouraged to try again.  A rule of thumb to determine if",
+   "            The general model of a sender-SMTP is one or more processes",
+   "            least 4-5 days.  The parameters to the retry algorithm MUST",
+   "         Any queueing strategy MUST include:",
+   "   Any queuing strategy MUST include timeouts on all activities on a",
+   "   The general model for an SMTP client is one or more processes that",
+   "   discussed in Section 4.5.4.1.",
+   "   may be appropriate to protect the host from devoting all its",
+   "   responses to the MAIL command MUST NOT be cached.",
+   "  Retry messages after soft failure            |5.3.1.1   |x| | | | |",
+   "* * F,2h,15m; G,16h,1h,1.5; F,4d,6h",
+   "<letter>,<cutoff time>,<arguments>",
+   "Consider a message as undeliverable, when delivery fails with a",
+   "F: retry at fixed intervals. There is a single time parameter specifying",
+   "Obsoletes: 2821",
+   "Replaces: RFC 788, 780, 772                                  August 1982",
+   "The minimal time between attempts to deliver a deferred message;",
+   "Updates: 1123",
+   "arguments vary the algorithm's action. The cutoff time is measured from the",
+   "one-letter suffix that specifies the time unit). Time units: s (seconds), m",
+   "retry_interval_max limits the maximum interval between retries. It"
+  ],
+  "cross": [
+   "               It is difficult to assign a meaning to \"transient\" when",
+   "            4yz   Transient Negative Completion reply",
+   "            5yz   Permanent Negative Completion reply",
+   "            The sender MUST delay retrying a particular destination",
+   "            interval SHOULD be at least 30 minutes; however, more",
+   "   The sender MUST delay retrying a particular destination after one",
+   "   configurable."
+  ],
+  "three": [],
+  "four": [],
+  "five": []
+ },
+ "collisions": {
+  "120432": [
+   "码位·821"
+  ],
+  "239721": [
+   "码位·1123"
+  ],
+  "225929": [
+   "码位·5321"
+  ],
+  "72": [
+   "最长行·1123",
+   "最长行·5321",
+   "换页独占行·821"
+  ],
+  "4051": [
+   "换行档·821"
+  ],
+  "5783": [
+   "换行档·1123"
+  ],
+  "5324": [
+   "换行档·5321"
+  ],
+  "723": [
+   "换行档·exim"
+  ],
+  "19262": [
+   "换行档·postfix"
+  ],
+  "2": [
+   "逐行档·postfix",
+   "断面独有·postfix",
+   "反向按份·1123",
+   "反向按份·5321",
+   "措辞最宽档·821",
+   "措辞折平档·821",
+   "命中族数·821",
+   "段行数·exim#4",
+   "1123段独词",
+   "共用行·1123·5321",
+   "MUST NOT·postfix",
+   "SHOULD·821",
+   "段MUST·1123#2",
+   "段MUST·5321#3",
+   "段MUST·5321#7",
+   "区间端点命中",
+   "共用行·1123·5321",
+   "最大逐字节同",
+   "html份数"
+  ],
+  "6": [
+   "折平档·1123",
+   "折平档·exim",
+   "摘壳档·821",
+   "摘壳档·1123",
+   "摘壳档·exim",
+   "断面档·821",
+   "断面档·1123",
+   "粘面档·821",
+   "粘面档·1123",
+   "折行独有·821",
+   "折行独有·1123",
+   "折行独有·postfix",
+   "断面独有针",
+   "属性内默认值参数数",
+   "段行数·1123#6",
+   "段行数·5321#12",
+   "下限→给弃·5321",
+   "retry词·postfix",
+   "不低于下限档",
+   "G段档数",
+   "tag_821"
+  ],
+  "7": [
+   "摘壳档·5321",
+   "断面档·5321",
+   "粘面档·5321",
+   "折行独有·5321",
+   "空族数·5321",
+   "空族数·postfix",
+   "下限→给弃·1123",
+   "queuing·5321",
+   "1123在5321",
+   "本遍多判·5321",
+   "anchor_cross"
+  ],
+  "8": [
+   "摘壳档·postfix",
+   "名下针·1123",
+   "NDN连写·postfix",
+   "tag_1123"
+  ],
+  "10": [
+   "断面档·postfix",
+   "粘面档·postfix",
+   "措辞最宽档·exim",
+   "措辞折平档·exim",
+   "空族数·821",
+   "抬头无点式·1123",
+   "NDN连写·5321"
+  ],
+  "58": [
+   "针总数",
+   "措辞最宽档·postfix",
+   "本遍针表"
+  ],
+  "4": [
+   "断面独有·exim",
+   "粘面独有针",
+   "措辞最宽档·1123",
+   "措辞折平档·1123",
+   "段行数·postfix#10",
+   "段行数·1123#11",
+   "行针枚·821",
+   "行针枚·1123",
+   "行针枚·5321",
+   "难点→thumb行距",
+   "SHOULD NOT·postfix",
+   "SHOULD·postfix",
+   "低于下限档",
+   "抬头两点式·1123",
+   "NDN连写·821",
+   "清单闭合"
+  ],
+  "1": [
+   "尖括号·断面档枚",
+   "尖括号·粘面档枚",
+   "字母F·断面档枚",
+   "字母F·粘面档枚",
+   "粘减断·exim",
+   "死针账零",
+   "命中族数·exim",
+   "5321段更长",
+   "位移差",
+   "止行距减去行距",
+   "行针复核判定",
+   "错行对照判定",
+   "跨行·1123",
+   "跨行·5321",
+   "难点先于法则",
+   "词集账零",
+   "队列共头",
+   "MAY·821",
+   "零MUST两份",
+   "段MUST·1123#6",
+   "段MUST·1123#11",
+   "段MUST·5321#12",
+   "段MAY·5321#3",
+   "段MAY·5321#12",
+   "段SHOULD·1123#2",
+   "段SHOULD·5321#3",
+   "MTA段零语气",
+   "MAY只在5321段",
+   "queuing·postfix",
+   "seconds词·RFC合计",
+   "seconds只在1123",
+   "seconds多于RFC",
+   "exim在区间内",
+   "pf在区间内",
+   "bql等于mql",
+   "maxbo大于minbo",
+   "年份单调",
+   "Obsoletes数·5321",
+   "Updates数·5321",
+   "短横独有",
+   "跨行组·postfix",
+   "本遍多判·821",
+   "本遍多判·1123",
+   "本遍多判·postfix",
+   "壳谓词复现",
+   "抬头无点式·exim",
+   "NDN断开·1123",
+   "NDN断开·5321",
+   "txt零标签"
+  ],
+  "3": [
+   "反向按份·exim",
+   "反向按份·postfix",
+   "命中族数·1123",
+   "段行数·postfix#5",
+   "段行数·5321#7",
+   "段行数·821#8",
+   "段行数·exim#9",
+   "给弃→可配·1123",
+   "语气合计·821",
+   "小写must·exim",
+   "sender-SMTP·5321",
+   "queueing·1123",
+   "默认规则段数",
+   "Replaces数·821",
+   "txt份数",
+   "tag_postfix"
+  ],
+  "11": [
+   "名下针·821",
+   "空族数·exim",
+   "段行数·1123#2",
+   "MUST·postfix",
+   "SHOULD NOT·1123"
+  ],
+  "5": [
+   "措辞最宽档·5321",
+   "措辞折平档·5321",
+   "命中族数·5321",
+   "命中族数·postfix",
+   "给弃→可配·5321",
+   "MAY·postfix",
+   "receiver-SMTP·5321",
+   "对象并集数",
+   "抬头一点式·5321",
+   "抬头一点式·postfix",
+   "nsrc",
+   "tag_exim"
+  ],
+  "9": [
+   "空族数·1123",
+   "段共尾词",
+   "给弃共尾",
+   "裸MUST·postfix",
+   "queue词·exim",
+   "2821合计",
+   "tag_5321"
+  ],
+  "3502": [
+   "段止行·1123#11"
+  ],
+  "3714": [
+   "段止行·5321#12"
+  ],
+  "20": [
+   "段词数·exim#4"
+  ],
+  "23": [
+   "段词数·postfix#5",
+   "段词数·1123#6",
+   "给弃共头"
+  ],
+  "29": [
+   "段词数·5321#7",
+   "4yz→5yz行距",
+   "共用行·821·5321",
+   "最大共用行",
+   "只归一同合计",
+   "分家合计",
+   "只归一集合数",
+   "anchor_distinct"
+  ],
+  "212": [
+   "止行距·给弃段",
+   "抬头两点式·5321"
+  ],
+  "12": [
+   "行针复核枚",
+   "行针自验枚",
+   "句尺增益·821·5321",
+   "措辞共测"
+  ],
+  "56": [
+   "两段共词"
+  ],
+  "191": [
+   "给弃句·1123字符"
+  ],
+  "346": [
+   "给弃句·5321字符"
+  ],
+  "19": [
+   "共用句·1123·5321",
+   "MUST NOT·1123",
+   "共用句·1123·5321",
+   "抬头无点式·postfix"
+  ],
+  "17": [
+   "句尺增益·1123·5321",
+   "sender-SMTP·1123"
+  ],
+  "139": [
+   "MUST·1123"
+  ],
+  "32": [
+   "SHOULD NOT·5321",
+   "sender-SMTP·821",
+   "短横式821在1123",
+   "三式和·1123引821"
+  ],
+  "21": [
+   "receiver-SMTP·1123",
+   "retry词·1123"
+  ],
+  "15": [
+   "queue词·5321",
+   "timeout词·exim"
+  ],
+  "152": [
+   "queue词·postfix"
+  ],
+  "18": [
+   "retry词·5321"
+  ],
+  "41": [
+   "timeout词·1123",
+   "共用句·821·5321",
+   "最大共用句"
+  ],
+  "120": [
+   "timeout词·postfix"
+  ],
+  "900": [
+   "exim首档"
+  ],
+  "86400": [
+   "exim封顶秒"
+  ],
+  "345600": [
+   "exim末段跨度"
+  ],
+  "300": [
+   "postfix queue_run_delay"
+  ],
+  "69": [
+   "空格式自引·821"
+  ],
+  "97": [
+   "连写式·1123",
+   "抬头行·1123"
+  ],
+  "30": [
+   "821在5321",
+   "连字符断行·5321"
+  ],
+  "31": [
+   "txt共用行",
+   "anchor_total"
+  ],
+  "671": [
+   "组数·exim",
+   "非空行·组面尺·exim"
+  ],
+  "2023": [
+   "非空行·组面尺·821"
+  ],
+  "3777": [
+   "非空行·组面尺·1123"
+  ],
+  "3680": [
+   "非空行·组面尺·5321"
+  ],
+  "18230": [
+   "非空行·组面尺·postfix"
+  ],
+  "-1": [
+   "组减非空行·postfix"
+  ],
+  "52": [
+   "壳行·本遍·exim",
+   "壳行·采集·exim",
+   "空白行·exim"
+  ],
+  "34": [
+   "采集多判·821",
+   "抬头行·821"
+  ],
+  "98": [
+   "页壳行·1123"
+  ],
+  "95": [
+   "页壳行·5321"
+  ],
+  "94": [
+   "抬头行·5321"
+  ],
+  "1032": [
+   "空白行·postfix"
+  ],
+  "40": [
+   "抬头两点式·821"
+  ],
+  "24": [
+   "连字符断行·1123"
+  ],
+  "78": [
+   "恒等式通过",
+   "共键恒等式"
+  ],
+  "60": [
+   "采集针表"
+  ],
+  "22": [
+   "anchor_single"
+  ],
+  "7200": [
+   "列表元素·7200"
+  ],
+  "14869": [
+   "列表元素·14869"
+  ],
+  "57600": [
+   "列表元素·57600"
+  ]
+ },
+ "zero_terms": 274,
+ "deriv_keys": 207,
+ "deriv_points": 467,
+ "notes": {
+  "120432": "字节·821",
+  "239721": "字节·1123",
+  "225929": "字节·5321",
+  "35127": "字节·exim",
+  "1091230": "字节·postfix",
+  "35048": "码位·exim",
+  "1090337": "码位·postfix",
+  "4051": "原行·821",
+  "5783": "原行·1123",
+  "5324": "原行·5321",
+  "723": "原行·exim",
+  "19262": "原行·postfix",
+  "2023": "非空行·821",
+  "3777": "非空行·1123",
+  "3680": "非空行·5321",
+  "671": "非空行·exim",
+  "18230": "非空行·postfix",
+  "72": "最长行·821",
+  "373": "最长行·exim",
+  "460": "最长行·postfix",
+  "40": "非ASCII·exim",
+  "889": "非ASCII·postfix",
+  "79": "字节减码位·exim",
+  "893": "字节减码位·postfix",
+  "98": "换页独占行·1123",
+  "95": "换页独占行·5321",
+  "4122": "splitlines·821",
+  "5880": "splitlines·1123",
+  "5418": "splitlines·5321",
+  "722": "splitlines·exim",
+  "19261": "splitlines·postfix",
+  "1": "行数账零",
+  "377": "开标签·exim",
+  "11095": "开标签·postfix",
+  "360": "闭标签·exim",
+  "10173": "闭标签·postfix",
+  "21268": "标签合计·postfix",
+  "909": "br 枚·postfix",
+  "20": "实体·exim",
+  "3281": "实体·postfix",
+  "2676": "数字实体残留·postfix",
+  "58": "amp 原枚·postfix",
+  "28": "双逃残留·postfix",
+  "2": "逐行档·exim",
+  "6": "折平档·821",
+  "7": "折平档·5321",
+  "8": "折平档·postfix",
+  "10": "断面档·exim",
+  "11": "粘面档·exim",
+  "29": "折行独有针",
+  "4": "折行独有·exim",
+  "3": "断面有粘面无",
+  "15": "反向针数",
+  "5": "反向按份·821",
+  "9": "名下针·5321",
+  "17": "名下针·exim",
+  "13": "名下针·postfix",
+  "86": "措辞折平档·postfix",
+  "-28": "折平减剥后·postfix",
+  "2665": "default全枚",
+  "876": "default标签内",
+  "1789": "default剥后",
+  "2881": "段起行·821#1",
+  "3492": "段起行·1123#2",
+  "3703": "段起行·5321#3",
+  "508": "段起行·exim#4",
+  "8637": "段起行·postfix#5",
+  "3462": "段起行·1123#6",
+  "3681": "段起行·5321#7",
+  "2899": "段起行·821#8",
+  "626": "段起行·exim#9",
+  "8930": "段起行·postfix#10",
+  "3499": "段起行·1123#11",
+  "3709": "段起行·5321#12",
+  "2903": "段止行·821#1",
+  "3502": "段止行·1123#2",
+  "3714": "段止行·5321#3",
+  "509": "段止行·exim#4",
+  "8639": "段止行·postfix#5",
+  "3467": "段止行·1123#6",
+  "3683": "段止行·5321#7",
+  "2901": "段止行·821#8",
+  "628": "段止行·exim#9",
+  "8933": "段止行·postfix#10",
+  "23": "段行数·821#1",
+  "12": "段行数·5321#3",
+  "546": "段字符·821#1",
+  "475": "段字符·1123#2",
+  "629": "段字符·5321#3",
+  "127": "段字符·exim#4",
+  "152": "段字符·postfix#5",
+  "146": "段字符·1123#6",
+  "187": "段字符·5321#7",
+  "139": "段字符·821#8",
+  "199": "段字符·exim#9",
+  "241": "段字符·postfix#10",
+  "191": "段字符·1123#11",
+  "346": "段字符·5321#12",
+  "88": "段词数·821#1",
+  "75": "段词数·1123#2",
+  "99": "段词数·5321#3",
+  "22": "段词数·821#8",
+  "34": "段词数·exim#9",
+  "37": "段词数·postfix#10",
+  "32": "段词数·1123#11",
+  "56": "段词数·5321#12",
+  "1929": "主段字符合计",
+  "305": "主段词合计",
+  "80": "十二段行",
+  "538": "十二段词",
+  "211": "下限段位移",
+  "210": "给弃段位移",
+  "212": "止行距·下限段",
+  "18": "难点→4yz行距",
+  "19": "5321段独词",
+  "21": "词对称差",
+  "35": "段共头词",
+  "63": "MUST NOT·5321",
+  "201": "MUST·5321",
+  "103": "SHOULD·1123",
+  "154": "SHOULD·5321",
+  "31": "MAY·1123",
+  "62": "MAY·5321",
+  "303": "语气合计·1123",
+  "512": "语气合计·5321",
+  "26": "语气合计·postfix",
+  "120": "裸MUST·1123",
+  "138": "裸MUST·5321",
+  "[0, 0, 0, 0, 0]": "语气账零",
+  "52": "小写must·821",
+  "60": "小写must·1123",
+  "25": "小写must·5321",
+  "130": "小写must·postfix",
+  "41": "receiver-SMTP·821",
+  "76": "SMTP client·5321",
+  "247": "SMTP client·postfix",
+  "14": "queue词·1123",
+  "109": "retry词·exim",
+  "24": "timeout词·5321",
+  "962": "新名千分·5321",
+  "-1": "新名千分·exim",
+  "1000": "新名千分·postfix",
+  "1800": "下限秒",
+  "900": "下限减exim首档",
+  "1500": "下限减postfix",
+  "300": "postfix minimal_backoff",
+  "500": "exim千分比",
+  "166": "pf千分比",
+  "194": "seconds词·postfix",
+  "345600": "区间下沿",
+  "432000": "区间上沿",
+  "86400": "日的秒数",
+  "['H']": "定义未用字母数",
+  "30": "exim总档数",
+  "74812": "G段总秒",
+  "604800": "exim过期秒",
+  "1982": "抬头年·821",
+  "1989": "抬头年·1123",
+  "2008": "抬头年·5321",
+  "2012": "抬头年·exim",
+  "2025": "抬头年·postfix",
+  "43": "年跨度",
+  "69": "自引·821",
+  "97": "自引·1123",
+  "94": "自引·5321",
+  "44": "RFC字样·postfix",
+  "14900": "行池条数",
+  "[14869, 31, 0, 0, 0]": "行池分档",
+  "27": "最大只归一同",
+  "6043": "句池条数",
+  "[5983, 60, 0, 0, 0]": "句池分档",
+  "16478": "锚池条数",
+  "20281": "锚池原行",
+  "[16431, 47, 0, 0, 0]": "锚池分档",
+  "1921": "组数·821",
+  "3582": "组数·1123",
+  "3491": "组数·5321",
+  "18229": "组数·postfix",
+  "-102": "组减非空行·821",
+  "-195": "组减非空行·1123",
+  "-189": "组减非空行·5321",
+  "102": "壳非空行·821",
+  "195": "壳非空行·1123",
+  "189": "壳非空行·5321",
+  "2097": "壳行·本遍·821",
+  "2202": "壳行·本遍·1123",
+  "1840": "壳行·本遍·5321",
+  "1033": "壳行·本遍·postfix",
+  "2130": "壳行·采集·821",
+  "2201": "壳行·采集·1123",
+  "1833": "壳行·采集·5321",
+  "1032": "壳行·采集·postfix",
+  "68": "页壳行·821",
+  "2028": "空白行·821",
+  "2006": "空白行·1123",
+  "1644": "空白行·5321",
+  "78": "恒等式数",
+  "51": "对账相符",
+  "[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]": "措辞共测同值",
+  "145": "checks",
+  "9489": "enc_chars",
+  "5983": "列表元素·5983",
+  "7200": "列表元素·7200",
+  "14869": "列表元素·14869",
+  "16431": "列表元素·16431",
+  "57600": "列表元素·57600"
+ },
+ "needle_n": 58,
+ "zid": [
+  [
+   "B74V('ladder_monotone') - 1",
+   "五档单调: 逐行档+折行独有档=折平档, 摘壳档与断面档都≥折平档"
+  ],
+  [
+   "B74V('re_eq_cur') - 1",
+   "正则字面轨与非重叠游标轨在最宽档上逐枚相等"
+  ],
+  [
+   "B74V('overlap_extra')",
+   "重叠口径减非重叠口径在全库锚句上合计为零"
+  ],
+  [
+   "len(B74V('dead_needles'))",
+   "死集为空: 每枚内容锚句都在某一档读得到"
+  ],
+  [
+   "sum(B74V('neg_own')) - B74V('neg_n')",
+   "反向对照针按份分账=总数"
+  ],
+  [
+   "B74V('neg_hit_strict')",
+   "反向针在最窄档也零命中"
+  ],
+  [
+   "sum(B74V('fold_minus_strict_own')) - B74V('fold_minus_strict_n')",
+   "折行独有针按份分账=总数"
+  ],
+  [
+   "sum(B74V('sh_minus_fold'))",
+   "摘壳档一枚不丢(txt 的答句不在壳行里)"
+  ],
+  [
+   "B74V('ds_only_n') - sum(B74V('ds_only_own'))",
+   "剥壳独有针按份分账=总数"
+  ],
+  [
+   "B74V('ds_only_n') - len(B74V('ds_only_keys'))",
+   "剥壳独有针清单与计数同枚"
+  ],
+  [
+   "B74V('dj_only_n') - len(B74V('dj_only_keys'))",
+   "粘面独有针清单与计数同枚"
+  ],
+  [
+   "sum(B74V('dj_only_own')) - B74V('dj_only_n')",
+   "粘面独有针按份分账=总数"
+  ],
+  [
+   "B74V('sn_dj_docs', 3) - B74V('sn_ds_docs', 3) - B74V('dj_only_own', 3) + B74V('ds_no_dj_own', 3)",
+   "Exim 两档换尺的进出账: 粘面比断面多读的枚数=新读到的针−换一种粘法后丢的针"
+  ],
+  [
+   "B74V('sn_dj_docs', 4) - B74V('sn_ds_docs', 4) - B74V('dj_only_own', 4) + B74V('ds_no_dj_own', 4)",
+   "Postfix 同一本换尺账"
+  ],
+  [
+   "B74V('dj_only_own', 0) + B74V('dj_only_own', 1) + B74V('dj_only_own', 2)",
+   "三份 RFC 的剥壳两档恒等(不剥壳), 粘面独有针一枚也不落在它们名下"
+  ],
+  [
+   "B74V('bond_pair') - 1",
+   "同一处尖括号序列化: 断面带空格、粘面不带, 两枚针各只在自己的档读得到"
+  ],
+  [
+   "B74V('letter_pair') - 1",
+   "算法字母“F : / F:”同一处两档各一枚"
+  ],
+  [
+   "B74V('attr_loss_n') - B74V('attr_loss', 4)",
+   "针级的剥标签损失为零(丢的是 Postfix 的默认值条目, 不是锚句)"
+  ],
+  [
+   "sum(B74V('tone_ledger'))",
+   "大写 MUST 总数 = 裸 MUST + MUST NOT, 五份归零相加"
+  ],
+  [
+   "B74V('tone_ruler_close')",
+   "手扫邻居尺与负向断言正则尺在五轨上逐份逐轨同值"
+  ],
+  [
+   "B74V('tone_zero_must', 0) + B74V('tone_zero_must', 3) - 2",
+   "MUST 族零枚的恰是 821 与 Exim 两份"
+  ],
+  [
+   "B74V('c821_no_retry_vocabulary') - 1",
+   "821 面上零枚 retry 与零枚 queue: 这一份还没有重试词汇"
+  ],
+  [
+   "sum(B74V('spelling_queueing')) - B74V('spelling_queueing', 1)",
+   "queueing 这种拼法只在 1123 名下"
+  ],
+  [
+   "B74V('spelling_queuing', 0) + B74V('spelling_queuing', 1) + B74V('spelling_queuing', 3)",
+   "queuing 这种拼法不在 821/1123/Exim 名下(5321 与 Postfix 各数)"
+  ],
+  [
+   "B74V('retry_word', 0)",
+   "retry 三形在 821 合计零枚"
+  ],
+  [
+   "B74V('word_cutoff', 0) + B74V('word_cutoff', 1) + B74V('word_cutoff', 2) + B74V('word_cutoff', 4)",
+   "cutoff 一词只在 Exim 出现"
+  ],
+  [
+   "B74V('ex_def_sets') - 3",
+   "Exim 默认规则串恰三段"
+  ],
+  [
+   "B74V('ex_def_args', 0) + B74V('ex_def_args', 2) - 2",
+   "F 段各带一枚参数, 两段共两枚"
+  ],
+  [
+   "B74V('ex_def_args', 1) - 2",
+   "G 段带两枚参数(起始间隔与倍数)"
+  ],
+  [
+   "B74V('ex_attempts_tot') - (B74V('ex_f1_attempts') + B74V('ex_g_steps') + B74V('ex_f3_attempts'))",
+   "按规则串现算的档数=三段之和"
+  ],
+  [
+   "B74V('ex_f1_attempts') * B74V('ex_def_first', 0) - B74V('ex_def_cutoffs', 0)",
+   "首段: 档数×间隔=该段跨度"
+  ],
+  [
+   "B74V('ex_f3_attempts') * B74V('ex_def_first', 2) - B74V('ex_def_cutoffs', 2)",
+   "末段: 档数×间隔=四天跨度"
+  ],
+  [
+   "B74V('ex_g_step_sec', 0) - B74V('ex_def_first', 1)",
+   "G 段首档就是它的起始间隔"
+  ],
+  [
+   "len(B74V('ex_letters_def')) - 3",
+   "文档定义了 F/G/H 三种字母"
+  ],
+  [
+   "len(B74V('ex_letters')) - 2",
+   "规则串里只用两枚字母"
+  ],
+  [
+   "len(B74V('ex_letters_def_only')) - 1",
+   "定义了却一次没用: 恰一枚(H)"
+  ],
+  [
+   "len(B74V('ex_letters_used_only'))",
+   "规则串里没有用了却未定义的字母"
+  ],
+  [
+   "B74V('ex_rim_cap') - 86400",
+   "retry_interval_max 封顶 24h=86400 秒"
+  ],
+  [
+   "B74V('ex_def_span') - B74V('band_lo')",
+   "Exim 默认末档跨度恰是四天=4×86400"
+  ],
+  [
+   "B74V('pf_def_sec', 0) - B74V('band_hi')",
+   "Postfix 队列寿命默认恰是五天=5×86400"
+  ],
+  [
+   "B74V('pf_def_sec', 0) - B74V('pf_def_sec', 1)",
+   "bounce_queue_lifetime 与 maximal_queue_lifetime 默认同值"
+  ],
+  [
+   "B74V('pf_def_sec', 2) - B74V('pf_def_sec', 4)",
+   "minimal_backoff_time 与 queue_run_delay 默认同值 300s"
+  ],
+  [
+   "len([n for n in range(len(B74V('pf_attr_only'))) if B74V('pf_attr_only')[n]]) - B74V('pf_attr_docs_n')",
+   "丢枚数的参数个数=六枚参数全都在目录属性里多印一遍"
+  ],
+  [
+   "sum(B74V('pf_attr_only')) - B74V('pf_default_in_tag')",
+   "“折平−剥后”每参数丢的一枚, 逐枚都能在 <…> 标签区间里找到出处"
+  ],
+  [
+   "B74V('pf_nd_default_all') - B74V('pf_nd_default_tag') - B74V('pf_nd_default_dj')",
+   "整页加法: 折平面上的 “ (default: ” 全枚数 = 标签区间内枚数 + 剥标签后剩余枚数"
+  ],
+  [
+   "sum(B74V('pf_body_hit')) - len(B74V('pf_body_hit')) * B74V('pf_body_hit', 0)",
+   "六参数在剥后面上各读到同样的枚数(两枚默认值: 目录条目 ⇎ 正文条目)"
+  ],
+  [
+   "B74V('pf_value_in_fold') - sum(B74V('pf_body_hit'))",
+   "剥后面上读出的每一枚默认值, 在折平面上同名参数里都读得到(少的只是条目数, 不是值)"
+  ],
+  [
+   "B74V('pf_zero_once') - 2",
+   "Postfix 面上“0=只试一次”这句话印了两遍(mql ⇎ bql 各一)"
+  ],
+  [
+   "B74V('cv_close')",
+   "低于/不低于 30 分钟下限的档位相加=换算表条目数"
+  ],
+  [
+   "B74V('cv_below_n') - 4",
+   "低于下限的四档: Exim 首档 15m ⇎ Postfix 的 300s 两枚与 60s 一枚"
+  ],
+  [
+   "B74V('cv_floor') - 1800",
+   "下限 30 分钟=1800 秒由 60 现乘"
+  ],
+  [
+   "B74V('cv_floor_minus_exim') - 900",
+   "下限减 Exim 首档间隔=900 秒"
+  ],
+  [
+   "B74V('cv_floor_minus_pf') - 1500",
+   "下限减 Postfix 300s=1500 秒"
+  ],
+  [
+   "B74V('cv_pf_x_by_floor') * B74V('pf_def_sec', 2) - B74V('cv_floor')",
+   "300s×6=1800s: Postfix 默认恰好是下限的六分之一"
+  ],
+  [
+   "B74V('band_edge_hits') - 2",
+   "四天的下沿 ⇎ 五天的上沿: 两份 MTA 的默认各踩住 4-5 天区间一端"
+  ],
+  [
+   "B74V('year_close')",
+   "相邻年距相加=首末跨度"
+  ],
+  [
+   "B74V('year_span') - 43",
+   "1982→2025 跨 43 年"
+  ],
+  [
+   "B74V('obs_n', 0) + B74V('repl_n', 0) - 3",
+   "821 没有 Obsoletes, 只有 Replaces 三行号"
+  ],
+  [
+   "B74V('target_n') - (B74V('obs_n', 2) + B74V('upd_n', 2) + B74V('repl_n', 0))",
+   "动作头对象并集=各份对象数相加(无重叠)"
+  ],
+  [
+   "sum(B74V('cite_forms_close'))",
+   "引用三式(空格式⇎连写式⇎短横式)相加=弹性正则在同一名号上读出的枚数, 三份 RFC 各自归零"
+  ],
+  [
+   "B74V('cite_821_3f_in_1123') - B74V('cite_821_hy_in_1123') - B74V('cite_821_in_1123')",
+   "1123 面上 RFC 821 的三个写法相加=它的总引用数"
+  ],
+  [
+   "B74V('pool_tier_close')",
+   "共用长行按份数分档之和=池条数"
+  ],
+  [
+   "B74V('union_close')",
+   "行尺容斥: Σ单份−Σ两两+Σ三三−Σ四四+Σ五五=并集"
+  ],
+  [
+   "B74V('pair_close')",
+   "两两“归一同形”=“逐字节同形”+“只归一同形”"
+  ],
+  [
+   "B74V('axis_close')",
+   "写法分家四桶之和=归一同形而逐字节不同的去重串数"
+  ],
+  [
+   "B74V('s_pool_tier_close')",
+   "句尺分档之和=句池条数"
+  ],
+  [
+   "B74V('s_union_close')",
+   "句尺容斥闭合=零"
+  ],
+  [
+   "B74V('s_ruler_gain_1123_5321') - (B74V('s_pair_1123_5321') - B74V('pair_1123_5321'))",
+   "句尺对 1123·5321 的增益=两尺之差"
+  ],
+  [
+   "B74V('s_pair_html')",
+   "句尺上两份 MTA 与三份 RFC 之间零共用句"
+  ],
+  [
+   "B74V('apool_tag_close')",
+   "锚候选池按标签分布之和=池条目数"
+  ],
+  [
+   "B74V('apool_tier_close')",
+   "锚候选池按份数加权=按标签相加"
+  ],
+  [
+   "B74V('lines_split_close')",
+   "splitlines 行数=换行计数+1−末行换行+换页符"
+  ],
+  [
+   "sum(B74V('ent_lt_left'))",
+   "断面面上零枚 &lt; 残留(Exim/Postfix 的尖括号都被实体表还原)"
+  ],
+  [
+   "B74V('ent_double_left', 3)",
+   "Exim 单趟实体表吃得干净: 零枚 &amp; 残留"
+  ],
+  [
+   "sum(B74V('ent_numeric_left')[:4])",
+   "数字实体只出现在 Postfix 一侧"
+  ],
+  [
+   "sum(B74V('nul')) + sum(B74V('cr'))",
+   "五份面全无 CR 与 NUL"
+  ],
+  [
+   "B74V('shell_ledger_close')",
+   "两遍壳谓词逐行分账后账平: 采集数+本遍多判−采集多判=本遍数(五份相加)"
+  ],
+  [
+   "B74V('txt_n') + B74V('html_n') - 5",
+   "三份 txt ⇎ 两份 html 相加=五份"
+  ],
+  [
+   "B74V('w_close_5321') + B74V('w_close_1123')",
+   "两份答段的词集容斥各自归零: 相对另一份独有 + 交集 = 本段词表"
+  ],
+  [
+   "B74V('w_sym_diff') - B74V('w_only_1123') - B74V('w_only_5321')",
+   "对称差的第二种走法: 两侧独有相加"
+  ],
+  [
+   "B74V('pin_rt_ok') - B74V('pin_rt_n')",
+   "行号尺复核: 段窗首末行⇎独立行针报出的行号, 逐枚回原文件那一行自验"
+  ],
+  [
+   "B74V('pin_wrongline')",
+   "反向对照: 跨行短语的末字拿到它的首字行去验, 两份都该落空"
+  ],
+  [
+   "B74V('conf_straddle_1123') + B74V('conf_straddle_5321') - 2",
+   "两份 RFC 都把答案的收束短语切成两行: 首字行⇎末字行各差一行"
+  ],
+  [
+   "B74V('shift_delta') - 1",
+   "“下限段”比“给弃段”多后移一行: 5321 不是整段平移, 段幅本身也长了一行"
+  ],
+  [
+   "B74V('blk_tone_ruler_close')",
+   "段语气三把尺同值: 手扫邻居字符 ⇎ 非重叠游标 ⇎ 正则"
+  ],
+  [
+   "sum([B74V('grp_close', i) for i in range(5)])",
+   "组面⇎非空行⇎(跨行组|壳行) 三本账五份相加归零"
+  ],
+  [
+   "B74V('cut_30min_gap') + B74V('cut_30min_abs')",
+   "Exim “四日段→30 分钟段”是负距离(30 分钟那条印在四日段之前), 带签名⇎绝对值"
+  ],
+  [
+   "B74V('zero_mql_gap') - B74V('zero_mql_abs')",
+   "Postfix “0=只试一次”排在 undeliverable 段之后, 带签名⇎绝对值"
+  ],
+  [
+   "B74V('queu_before_delay') + B74V('giveup_inside_delay') - 2",
+   "两份 RFC 里队列超时清单都排在重试下限之前, 给弃句都落在下限段之内"
+  ],
+  [
+   "B74V('exim_rim_before_four') + B74V('pf_mql_before_minbo') - 2",
+   "Exim 封顶段在四日段之前 ⇎ Postfix undeliverable 段在 minimal_backoff 段之前"
+  ],
+  [
+   "B74V('blk_tone_none_exim_pf') - 1",
+   "两份 MTA 的答段一枚义务词也没有"
+  ],
+  [
+   "B74V('tone_in_blk', 0) + B74V('tone_in_blk', 7)",
+   "821 的两段答句同样零义务词(它全份大写 MUST 亦为零)"
+  ],
+  [
+   "B74V('blk_may_only_5321') - 1",
+   "MAY 只在 5321 的答段里出现(“MAY be appropriate to make fewer”), 1123 同段零枚"
+  ],
+  [
+   "B74V('exim_rule_after_prompt') - 1",
+   "默认规则串印在 “default retry rule:” 提示之后, 行距为正"
+  ],
+  [
+   "B74V('grp_glued', 3)",
+   "Exim 一枚跨行组也没有: 它的换行全在标签之外, 组面恒等于非空行数"
+  ],
+  [
+   "B74V('hi_shift_delay') - B74V('hi_shift_giveup')",
+   "两份答段的“止行距”相等(5321 的两段都比 1123 同段晚这么多行)"
+  ],
+  [
+   "B74V('hi_shift_delay') - B74V('delay_shift_5321') - 1",
+   "止行距−起行距=1 行: 差的正是 5321 下限段长出的那一行"
+  ]
+ ],
+ "litk": {
+  "a821_4yz": "4yz Transient Negative Completion reply The command was not accepted and the requested action did not occur. However, the error condition is temporary and the action may be requested again.",
+  "a821_hard": "It is difficult to assign a meaning to \"transient\" when two different sites (receiver- and sender- SMTPs) must agree on the interpretation.",
+  "a821_enc": "Each reply in this category might have a different time value, but the sender-SMTP is encouraged to try again.",
+  "a821_thumb": "A rule of thumb to determine if a reply fits into the 4yz or the 5yz category (see below) is that replies are 4yz if they can be repeated without any change in command form or in properties of the sender or receiver.",
+  "a821_5yz": "5yz Permanent Negative Completion reply The command was not accepted and the requested action did not occur. The sender-SMTP is discouraged from repeating the exact request (in the same sequence).",
+  "a821_human": "Even some \"permanent\" error conditions can be corrected, so the human user may want to direct the sender-SMTP to reinitiate",
+  "n821_retry": "retry",
+  "n821_queue": "queue",
+  "n821_must": "MUST",
+  "n821_cutoff": "cutoff",
+  "n821_giveup": "4-5 days",
+  "a1123_delay": "The sender MUST delay retrying a particular destination after one attempt has failed. In general, the retry interval SHOULD be at least 30 minutes",
+  "a1123_giveup": "Retries continue until the message is transmitted or the sender gives up; the give-up time generally needs to be at least 4-5 days. The parameters to the retry algorithm MUST be configurable.",
+  "a1123_two": "policy of two connection attempts in the first hour the message is in the queue, and then backing off to once every two or three hours.",
+  "a1123_queuing": "Any queueing strategy MUST include: o Timeouts on all activities. See Section 5.3.2. o Never sending error messages in response to error messages.",
+  "a1123_dns": "retry interval SHOULD be constrained by an exponential backoff algorithm, and SHOULD also have upper and lower bounds. IMPLEMENTATION: A measured RTT and variance (if available) should be used to calculate an initial retransmission interval. If this information is not available, a default of no less than 5 seconds should be used.",
+  "a1123_model": "The general model of a sender-SMTP is one or more processes that periodically attempt to transmit outgoing mail.",
+  "n1123_client": "SMTP client",
+  "n1123_cutoff": "cutoff",
+  "a5321_delay": "The sender MUST delay retrying a particular destination after one attempt has failed. In general, the retry interval SHOULD be at least 30 minutes; however, more sophisticated and variable strategies will be beneficial when the SMTP client can determine the reason for non-delivery.",
+  "a5321_giveup": "Retries continue until the message is transmitted or the sender gives up; the give-up time generally needs to be at least 4-5 days. It MAY be appropriate to set a shorter maximum number of retries for non- delivery notifications and equivalent error messages than for standard messages. The parameters to the retry algorithm MUST be configurable.",
+  "a5321_queuing": "Any queuing strategy MUST include timeouts on all activities on a per-command basis. A queuing strategy MUST NOT send error messages in response to error messages under any circumstances.",
+  "a5321_cache": "5yz responses to the MAIL command MUST NOT be cached.",
+  "a5321_thumb": "A rule of thumb to determine whether a reply fits into the 4yz or the 5yz category (see below) is that replies are 4yz if they can be successful if repeated without any change in command form or in properties",
+  "a5321_model": "The general model for an SMTP client is one or more processes that periodically attempt to transmit outgoing mail.",
+  "a5321_head": "4.5.4.1. Sending Strategy",
+  "n5321_cutoff": "cutoff",
+  "n5321_expo": "constrained by an exponential",
+  "aexim_letter": "The letter identifies the algorithm for computing a new retry time; the cutoff time is the time beyond which this algorithm no longer applies",
+  "aexim_meas": "The cutoff time is measured from the time that the first failure for the domain (combined with the local part if relevant) was detected, not from the time the message was received.",
+  "aexim_rim": "retry_interval_max limits the maximum interval between retries. It cannot be set greater than 24h , which is its default value.",
+  "aexim_rule": "* * F,2h,15m; G,16h,1h,1.5; F,4d,6h",
+  "aexim_four": "the cutoff time is four days. Reaching the retry cutoff is independent of how long any specific message has been failing; it is the length of continuous failure for the recipient address that counts.",
+  "aexim_30min": "They happen every 30 minutes for 24 hours only.",
+  "aexim_bond_ds": "< letter >,< cutoff time >,< arguments >",
+  "aexim_bond_dj": "<letter>,<cutoff time>,<arguments>",
+  "aexim_F_ds": "F : retry at fixed intervals. There is a single time parameter specifying the interval.",
+  "aexim_F_dj": "F: retry at fixed intervals. There is a single time parameter specifying the interval.",
+  "aexim_G_dj": "G: retry at geometrically increasing intervals. The first argument specifies a starting value for the interval, and the second a multiplier, which is used to increase the size of the interval at each retry.",
+  "aexim_H_dj": "H: retry at randomized intervals. The arguments are as for G. For each retry, the previous interval is multiplied by the factor in order to get a maximum for the next interval. The minimum interval is the first argument of the parameter, and an actual interval is chosen randomly between them.",
+  "aexim_exp": "retry_data_expire (default 7 days). If, for example, a host hasn't been tried for 7 days, Exim will try to deliver to it immediately a message arrives, and if that fails, it will calculate a retry time as if it were failing",
+  "aexim_beyond": "If a message has been on the queue for longer than the cutoff time of any applicable retry rule for a given address, a delivery is attempted for that address, even if it is not yet time, and if this delivery fails, the address is",
+  "nexim_must": "MUST",
+  "nexim_expo": "constrained by an exponential",
+  "nexim_sender": "sender-SMTP",
+  "apf_zero": "Specify 0 when mail delivery should be tried only once.",
+  "apf_minbo": "The minimal time between attempts to deliver a deferred message; prior to Postfix 2.4 the default value was 1000s. This parameter also limits the time an unreachable destination is kept in the short-term, in-memory, destination status cache.",
+  "apf_maxbo": "The maximal time between attempts to deliver a deferred message. This parameter should be set to a value greater than or equal to $minimal_backoff_time. See also $queue_run_delay.",
+  "apf_mqlb": "Consider a message as undeliverable, when delivery fails with a temporary error, and the time in the queue has reached the maximal_queue_lifetime limit.",
+  "apf_bqlb": "Consider a bounce message as undeliverable, when delivery fails with a temporary error, and the time in the queue has reached the bounce_queue_lifetime limit. By default, this limit is the same as for regular mail.",
+  "apf_qrdb": "The time between deferred queue scans by the queue manager; prior to Postfix 2.4 the default value was 1000s.",
+  "apf_le": "set less than or equal to $minimal_backoff_time. See also $maximal_backoff_time.",
+  "apf_unit": "Time units: s (seconds), m (minutes), h (hours), d (days), w (weeks).",
+  "apf_units": "The default time unit is s (seconds).",
+  "apf_mal": "contact a malfunctioning message delivery transport.",
+  "npf_giveup": "4-5 days",
+  "npf_expo": "constrained by an exponential",
+  "npf_sender": "sender-SMTP"
+ },
+ "sn": {
+  "a821_4yz": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "a821_hard": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "a821_enc": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "a821_thumb": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "a821_5yz": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "a821_human": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n821_retry": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "n821_queue": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "n821_must": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "n821_cutoff": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "n821_giveup": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "a1123_delay": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "a1123_giveup": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "a1123_two": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "a1123_queuing": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "a1123_dns": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "a1123_model": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n1123_client": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "n1123_cutoff": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "a5321_delay": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "a5321_giveup": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "a5321_queuing": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "a5321_cache": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "a5321_thumb": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "a5321_model": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "a5321_head": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n5321_cutoff": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "n5321_expo": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "aexim_letter": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "aexim_meas": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "aexim_rim": [
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  "aexim_rule": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "aexim_four": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "aexim_30min": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "aexim_bond_ds": [
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  "aexim_bond_dj": [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  "aexim_F_ds": [
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  "aexim_F_dj": [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  "aexim_G_dj": [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  "aexim_H_dj": [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  "aexim_exp": [
+   0,
+   0,
+   0,
+   1,
+   1
+  ],
+  "aexim_beyond": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "nexim_must": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "nexim_expo": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "nexim_sender": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "apf_zero": [
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "apf_minbo": [
+   0,
+   0,
+   0,
+   1,
+   1
+  ],
+  "apf_maxbo": [
+   0,
+   0,
+   0,
+   1,
+   1
+  ],
+  "apf_mqlb": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "apf_bqlb": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "apf_qrdb": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "apf_le": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "apf_unit": [
+   0,
+   90,
+   90,
+   90,
+   90
+  ],
+  "apf_units": [
+   5,
+   73,
+   73,
+   73,
+   73
+  ],
+  "apf_mal": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "npf_giveup": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "npf_expo": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "npf_sender": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "blk": [
+  "4yz Transient Negative Completion reply The command was not accepted and the requested action did not occur. However, the error condition is temporary and the action may be requested again. The sender should Simple Mail Transfer Protocol return to the beginning of the command sequence (if any). It is difficult to assign a meaning to \"transient\" when two different sites (receiver- and sender- SMTPs) must agree on the interpretation. Each reply in this category might have a different time value, but the sender-SMTP is encouraged to try again.",
+  "The sender MUST delay retrying a particular destination after one attempt has failed. In general, the retry interval SHOULD be at least 30 minutes; however, more sophisticated and variable strategies will be beneficial when the sender-SMTP can determine the reason for non- delivery. Retries continue until the message is transmitted or the sender gives up; the give-up time generally needs to be at least 4-5 days. The parameters to the retry algorithm MUST be configurable.",
+  "The sender MUST delay retrying a particular destination after one attempt has failed. In general, the retry interval SHOULD be at least 30 minutes; however, more sophisticated and variable strategies will be beneficial when the SMTP client can determine the reason for non-delivery. Retries continue until the message is transmitted or the sender gives up; the give-up time generally needs to be at least 4-5 days. It MAY be appropriate to set a shorter maximum number of retries for non- delivery notifications and equivalent error messages than for standard messages. The parameters to the retry algorithm MUST be configurable.",
+  "retry_interval_max limits the maximum interval between retries. It cannot be set greater than 24h , which is its default value.",
+  "Consider a message as undeliverable, when delivery fails with a temporary error, and the time in the queue has reached the maximal_queue_lifetime limit.",
+  "Any queueing strategy MUST include: o Timeouts on all activities. See Section 5.3.2. o Never sending error messages in response to error messages.",
+  "Any queuing strategy MUST include timeouts on all activities on a per-command basis. A queuing strategy MUST NOT send error messages in response to error messages under any circumstances.",
+  "It is difficult to assign a meaning to \"transient\" when two different sites (receiver- and sender- SMTPs) must agree on the interpretation.",
+  "the cutoff time is four days. Reaching the retry cutoff is independent of how long any specific message has been failing; it is the length of continuous failure for the recipient address that counts.",
+  "The minimal time between attempts to deliver a deferred message; prior to Postfix 2.4 the default value was 1000s. This parameter also limits the time an unreachable destination is kept in the short-term, in-memory, destination status cache.",
+  "Retries continue until the message is transmitted or the sender gives up; the give-up time generally needs to be at least 4-5 days. The parameters to the retry algorithm MUST be configurable.",
+  "Retries continue until the message is transmitted or the sender gives up; the give-up time generally needs to be at least 4-5 days. It MAY be appropriate to set a shorter maximum number of retries for non- delivery notifications and equivalent error messages than for standard messages. The parameters to the retry algorithm MUST be configurable."
+ ],
+ "pins": [
+  [
+   "821",
+   "4yz Transient Negative Completion reply",
+   "encouraged to try again."
+  ],
+  [
+   "1123",
+   "The sender MUST delay retrying a particular destination",
+   "MUST be configurable."
+  ],
+  [
+   "5321",
+   "The sender MUST delay retrying",
+   "MUST be configurable."
+  ],
+  [
+   "exim",
+   "retry_interval_max limits the maximum interval",
+   "which is its default value."
+  ],
+  [
+   "postfix",
+   "Consider a message as undeliverable",
+   "the maximal_queue_lifetime limit."
+  ],
+  [
+   "1123",
+   "Any queueing strategy MUST include",
+   "in response to error messages."
+  ],
+  [
+   "5321",
+   "Any queuing strategy MUST include timeouts",
+   "under any circumstances."
+  ],
+  [
+   "821",
+   "It is difficult to assign a meaning",
+   "must agree on the interpretation."
+  ],
+  [
+   "exim",
+   "the cutoff time is four days.",
+   "recipient address that counts."
+  ],
+  [
+   "postfix",
+   "The minimal time between attempts to deliver a deferred message",
+   "destination status cache."
+  ],
+  [
+   "1123",
+   "Retries continue until the message is transmitted",
+   "MUST be configurable."
+  ],
+  [
+   "5321",
+   "Retries continue until the message is transmitted",
+   "MUST be configurable."
+  ]
+ ],
+ "closure_keys": [
+  "apool_tag_close",
+  "apool_tier_close",
+  "axis_close",
+  "blk_tone_ruler_close",
+  "cite_forms_close",
+  "cv_close",
+  "grp_close",
+  "grp_ledger_close",
+  "lines_split_close",
+  "pair_close",
+  "pool_tier_close",
+  "s_pool_tier_close",
+  "s_union_close",
+  "shell_ledger_close",
+  "split_tail_close",
+  "tag_close",
+  "tone_ledger",
+  "tone_ruler_close",
+  "union_close",
+  "w_close_1123",
+  "w_close_5321",
+  "w_ledger_close",
+  "year_close"
+ ],
+ "flat": {
+  "needle_n": 58,
+  "neg_n": 15,
+  "sn_strict_docs": [
+   0,
+   0,
+   0,
+   2,
+   2
+  ],
+  "sn_fold_docs": [
+   6,
+   6,
+   7,
+   6,
+   8
+  ],
+  "sn_sh_docs": [
+   6,
+   6,
+   7,
+   6,
+   8
+  ],
+  "sn_ds_docs": [
+   6,
+   6,
+   7,
+   10,
+   10
+  ],
+  "sn_dj_docs": [
+   6,
+   6,
+   7,
+   11,
+   10
+  ],
+  "n_a821_4yz": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_a821_hard": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_a821_enc": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_a821_thumb": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_a821_5yz": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_a821_human": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_n821_retry": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_n821_queue": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_n821_must": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_n821_cutoff": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_n821_giveup": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_a1123_delay": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_a1123_giveup": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_a1123_two": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_a1123_queuing": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_a1123_dns": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_a1123_model": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_n1123_client": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_n1123_cutoff": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_a5321_delay": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_a5321_giveup": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_a5321_queuing": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_a5321_cache": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_a5321_thumb": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_a5321_model": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_a5321_head": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_n5321_cutoff": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_n5321_expo": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_aexim_letter": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_aexim_meas": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_aexim_rim": [
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  "n_aexim_rule": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_aexim_four": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_aexim_30min": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_aexim_bond_ds": [
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  "n_aexim_bond_dj": [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  "n_aexim_F_ds": [
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  "n_aexim_F_dj": [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  "n_aexim_G_dj": [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  "n_aexim_H_dj": [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  "n_aexim_exp": [
+   0,
+   0,
+   0,
+   1,
+   1
+  ],
+  "n_aexim_beyond": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_nexim_must": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_nexim_expo": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_nexim_sender": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_apf_zero": [
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "n_apf_minbo": [
+   0,
+   0,
+   0,
+   1,
+   1
+  ],
+  "n_apf_maxbo": [
+   0,
+   0,
+   0,
+   1,
+   1
+  ],
+  "n_apf_mqlb": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_apf_bqlb": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_apf_qrdb": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_apf_le": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_apf_unit": [
+   0,
+   90,
+   90,
+   90,
+   90
+  ],
+  "n_apf_units": [
+   5,
+   73,
+   73,
+   73,
+   73
+  ],
+  "n_apf_mal": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_npf_giveup": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_npf_expo": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_npf_sender": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "needles_owned": [
+   11,
+   8,
+   9,
+   17,
+   13
+  ],
+  "fold_minus_strict_keys": [
+   "a821_4yz",
+   "a821_hard",
+   "a821_enc",
+   "a821_thumb",
+   "a821_5yz",
+   "a821_human",
+   "a1123_delay",
+   "a1123_giveup",
+   "a1123_two",
+   "a1123_queuing",
+   "a1123_dns",
+   "a1123_model",
+   "a5321_delay",
+   "a5321_giveup",
+   "a5321_queuing",
+   "a5321_cache",
+   "a5321_thumb",
+   "a5321_model",
+   "a5321_head",
+   "aexim_letter",
+   "aexim_meas",
+   "aexim_four",
+   "aexim_beyond",
+   "apf_mqlb",
+   "apf_bqlb",
+   "apf_qrdb",
+   "apf_le",
+   "apf_unit",
+   "apf_mal"
+  ],
+  "fold_minus_strict_own": [
+   6,
+   6,
+   7,
+   4,
+   6
+  ],
+  "fold_minus_strict_n": 29,
+  "sh_minus_fold": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "ds_only_keys": [
+   "aexim_rim",
+   "aexim_bond_ds",
+   "aexim_F_ds",
+   "aexim_exp",
+   "apf_minbo",
+   "apf_maxbo"
+  ],
+  "ds_only_own": [
+   0,
+   0,
+   0,
+   4,
+   2
+  ],
+  "ds_only_n": 6,
+  "dj_only_keys": [
+   "aexim_bond_dj",
+   "aexim_F_dj",
+   "aexim_G_dj",
+   "aexim_H_dj"
+  ],
+  "dj_only_n": 4,
+  "dj_only_own": [
+   0,
+   0,
+   0,
+   4,
+   0
+  ],
+  "ds_no_dj_keys": [
+   "aexim_rim",
+   "aexim_bond_ds",
+   "aexim_F_ds"
+  ],
+  "ds_no_dj_own": [
+   0,
+   0,
+   0,
+   3,
+   0
+  ],
+  "ds_no_dj_n": 3,
+  "sn_dj_minus_ds": [
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  "dead_needles": [],
+  "neg_controls": [
+   "n1123_client",
+   "n1123_cutoff",
+   "n5321_cutoff",
+   "n5321_expo",
+   "n821_cutoff",
+   "n821_giveup",
+   "n821_must",
+   "n821_queue",
+   "n821_retry",
+   "nexim_expo",
+   "nexim_must",
+   "nexim_sender",
+   "npf_expo",
+   "npf_giveup",
+   "npf_sender"
+  ],
+  "neg_own": [
+   5,
+   2,
+   2,
+   3,
+   3
+  ],
+  "neg_hit_widest": 0,
+  "neg_hit_strict": 0,
+  "fold_gt_ds_keys": [],
+  "attr_loss": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "attr_loss_n": 0,
+  "attr_loss_docs": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "bond_pair": 1,
+  "letter_pair": 1,
+  "head_pair": 0,
+  "ladder_monotone": 1,
+  "re_eq_cur": 1,
+  "overlap_extra": 0,
+  "nd_len": [
+   189,
+   139,
+   110,
+   216,
+   196,
+   123,
+   5,
+   5,
+   4,
+   6,
+   8,
+   146,
+   191,
+   135,
+   146,
+   331,
+   112,
+   11,
+   6,
+   282,
+   346,
+   187,
+   53,
+   208,
+   114,
+   25,
+   6,
+   29,
+   141,
+   180,
+   127,
+   35,
+   199,
+   47,
+   40,
+   34,
+   87,
+   86,
+   206,
+   293,
+   223,
+   229,
+   4,
+   29,
+   11,
+   55,
+   241,
+   179,
+   152,
+   214,
+   109,
+   80,
+   69,
+   37,
+   52,
+   8,
+   29,
+   11
+  ],
+  "nd_len_tot": 6536,
+  "nd_len_max": 346,
+  "bytes": [
+   120432,
+   239721,
+   225929,
+   35127,
+   1091230
+  ],
+  "chars": [
+   120432,
+   239721,
+   225929,
+   35048,
+   1090337
+  ],
+  "lines": [
+   4051,
+   5783,
+   5324,
+   723,
+   19262
+  ],
+  "lines_nl": [
+   4051,
+   5783,
+   5324,
+   723,
+   19262
+  ],
+  "nonblank": [
+   2023,
+   3777,
+   3680,
+   671,
+   18230
+  ],
+  "blank": [
+   2028,
+   2006,
+   1644,
+   52,
+   1032
+  ],
+  "maxlen": [
+   72,
+   72,
+   72,
+   373,
+   460
+  ],
+  "cr": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "ff": [
+   72,
+   98,
+   95,
+   0,
+   0
+  ],
+  "ff_exact": [
+   72,
+   98,
+   95,
+   0,
+   0
+  ],
+  "ff_only": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "nonascii": [
+   0,
+   0,
+   0,
+   40,
+   889
+  ],
+  "bom": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "txt_n": 3,
+  "html_n": 2,
+  "nul": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "digit_chars": [
+   2217,
+   5191,
+   4728,
+   309,
+   17823
+  ],
+  "nonascii_extra": [
+   0,
+   0,
+   0,
+   79,
+   893
+  ],
+  "byte_cp_delta": [
+   0,
+   0,
+   0,
+   79,
+   893
+  ],
+  "tail_nl": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "lines_split": [
+   4122,
+   5880,
+   5418,
+   722,
+   19261
+  ],
+  "lines_split_close": 0,
+  "tag_open": [
+   0,
+   0,
+   0,
+   377,
+   11095
+  ],
+  "tag_close": [
+   0,
+   0,
+   0,
+   360,
+   10173
+  ],
+  "tag_tot": [
+   0,
+   0,
+   0,
+   737,
+   21268
+  ],
+  "comment": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "br_tag": [
+   0,
+   0,
+   0,
+   0,
+   909
+  ],
+  "ent_fam": [
+   "&lt;",
+   "&gt;",
+   "&amp;",
+   "&amp;amp;",
+   "&#34;",
+   "&#39;",
+   "&#43;",
+   "&#x2F;",
+   "&nbsp;",
+   "&mdash;",
+   "&rsquo;",
+   "&quot;"
+  ],
+  "ent_raw": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    10,
+    10,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    195,
+    284,
+    58,
+    56,
+    2487,
+    191,
+    6,
+    3,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "ent_total": [
+   0,
+   0,
+   0,
+   20,
+   3281
+  ],
+  "ent_distinct": [
+   0,
+   0,
+   0,
+   2,
+   8
+  ],
+  "ent_all": [
+   0,
+   0,
+   0,
+   20,
+   3225
+  ],
+  "ent_top": [
+   [],
+   [],
+   [],
+   [
+    "&lt;",
+    "&gt;"
+   ],
+   [
+    "&#34;",
+    "&gt;",
+    "&lt;"
+   ]
+  ],
+  "ent_double_left": [
+   0,
+   0,
+   0,
+   0,
+   28
+  ],
+  "ent_numeric_left": [
+   0,
+   0,
+   0,
+   0,
+   2676
+  ],
+  "ent_lt_left": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "ent_amp_raw": [
+   0,
+   0,
+   0,
+   0,
+   58
+  ],
+  "ent_amp_eaten": [
+   0,
+   0,
+   0,
+   0,
+   30
+  ],
+  "shell_pick": [
+   2130,
+   2201,
+   1833,
+   52,
+   1032
+  ],
+  "shell_n": [
+   2097,
+   2202,
+   1840,
+   52,
+   1033
+  ],
+  "shell_both": [
+   2096,
+   2201,
+   1833,
+   52,
+   1032
+  ],
+  "shell_mk_only": [
+   1,
+   1,
+   7,
+   0,
+   1
+  ],
+  "shell_pick_only": [
+   34,
+   0,
+   0,
+   0,
+   0
+  ],
+  "shell_diff": [
+   -33,
+   1,
+   7,
+   0,
+   1
+  ],
+  "shell_page": [
+   68,
+   98,
+   95,
+   0,
+   0
+  ],
+  "shell_hdr": [
+   34,
+   97,
+   94,
+   0,
+   0
+  ],
+  "shell_blank": [
+   2028,
+   2006,
+   1644,
+   52,
+   1032
+  ],
+  "shell_mk_only_hdr": [
+   1,
+   0,
+   1,
+   0,
+   0
+  ],
+  "shell_pick_only_body": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "shell_ledger_close": 0,
+  "hdr_dot2sp": [
+   40,
+   4,
+   212,
+   0,
+   0
+  ],
+  "hdr_dot1sp": [
+   0,
+   0,
+   5,
+   0,
+   5
+  ],
+  "hdr_nodot": [
+   0,
+   10,
+   0,
+   1,
+   19
+  ],
+  "dblspace_in_fold": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "dot_dblspace_anywhere": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "hyphen_break": [
+   0,
+   24,
+   30,
+   0,
+   0
+  ],
+  "ndn_hyphen_break": [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  "ndn_unbroken": [
+   4,
+   0,
+   10,
+   0,
+   8
+  ],
+  "ndn_broken": [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  "ndn_other": [
+   3,
+   21,
+   19,
+   0,
+   218
+  ],
+  "tone_pats": [
+   "MUST NOT",
+   "MUST",
+   "SHOULD NOT",
+   "SHOULD",
+   "MAY"
+  ],
+  "tone_MUST_NOT": [
+   0,
+   19,
+   63,
+   0,
+   2
+  ],
+  "tone_MUST": [
+   0,
+   139,
+   201,
+   0,
+   11
+  ],
+  "tone_SHOULD_NOT": [
+   0,
+   11,
+   32,
+   0,
+   4
+  ],
+  "tone_SHOULD": [
+   2,
+   103,
+   154,
+   0,
+   4
+  ],
+  "tone_MAY": [
+   1,
+   31,
+   62,
+   0,
+   5
+  ],
+  "tone": [
+   [
+    0,
+    0,
+    0,
+    2,
+    1
+   ],
+   [
+    19,
+    139,
+    11,
+    103,
+    31
+   ],
+   [
+    63,
+    201,
+    32,
+    154,
+    62
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    2,
+    11,
+    4,
+    4,
+    5
+   ]
+  ],
+  "tone_tot": [
+   3,
+   303,
+   512,
+   0,
+   26
+  ],
+  "tone_must_lc": [
+   52,
+   60,
+   25,
+   3,
+   130
+  ],
+  "tone_zero_must": [
+   1,
+   0,
+   0,
+   1,
+   0
+  ],
+  "tone_zero_all": [
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  "kw_clause": [
+   0,
+   0,
+   2,
+   0,
+   0
+  ],
+  "c821_may_month": [
+   1,
+   1,
+   1,
+   0,
+   0
+  ],
+  "must_bare": [
+   0,
+   120,
+   138,
+   0,
+   9
+  ],
+  "tone_ledger": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "tone_re_ledger": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tone_ruler_close": 0,
+  "tone_per_attempt": [
+   0,
+   139,
+   201,
+   0,
+   11
+  ],
+  "term_pats": [
+   "sender-SMTP",
+   "SMTP client",
+   "SMTP-receiver",
+   "receiver-SMTP",
+   "queueing",
+   "queuing",
+   "queue",
+   "retry",
+   "retries",
+   "retrying"
+  ],
+  "terms": [
+   [
+    32,
+    0,
+    7,
+    41,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    17,
+    0,
+    0,
+    21,
+    3,
+    0,
+    14,
+    14,
+    5,
+    2
+   ],
+   [
+    3,
+    76,
+    3,
+    5,
+    0,
+    7,
+    15,
+    10,
+    3,
+    5
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    9,
+    100,
+    9,
+    0
+   ],
+   [
+    0,
+    247,
+    0,
+    0,
+    0,
+    1,
+    152,
+    4,
+    2,
+    0
+   ]
+  ],
+  "sender_smtp": [
+   32,
+   17,
+   3,
+   0,
+   0
+  ],
+  "smtp_client": [
+   0,
+   0,
+   76,
+   0,
+   247
+  ],
+  "receiver_smtp": [
+   41,
+   21,
+   5,
+   0,
+   0
+  ],
+  "spelling_queueing": [
+   0,
+   3,
+   0,
+   0,
+   0
+  ],
+  "spelling_queuing": [
+   0,
+   0,
+   7,
+   0,
+   1
+  ],
+  "queue_word": [
+   0,
+   14,
+   15,
+   9,
+   152
+  ],
+  "retry_word": [
+   0,
+   21,
+   18,
+   109,
+   6
+  ],
+  "term_new_per_mille": [
+   0,
+   0,
+   962,
+   -1,
+   1000
+  ],
+  "c821_no_retry_vocabulary": 1,
+  "word_expo": [
+   0,
+   3,
+   0,
+   0,
+   1
+  ],
+  "word_geo": [
+   0,
+   0,
+   0,
+   3,
+   0
+  ],
+  "word_cutoff": [
+   0,
+   0,
+   0,
+   17,
+   0
+  ],
+  "word_giveup": [
+   0,
+   2,
+   0,
+   1,
+   0
+  ],
+  "word_transient": [
+   1,
+   1,
+   5,
+   0,
+   0
+  ],
+  "word_permanent": [
+   1,
+   3,
+   9,
+   3,
+   9
+  ],
+  "word_deferred": [
+   0,
+   2,
+   2,
+   3,
+   14
+  ],
+  "word_timeout": [
+   0,
+   41,
+   24,
+   15,
+   120
+  ],
+  "tier_words": [
+   "hard_define",
+   "floor_30min",
+   "giveup_45days",
+   "configurable",
+   "cutoff",
+   "d5",
+   "300s",
+   "4000s",
+   "60s",
+   "zero_once",
+   "encourage",
+   "may_shorter"
+  ],
+  "tier_pats": [
+   "difficult to assign a meaning",
+   "SHOULD be at least 30 minutes",
+   "at least 4-5 days",
+   "MUST be configurable",
+   "cutoff time",
+   "(default: 5d)",
+   "(default: 300s)",
+   "(default: 4000s)",
+   "(default: 60s)",
+   "tried only once",
+   "encouraged to try again",
+   "MAY be appropriate"
+  ],
+  "tier_hard_define": [
+   1,
+   0,
+   1,
+   0,
+   0
+  ],
+  "tierf_hard_define": [
+   1,
+   0,
+   1,
+   0,
+   0
+  ],
+  "tier_floor_30min": [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  "tierf_floor_30min": [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  "tier_giveup_45days": [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  "tierf_giveup_45days": [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  "tier_configurable": [
+   0,
+   2,
+   1,
+   0,
+   0
+  ],
+  "tierf_configurable": [
+   0,
+   2,
+   1,
+   0,
+   0
+  ],
+  "tier_cutoff": [
+   0,
+   0,
+   0,
+   10,
+   0
+  ],
+  "tierf_cutoff": [
+   0,
+   0,
+   0,
+   10,
+   0
+  ],
+  "tier_d5": [
+   0,
+   0,
+   0,
+   0,
+   4
+  ],
+  "tierf_d5": [
+   0,
+   0,
+   0,
+   0,
+   6
+  ],
+  "tier_300s": [
+   0,
+   0,
+   0,
+   0,
+   40
+  ],
+  "tierf_300s": [
+   0,
+   0,
+   0,
+   0,
+   60
+  ],
+  "tier_4000s": [
+   0,
+   0,
+   0,
+   0,
+   2
+  ],
+  "tierf_4000s": [
+   0,
+   0,
+   0,
+   0,
+   3
+  ],
+  "tier_60s": [
+   0,
+   0,
+   0,
+   0,
+   10
+  ],
+  "tierf_60s": [
+   0,
+   0,
+   0,
+   0,
+   15
+  ],
+  "tier_zero_once": [
+   0,
+   0,
+   0,
+   0,
+   2
+  ],
+  "tierf_zero_once": [
+   0,
+   0,
+   0,
+   0,
+   2
+  ],
+  "tier_encourage": [
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  "tierf_encourage": [
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  "tier_may_shorter": [
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  "tierf_may_shorter": [
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  "tier_tot": [
+   2,
+   4,
+   5,
+   10,
+   58
+  ],
+  "tier_fold_tot": [
+   2,
+   4,
+   5,
+   10,
+   86
+  ],
+  "tier_wide_minus_fold": [
+   0,
+   0,
+   0,
+   0,
+   -28
+  ],
+  "tier_zero_fams": [
+   10,
+   9,
+   7,
+   11,
+   7
+  ],
+  "tier_hit_fams": [
+   2,
+   3,
+   5,
+   1,
+   5
+  ],
+  "time_digit_docs": [
+   0,
+   11,
+   3,
+   14,
+   10
+  ],
+  "ex_def_rule": "* * F,2h,15m; G,16h,1h,1.5; F,4d,6h",
+  "ex_star_star_rules": 2,
+  "ex_star_star_distinct": 2,
+  "ex_def_rule_prompt": 1,
+  "ex_def_sets": 3,
+  "ex_def_letters": [
+   "F",
+   "G"
+  ],
+  "ex_def_cutoffs": [
+   7200,
+   57600,
+   345600
+  ],
+  "ex_def_first": [
+   900,
+   3600,
+   21600
+  ],
+  "ex_def_mults": [
+   1.5
+  ],
+  "ex_def_args": [
+   1,
+   2,
+   1
+  ],
+  "ex_def_span": 345600,
+  "ex_rule_lines": 15,
+  "ex_sets_n": 20,
+  "ex_letters": [
+   "F",
+   "G"
+  ],
+  "ex_cutoff_sec": [
+   3600,
+   7200,
+   28800,
+   57600,
+   86400,
+   172800,
+   345600,
+   432000,
+   604800
+  ],
+  "ex_first_sec": [
+   600,
+   900,
+   1200,
+   1800,
+   2700,
+   3600,
+   10800,
+   21600,
+   28800
+  ],
+  "ex_mults": [
+   1.5,
+   2.0
+  ],
+  "ex_letters_def": [
+   "F",
+   "G",
+   "H"
+  ],
+  "ex_letters_used_only": [],
+  "ex_letters_def_only": [
+   "H"
+  ],
+  "ex_rim_cap": 86400,
+  "ex_rim_default_line": 1,
+  "ex_expire_days": 604800,
+  "ex_f1_attempts": 8,
+  "ex_f3_attempts": 16,
+  "ex_g_steps": 6,
+  "ex_g_step_sec": [
+   3600,
+   5400,
+   8100,
+   12150,
+   18225,
+   27337
+  ],
+  "ex_g_total": 74812,
+  "ex_attempts_tot": 30,
+  "ex_sched_sec": [
+   7200,
+   57600,
+   345600
+  ],
+  "pf_params": [
+   "maximal_queue_lifetime",
+   "bounce_queue_lifetime",
+   "minimal_backoff_time",
+   "maximal_backoff_time",
+   "queue_run_delay",
+   "transport_retry_time"
+  ],
+  "pf_defs_dj": [
+   [
+    "5d",
+    "5d"
+   ],
+   [
+    "5d",
+    "5d"
+   ],
+   [
+    "300s",
+    "300s"
+   ],
+   [
+    "4000s",
+    "4000s"
+   ],
+   [
+    "300s",
+    "300s"
+   ],
+   [
+    "60s",
+    "60s"
+   ]
+  ],
+  "pf_defs_fold": [
+   [
+    "5d",
+    "5d",
+    "5d"
+   ],
+   [
+    "5d",
+    "5d",
+    "5d"
+   ],
+   [
+    "300s",
+    "300s",
+    "300s"
+   ],
+   [
+    "4000s",
+    "4000s",
+    "4000s"
+   ],
+   [
+    "300s",
+    "300s",
+    "300s"
+   ],
+   [
+    "60s",
+    "60s",
+    "60s"
+   ]
+  ],
+  "pf_body_hit": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "pf_fold_hit": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "pf_attr_only": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "pf_attr_docs_n": 6,
+  "pf_default_in_tag": 6,
+  "pf_nd_default_all": 2665,
+  "pf_nd_default_tag": 876,
+  "pf_nd_default_dj": 1789,
+  "pf_value_in_fold": 12,
+  "pf_def_tok": [
+   "5d",
+   "5d",
+   "300s",
+   "4000s",
+   "300s",
+   "60s"
+  ],
+  "pf_def_sec": [
+   432000,
+   432000,
+   300,
+   4000,
+   300,
+   60
+  ],
+  "pf_zero_once": 2,
+  "pf_unit_line": 90,
+  "pf_unit_s": 73,
+  "pf_unit_d": 11,
+  "pf_unit_h": 6,
+  "pf_le_qrd": 1,
+  "pf_ge_minbo": 1,
+  "pf_ge_qrd": 1,
+  "pf_prior_1000s": 2,
+  "pf_5d": 4,
+  "cv_names": [
+   "1123/5321 下限 30 分钟",
+   "exim 首档间隔 15m",
+   "exim 次档起始 1h",
+   "postfix minimal_backoff_time",
+   "postfix queue_run_delay",
+   "postfix transport_retry_time",
+   "postfix maximal_backoff_time",
+   "exim retry_interval_max 封顶",
+   "exim 默认末档跨度",
+   "postfix 队列寿命默认"
+  ],
+  "cv_sec": [
+   1800,
+   900,
+   3600,
+   300,
+   300,
+   60,
+   4000,
+   86400,
+   345600,
+   432000
+  ],
+  "cv_floor": 1800,
+  "cv_below_n": 4,
+  "cv_above_n": 6,
+  "cv_close": 0,
+  "cv_below": [
+   60,
+   300,
+   300,
+   900
+  ],
+  "band_lo": 345600,
+  "band_hi": 432000,
+  "cv_floor_in_band": 0,
+  "ex_cutoff_in_band": 1,
+  "pf_life_in_band": 1,
+  "pf_bql_same_mql": 1,
+  "band_edge_hits": 2,
+  "pf_chain": [
+   1,
+   1
+  ],
+  "cv_ratio_exim_vs_floor": 500,
+  "cv_ratio_pf_vs_floor": 166,
+  "cv_floor_minus_exim": 900,
+  "cv_floor_minus_pf": 1500,
+  "cv_pf_x_by_floor": 6,
+  "cv_exim_x_by_floor": 2,
+  "day_sec": 86400,
+  "obs_line": [
+   "",
+   "",
+   "Obsoletes: 2821",
+   "",
+   ""
+  ],
+  "upd_line": [
+   "",
+   "",
+   "Updates: 1123",
+   "",
+   ""
+  ],
+  "repl_line": [
+   "Replaces: RFC 788, 780, 772                                  August 1982",
+   "",
+   "",
+   "",
+   ""
+  ],
+  "obs_ids": [
+   [],
+   [],
+   [
+    2821
+   ],
+   [],
+   []
+  ],
+  "upd_ids": [
+   [],
+   [],
+   [
+    1123
+   ],
+   [],
+   []
+  ],
+  "repl_ids": [
+   [
+    772,
+    780,
+    788
+   ],
+   [],
+   [],
+   [],
+   []
+  ],
+  "obs_n": [
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  "upd_n": [
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  "repl_n": [
+   3,
+   0,
+   0,
+   0,
+   0
+  ],
+  "target_ids": [
+   772,
+   780,
+   788,
+   1123,
+   2821
+  ],
+  "target_n": 5,
+  "rfc_hdr": [
+   null,
+   "1123",
+   "5321",
+   null,
+   null
+  ],
+  "years_txt": [
+   1982,
+   1989,
+   2008,
+   null,
+   null
+  ],
+  "months_txt": [
+   "August",
+   "October",
+   "October",
+   null,
+   null
+  ],
+  "year_copyright": [
+   2012
+  ],
+  "year_stamp": [
+   "2024-03-06T",
+   "2025-07-19T"
+  ],
+  "year_stamp_n": 2,
+  "year_stamp_first": "2024",
+  "year_stamp_last": "2025",
+  "years": [
+   1982,
+   1989,
+   2008,
+   2012,
+   2025
+  ],
+  "year_gaps": [
+   7,
+   19,
+   4,
+   13
+  ],
+  "year_span": 43,
+  "year_inversions": 0,
+  "year_close": 0,
+  "cite_sp_821": [
+   69,
+   0,
+   30,
+   0,
+   0
+  ],
+  "cite_tk_821": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_hy_821": [
+   0,
+   32,
+   0,
+   0,
+   0
+  ],
+  "cite_2f_821": [
+   69,
+   0,
+   30,
+   0,
+   0
+  ],
+  "cite_3f_821": [
+   69,
+   32,
+   30,
+   0,
+   0
+  ],
+  "cite_sp_1123": [
+   0,
+   0,
+   7,
+   0,
+   0
+  ],
+  "cite_tk_1123": [
+   0,
+   97,
+   0,
+   0,
+   0
+  ],
+  "cite_hy_1123": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_2f_1123": [
+   0,
+   97,
+   7,
+   0,
+   0
+  ],
+  "cite_3f_1123": [
+   0,
+   97,
+   7,
+   0,
+   0
+  ],
+  "cite_sp_2821": [
+   0,
+   0,
+   8,
+   0,
+   1
+  ],
+  "cite_tk_2821": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_hy_2821": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_2f_2821": [
+   0,
+   0,
+   8,
+   0,
+   1
+  ],
+  "cite_3f_2821": [
+   0,
+   0,
+   8,
+   0,
+   1
+  ],
+  "cite_sp_5321": [
+   0,
+   0,
+   94,
+   0,
+   2
+  ],
+  "cite_tk_5321": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_hy_5321": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_2f_5321": [
+   0,
+   0,
+   94,
+   0,
+   2
+  ],
+  "cite_3f_5321": [
+   0,
+   0,
+   94,
+   0,
+   2
+  ],
+  "cite_sp_788": [
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_788": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_hy_788": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_2f_788": [
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_3f_788": [
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_sp_780": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_780": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_hy_780": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_2f_780": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_3f_780": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_sp_772": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_772": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_hy_772": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_2f_772": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_3f_772": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_sp_1982": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_1982": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_hy_1982": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_2f_1982": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_3f_1982": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_sp_2008": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_2008": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_hy_2008": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_2f_2008": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_3f_2008": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_self": [
+   69,
+   97,
+   94,
+   0,
+   0
+  ],
+  "cite_forms_close": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_821_in_5321": 30,
+  "cite_1123_in_5321": 7,
+  "cite_821_in_1123": 0,
+  "cite_821_hy_in_1123": 32,
+  "cite_821_3f_in_1123": 32,
+  "cite_2821_tot": 9,
+  "cite_rfc_word": [
+   74,
+   99,
+   265,
+   0,
+   44
+  ],
+  "pool_n": 14900,
+  "pool_tier": [
+   14869,
+   31,
+   0,
+   0,
+   0
+  ],
+  "pool_tier_close": 0,
+  "pool_1": 14869,
+  "pool_2": 31,
+  "pool_3": 0,
+  "pair_lbl": [
+   "821·1123",
+   "821·5321",
+   "821·exim",
+   "821·postfix",
+   "1123·5321",
+   "1123·exim",
+   "1123·postfix",
+   "5321·exim",
+   "5321·postfix",
+   "exim·postfix"
+  ],
+  "pair_share": [
+   0,
+   29,
+   0,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "pair_byte": [
+   0,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "pair_norm_only": [
+   0,
+   27,
+   0,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "pair_nonzero": 2,
+  "pair_zero": 8,
+  "pair_close": 0,
+  "pair_max": 29,
+  "pair_max_idx": 1,
+  "pair_max_byte": 2,
+  "pair_max_norm_only": 27,
+  "pair_max_lbl": "821·5321",
+  "retry_pair_idx": 4,
+  "pair_1123_5321": 2,
+  "pair_821_5321": 29,
+  "pool_incl": [
+   14931,
+   31,
+   0,
+   0,
+   0
+  ],
+  "union_incl": 14900,
+  "union_close": 0,
+  "pool_html_own": 8595,
+  "pool_html_shared": 0,
+  "pool_txt_shared": 31,
+  "shared_norm_only": 29,
+  "axis_counts": {
+   "case": 0,
+   "hyph": 0,
+   "space": 20,
+   "multi": 9
+  },
+  "axis_total": 29,
+  "norm_only_set": 29,
+  "axis_close": 0,
+  "axis_str": "case0 ⇎ hyph0 ⇎ space20 ⇎ multi9",
+  "axis_str_n": 2,
+  "s_pool_n": 6043,
+  "s_pool_tier": [
+   5983,
+   60,
+   0,
+   0,
+   0
+  ],
+  "s_pool_tier_close": 0,
+  "s_pair_share": [
+   0,
+   41,
+   0,
+   0,
+   19,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_pair_max": 41,
+  "s_pair_max_idx": 1,
+  "s_pair_max_lbl": "821·5321",
+  "s_pair_1123_5321": 19,
+  "s_pair_821_5321": 41,
+  "s_ruler_gain_1123_5321": 17,
+  "s_ruler_gain_821_5321": 12,
+  "s_pair_html": 0,
+  "s_incl": [
+   6103,
+   60,
+   0,
+   0,
+   0
+  ],
+  "s_union_incl": 6043,
+  "s_union_close": 0,
+  "apool_n": 16478,
+  "apool_raw_n": 20281,
+  "apool_face_raw": [
+   1351,
+   3029,
+   3086,
+   432,
+   12383
+  ],
+  "apool_tag_n": [
+   1130,
+   3011,
+   3022,
+   416,
+   8946
+  ],
+  "apool_dup": [
+   221,
+   18,
+   64,
+   16,
+   3437
+  ],
+  "apool_tag_close": 0,
+  "apool_tier": [
+   16431,
+   47,
+   0,
+   0,
+   0
+  ],
+  "apool_weight": 16525,
+  "apool_pairs": 16525,
+  "apool_tier_close": 0,
+  "apool_maxlen": 460,
+  "dead_needles_none": 1,
+  "neg_all_cold": 1,
+  "no_needle_lost_by_detag": 1,
+  "ds_only_exim_only": 1,
+  "no_retry_vocab_821": 1,
+  "tone_zero_must_pair": 1,
+  "exim_no_tone": 1,
+  "tier_821_only_hard": 0,
+  "cutoff_exim_only": 1,
+  "client_only_5321_pf": 1,
+  "pf_bql_eq_mql": 1,
+  "pf_chain_up": 1,
+  "below_floor_four": 1,
+  "cite_hy_only_1123": 1,
+  "obs_5321_line": 1,
+  "repl_821_only": 1,
+  "year_monotone": 1,
+  "letters_def_three_used_two": 1,
+  "html_shell_none": 0,
+  "txt_no_tag": 1,
+  "split_tail_close": 1,
+  "zid_fail": [],
+  "scalar_clos_n": 78,
+  "scalar_clos_sum": 78,
+  "list_clos_n": 4,
+  "x_ident_n": 78,
+  "shell_vs_pick_txt": [
+   2130,
+   2201,
+   1833
+  ],
+  "shell_replicate_pick": 1,
+  "shell_two_ruler_txt": 0,
+  "tier_pat_shared": [
+   "(default: 300s)",
+   "(default: 4000s)",
+   "(default: 5d)",
+   "(default: 60s)",
+   "MAY be appropriate",
+   "MUST be configurable",
+   "SHOULD be at least 30 minutes",
+   "at least 4-5 days",
+   "cutoff time",
+   "difficult to assign a meaning",
+   "encouraged to try again",
+   "tried only once"
+  ],
+  "tier_pat_pick_only": [],
+  "tier_pat_mk_only": [],
+  "tier_cross_agree": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "tier_cross_n": 12,
+  "exim_rule_pick": 14,
+  "exim_rule_mk": 15,
+  "ex_sets_pick": 20,
+  "pf_def_pick": [
+   432000,
+   432000,
+   300,
+   4000,
+   300,
+   60
+  ],
+  "pf_chain_pick": [
+   1,
+   1
+  ],
+  "axis_pick_str": "case0⇎hyph0⇎space20⇎multi9",
+  "pair_max_pick": 29,
+  "needle_table_pick": 60,
+  "needle_table_mk": 58,
+  "pick_ladder": [
+   [
+    1,
+    5,
+    5,
+    5,
+    10
+   ],
+   [
+    9,
+    10,
+    10,
+    8,
+    16
+   ],
+   [
+    9,
+    10,
+    10,
+    8,
+    16
+   ],
+   [
+    9,
+    10,
+    10,
+    14,
+    16
+   ],
+   [
+    9,
+    10,
+    10,
+    12,
+    16
+   ]
+  ],
+  "mk_ladder": [
+   [
+    0,
+    0,
+    0,
+    2,
+    2
+   ],
+   [
+    6,
+    6,
+    7,
+    6,
+    8
+   ],
+   [
+    6,
+    6,
+    7,
+    6,
+    8
+   ],
+   [
+    6,
+    6,
+    7,
+    10,
+    10
+   ],
+   [
+    6,
+    6,
+    7,
+    11,
+    10
+   ]
+  ],
+  "pick_agree": 51,
+  "pick_diff": 0,
+  "pick_below_floor": [
+   "exim 首档间隔 15m",
+   "postfix minimal_backoff_time 300s",
+   "postfix queue_run_delay 300s",
+   "postfix transport_retry_time 60s"
+  ],
+  "giveup_band_pick": [
+   345600,
+   432000
+  ],
+  "grp_n": [
+   1921,
+   3582,
+   3491,
+   671,
+   18229
+  ],
+  "nonblank_pick": [
+   2023,
+   3777,
+   3680,
+   671,
+   18230
+  ],
+  "grp_glued": [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  "grp_minus_nonblank": [
+   -102,
+   -195,
+   -189,
+   0,
+   -1
+  ],
+  "shell_nonblank_pick": [
+   102,
+   195,
+   189,
+   0,
+   0
+  ],
+  "grp_close": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "blk_lo": [
+   2881,
+   3492,
+   3703,
+   508,
+   8637,
+   3462,
+   3681,
+   2899,
+   626,
+   8930,
+   3499,
+   3709
+  ],
+  "blk_hi": [
+   2903,
+   3502,
+   3714,
+   509,
+   8639,
+   3467,
+   3683,
+   2901,
+   628,
+   8933,
+   3502,
+   3714
+  ],
+  "blk_rows": [
+   23,
+   11,
+   12,
+   2,
+   3,
+   6,
+   3,
+   3,
+   3,
+   4,
+   4,
+   6
+  ],
+  "blk_chars": [
+   546,
+   475,
+   629,
+   127,
+   152,
+   146,
+   187,
+   139,
+   199,
+   241,
+   191,
+   346
+  ],
+  "blk_words": [
+   88,
+   75,
+   99,
+   20,
+   23,
+   23,
+   29,
+   22,
+   34,
+   37,
+   32,
+   56
+  ],
+  "blk_vocab": [
+   65,
+   58,
+   75,
+   20,
+   20,
+   21,
+   21,
+   21,
+   27,
+   31,
+   26,
+   46
+  ],
+  "blk_five_chars": 1929,
+  "blk_five_words": 305,
+  "tone_must": [
+   0,
+   2,
+   2,
+   0,
+   0,
+   1,
+   2,
+   0,
+   0,
+   0,
+   1,
+   1
+  ],
+  "tone_may": [
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  "tone_should": [
+   0,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "tone_must_not_blk": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "blk_must_cur": [
+   0,
+   2,
+   2,
+   0,
+   0,
+   1,
+   2,
+   0,
+   0,
+   0,
+   1,
+   1
+  ],
+  "blk_must_re": [
+   0,
+   2,
+   2,
+   0,
+   0,
+   1,
+   2,
+   0,
+   0,
+   0,
+   1,
+   1
+  ],
+  "blk_tone_ruler_close": 0,
+  "tone_in_blk": [
+   0,
+   3,
+   4,
+   0,
+   0,
+   1,
+   2,
+   0,
+   0,
+   0,
+   1,
+   2
+  ],
+  "w_only_5321": 19,
+  "w_common_12": 56,
+  "w_only_1123": 2,
+  "w_close_5321": 0,
+  "w_close_1123": 0,
+  "w_sym_diff": 21,
+  "suf_1123_5321": 9,
+  "pre_1123_5321": 35,
+  "suf_queu_1123_5321": 0,
+  "pre_queu_1123_5321": 1,
+  "suf_giveup_1123_5321": 9,
+  "pre_giveup_1123_5321": 23,
+  "blk_same_1123_5321": 0,
+  "giveup_sent_same": 0,
+  "giveup_chars": [
+   191,
+   346
+  ],
+  "queu_same": 0,
+  "blk_identical_chars": 0,
+  "ln_delay_1123": 3492,
+  "ln_giveup_1123": 3499,
+  "ln_conf_head_1123": 3501,
+  "ln_conf_1123": 3502,
+  "ln_delay_5321": 3703,
+  "ln_giveup_5321": 3709,
+  "ln_conf_head_5321": 3713,
+  "ln_conf_5321": 3714,
+  "delay_giveup_gap_1123": 7,
+  "delay_giveup_gap_5321": 6,
+  "giveup_conf_gap_1123": 3,
+  "giveup_conf_gap_5321": 5,
+  "conf_delay_span_1123": 10,
+  "conf_delay_span_5321": 11,
+  "conf_straddle_1123": 1,
+  "conf_straddle_5321": 1,
+  "ln_hard_821": 2899,
+  "ln_4yz_821": 2881,
+  "ln_5yz_821": 2910,
+  "ln_thumb_821": 2903,
+  "hard_4yz_gap": 18,
+  "yz_gap": 29,
+  "thumb_hard_gap": 4,
+  "ln_rule_exim": 623,
+  "ln_rim_exim": 508,
+  "ln_cut_exim": 626,
+  "ln_30min_exim": 575,
+  "rule_prompt_off": 20285,
+  "rule_prompt_line": 620,
+  "rule_prompt_gap": 3,
+  "rule_first_off": 20305,
+  "rule_first_line": 623,
+  "rule_two_lines": 0,
+  "rule_rim_gap": 115,
+  "rim_cut_gap": 118,
+  "cut_30min_gap": -51,
+  "cut_30min_abs": 51,
+  "ln_mql_pf": 8637,
+  "ln_minbo_pf": 8930,
+  "ln_zero_pf": 8644,
+  "ln_zero_first_pf": 5083,
+  "zero_repeats": 2,
+  "mql_minbo_gap": 293,
+  "zero_mql_gap": 7,
+  "zero_mql_abs": 7,
+  "delay_shift_5321": 211,
+  "giveup_shift_5321": 210,
+  "shift_delta": 1,
+  "hi_shift_delay": 212,
+  "hi_shift_giveup": 212,
+  "blk_five_rows": 51,
+  "blk_rows_tot": 80,
+  "blk_words_tot": 538,
+  "pin_rt": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "pin_rt_n": 12,
+  "pin_rt_ok": 12,
+  "pin_rt_lbl": [
+   "1123",
+   "1123",
+   "1123",
+   "1123",
+   "5321",
+   "5321",
+   "5321",
+   "5321",
+   "821",
+   "821",
+   "821",
+   "821"
+  ],
+  "pin_rt_src": [
+   4,
+   4,
+   4,
+   0,
+   0
+  ],
+  "pin_wrongline": 0,
+  "sec_word": [
+   0,
+   1,
+   0,
+   0,
+   194
+  ],
+  "sec_word_rfc": 1,
+  "blk_tone_none_exim_pf": 1,
+  "blk_may_only_5321": 1,
+  "pin_rt_all": 1,
+  "pin_wrap_probe": 1,
+  "sec_only_1123": 1,
+  "sec_html_gt_rfc": 1,
+  "w_ledger_close": 1,
+  "blk_5321_longer": 1,
+  "exim_rule_after_rim": 1,
+  "exim_rule_after_prompt": 1,
+  "exim_rule_reprinted": 0,
+  "hard_before_thumb_821": 1,
+  "zero_after_mql_pf": 1,
+  "grp_ledger_close": 1,
+  "giveup_inside_delay": 1,
+  "queu_before_delay": 1,
+  "exim_rim_before_four": 1,
+  "pf_mql_before_minbo": 1,
+  "blk_shift_equal": 0,
+  "anchor_total": 31,
+  "anchor_distinct": 29,
+  "anchor_err": 0,
+  "anchor_single": 22,
+  "anchor_cross": 7,
+  "anchor_all5": 0,
+  "checks": 145,
+  "enc_chars": 9489,
+  "nsrc": 5,
+  "tag_821": 6,
+  "tag_1123": 8,
+  "tag_5321": 9,
+  "tag_exim": 5,
+  "tag_postfix": 3,
+  "contract_n": 624
+ }
+}

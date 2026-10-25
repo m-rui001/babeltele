@@ -1,0 +1,16 @@
+{
+ "59019": "B84V('chars')",
+ "9908": "B84V('words')",
+ "44": "B84V('amend_hdr')",
+ "8": "B84V('article_hdr')",
+ "52": "B84V('preamble_words')",
+ "14": "B84V('kw_thirds')",
+ "1": "B84V('kw_twenty_five')",
+ "2": "B84V('repeal')",
+ "87": "B84V('congress')",
+ "122": "B84V('president')",
+ "31": "B84V('senate')",
+ "11": "B84V('court')",
+ "231": "B84V('state')",
+ "104": "B84V('section_word')"
+}

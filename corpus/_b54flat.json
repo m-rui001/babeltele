@@ -1,0 +1,222 @@
+{
+ "align_eq": 274,
+ "align_ne": 0,
+ "align_rows": 274,
+ "ascii_eq": 2,
+ "blank": [
+  7,
+  19
+ ],
+ "both_names": "CODATA ／ constants ／ Fundamental Physical Constants ／ uncertainty ／ value ／ unit",
+ "bytes": [
+  40801,
+  5371
+ ],
+ "bytes_ratio": 760,
+ "case_cuts": 23,
+ "chars": [
+  40801,
+  5371
+ ],
+ "col_kinds": [
+  1,
+  1,
+  1,
+  2
+ ],
+ "col_n": [
+  355,
+  355,
+  355,
+  262
+ ],
+ "col_start": [
+  0,
+  60,
+  85,
+  110
+ ],
+ "cross_rows": 0,
+ "dash_len": 125,
+ "datarow_chars": 40056,
+ "datarow_share": 98,
+ "demo_dec": 18,
+ "demo_name": "electron mag. mom. to Bohr magneton ratio",
+ "demo_rows": 274,
+ "doctype": [
+  0,
+  1
+ ],
+ "e_amp": 1,
+ "e_analytics": 2,
+ "e_annotyics": 1,
+ "e_charset": 1,
+ "e_close": 66,
+ "e_cmt_marks": 2,
+ "e_comment_chars": 238,
+ "e_comment_href": 1,
+ "e_comment_n": 3,
+ "e_err": 1,
+ "e_gen": 1,
+ "e_gtag_occ": 2,
+ "e_hr": 2,
+ "e_href_all": 10,
+ "e_img": 3,
+ "e_link_comment": 1,
+ "e_link_raw": 4,
+ "e_link_tagless": 0,
+ "e_meta": 2,
+ "e_newsearch": 1,
+ "e_noscript": 863,
+ "e_noscript_nb": 16,
+ "e_once_marks": 5,
+ "e_prose": 1956,
+ "e_prose_nb": 21,
+ "e_script_lost": 1093,
+ "e_script_n": 4,
+ "e_sorry": 1,
+ "e_tag_kinds": 16,
+ "e_tag_s": "font 13 ⇎ td 12 ⇎ tr 11 ⇎ a 10",
+ "e_tag_top4": [
+  13,
+  12,
+  11,
+  10
+ ],
+ "e_tag_top4_s": "font(13) ⇎ td(12) ⇎ tr(11) ⇎ a(10)",
+ "e_tag_top4_sum": 46,
+ "e_tags": 85,
+ "e_try": 1,
+ "e_url_n": 2,
+ "e_urls": [
+  "https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOC&subagency=NIST&pua=UA-37115410-46&yt=false&exts=ppsx,pps,f90,sch,rtf,wrl,txz,m1v,xlsm,msi,xsd,f,tif,eps,mpg,xml,pl,xlt,c",
+  "https://www.googletagmanager.com/gtag/js?id=G-9SLN1VEEJ2"
+ ],
+ "e_year": 0,
+ "ell_dots": 62,
+ "ell_in_exact": 62,
+ "ell_out_exact": 0,
+ "ell_rows": 62,
+ "exact_no_ell": 19,
+ "exact_rows": 81,
+ "exp_any": 231,
+ "exp_minus": 182,
+ "exp_plus": 0,
+ "exp_unsigned": 49,
+ "exp_v_only": 58,
+ "exp_vu_both": 173,
+ "exp_vu_diff": 0,
+ "exp_vu_same": 173,
+ "expboth_name": "shielded proton mag. mom. to Bohr magneton ratio",
+ "first_inv": 1,
+ "grp_frac_3": 1519,
+ "grp_frac_max": 4,
+ "grp_frac_min": 1,
+ "grp_frac_n": 1986,
+ "grp_frac_not3": 467,
+ "grp_int_1": 544,
+ "grp_int_gt1": 105,
+ "grp_int_n": 649,
+ "grp_sep": 1384,
+ "gt": [
+  0,
+  155
+ ],
+ "hdr_len": 113,
+ "hdr_off": [
+  2,
+  65,
+  87,
+  109
+ ],
+ "hdr_vs_col": [
+  2,
+  5,
+  2,
+  -1
+ ],
+ "hdr_vs_col_all": 4,
+ "hitboth": 6,
+ "hitkE": 3,
+ "hitkT": 3,
+ "hitkinds": 12,
+ "hitnone": 0,
+ "hitsingle": 6,
+ "impl_cell": 1420,
+ "impl_diff": 0,
+ "inv_pairs": 45,
+ "lines": [
+  366,
+  97
+ ],
+ "lt": [
+  0,
+  155
+ ],
+ "meas_rows": 274,
+ "name_dot": 68,
+ "name_hyphen": 119,
+ "name_len_max": 55,
+ "name_len_min": 8,
+ "name_upper": 42,
+ "no_unc": 0,
+ "nonascii": [
+  0,
+  0
+ ],
+ "nonblank": [
+  360,
+  79
+ ],
+ "punct_cuts": 22,
+ "r_field": "a4ce9ef92f91eb83",
+ "r_hexlen": 16,
+ "row_anchor_pool": 355,
+ "row_pairs": 354,
+ "rowlen_eq_dash": 0,
+ "rowlen_gt_hdr": 100,
+ "rowlen_max": 124,
+ "rowlen_min": 110,
+ "rows": 355,
+ "segments": [
+  367,
+  98
+ ],
+ "sha16": [
+  "77fb90e66c40db3e",
+  "97dc17d765e3065f"
+ ],
+ "sha_distinct": 2,
+ "sort_byte": 45,
+ "sort_fold": 22,
+ "sort_rowskel": 0,
+ "sort_skel": 0,
+ "sort_tie_skel": 0,
+ "t_charset": 0,
+ "t_url_n": 1,
+ "t_urls": [
+  "http://physics.nist.gov/constants"
+ ],
+ "t_year": 1,
+ "tok_epoch": 1792400725,
+ "tok_len": 16,
+ "tok_str": "MTc5MjQwMDcyNQ==",
+ "tok_utc": "2026-10-19 09:05:25",
+ "unit_blank": 93,
+ "unit_blank_exact": 0,
+ "unit_diff": 0,
+ "unit_distinct": 75,
+ "unit_distinct_col": 75,
+ "unit_filled": 262,
+ "unit_hat": 97,
+ "unit_multi": 92,
+ "unit_once": 40,
+ "unit_top3": [
+  23,
+  23,
+  22
+ ],
+ "unit_top_s": "J(23) ⇎ m(23) ⇎ kg(22)",
+ "unit_top_sum": 68,
+ "url_shared": 0
+}

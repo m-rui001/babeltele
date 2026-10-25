@@ -1,0 +1,14 @@
+Obsoletes: 4507                                            Cisco Systems
+   Clients SHOULD NOT reuse a ticket for multiple connections.  Reuse of
+   value of zero is reserved to indicate that the lifetime of the ticket
+Obsoletes: 5077, 5246, 6961                                  August 2018
+   avoid creating this correlation.  Clients SHOULD NOT reuse tickets as
+   relative to when the ticket is received.  A value of zero is reserved
+   modulo 2^32) is within a small tolerance of the time since the ticket
+      MAY treat a ticket as valid for a shorter period of time than what
+   Because ticket lifetimes are restricted to a week, 32 bits is enough
+   [TLS13] sets a limit of seven days on the time between the original
+      ticket should be discarded immediately.  Clients MUST NOT cache
+   document applies to both TLS 1.0 defined in [RFC2246] and TLS 1.1
+      604800 seconds (7 days).  The value of zero indicates that the
+   The ticket lifetime may be longer than the 24-hour lifetime

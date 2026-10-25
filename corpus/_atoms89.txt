@@ -1,0 +1,5 @@
+a model generates a large number of candidate solutions in the hope of finding at least one correct solution
+assign a score to each partial solution and discard those predicted to ultimately lead to an incorrect final solution
+select partial solutions that follow different reasoning trajectories
+maximize the probability that at least one of its partial solutions, when continued to completion, yields a correct answer
+keeps a moderate number of partial solutions for continued generation

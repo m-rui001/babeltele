@@ -1,0 +1,19 @@
+      IW = min (4*SMSS, max (2*SMSS, 4380 bytes))           (1)
+         min (4*MSS, max (2*MSS, 4380 bytes))                        (1)
+       IW = 3 * SMSS bytes and MUST NOT be more than 3 segments
+         min (10*MSS, max (2*MSS, 14600))                            (1)
+   window of ten times the maximum datagram size (max_datagram_size),
+   This upper bound for the initial window size represents a change from
+   RFC 3390 [RFC3390], which specified that the congestion window be
+   IW, the initial value of cwnd, MUST be less than or equal to 2*SMSS
+   We note that a non-standard, experimental TCP extension allows that a
+   4380 bytes.  We do NOT allow this change as part of the standard
+   (MSS) of 1460 bytes (assuming no IP or TCP options).  Therefore,
+           then win <= 4380;
+           then win <= 2 * MSS;
+   If SMSS > 2190 bytes:
+   if SMSS <= 1095 bytes:
+   Initial packet in a UDP datagram with a payload of at least 1200
+   while limiting the window to the larger of 14,720 bytes or twice the
+   window (IW) to 10 segments (maximum 14600 B).  It is patterned after
+   8-byte overhead of UDP compared to the 20-byte overhead for TCP.

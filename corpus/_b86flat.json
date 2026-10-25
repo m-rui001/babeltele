@@ -1,0 +1,6605 @@
+{
+ "anchor_all5": 7,
+ "anchor_cross": 13,
+ "anchor_distinct": 35,
+ "anchor_err": 0,
+ "anchor_single": 15,
+ "anchor_total": 51,
+ "ans2_blank_span": [
+  1,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ans2_chars": [
+  232,
+  118,
+  116,
+  78,
+  189
+ ],
+ "ans2_needle_line": [
+  4734,
+  5887,
+  2002,
+  178,
+  537
+ ],
+ "ans2_off": [
+  122432,
+  180047,
+  83485,
+  5012,
+  20877
+ ],
+ "ans2_page_span": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ans2_rows_kept": [
+  5,
+  3,
+  3,
+  2,
+  3
+ ],
+ "ans2_rows_whole": [
+  6,
+  3,
+  3,
+  2,
+  3
+ ],
+ "ans2_sent_end": [
+  4736,
+  5888,
+  2003,
+  179,
+  538
+ ],
+ "ans2_sent_line": [
+  4731,
+  5886,
+  2001,
+  178,
+  536
+ ],
+ "ans2_shell_rows": [
+  1,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ans2_span": [
+  6,
+  3,
+  3,
+  2,
+  3
+ ],
+ "ans2_words": [
+  34,
+  20,
+  18,
+  16,
+  30
+ ],
+ "ans_chars": [
+  232,
+  118,
+  116,
+  78,
+  189
+ ],
+ "ans_end_close": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ans_line": [
+  4734,
+  5887,
+  2002,
+  178,
+  537
+ ],
+ "ans_line_close": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ans_needle": [
+  "send the segment at the front of the retransmission queue again",
+  "a threshold R2 greater than R1, close the connection",
+  "set R2 to \"infinity\"",
+  "A maximum value MAY be placed on RTO provided it is at least 60 seconds",
+  "would retransmit N times before killing the connection"
+ ],
+ "ans_needle_line": [
+  0,
+  0,
+  1,
+  0,
+  0
+ ],
+ "ans_ob": [
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ ],
+ "ans_page_close": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ans_page_rows": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ans_sent": [
+  "RETRANSMISSION TIMEOUT For any state if the retransmission timeout expires on a segment in the retransmission queue, send the segment at the front of the retransmission queue again, reinitialize the retransmission timer, and return.",
+  "(c) When the number of transmissions of the same segment reaches a threshold R2 greater than R1, close the connection.",
+  "For example, an interactive application might set R2 to \"infinity\", giving the user control over when to disconnect.",
+  "(2.5) A maximum value MAY be placed on RTO provided it is at least 60 seconds.",
+  "Given a value of N, a hypothetical TCP connection following exponential backoff with an initial RTO of TCP_RTO_MIN would retransmit N times before killing the connection at the (N+1)th RTO."
+ ],
+ "ans_sent_end": [
+  4736,
+  5888,
+  2003,
+  179,
+  538
+ ],
+ "ans_sent_line": [
+  4731,
+  5886,
+  2001,
+  178,
+  536
+ ],
+ "ans_sent_same": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "ans_sent_span": [
+  6,
+  3,
+  3,
+  2,
+  3
+ ],
+ "ans_shell_close": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ans_shell_rows": [
+  1,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ans_span_close": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ans_tag_n": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ans_words": [
+  34,
+  20,
+  18,
+  16,
+  30
+ ],
+ "ans_words_close": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "blank": [
+  2273,
+  2296,
+  1207,
+  233,
+  482
+ ],
+ "blk_autojunk_diff": 0,
+ "blk_chars": [
+  1954,
+  2051
+ ],
+ "blk_drop_words": 26,
+ "blk_equal_runs": 15,
+ "blk_equal_words": 301,
+ "blk_form_ledger": [
+  0,
+  0,
+  0
+ ],
+ "blk_insert_words": 36,
+ "blk_is_substring": 0,
+ "blk_longest": 85,
+ "blk_op_delete": 3,
+ "blk_op_equal": 301,
+ "blk_op_insert": 5,
+ "blk_op_n": 31,
+ "blk_op_rep_a": 23,
+ "blk_op_rep_b": 31,
+ "blk_replace": 11,
+ "blk_tag_chars": 59,
+ "blk_tag_n": 6,
+ "blk_words": [
+  327,
+  337
+ ],
+ "body_lines": [
+  2715,
+  4318,
+  4368,
+  365,
+  1881
+ ],
+ "body_shell_ledger": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "bom": [
+  0,
+  0,
+  1,
+  0,
+  0
+ ],
+ "bom_after_fold": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "bool2_all": 23,
+ "bool2_green": 23,
+ "bool2_red": [],
+ "bool2_red_count": 0,
+ "bool_all_n": 55,
+ "bool_clos2_n": 0,
+ "bool_green": 55,
+ "bool_red": [],
+ "byte_cp_ledger": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "bytes": [
+  172710,
+  289148,
+  263696,
+  22454,
+  87649
+ ],
+ "bytes_stat": [
+  172710,
+  289148,
+  263696,
+  22454,
+  87649
+ ],
+ "bytes_vs_stat": 0,
+ "checks": 175,
+ "contract_n": 577,
+ "cp": [
+  172710,
+  289148,
+  263692,
+  22454,
+  87649
+ ],
+ "default_lines": [
+  0,
+  0,
+  0,
+  0,
+  158
+ ],
+ "dur": [
+  [
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   3,
+   1,
+   3,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   1,
+   2,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   1,
+   1,
+   1,
+   3,
+   2,
+   1,
+   1,
+   0
+  ]
+ ],
+ "dur_by_doc": [
+  1,
+  8,
+  6,
+  1,
+  10
+ ],
+ "dur_by_form": [
+  2,
+  5,
+  3,
+  6,
+  1,
+  3,
+  2,
+  1,
+  1,
+  2
+ ],
+ "enc_chars": 13086,
+ "eq2_9246_face": 924.6,
+ "eq2_9246_n": 1,
+ "eq2_9246_unit": 1,
+ "eq2_cand": [
+  32767.0,
+  65535.0,
+  98301.0,
+  1966020.0,
+  32767.0
+ ],
+ "eq2_cand_close": [
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "eq2_close": [
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ ],
+ "eq2_dev": [
+  31842.4,
+  64610.4,
+  97376.4,
+  1965095.4,
+  31842.4
+ ],
+ "eq2_dev_close": 0.0,
+ "eq2_doc_says": 8,
+ "eq2_face_close": 0.0,
+ "eq2_hit": 0,
+ "eq2_hit_close": 0,
+ "eq2_min_kill": 6,
+ "eq2_min_last": 7,
+ "eq2_n15_kill": 65535,
+ "eq2_n15_last": 32767,
+ "eq2_off_by": [
+  1,
+  2
+ ],
+ "eq2_printed": [
+  1,
+  2,
+  1
+ ],
+ "eq2_printed_close": [
+  0,
+  0,
+  0
+ ],
+ "eq2_rows": [
+  [
+   "syn",
+   6,
+   63,
+   127,
+   63,
+   127,
+   1
+  ],
+  [
+   "synack",
+   5,
+   31,
+   63,
+   31,
+   63,
+   1
+  ]
+ ],
+ "eq2_rto_close": [
+  0.0,
+  0.0,
+  0.0
+ ],
+ "eq2_rto_face": [
+  1.0,
+  60.0,
+  3.0
+ ],
+ "eq2_ruler_gap": [
+  [
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0
+  ]
+ ],
+ "eq9246_by_src": [
+  0,
+  0,
+  0,
+  0,
+  1
+ ],
+ "eq_9246_cand": [
+  32767.0,
+  65535.0,
+  98301.0,
+  1966020.0,
+  32767.0
+ ],
+ "eq_9246_face": 924.6,
+ "eq_9246_gap": [
+  31842.4,
+  64610.4,
+  97376.4,
+  1965095.4,
+  31842.4
+ ],
+ "eq_9246_hit": 0,
+ "eq_9246_printed": 1,
+ "eq_doc_says": 8,
+ "eq_min_n_kill": 6,
+ "eq_min_n_last": 7,
+ "eq_n15_kill": 65535,
+ "eq_n15_last": 32767,
+ "eq_off_by": [
+  1,
+  2
+ ],
+ "eq_ok_syn": 1,
+ "eq_ok_synack": 1,
+ "eq_printed": [
+  1,
+  2,
+  1
+ ],
+ "eq_printed_all": [
+  "127seconds",
+  "31seconds",
+  "63seconds"
+ ],
+ "eq_rows": [
+  [
+   "syn",
+   6,
+   63,
+   127,
+   63,
+   63,
+   127,
+   1
+  ],
+  [
+   "synack",
+   5,
+   31,
+   63,
+   31,
+   31,
+   63,
+   1
+  ]
+ ],
+ "eq_rto_face": [
+  1.0,
+  60.0,
+  3.0
+ ],
+ "eq_rto_min_ms": 1000,
+ "eq_ruler_ledger": [
+  0,
+  0
+ ],
+ "eq_two_rulers_diff": 0,
+ "ev_n": [
+  1,
+  0,
+  1,
+  0,
+  0
+ ],
+ "ev_same": [
+  1,
+  0,
+  1,
+  0,
+  0
+ ],
+ "excl_n": 13,
+ "ff": [
+  91,
+  116,
+  0,
+  11,
+  0
+ ],
+ "ff_alone": [
+  91,
+  116,
+  0,
+  11,
+  0
+ ],
+ "ff_at_eof": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ff_before_nl": [
+  91,
+  116,
+  0,
+  11,
+  0
+ ],
+ "ff_led": [
+  91,
+  116,
+  0,
+  11,
+  0
+ ],
+ "foldx_ledger": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "foot": [
+  85,
+  116,
+  0,
+  11,
+  0
+ ],
+ "gate2_keys": [
+  [
+   "gc2_00",
+   "本遍折平四档与量测段同串",
+   1
+  ],
+  [
+   "gc2_01",
+   "本遍句界尺与量测段同切点",
+   1
+  ],
+  [
+   "gc2_02",
+   "答句五份各只命中一枚",
+   1
+  ],
+  [
+   "gc2_03",
+   "切开针三档自相减=行内档",
+   1
+  ],
+  [
+   "gc2_04",
+   "跨行枚数与涨量同数且针集同名单",
+   1
+  ],
+  [
+   "gc2_05",
+   "去编号面上针数=第三档登记值",
+   1
+  ],
+  [
+   "gc2_06",
+   "大写跨行逐份对上第三轨差",
+   1
+  ],
+  [
+   "gc2_07",
+   "段窗行号回原文件对得上",
+   1
+  ],
+  [
+   "gc2_08",
+   "窗内语气词两把尺同数",
+   1
+  ],
+  [
+   "gc2_09",
+   "五份答句都落在自己那段窗里",
+   1
+  ],
+  [
+   "gc2_10",
+   "段落对照六项与量测段同数",
+   1
+  ],
+  [
+   "gc2_11",
+   "新句只由编号差与归拼差解释",
+   1
+  ],
+  [
+   "gc2_12",
+   "内核键数 ⇎ 重名 ⇎ 相关键三档同名单",
+   1
+  ],
+  [
+   "gc2_13",
+   "内核容斥自证且与量测段同并集",
+   1
+  ],
+  [
+   "gc2_14",
+   "默认值四式级联逐键同值同式",
+   1
+  ],
+  [
+   "gc2_15",
+   "倍增第三轨与两把旧尺同数",
+   1
+  ],
+  [
+   "gc2_16",
+   "印出的秒数与等式末两项逐格对上",
+   1
+  ],
+  [
+   "gc2_9246",
+   "924.6 五候选现算仍不落",
+   1
+  ],
+  [
+   "gc2_18",
+   "独占针在他份零命中(本遍尺)",
+   1
+  ],
+  [
+   "gc2_19",
+   "共现针张张在他份(本遍尺)",
+   1
+  ],
+  [
+   "gc2_20",
+   "模板段偏移两档同值且配对同数",
+   1
+  ],
+  [
+   "gc2_21",
+   "块不越节而截串恰指着下一节号",
+   1
+  ],
+  [
+   "gc2_22",
+   "两块同节题而编号不同",
+   1
+  ]
+ ],
+ "gate_keys": [
+  [
+   "gc_g00",
+   "五份全 LF 面",
+   1
+  ],
+  [
+   "gc_g01",
+   "最长行两把尺同值",
+   1
+  ],
+  [
+   "gc_g02",
+   "行式对账逐份平",
+   1
+  ],
+  [
+   "gc_g03",
+   "字节两把尺同值",
+   1
+  ],
+  [
+   "gc_g04",
+   "换行三把尺同值",
+   1
+  ],
+  [
+   "gc_g05",
+   "壳谓词两把尺逐行同集",
+   1
+  ],
+  [
+   "gc_g06",
+   "壳账容斥闭合",
+   1
+  ],
+  [
+   "gc_g07",
+   "剥壳正文行+壳行=总行",
+   1
+  ],
+  [
+   "gc_g08",
+   "独立页码行一枚也不合壳形",
+   1
+  ],
+  [
+   "gc_g09",
+   "义务词第三轨与表尺同数",
+   1
+  ],
+  [
+   "gc_9293",
+   "编号族只在 9293",
+   1
+  ],
+  [
+   "gc_g11",
+   "编号两形状之差=括号被拉开的那一枚",
+   1
+  ],
+  [
+   "gc_token",
+   "编号 token 尺缺口=方括号套住的那些",
+   1
+  ],
+  [
+   "gc_9293x",
+   "被推下去的编号只在 9293",
+   1
+  ],
+  [
+   "gc_9293xx",
+   "拉开与套括都只在 9293",
+   1
+  ],
+  [
+   "gc_g15",
+   "编号词种相加=总数",
+   1
+  ],
+  [
+   "gc_793",
+   "793 大写义务词一枚也没有",
+   1
+  ],
+  [
+   "gc_g17",
+   "小写并集盖得住大写并集(原面两把尺)",
+   1
+  ],
+  [
+   "gc_g18",
+   "义务词短语账与并集账嵌套闭合",
+   1
+  ],
+  [
+   "gc_g19",
+   "答句五份都读得到",
+   1
+  ],
+  [
+   "gc_g20",
+   "答句在摘壳面内",
+   1
+  ],
+  [
+   "gc_9293xxx",
+   "答句行内尺只在 9293 读得到",
+   1
+  ],
+  [
+   "gc_g22",
+   "答句跨度只压着一枚壳行且它不是页码页眉",
+   1
+  ],
+  [
+   "gc_g23",
+   "答句全是 ASCII",
+   1
+  ],
+  [
+   "gc_g24",
+   "倍增两把尺同值",
+   1
+  ],
+  [
+   "gc_syn",
+   "syn 等式命中印数",
+   1
+  ],
+  [
+   "gc_synack",
+   "synack 等式命中印数",
+   1
+  ],
+  [
+   "gc_9246",
+   "924.6 只在一份印出",
+   1
+  ],
+  [
+   "gc_9246x",
+   "面上三个 RTO 参数复现不出 924.6",
+   1
+  ],
+  [
+   "gc_g29",
+   "独占针在他份零命中",
+   1
+  ],
+  [
+   "gc_g30",
+   "独占针本份全读得到",
+   1
+  ],
+  [
+   "gc_g31",
+   "没有全冷的独占针",
+   1
+  ],
+  [
+   "gc_g32",
+   "共现针张张在他份读得到",
+   1
+  ],
+  [
+   "gc_92936298",
+   "共现落点只有 9293 与 6298",
+   1
+  ],
+  [
+   "gc_9293793",
+   "9293 恰复印 793 那句一枚",
+   1
+  ],
+  [
+   "gc_g35",
+   "模板段只在两份",
+   1
+  ],
+  [
+   "gc_g36",
+   "段落端点找到了",
+   1
+  ],
+  [
+   "gc_g37",
+   "切句两把尺逐句同列表",
+   1
+  ],
+  [
+   "gc_g38",
+   "新句数=句数−同句数",
+   1
+  ],
+  [
+   "gc_g39",
+   "同句数单调三档",
+   1
+  ],
+  [
+   "gc_autojunk",
+   "词对齐 autojunk 无差",
+   1
+  ],
+  [
+   "gc_g41",
+   "词账三条通道闭合",
+   1
+  ],
+  [
+   "gc_92931122",
+   "9293 段不是 1122 段的子串",
+   1
+  ],
+  [
+   "gc_g43",
+   "内核键=键行",
+   1
+  ],
+  [
+   "gc_g44",
+   "键行减去重=重名枚数",
+   1
+  ],
+  [
+   "gc_g45",
+   "内核两把名尺并集容斥闭合",
+   1
+  ],
+  [
+   "gc_g46",
+   "句式档相加=相关键",
+   1
+  ],
+  [
+   "gc_efault",
+   "Default 行只在内核文档",
+   1
+  ],
+  [
+   "gc_g48",
+   "粘连式只在内核文档",
+   1
+  ],
+  [
+   "gc_g49",
+   "原面数值项两轨同集",
+   1
+  ],
+  [
+   "gc_g50",
+   "换行切开针都读得到",
+   1
+  ],
+  [
+   "gc_g51",
+   "去编号新添了读数而一处也没减",
+   1
+  ],
+  [
+   "gc_9293xxxx",
+   "去编号的挪动只在 9293",
+   1
+  ],
+  [
+   "gc_9293xxxxx",
+   "涨格减跌格=9293 那份的净值",
+   1
+  ],
+  [
+   "gc_g54",
+   "对账无不符键",
+   1
+  ]
+ ],
+ "gc2_00": 1,
+ "gc2_01": 1,
+ "gc2_02": 1,
+ "gc2_03": 1,
+ "gc2_04": 1,
+ "gc2_05": 1,
+ "gc2_06": 1,
+ "gc2_07": 1,
+ "gc2_08": 1,
+ "gc2_09": 1,
+ "gc2_10": 1,
+ "gc2_11": 1,
+ "gc2_12": 1,
+ "gc2_13": 1,
+ "gc2_14": 1,
+ "gc2_15": 1,
+ "gc2_16": 1,
+ "gc2_18": 1,
+ "gc2_19": 1,
+ "gc2_20": 1,
+ "gc2_21": 1,
+ "gc2_22": 1,
+ "gc2_9246": 1,
+ "gc_793": 1,
+ "gc_9246": 1,
+ "gc_9246x": 1,
+ "gc_9293": 1,
+ "gc_92931122": 1,
+ "gc_92936298": 1,
+ "gc_9293793": 1,
+ "gc_9293x": 1,
+ "gc_9293xx": 1,
+ "gc_9293xxx": 1,
+ "gc_9293xxxx": 1,
+ "gc_9293xxxxx": 1,
+ "gc_autojunk": 1,
+ "gc_efault": 1,
+ "gc_g00": 1,
+ "gc_g01": 1,
+ "gc_g02": 1,
+ "gc_g03": 1,
+ "gc_g04": 1,
+ "gc_g05": 1,
+ "gc_g06": 1,
+ "gc_g07": 1,
+ "gc_g08": 1,
+ "gc_g09": 1,
+ "gc_g11": 1,
+ "gc_g15": 1,
+ "gc_g17": 1,
+ "gc_g18": 1,
+ "gc_g19": 1,
+ "gc_g20": 1,
+ "gc_g22": 1,
+ "gc_g23": 1,
+ "gc_g24": 1,
+ "gc_g29": 1,
+ "gc_g30": 1,
+ "gc_g31": 1,
+ "gc_g32": 1,
+ "gc_g35": 1,
+ "gc_g36": 1,
+ "gc_g37": 1,
+ "gc_g38": 1,
+ "gc_g39": 1,
+ "gc_g41": 1,
+ "gc_g43": 1,
+ "gc_g44": 1,
+ "gc_g45": 1,
+ "gc_g46": 1,
+ "gc_g48": 1,
+ "gc_g49": 1,
+ "gc_g50": 1,
+ "gc_g51": 1,
+ "gc_g54": 1,
+ "gc_syn": 1,
+ "gc_synack": 1,
+ "gc_token": 1,
+ "glued_all": [
+  [],
+  [],
+  [],
+  [],
+  [
+   "2hours",
+   "75sec",
+   "1ms",
+   "31seconds",
+   "1second",
+   "63seconds",
+   "63seconds",
+   "1second",
+   "127seconds"
+  ]
+ ],
+ "glued_n": [
+  0,
+  0,
+  0,
+  0,
+  9
+ ],
+ "glued_rows": [
+  [
+   [
+    "4.55",
+    "hours",
+    1
+   ],
+   [
+    "2",
+    "minutes",
+    1
+   ],
+   [
+    "4.5",
+    "hours",
+    1
+   ],
+   [
+    "5.4",
+    "minutes",
+    1
+   ],
+   [
+    "1",
+    "minute",
+    1
+   ],
+   [
+    "1",
+    "second",
+    1
+   ],
+   [
+    "2",
+    "minutes",
+    1
+   ]
+  ],
+  [
+   [
+    "3",
+    "minutes",
+    1
+   ],
+   [
+    "60",
+    "seconds",
+    1
+   ],
+   [
+    "60",
+    "seconds",
+    1
+   ],
+   [
+    "2",
+    "minutes",
+    1
+   ],
+   [
+    "4",
+    "minutes",
+    1
+   ],
+   [
+    "0",
+    "seconds",
+    1
+   ],
+   [
+    "3",
+    "seconds",
+    1
+   ],
+   [
+    "0.5",
+    "seconds",
+    1
+   ],
+   [
+    "100",
+    "seconds",
+    1
+   ],
+   [
+    "3",
+    "minutes",
+    1
+   ],
+   [
+    "0.5",
+    "seconds",
+    1
+   ],
+   [
+    "3",
+    "minutes",
+    1
+   ]
+  ],
+  [
+   [
+    "4",
+    "microseconds",
+    1
+   ],
+   [
+    "4.55",
+    "hours",
+    1
+   ],
+   [
+    "2",
+    "minutes",
+    1
+   ],
+   [
+    "5.4",
+    "minutes",
+    1
+   ],
+   [
+    "34",
+    "seconds",
+    1
+   ],
+   [
+    "3",
+    "seconds",
+    1
+   ],
+   [
+    "100",
+    "seconds",
+    1
+   ],
+   [
+    "1.0",
+    "seconds",
+    1
+   ],
+   [
+    "0.5",
+    "seconds",
+    1
+   ],
+   [
+    "60",
+    "seconds",
+    1
+   ],
+   [
+    "3",
+    "minutes",
+    1
+   ]
+  ],
+  [
+   [
+    "1",
+    "second",
+    1
+   ],
+   [
+    "3",
+    "seconds",
+    1
+   ],
+   [
+    "1",
+    "second",
+    1
+   ],
+   [
+    "1",
+    "second",
+    1
+   ],
+   [
+    "1",
+    "second",
+    1
+   ],
+   [
+    "100",
+    "msec",
+    1
+   ],
+   [
+    "3",
+    "seconds",
+    1
+   ],
+   [
+    "3",
+    "seconds",
+    1
+   ],
+   [
+    "3",
+    "seconds",
+    1
+   ],
+   [
+    "1",
+    "second",
+    1
+   ],
+   [
+    "3",
+    "seconds",
+    1
+   ],
+   [
+    "1",
+    "second",
+    1
+   ],
+   [
+    "3",
+    "seconds",
+    1
+   ],
+   [
+    "1",
+    "second",
+    1
+   ],
+   [
+    "3",
+    "seconds",
+    1
+   ],
+   [
+    "1",
+    "second",
+    1
+   ],
+   [
+    "1",
+    "second",
+    1
+   ],
+   [
+    "1",
+    "second",
+    1
+   ],
+   [
+    "3",
+    "seconds",
+    1
+   ],
+   [
+    "3",
+    "seconds",
+    1
+   ],
+   [
+    "1",
+    "second",
+    1
+   ],
+   [
+    "1",
+    "second",
+    1
+   ]
+  ],
+  [
+   [
+    "5",
+    "seconds",
+    1
+   ],
+   [
+    "60",
+    "seconds",
+    1
+   ],
+   [
+    "2",
+    "hours",
+    0
+   ],
+   [
+    "75",
+    "sec",
+    0
+   ],
+   [
+    "11",
+    "minutes",
+    1
+   ],
+   [
+    "10",
+    "minutes",
+    1
+   ],
+   [
+    "100",
+    "seconds",
+    1
+   ],
+   [
+    "1",
+    "ms",
+    0
+   ],
+   [
+    "1",
+    "ms",
+    1
+   ],
+   [
+    "31",
+    "seconds",
+    0
+   ],
+   [
+    "1",
+    "second",
+    0
+   ],
+   [
+    "63",
+    "seconds",
+    0
+   ],
+   [
+    "63",
+    "seconds",
+    0
+   ],
+   [
+    "1",
+    "second",
+    0
+   ],
+   [
+    "127",
+    "seconds",
+    0
+   ],
+   [
+    "10",
+    "seconds",
+    1
+   ],
+   [
+    "1",
+    "seconds",
+    1
+   ],
+   [
+    "10",
+    "seconds",
+    1
+   ],
+   [
+    "1",
+    "second",
+    1
+   ]
+  ]
+ ],
+ "glued_vari": [
+  0,
+  0,
+  0,
+  0,
+  7
+ ],
+ "hdr1122": [
+  0,
+  115,
+  0,
+  0,
+  0
+ ],
+ "hdr793": [
+  175,
+  0,
+  0,
+  0,
+  0
+ ],
+ "hdrnew": [
+  0,
+  231,
+  2,
+  11,
+  0
+ ],
+ "ietf_alone": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "keylin": [
+  0,
+  0,
+  0,
+  0,
+  234
+ ],
+ "kn2_body_close": 0,
+ "kn2_body_rows": 120,
+ "kn2_default_str": [
+  "3",
+  "15",
+  "6",
+  "5"
+ ],
+ "kn2_dup_close": 0,
+ "kn2_dups": [
+  "accept_redirects",
+  "accept_source_route",
+  "drop_unicast_in_l2_multicast",
+  "fib_multipath_hash_policy",
+  "forwarding",
+  "fwmark_reflect",
+  "ip_nonlocal_bind"
+ ],
+ "kn2_dv": {
+  "association_max_retrans": "10",
+  "max_init_retransmits": "8",
+  "path_max_retrans": "5",
+  "pf_retrans": "0",
+  "regen_max_retry": "5",
+  "rto_initial": "3000",
+  "rto_max": "60000",
+  "rto_min": "1000",
+  "tcp_frto": "",
+  "tcp_orphan_retries": "8",
+  "tcp_retrans_collapse": "",
+  "tcp_retries1": "3",
+  "tcp_retries2": "15",
+  "tcp_syn_retries": "6",
+  "tcp_synack_retries": "5",
+  "tcp_thin_linear_timeouts": "0"
+ },
+ "kn2_dv_diff": [],
+ "kn2_hdr_rows": 234,
+ "kn2_hex": [
+  "0xffff"
+ ],
+ "kn2_ie_close": 0,
+ "kn2_keys": 234,
+ "kn2_keys_close": 0,
+ "kn2_last_hdr": 2357,
+ "kn2_none": 2,
+ "kn2_numvals": [
+  "0",
+  "10",
+  "1000",
+  "15",
+  "3",
+  "3000",
+  "5",
+  "6",
+  "60000",
+  "8"
+ ],
+ "kn2_pick": [
+  "association_max_retrans",
+  "idgen_retries",
+  "max_init_retransmits",
+  "path_max_retrans",
+  "pf_retrans",
+  "ps_retrans",
+  "regen_max_retry",
+  "rto_initial",
+  "rto_max",
+  "rto_min",
+  "sack_timeout",
+  "tcp_early_retrans",
+  "tcp_fastopen_blackhole_timeout_sec",
+  "tcp_fin_timeout",
+  "tcp_orphan_retries",
+  "tcp_retrans_collapse",
+  "tcp_retries1",
+  "tcp_retries2",
+  "tcp_syn_retries",
+  "tcp_synack_retries",
+  "tcp_thin_linear_timeouts"
+ ],
+ "kn2_pick_close": 0,
+ "kn2_rel": [
+  "association_max_retrans",
+  "max_init_retransmits",
+  "path_max_retrans",
+  "pf_retrans",
+  "regen_max_retry",
+  "rto_initial",
+  "rto_max",
+  "rto_min",
+  "tcp_frto",
+  "tcp_orphan_retries",
+  "tcp_retrans_collapse",
+  "tcp_retries1",
+  "tcp_retries2",
+  "tcp_syn_retries",
+  "tcp_synack_retries",
+  "tcp_thin_linear_timeouts"
+ ],
+ "kn2_rel_close": 0,
+ "kn2_shape": {
+  "association_max_retrans": "Default:",
+  "max_init_retransmits": "Default:",
+  "path_max_retrans": "Default:",
+  "pf_retrans": "Default:",
+  "regen_max_retry": "Default:",
+  "rto_initial": "Default:",
+  "rto_max": "Default:",
+  "rto_min": "Default:",
+  "tcp_frto": "无",
+  "tcp_orphan_retries": "default value is",
+  "tcp_retrans_collapse": "无",
+  "tcp_retries1": "借参考句",
+  "tcp_retries2": "default value of",
+  "tcp_syn_retries": "default value is",
+  "tcp_synack_retries": "default value is",
+  "tcp_thin_linear_timeouts": "Default:"
+ },
+ "kn2_shape_close": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "kn2_shape_n": [
+  9,
+  3,
+  1,
+  1,
+  2
+ ],
+ "kn2_union": 22,
+ "kn2_union_close": 0,
+ "kn2_uniq": 227,
+ "kn2_wrap_close": 0,
+ "kn2_wrap_gain": [
+  "tcp_retries1",
+  "tcp_syn_retries",
+  "tcp_synack_retries"
+ ],
+ "kw2_close": 0,
+ "kw2_docs": 2,
+ "kw2_head": [
+  -1,
+  -1,
+  8743,
+  2915,
+  -1
+ ],
+ "kw2_head_sh": [
+  -1,
+  -1,
+  8691,
+  2770,
+  -1
+ ],
+ "kw2_pair_n": 1,
+ "kw2_same": [
+  0
+ ],
+ "kw2_same_close": 0,
+ "kw_allcaps": [
+  0,
+  314,
+  326,
+  27,
+  3
+ ],
+ "kw_ci": [
+  195,
+  551,
+  532,
+  40,
+  55
+ ],
+ "kw_docs": 2,
+ "kw_head": [
+  -1,
+  -1,
+  8743,
+  2915,
+  -1
+ ],
+ "kw_head_sh": [
+  -1,
+  -1,
+  8691,
+  2770,
+  -1
+ ],
+ "kw_lowercase": [
+  195,
+  237,
+  206,
+  13,
+  52
+ ],
+ "kw_pair_n": 1,
+ "kw_present": [
+  0,
+  0,
+  1,
+  1,
+  0
+ ],
+ "kw_same": [
+  0
+ ],
+ "kw_same_raw": [
+  0
+ ],
+ "kw_union_fold": [
+  0,
+  314,
+  326,
+  27,
+  3
+ ],
+ "kw_union_fold_low": [
+  195,
+  551,
+  532,
+  40,
+  55
+ ],
+ "labeled_decl": [
+  0,
+  0,
+  1,
+  0,
+  0
+ ],
+ "lf_vs_readlines": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "lin_body_lines": 120,
+ "lin_def_diff": [],
+ "lin_default_lines": 158,
+ "lin_default_str": [
+  "3",
+  "15",
+  "6",
+  "5"
+ ],
+ "lin_defaults": {
+  "association_max_retrans": "10",
+  "max_init_retransmits": "8",
+  "path_max_retrans": "5",
+  "pf_retrans": "0",
+  "regen_max_retry": "5",
+  "rto_initial": "3000",
+  "rto_max": "60000",
+  "rto_min": "1000",
+  "tcp_frto": "",
+  "tcp_orphan_retries": "8",
+  "tcp_retrans_collapse": "",
+  "tcp_retries1": "3",
+  "tcp_retries2": "15",
+  "tcp_syn_retries": "6",
+  "tcp_synack_retries": "5",
+  "tcp_thin_linear_timeouts": "0"
+ },
+ "lin_defaults_line": {
+  "association_max_retrans": "10",
+  "idgen_retries": "3",
+  "max_init_retransmits": "8",
+  "path_max_retrans": "5",
+  "pf_retrans": "0",
+  "ps_retrans": "0xffff",
+  "regen_max_retry": "5",
+  "rto_initial": "3000",
+  "rto_max": "60000",
+  "rto_min": "1000",
+  "sack_timeout": "200",
+  "tcp_early_retrans": "3",
+  "tcp_fastopen_blackhole_timeout_sec": null,
+  "tcp_fin_timeout": "60",
+  "tcp_frto": null,
+  "tcp_orphan_retries": "8.",
+  "tcp_retrans_collapse": null,
+  "tcp_retries1": null,
+  "tcp_retries2": "15",
+  "tcp_syn_retries": null,
+  "tcp_synack_retries": null,
+  "tcp_thin_linear_timeouts": "0"
+ },
+ "lin_defaults_pick": {
+  "association_max_retrans": "10",
+  "idgen_retries": "3",
+  "max_init_retransmits": "8",
+  "path_max_retrans": "5",
+  "pf_retrans": "0",
+  "ps_retrans": "0xffff",
+  "regen_max_retry": "5",
+  "rto_initial": "3000",
+  "rto_max": "60000",
+  "rto_min": "1000",
+  "sack_timeout": "200",
+  "tcp_early_retrans": "3",
+  "tcp_fastopen_blackhole_timeout_sec": null,
+  "tcp_fin_timeout": "60",
+  "tcp_orphan_retries": "8.",
+  "tcp_retrans_collapse": null,
+  "tcp_retries1": "3",
+  "tcp_retries2": "15",
+  "tcp_syn_retries": "6,",
+  "tcp_synack_retries": "5,",
+  "tcp_thin_linear_timeouts": "0"
+ },
+ "lin_defaults_raw": {
+  "association_max_retrans": "10",
+  "max_init_retransmits": "8",
+  "path_max_retrans": "5",
+  "pf_retrans": "0",
+  "regen_max_retry": "5",
+  "rto_initial": "3000",
+  "rto_max": "60000",
+  "rto_min": "1000",
+  "tcp_frto": null,
+  "tcp_orphan_retries": "8.",
+  "tcp_retrans_collapse": null,
+  "tcp_retries1": "3",
+  "tcp_retries2": "15",
+  "tcp_syn_retries": "6,",
+  "tcp_synack_retries": "5,",
+  "tcp_thin_linear_timeouts": "0"
+ },
+ "lin_dv_none": 2,
+ "lin_hexvals": [
+  "0xffff"
+ ],
+ "lin_key_dup_ledger": 0,
+ "lin_key_dup_names": [
+  "accept_redirects",
+  "accept_source_route",
+  "drop_unicast_in_l2_multicast",
+  "fib_multipath_hash_policy",
+  "forwarding",
+  "fwmark_reflect",
+  "ip_nonlocal_bind"
+ ],
+ "lin_keys_total": 234,
+ "lin_keys_uniq": 227,
+ "lin_numvals": [
+  "0",
+  "10",
+  "1000",
+  "15",
+  "3",
+  "3000",
+  "5",
+  "6",
+  "60000",
+  "8"
+ ],
+ "lin_rel_both": 15,
+ "lin_rel_dropped": [
+  "idgen_retries",
+  "ps_retrans",
+  "sack_timeout",
+  "tcp_early_retrans",
+  "tcp_fastopen_blackhole_timeout_sec",
+  "tcp_fin_timeout"
+ ],
+ "lin_rel_keys": 16,
+ "lin_rel_names": [
+  "association_max_retrans",
+  "max_init_retransmits",
+  "path_max_retrans",
+  "pf_retrans",
+  "regen_max_retry",
+  "rto_initial",
+  "rto_max",
+  "rto_min",
+  "tcp_frto",
+  "tcp_orphan_retries",
+  "tcp_retrans_collapse",
+  "tcp_retries1",
+  "tcp_retries2",
+  "tcp_syn_retries",
+  "tcp_synack_retries",
+  "tcp_thin_linear_timeouts"
+ ],
+ "lin_rel_names_cmp": [
+  "association_max_retrans",
+  "max_init_retransmits",
+  "path_max_retrans",
+  "pf_retrans",
+  "regen_max_retry",
+  "rto_initial",
+  "rto_max",
+  "rto_min",
+  "tcp_frto",
+  "tcp_orphan_retries",
+  "tcp_retrans_collapse",
+  "tcp_retries1",
+  "tcp_retries2",
+  "tcp_syn_retries",
+  "tcp_synack_retries",
+  "tcp_thin_linear_timeouts"
+ ],
+ "lin_rel_pick_names": [
+  "association_max_retrans",
+  "idgen_retries",
+  "max_init_retransmits",
+  "path_max_retrans",
+  "pf_retrans",
+  "ps_retrans",
+  "regen_max_retry",
+  "rto_initial",
+  "rto_max",
+  "rto_min",
+  "sack_timeout",
+  "tcp_early_retrans",
+  "tcp_fastopen_blackhole_timeout_sec",
+  "tcp_fin_timeout",
+  "tcp_orphan_retries",
+  "tcp_retrans_collapse",
+  "tcp_retries1",
+  "tcp_retries2",
+  "tcp_syn_retries",
+  "tcp_synack_retries",
+  "tcp_thin_linear_timeouts"
+ ],
+ "lin_rel_union": 22,
+ "lin_shape": {
+  "association_max_retrans": "Default:",
+  "max_init_retransmits": "Default:",
+  "path_max_retrans": "Default:",
+  "pf_retrans": "Default:",
+  "regen_max_retry": "Default:",
+  "rto_initial": "Default:",
+  "rto_max": "Default:",
+  "rto_min": "Default:",
+  "tcp_frto": "无",
+  "tcp_orphan_retries": "default value is",
+  "tcp_retrans_collapse": "无",
+  "tcp_retries1": "借参考句",
+  "tcp_retries2": "default value of",
+  "tcp_syn_retries": "default value is",
+  "tcp_synack_retries": "default value is",
+  "tcp_thin_linear_timeouts": "Default:"
+ },
+ "lin_shape_n": [
+  9,
+  3,
+  1,
+  1,
+  2
+ ],
+ "lin_shape_pick": {
+  "association_max_retrans": "Default:",
+  "idgen_retries": "Default:",
+  "max_init_retransmits": "Default:",
+  "path_max_retrans": "Default:",
+  "pf_retrans": "Default:",
+  "ps_retrans": "Default:",
+  "regen_max_retry": "Default:",
+  "rto_initial": "Default:",
+  "rto_max": "Default:",
+  "rto_min": "Default:",
+  "sack_timeout": "Default:",
+  "tcp_early_retrans": "Default:",
+  "tcp_fastopen_blackhole_timeout_sec": "无",
+  "tcp_fin_timeout": "Default:",
+  "tcp_orphan_retries": "default value is",
+  "tcp_retrans_collapse": "无",
+  "tcp_retries1": "借参考句",
+  "tcp_retries2": "default value of",
+  "tcp_syn_retries": "default value is",
+  "tcp_synack_retries": "default value is",
+  "tcp_thin_linear_timeouts": "Default:"
+ },
+ "lin_split_gain": [
+  "tcp_retries1",
+  "tcp_syn_retries",
+  "tcp_synack_retries"
+ ],
+ "lin_val_punct": 3,
+ "lin_wrap_gain": [
+  "tcp_retries1",
+  "tcp_syn_retries",
+  "tcp_synack_retries"
+ ],
+ "line_split_ledger": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "maxlen": [
+  72,
+  72,
+  72,
+  72,
+  88
+ ],
+ "maxlen_scan": [
+  72,
+  72,
+  72,
+  72,
+  88
+ ],
+ "n3_diff": [],
+ "n_cr": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "n_lf": [
+  5247,
+  6844,
+  5576,
+  619,
+  2362
+ ],
+ "na_body_lines": [
+  0,
+  0,
+  3,
+  0,
+  0
+ ],
+ "na_codepoints": [
+  [],
+  [],
+  [
+   252,
+   65279
+  ],
+  [],
+  []
+ ],
+ "na_in_ans": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "na_lines": [
+  0,
+  0,
+  3,
+  0,
+  0
+ ],
+ "na_shell_lines": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "na_total": [
+  0,
+  0,
+  3,
+  0,
+  0
+ ],
+ "needle_n": 28,
+ "neg_clean": 8,
+ "neg_cold": [],
+ "neg_mat": [
+  [
+   0,
+   1,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   4,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   3
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   6,
+   0,
+   0,
+   0,
+   0
+  ]
+ ],
+ "neg_multi": [
+  "the tcp endpoint will",
+  "tcp_retries2",
+  "the tcp will"
+ ],
+ "neg_n": 11,
+ "neg_others": 0,
+ "neg_probes": 55,
+ "neg_self": 11,
+ "neg_self_tot": 21,
+ "ng2_close": 0,
+ "ng2_mat": [
+  [
+   0,
+   1,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   4,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   3
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   6,
+   0,
+   0,
+   0,
+   0
+  ]
+ ],
+ "ng2_multi": [
+  "the tcp endpoint will",
+  "tcp_retries2",
+  "the tcp will"
+ ],
+ "ng2_multi_close": 0,
+ "ng2_multi_cnt": [
+  4,
+  3,
+  6
+ ],
+ "ng2_others": 0,
+ "ng2_self": 21,
+ "nonblank": [
+  2975,
+  4549,
+  4370,
+  387,
+  1881
+ ],
+ "nsrc": 5,
+ "numtimes": [
+  [],
+  [
+   [
+    "1",
+    "5"
+   ],
+   [
+    "3"
+   ],
+   [
+    "6",
+    "0"
+   ]
+  ],
+  [
+   [
+    "3"
+   ]
+  ],
+  [],
+  [
+   [
+    "3"
+   ]
+  ]
+ ],
+ "numunit": [
+  [
+   [
+    "4",
+    "microseconds"
+   ]
+  ],
+  [
+   [
+    "0",
+    "seconds"
+   ],
+   [
+    "0.5",
+    "seconds"
+   ],
+   [
+    "1.0",
+    "seconds"
+   ],
+   [
+    "100",
+    "seconds"
+   ],
+   [
+    "120",
+    "seconds"
+   ],
+   [
+    "240",
+    "seconds"
+   ],
+   [
+    "3",
+    "seconds"
+   ],
+   [
+    "60",
+    "seconds"
+   ]
+  ],
+  [
+   [
+    "0.5",
+    "seconds"
+   ],
+   [
+    "1.0",
+    "seconds"
+   ],
+   [
+    "100",
+    "seconds"
+   ],
+   [
+    "3",
+    "seconds"
+   ],
+   [
+    "34",
+    "seconds"
+   ],
+   [
+    "4",
+    "microseconds"
+   ],
+   [
+    "60",
+    "seconds"
+   ]
+  ],
+  [
+   [
+    "3",
+    "seconds"
+   ],
+   [
+    "60",
+    "seconds"
+   ]
+  ],
+  [
+   [
+    "1",
+    "ms"
+   ],
+   [
+    "1",
+    "seconds"
+   ],
+   [
+    "10",
+    "seconds"
+   ],
+   [
+    "100",
+    "seconds"
+   ],
+   [
+    "127",
+    "seconds"
+   ],
+   [
+    "31",
+    "seconds"
+   ],
+   [
+    "5",
+    "seconds"
+   ],
+   [
+    "60",
+    "seconds"
+   ],
+   [
+    "63",
+    "seconds"
+   ],
+   [
+    "924.6",
+    "seconds"
+   ]
+  ]
+ ],
+ "numunit_raw": [
+  [],
+  [
+   [
+    "0",
+    "seconds"
+   ],
+   [
+    "0.5",
+    "seconds"
+   ],
+   [
+    "100",
+    "seconds"
+   ],
+   [
+    "3",
+    "seconds"
+   ],
+   [
+    "60",
+    "seconds"
+   ]
+  ],
+  [
+   [
+    "0.5",
+    "seconds"
+   ],
+   [
+    "1.0",
+    "seconds"
+   ],
+   [
+    "10",
+    "s"
+   ],
+   [
+    "100",
+    "seconds"
+   ],
+   [
+    "3",
+    "seconds"
+   ],
+   [
+    "34",
+    "seconds"
+   ],
+   [
+    "4",
+    "microseconds"
+   ],
+   [
+    "60",
+    "seconds"
+   ]
+  ],
+  [
+   [
+    "3",
+    "seconds"
+   ]
+  ],
+  [
+   [
+    "1",
+    "ms"
+   ],
+   [
+    "1",
+    "seconds"
+   ],
+   [
+    "10",
+    "seconds"
+   ],
+   [
+    "100",
+    "seconds"
+   ],
+   [
+    "127",
+    "seconds"
+   ],
+   [
+    "31",
+    "seconds"
+   ],
+   [
+    "5",
+    "seconds"
+   ],
+   [
+    "60",
+    "seconds"
+   ],
+   [
+    "63",
+    "seconds"
+   ]
+  ]
+ ],
+ "numunit_ruler_diff": 1,
+ "numunit_track_diff": [
+  [
+   [],
+   []
+  ],
+  [
+   [],
+   []
+  ],
+  [
+   [],
+   []
+  ],
+  [
+   [],
+   []
+  ],
+  [
+   [],
+   []
+  ]
+ ],
+ "numunit_wide": [
+  [
+   [
+    "4",
+    "microseconds"
+   ]
+  ],
+  [
+   [
+    "0",
+    "seconds"
+   ],
+   [
+    "0.5",
+    "seconds"
+   ],
+   [
+    "1.0",
+    "seconds"
+   ],
+   [
+    "100",
+    "seconds"
+   ],
+   [
+    "120",
+    "seconds"
+   ],
+   [
+    "240",
+    "seconds"
+   ],
+   [
+    "3",
+    "seconds"
+   ],
+   [
+    "60",
+    "seconds"
+   ]
+  ],
+  [
+   [
+    "0.5",
+    "seconds"
+   ],
+   [
+    "1.0",
+    "seconds"
+   ],
+   [
+    "10",
+    "s"
+   ],
+   [
+    "100",
+    "seconds"
+   ],
+   [
+    "3",
+    "seconds"
+   ],
+   [
+    "34",
+    "seconds"
+   ],
+   [
+    "4",
+    "microseconds"
+   ],
+   [
+    "60",
+    "seconds"
+   ]
+  ],
+  [
+   [
+    "3",
+    "seconds"
+   ],
+   [
+    "60",
+    "seconds"
+   ]
+  ],
+  [
+   [
+    "1",
+    "ms"
+   ],
+   [
+    "1",
+    "seconds"
+   ],
+   [
+    "10",
+    "seconds"
+   ],
+   [
+    "100",
+    "seconds"
+   ],
+   [
+    "127",
+    "seconds"
+   ],
+   [
+    "31",
+    "seconds"
+   ],
+   [
+    "5",
+    "seconds"
+   ],
+   [
+    "60",
+    "seconds"
+   ],
+   [
+    "63",
+    "seconds"
+   ],
+   [
+    "924.6",
+    "seconds"
+   ]
+  ]
+ ],
+ "numunit_wrap": [
+  [
+   [
+    "4",
+    "microseconds"
+   ]
+  ],
+  [
+   [
+    "1.0",
+    "seconds"
+   ],
+   [
+    "120",
+    "seconds"
+   ],
+   [
+    "240",
+    "seconds"
+   ]
+  ],
+  [],
+  [
+   [
+    "60",
+    "seconds"
+   ]
+  ],
+  [
+   [
+    "924.6",
+    "seconds"
+   ]
+  ]
+ ],
+ "numval_extra": [
+  [],
+  [],
+  [
+   [
+    "10",
+    "s"
+   ]
+  ],
+  [],
+  []
+ ],
+ "numval_n": [
+  1,
+  8,
+  7,
+  2,
+  10
+ ],
+ "numval_wide_n": [
+  1,
+  8,
+  8,
+  2,
+  10
+ ],
+ "ob_fold": [
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   200,
+   22,
+   73,
+   8,
+   41
+  ],
+  [
+   228,
+   8,
+   40,
+   8,
+   58
+  ],
+  [
+   16,
+   3,
+   7,
+   1,
+   4
+  ],
+  [
+   2,
+   1,
+   1,
+   0,
+   0
+  ]
+ ],
+ "ob_fold_tot": [
+  0,
+  344,
+  342,
+  31,
+  4
+ ],
+ "ob_line": [
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   200,
+   20,
+   73,
+   8,
+   41
+  ],
+  [
+   228,
+   7,
+   40,
+   8,
+   58
+  ],
+  [
+   16,
+   3,
+   7,
+   1,
+   4
+  ],
+  [
+   2,
+   1,
+   1,
+   0,
+   0
+  ]
+ ],
+ "ob_line_tot": [
+  0,
+  342,
+  341,
+  31,
+  4
+ ],
+ "ob_lower": [
+  [
+   63,
+   4,
+   56,
+   7,
+   74
+  ],
+  [
+   59,
+   6,
+   54,
+   3,
+   121
+  ],
+  [
+   44,
+   3,
+   67,
+   10,
+   89
+  ],
+  [
+   1,
+   0,
+   5,
+   0,
+   6
+  ],
+  [
+   12,
+   3,
+   14,
+   3,
+   23
+  ]
+ ],
+ "ob_lower_tot": [
+  204,
+  243,
+  213,
+  12,
+  55
+ ],
+ "ob_nest_ledger": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ob_ruler_diff": 0,
+ "ob_sh": [
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   200,
+   22,
+   73,
+   8,
+   41
+  ],
+  [
+   228,
+   8,
+   40,
+   8,
+   58
+  ],
+  [
+   16,
+   3,
+   7,
+   1,
+   4
+  ],
+  [
+   2,
+   1,
+   1,
+   0,
+   0
+  ]
+ ],
+ "ob_tag": [
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   200,
+   22,
+   73,
+   8,
+   41
+  ],
+  [
+   88,
+   8,
+   40,
+   8,
+   22
+  ],
+  [
+   16,
+   3,
+   7,
+   1,
+   4
+  ],
+  [
+   2,
+   1,
+   1,
+   0,
+   0
+  ]
+ ],
+ "ob_tag_tot": [
+  0,
+  344,
+  166,
+  31,
+  4
+ ],
+ "ob_upper_tot": [
+  0,
+  344,
+  342,
+  31,
+  4
+ ],
+ "ob_wrap": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  2,
+  0,
+  0,
+  0,
+  0,
+  1,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "os_ambig": 0,
+ "os_first_row": [
+  1983,
+  1988,
+  1993,
+  2001,
+  2005,
+  2009,
+  2025
+ ],
+ "os_len": [
+  218,
+  159,
+  192,
+  116,
+  242,
+  83,
+  95
+ ],
+ "os_located": 7,
+ "os_n": 7,
+ "os_rows": [
+  5,
+  4,
+  3,
+  3,
+  4,
+  2,
+  2
+ ],
+ "os_tag_in_window": 2,
+ "ov2_chars": [
+  1954,
+  2051
+ ],
+ "ov2_new": 7,
+ "ov2_new_close": 0,
+ "ov2_rows": [
+  57,
+  44
+ ],
+ "ov2_rows_close": [
+  0,
+  0
+ ],
+ "ov2_same_canon": 9,
+ "ov2_same_close": [
+  0,
+  0,
+  0
+ ],
+ "ov2_same_raw": 5,
+ "ov2_same_tag": 9,
+ "ov2_sents": [
+  17,
+  16
+ ],
+ "ov2_sents_close": [
+  0,
+  0
+ ],
+ "ov2_shell": [
+  19,
+  8
+ ],
+ "ov2_shell_close": [
+  0,
+  0
+ ],
+ "ov2_sub": 0,
+ "ov_cut_n": 0,
+ "ov_hdr_rows": [
+  238,
+  112
+ ],
+ "ov_next_row": [
+  5936,
+  2028
+ ],
+ "ov_next_sec": [
+  "4.2.3.6",
+  "3.8.4"
+ ],
+ "ov_sec": [
+  "4.2.3.5",
+  "3.8.3"
+ ],
+ "ov_sec_shift": 1,
+ "ov_sec_title": [
+  "TCP Connection Failures",
+  "TCP Connection Failures"
+ ],
+ "ov_stop_str": [
+  "4.2.3.6",
+  "3.8.4."
+ ],
+ "ov_title_same": 1,
+ "ovl_new": 7,
+ "ovl_rows": [
+  57,
+  44
+ ],
+ "ovl_s1": 17,
+ "ovl_s1_char": 17,
+ "ovl_s2": 16,
+ "ovl_s2_char": 16,
+ "ovl_same_canon": 9,
+ "ovl_same_raw": 5,
+ "ovl_same_tag": 9,
+ "ovl_shell": [
+  19,
+  8
+ ],
+ "ovl_splitter_diff": 0,
+ "ovl_splitter_list": 1,
+ "oxford_new": [
+  6,
+  8
+ ],
+ "oxford_old": [
+  2,
+  0
+ ],
+ "pb_ans_close": 0,
+ "pb_ans_n": [
+  1,
+  1,
+  2,
+  1,
+  1
+ ],
+ "pb_ans_win": [
+  0,
+  2,
+  3,
+  5,
+  7
+ ],
+ "pb_chars": [
+  141,
+  70,
+  1875,
+  2051,
+  145,
+  78,
+  300,
+  630,
+  361,
+  350,
+  211,
+  57,
+  160
+ ],
+ "pb_chars_tot": 6429,
+ "pb_doc": [
+  0,
+  0,
+  1,
+  2,
+  2,
+  3,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4
+ ],
+ "pb_five_rows": 110,
+ "pb_one_line": 1,
+ "pb_phrase_close": 0,
+ "pb_rows": [
+  3,
+  2,
+  58,
+  44,
+  3,
+  2,
+  8,
+  14,
+  6,
+  6,
+  4,
+  1,
+  3
+ ],
+ "pb_rows_tot": 154,
+ "pb_tag_block_close": [
+  0,
+  0
+ ],
+ "pb_tone_close": 0,
+ "pb_tone_may": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  1,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "pb_tone_must": [
+  0,
+  0,
+  4,
+  7,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "pb_tone_mustnot": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "pb_tone_should": [
+  0,
+  0,
+  3,
+  3,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "pb_tone_tag": [
+  0,
+  0,
+  0,
+  6,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "pb_vocab": [
+  14,
+  10,
+  161,
+  174,
+  20,
+  16,
+  38,
+  66,
+  44,
+  44,
+  24,
+  10,
+  23
+ ],
+ "pb_words": [
+  20,
+  11,
+  315,
+  337,
+  22,
+  16,
+  45,
+  102,
+  57,
+  55,
+  30,
+  10,
+  25
+ ],
+ "pb_words_tot": 1045,
+ "pgnum": [
+  1,
+  1,
+  3,
+  0,
+  0
+ ],
+ "pgnum_in_shell": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "pgnum_naked": [
+  1,
+  1,
+  3,
+  0,
+  0
+ ],
+ "pick_agree": 44,
+ "pick_diff": 0,
+ "pick_diffk": [],
+ "pp_chars_shell": [
+  130801,
+  206608,
+  216831,
+  18435,
+  85137
+ ],
+ "pp_face_all": 1,
+ "pp_face_all_case": 1,
+ "pp_face_len": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "pp_face_shell": 1,
+ "pp_face_shell_case": 1,
+ "pp_rows_all": [
+  5248,
+  6845,
+  5577,
+  620,
+  2363
+ ],
+ "pp_rows_close": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "pp_rows_kept": [
+  2715,
+  4318,
+  4368,
+  365,
+  1881
+ ],
+ "pp_sent_close": 0,
+ "pp_sent_n": [
+  1075,
+  1494,
+  1595,
+  159,
+  771
+ ],
+ "readlines": [
+  5247,
+  6844,
+  5576,
+  619,
+  2362
+ ],
+ "role_fold": [
+  [
+   1,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   1,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   2,
+   2,
+   4,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  [
+   1,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   2
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ]
+ ],
+ "role_fold_n": [
+  5,
+  13,
+  18,
+  1,
+  12
+ ],
+ "role_gain": [
+  [
+   3,
+   0,
+   0
+  ],
+  [
+   9,
+   0,
+   0
+  ],
+  [
+   10,
+   0,
+   1
+  ],
+  [
+   1,
+   0,
+   0
+  ],
+  [
+   6,
+   0,
+   0
+  ]
+ ],
+ "role_line": [
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   2,
+   0,
+   3,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   2
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ ],
+ "role_line_n": [
+  2,
+  4,
+  8,
+  0,
+  6
+ ],
+ "role_probes": 140,
+ "role_sh": [
+  [
+   1,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   1,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   2,
+   2,
+   4,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  [
+   1,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   2
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ]
+ ],
+ "role_sh_n": [
+  5,
+  13,
+  18,
+  1,
+  12
+ ],
+ "role_src": [
+  [
+   "793",
+   "9293"
+  ],
+  [
+   "793",
+   "9293"
+  ],
+  [
+   "1122",
+   "9293"
+  ],
+  [
+   "1122",
+   "9293"
+  ],
+  [
+   "1122",
+   "9293"
+  ],
+  [
+   "1122",
+   "9293"
+  ],
+  [
+   "793",
+   "1122",
+   "9293"
+  ],
+  [
+   "1122"
+  ],
+  [
+   "9293"
+  ],
+  [
+   "1122",
+   "9293"
+  ],
+  [
+   "1122",
+   "9293"
+  ],
+  [
+   "1122",
+   "9293"
+  ],
+  [
+   "1122",
+   "9293"
+  ],
+  [
+   "1122",
+   "9293"
+  ],
+  [
+   "1122",
+   "9293"
+  ],
+  [
+   "6298"
+  ],
+  [
+   "793",
+   "9293"
+  ],
+  [
+   "lin"
+  ],
+  [
+   "lin"
+  ],
+  [
+   "lin"
+  ],
+  [
+   "lin"
+  ],
+  [
+   "lin"
+  ],
+  [
+   "lin"
+  ],
+  [
+   "lin"
+  ],
+  [
+   "lin"
+  ],
+  [
+   "lin"
+  ],
+  [
+   "lin"
+  ],
+  [
+   "lin"
+  ]
+ ],
+ "role_tag": [
+  [
+   1,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   1,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   2,
+   2,
+   4,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  [
+   1,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   2
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   1
+  ]
+ ],
+ "role_tag_n": [
+  5,
+  13,
+  19,
+  1,
+  12
+ ],
+ "rows_ledger": [
+  90,
+  115,
+  -1,
+  10,
+  -1
+ ],
+ "rows_ledger_diff": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "rows_pred": [
+  90,
+  115,
+  -1,
+  10,
+  -1
+ ],
+ "rp2_close": 0,
+ "rp2_mat": [
+  [
+   1,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   1,
+   1,
+   0
+  ],
+  [
+   0,
+   0,
+   1,
+   1,
+   0
+  ]
+ ],
+ "rp2_other_src": [
+  "6298",
+  "9293"
+ ],
+ "rp2_others": 3,
+ "rp2_reprint": 1,
+ "rp_all_carry": [
+  true,
+  true,
+  true
+ ],
+ "rp_mat": [
+  [
+   1,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   1,
+   1,
+   0
+  ],
+  [
+   0,
+   0,
+   1,
+   1,
+   0
+  ]
+ ],
+ "rp_n": 3,
+ "rp_other_src": [
+  "6298",
+  "9293"
+ ],
+ "rp_others": 3,
+ "rp_reprint_9293": 1,
+ "rp_self_tot": 3,
+ "sc_cut_close": 1,
+ "sc_doc_gain_close": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "sc_doc_span": [
+  3,
+  9,
+  10,
+  1,
+  6
+ ],
+ "sc_dup": [
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ ],
+ "sc_gain_close": 0,
+ "sc_line_close": 0,
+ "sc_max_span": 3,
+ "sc_needle_n": 19,
+ "sc_occ": [
+  [
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   1,
+   1,
+   1,
+   1,
+   2,
+   1,
+   0,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   4,
+   0,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   2,
+   1,
+   1
+  ]
+ ],
+ "sc_occ_close": 0,
+ "sc_span": [
+  [
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   1,
+   1,
+   0,
+   1,
+   2,
+   0,
+   0,
+   1,
+   1,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   1,
+   1,
+   1,
+   0,
+   0,
+   1,
+   0,
+   0,
+   1,
+   1,
+   1,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   1,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   1
+  ]
+ ],
+ "sc_span_tot": 29,
+ "scan2_key_n": 216,
+ "scan2_prefixed_old": [
+  "ans_page_rows",
+  "ans_shell_rows"
+ ],
+ "scan2_self_n": 5,
+ "scan2_src_n": 341,
+ "scan2_unprefixed": [],
+ "scan_key_n": 340,
+ "shape_hits": [
+  2624,
+  2874,
+  1209,
+  266,
+  482
+ ],
+ "shape_ovl": [
+  91,
+  347,
+  0,
+  11,
+  0
+ ],
+ "shape_sum": [
+  2624,
+  2874,
+  1209,
+  266,
+  482
+ ],
+ "shell_cut": [],
+ "shell_ledger": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "shell_lines": [
+  2533,
+  2527,
+  1209,
+  255,
+  482
+ ],
+ "shell_pick": [
+  2533,
+  2527,
+  1209,
+  255,
+  482
+ ],
+ "shell_pred_diff": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "shell_shape": [
+  2533,
+  2527,
+  1209,
+  255,
+  482
+ ],
+ "shpx_eq_pnorm": 1,
+ "shpx_ledger": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "spaced_n": [
+  7,
+  12,
+  11,
+  22,
+  10
+ ],
+ "spell": [
+  [
+   29,
+   3,
+   8,
+   6,
+   0,
+   0,
+   0,
+   0,
+   1,
+   5,
+   0,
+   1,
+   38,
+   0,
+   0,
+   23,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   4
+  ],
+  [
+   35,
+   11,
+   16,
+   5,
+   0,
+   1,
+   1,
+   5,
+   4,
+   24,
+   0,
+   4,
+   44,
+   0,
+   1,
+   11,
+   0,
+   3,
+   1,
+   3,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   2,
+   0,
+   53
+  ],
+  [
+   43,
+   12,
+   13,
+   5,
+   0,
+   1,
+   1,
+   3,
+   4,
+   12,
+   0,
+   2,
+   39,
+   0,
+   1,
+   34,
+   1,
+   2,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   15
+  ],
+  [
+   31,
+   3,
+   11,
+   5,
+   1,
+   0,
+   0,
+   0,
+   0,
+   5,
+   0,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   18,
+   12,
+   10,
+   2,
+   1,
+   0,
+   0,
+   11,
+   0,
+   14,
+   1,
+   2,
+   19,
+   0,
+   1,
+   4,
+   0,
+   0,
+   1,
+   1,
+   1,
+   1,
+   3,
+   1,
+   2,
+   1,
+   1,
+   10,
+   10,
+   1,
+   1,
+   1,
+   1,
+   291
+  ]
+ ],
+ "spell_cold": [
+  "time-out"
+ ],
+ "spell_diff": [
+  3,
+  0,
+  6,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  3,
+  0,
+  0,
+  9,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  11,
+  0,
+  6,
+  0,
+  0,
+  0,
+  0,
+  1,
+  0,
+  0,
+  0,
+  0,
+  1,
+  0,
+  0,
+  3,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  1,
+  0,
+  6,
+  12,
+  0,
+  5,
+  0,
+  0,
+  0,
+  0,
+  1,
+  0,
+  0,
+  0,
+  0,
+  5,
+  0,
+  0,
+  12,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  3,
+  0,
+  9,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  12,
+  0,
+  3,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  4,
+  0,
+  0,
+  2,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  6
+ ],
+ "spell_excl": [
+  [],
+  [],
+  [],
+  [],
+  [
+   "before killing",
+   "924.6",
+   "tcp_retries1",
+   "tcp_retries2",
+   "tcp_syn_retries",
+   "tcp_synack_retries",
+   "tcp_orphan_retries",
+   "association_max_retrans",
+   "path_max_retrans",
+   "pf_retrans",
+   "max_init_retransmits",
+   "TCP_RTO_MIN",
+   "(N+1)th"
+  ]
+ ],
+ "spell_tot": [
+  119,
+  224,
+  190,
+  60,
+  422
+ ],
+ "spell_vari": [
+  11,
+  18,
+  18,
+  9,
+  28
+ ],
+ "spell_word": [
+  [
+   26,
+   3,
+   2,
+   6,
+   0,
+   0,
+   0,
+   0,
+   1,
+   5,
+   0,
+   1,
+   35,
+   0,
+   0,
+   14,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   4
+  ],
+  [
+   24,
+   11,
+   10,
+   5,
+   0,
+   1,
+   1,
+   4,
+   4,
+   24,
+   0,
+   4,
+   43,
+   0,
+   1,
+   8,
+   0,
+   3,
+   1,
+   3,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   47
+  ],
+  [
+   31,
+   12,
+   8,
+   5,
+   0,
+   1,
+   1,
+   2,
+   4,
+   12,
+   0,
+   2,
+   34,
+   0,
+   1,
+   22,
+   1,
+   2,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   15
+  ],
+  [
+   28,
+   3,
+   2,
+   5,
+   1,
+   0,
+   0,
+   0,
+   0,
+   5,
+   0,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   6,
+   12,
+   7,
+   2,
+   1,
+   0,
+   0,
+   11,
+   0,
+   14,
+   1,
+   2,
+   15,
+   0,
+   1,
+   2,
+   0,
+   0,
+   1,
+   1,
+   1,
+   1,
+   3,
+   1,
+   2,
+   1,
+   1,
+   10,
+   10,
+   1,
+   1,
+   1,
+   1,
+   285
+  ]
+ ],
+ "spell_word_tot": [
+  98,
+  195,
+  155,
+  48,
+  395
+ ],
+ "splitlines": [
+  5338,
+  6960,
+  5576,
+  630,
+  2362
+ ],
+ "splitlines_ledger": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "splitnl": [
+  5248,
+  6845,
+  5577,
+  620,
+  2363
+ ],
+ "sr_cut": 11,
+ "sr_cut_rows": 11,
+ "sr_n": 26,
+ "sr_rows_close": 0,
+ "sr_whole": 15,
+ "st_by_doc": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "st_docs": 3,
+ "st_in_shell": 0,
+ "st_low": [
+  2,
+  2,
+  2,
+  0,
+  0
+ ],
+ "st_tot": 9,
+ "st_up": [
+  0,
+  2,
+  1,
+  0,
+  0
+ ],
+ "st_up_close": 0,
+ "st_words": [
+  "must not",
+  "should not"
+ ],
+ "tab": [
+  0,
+  0,
+  0,
+  0,
+  1642
+ ],
+ "tag_1122": 8,
+ "tag_6298": 5,
+ "tag_793": 10,
+ "tag_9293": 14,
+ "tag_apart_ctx": [
+  [
+   "9293",
+   "' (MUST-4 --\\n'"
+  ]
+ ],
+ "tag_bare": [
+  0,
+  0,
+  126,
+  0,
+  0
+ ],
+ "tag_bracket": [
+  0,
+  0,
+  2,
+  0,
+  0
+ ],
+ "tag_bracket_ledger": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "tag_chars": [
+  0,
+  0,
+  1037,
+  0,
+  0
+ ],
+ "tag_cut": [
+  7
+ ],
+ "tag_dash": [
+  0,
+  0,
+  237,
+  0,
+  0
+ ],
+ "tag_dash_fold": [
+  0,
+  0,
+  237,
+  0,
+  0
+ ],
+ "tag_drop": [
+  0,
+  0,
+  -1,
+  0,
+  0
+ ],
+ "tag_drop_cells": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "tag_drop_needles": [],
+ "tag_fold_gain": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "tag_form_ledger": [
+  0,
+  0,
+  -1,
+  0,
+  0
+ ],
+ "tag_gain": [
+  0,
+  0,
+  1,
+  0,
+  0
+ ],
+ "tag_gain_cells": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  1,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "tag_gain_needles": [
+  7
+ ],
+ "tag_gain_tot": 1,
+ "tag_in_paren": [
+  0,
+  0,
+  110,
+  0,
+  0
+ ],
+ "tag_kind": [
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   140,
+   0,
+   36,
+   61,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ ],
+ "tag_kind_ledger": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "tag_lin": 14,
+ "tag_max_no": [
+  0,
+  0,
+  69,
+  0,
+  0
+ ],
+ "tag_move": [
+  [
+   7,
+   "9293",
+   0,
+   1
+  ]
+ ],
+ "tag_nextline_ledger": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "tag_nospace": [
+  0,
+  0,
+  244,
+  0,
+  0
+ ],
+ "tag_num_nextline": [
+  0,
+  0,
+  7,
+  0,
+  0
+ ],
+ "tag_paren": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "tag_paren_apart": [
+  0,
+  0,
+  1,
+  0,
+  0
+ ],
+ "tag_split_ledger": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "tag_split_manual": [
+  0,
+  0,
+  8,
+  0,
+  0
+ ],
+ "tag_token": [
+  0,
+  0,
+  235,
+  0,
+  0
+ ],
+ "tag_token_ledger": [
+  0,
+  0,
+  -2,
+  0,
+  0
+ ],
+ "tag_token_paren": [
+  0,
+  0,
+  11,
+  0,
+  0
+ ],
+ "tag_token_plain": [
+  0,
+  0,
+  224,
+  0,
+  0
+ ],
+ "tc_gain_close": 0,
+ "tc_gain_needles": [
+  7
+ ],
+ "tc_occ": [
+  [
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   1,
+   1,
+   1,
+   1,
+   2,
+   1,
+   0,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   4,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   2,
+   1,
+   1
+  ]
+ ],
+ "tc_occ_close": 0,
+ "tc_span_after": 29,
+ "tc_span_before": 29,
+ "tcp_endpoint_will": [
+  0,
+  0,
+  4,
+  0,
+  0
+ ],
+ "tcp_will": [
+  6,
+  0,
+  0,
+  0,
+  0
+ ],
+ "td_chars": [
+  0,
+  0,
+  1714,
+  0,
+  0
+ ],
+ "td_face_gap": [
+  0,
+  0,
+  -677,
+  0,
+  0
+ ],
+ "td_face_same": [
+  1,
+  1,
+  0,
+  1,
+  1
+ ],
+ "trailing_nl": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "utf8_extra": [
+  0,
+  0,
+  4,
+  0,
+  0
+ ],
+ "wrap_cut": [
+  0,
+  1,
+  2,
+  3,
+  5,
+  6,
+  9,
+  10,
+  11,
+  12,
+  13,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  26,
+  27
+ ],
+ "wrap_cut_n": 19,
+ "wrap_gain": [
+  3,
+  9,
+  10,
+  1,
+  6
+ ],
+ "wrap_gain_cells": [
+  1,
+  0,
+  1,
+  0,
+  0,
+  1,
+  0,
+  1,
+  0,
+  0,
+  0,
+  1,
+  1,
+  0,
+  0,
+  0,
+  1,
+  1,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  1,
+  0,
+  0,
+  0,
+  0,
+  2,
+  1,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  1,
+  1,
+  0,
+  0,
+  0,
+  1,
+  1,
+  0,
+  0,
+  0,
+  1,
+  1,
+  0,
+  0,
+  0,
+  1,
+  1,
+  0,
+  0,
+  0,
+  0,
+  1,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  1,
+  0,
+  1,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  1,
+  0,
+  0,
+  0,
+  0,
+  1,
+  0,
+  0,
+  0,
+  0,
+  1,
+  0,
+  0,
+  0,
+  0,
+  1,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  1,
+  0,
+  0,
+  0,
+  0,
+  1
+ ],
+ "wrap_gain_tot": 29,
+ "zid_scan2_n": 93,
+ "zid_scan_n": 38
+}

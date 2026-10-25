@@ -1,0 +1,869 @@
+{
+ "anchor_total": 30,
+ "anchor_distinct": 25,
+ "tag_counts": {
+  "T": 14,
+  "L": 5,
+  "P": 4,
+  "H": 7
+ },
+ "ameta": {
+  "anchor_total": 30,
+  "anchor_distinct": 25,
+  "anchor_err": 0,
+  "anchor_single": 14,
+  "anchor_cross": 11,
+  "anchor_all4": 0,
+  "checks": 100
+ },
+ "letters_in": 3244,
+ "letters_out": 365,
+ "tagn": 30,
+ "classes": {
+  "single": [
+   "<div class=\"hidden-sm hidden-xs hidden-xxs\" id=\"pub-detail-abstract-info\"><p>This Standard specifies the Secure Hash Algorithm-3 (SHA-3) family of functions on binary data. Each of the SHA-3 functions is based on an instance of the K<small>ECCAK</small> algorithm that NIST selected as the winner of the SHA-3 Cryptographic Hash Algorithm Competition. This Standard also specifies the K<small>ECCAK</small>-p family of mathematical permutations, including the permutation that underlies K<small>ECCAK</small>, in order to facilitate the development of additional permutation-based cryptographic functions. The SHA-3 family consists of four cryptographic hash functions, called SHA3-224, SHA3-256, SHA3-384, and SHA3-512, and two extendable-output functions (XOFs), called SHAKE128 and SHAKE256. Hash functions are components for many important information security applications, including 1) the generation and verification of digital signatures, 2) key derivation, and 3) pseudorandom bit generation. The hash functions specified in this Standard supplement the SHA-1 hash function and the SHA-2 family of hash functions that are specified in FIPS 180-4, the Secure Hash Standard. Extendable-output functions are different from hash functions, but it is possible to use them in similar ways, with the flexibility to be adapted directly to the requirements of individual applications, subject to additional security considerations.</p></div>",
+   "<p>This is a potential security issue, you are being redirected to <a href=\"https://csrc.nist.gov\">https://csrc.nist.gov</a>.</p>",
+   "<script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());   gtag('config', 'G-TSQ0PLGJZP'); </script>",
+   "<strong style=\"font-size: 1.6rem;\">You are viewing this page in an unauthorized frame window.</strong>",
+   "<title>FIPS 202, SHA-3 Standard: Permutation-Based Hash and Extendable-Output Functions | CSRC</title>",
+   "A[0, 0, 1] = S [1]     A[1, 0, 1] = S [65]                       A[4, 0, 2] = S [258]",
+   "An official website of the United States government",
+   "D[x, z] = C[(x1) mod 5, z] ⊕ C[(x+1) mod 5, (z – 1) mod w].",
+   "Function  Output             Security Strengths in Bits",
+   "Lane (0, 0) = A[0, 0, 0] || A[0, 0, 1] || A[0, 0, 2] || … || A[0, 0, 62] || A[0, 0, 63]",
+   "SHA-1 SHA-224 SHA-512/224 SHA-256 SHA-512/256 SHA-384 SHA-512 SHA3-224 SHA3-256 SHA3-384 SHA3-512 SHAKE128 SHAKE256",
+   "The KECCAK-p permutations were designed to be suitable as the main components for a variety of cryptographic functions, including keyed functions for authentication and/or encryption. The six SHA-3 functions can be considered as modes of operation (modes) of the KECCAKp[1600,24] permutation. In the future, additional modes of this permutation or other KECCAK-p permutations may be specified and approved in FIPS publications or in NIST Special Publications.",
+   "a. for all z such that 0 ≤ z < w, let A′[x, y, z]  =  A[x, y, (z – (t + 1)(t + 2)/2) mod w];",
+   "concatenating and/or truncating digests from hash functions—generally do exhibit this property."
+  ],
+  "cross": [
+   "1. Name of Standard: SHA-3 Standard: Permutation-Based Hash and Extendable-Output",
+   "2. Return A. The dot in the right side of the assignment for Step 1 indicates integer multiplication, which in this case is equivalent to the intended Boolean \"AND\" operation. The effect of  is to XOR each bit with a non-linear function of two other bits in its row, as illustrated in Figure 6 below.",
+   "C[x, z] = A[x, 0, z] ⊕ A[x, 1, z] ⊕ A[x, 2, z] ⊕ A[x, 3, z] ⊕ A[x, 4, z].",
+   "D[x, z] = C[(x1) mod 5, z]  C[(x+1) mod 5, (z � 1) mod w].",
+   "FOREWORD The Federal Information Processing Standards (FIPS) Publication Series of the National Institute of Standards and Technology (NIST) is the official series of publications relating to standards and guidelines adopted and promulgated under the provisions of the Federal Information Security Management Act (FISMA) of 2002. Comments concerning FIPS publications are welcomed and should be addressed to the Director, Information Technology Laboratory, National Institute of Standards and Technology, 100 Bureau Drive, Stop 8900, Gaithersburg, MD 20899-8900.",
+   "In Step 1, the indices are defined for the hexadecimal digits. In Step 2a, each pair of hexadecimal",
+   "SHAKE128         The SHA-3 XOF that generally supports 128 bits of security strength, if",
+   "Table 3:  Input block sizes for HMAC",
+   "Version 3, January 2011, http://keccak.noekeon.org/Keccak-submission-3.pdf.",
+   "concatenating and/or truncating digests from hash functions--generally do exhibit this property.",
+   "http://dx.doi.org/10.6028/NIST.FIPS.202"
+  ],
+  "all4": []
+ },
+ "collisions": [
+  [
+   "47",
+   "中位行长·官方落地页"
+  ],
+  [
+   "37",
+   "分页符·本机无版式"
+  ],
+  [
+   "1",
+   "页首页眉·官方纯文本"
+  ],
+  [
+   "1",
+   "页首页眉·本机按版式"
+  ],
+  [
+   "1",
+   "页首页眉·本机无版式"
+  ],
+  [
+   "4",
+   "gl_gap"
+  ],
+  [
+   "18",
+   "替换符·本机无版式"
+  ],
+  [
+   "18",
+   "非 ASCII 个·本机按版式"
+  ],
+  [
+   "18",
+   "非 ASCII 个·本机无版式"
+  ],
+  [
+   "25",
+   "非 ASCII 种·官方纯文本"
+  ],
+  [
+   "1",
+   "非 ASCII 种·本机按版式"
+  ],
+  [
+   "1",
+   "非 ASCII 种·本机无版式"
+  ],
+  [
+   "18",
+   "这些码点合计·本机按版式"
+  ],
+  [
+   "18",
+   "这些码点合计·本机无版式"
+  ],
+  [
+   "1",
+   "破折号码点种·本机按版式"
+  ],
+  [
+   "1",
+   "破折号码点种·本机无版式"
+  ],
+  [
+   "1",
+   "破折号码点种·官方落地页"
+  ],
+  [
+   "4",
+   "pair_th_strip"
+  ],
+  [
+   "2",
+   "gap_th"
+  ],
+  [
+   "1268",
+   "inter_tl"
+  ],
+  [
+   "1268",
+   "inter_tp"
+  ],
+  [
+   "36",
+   "html_ext"
+  ],
+  [
+   "4",
+   "html_doi_raw"
+  ],
+  [
+   "1",
+   "html_doi_body"
+  ],
+  [
+   "8",
+   "html_sha3_body"
+  ],
+  [
+   "24",
+   "Algorithm 引用·本机按版式"
+  ],
+  [
+   "24",
+   "Algorithm 引用·本机无版式"
+  ],
+  [
+   "1",
+   "Algorithm 引用·官方落地页"
+  ],
+  [
+   "10",
+   "Step 引用·官方纯文本"
+  ],
+  [
+   "10",
+   "Step 引用·本机按版式"
+  ],
+  [
+   "11",
+   "Step 引用·本机无版式"
+  ],
+  [
+   "25",
+   "Figure 引用·官方纯文本"
+  ],
+  [
+   "25",
+   "Figure 引用·本机按版式"
+  ],
+  [
+   "25",
+   "Figure 引用·本机无版式"
+  ],
+  [
+   "22",
+   "Table 引用·本机按版式"
+  ],
+  [
+   "22",
+   "Table 引用·本机无版式"
+  ],
+  [
+   "1",
+   "Appendix 字样·官方落地页"
+  ],
+  [
+   "11",
+   "算法号种·官方纯文本"
+  ],
+  [
+   "11",
+   "算法号种·本机按版式"
+  ],
+  [
+   "11",
+   "算法号种·本机无版式"
+  ],
+  [
+   "1",
+   "算法号种·官方落地页"
+  ],
+  [
+   "11",
+   "最大算法号·官方纯文本"
+  ],
+  [
+   "11",
+   "最大算法号·本机按版式"
+  ],
+  [
+   "11",
+   "最大算法号·本机无版式"
+  ],
+  [
+   "10",
+   "最大算法号·官方落地页"
+  ],
+  [
+   "1",
+   "Step 引用在无版式层多出的一处"
+  ],
+  [
+   "2",
+   "August 2015·官方纯文本"
+  ],
+  [
+   "2",
+   "August 2015·本机按版式"
+  ],
+  [
+   "2",
+   "August 2015·本机无版式"
+  ],
+  [
+   "1",
+   "August 2015·官方落地页"
+  ],
+  [
+   "1",
+   "DOI 串·官方纯文本"
+  ],
+  [
+   "1",
+   "DOI 串·本机按版式"
+  ],
+  [
+   "1",
+   "DOI 串·本机无版式"
+  ],
+  [
+   "1",
+   "DOI 串·官方落地页"
+  ],
+  [
+   "1",
+   "pub_H"
+  ],
+  [
+   "6",
+   "公共片段段·落地页⇎官方"
+  ],
+  [
+   "2660",
+   "最长片段·无版式⇎官方"
+  ],
+  [
+   "36",
+   "共享比例·落地页⇎官方"
+  ],
+  [
+   "98",
+   "共享比例·两抽取层之间"
+  ],
+  [
+   "36",
+   "共享比例·落地页⇎官方"
+  ],
+  [
+   "37",
+   "分页符·本机无版式"
+  ],
+  [
+   "21",
+   "撇号 ′·官方纯文本"
+  ],
+  [
+   "11",
+   "Step 加空白加数字·官方纯文本"
+  ],
+  [
+   "11",
+   "Step 加空白加数字·本机按版式"
+  ],
+  [
+   "11",
+   "Step 加空白加数字·本机无版式"
+  ],
+  [
+   "1",
+   "官方 txt 里被折行切开的 Step 引用"
+  ],
+  [
+   "18",
+   "非 ASCII 个·本机按版式"
+  ],
+  [
+   "44",
+   "八个关键词·去标签正文"
+  ],
+  [
+   "9",
+   "fips 字样·去标签正文"
+  ],
+  [
+   "1",
+   "页首页眉·官方纯文本"
+  ],
+  [
+   "98",
+   "共享比例·两抽取层之间"
+  ],
+  [
+   "1",
+   "DOI 串·官方纯文本"
+  ],
+  [
+   "4",
+   "DOI 串·整份 html 文件"
+  ],
+  [
+   "13",
+   "hitall"
+  ],
+  [
+   "3",
+   "hitsingle"
+  ],
+  [
+   "1",
+   "hitnone"
+  ],
+  [
+   "3",
+   "hitmulti"
+  ],
+  [
+   "18",
+   "hitnorm"
+  ],
+  [
+   "2",
+   "hitraw"
+  ],
+  [
+   "4",
+   "sha_distinct"
+  ],
+  [
+   "2",
+   "gen_n"
+  ],
+  [
+   "2",
+   "dl_n"
+  ],
+  [
+   "11",
+   "跨层锚"
+  ],
+  [
+   "25",
+   "去重锚串数"
+  ]
+ ],
+ "zero_terms": 31,
+ "deriv_keys": 109,
+ "notes": {
+  "72542": "字节·官方纯文本",
+  "77812": "字节·本机按版式",
+  "68458": "字节·本机无版式",
+  "48779": "字节·官方落地页",
+  "70069": "字符·官方纯文本",
+  "76354": "字符·本机按版式",
+  "67543": "字符·本机无版式",
+  "48089": "字符·官方落地页",
+  "1426": "非空行·官方纯文本",
+  "1060": "非空行·本机按版式",
+  "581": "非空行·本机无版式",
+  "577": "非空行·官方落地页",
+  "1925": "行数·官方纯文本",
+  "1458": "行数·本机按版式",
+  "915": "行数·本机无版式",
+  "676": "行数·官方落地页",
+  "36": "中位行长·官方纯文本",
+  "81": "中位行长·本机按版式",
+  "47": "中位行长·本机无版式",
+  "167": "最长行·官方纯文本",
+  "168": "最长行·本机按版式",
+  "1946": "最长行·本机无版式",
+  "1465": "最长行·官方落地页",
+  "37": "分页符·本机按版式",
+  "1780": "行尾空格·官方纯文本",
+  "10": "行尾空格·本机按版式",
+  "3": "行尾空格·本机无版式",
+  "25": "行尾空格·官方落地页",
+  "1": "三空格断栏·官方纯文本",
+  "120": "三空格断栏·本机按版式",
+  "7": "三空格断栏·官方落地页",
+  "518": "超 72 字行·官方纯文本",
+  "593": "超 72 字行·本机按版式",
+  "215": "超 72 字行·本机无版式",
+  "191": "超 72 字行·官方落地页",
+  "4": "gl_opl",
+  "39": "小于等号·官方纯文本",
+  "15": "异或圈·官方纯文本",
+  "18": "替换符·本机按版式",
+  "306": "非 ASCII 个·官方纯文本",
+  "11": "非 ASCII 个·官方落地页",
+  "2": "非 ASCII 种·官方落地页",
+  "193": "这些码点合计·官方纯文本",
+  "5": "破折号码点种·官方纯文本",
+  "399": "连字符·官方纯文本",
+  "422": "连字符·本机按版式",
+  "417": "连字符·本机无版式",
+  "52": "连字符·官方落地页",
+  "843": "pairtotal",
+  "452": "pair_tl_raw",
+  "556": "pair_tl_strip",
+  "692": "pair_tl_skel",
+  "98": "pair_tp_raw",
+  "107": "pair_tp_strip",
+  "135": "pair_tp_skel",
+  "6": "pair_th_skel",
+  "136": "gap_tl",
+  "28": "gap_tp",
+  "1268": "词集·官方纯文本",
+  "1281": "词集·本机按版式",
+  "1285": "词集·本机无版式",
+  "442": "词集·官方落地页",
+  "1584": "压空白后词集·官方纯文本",
+  "1588": "压空白后词集·本机按版式",
+  "1586": "压空白后词集·本机无版式",
+  "274": "压空白后词集·官方落地页",
+  "13": "onlya_lt",
+  "114": "onlyb_tl",
+  "118": "onlyb_lt",
+  "231": "inter_th",
+  "1280": "inter_lp",
+  "1249": "wocc",
+  "11525": "wocc",
+  "494": "html_tags",
+  "38": "html_tagkinds",
+  "92": "html_a",
+  "8": "html_img",
+  "16": "html_src",
+  "9": "html_uswds_raw",
+  "21": "html_sha3_raw",
+  "24": "Algorithm 引用·官方纯文本",
+  "22": "Table 引用·官方纯文本",
+  "44": "pdf_pages",
+  "198": "pdf_streams",
+  "154": "公共片段段·按版式⇎官方",
+  "158": "公共片段段·无版式⇎官方",
+  "26": "公共片段段·两抽取层之间",
+  "53100": "公共字符·按版式⇎官方",
+  "52317": "公共字符·无版式⇎官方",
+  "2689": "公共字符·落地页⇎官方",
+  "54913": "公共字符·两抽取层之间",
+  "2660": "最长片段·按版式⇎官方",
+  "1135": "最长片段·落地页⇎官方",
+  "4000": "最长片段·两抽取层之间",
+  "95": "共享比例·按版式⇎官方",
+  "93": "共享比例·无版式⇎官方",
+  "29": "省略号 …·官方纯文本",
+  "104": "原样到去空白多配的行",
+  "240": "原样到骨架多配的行",
+  "12": "骨架行长度门槛",
+  "288": "两套非 ASCII 计数之差",
+  "173": "八个关键词·整份 html",
+  "129": "八个关键词·随标签丢掉",
+  "31": "fips 字样·整份 html",
+  "20": "hitkinds",
+  "14": "单层锚",
+  "30": "正文锚处数",
+  "100": "成员检查次数"
+ },
+ "pool_used": 25,
+ "enc_chars": 10533,
+ "nsrc": 4,
+ "flat": {
+  "bytes": [
+   72542,
+   77812,
+   68458,
+   48779
+  ],
+  "chars": [
+   70069,
+   76354,
+   67543,
+   48089
+  ],
+  "lines": [
+   1925,
+   1458,
+   915,
+   676
+  ],
+  "nonblank": [
+   1426,
+   1060,
+   581,
+   577
+  ],
+  "blank": [
+   499,
+   398,
+   334,
+   99
+  ],
+  "medlen": [
+   36,
+   81,
+   47,
+   47
+  ],
+  "maxlen": [
+   167,
+   168,
+   1946,
+   1465
+  ],
+  "gt120": [
+   41,
+   42,
+   162,
+   82
+  ],
+  "le20": [
+   538,
+   116,
+   216,
+   83
+  ],
+  "wocc": [
+   11525,
+   11488,
+   11484,
+   1249
+  ],
+  "wseta": [
+   1268,
+   1281,
+   1285,
+   442
+  ],
+  "wsetb": [
+   1584,
+   1588,
+   1586,
+   274
+  ],
+  "nonascii": [
+   306,
+   18,
+   18,
+   11
+  ],
+  "naskinds": [
+   25,
+   1,
+   1,
+   2
+  ],
+  "formfeed": [
+   0,
+   37,
+   37,
+   0
+  ],
+  "tabchar": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "trailws": [
+   1780,
+   10,
+   3,
+   25
+  ],
+  "multicol": [
+   1,
+   120,
+   0,
+   7
+  ],
+  "pagehdr": [
+   1,
+   1,
+   1,
+   0
+  ],
+  "wrap72": [
+   518,
+   593,
+   215,
+   191
+  ],
+  "onlya_tl": 0,
+  "onlya_lt": 13,
+  "onlyb_tl": 114,
+  "onlyb_lt": 118,
+  "inter_tl": 1268,
+  "inter_tp": 1268,
+  "inter_th": 231,
+  "inter_lp": 1280,
+  "setdiff_ab": [
+   316,
+   307,
+   301,
+   -168
+  ],
+  "le": [
+   39,
+   0,
+   0,
+   0
+  ],
+  "cdot": [
+   37,
+   0,
+   0,
+   0
+  ],
+  "prime": [
+   21,
+   0,
+   0,
+   0
+  ],
+  "ldots": [
+   29,
+   0,
+   0,
+   0
+  ],
+  "oplus": [
+   15,
+   0,
+   0,
+   0
+  ],
+  "pi": [
+   11,
+   0,
+   0,
+   0
+  ],
+  "puf": [
+   11,
+   0,
+   0,
+   0
+  ],
+  "endash": [
+   17,
+   0,
+   0,
+   0
+  ],
+  "emdash": [
+   10,
+   0,
+   0,
+   0
+  ],
+  "minus": [
+   3,
+   0,
+   0,
+   0
+  ],
+  "fffd": [
+   0,
+   18,
+   18,
+   0
+  ],
+  "hyph": [
+   399,
+   422,
+   417,
+   52
+  ],
+  "glyphkinds_T": 10,
+  "glyphkinds_gen": 2,
+  "dashkinds": [
+   5,
+   1,
+   1,
+   1
+  ],
+  "cp_nonascii": [
+   193,
+   18,
+   18,
+   0
+  ],
+  "algo": [
+   24,
+   24,
+   24,
+   1
+  ],
+  "step": [
+   10,
+   10,
+   11,
+   0
+  ],
+  "table": [
+   22,
+   22,
+   22,
+   0
+  ],
+  "figure": [
+   25,
+   25,
+   25,
+   0
+  ],
+  "app": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "algon": [
+   11,
+   11,
+   11,
+   1
+  ],
+  "algomax": [
+   11,
+   11,
+   11,
+   10
+  ],
+  "algosame": 1,
+  "pairtotal": 843,
+  "pair_tl_raw": 452,
+  "pair_tl_strip": 556,
+  "pair_tl_skel": 692,
+  "gap_tl": 136,
+  "pair_tp_raw": 98,
+  "pair_tp_strip": 107,
+  "pair_tp_skel": 135,
+  "gap_tp": 28,
+  "pair_th_raw": 0,
+  "pair_th_strip": 4,
+  "pair_th_skel": 6,
+  "gap_th": 2,
+  "run_pieces": [
+   154,
+   158,
+   6,
+   26
+  ],
+  "run_total": [
+   53100,
+   52317,
+   2689,
+   54913
+  ],
+  "run_max": [
+   2660,
+   2660,
+   1135,
+   4000
+  ],
+  "run_share": [
+   95,
+   93,
+   36,
+   98
+  ],
+  "html_tags": 494,
+  "html_tagkinds": 38,
+  "html_a": 92,
+  "html_img": 8,
+  "html_src": 16,
+  "html_ext": 36,
+  "html_uswds_raw": 9,
+  "html_uswds_body": 0,
+  "html_doi_raw": 4,
+  "html_doi_body": 1,
+  "html_sha3_raw": 21,
+  "html_sha3_body": 8,
+  "doi_occ": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "aug_occ": [
+   2,
+   2,
+   2,
+   1
+  ],
+  "pub_H": 1,
+  "title": "FIPS 202, SHA-3 Standard: Permutation-Based Hash and Extendable-Output Functions | CSRC",
+  "pdf_pages": 44,
+  "pdf_streams": 198,
+  "hitkinds": 20,
+  "hitnorm": 18,
+  "hitraw": 2,
+  "hitsingle": 3,
+  "hitmulti": 3,
+  "hitall": 13,
+  "hitnone": 1,
+  "dots": [
+   29,
+   0,
+   0,
+   0
+  ],
+  "stepsoft": [
+   11,
+   11,
+   11,
+   0
+  ],
+  "skmin": 12,
+  "hkw_raw": 173,
+  "hkw_body": 44,
+  "hkw_lost": 129,
+  "hfp_raw": 31,
+  "hfp_body": 9,
+  "stepwrap": 1,
+  "gen_n": 2,
+  "dl_n": 2,
+  "sha_distinct": 4,
+  "nsrc": 4,
+  "gl_opl": 4,
+  "gl_gap": 4
+ }
+}

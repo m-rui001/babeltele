@@ -1,0 +1,15 @@
+ We chose 90-day lifetimes for our initial offering because ninety days was short enough to strongly encourage automation, but long enough to make it possible to do things manually. While we wanted to encourage automation, that goal was subordinate to making it possible for everyone to enable HTTPS. At the time, automation wasn’t as common as it is today, in part because the ecosystem of tools to enable it (e.g. ACME clients) was young. Today things are very different - automation is far more common and the ecosystem of tools to enable it is much more mature. As such, we are more comfortable with offerings shorter than ninety days now than we were then. 
+ Industry rules will limit certificate lifetimes to a maximum of 47 days starting on March 15, 2029. As such, we will be reducing the maximum lifetime of our certificates to 45 days by February 2028 . 
+ Short-lived certificates with 6-day lifetimes are optionally available to all of our subscribers. 
+Period greater than 825 days. Subscriber Certificates issued after 1 July 2016 but prior to 1 March
+March 2026, a Subscriber Certificate with a Validity Period less than or equal to 10 days (864,000
+no more than 825 days prior to issuing the Certificate. Effective 2021-10-01, for validation
+1.7.1 SC31   398-day Re-use Period                                  2020        2-Jun-2021
+Subordinate CA: A Certification Authority whose Certificate is signed by the Root CA, or
+MUST NOT have a Validity Period greater than 825 days. Subscriber Certificates issued
+   is zero.  GeneralizedTime values MUST NOT include fractional seconds.
+   (notAfter).  Both notBefore and notAfter may be encoded as UTCTime or
+   validity dates through the year 2049 as UTCTime; certificate validity
+       193  825-day Certificate Lifetimes       17-Mar-2017
+notBefore through notAfter, inclusive."
+notAfter 2922 days (approx. 8 years)

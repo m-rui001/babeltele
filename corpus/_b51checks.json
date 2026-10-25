@@ -1,0 +1,344 @@
+{
+ "anchor_total": 36,
+ "anchor_distinct": 35,
+ "tag_counts": {
+  "A": 11,
+  "B": 7,
+  "C": 12,
+  "D": 6
+ },
+ "ameta": {
+  "anchor_total": 36,
+  "anchor_distinct": 35,
+  "anchor_err": 0,
+  "anchor_pair": 11,
+  "anchor_cross": 1,
+  "anchor_single": 21,
+  "anchor_all4": 2,
+  "checks": 140
+ },
+ "ambiguous_picks": 2,
+ "letters_in": 3479,
+ "letters_out": 86,
+ "tagn": 36,
+ "classes": {
+  "pair": [
+   "\"enumerate every cause of hypokalemic metabolic alkalosis with normal-to-low blood pressure",
+   "- Congenital adrenal hyperplasia (11β-hydroxylase, 17α-hydroxylase): hypertension, low renin/aldo",
+   ". Reason out loud, showing every arithmetic check you make.\"",
+   "={1,2,3,4}, L=lcm(3,4,5,5,6,7)=420. S={420,840,1260,1680}.",
+   "Determine, with proof, the largest possible number of pairs (a, b) of elements of a set S of n positive integers with a < b such that a + b divides a*b. Give the exact extremal value as a function of n and characterize the sets attaining it.",
+   "Determine, with proof, the largest possible number of pairs (a, b) of elements of a set S of n positive integers with a < b such that a + b divides a*b. Give the exact extremal value as a function of n and characterize the sets attaining it.\" I",
+   "Gitelman",
+   "Need accurate mechanism.",
+   "decreased intracellular Na and increased basolateral Na/Ca exchange",
+   "enumerate every cause of hypokalemic metabolic alkalosis with normal-to-low blood pressure, then eliminate each one by explicit reference to a specific number or finding above, and state the single most likely diagnosis plus the confirmatory test. Explain the mechanistic reason behind each elimination step, including why the urinary chloride and the fractional calcium excretion discriminate the way they do, and why Mg is low.",
+   "metabolic alkalosis, hypomagnesemia, hypocalciuria, high renin/aldo"
+  ],
+  "cross": [
+   "We can produce maybe 1500-2500 words?"
+  ],
+  "single": [
+   "- DCT (Gitelman, thiazides) reabsorbs ~5",
+   "- Urine Cl 104 also excludes vomiting/NG suction because in those, Cl loss is extrarenal, urine Cl low; excludes post-diuretic state because after diuretic effect wanes, urine Cl low; excludes congenital chloride diarrhea (stool Cl high, urine Cl low); excludes laxative abuse (usually acidosis, low urine Cl).",
+   "A natural guess from extremal graph theory might be \\(\\lfloor n^2/4\\rfloor\\), but \\(n=3\\) already disproves it: \\(\\lfloor9/4\\rfloor=2\\), while the triangle above has \\(3\\) good pairs.",
+   "Alternative interpretation: \"largest possible number of pairs (a,b) of elements of a set S of n positive integers with a<b such that a+b divides a*b\" Maybe they ask max over S, and since C(n,2) trivial, maybe the \"characterize sets attaining it\" means characterize complete sets.",
+   "Could state \"Gitelman is far more likely; CLCNKB-related Bartter III is the main genetic mimic and can be covered by a tubulopathy gene panel.\" Confirmatory test: SLC12A3 sequencing; if negative, CLCNKB.",
+   "Mention \"this is the one mimic that survives the biochemistry; it is excluded by the negative screen/history, but clinically one would confirm with SLC12A3 testing and/or a supervised diuretic screen.\" This shows false lead.",
+   "Need enumerate and eliminate each with specific numbers: BP 104/66 no HTN; renin elevated eliminates low-renin states; aldosterone elevated eliminates low-aldosterone states; primary aldosteronism would have suppressed renin and usually HTN.",
+   "Need exact extremal value C(n,2), characterization likely all sets satisfying pairwise condition, but perhaps can give structural characterization.",
+   "The high urine Cl and Na exclude GI chloride loss; the low FeCa excludes Bartter and loop diuretic; the negative diuretic screen excludes thiazide; the normal BP and elevated renin/aldo exclude Liddle, AME, primary aldosteronism, Cushing, CAH, and reninoma/renal artery stenosis.",
+   "This is the key invariant: every finite configuration can be made admissible by one common dilation, because the obstructions are just finitely many divisibility conditions on \\(M\\).",
+   "Thus, for the problem as stated, the extremal number is the full binomial coefficient, and the extremal sets are governed only by the finite scaling obstruction \\(\\Lambda(T)\\).",
+   "Trying to extend \\(\\{20,30,60\\}\\) by hand also dead-ends: any fourth element \\(d\\) must satisfy \\(d+20\\mid400\\), so, apart from \\(30,60\\), the candidates are \\(5,80,180,380\\); direct checks against \\(30\\) eliminate all of them.",
+   "Wait for any finite set R of positive integers, choose L = lcm_{i<j}(r_i+r_j).",
+   "Wait maximum number of pairs is trivially all if construction.",
+   "Wait our triangle {20,30,60}: minimum 20; other b from divisors of 400: 30 (sum50), 60 (sum80).",
+   "Wait urine anion gap = (Na+ + K+) - Cl-; if positive, unmeasured anions (HCO3-) present; if negative, NH4+ high.",
+   "We need answer clinical reasoning.",
+   "We need answer medical diagnostic reasoning.",
+   "We need solve math problem.",
+   "sets. That is a clean characterization: S is extrem",
+   "| **Gitelman syndrome** | Fits every finding: K 2.7, HCO3 34, urine K 78, urine Na 96, urine Cl 104, high renin/aldo, BP 104/66, Mg 0.58, FeCa 0.8%, cramps, and salt craving."
+  ],
+  "all4": [
+   "Hmm.",
+   "no."
+  ]
+ },
+ "collisions": {
+  "2": [
+   "assume·数论二",
+   "bold·肾病二",
+   "equality·肾病一",
+   "ov_l·B⇎D",
+   "prob·数论一",
+   "unsure·肾病二",
+   "区段两口径差",
+   "四份皆零的模式族数",
+   "四源同文单行句",
+   "四源同文整段句",
+   "四源皆命中的锚",
+   "抓取日数",
+   "末字符非句终的段数",
+   "等号·肾病一",
+   "题面哈希种数"
+  ],
+  "4": [
+   "actually·肾病一",
+   "hmm·肾病二",
+   "verif·肾病一",
+   "wait·肾病二",
+   "源数",
+   "题面哈希自校验命中"
+  ],
+  "1": [
+   "caveat·肾病一",
+   "hmm·数论一",
+   "hmm·肾病一",
+   "ov_l·A⇎B",
+   "wait·肾病一",
+   "wrong·数论二",
+   "去前缀后模型种数",
+   "命中列跨题的锚",
+   "四源同文里四份表面写法全同的组数",
+   "模型串写法数",
+   "题面两口径差"
+  ],
+  "575": [
+   "题面字符·数论一",
+   "题面字符·数论二"
+  ],
+  "961": [
+   "题面字符·肾病一",
+   "题面字符·肾病二"
+  ],
+  "46": [
+   "末字符码位·数论二",
+   "末字符码位·肾病二"
+  ],
+  "53": [
+   "need·数论二",
+   "末字符码位·肾病一"
+  ],
+  "38": [
+   "need·数论一",
+   "need·肾病一",
+   "需求句·肾病一"
+  ],
+  "30": [
+   "however·数论一",
+   "lets·数论一",
+   "wait·数论二"
+  ],
+  "18": [
+   "final·肾病二",
+   "maybe·肾病一",
+   "ov_ls·A⇎B",
+   "结论标记·肾病二"
+  ],
+  "7": [
+   "therefore·肾病一",
+   "wait·数论一"
+  ],
+  "6": [
+   "actually·数论一",
+   "arrow·肾病一",
+   "caveat·肾病二",
+   "hmm·数论二"
+  ],
+  "5": [
+   "caveat·数论二",
+   "prob·数论二",
+   "单行句·数论一⇎肾病一",
+   "单行句·数论一⇎肾病二"
+  ],
+  "10": [
+   "bold·数论二",
+   "prob·肾病一",
+   "单行句·数论二⇎肾病一"
+  ],
+  "3": [
+   "assume·肾病二",
+   "must·数论一"
+  ],
+  "8": [
+   "arrow·数论二",
+   "must·数论二",
+   "纯题面块数·数论"
+  ],
+  "22": [
+   "final·数论二",
+   "词法模式族数"
+  ],
+  "21": [
+   "ov_ls·B⇎D",
+   "ov_ls·C⇎D",
+   "verif·肾病二",
+   "只命中一份源的锚"
+  ],
+  "12": [
+   "ov_s·B⇎D",
+   "ov_s·C⇎D"
+  ],
+  "9": [
+   "arrow·数论一",
+   "ov_sg·B⇎D",
+   "五词串·数论二⇎肾病二"
+  ],
+  "14": [
+   "lets·肾病一",
+   "公共片段块数·数论"
+  ],
+  "11": [
+   "verif·数论一",
+   "命中列恰为同题对的锚",
+   "纯题面块数·肾病"
+  ]
+ },
+ "zero_terms": 31,
+ "deriv_keys": 128,
+ "notes": {
+  "4": "源数",
+  "2": "区段两口径差",
+  "1": "题面两口径差",
+  "23309": "推理区字符·数论一",
+  "81286": "推理区字符·数论二",
+  "22985": "推理区字符·肾病一",
+  "101356": "推理区字符·肾病二",
+  "6908": "回答区字符·数论二",
+  "6748": "回答区字符·肾病二",
+  "575": "题面字符·数论一",
+  "961": "题面字符·肾病一",
+  "24108": "整份字符·数论一",
+  "88999": "整份字符·数论二",
+  "24168": "整份字符·肾病一",
+  "109294": "整份字符·肾病二",
+  "24162": "磁盘字节·数论一",
+  "89367": "磁盘字节·数论二",
+  "24177": "磁盘字节·肾病一",
+  "109336": "磁盘字节·肾病二",
+  "92": "非空行·数论一",
+  "554": "非空行·数论二",
+  "102": "非空行·肾病一",
+  "639": "非空行·肾病二",
+  "592": "句子·数论一",
+  "1491": "句子·数论二",
+  "312": "句子·肾病一",
+  "1299": "句子·肾病二",
+  "612": "单行句·数论一",
+  "1681": "单行句·数论二",
+  "341": "单行句·肾病一",
+  "1445": "单行句·肾病二",
+  "4874": "五词串·数论一",
+  "15432": "五词串·数论二",
+  "3050": "五词串·肾病一",
+  "13520": "五词串·肾病二",
+  "277": "带数句·数论一",
+  "541": "带数句·数论二",
+  "66": "带数句·肾病一",
+  "298": "带数句·肾病二",
+  "1975": "数字符·数论一",
+  "3488": "数字符·数论二",
+  "239": "数字符·肾病一",
+  "1014": "数字符·肾病二",
+  "4165": "词·数论一",
+  "14557": "词·数论二",
+  "3077": "词·肾病一",
+  "14766": "词·肾病二",
+  "3.49": "数论两次之比",
+  "4.41": "肾病两次之比",
+  "109": "末字符码位·数论一",
+  "46": "末字符码位·数论二",
+  "53": "末字符码位·肾病一",
+  "63": "maybe·数论一",
+  "205": "maybe·数论二",
+  "18": "maybe·肾病一",
+  "438": "maybe·肾病二",
+  "30": "however·数论一",
+  "163": "however·数论二",
+  "43": "however·肾病一",
+  "254": "however·肾病二",
+  "368": "equality·数论一",
+  "995": "equality·数论二",
+  "29": "equality·肾病二",
+  "38": "need·数论一",
+  "440": "need·肾病二",
+  "189": "q·数论一",
+  "238": "q·数论二",
+  "75": "q·肾病一",
+  "172": "q·肾病二",
+  "7": "wait·数论一",
+  "22": "final·数论二",
+  "11": "verif·数论一",
+  "40": "verif·数论二",
+  "21": "verif·肾病二",
+  "9": "arrow·数论一",
+  "8": "arrow·数论二",
+  "6": "arrow·肾病一",
+  "41": "arrow·肾病二",
+  "64": "therefore·数论一",
+  "127": "therefore·数论二",
+  "42": "therefore·肾病二",
+  "10": "bold·数论二",
+  "5": "caveat·数论二",
+  "25": "prob·肾病二",
+  "3": "assume·肾病二",
+  "19": "actually·数论二",
+  "20": "actually·肾病二",
+  "108": "lets·数论二",
+  "14": "lets·肾病一",
+  "31": "lets·肾病二",
+  "27.0": "maybe 每万字·数论一",
+  "25.2": "maybe 每万字·数论二",
+  "7.8": "maybe 每万字·肾病一",
+  "43.2": "maybe 每万字·肾病二",
+  "157.9": "equality 每万字·数论一",
+  "122.4": "equality 每万字·数论二",
+  "0.9": "equality 每万字·肾病一",
+  "2.9": "equality 每万字·肾病二",
+  "16.3": "need 每万字·数论一",
+  "6.5": "need 每万字·数论二",
+  "16.5": "need 每万字·肾病一",
+  "43.4": "need 每万字·肾病二",
+  "12.9": "however 每万字·数论一",
+  "20.1": "however 每万字·数论二",
+  "18.7": "however 每万字·肾病一",
+  "25.1": "however 每万字·肾病二",
+  "17": "ov_s·A⇎B",
+  "245": "ov_sg·A⇎B",
+  "12": "ov_s·C⇎D",
+  "179": "ov_sg·C⇎D",
+  "241": "题面引用长度·数论一",
+  "270": "题面引用长度·数论二",
+  "429": "题面引用长度·肾病一",
+  "111": "题面引用长度·肾病二",
+  "17343": "题面引用位置·数论一",
+  "38453": "题面引用位置·数论二",
+  "7674": "题面引用位置·肾病一",
+  "56316": "题面引用位置·肾病二",
+  "57": "公共片段块数·肾病",
+  "981": "公共片段字符·数论",
+  "2903": "公共片段字符·肾病",
+  "244": "最长公共片段·数论",
+  "97": "最长公共片段·肾病",
+  "228936": "四段推理总字符",
+  "35": "去重锚串",
+  "36": "正文引用锚位",
+  "140": "成员检查次数"
+ },
+ "pool_used": 35,
+ "enc_chars": 9340,
+ "lastc": [
+  "m",
+  ".",
+  "5",
+  "."
+ ],
+ "retr": [
+  "2026-10-19T18:12:48",
+  "2026-10-21T04:53:31",
+  "2026-10-19T18:12:48",
+  "2026-10-21T04:55:50"
+ ]
+}

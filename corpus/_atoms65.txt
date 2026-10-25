@@ -1,0 +1,25 @@
+   the request without user interaction so long as the request method is
+   Previous revisions of HTTP gave a specific number of connections as a
+   automatically retry a sequence of outstanding requests are defined in
+   connections places no requirements on the length of this time-out for
+   Servers SHOULD always respond to at least one request per connection,
+      6.4. Concurrency ...............................................55
+   As a result, this specification does not mandate a particular maximum
+   transport connection and retransmit the aborted sequence of requests
+   Servers will usually have some time-out value beyond which they will
+   server or proxy. A proxy SHOULD use up to 2*N connections to another
+   transport connection and retransmit the aborted request without user
+   server-side processing and/or has a large payload blocks subsequent
+   single-user client SHOULD NOT maintain more than 2 connections with
+   A server SHOULD sustain persistent connections, when possible, and
+   Furthermore, using multiple connections can cause undesirable side
+   new connection and automatically retransmit an aborted sequence of
+   connections places no requirements on the length (or existence) of
+   characteristic of a denial-of-service attack, such as an excessive
+   single-user client SHOULD maintain AT MOST 2 connections with any
+   any server or proxy. A proxy SHOULD use up to 2*N connections to
+   side processing and/or transfers very large content would block
+   The limit of two connections per server has been removed.  An
+   and avoid congestion of the Internet or other networks.
+     9.4.  Concurrency
+   48155 Münster

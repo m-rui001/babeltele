@@ -1,0 +1,521 @@
+520
+ack                                [[1, 16], [1, 78], [4, 0], [0, 8], [0, 63]]
+ack_both                           [1, 1, 0, 0, 0]
+ack_major                          [16, 78, 4, 8, 63]
+ack_minor                          [1, 1, 0, 0, 0]
+ack_skew                           [16.0, 78.0, -1, -1, -1]
+addr_head_line                     [6826, 5571, 2436, 4178, 8474]
+addr_head_n                        [1, 2, 2, 4, 4]
+anchor_all5                        6
+anchor_cross                       19
+anchor_distinct                    77
+anchor_err                         0
+anchor_single                      52
+anchor_total                       106
+ans                                [' This interval MUST be configurable and M...
+ans_anchor_line                    [5947, 2048, 1468, 3153, 3106]
+ans_at                             [181910, 85740, 62306, 130582, 137669]
+ans_block_lines                    [2, 3, 3, 3, 4]
+ans_chars                          [79, 99, 139, 138, 222]
+ans_end_line                       [5948, 2049, 1469, 3154, 3108]
+ans_head                           [181910, 85740, 62306, 130582, 137669]
+ans_head_line                      [5948, 2049, 1469, 3154, 3107]
+ans_inside_block                   1
+ans_line_close                     0
+ans_na                             [0, 0, 0, 0, 0]
+ans_needle_gap                     [0, 0, 0, 0, 0]
+ans_needle_line                    [5948, 2049, 1469, 3154, 3107]
+ans_needle_span                    [1, 1, 1, 1, 2]
+ans_pair_same                      1
+ans_punct                          [1, 1, 1, 1, 1]
+ans_row_ledger                     [0, 0, 0, 0, 0]
+ans_ruler_rematch                  1
+ans_sent_at                        [181871, 85691, 62272, 130498, 137582]
+ans_sent_end                       [5948, 2050, 1470, 3155, 3109]
+ans_sent_line                      [5947, 2048, 1468, 3153, 3106]
+ans_sent_span                      [2, 3, 3, 3, 4]
+ans_shell_rows                     [0, 0, 0, 0, 0]
+ans_span                           [1, 1, 1, 1, 2]
+ans_span_close                     0
+ans_span_ind                       [1, 1, 1, 1, 2]
+ans_span_tot                       15
+ans_start_line                     [5948, 2049, 1469, 3154, 3107]
+ans_tag_len                        20
+ans_tag_len_ledger                 0
+ans_tag_n_in_sent                  [0, 2, 0, 0, 0]
+ans_tagdiff                        20
+ans_tail_line                      [5948, 2049, 1469, 3154, 3108]
+ans_words                          [14, 16, 23, 21, 35]
+ans_words_tot                      109
+blank                              [2296, 1207, 530, 839, 1695]
+blk_ans_inside                     [1, 1, 1, 1, 1]
+blk_chars                          [470, 431, 392, 448, 651, 164, 251, 271, 37...
+blk_five_chars                     2392
+blk_five_rows                      45
+blk_five_words                     376
+blk_head_gap                       [-8, -7, -3, 0, -6]
+blk_head_row                       [5939, 2041, 1465, 3153, 3100]
+blk_hi                             [5948, 2050, 1470, 3159, 3111, 5974, 2041, ...
+blk_is_one_line                    [0, 0, 0, 0, 0]
+blk_lo                             [5939, 2041, 1465, 3153, 3100, 5971, 2038, ...
+blk_must_cur                       [5, 10, 0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 2, 2, 2]
+blk_must_re                        [5, 10, 0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 2, 2, 2]
+blk_one_line_n                     0
+blk_rows                           [10, 10, 6, 7, 12, 4, 4, 5, 6, 5, 4, 4, 4, ...
+blk_rows_tot                       89
+blk_tail_row                       [5948, 2050, 1470, 3159, 3111]
+blk_tcp_char_drop                  137
+blk_tcp_char_insert                48
+blk_tcp_char_ledger                0
+blk_tcp_drop                       16
+blk_tcp_equal                      59
+blk_tcp_equal_max                  33
+blk_tcp_equal_runs                 3
+blk_tcp_insert                     7
+blk_tcp_len_gap                    -39
+blk_tcp_naked_chars                381
+blk_tcp_op_n                       6
+blk_tcp_op_tags                    ['delete', 'equal', 'insert', 'equal', 'rep...
+blk_tcp_replace                    1
+blk_tcp_tag_chars                  50
+blk_tcp_tag_widths                 [10, 10, 10, 10, 10]
+blk_tcp_verbatim_sub               0
+blk_tcp_word_gap_ledger            0
+blk_tcp_word_ledger                0
+blk_tcp_word_ledger2               0
+blk_tone_ruler                     1
+blk_tone_ruler_close               0
+blk_vocab                          [58, 49, 48, 57, 62, 22, 38, 33, 53, 42, 25...
+blk_words                          [75, 71, 65, 65, 100, 27, 43, 45, 62, 50, 3...
+blk_words_per_row                  [7, 7, 10, 9, 8]
+blk_words_tot                      765
+bom                                [0, 1, 1, 1, 1]
+bom_in_fold                        [0, 1, 1, 1, 1]
+bom_survives                       4
+bool_all_n                         56
+bool_all_sum                       56
+bool_clos2_n                       20
+bool_clos2_sum                     20
+bool_clos_n                        36
+bool_clos_sum                      36
+bytes                              [289148, 263696, 109913, 191811, 403442]
+chars                              [289148, 263692, 109910, 191809, 403426]
+checks                             385
+cit_brk                            [0, 0, 35, 44, 66]
+cit_rfc                            [0, 156, 30, 48, 40]
+cit_rfc_hyphen                     [24, 0, 0, 0, 0]
+cite_matrix                        [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [25, 9, 0,...
+cite_own                           [0, 5, 3, 7, 3]
+contract_n                         520
+cr                                 [0, 0, 0, 0, 0]
+digit_form_two_hours               [0, 0, 0, 0, 0]
+dur                                [[1, 1, 0, 0, 0, 1, 25, 29, 44, 44], [1, 1,...
+dur_docs                           [[1, 1, 0, 0, 0], [1, 1, 0, 0, 0], [0, 0, 0...
+dur_ruler_gap                      [0, 0, 0, 0, 0, 0, 25, 18, 1, 1, 0, 0, 0, 0...
+dur_tot                            [2, 2, 0, 11, 0, 4, 78, 65, 128, 128]
+dur_word                           [[1, 1, 0, 0, 0, 1, 0, 11, 43, 43], [1, 1, ...
+enc_chars                          15773
+end_nl                             [1, 1, 1, 1, 1]
+face_gain                          [18, 0, 1]
+face_mono                          3
+face_tot                           [42, 60, 60, 61]
+ff                                 [116, 0, 0, 0, 0]
+ff_alone                           [116, 0, 0, 0, 0]
+ff_at_eof                          [0, 0, 0, 0, 0]
+ff_before_nl                       [116, 0, 0, 0, 0]
+ff_led                             [116, 0, 0, 0, 0]
+foot                               [116, 0, 0, 0, 0]
+gain_fold                          [0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, ...
+gain_fold_dup                      3
+gain_fold_key                      18
+gain_fold_tot                      18
+gain_sh                            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ...
+gain_sh_dup                        0
+gain_sh_tot                        0
+gain_tag                           [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ...
+gain_tag_key                       1
+gain_tag_tot                       1
+hdr_old                            [115, 0, 0, 0, 0]
+head_toc_leader_spaced             [1, 0, 0, 0, 0]
+head_toc_leader_strict             [1, 0, 0, 0, 0]
+hexes                              [0, 0, 8, 89, 218]
+idle_compound                      [0, 0, 0, 0, 19]
+idle_term                          [3, 4, 2, 21, 35]
+impl                               [[8, 2], [0, 10], [0, 0], [0, 1], [0, 2]]
+impl_own                           [['', ''], ['', 'implementers'], ['', ''], ...
+ka_form_n                          [2, 2, 1, 1, 0]
+ka_forms                           [[0, 4], [0, 4], [0], [0], []]
+ka_hyphen                          [14, 11, 8, 1, 0]
+ka_merged                          0
+kw_absent_in_1122_row              1
+kw_all_head                        31
+kw_at                              [-1, 8743, 5295, 9143, 12689]
+kw_cite_bcp                        [0, 1, 0, 0, 0]
+kw_cite_pair                       [0, 0, 1, 1, 1]
+kw_docs                            4
+kw_face_close                      2
+kw_four_variants                   1
+kw_head                            ['', 'the key words "must", "must not", "re...
+kw_head_max                        33
+kw_head_min                        31
+kw_head_pre                        [31, 31, 31, 33, 33, 33]
+kw_head_suf                        [0, 0, 0, 33, 33, 33]
+kw_minus_row                       [-1, 221, 172, 267, 380]
+kw_pair_lbl                        ['9293-9112', '9293-9113', '9293-9000', '91...
+kw_same                            [0, 0, 0, 1, 1, 1]
+kw_same_n                          3
+kw_same_raw                        [0, 0, 0, 1, 0, 0]
+kw_same_raw_n                      1
+kw_suf_nz_n                        3
+kw_suf_tot                         99
+kw_suf_zero_n                      3
+kw_vocab_max                       30
+kw_wrap_diff                       2
+lf                                 [6844, 5576, 2461, 4188, 8485]
+lines                              [6845, 5577, 2462, 4189, 8486]
+maxlen                             [72, 72, 72, 72, 72]
+mk_ans_needle_line                 [5948, 2049, 1469, 3154, 3107]
+mk_ans_sent_end                    [5948, 2050, 1470, 3155, 3109]
+mk_ans_sent_line                   [5947, 2048, 1468, 3153, 3106]
+mk_ans_sent_span                   [2, 3, 3, 3, 4]
+must_bare                          [178, 220, 65, 169, 215]
+mustnot_of_must                    [1, 1, 1, 1, 1]
+na_addr_bullet                     [0, 0, 0, 0, 3]
+na_after_ref                       [0, 2, 1, 0, 6]
+na_before_ref                      [0, 0, 0, 0, 0]
+na_bom                             [0, 1, 1, 1, 1]
+na_bom_line                        [0, 1, 1, 1, 1]
+na_cp_new                          13
+na_cp_tot                          13
+na_first_after_ref                 [-1, 1112, 530, -1, 10]
+na_ledger                          [0, 0, 0, 0, 0]
+na_lines                           [0, 3, 2, 1, 7]
+na_name_lines                      [0, 2, 1, 0, 6]
+na_old_total                       0
+na_other                           [0, 2, 1, 0, 11]
+na_other_lines                     [0, 2, 1, 0, 1]
+na_place_ledger                    [0, 0, 0, 0, 0]
+na_ref_entry_lines                 [0, 0, 0, 0, 2]
+na_total                           [0, 3, 2, 1, 12]
+needle_n                           37
+neg_cold_probes                    []
+neg_faces                          ['sh', 'sh', 'sh', 'sh', 'sh', 'sh', 'sh', ...
+neg_fold_n                         1
+neg_n                              15
+neg_owner_present                  15
+neg_probes                         43
+neg_sub                            [[0, 0, 0, 1, 1, 0, 0, 1, 14, 2, 0, 0, 0, 1...
+neg_sub_false                      177
+neg_sub_false_rows                 [['1122', 'keep-alive', 14, 10], ['1122', '...
+neg_sub_ruler                      597
+neg_word                           [[0, 0, 0, 1, 1, 0, 0, 1, 10, 0, 0, 0, 0, 0...
+neg_zero_hits                      0
+nonascii                           [[], [252, 65279], [252, 65279], [65279], [...
+nonblank                           [4549, 4370, 1932, 3350, 6791]
+nsrc                               5
+num                                [[1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1]...
+num_cold                           ['10']
+num_cold_n                         1
+num_cold_split                     1
+num_digit_two                      [0, 0, 0, 0, 0]
+num_digit_two_tot                  0
+num_docs                           [[1, 0, 0, 0, 0], [1, 1, 0, 0, 0], [0, 0, 0...
+num_fam                            ['0', '0.5', '1', '1.0', '10', '20', '25', ...
+num_hot_n                          13
+num_lit_close                      [0, 0, 0, 0, 0]
+num_longform_two                   [0, 1, 0, 0, 0]
+num_own                            [['0 seconds'], ['1.0 seconds', '34 seconds...
+num_own_tot                        10
+num_pairs                          [[['0', 'seconds'], ['0.5', 'seconds'], ['1...
+num_pairs_pick                     [[['0', 'seconds'], ['0.5', 'seconds'], ['1...
+num_pairs_wide                     [[['0', 'seconds'], ['0.5', 'seconds'], ['1...
+num_ruler_gap                      [1, 0, 0, 0, 0]
+num_tot                            [425, 396, 143, 155, 358]
+num_unlisted                       [[], ['4 microseconds'], [], [], []]
+num_unlisted_n                     [0, 1, 0, 0, 0]
+num_word_two                       [1, 1, 0, 0, 0]
+numunit_pick                       [[['0', 'seconds'], ['0.5', 'seconds'], ['1...
+numval_n                           [5, 7, 0, 1, 5]
+numval_s_extra                     [[['3', 's']], [['10', 's']], [], [], []]
+numval_s_lost                      [[], [], [], [], []]
+numval_wide_n                      [6, 8, 0, 1, 5]
+numw                               [[1, 0, 0, 0, 0, 0, 0, 1], [1, 0, 0, 1, 0, ...
+numw_docs                          [[1, 1, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0...
+old_pool_three_cold                1
+ovl_block_lines                    [87, 32]
+ovl_disc_promoted                  2
+ovl_head_line                      [5937, 2029]
+ovl_monotone                       2
+ovl_new                            6
+ovl_new_close                      0
+ovl_new_end                        [84902, 85248, 85689, 86280]
+ovl_new_lines                      [2031, 2038, 2046, 2057]
+ovl_new_loc                        [84733, 85106, 85514, 86054]
+ovl_new_locatable                  1
+ovl_new_n                          4
+ovl_new_rows                       [3, 3, 3, 4]
+ovl_new_tagcut                     [0, 0, 1, 2]
+ovl_new_tagloc                     [84358, 84723, 85111, 85611]
+ovl_s1                             7
+ovl_s2                             11
+ovl_same_canon                     5
+ovl_same_ledger                    0
+ovl_same_raw                       1
+ovl_same_tag                       4
+ovl_shell_in_block                 15
+ovl_spec_lines                     [33, 32]
+ovl_spec_lines_content             [18, 32]
+ovl_tag_only                       3
+page_lit_eaten_by_shell            1
+page_lit_fold                      [1, 0, 0, 0, 0]
+page_lit_rows                      [[58], [], [], [], []]
+page_lit_rows_shell                0
+page_lit_sh                        [0, 0, 0, 0, 0]
+par                                [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0...
+par_n                              [0, 0, 0, 2, 8]
+par_own                            [[], [], [], ['SETTINGS_TIMEOUT'], ['max_id...
+par_under                          [0, 0, 1, 2, 190]
+persist                            [0, 0, 19, 2, 0]
+pgnum                              [1, 3, 0, 0, 0]
+pgnum_overstrip                    [1, 3, 0, 0, 0]
+pgnum_row_lines                    [[5092], [9, 539, 557], [], [], []]
+pgnum_shell                        [0, 0, 0, 0, 0]
+pick_agree                         63
+pick_diff                          0
+pick_diff_keys                     []
+pick_needle_gap                    0
+pick_same_n                        63
+pin_checked                        5
+pin_line_close                     0
+pool_all_five                      0
+pool_dup                           483
+pool_ie                            1
+pool_ie_close                      0
+pool_max_pair                      38
+pool_min_pair_new                  27
+pool_n                             [3344, 2730, 1325, 2287, 5080]
+pool_n25                           [3676, 3316, 1525, 2758, 5645]
+pool_new_four                      18
+pool_new_toned                     1151
+pool_old_shared                    8
+pool_old_shared_bom                0
+pool_old_shared_pres               [2, 2, 2, 2, 2, 2, 2, 2]
+pool_old_shared_rfcline            0
+pool_old_shared_status             0
+pool_old_shared_toned              1
+pool_old_shares_only_tcp_body      1
+pool_old_toned                     296
+pool_pair                          {'1122-9000': 0, '1122-9112': 0, '1122-9113...
+pool_pair_by                       [8, 0, 0, 0, 32, 30, 38, 36, 27, 33]
+pool_pair_new                      196
+pool_pair_new_keys                 ['9112-9000', '9112-9113', '9113-9000', '92...
+pool_pair_old                      8
+pool_pair_old_keys                 ['1122-9000', '1122-9112', '1122-9113', '11...
+pool_pair_old_n                    3
+pool_pair_tot                      204
+pool_quad                          {'1122-9112-9113-9000': 0, '1122-9293-9112-...
+pool_quad_tot                      18
+pool_raw_rows                      [3353, 2955, 1368, 2354, 5219]
+pool_shared_bom                    0
+pool_shared_new                    88
+pool_shared_rfcline                27
+pool_shared_status                 1
+pool_shared_toned                  3
+pool_sum                           14766
+pool_sum_close                     0
+pool_tier                          [14529, 69, 9, 18, 0]
+pool_tier_close                    0
+pool_trip                          {'1122-9112-9000': 0, '1122-9112-9113': 0, ...
+pool_trip_tot                      81
+pool_union                         14625
+pool_union25                       16745
+pool_widen                         2120
+pp_gap_close                       0
+pp_gap_is_shell_nonblank           1
+pp_gap_rows                        [231, 0, 0, 0, 0]
+pp_rows                            [4318, 4370, 1932, 3350, 6791]
+pp_shell_nonblank                  [231, 0, 0, 0, 0]
+ref_body_line                      [6556, 4433, 1928, 3665, 8031]
+ref_ledger                         [0, 0, 0, 0, 0]
+ref_print_n                        [1, 2, 2, 2, 2]
+ref_toc_line                       [6556, 128, 125, 147, 246]
+role_by_face                       [[8, 7, 5, 6, 16], [11, 11, 8, 9, 21], [11,...
+role_fold                          [[1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0,...
+role_fold_n                        [11, 11, 8, 9, 21]
+role_gain_fold                     [3, 4, 3, 3, 5]
+role_gain_sh                       [0, 0, 0, 0, 0]
+role_gain_tag                      [0, 1, 0, 0, 0]
+role_hit_by_face                   [9, 11, 8, 7, 11]
+role_line                          [[1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0,...
+role_line_miss_n                   15
+role_line_n                        [8, 7, 5, 6, 16]
+role_line_read_n                   30
+role_read_tag_n                    46
+role_sh                            [[1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0,...
+role_sh_n                          [11, 11, 8, 9, 21]
+role_shell                         [[], [], [], [], []]
+role_shell_n                       [0, 0, 0, 0, 0]
+role_shell_needles                 []
+role_src                           {'0': '9293', '2': '9293', '3': '9293', '6'...
+role_tag                           [[1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0,...
+role_tag_n                         [11, 12, 8, 9, 21]
+role_tagcut                        [[], [2], [], [], []]
+role_tagcut_flat                   [['9293', 'configurable and MUST default']]
+role_tagcut_keys                   [[1, 2]]
+role_tagcut_n                      [0, 1, 0, 0, 0]
+role_wrap                          [[3, 6], [0, 3, 7, 34], [8, 11, 15], [16, 2...
+role_wrap_flat                     [['1122', 'interval MUST be configurable'],...
+role_wrap_keys                     [[0, 3], [0, 6], [1, 0], [1, 3], [1, 7], [1...
+role_wrap_n                        [2, 4, 3, 2, 4]
+row_form_ledger                    [0, 0, 0, 0, 0]
+sec_ans_gap                        [10, 19, 5, 23, 8]
+sec_ans_inside                     [1, 1, 1, 1, 1]
+sec_body_indent                    [9, 0, 0, 0, 0]
+sec_body_line                      [5937, 2029, 1463, 3130, 3098]
+sec_chars                          [2638, 1571, 1759, 3268, 3458]
+sec_chars_tot                      12694
+sec_child                          [0, 0, 0, 1, 2]
+sec_end_no                         ['4.2.3.7', '3.8.5.', '9.6.', '9.2.', '10.2.']
+sec_hit_n                          [2, 2, 2, 2, 19]
+sec_lines                          [88, 33, 35, 65, 70]
+sec_lines_tot                      291
+sec_lines_tot2                     291
+sec_no                             ['4.2.3.6', '3.8.4', '9.5', '9.1', '10.1']
+sec_print_n                        [2, 2, 2, 2, 2]
+sec_refs                           [123, 49, 208, 311, 530]
+sec_shell_rows                     [33, 6, 6, 12, 13]
+sec_shell_tot                      70
+sec_span_pct                       [1.28, 0.72, 1.76, 1.88, 0.94]
+sec_toc_indent                     [12, 7, 5, 5, 5]
+sec_toc_line                       [185, 109, 108, 126, 125]
+sec_tone_only_n                    5
+sec_tone_tot                       [13, 20, 6, 7, 2]
+sec_tone_tot_all                   48
+sec_tone_zero_n                    0
+seg_rt                             [1, 2, 1, 1, 2, 2, 2, 1, 2, 1, 1, 2, 2, 2, ...
+seg_rt_all                         1
+seg_rt_cut                         13
+seg_rt_head                        15
+seg_rt_n                           30
+seg_rt_ok                          30
+seg_rt_tail                        15
+seg_rt_whole                       17
+shell_ledger                       [0, 0, 0, 0, 0]
+shell_lines                        [2527, 1207, 530, 839, 1695]
+shell_pred_agree                   1
+shell_pred_diff                    0
+spell                              [[14, 0, 0, 0, 4, 3, 0, 0, 0, 1, 16, 8, 2, ...
+spell_docs                         [[14, 11, 8, 1, 0], [0, 0, 0, 0, 0], [0, 0,...
+spell_own                          [['implementors'], [], ['inactive'], [], ['...
+spell_own_tot                      3
+spell_ruler_gap                    [4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, ...
+spell_ruler_gap_tot                58
+spell_tot                          [53, 111, 35, 33, 125]
+spell_tot_docs                     [34, 0, 0, 0, 8, 65, 19, 1, 21, 6, 165, 8, ...
+spell_word                         [[10, 0, 0, 0, 4, 3, 0, 0, 0, 1, 12, 8, 2, ...
+split_adj_n                        15
+split_full_on_head                 0
+split_gap_rows                     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+split_half_ok                      15
+split_head                         [5947, 5984, 2043, 2048, 2054, 2040, 1469, ...
+split_head_chars                   [16, 23, 20, 13, 29, 9, 33, 16, 24, 54, 29,...
+split_k                            [3, 6, 0, 3, 7, 34, 8, 11, 15, 16, 20, 24, ...
+split_lbl                          ['1122', '1122', '9293', '9293', '9293', '9...
+split_ledger                       0
+split_ledger_close                 1
+split_n                            15
+split_reverse_cold                 1
+split_rows_tot                     555
+split_span                         [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+split_span_tot                     30
+split_tagcut_n                     1
+split_tail                         [5948, 5985, 2044, 2049, 2055, 2041, 1470, ...
+split_tail_chars                   [12, 26, 3, 15, 7, 9, 26, 5, 19, 8, 11, 6, ...
+split_wrap_n                       15
+splitlines                         [6960, 5576, 2461, 4188, 8485]
+splitnl                            [6845, 5577, 2462, 4189, 8486]
+straddle_is_mustnot_only           1
+tag_1122                           16
+tag_9000                           28
+tag_9112                           15
+tag_9113                           14
+tag_9293                           33
+tag_bare                           [0, 126, 0, 0, 0]
+tag_bracket_samples                [[], ['by the IP layer [(MUST-63)] (see ', ...
+tag_decl                           [0, 1, 0, 0, 0]
+tag_eaten                          [0, 1037, 0, 0, 0]
+tag_form_ledger                    [0, 0, 0, 0, 0]
+tag_kind_close                     [0, 0, 0, 0, 0]
+tag_kind_sum                       [0, 237, 0, 0, 0]
+tag_kinds                          [[0, 0, 0, 0, 0], [140, 0, 36, 61, 0], [0, ...
+tag_max_num                        [0, 69, 0, 0, 0]
+tag_paren                          [0, 108, 0, 0, 0]
+tag_paren_bracket                  [0, 2, 0, 0, 0]
+tag_paren_comma                    [0, 14, 0, 0, 0]
+tag_paren_kind                     [[0, 0, 0, 0, 0, 0, 0], [61, 0, 0, 0, 18, 2...
+tag_paren_kind_close               [0, 0, 0, 0, 0]
+tag_paren_mid                      [0, 13, 0, 0, 0]
+tag_paren_period                   [0, 81, 0, 0, 0]
+tag_paren_place_close              [0, 0, 0, 0, 0]
+tag_paren_prose                    [0, 1, 0, 0, 0]
+tag_paren_prose_samples            [[], ['(MUST-4 -- note Maximum Segment'], [...
+tag_raw                            [0, 237, 0, 0, 0]
+tag_sh                             [0, 237, 0, 0, 0]
+tagcut_between_is_tag              1
+tagcut_eaten                       [10]
+tagcut_eaten_close                 [0, 0, 0, 0, 0]
+tagcut_halves_are_face_pieces      1
+tagcut_head                        ['configurable']
+tagcut_head_row                    [2049]
+tagcut_k                           [2]
+tagcut_lbl                         ['9293']
+tagcut_ledger                      [0]
+tagcut_mid                         [' (MUST-27)']
+tagcut_mid_chars                   [70]
+tagcut_mid_n                       [1]
+tagcut_n                           1
+tagcut_needle                      ['configurable and MUST default']
+tagcut_span                        [1]
+tagcut_tag_chars                   [10]
+tagcut_tail                        [' and MUST default']
+tagcut_tail_row                    [2049]
+tagcut_win_head                    ['be configurable (MUST-27) and MUST']
+tagcut_win_tail                    ['and MUST default to no less than two']
+tcp_block_rewritten_not_reprinted  1
+tone_docs                          [[200, 228, 87, 225, 304], [22, 8, 22, 56, ...
+tone_drop_ledger                   [0, 0, 0, 0, 0]
+tone_drop_tag                      [[0, 0, 0, 0, 0], [61, 0, 0, 0, 18], [0, 0,...
+tone_drop_tot                      [0, 79, 0, 0, 0]
+tone_fold                          [[200, 22, 73, 8, 41], [228, 8, 40, 8, 58],...
+tone_in_blk                        [6, 10, 0, 1, 0, 0, 0, 1, 1, 2, 2, 5, 5, 5, 5]
+tone_ledger                        [0, 0, 0, 0, 0]
+tone_line                          [[200, 20, 73, 8, 41], [228, 7, 40, 8, 58],...
+tone_may_blk                       [1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1]
+tone_must_blk                      [5, 10, 0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 2, 2, 2]
+tone_must_ledger                   [0, 0, 0, 0, 0]
+tone_mustnot_blk                   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
+tone_sh                            [[200, 22, 73, 8, 41], [228, 8, 40, 8, 58],...
+tone_sh_gain                       [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ...
+tone_should_blk                    [0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 1, 2, 2, 2, 2]
+tone_straddle                      [2, 1, 0, 0, 4]
+tone_straddle_adj                  7
+tone_straddle_blank                0
+tone_straddle_blank_rows           0
+tone_straddle_by_kind              [7]
+tone_straddle_gap_shell            0
+tone_straddle_ledger               0
+tone_straddle_n                    7
+tone_straddle_nd                   ['MUST NOT']
+tone_tag                           [[200, 22, 73, 8, 41], [167, 8, 40, 8, 40],...
+tone_tag_blk                       [0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+tone_tag_gain                      [0, 0, 0, 0, 0, -61, 0, 0, 0, -18, 0, 0, 0,...
+tone_tot                           [344, 342, 168, 370, 650]
+tone_wrap_gain                     [0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, ...
+tone_wrap_gain_mn                  [2, 1, 0, 0, 4]
+trailing_nl                        [1, 1, 1, 1, 1]
+voice_impersonal                   [42, 38, 28, 38, 40]
+voice_we                           [34, 21, 0, 0, 1]
+voice_weverb                       [6, 0, 0, 0, 0]
+years                              [1989, 2022, 2022, 2022, 2021]
+zid_scan2_n                        45
+zid_scan_n                         37

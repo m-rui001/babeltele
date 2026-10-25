@@ -1,0 +1,4 @@
+Fix a possible heap-buffer overflow on 32-bit builds.
+Fixes other problems in 3.54.0 reported by users.
+Fixes for problems in 3.53.0 (and 3.53.1, 3.53.2, and 3.53.3) mostly coming from AIs.
+See the check-in timeline for details.

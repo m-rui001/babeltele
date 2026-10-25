@@ -1,0 +1,22 @@
+"author_corresponding":"Shyamal Mosalaganti"
+"author_corresponding_institution":"University of Michigan-Ann Arbor"
+"doi":"10.1101\/2025.09.22.677801"
+"doi":"10.1101\/2025.09.22.677801","date":"2026-01-01","version":"2"
+"doi":"10.1101\/2025.09.22.677801","date":"2026-01-01","version":"2","type":"new results","license":"cc_by_nc_nd","category":"microbiology"
+"doi":"10.64898\/2025.12.28.696719"
+"jatsxml":"https:\/\/www.biorxiv.org\/content\/early\/2026\/01\/01\/2025.09.22.677801.source.xml"
+"published":"10.1016\/j.cell.2026.05.017"
+"published":"NA","server":"bioRxiv"}]}
+"title":"Engineering Spatial Control of Bacterial Organelles","authors":"Hoang, Y.; Jadhav, P. V.; Trettel, D.; Dow, R. E.; Kwon, S.; Matej, K.; Byrne, J. A.; Azaldegui, C. A.; Giessen, T. W.; Pi, H.; Mosalaganti, S.; Vecchiarelli, A. G."
+(McdAB) that positions carboxysomes-CO2-fixing organelles found in autotrophic
+2 Life Sciences Institute, University of Michigan; Ann Arbor, MI 48108, USA
+CC-BY-NC-ND 4.0 International license
+Engineering Spatial Control of Bacterial Organelles
+FDR < 10-10)
+Ma\u0308yra\u0308npa\u0308a
+SCN\u03b1 gene family
+carboxysomes - CO2
+contrast transfer function (CTF) estimation were performed using WarpTools v2.0.0 (23).
+positioning of heterologously expressed carboxysomes in E. coli, but can also be
+url: https://www.biorxiv.org/content/10.1101/2025.09.22.677801v1.full.pdf
+{"status":"ok","category":"all","interval":"2026-01-01:2026-01-05","cursor":"1","count":30,"count_new_papers":"397","total":"575"}

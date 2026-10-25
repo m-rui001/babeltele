@@ -1,0 +1,38 @@
+{
+ "chars": [
+  1633
+ ],
+ "words": [
+  230
+ ],
+ "submit_year": [
+  2026
+ ],
+ "arxiv_id": [
+  "2610.31646"
+ ],
+ "billion_params": [
+  196
+ ],
+ "deepseek_ver": [
+  4.1
+ ],
+ "qwen_ver": [
+  3.8
+ ],
+ "ppl_increase_max": [
+  1.2
+ ],
+ "n_n_gram": [
+  4
+ ],
+ "n_table": [
+  12
+ ],
+ "n_memory": [
+  9
+ ],
+ "n_quantiz": [
+  1
+ ]
+}

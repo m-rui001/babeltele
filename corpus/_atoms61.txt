@@ -1,0 +1,13 @@
+   IPv6 packets with payloads between 65,536 and 4,294,967,295 octets in
+   requirements (1500 octets for IPv6).  When a message larger than PMTU
+   IPv4, fragmentation in IPv6 is performed only by source nodes, not by
+   is recommended that they be configured with an MTU of 1500 octets or
+   payload may have to be reduced to 1232 octets (1280 minus 40 for the
+   any link that cannot convey a 1280-octet packet in one piece, link-
+   document does not cite the RFC 2119 definitions and only uses lower
+   payload may have to be reduced to 528 octets (576 minus 40 for the
+   A "jumbogram" is an IPv6 packet containing a payload longer than
+    01) In section 5, changed the minimum IPv6 MTU from 576 to 1280
+      specification doesn't cite RFC 2119 and only uses lower case
+    02) Removed all references to jumbograms and the Jumbo Payload
+       The Jumbo Payload option is used to send IPv6 packets with

@@ -1,0 +1,1462 @@
+{
+ "anchor_total": 22,
+ "anchor_distinct": 18,
+ "tag_counts": {
+  "T": 6,
+  "O": 10,
+  "F": 4,
+  "N": 2
+ },
+ "ameta": {
+  "anchor_total": 22,
+  "anchor_distinct": 18,
+  "anchor_err": 0,
+  "anchor_single": 17,
+  "anchor_cross": 1,
+  "anchor_all4": 0,
+  "checks": 72
+ },
+ "letters_in": 994,
+ "letters_out": 606,
+ "tagn": 22,
+ "classes": {
+  "single": [
+   "0.30000000000000004. A simple implementation of Roundup would round this up",
+   "0.85 | 0.62 (0.68 if Scope / Modified Scope is Changed) | 0.27 (0.50 if Scope / Modified Scope is Changed)",
+   "7.52 x (MISS - 0.029) - 3.25 x (MISS x 0.9731 - 0.02)13",
+   "Appendix A - Floating Point Rounding",
+   "CVSS v4 Score: Base + Threat + Environmental 6.6",
+   "If Modified Scope Changed 7.52 x [ISCModified-0.029] - 3.25 x [ISCModified-0.02]15",
+   "Network | Adjacent Network | Local | Physical",
+   "Roundup returns the smallest number, specified to 1 decimal place,",
+   "Safety is a Supplemental metric which may be optionally assessed by a scoring provider with values of Not Defined (X), Present (P), or Negligible (N). In the case of a system that intends to have health-related functions, it might also have a Safety-related consequence if a vulnerability is exploited. Let's look at an example.",
+   "Scope Changed 7.52 x [ISCBase-0.029] - 3.25 x [ISCBase-0.02]15",
+   "Scope Unchanged[4] Round up (Minimum [(Impact + Exploitability), 10]) |",
+   "Since EQ3 and EQ6 are not independent they must be considered together",
+   "The score of a vector within each MacroVector is defined by interpolation.",
+   "example consider EQ3=2 which is defined in Table 26 as all metrics values such",
+   "function Roundup (input):",
+   "point arithmetic. For example, although the intuitive result of 0.1 + 0.2 is",
+   "which differs from CVSS v3.0. See the User Guide for more details of this"
+  ],
+  "two": [
+   "Roundup (Minimum [1.08 x (Impact + Exploitability), 10])"
+  ],
+  "three": [],
+  "four": []
+ },
+ "collisions": {
+  "692": [
+   "nonblank\u00b7v3.0 \u89c4\u8303"
+  ],
+  "18989": [
+   "maxlen\u00b7v3.1 \u89c4\u8303",
+   "maxlen\u00b7v4.0 \u89c4\u8303",
+   "maxlen\u00b7\u7b97\u4f8b\u6587\u6863"
+  ],
+  "1": [
+   "maxline_shared",
+   "ent_lt\u00b7\u7b97\u4f8b\u6587\u6863",
+   "ar_k9731",
+   "w_tab_n\u00b7v3.0 \u89c4\u8303",
+   "w_tab_n\u00b7v3.1 \u89c4\u8303",
+   "wt_maxpack\u00b7v3.1 \u89c4\u8303",
+   "v30_adjnet",
+   "ar_pseudo\u00b7v3.1 \u89c4\u8303",
+   "arith_any\u00b7v3.0 \u89c4\u8303",
+   "arith_any\u00b7v3.1 \u89c4\u8303",
+   "ar_k0915\u00b7v3.0 \u89c4\u8303",
+   "ar_k0915\u00b7v3.1 \u89c4\u8303",
+   "bl_lookup\u00b7v4.0 \u89c4\u8303",
+   "bl_interp\u00b7v4.0 \u89c4\u8303",
+   "sp_negligible\u00b7\u7b97\u4f8b\u6587\u6863",
+   "sp_safety\u00b7v3.0 \u89c4\u8303",
+   "sp_safety\u00b7v3.1 \u89c4\u8303",
+   "pair_skip_n",
+   "anchor_cross"
+  ],
+  "56": [
+   "nonascii\u00b7\u7b97\u4f8b\u6587\u6863"
+  ],
+  "32": [
+   "br_tags\u00b7v4.0 \u89c4\u8303",
+   "wt_val_rows\u00b7v3.1 \u89c4\u8303",
+   "wt_nums\u00b7v3.0 \u89c4\u8303",
+   "wt_nums\u00b7v3.1 \u89c4\u8303",
+   "pair_scope_base_loose"
+  ],
+  "4": [
+   "sup_tags\u00b7v4.0 \u89c4\u8303",
+   "nbsp\u00b7v4.0 \u89c4\u8303",
+   "sha_distinct",
+   "pr_alt_same",
+   "full_grid",
+   "pair_k40_blank",
+   "pair_scope_base_gap",
+   "band_label_lines\u00b7\u7b97\u4f8b\u6587\u6863"
+  ],
+  "2": [
+   "nbsp\u00b7\u7b97\u4f8b\u6587\u6863",
+   "coef_env_diff_n",
+   "w_altrows_v30",
+   "w_altrows_v31",
+   "v30_sg",
+   "full_grid",
+   "full_grid",
+   "full_grid",
+   "ar_k822\u00b7v3.0 \u89c4\u8303",
+   "ar_k822\u00b7v3.1 \u89c4\u8303",
+   "ar_k642\u00b7v3.0 \u89c4\u8303",
+   "ar_k642\u00b7v3.1 \u89c4\u8303",
+   "ar_k108\u00b7v3.0 \u89c4\u8303",
+   "ar_k108\u00b7v3.1 \u89c4\u8303",
+   "bl_lookup\u00b7v3.0 \u89c4\u8303",
+   "bl_lookup\u00b7v3.1 \u89c4\u8303",
+   "pair_col_kinds"
+  ],
+  "20": [
+   "ent_all\u00b7v4.0 \u89c4\u8303"
+  ],
+  "8": [
+   "coef_base_n_equal",
+   "coef_env_keys",
+   "repro_repeat",
+   "pair_k31_base"
+  ],
+  "15": [
+   "mexp30",
+   "band_diff"
+  ],
+  "5": [
+   "sp_miss\u00b7v3.1 \u89c4\u8303",
+   "wt_maxpack\u00b7v3.0 \u89c4\u8303",
+   "sp_prov_urg\u00b7v4.0 \u89c4\u8303",
+   "skip_n",
+   "pair_k31blank_k40composite",
+   "band_label_lines\u00b7v3.0 \u89c4\u8303",
+   "band_label_lines\u00b7v3.1 \u89c4\u8303",
+   "share_all4"
+  ],
+  "10": [
+   "wt_rows\u00b7v3.0 \u89c4\u8303",
+   "ar_ru_up\u00b7v3.0 \u89c4\u8303",
+   "comp_other_strict",
+   "w_names_v30",
+   "w_names_v31"
+  ],
+  "33": [
+   "wt_rows\u00b7v3.1 \u89c4\u8303"
+  ],
+  "9": [
+   "wt_metric_rows\u00b7v3.0 \u89c4\u8303",
+   "wt_metric_rows\u00b7v3.1 \u89c4\u8303",
+   "eq_level_kinds"
+  ],
+  "23": [
+   "wt_cont_rows\u00b7v3.1 \u89c4\u8303",
+   "band_same"
+  ],
+  "6": [
+   "w_groupheads_v31",
+   "v30_pl",
+   "mono_bad_v31formula",
+   "mono_both",
+   "mono_capped31",
+   "pair_k40_composite",
+   "band_moves_n",
+   "band_label_lines\u00b7v4.0 \u89c4\u8303",
+   "share_ON"
+  ],
+  "44": [
+   "w_triples_v31",
+   "w_common",
+   "w_equal",
+   "pair_tbl_n_all"
+  ],
+  "11": [
+   "v31_pl",
+   "delta_base_down"
+  ],
+  "2496": [
+   "full_pseudo_eq_exact",
+   "full_guard_eq_exact",
+   "full_ceil_eq_exact"
+  ],
+  "3": [
+   "full_grid",
+   "full_grid",
+   "full_grid",
+   "full_grid",
+   "eq3_6\u00b7v4.0 \u89c4\u8303",
+   "sp_negligible\u00b7v4.0 \u89c4\u8303"
+  ],
+  "2592": [
+   "full_grid_prod",
+   "full_eq3031"
+  ],
+  "7": [
+   "full_capped",
+   "bl_cons\u00b7v4.0 \u89c4\u8303",
+   "pair_samecell"
+  ],
+  "29": [
+   "repro_vec_distinct",
+   "repro_ok",
+   "repro_ok30",
+   "repro30_eq_31",
+   "repro_guard_eq",
+   "repro_ceil_eq"
+  ],
+  "27": [
+   "mono_req",
+   "sp_safety\u00b7v4.0 \u89c4\u8303"
+  ],
+  "18": [
+   "mono_uncapped30",
+   "anchor_distinct"
+  ],
+  "96": [
+   "mono_capped30",
+   "vec_distinct"
+  ],
+  "0.5": [
+   "mono_req_min"
+  ],
+  "39": [
+   "bl_mv\u00b7v4.0 \u89c4\u8303"
+  ],
+  "14": [
+   "eq_or"
+  ],
+  "16": [
+   "sp_safety\u00b7\u7b97\u4f8b\u6587\u6863",
+   "delta_neg",
+   "scalar_clos_n"
+  ],
+  "28": [
+   "pair_scope_base_strict"
+  ],
+  "17": [
+   "delta_base_up",
+   "w_firstletter_ok",
+   "w_firstletter_ok",
+   "anchor_single"
+  ],
+  "22": [
+   "delta_pos",
+   "anchor_total"
+  ],
+  "['Critical', 'High', 'Low', 'Medium', 'None']": [
+   "band_vocab\u00b7v3.1 \u89c4\u8303"
+  ],
+  "12": [
+   "share_TF"
+  ]
+ },
+ "zero_terms": 112,
+ "deriv_keys": 98,
+ "deriv_points": 233,
+ "notes": {
+  "11": "\u884c\u6570\u6574\u9664\u5546",
+  "11.68": "\u884c\u6570\u6bd4\u4e24\u4f4d",
+  "1": "v3.1 \u884c\u6570\u5dee",
+  "77769": "bytes\u00b7v3.0 \u89c4\u8303",
+  "89323": "bytes\u00b7v3.1 \u89c4\u8303",
+  "118046": "bytes\u00b7v4.0 \u89c4\u8303",
+  "229650": "bytes\u00b7\u7b97\u4f8b\u6587\u6863",
+  "692": "lines\u00b7v3.0 \u89c4\u8303",
+  "1371": "lines\u00b7v3.1 \u89c4\u8303",
+  "2009": "lines\u00b7v4.0 \u89c4\u8303",
+  "5701": "lines\u00b7\u7b97\u4f8b\u6587\u6863",
+  "1372": "nonblank\u00b7v3.1 \u89c4\u8303",
+  "2010": "nonblank\u00b7v4.0 \u89c4\u8303",
+  "5702": "nonblank\u00b7\u7b97\u4f8b\u6587\u6863",
+  "17": "table_tags\u00b7v3.0 \u89c4\u8303",
+  "20": "table_tags\u00b7v3.1 \u89c4\u8303",
+  "32": "table_tags\u00b7v4.0 \u89c4\u8303",
+  "118": "table_tags\u00b7\u7b97\u4f8b\u6587\u6863",
+  "82": "tr_rows\u00b7v3.0 \u89c4\u8303",
+  "139": "tr_rows\u00b7v3.1 \u89c4\u8303",
+  "175": "tr_rows\u00b7v4.0 \u89c4\u8303",
+  "958": "tr_rows\u00b7\u7b97\u4f8b\u6587\u6863",
+  "56": "tr_rows_rest",
+  "18989": "maxlen\u00b7v3.0 \u89c4\u8303",
+  "111": "meanlen\u00b7v3.0 \u89c4\u8303",
+  "64": "meanlen\u00b7v3.1 \u89c4\u8303",
+  "58": "meanlen\u00b7v4.0 \u89c4\u8303",
+  "39": "meanlen\u00b7\u7b97\u4f8b\u6587\u6863",
+  "77626": "chars\u00b7v3.0 \u89c4\u8303",
+  "89170": "chars\u00b7v3.1 \u89c4\u8303",
+  "117823": "chars\u00b7v4.0 \u89c4\u8303",
+  "229541": "chars\u00b7\u7b97\u4f8b\u6587\u6863",
+  "128": "nonascii\u00b7v3.0 \u89c4\u8303",
+  "110": "nonascii\u00b7v3.1 \u89c4\u8303",
+  "116": "nonascii\u00b7v4.0 \u89c4\u8303",
+  "131": "br_tags\u00b7v3.0 \u89c4\u8303",
+  "18": "br_tags\u00b7v3.1 \u89c4\u8303",
+  "24": "br_tags\u00b7\u7b97\u4f8b\u6587\u6863",
+  "4": "sup_tags\u00b7v3.0 \u89c4\u8303",
+  "5": "sup_tags\u00b7v3.1 \u89c4\u8303",
+  "2": "ent_lt\u00b7v3.0 \u89c4\u8303",
+  "3": "ent_lt\u00b7v3.1 \u89c4\u8303",
+  "80": "nbsp\u00b7v3.0 \u89c4\u8303",
+  "33": "nbsp\u00b7v3.1 \u89c4\u8303",
+  "26": "ent_all\u00b7v3.0 \u89c4\u8303",
+  "29": "ent_all\u00b7v3.1 \u89c4\u8303",
+  "23": "ent_all\u00b7\u7b97\u4f8b\u6587\u6863",
+  "8": "coef_base_n",
+  "15": "exp30",
+  "13": "mexp31",
+  "1.0": "mf30",
+  "0.9731": "mf31",
+  "10": "sp_iss\u00b7v3.1 \u89c4\u8303",
+  "9": "wt_val_rows\u00b7v3.0 \u89c4\u8303",
+  "6": "w_groupheads_v30",
+  "44": "w_triples_v30",
+  "0.62": "pr_alt",
+  "0.68": "pr_alt",
+  "0.27": "pr_alt",
+  "0.5": "pr_alt",
+  "14": "ar_ru\u00b7v3.1 \u89c4\u8303",
+  "2496": "full_ok",
+  "7": "full_exact_on_tenth",
+  "2592": "full_vectors",
+  "96": "full_zero",
+  "37": "repro_cand",
+  "27": "mono_cia",
+  "729": "mono_combos",
+  "1458": "mono_pairs",
+  "114": "mono_bad_v30formula",
+  "108": "mono_only30",
+  "0.915": "cap30",
+  "0.026273": "mono_worst30_amp",
+  "1.8234": "mono_worst31_amp_e5",
+  "1.5": "mono_req_max",
+  "22": "eq_row_n",
+  "16": "eq_and",
+  "12": "eq_not",
+  "112": "vec_occ",
+  "38": "sp_n",
+  "30": "pair_k31_blank",
+  "28": "pair_k40_base",
+  "10.5": "delta_base_sum",
+  "2.9000000000000004": "delta_abs_max",
+  "8.7": "delta_sum",
+  "-1.8": "delta_mix_gap",
+  "['Critical', 'High', 'Low', 'Medium', 'None']": "band_vocab\u00b7v3.0 \u89c4\u8303",
+  "['Critical', 'High', 'Low', 'Medium', 'Negligible', 'None']": "band_vocab\u00b7v4.0 \u89c4\u8303",
+  "[]": "band_vocab\u00b7\u7b97\u4f8b\u6587\u6863",
+  "233": "lines_ge20",
+  "607": "lines_ge20",
+  "67": "share_TO",
+  "166": "only_T",
+  "540": "only_O",
+  "773": "union_TO",
+  "107": "share_OF",
+  "72": "checks"
+ },
+ "pool_used": 18,
+ "enc_chars": 8704,
+ "nsrc": 4,
+ "flat": {
+  "bytes": [
+   77769,
+   89323,
+   118046,
+   229650
+  ],
+  "chars": [
+   77626,
+   89170,
+   117823,
+   229541
+  ],
+  "lines": [
+   692,
+   1371,
+   2009,
+   5701
+  ],
+  "nonblank": [
+   692,
+   1372,
+   2010,
+   5702
+  ],
+  "tabs": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "nonascii": [
+   128,
+   110,
+   116,
+   56
+  ],
+  "bom": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "maxlen": [
+   18989,
+   18989,
+   18989,
+   18989
+  ],
+  "meanlen": [
+   111,
+   64,
+   58,
+   39
+  ],
+  "sha16": [
+   "5adf8497ddbbb036",
+   "ace839d5704fd133",
+   "243019258b1d4535",
+   "d9061dd1c02c6d9b"
+  ],
+  "final_nl": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "table_tags": [
+   17,
+   20,
+   32,
+   118
+  ],
+  "tr_rows": [
+   82,
+   139,
+   175,
+   958
+  ],
+  "tr_rows_ratio": 11,
+  "tr_rows_rest": 56,
+  "tr_rows_div_close": 0,
+  "br_tags": [
+   131,
+   18,
+   32,
+   24
+  ],
+  "sup_tags": [
+   4,
+   5,
+   4,
+   0
+  ],
+  "h_all": [
+   34,
+   33,
+   42,
+   61
+  ],
+  "ent_all": [
+   26,
+   29,
+   20,
+   23
+  ],
+  "ent_lt": [
+   2,
+   3,
+   0,
+   1
+  ],
+  "minusuni": [
+   12,
+   0,
+   0,
+   0
+  ],
+  "nbsp": [
+   80,
+   33,
+   4,
+   2
+  ],
+  "maxline_len": [
+   18989,
+   18989,
+   18989,
+   18989
+  ],
+  "maxline_shared": 1,
+  "sha_distinct": 4,
+  "ar_ru": [
+   0,
+   14,
+   0,
+   0
+  ],
+  "ar_ru_up": [
+   10,
+   0,
+   0,
+   0
+  ],
+  "ar_k642": [
+   2,
+   2,
+   0,
+   0
+  ],
+  "ar_k752": [
+   2,
+   2,
+   0,
+   0
+  ],
+  "ar_k822": [
+   2,
+   2,
+   0,
+   0
+  ],
+  "ar_k108": [
+   2,
+   2,
+   0,
+   0
+  ],
+  "ar_k9731": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "ar_k0915": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "ar_pseudo": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "ar_appA": [
+   0,
+   2,
+   1,
+   0
+  ],
+  "ar_floattrap": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "bl_mv": [
+   0,
+   0,
+   39,
+   0
+  ],
+  "bl_lookup": [
+   2,
+   2,
+   1,
+   0
+  ],
+  "bl_interp": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "bl_cons": [
+   0,
+   0,
+   7,
+   0
+  ],
+  "sp_negligible": [
+   0,
+   0,
+   3,
+   1
+  ],
+  "sp_prov_urg": [
+   0,
+   0,
+   5,
+   0
+  ],
+  "sp_exploitability": [
+   18,
+   19,
+   7,
+   0
+  ],
+  "sp_isc": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "sp_iss": [
+   0,
+   10,
+   0,
+   0
+  ],
+  "sp_miss": [
+   0,
+   5,
+   0,
+   0
+  ],
+  "sp_diff30": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "sp_safety": [
+   1,
+   1,
+   27,
+   16
+  ],
+  "ar_ru_body": [
+   0,
+   14,
+   0,
+   0
+  ],
+  "ar_ru_up_body": [
+   10,
+   0,
+   0,
+   0
+  ],
+  "bl_mv_body": [
+   0,
+   0,
+   37,
+   0
+  ],
+  "bl_lookup_body": [
+   2,
+   2,
+   1,
+   0
+  ],
+  "bl_interp_body": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "bl_cons_body": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "sp_negligible_body": [
+   0,
+   0,
+   3,
+   1
+  ],
+  "arith_any": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "name_variants": [
+   [
+    2,
+    6,
+    1,
+    3
+   ],
+   [
+    0,
+    11,
+    0,
+    4
+   ],
+   [
+    0,
+    10,
+    0,
+    4
+   ],
+   [
+    0,
+    60,
+    0,
+    6
+   ]
+  ],
+  "v30_sg": 2,
+  "v30_pl": 6,
+  "v31_sg": 0,
+  "v31_pl": 11,
+  "v30_adjnet": 1,
+  "v31_adjnet": 0,
+  "mod_toks": [
+   5,
+   6
+  ],
+  "coef_base_n": 8,
+  "coef_base_keynames": [
+   "c325",
+   "c752",
+   "exp",
+   "expl",
+   "f108",
+   "p02",
+   "p029",
+   "unch"
+  ],
+  "coef_env_keys": 8,
+  "coef_base_n_equal": 8,
+  "coef_env_diff": [
+   [
+    "mexp",
+    15.0,
+    13.0
+   ],
+   [
+    "mfactor",
+    1.0,
+    0.9731
+   ]
+  ],
+  "coef_env_diff_n": 2,
+  "coef_seq_v30": [
+   3.25,
+   7.52,
+   0.915,
+   15.0,
+   8.22,
+   1.08,
+   3.25,
+   7.52,
+   15.0,
+   1.0,
+   0.02,
+   0.029,
+   6.42,
+   0.02,
+   0.029,
+   6.42
+  ],
+  "coef_seq_v31": [
+   3.25,
+   7.52,
+   0.915,
+   15.0,
+   8.22,
+   1.08,
+   3.25,
+   7.52,
+   13.0,
+   0.9731,
+   0.02,
+   0.029,
+   6.42,
+   0.02,
+   0.029,
+   6.42
+  ],
+  "coef_seq_n": 16,
+  "coef_v30": {
+   "c325": 3.25,
+   "c752": 7.52,
+   "cap": 0.915,
+   "exp": 15.0,
+   "expl": 8.22,
+   "f108": 1.08,
+   "m325": 3.25,
+   "m752": 7.52,
+   "mexp": 15.0,
+   "mfactor": 1.0,
+   "mp02": 0.02,
+   "mp029": 0.029,
+   "munch": 6.42,
+   "p02": 0.02,
+   "p029": 0.029,
+   "unch": 6.42
+  },
+  "coef_v31": {
+   "c325": 3.25,
+   "c752": 7.52,
+   "cap": 0.915,
+   "exp": 15.0,
+   "expl": 8.22,
+   "f108": 1.08,
+   "m325": 3.25,
+   "m752": 7.52,
+   "mexp": 13.0,
+   "mfactor": 0.9731,
+   "mp02": 0.02,
+   "mp029": 0.029,
+   "munch": 6.42,
+   "p02": 0.02,
+   "p029": 0.029,
+   "unch": 6.42
+  },
+  "exp30": 15,
+  "exp31": 15,
+  "mexp30": 15,
+  "mexp31": 13,
+  "mf30": 1.0,
+  "mf31": 0.9731,
+  "cap30": 0.915,
+  "cap31": 0.915,
+  "w_tab_n": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "wt_rows": [
+   10,
+   33,
+   0,
+   0
+  ],
+  "wt_val_rows": [
+   9,
+   32,
+   0,
+   0
+  ],
+  "wt_metric_rows": [
+   9,
+   9,
+   0,
+   0
+  ],
+  "wt_cont_rows": [
+   0,
+   23,
+   0,
+   0
+  ],
+  "wt_vals": [
+   32,
+   32,
+   0,
+   0
+  ],
+  "wt_nums": [
+   32,
+   32,
+   0,
+   0
+  ],
+  "wt_maxpack": [
+   5,
+   1,
+   0,
+   0
+  ],
+  "wt_pack_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "wt_row_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "wt_pack_seq_v30": [
+   4,
+   2,
+   3,
+   2,
+   3,
+   5,
+   5,
+   4,
+   4
+  ],
+  "wt_pack_seq_v31": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "w_groupheads_v30": 6,
+  "w_groupheads_v31": 6,
+  "w_altrows_v30": 2,
+  "w_altrows_v31": 2,
+  "w_triples_v30": 44,
+  "w_triples_v31": 44,
+  "w_common": 44,
+  "w_equal": 44,
+  "w_unequal_n": 0,
+  "w_only30_n": 0,
+  "w_only31_n": 0,
+  "w_close30": 0,
+  "w_close31": 0,
+  "pr_alt": [
+   0.62,
+   0.68,
+   0.27,
+   0.5
+  ],
+  "pr_alt31": [
+   0.62,
+   0.68,
+   0.27,
+   0.5
+  ],
+  "pr_alt_same": 4,
+  "w_firstletter_ok": [
+   17,
+   17
+  ],
+  "w_names_v30": 10,
+  "w_names_v31": 10,
+  "full_vectors": 2592,
+  "full_grid": [
+   4,
+   2,
+   3,
+   2,
+   2,
+   3,
+   3,
+   3
+  ],
+  "full_grid_prod": 2592,
+  "full_ok": 2496,
+  "full_zero": 96,
+  "full_capped": 7,
+  "full_close": 0,
+  "full_eq3031": 2592,
+  "full_ne3031": 0,
+  "full_none30": 0,
+  "full_pseudo_eq_exact": 2496,
+  "full_guard_eq_exact": 2496,
+  "full_ceil_eq_exact": 2496,
+  "full_exact_on_tenth": 7,
+  "full_raw_on_tenth": 0,
+  "full_pseudo_ne_guard": 0,
+  "full_pseudo_ne_ceil": 0,
+  "mono_combos": 729,
+  "mono_cia": 27,
+  "mono_req": 27,
+  "mono_grid_close": 0,
+  "mono_bad_v30formula": 114,
+  "mono_bad_v31formula": 6,
+  "mono_pairs": 1458,
+  "mono_pairs_close": 0,
+  "mono_both": 6,
+  "mono_only30": 108,
+  "mono_only31": 0,
+  "mono_close30": 0,
+  "mono_close31": 0,
+  "mono_uncapped30": 18,
+  "mono_uncapped31": 0,
+  "mono_capped30": 96,
+  "mono_capped31": 6,
+  "mono_cap_close30": 0,
+  "mono_worst30_amp": 0.026273,
+  "mono_worst31_amp": 1.8234e-05,
+  "mono_worst31_amp_e5": 1.8234,
+  "mono_worst_v30_ex": [
+   0.026273,
+   [
+    "N",
+    "L",
+    "H",
+    "L",
+    "H",
+    "H"
+   ],
+   [
+    "N",
+    "H",
+    "H",
+    "L",
+    "H",
+    "H"
+   ]
+  ],
+  "mono_worst_v31_ex": [
+   1.8234e-05,
+   [
+    "L",
+    "H",
+    "H",
+    "M",
+    "L",
+    "H"
+   ],
+   [
+    "H",
+    "H",
+    "H",
+    "M",
+    "L",
+    "H"
+   ]
+  ],
+  "mono_cap": [
+   0.915,
+   0.915
+  ],
+  "mono_req_min": 0.5,
+  "mono_req_max": 1.5,
+  "vec_occ": [
+   2,
+   2,
+   11,
+   112
+  ],
+  "vec_distinct": [
+   2,
+   2,
+   11,
+   96
+  ],
+  "vec_occ_31": [
+   0,
+   2,
+   0,
+   45
+  ],
+  "vec_occ_40": [
+   0,
+   0,
+   11,
+   66
+  ],
+  "vec_pr_doublecolon": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "pair_tbl_n_all": 44,
+  "sp_n": 38,
+  "skip_n": 5,
+  "pair_skip_n": 1,
+  "pair_k31_blank": 30,
+  "pair_k31_base": 8,
+  "pair_k40_base": 28,
+  "pair_k40_blank": 4,
+  "pair_k40_composite": 6,
+  "pair_k31blank_k40composite": 5,
+  "pair_col_kinds": 2,
+  "pair_col_max": 3,
+  "pair_samecell": 7,
+  "pair_fromlab": 7,
+  "pair_v31_vec": 37,
+  "pair_v40_vec": 38,
+  "pair_both_vec": 38,
+  "pair_k31_other": 0,
+  "pair_close": 0,
+  "pair_scope_base_strict": 28,
+  "pair_scope_base_loose": 32,
+  "pair_scope_base_gap": 4,
+  "delta_pos": 22,
+  "delta_neg": 16,
+  "delta_zero": 0,
+  "delta_sum": 8.7,
+  "delta_close": 0,
+  "delta_base_n": 28,
+  "delta_base_sum": 10.5,
+  "delta_base_up": 17,
+  "delta_base_down": 11,
+  "delta_base_same": 0,
+  "delta_base_strict_tie": true,
+  "delta_baseboth_n": 32,
+  "delta_baseboth_sum": 11.0,
+  "delta_baseboth_up": 19,
+  "delta_baseboth_down": 13,
+  "delta_baseboth_same": 0,
+  "delta_ledger": 0,
+  "delta_abs_max": 2.9000000000000004,
+  "delta_abs_max_loose": 2.9000000000000004,
+  "delta_mix_gap": -1.8,
+  "comp_other": 6,
+  "comp_other_strict": 10,
+  "band_diff": 15,
+  "band_same": 23,
+  "band_unmapped": 0,
+  "band_close": 0,
+  "band_moves": [
+   [
+    "Critical",
+    "High"
+   ],
+   [
+    "Critical",
+    "Medium"
+   ],
+   [
+    "High",
+    "Critical"
+   ],
+   [
+    "High",
+    "Medium"
+   ],
+   [
+    "Low",
+    "Medium"
+   ],
+   [
+    "Medium",
+    "High"
+   ]
+  ],
+  "band_label_lines": [
+   5,
+   5,
+   6,
+   4
+  ],
+  "band_vocab_inbody": [
+   [
+    "Critical",
+    "High",
+    "Low",
+    "Medium",
+    "None"
+   ],
+   [
+    "Critical",
+    "High",
+    "Low",
+    "Medium",
+    "None"
+   ],
+   [
+    "Critical",
+    "High",
+    "Low",
+    "Medium",
+    "Negligible",
+    "None"
+   ],
+   [
+    "High",
+    "Low",
+    "Medium",
+    "Negligible",
+    "None"
+   ]
+  ],
+  "band_rows": [
+   5,
+   5,
+   5,
+   0
+  ],
+  "band_labels": [
+   [
+    "None",
+    "Low",
+    "Medium",
+    "High",
+    "Critical"
+   ],
+   [
+    "None",
+    "Low",
+    "Medium",
+    "High",
+    "Critical"
+   ],
+   [
+    "None",
+    "Low",
+    "Medium",
+    "High",
+    "Critical"
+   ],
+   []
+  ],
+  "band_bounds": [
+   [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.1,
+     3.9
+    ],
+    [
+     4.0,
+     6.9
+    ],
+    [
+     7.0,
+     8.9
+    ],
+    [
+     9.0,
+     10.0
+    ]
+   ],
+   [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.1,
+     3.9
+    ],
+    [
+     4.0,
+     6.9
+    ],
+    [
+     7.0,
+     8.9
+    ],
+    [
+     9.0,
+     10.0
+    ]
+   ],
+   [
+    [
+     0.0,
+     0.0
+    ],
+    [
+     0.1,
+     3.9
+    ],
+    [
+     4.0,
+     6.9
+    ],
+    [
+     7.0,
+     8.9
+    ],
+    [
+     9.0,
+     10.0
+    ]
+   ],
+   []
+  ],
+  "band_vocab": [
+   [
+    "Critical",
+    "High",
+    "Low",
+    "Medium",
+    "None"
+   ],
+   [
+    "Critical",
+    "High",
+    "Low",
+    "Medium",
+    "None"
+   ],
+   [
+    "Critical",
+    "High",
+    "Low",
+    "Medium",
+    "Negligible",
+    "None"
+   ],
+   []
+  ],
+  "band_moves_n": 6,
+  "repro_cand": 37,
+  "repro_vec_distinct": 29,
+  "repro_repeat": 8,
+  "repro_pts": 29,
+  "repro_ok": 29,
+  "repro_bad": 0,
+  "repro_none": 0,
+  "repro_close": 0,
+  "repro_ok30": 29,
+  "repro30_eq_31": 29,
+  "repro_guard_eq": 29,
+  "repro_ceil_eq": 29,
+  "eq_heads": [
+   0,
+   0,
+   22,
+   0
+  ],
+  "eq3_6": [
+   0,
+   0,
+   3,
+   0
+  ],
+  "eq_row_n": 22,
+  "eq_level_kinds": 9,
+  "eq_and": 16,
+  "eq_or": 14,
+  "eq_not": 12,
+  "lines_ge20": [
+   233,
+   607,
+   866,
+   658
+  ],
+  "share_TO": 67,
+  "share_TF": 12,
+  "share_OF": 107,
+  "share_TN": 6,
+  "share_ON": 6,
+  "share_FN": 6,
+  "share_all4": 5,
+  "only_T": 166,
+  "only_O": 540,
+  "union_TO": 773,
+  "share_close_TO": 0,
+  "pool_n": 2377,
+  "pool_tag_n": [
+   234,
+   613,
+   869,
+   661
+  ],
+  "pool_1": 1653,
+  "pool_2": 462,
+  "pool_3": 212,
+  "pool_4": 50,
+  "pool_tiers": [
+   1653,
+   462,
+   212,
+   50
+  ],
+  "pool_close": 0,
+  "scalar_clos_n": 16,
+  "scalar_clos_sum": 0,
+  "scalar_clos_list": [
+   "band_close",
+   "delta_close",
+   "delta_ledger",
+   "full_close",
+   "mono_cap_close30",
+   "mono_close30",
+   "mono_close31",
+   "mono_grid_close",
+   "mono_pairs_close",
+   "pair_close",
+   "pool_close",
+   "repro_close",
+   "share_close_TO",
+   "tr_rows_div_close",
+   "w_close30",
+   "w_close31"
+  ],
+  "list_clos_n": 2,
+  "anchor_total": 22,
+  "anchor_distinct": 18,
+  "anchor_err": 0,
+  "anchor_single": 17,
+  "anchor_cross": 1,
+  "anchor_all4": 0,
+  "checks": 72
+ },
+ "closure_keys": [
+  "tr_rows_div_close",
+  "wt_pack_close",
+  "wt_row_close",
+  "full_close",
+  "mono_grid_close",
+  "mono_pairs_close",
+  "pair_close",
+  "delta_close",
+  "band_close",
+  "repro_close",
+  "pool_close"
+ ],
+ "mono_worst_ex": {
+  "v30": [
+   0.026273,
+   [
+    "N",
+    "L",
+    "H",
+    "L",
+    "H",
+    "H"
+   ],
+   [
+    "N",
+    "H",
+    "H",
+    "L",
+    "H",
+    "H"
+   ]
+  ],
+  "v31": [
+   1.8234e-05,
+   [
+    "L",
+    "H",
+    "H",
+    "M",
+    "L",
+    "H"
+   ],
+   [
+    "H",
+    "H",
+    "H",
+    "M",
+    "L",
+    "H"
+   ]
+  ]
+ }
+}

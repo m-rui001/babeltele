@@ -1,0 +1,4 @@
+DeepSeek-V4.1-Flash, for example, allocates 196 billion parameters to its Engram n-gram memory
+storing n-gram embeddings at low precision
+four-bit tables save approximately 75% of table memory while preserving more than 99% of the validation-loss improvement
+save 47-55% of table memory

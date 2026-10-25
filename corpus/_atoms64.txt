@@ -1,0 +1,17 @@
+   subsequent retransmissions up to a maximum of 64 seconds.  The client
+   internetwork, the delay before the first retransmission SHOULD be 4
+   defaults to (0.5 * duration_of_lease).  T2 defaults to (0.875 *
+   duration_of_lease).  Times T1 and T2 SHOULD be chosen with some
+   SOL_MAX_RT      120 secs  Max Solicit timeout value
+   INF_MAX_RT      120 secs  Max Information-request timeout value
+   REN_MAX_RT      600 secs  Max Renew timeout value
+   REL_MAX_RC        5       MAX Release attempts
+   120 seconds, significantly reducing the aggregated traffic at the
+      SOL_MAX_RT      120 secs  Max Solicit timeout value
+      SOL_MAX_RT     3600 secs  Max Solicit timeout value
+   or Information-request message every 3600 seconds rather than every
+   | SOL_MAX_RT      | 3600 secs        | Max Solicit timeout value    |
+   A DHCP server sends the SOL_MAX_RT option to a client to override the
+   A DHCP client MUST ignore any SOL_MAX_RT option values that are less
+   unavailable.  Therefore, this value is expected to be retained for as
+   An updated SOL_MAX_RT value applies only to the network interface on

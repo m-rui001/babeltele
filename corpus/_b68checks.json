@@ -1,0 +1,3284 @@
+{
+ "anchor_total": 24,
+ "anchor_distinct": 18,
+ "tag_counts": {
+  "A": 4,
+  "B": 7,
+  "C": 3,
+  "D": 10
+ },
+ "ameta": {
+  "anchor_total": 24,
+  "anchor_distinct": 18,
+  "anchor_err": 0,
+  "anchor_single": 16,
+  "anchor_cross": 2,
+  "anchor_all4": 0,
+  "checks": 72,
+  "tag_A": 4,
+  "tag_B": 7,
+  "tag_C": 3,
+  "tag_D": 10
+ },
+ "letters_in": 898,
+ "letters_out": 1933,
+ "tagn": 24,
+ "classes": {
+  "single": [
+   "   Every resource record returned by a server is cached for TTL seconds,",
+   "   Implementations are always free to place an upper bound on any TTL",
+   "   RFC1034 section 4.3.4 refers to this technique but mentions the",
+   "   bound.  The TTL specifies a maximum time to live, not a mandatory",
+   "   deprecated, the TTLs of all RRs in an RRSet must be the same.",
+   "   hereby specified that a TTL value is an unsigned number, with a",
+   "   in the less significant 31 bits of the 32 bit TTL field, with the",
+   "   maximum of 2^31 - 1.  When transmitted, this value shall be encoded",
+   "   not as clear as it could be, with respect to how many significant",
+   "   well. They might impose a limit on the cache size or might not",
+   "   within a TTL period of a RR constitute a cache leak.",
+   "MINIMUM         The unsigned 32 bit minimum TTL field that should be",
+   "TTL             positive values of a signed 32 bit number.",
+   "TTL             which is the time to live of the RR.  This field is a 32",
+   "and the MINIMUM field in the appropriate SOA.  Thus MINIMUM is a lower",
+   "forces the TTL of all authoritative RRs to be at least the MINIMUM field"
+  ],
+  "two": [
+   "and any existing rules for the object, whether these rules are published",
+   "appear in examples to be current or complete, since their purpose is"
+  ],
+  "three": [],
+  "four": []
+ },
+ "collisions": {
+  "126103": [
+   "chars\u00b787 \u53ea\u8bf432\u4f4d"
+  ],
+  "122549": [
+   "chars\u00b787 \u8bf4signed"
+  ],
+  "25476": [
+   "chars\u00b793 \u53ea\u8c08\u7f13\u5b58"
+  ],
+  "36989": [
+   "chars\u00b797 \u5b9a\u6b7b31\u4f4d"
+  ],
+  "3078": [
+   "lines\u00b787 \u8bf4signed"
+  ],
+  "54": [
+   "hdr\u00b787 \u8bf4signed",
+   "cite_self\u00b787 \u53ea\u8bf432\u4f4d",
+   "cite_self\u00b787 \u8bf4signed",
+   "cite_1034\u00b787 \u53ea\u8bf432\u4f4d",
+   "cite_1035\u00b787 \u8bf4signed",
+   "dns_family",
+   "dns_family"
+  ],
+  "55": [
+   "foot\u00b787 \u8bf4signed",
+   "formfeed\u00b787 \u53ea\u8bf432\u4f4d",
+   "formfeed\u00b787 \u8bf4signed",
+   "trail\u00b787 \u53ea\u8bf432\u4f4d",
+   "trail\u00b787 \u8bf4signed",
+   "nb_gap\u00b787 \u53ea\u8bf432\u4f4d",
+   "nb_gap\u00b787 \u8bf4signed",
+   "ff_blank\u00b787 \u53ea\u8bf432\u4f4d",
+   "ff_blank\u00b787 \u8bf4signed"
+  ],
+  "12": [
+   "formfeed\u00b793 \u53ea\u8c08\u7f13\u5b58",
+   "trail\u00b793 \u53ea\u8c08\u7f13\u5b58",
+   "nb_gap\u00b793 \u53ea\u8c08\u7f13\u5b58",
+   "ff_blank\u00b793 \u53ea\u8c08\u7f13\u5b58",
+   "secw_cache\u00b793 \u53ea\u8c08\u7f13\u5b58",
+   "secw_digit\u00b793 \u53ea\u8c08\u7f13\u5b58",
+   "lit_ttl_cap\u00b793 \u53ea\u8c08\u7f13\u5b58"
+  ],
+  "14": [
+   "formfeed\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "trail\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "nb_gap\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "ff_blank\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "cite_self\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "cite_2181\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "dns_family",
+   "sec_lines\u00b787 \u8bf4signed",
+   "brf\u00b797 \u5b9a\u6b7b31\u4f4d"
+  ],
+  "1": [
+   "foot_minus_hdr\u00b787 \u8bf4signed",
+   "foot_minus_hdr\u00b793 \u53ea\u8c08\u7f13\u5b58",
+   "foot_minus_hdr\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "tail_ff\u00b787 \u53ea\u8bf432\u4f4d",
+   "tail_ff\u00b787 \u8bf4signed",
+   "tail_ff\u00b793 \u53ea\u8c08\u7f13\u5b58",
+   "foot_trail_gap\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "size_sign_rows",
+   "dur_hit_total\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "dur_distinct\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "\u65e0\u65f6\u957f\u4efd\u6570",
+   "lit_max_lit",
+   "\u4e0a\u9650\u6210\u6570",
+   "fold_not_clear",
+   "lit_upper_bound",
+   "lit_std13_ttl\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "lit_sec434\u00b787 \u53ea\u8bf432\u4f4d",
+   "lit_sec434\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "fold_sec434\u00b787 \u53ea\u8bf432\u4f4d",
+   "fold_sec434\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "cat_std\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "obs_hdr\u00b787 \u53ea\u8bf432\u4f4d",
+   "obs_hdr\u00b787 \u8bf4signed",
+   "upd_hdr\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "req_rc\u00b787 \u53ea\u8bf432\u4f4d",
+   "req_rc\u00b787 \u8bf4signed",
+   "req_rc\u00b793 \u53ea\u8c08\u7f13\u5b58",
+   "req_rc\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "nwgroup\u00b787 \u53ea\u8bf432\u4f4d",
+   "nwgroup\u00b787 \u8bf4signed",
+   "nwgroup\u00b793 \u53ea\u8c08\u7f13\u5b58",
+   "nwgroup\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "secw_ttl\u00b787 \u8bf4signed",
+   "main4_fold\u00b787 \u53ea\u8bf432\u4f4d",
+   "main4_fold\u00b787 \u8bf4signed",
+   "main4_fold\u00b793 \u53ea\u8c08\u7f13\u5b58",
+   "main4_fold\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "sn_strict_docs\u00b787 \u8bf4signed",
+   "s_d_bits_sh",
+   "sh_sn_hit",
+   "sh_only_n",
+   "sh_gap_total",
+   "s_a_bare32_fold",
+   "s_d_notmand_fold",
+   "s_b_lower_fold",
+   "wrapgap_a_bare32\u00b787 \u53ea\u8bf432\u4f4d",
+   "wrapgap_d_notmand\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "wrapgap_b_lower\u00b787 \u8bf4signed",
+   "soa_paren\u00b787 \u53ea\u8bf432\u4f4d",
+   "soa_paren\u00b787 \u8bf4signed",
+   "u_must\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "u_should\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "u_may\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "fold_hereby_ttl",
+   "lit_msb_zero",
+   "lit_same_ttl",
+   "fold_same_ttl",
+   "lit_time_live\u00b787 \u53ea\u8bf432\u4f4d",
+   "fold_bare32\u00b787 \u53ea\u8bf432\u4f4d",
+   "lit_signed32\u00b787 \u8bf4signed",
+   "lit_hi31\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "lit_max_pow\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "lit_min0\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "lit_sign_bit\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "fold_floor_sent\u00b787 \u53ea\u8bf432\u4f4d",
+   "delta_floor_sent\u00b787 \u53ea\u8bf432\u4f4d",
+   "fold_lower_bound\u00b787 \u8bf4signed",
+   "delta_lower_bound\u00b787 \u8bf4signed",
+   "lit_here_86400\u00b787 \u53ea\u8bf432\u4f4d",
+   "lit_one_day\u00b787 \u53ea\u8bf432\u4f4d",
+   "lit_cached_for\u00b793 \u53ea\u8c08\u7f13\u5b58",
+   "lit_ttl_expires\u00b793 \u53ea\u8c08\u7f13\u5b58",
+   "lit_cache_leak\u00b793 \u53ea\u8c08\u7f13\u5b58",
+   "lit_cachesize\u00b793 \u53ea\u8c08\u7f13\u5b58",
+   "lit_within_ttl\u00b793 \u53ea\u8c08\u7f13\u5b58",
+   "fold_upper_bound\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "fold_not_mandatory\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "lit_different_ttls\u00b787 \u53ea\u8bf432\u4f4d",
+   "lit_different_ttls\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "lit_rrset_same\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "lit_diff_dep\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "lit_sec52\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "lit_typo_anis",
+   "fold_typo_anis",
+   "lit_typo_prov",
+   "fold_typo_prov",
+   "pair_share\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "pair_norm_only\u00b797 \u5b9a\u6b7b31\u4f4d"
+  ],
+  "[0, 0, 0, 0]": [
+   "\u7f16\u7801\u5dee",
+   "\u4e24\u53e3\u5f84\u4e4b\u5dee",
+   "signed \u4e09\u6876",
+   "unsigned \u6876"
+  ],
+  "4": [
+   "sig_distinct",
+   "size_b_rows",
+   "dur_distinct\u00b787 \u8bf4signed",
+   "std13\u00b793 \u53ea\u8c08\u7f13\u5b58",
+   "cite_1034\u00b793 \u53ea\u8c08\u7f13\u5b58",
+   "cite_1123\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "main4_each",
+   "sn_fold_docs\u00b793 \u53ea\u8c08\u7f13\u5b58",
+   "sn_other_fold\u00b787 \u53ea\u8bf432\u4f4d",
+   "sn_sh_docs\u00b793 \u53ea\u8c08\u7f13\u5b58",
+   "sn_face_span\u00b793 \u53ea\u8c08\u7f13\u5b58",
+   "tag_A"
+  ],
+  "31": [
+   "ttl_bits",
+   "lit_ttl_cap\u00b787 \u8bf4signed"
+  ],
+  "86400": [
+   "soa_min_A"
+  ],
+  "72": [
+   "dur_hit_total\u00b787 \u53ea\u8bf432\u4f4d",
+   "self_ref\u00b787 \u8bf4signed",
+   "checks"
+  ],
+  "6": [
+   "sgn_in_word",
+   "outw_cache\u00b793 \u53ea\u8c08\u7f13\u5b58",
+   "sn_fold_docs\u00b787 \u8bf4signed",
+   "sn_sh_docs\u00b787 \u8bf4signed"
+  ],
+  "9": [
+   "lit_unsigned_word",
+   "cite_1034\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "dns_family",
+   "sn_other_fold\u00b797 \u5b9a\u6b7b31\u4f4d"
+  ],
+  "2": [
+   "lit_unsg32",
+   "outw_ttl",
+   "outw_ttllow\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "fold_total_delta",
+   "wrap_delta_hit",
+   "lo_may\u00b793 \u53ea\u8c08\u7f13\u5b58",
+   "lit_ttl_low\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "lit_expire_week\u00b787 \u53ea\u8bf432\u4f4d",
+   "lit_min_day\u00b787 \u53ea\u8bf432\u4f4d",
+   "\u7a97\u5360\u6bd4\u5343\u5206\u4f4d",
+   "anchor_cross"
+  ],
+  "3": [
+   "hereby\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "lo_shall\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "std13\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "secw_cache\u00b787 \u53ea\u8bf432\u4f4d",
+   "sn_other_fold\u00b793 \u53ea\u8c08\u7f13\u5b58",
+   "oblig_up\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "up_D_n",
+   "lit_time_live\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "pair_nonzero",
+   "pair_share\u00b787 \u8bf4signed",
+   "pair_norm_only\u00b787 \u53ea\u8bf432\u4f4d",
+   "pair_norm_only\u00b787 \u8bf4signed",
+   "tag_C"
+  ],
+  "10": [
+   "secw_ttl",
+   "sn_fold_docs\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "soa_lower\u00b787 \u53ea\u8bf432\u4f4d",
+   "soa_case_delta\u00b787 \u53ea\u8bf432\u4f4d",
+   "tag_D"
+  ],
+  "11": [
+   "cite_self\u00b793 \u53ea\u8c08\u7f13\u5b58",
+   "cite_1536\u00b793 \u53ea\u8c08\u7f13\u5b58",
+   "sn_sh_docs\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "sn_face_span\u00b797 \u5b9a\u6b7b31\u4f4d"
+  ],
+  "5": [
+   "cite_1035\u00b793 \u53ea\u8c08\u7f13\u5b58",
+   "cite_1035\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "sn_fold_docs\u00b787 \u53ea\u8bf432\u4f4d",
+   "sn_other_fold\u00b787 \u8bf4signed",
+   "sn_sh_docs\u00b787 \u53ea\u8bf432\u4f4d",
+   "sn_face_span\u00b787 \u53ea\u8bf432\u4f4d",
+   "sn_face_span\u00b787 \u8bf4signed",
+   "soa_upper\u00b787 \u8bf4signed",
+   "soa_AB_shared"
+  ],
+  "7": [
+   "secw_ttl\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "tag_B"
+  ],
+  "32": [
+   "secw_digit\u00b797 \u5b9a\u6b7b31\u4f4d",
+   "lit_ttl_cap\u00b797 \u5b9a\u6b7b31\u4f4d"
+  ],
+  "30": [
+   "digit_density",
+   "lit_ttl_cap\u00b787 \u53ea\u8bf432\u4f4d"
+  ],
+  "24": [
+   "wrap_sn_total",
+   "wrap_onlyfold_n",
+   "lo_should\u00b793 \u53ea\u8c08\u7f13\u5b58",
+   "anchor_total"
+  ],
+  "26": [
+   "sn_sh_total",
+   "oblig_low\u00b793 \u53ea\u8c08\u7f13\u5b58"
+  ],
+  "109": [
+   "shell_lines\u00b787 \u8bf4signed"
+  ],
+  "7957": [
+   "shell_chars\u00b787 \u8bf4signed"
+  ],
+  "48": [
+   "pool_tier\u00b787 \u8bf4signed"
+  ],
+  "22": [
+   "lo_must\u00b787 \u53ea\u8bf432\u4f4d",
+   "lo_must\u00b797 \u5b9a\u6b7b31\u4f4d"
+  ],
+  "23": [
+   "lo_must\u00b787 \u8bf4signed"
+  ],
+  "59": [
+   "lo_should\u00b787 \u53ea\u8bf432\u4f4d"
+  ],
+  "46": [
+   "lo_may\u00b787 \u8bf4signed"
+  ],
+  "39": [
+   "brf\u00b787 \u53ea\u8bf432\u4f4d",
+   "brf\u00b787 \u8bf4signed"
+  ],
+  "459": [
+   "only_each\u00b797 \u5b9a\u6b7b31\u4f4d"
+  ],
+  "44": [
+   "pool_share2_ab"
+  ],
+  "27": [
+   "scalar_clos_n"
+  ],
+  "15": [
+   "list_clos_n"
+  ],
+  "28": [
+   "\u7a97\u5360\u6bd4\u5343\u5206\u4f4d"
+  ]
+ },
+ "zero_terms": 359,
+ "deriv_keys": 120,
+ "deriv_points": 343,
+ "notes": {
+  "126103": "bytes\u00b787 \u53ea\u8bf432\u4f4d",
+  "122549": "bytes\u00b787 \u8bf4signed",
+  "25476": "bytes\u00b793 \u53ea\u8c08\u7f13\u5b58",
+  "36989": "bytes\u00b797 \u5b9a\u6b7b31\u4f4d",
+  "3078": "lines\u00b787 \u53ea\u8bf432\u4f4d",
+  "675": "lines\u00b793 \u53ea\u8c08\u7f13\u5b58",
+  "843": "lines\u00b797 \u5b9a\u6b7b31\u4f4d",
+  "2080": "nonblank\u00b787 \u53ea\u8bf432\u4f4d",
+  "2070": "nonblank\u00b787 \u8bf4signed",
+  "443": "nonblank\u00b793 \u53ea\u8c08\u7f13\u5b58",
+  "583": "nonblank\u00b797 \u5b9a\u6b7b31\u4f4d",
+  "72": "maxlen\u00b787 \u53ea\u8bf432\u4f4d",
+  "75": "maxlen\u00b787 \u8bf4signed",
+  "74": "maxlen\u00b793 \u53ea\u8c08\u7f13\u5b58",
+  "73": "maxlen\u00b797 \u5b9a\u6b7b31\u4f4d",
+  "54": "hdr\u00b787 \u53ea\u8bf432\u4f4d",
+  "11": "hdr\u00b793 \u53ea\u8c08\u7f13\u5b58",
+  "14": "hdr\u00b797 \u5b9a\u6b7b31\u4f4d",
+  "55": "foot\u00b787 \u53ea\u8bf432\u4f4d",
+  "12": "foot\u00b793 \u53ea\u8c08\u7f13\u5b58",
+  "15": "foot\u00b797 \u5b9a\u6b7b31\u4f4d",
+  "1": "foot_minus_hdr\u00b787 \u53ea\u8bf432\u4f4d",
+  "[1, 1, 1, 1]": "\u9996\u9875\u65e0\u7709",
+  "[0, 0, 0, 0]": "\u9875\u811a\u4e24\u6863",
+  "4": "ascii_all",
+  "2498": "blank_lines_extra",
+  "42": "\u5c3a\u5bf8\u8868 TTL \u884c\u53f3\u9879\u957f\u5ea6",
+  "2147483647": "ttl_max",
+  "31": "ttl_pow",
+  "32": "ttl_field_bits",
+  "3": "size_num_rows",
+  "[63, 255, 512]": "size_nums",
+  "[0, 0, 0]": "size_other_rows",
+  "86400": "min_floor",
+  "10": "soa_n_lines",
+  "5": "soa_n_lines",
+  "7": "dur_hit_total\u00b787 \u8bf4signed",
+  "6": "dur_distinct\u00b787 \u53ea\u8bf432\u4f4d",
+  "69": "dur_repeat_extra",
+  "2": "sgn_bare",
+  "9": "sgn_in_un",
+  "3.6. Resource Records": "sec_head\u00b787 \u53ea\u8bf432\u4f4d",
+  "2.3.4. Size limits": "sec_head\u00b787 \u8bf4signed",
+  "5. Cache Leaks:": "sec_head\u00b793 \u53ea\u8c08\u7f13\u5b58",
+  "8. Time to Live (TTL)": "sec_head\u00b797 \u5b9a\u6b7b31\u4f4d",
+  "606": "sec_a\u00b787 \u53ea\u8bf432\u4f4d",
+  "517": "sec_a\u00b787 \u8bf4signed",
+  "369": "sec_a\u00b793 \u53ea\u8c08\u7f13\u5b58",
+  "550": "sec_a\u00b797 \u5b9a\u6b7b31\u4f4d",
+  "715": "sec_b\u00b787 \u53ea\u8bf432\u4f4d",
+  "530": "sec_b\u00b787 \u8bf4signed",
+  "416": "sec_b\u00b793 \u53ea\u8c08\u7f13\u5b58",
+  "576": "sec_b\u00b797 \u5b9a\u6b7b31\u4f4d",
+  "4240": "sec_len\u00b787 \u53ea\u8bf432\u4f4d",
+  "331": "sec_len\u00b787 \u8bf4signed",
+  "1955": "sec_len\u00b793 \u53ea\u8c08\u7f13\u5b58",
+  "1063": "sec_len\u00b797 \u5b9a\u6b7b31\u4f4d",
+  "110": "sec_lines\u00b787 \u53ea\u8bf432\u4f4d",
+  "48": "sec_lines\u00b793 \u53ea\u8c08\u7f13\u5b58",
+  "27": "sec_lines\u00b797 \u5b9a\u6b7b31\u4f4d",
+  "8": "secw_ttl\u00b787 \u53ea\u8bf432\u4f4d",
+  "22": "outw_ttl\u00b787 \u53ea\u8bf432\u4f4d",
+  "30": "outw_ttl\u00b787 \u8bf4signed",
+  "25": "outw_ttl\u00b797 \u5b9a\u6b7b31\u4f4d",
+  "59": "outw_cache\u00b787 \u53ea\u8bf432\u4f4d",
+  "46": "outw_cache\u00b787 \u8bf4signed",
+  "19": "outw_cache\u00b797 \u5b9a\u6b7b31\u4f4d",
+  "37": "secw_digit\u00b787 \u53ea\u8bf432\u4f4d",
+  "13": "secw_digit\u00b787 \u8bf4signed",
+  "2203": "outw_digit\u00b787 \u53ea\u8bf432\u4f4d",
+  "2085": "outw_digit\u00b787 \u8bf4signed",
+  "326": "outw_digit\u00b793 \u53ea\u8c08\u7f13\u5b58",
+  "456": "outw_digit\u00b797 \u5b9a\u6b7b31\u4f4d",
+  "39": "digit_density",
+  "26": "wrap_sn_n",
+  "24": "wrap_sn_hit",
+  "['d_bits']": "sn_only_sh",
+  "109": "shell_lines\u00b787 \u53ea\u8bf432\u4f4d",
+  "23": "shell_lines\u00b793 \u53ea\u8c08\u7f13\u5b58",
+  "29": "shell_lines\u00b797 \u5b9a\u6b7b31\u4f4d",
+  "103068": "sh_len\u00b787 \u53ea\u8bf432\u4f4d",
+  "94248": "sh_len\u00b787 \u8bf4signed",
+  "21340": "sh_len\u00b793 \u53ea\u8c08\u7f13\u5b58",
+  "32505": "sh_len\u00b797 \u5b9a\u6b7b31\u4f4d",
+  "7957": "shell_chars\u00b787 \u53ea\u8bf432\u4f4d",
+  "1679": "shell_chars\u00b793 \u53ea\u8c08\u7f13\u5b58",
+  "2117": "shell_chars\u00b797 \u5b9a\u6b7b31\u4f4d",
+  "['a_bare32', 'a_timelimit', 'a_floor', 'a_neg', 'a_wrap', 'b_unsgmin', 'b_maxof', 'b_lower', 'b_notload', 'b_typo', 'c_cached', 'until', 'c_limit', 'c_within', 'd_notclear', 'd_hereby', 'd_pow', 'd_msb', 'd_free', 'd_notmand', 'd_diff', 'd_dep', 'd_same', 'd_1034sec']": "sn_only_fold",
+  "2625": "pool_n",
+  "2577": "pool_tier\u00b787 \u53ea\u8bf432\u4f4d",
+  "[]": "share4_diff",
+  "-5": "soa_case_delta\u00b787 \u8bf4signed",
+  "98": "lo_should\u00b787 \u8bf4signed",
+  "44": "lo_should\u00b797 \u5b9a\u6b7b31\u4f4d",
+  "58": "lo_may\u00b787 \u53ea\u8bf432\u4f4d",
+  "28": "lo_may\u00b797 \u5b9a\u6b7b31\u4f4d",
+  "139": "oblig_low\u00b787 \u53ea\u8bf432\u4f4d",
+  "167": "oblig_low\u00b787 \u8bf4signed",
+  "94": "oblig_low\u00b797 \u5b9a\u6b7b31\u4f4d",
+  "77": "self_ref\u00b787 \u53ea\u8bf432\u4f4d",
+  "117": "pair_share\u00b787 \u53ea\u8bf432\u4f4d",
+  "114": "pair_byte\u00b787 \u53ea\u8bf432\u4f4d",
+  "1185": "set_sizes\u00b787 \u53ea\u8bf432\u4f4d",
+  "1131": "set_sizes\u00b787 \u8bf4signed",
+  "283": "set_sizes\u00b793 \u53ea\u8c08\u7f13\u5b58",
+  "459": "set_sizes\u00b797 \u5b9a\u6b7b31\u4f4d",
+  "2937": "union_all",
+  "1065": "only_each\u00b787 \u53ea\u8bf432\u4f4d",
+  "1013": "only_each\u00b787 \u8bf4signed",
+  "279": "only_each\u00b793 \u53ea\u8c08\u7f13\u5b58",
+  "1002": "pool_share1_1034",
+  "878": "pool_share1_1035",
+  "263": "pool_share1_1536",
+  "434": "pool_share1_2181",
+  "49": "x_ident_n",
+  "33": "\u7a97\u5360\u6bd4\u5343\u5206\u4f4d",
+  "76": "\u7a97\u5360\u6bd4\u5343\u5206\u4f4d",
+  "18": "anchor_distinct",
+  "16": "anchor_single"
+ },
+ "pool_used": 18,
+ "enc_chars": 12675,
+ "nsrc": 4,
+ "flat": {
+  "bytes": [
+   126103,
+   122549,
+   25476,
+   36989
+  ],
+  "chars": [
+   126103,
+   122549,
+   25476,
+   36989
+  ],
+  "lines": [
+   3078,
+   3078,
+   675,
+   843
+  ],
+  "nonblank": [
+   2080,
+   2070,
+   443,
+   583
+  ],
+  "maxlen": [
+   72,
+   75,
+   74,
+   73
+  ],
+  "trail": [
+   55,
+   55,
+   12,
+   14
+  ],
+  "cr": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "nonascii": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "bom": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "formfeed": [
+   55,
+   55,
+   12,
+   14
+  ],
+  "ff_only": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "nonblank_asciib": [
+   2135,
+   2125,
+   455,
+   597
+  ],
+  "nb_gap": [
+   55,
+   55,
+   12,
+   14
+  ],
+  "ff_blank": [
+   55,
+   55,
+   12,
+   14
+  ],
+  "nb_ff_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "hdr": [
+   54,
+   54,
+   11,
+   14
+  ],
+  "foot": [
+   55,
+   55,
+   12,
+   15
+  ],
+  "pg": [
+   55,
+   55,
+   12,
+   15
+  ],
+  "tail_ff": [
+   1,
+   1,
+   1,
+   0
+  ],
+  "foot_minus_hdr": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "foot_trail_gap": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "trail_hdr_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "ff_model_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "pg_foot_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "rule_n": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "rule_extra": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "shell_lines": [
+   109,
+   109,
+   23,
+   29
+  ],
+  "shell_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "sh_len": [
+   103068,
+   94248,
+   21340,
+   32505
+  ],
+  "shell_chars": [
+   7957,
+   7957,
+   1679,
+   2117
+  ],
+  "blank_lines_extra": 2498,
+  "sig": [
+   "4b6134d25e61a277",
+   "a5b508715ab314bb",
+   "a9df784184b578de",
+   "7bb528ff998d05f7"
+  ],
+  "sig_distinct": 4,
+  "bc_delta": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "nonascii_utf8_extra": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "enc_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "ascii_all": 4,
+  "lit_bare32": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "fold_bare32": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "delta_bare32": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "lit_cache_leak": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "fold_cache_leak": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "delta_cache_leak": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_cached_for": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "fold_cached_for": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "delta_cached_for": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_cachesize": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "fold_cachesize": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "delta_cachesize": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_diff_dep": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "fold_diff_dep": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "delta_diff_dep": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_different_ttls": [
+   1,
+   0,
+   0,
+   1
+  ],
+  "fold_different_ttls": [
+   1,
+   0,
+   0,
+   1
+  ],
+  "delta_different_ttls": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_expire_kw": [
+   2,
+   3,
+   0,
+   0
+  ],
+  "fold_expire_kw": [
+   2,
+   3,
+   0,
+   0
+  ],
+  "delta_expire_kw": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_expire_week": [
+   2,
+   0,
+   0,
+   0
+  ],
+  "fold_expire_week": [
+   2,
+   0,
+   0,
+   0
+  ],
+  "delta_expire_week": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_floor_sent": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "fold_floor_sent": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "delta_floor_sent": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "lit_free_bound": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "fold_free_bound": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "delta_free_bound": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_here_86400": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "fold_here_86400": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "delta_here_86400": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_hereby_ttl": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "fold_hereby_ttl": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "delta_hereby_ttl": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_hi31": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "fold_hi31": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "delta_hi31": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_lower_bound": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "fold_lower_bound": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "delta_lower_bound": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "lit_max_lit": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "fold_max_lit": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "delta_max_lit": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_max_of": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "fold_max_of": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "delta_max_of": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_max_pow": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "fold_max_pow": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "delta_max_pow": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_min0": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "fold_min0": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "delta_min0": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_min_day": [
+   2,
+   0,
+   0,
+   0
+  ],
+  "fold_min_day": [
+   2,
+   0,
+   0,
+   0
+  ],
+  "delta_min_day": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_minimum_kw": [
+   4,
+   10,
+   0,
+   0
+  ],
+  "fold_minimum_kw": [
+   4,
+   10,
+   0,
+   0
+  ],
+  "delta_minimum_kw": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_msb_zero": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "fold_msb_zero": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "delta_msb_zero": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_negcache": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "fold_negcache": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "delta_negcache": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_not_clear": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "fold_not_clear": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "delta_not_clear": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_not_load": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "fold_not_load": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "delta_not_load": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "lit_not_mandatory": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "fold_not_mandatory": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "delta_not_mandatory": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "lit_one_day": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "fold_one_day": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "delta_one_day": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_refresh_kw": [
+   3,
+   3,
+   0,
+   0
+  ],
+  "fold_refresh_kw": [
+   3,
+   3,
+   0,
+   0
+  ],
+  "delta_refresh_kw": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_retry_kw": [
+   2,
+   3,
+   0,
+   0
+  ],
+  "fold_retry_kw": [
+   2,
+   3,
+   0,
+   0
+  ],
+  "delta_retry_kw": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_rrset_same": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "fold_rrset_same": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "delta_rrset_same": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_same_ttl": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "fold_same_ttl": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "delta_same_ttl": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_sec434": [
+   1,
+   0,
+   0,
+   1
+  ],
+  "fold_sec434": [
+   1,
+   0,
+   0,
+   1
+  ],
+  "delta_sec434": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_sec52": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "fold_sec52": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "delta_sec52": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_sgn_or_un": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "fold_sgn_or_un": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "delta_sgn_or_un": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_sign_bit": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "fold_sign_bit": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "delta_sign_bit": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_signed32": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "fold_signed32": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "delta_signed32": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_signed_word": [
+   6,
+   15,
+   0,
+   7
+  ],
+  "fold_signed_word": [
+   6,
+   15,
+   0,
+   7
+  ],
+  "delta_signed_word": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_std13_ttl": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "fold_std13_ttl": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "delta_std13_ttl": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_time_limit": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "fold_time_limit": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "delta_time_limit": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_time_live": [
+   1,
+   0,
+   0,
+   3
+  ],
+  "fold_time_live": [
+   1,
+   0,
+   0,
+   3
+  ],
+  "delta_time_live": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_ttl_cap": [
+   30,
+   31,
+   12,
+   32
+  ],
+  "fold_ttl_cap": [
+   30,
+   31,
+   12,
+   32
+  ],
+  "delta_ttl_cap": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_ttl_expires": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "fold_ttl_expires": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "delta_ttl_expires": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_ttl_low": [
+   0,
+   0,
+   0,
+   2
+  ],
+  "fold_ttl_low": [
+   0,
+   0,
+   0,
+   2
+  ],
+  "delta_ttl_low": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_typo_anis": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "fold_typo_anis": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "delta_typo_anis": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_typo_prov": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "fold_typo_prov": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "delta_typo_prov": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_unsg32": [
+   0,
+   2,
+   0,
+   0
+  ],
+  "fold_unsg32": [
+   0,
+   2,
+   0,
+   0
+  ],
+  "delta_unsg32": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_unsg_min": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "fold_unsg_min": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "delta_unsg_min": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_unsigned_word": [
+   0,
+   9,
+   0,
+   2
+  ],
+  "fold_unsigned_word": [
+   0,
+   9,
+   0,
+   2
+  ],
+  "delta_unsigned_word": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_upper_bound": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "fold_upper_bound": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "delta_upper_bound": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_within_ttl": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "fold_within_ttl": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "delta_within_ttl": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "lit_wrap_neg": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "fold_wrap_neg": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "delta_wrap_neg": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "fold_total_delta": 2,
+  "wrap_lit_zero": 2,
+  "wrap_delta_hit": 2,
+  "wrap_close": 0,
+  "fold_extra_keys": 27,
+  "sgn_bucket": [
+   [
+    0,
+    0,
+    6
+   ],
+   [
+    2,
+    9,
+    4
+   ],
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    2,
+    2,
+    3
+   ]
+  ],
+  "sgn_bare": [
+   0,
+   2,
+   0,
+   2
+  ],
+  "sgn_in_un": [
+   0,
+   9,
+   0,
+   2
+  ],
+  "sgn_in_word": [
+   6,
+   4,
+   0,
+   3
+  ],
+  "sgn_bucket_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "unsg_scan_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "row_sign": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "row_unsign": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "row_bare": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "sign_docs": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "sign_docs_n": 2,
+  "sign_ledger": 0,
+  "ttl_max": 2147483647,
+  "ttl_pow": 31,
+  "ttl_bits": 31,
+  "ttl_field_bits": 32,
+  "min_floor": 86400,
+  "max_pow_close": 0,
+  "pow_bits_close": 0,
+  "bitloss_close": 0,
+  "floor_day_close": 0,
+  "size_rows": [
+   0,
+   4,
+   0,
+   0
+  ],
+  "size_b_rows": 4,
+  "size_num_rows": 3,
+  "size_sign_rows": 1,
+  "size_nums": [
+   63,
+   255,
+   512
+  ],
+  "size_ttl_val": "positive values of a signed 32 bit number.",
+  "size_row_close": 0,
+  "size_other_rows": [
+   0,
+   0,
+   0
+  ],
+  "digit_runs": [
+   2240,
+   2098,
+   338,
+   488
+  ],
+  "ceil_docs_n": 1,
+  "has_ceil": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "has_floor": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "has_none": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "ceil_floor_close": 0,
+  "has_ceil_n": 1,
+  "has_floor_n": 2,
+  "both_ceil_floor": 0,
+  "notmand_docs": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "notmand_close": 0,
+  "msb_close": 0,
+  "s_a_bare32": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_a_bare32_fold": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "s_a_bare32_sh": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "wrapgap_a_bare32": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "shgap_a_bare32": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_a_timelimit": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_a_timelimit_fold": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "s_a_timelimit_sh": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "wrapgap_a_timelimit": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "shgap_a_timelimit": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_a_floor": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_a_floor_fold": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "s_a_floor_sh": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "wrapgap_a_floor": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "shgap_a_floor": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_a_neg": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_a_neg_fold": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "s_a_neg_sh": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "wrapgap_a_neg": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "shgap_a_neg": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_a_wrap": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_a_wrap_fold": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "s_a_wrap_sh": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "wrapgap_a_wrap": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "shgap_a_wrap": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_b_row": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "s_b_row_fold": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "s_b_row_sh": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "wrapgap_b_row": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "shgap_b_row": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_b_unsgmin": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_b_unsgmin_fold": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "s_b_unsgmin_sh": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "wrapgap_b_unsgmin": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "shgap_b_unsgmin": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_b_maxof": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_b_maxof_fold": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "s_b_maxof_sh": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "wrapgap_b_maxof": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "shgap_b_maxof": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_b_lower": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_b_lower_fold": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "s_b_lower_sh": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "wrapgap_b_lower": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "shgap_b_lower": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_b_notload": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_b_notload_fold": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "s_b_notload_sh": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "wrapgap_b_notload": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "shgap_b_notload": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_b_typo": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_b_typo_fold": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "s_b_typo_sh": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "wrapgap_b_typo": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "shgap_b_typo": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_c_cached": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_c_cached_fold": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "s_c_cached_sh": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "wrapgap_c_cached": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "shgap_c_cached": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_until": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_until_fold": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "s_until_sh": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "wrapgap_until": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "shgap_until": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_c_limit": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_c_limit_fold": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "s_c_limit_sh": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "wrapgap_c_limit": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "shgap_c_limit": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_c_within": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_c_within_fold": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "s_c_within_sh": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "wrapgap_c_within": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "shgap_c_within": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_d_notclear": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_d_notclear_fold": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "s_d_notclear_sh": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "wrapgap_d_notclear": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "shgap_d_notclear": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_d_hereby": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_d_hereby_fold": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "s_d_hereby_sh": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "wrapgap_d_hereby": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "shgap_d_hereby": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_d_pow": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_d_pow_fold": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "s_d_pow_sh": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "wrapgap_d_pow": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "shgap_d_pow": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_d_bits": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_d_bits_fold": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_d_bits_sh": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "wrapgap_d_bits": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "shgap_d_bits": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "s_d_msb": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_d_msb_fold": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "s_d_msb_sh": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "wrapgap_d_msb": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "shgap_d_msb": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_d_free": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_d_free_fold": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "s_d_free_sh": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "wrapgap_d_free": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "shgap_d_free": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_d_notmand": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_d_notmand_fold": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "s_d_notmand_sh": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "wrapgap_d_notmand": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "shgap_d_notmand": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_d_diff": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_d_diff_fold": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "s_d_diff_sh": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "wrapgap_d_diff": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "shgap_d_diff": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_d_dep": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_d_dep_fold": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "s_d_dep_sh": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "wrapgap_d_dep": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "shgap_d_dep": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_d_same": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_d_same_fold": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "s_d_same_sh": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "wrapgap_d_same": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "shgap_d_same": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_d_1034sec": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "s_d_1034sec_fold": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "s_d_1034sec_sh": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "wrapgap_d_1034sec": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "shgap_d_1034sec": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "wrap_sn_n": 26,
+  "wrap_sn_hit": 24,
+  "wrap_sn_total": 24,
+  "sn_strict_docs": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "sn_fold_docs": [
+   5,
+   6,
+   4,
+   10
+  ],
+  "sn_sh_docs": [
+   5,
+   6,
+   4,
+   11
+  ],
+  "sh_sn_hit": 1,
+  "sh_gap_total": 1,
+  "sn_only_sh": [
+   "d_bits"
+  ],
+  "sh_only_n": 1,
+  "sh_ladder_bad": 0,
+  "sn_face_span": [
+   5,
+   5,
+   4,
+   11
+  ],
+  "sh_hit_minus_only": 0,
+  "sn_only_fold": [
+   "a_bare32",
+   "a_timelimit",
+   "a_floor",
+   "a_neg",
+   "a_wrap",
+   "b_unsgmin",
+   "b_maxof",
+   "b_lower",
+   "b_notload",
+   "b_typo",
+   "c_cached",
+   "until",
+   "c_limit",
+   "c_within",
+   "d_notclear",
+   "d_hereby",
+   "d_pow",
+   "d_msb",
+   "d_free",
+   "d_notmand",
+   "d_diff",
+   "d_dep",
+   "d_same",
+   "d_1034sec"
+  ],
+  "wrap_onlyfold_n": 24,
+  "wrap_hit_minus_onlyfold": 0,
+  "main4_fold": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "sn_other_fold": [
+   4,
+   5,
+   3,
+   9
+  ],
+  "main4_each": 4,
+  "main4_close": 0,
+  "ceil_sn_close": 0,
+  "floor_sn_close": 0,
+  "cache_sn_close": 0,
+  "sn_sh_total": 26,
+  "dur_set": [
+   [
+    6,
+    0,
+    0,
+    3,
+    3,
+    23,
+    34,
+    3,
+    0,
+    0
+   ],
+   [
+    3,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  ],
+  "dur_distinct": [
+   6,
+   4,
+   0,
+   1
+  ],
+  "dur_repeat_extra": 69,
+  "dur_distinct_close": 0,
+  "dur_hit_total": [
+   72,
+   7,
+   0,
+   1
+  ],
+  "no_dur_docs": 1,
+  "soa_keys": [
+   [
+    "EXPIRE",
+    "MINIMUM",
+    "REFRESH",
+    "RETRY",
+    "SERIAL"
+   ],
+   [
+    "EXPIRE",
+    "MINIMUM",
+    "REFRESH",
+    "RETRY",
+    "SERIAL"
+   ],
+   [],
+   []
+  ],
+  "soa_vals": [
+   {
+    "SERIAL": [
+     870611,
+     870729
+    ],
+    "REFRESH": [
+     1800,
+     1800
+    ],
+    "RETRY": [
+     300,
+     300
+    ],
+    "EXPIRE": [
+     604800,
+     604800
+    ],
+    "MINIMUM": [
+     86400,
+     86400
+    ]
+   },
+   {
+    "SERIAL": [
+     20
+    ],
+    "REFRESH": [
+     7200
+    ],
+    "RETRY": [
+     600
+    ],
+    "EXPIRE": [
+     3600000
+    ],
+    "MINIMUM": [
+     60
+    ]
+   },
+   {},
+   {}
+  ],
+  "soa_n_lines": [
+   10,
+   5,
+   0,
+   0
+  ],
+  "soa_AB_shared": 5,
+  "soa_AB_valshare": 0,
+  "soa_val_close": 0,
+  "soa_AB_union": 5,
+  "soa_AB_close": 0,
+  "soa_CD_empty": 2,
+  "soa_min_A": 86400,
+  "floor_soa_close": 0,
+  "soa_upper": [
+   0,
+   5,
+   0,
+   0
+  ],
+  "soa_lower": [
+   10,
+   0,
+   0,
+   0
+  ],
+  "soa_paren": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "soa_case_delta": [
+   10,
+   -5,
+   0,
+   0
+  ],
+  "sec_head": [
+   "3.6. Resource Records",
+   "2.3.4. Size limits",
+   "5. Cache Leaks:",
+   "8. Time to Live (TTL)"
+  ],
+  "sec_len": [
+   4240,
+   331,
+   1955,
+   1063
+  ],
+  "sec_a": [
+   606,
+   517,
+   369,
+   550
+  ],
+  "sec_b": [
+   715,
+   530,
+   416,
+   576
+  ],
+  "sec_lines": [
+   110,
+   14,
+   48,
+   27
+  ],
+  "secw_ttl": [
+   8,
+   1,
+   10,
+   7
+  ],
+  "outw_ttl": [
+   22,
+   30,
+   2,
+   25
+  ],
+  "win_close_ttl": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "secw_ttllow": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "outw_ttllow": [
+   0,
+   0,
+   0,
+   2
+  ],
+  "win_close_ttllow": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "secw_cache": [
+   3,
+   0,
+   12,
+   0
+  ],
+  "outw_cache": [
+   59,
+   46,
+   6,
+   19
+  ],
+  "win_close_cache": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "secw_cachecap": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "outw_cachecap": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "win_close_cachecap": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "secw_digit": [
+   37,
+   13,
+   12,
+   32
+  ],
+  "outw_digit": [
+   2203,
+   2085,
+   326,
+   456
+  ],
+  "digit_win_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "ttl_win_close_sum": 0,
+  "cache_win_close_sum": 0,
+  "ttllow_win_close_sum": 0,
+  "digit_density": [
+   8,
+   39,
+   6,
+   30
+  ],
+  "u_must_not": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "u_must": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "u_should_not": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "u_should": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "u_may_not": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "u_may": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "u_required": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "u_recommended": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "oblig_up": [
+   0,
+   0,
+   0,
+   3
+  ],
+  "lo_must": [
+   22,
+   23,
+   0,
+   22
+  ],
+  "lo_should": [
+   59,
+   98,
+   24,
+   44
+  ],
+  "lo_may": [
+   58,
+   46,
+   2,
+   28
+  ],
+  "lo_shall": [
+   0,
+   0,
+   0,
+   3
+  ],
+  "oblig_low": [
+   139,
+   167,
+   26,
+   94
+  ],
+  "oblig_low_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "hereby": [
+   0,
+   0,
+   0,
+   3
+  ],
+  "deprecated": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "oblig_up_close": 0,
+  "up_ABC_zero": 0,
+  "up_D_n": 3,
+  "rfc2119_ref": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "hereby_D_only": 0,
+  "shall_D_only": 0,
+  "cat_std": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "obs_hdr": [
+   1,
+   1,
+   0,
+   0
+  ],
+  "upd_hdr": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "std_hdr": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "bcp_hdr": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "issn_hdr": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "req_rc": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "ise": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "nwgroup": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "std13": [
+   0,
+   0,
+   4,
+   3
+  ],
+  "brf": [
+   39,
+   39,
+   0,
+   14
+  ],
+  "self_ref": [
+   77,
+   72,
+   0,
+   0
+  ],
+  "cite_1034": [
+   54,
+   0,
+   4,
+   9
+  ],
+  "cite_1035": [
+   0,
+   54,
+   5,
+   5
+  ],
+  "cite_1536": [
+   0,
+   0,
+   11,
+   0
+  ],
+  "cite_2181": [
+   0,
+   0,
+   0,
+   14
+  ],
+  "cite_1123": [
+   0,
+   0,
+   0,
+   4
+  ],
+  "cite_1010": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_0819": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_1033": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_self": [
+   54,
+   54,
+   11,
+   14
+  ],
+  "selfcite_ledger": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "selfcite_ABC": 0,
+  "std13_AB_close": 0,
+  "dns_family": [
+   54,
+   54,
+   9,
+   14
+  ],
+  "set_sizes": [
+   1185,
+   1131,
+   283,
+   459
+  ],
+  "pair_share": [
+   117,
+   3,
+   0,
+   1,
+   0,
+   0
+  ],
+  "pair_byte": [
+   114,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "pair_norm_only": [
+   3,
+   3,
+   0,
+   1,
+   0,
+   0
+  ],
+  "pair_close": 0,
+  "pair_nonzero": 3,
+  "tri_share": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "union_all": 2937,
+  "only_each": [
+   1065,
+   1013,
+   279,
+   459
+  ],
+  "pool_n": 2625,
+  "pool_tier": [
+   2577,
+   48,
+   0,
+   0
+  ],
+  "pool_tier_close": 0,
+  "pool_1": 2577,
+  "pool_2": 48,
+  "pool_3": 0,
+  "pool_4": 0,
+  "pool_share1_1034": 1002,
+  "pool_share1_1035": 878,
+  "pool_share1_1536": 263,
+  "pool_share1_2181": 434,
+  "pool_share2_ab": 44,
+  "union_close": 0,
+  "share4_byte4": 0,
+  "share4_notbyte": 0,
+  "share4_axis_case": 0,
+  "share4_axis_hyph": 0,
+  "share4_axis_space": 0,
+  "share4_axis_multi": 0,
+  "share4_axis_close": 0,
+  "share4_diff": [],
+  "pool_share4": [],
+  "apool_n": 4347,
+  "apool_tag_n": [
+   1747,
+   1687,
+   373,
+   540
+  ],
+  "apool_1": 3849,
+  "apool_2": 454,
+  "apool_3": 14,
+  "apool_4": 30,
+  "scalar_clos_n": 27,
+  "scalar_clos_sum": 0,
+  "list_clos_n": 15,
+  "x_ident_n": 49,
+  "anchor_total": 24,
+  "anchor_distinct": 18,
+  "anchor_err": 0,
+  "anchor_single": 16,
+  "anchor_cross": 2,
+  "anchor_all4": 0,
+  "checks": 72,
+  "tag_A": 4,
+  "tag_B": 7,
+  "tag_C": 3,
+  "tag_D": 10
+ },
+ "closure_keys": [
+  "nb_ff_close",
+  "trail_hdr_close",
+  "ff_model_close",
+  "pg_foot_close",
+  "shell_close",
+  "enc_close",
+  "wrap_close",
+  "sgn_bucket_close",
+  "unsg_scan_close",
+  "max_pow_close",
+  "pow_bits_close",
+  "bitloss_close",
+  "floor_day_close",
+  "size_row_close",
+  "ceil_floor_close",
+  "notmand_close",
+  "msb_close",
+  "main4_close",
+  "ceil_sn_close",
+  "floor_sn_close",
+  "cache_sn_close",
+  "dur_distinct_close",
+  "soa_val_close",
+  "soa_AB_close",
+  "floor_soa_close",
+  "digit_win_close",
+  "oblig_low_close",
+  "oblig_up_close",
+  "std13_AB_close",
+  "pair_close",
+  "pool_tier_close",
+  "union_close",
+  "share4_axis_close"
+ ]
+}

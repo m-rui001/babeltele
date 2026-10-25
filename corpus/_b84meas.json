@@ -1,0 +1,69 @@
+{
+ "chars": [
+  3464
+ ],
+ "words": [
+  585
+ ],
+ "n_&&": [
+  6
+ ],
+ "n_key_messages": [
+  1
+ ],
+ "n_aviation": [
+  3
+ ],
+ "n_marine": [
+  2
+ ],
+ "n_discussion": [
+  3
+ ],
+ "n_issued_at": [
+  3
+ ],
+ "n_cmw": [
+  2
+ ],
+ "n_cotto": [
+  3
+ ],
+ "n_bailey": [
+  2
+ ],
+ "n_vfr": [
+  4
+ ],
+ "n_mvfr": [
+  1
+ ],
+ "n_confidence": [
+  0
+ ],
+ "n_possible": [
+  2
+ ],
+ "n_fire": [
+  2
+ ],
+ "pops": [
+  3
+ ],
+ "forecaster_anchors": [
+  [
+   "CMW",
+   "Cotto",
+   "Bailey"
+  ]
+ ],
+ "atom_n": 6,
+ "atom_lines": [
+  "Warm and dry conditions expected through early next week.",
+  "Elevated fire weather conditions are possible over the next couple of days.",
+  "Relative Humidity values sit around 25-30% during the day.",
+  "Winds are expected to increase to 15-20 knots by late Saturday",
+  "College Station (CLL) 85 56 86 59 / 0 0 0 0",
+  "MVFR VSBYs occurring at KLBX. All other sites at VFR."
+ ]
+}

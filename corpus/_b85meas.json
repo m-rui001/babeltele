@@ -1,0 +1,97 @@
+{
+ "chars": [
+  4047
+ ],
+ "words": [
+  605
+ ],
+ "n_cli": [
+  9
+ ],
+ "n_query_planner": [
+  1
+ ],
+ "n_alter_table": [
+  1
+ ],
+ "n_diskused": [
+  3
+ ],
+ "n_date/time": [
+  1
+ ],
+ "n_windows": [
+  7
+ ],
+ "n_authorizer": [
+  1
+ ],
+ "n_sqlite3_": [
+  4
+ ],
+ "n_add": [
+  3
+ ],
+ "n_enhance": [
+  6
+ ],
+ "n_improve": [
+  3
+ ],
+ "n_fixes": [
+  0
+ ],
+ "n_3_54_0": [
+  1
+ ],
+ "n_3_51_0": [
+  1
+ ],
+ "n_4pct_faster": [
+  1
+ ],
+ "n_7_5pct": [
+  1
+ ],
+ "n_2026-10-09": [
+  2
+ ],
+ "n_sqlite_source_id": [
+  1
+ ],
+ "n_sha3-256": [
+  1
+ ],
+ "n_no_color": [
+  1
+ ],
+ "n_o_tmpfile": [
+  1
+ ],
+ "n_windows_vista": [
+  1
+ ],
+ "n_srwl": [
+  2
+ ],
+ "n_rowid": [
+  2
+ ],
+ "n__rowid_": [
+  1
+ ],
+ "n_oid": [
+  1
+ ],
+ "atom_n": 8,
+ "atom_lines": [
+  "Use the new diskused() extension to implement the \".diskused\" dot-command.",
+  "The ability to end an SQL command using the line that contains just \"go\" or \"/\"",
+  "The ALTER TABLE command raises an error on any attempt to add, drop, or rename columns with the special names",
+  "Added the %J and %j conversions used to render JSON string literals",
+  "Drop support for WindowsXP and earlier Windows versions",
+  "About 4% faster, as measured by counting CPU cycles in the speedtest1",
+  "Added SQLITE_LIMIT_SCHEMA and SQLITE_LIMIT_TRIGGER_STEPS",
+  "Added the \"weekday -N\" form of the weekday modifier"
+ ]
+}

@@ -1,0 +1,1797 @@
+{
+ "anchor_total": 26,
+ "anchor_distinct": 22,
+ "anchor_err": 0,
+ "anchor_single": 13,
+ "anchor_cross": 9,
+ "anchor_all4": 0,
+ "checks": 88,
+ "enc_chars": 8042,
+ "nsrc": 4,
+ "tag_793": 9,
+ "tag_1122": 6,
+ "tag_6528": 5,
+ "tag_9293": 6,
+ "letters_in": 1007,
+ "letters_out": 1116,
+ "classes": {
+  "single": [
+   "                 port pair is tied up, some TCPs allow a new SYN to be",
+   "            However, it MAY accept a new SYN from the remote TCP to",
+   "            TIME-WAIT state for a time 2xMSL (Maximum Segment Lifetime).",
+   "    TCP implementors may violate the \"quiet time\" restriction, but only",
+   "   When a connection is closed actively, it MUST linger in the TIME-WAIT",
+   "   corresponding to the old incarnation was last seen (where \"MSL\" is",
+   "   kept or a quiet time observed for two maximum segment lifetimes",
+   "   previous connection before 2*MSL have passed since a segment",
+   "   remaining in the network, the TCP endpoint must keep quiet for an MSL",
+   "   the TIME-WAIT state and TCP's \"quiet time\" concept (see Appendix B of",
+   "  microseconds.  Thus, the ISN cycles approximately every 4.55 hours.",
+   "  the Maximum Segment Lifetime (MSL) and that the MSL is less than 4.55",
+   "Obsoletes: 793, 879, 2873, 6093, 6429, 6528,                            "
+  ],
+  "cross": [
+   "            (1)  assigns its initial sequence number for the new",
+   "            (2)  returns to TIME-WAIT state if the SYN turns out to be",
+   "          the internetwork system.  Arbitrarily defined to be 2 minutes.",
+   "   (1)  assigns its initial sequence number for the new connection to be",
+   "   For this specification the MSL is taken to be 2 minutes.  This is an",
+   "   |  rcv FIN       -------------- |    Timeout=2MSL -------------- |  ",
+   "  is an engineering choice, and may be changed if experience indicates",
+   "  lost.  For this specification the MSL is taken to be 2 minutes.  This"
+  ],
+  "three": [
+   "        <SEQ=0><ACK=SEG.SEQ+SEG.LEN><CTL=RST,ACK>"
+  ],
+  "four": []
+ },
+ "collisions": {
+  "172710": [
+   "码位·793"
+  ],
+  "289148": [
+   "码位·1122"
+  ],
+  "26917": [
+   "码位·6528"
+  ],
+  "72": [
+   "最长行·1122",
+   "最长行·6528",
+   "最长行·9293"
+  ],
+  "91": [
+   "换页独占行·793",
+   "带起·6528"
+  ],
+  "116": [
+   "换页独占行·1122"
+  ],
+  "12": [
+   "换页独占行·6528",
+   "时长取值·9293",
+   "ISN·793"
+  ],
+  "4": [
+   "字节码位差·9293",
+   "TW枚·6528",
+   "TWstate·6528",
+   "微秒·793",
+   "微秒·9293",
+   "非零对",
+   "定位到节",
+   "原面·6528",
+   "折平·6528",
+   "摘壳·6528",
+   "MUST全形·6528",
+   "四式合计·1122",
+   "nsrc"
+  ],
+  "2": [
+   "MSL枚·6528",
+   "quiet·793",
+   "quiet·6528",
+   "quiettime·6528",
+   "正读分钟·9293",
+   "术语表分钟",
+   "图内Timeout",
+   "绕回周期份数",
+   "2minutes·793",
+   "时长命中·6528",
+   "MSL带内·1122",
+   "MSL带内·6528",
+   "裸MUST·6528",
+   "MUSTNOT·6528",
+   "32位·1122",
+   "2MSL·9293",
+   "并存式数·1122",
+   "并存式数·9293",
+   "式·份数·793",
+   "式·份数·1122",
+   "式·份数·6528"
+  ],
+  "8": [
+   "TW枚·1122",
+   "6528被引",
+   "原面·793",
+   "折平·1122",
+   "摘壳·1122"
+  ],
+  "3": [
+   "TWstate·793",
+   "MSL带内·793",
+   "TW带内·1122",
+   "TW带内·6528",
+   "折行独有针",
+   "SHOULD·6528",
+   "该记号份数",
+   "2xMSL·1122",
+   "四式合计·9293"
+  ],
+  "1": [
+   "quiet·1122",
+   "quiettime·793",
+   "linger·1122",
+   "linger·9293",
+   "图式·9293",
+   "taken-to-be句·793",
+   "taken-to-be句·9293",
+   "2minutes·1122",
+   "2minutes·9293",
+   "分钟数缺席·1122",
+   "分钟数缺席·6528",
+   "2*MSL·6528",
+   "6528无分钟定义",
+   "时长取值·6528",
+   "2分钟句同形",
+   "条件句·9293",
+   "quiet句改写",
+   "归一同行·793",
+   "仅归一·793",
+   "AD三份同压",
+   "CD仅归一",
+   "MSL句·793",
+   "MSL句·9293",
+   "Obsoletes头·6528",
+   "Obsoletes头·9293",
+   "Updates头·6528",
+   "Updates头·9293",
+   "STD头·9293",
+   "ISSN头·6528",
+   "ISSN头·9293",
+   "标准类·6528",
+   "标准类·9293",
+   "节名含CONNECTION",
+   "TW带外·6528",
+   "阶梯不倒挂",
+   "折行独有·793",
+   "折行独有·1122",
+   "折行独有·9293",
+   "MAY·6528",
+   "TW余量·1122",
+   "TIMEWAIT无横线·793",
+   "ISS·6528",
+   "ISN·1122",
+   "32位·6528",
+   "池分档·6528",
+   "三源同现",
+   "轴档非零数",
+   "三三交·1122",
+   "2MSL·793",
+   "2xMSL·9293",
+   "2*MSL·1122",
+   "四式合计·793",
+   "四式合计·6528",
+   "并存式数·793",
+   "并存式数·6528"
+  ],
+  "4.55": [
+   "绕回小时·9293"
+  ],
+  "7": [
+   "时长命中·793",
+   "原面·1122",
+   "折平·9293",
+   "摘壳·9293",
+   "MUSTNOT·9293"
+  ],
+  "16": [
+   "时长命中·1122",
+   "CD归一",
+   "BD归一",
+   "MSL带外·9293"
+  ],
+  "5": [
+   "时长取值·793",
+   "空格引793·6528",
+   "MSL带内·9293",
+   "TW带外·1122",
+   "32位·9293",
+   "tag_6528"
+  ],
+  "29": [
+   "AD逐字节"
+  ],
+  "351": [
+   "AD归一"
+  ],
+  "322": [
+   "AD仅归一"
+  ],
+  "81": [
+   "带行数·1122",
+   "带行数·6528",
+   "带行数·9293"
+  ],
+  "6": [
+   "MSL带外·1122",
+   "原面·9293",
+   "keep-alive·9293",
+   "32位·793",
+   "tag_1122",
+   "tag_9293"
+  ],
+  "28": [
+   "TW带外·793",
+   "在册针"
+  ],
+  "47": [
+   "TW带外·9293"
+  ],
+  "9": [
+   "摘壳·793",
+   "anchor_cross",
+   "tag_793"
+  ],
+  "40": [
+   "SHOULD·9293"
+  ],
+  "25": [
+   "TW余量·793",
+   "ISS·793",
+   "ISS·9293"
+  ],
+  "10": [
+   "keep-alive·1122",
+   "ISS·1122"
+  ],
+  "34": [
+   "Timestamp·1122"
+  ],
+  "11": [
+   "Timestamp·9293"
+  ],
+  "38": [
+   "ISN·6528"
+  ],
+  "20": [
+   "ISN·9293"
+  ],
+  "14": [
+   "reboot·9293"
+  ],
+  "9149": [
+   "并集"
+  ],
+  "13": [
+   "anchor_single"
+  ],
+  "26": [
+   "anchor_total"
+  ]
+ },
+ "zero_terms": 147,
+ "deriv_keys": 101,
+ "deriv_points": 263,
+ "notes": {
+  "172710": "字节·793",
+  "289148": "字节·1122",
+  "26917": "字节·6528",
+  "263696": "字节·9293",
+  "263692": "码位·9293",
+  "5248": "行数·793",
+  "6845": "行数·1122",
+  "676": "行数·6528",
+  "5577": "行数·9293",
+  "2975": "非空行·793",
+  "4549": "非空行·1122",
+  "437": "非空行·6528",
+  "4370": "非空行·9293",
+  "72": "最长行·793",
+  "2": "MSL分钟·793",
+  "91": "换页符·793",
+  "116": "换页符·1122",
+  "12": "换页符·6528",
+  "1": "BOM·9293",
+  "3": "非ASCII·9293",
+  "4": "加字节·9293",
+  "16": "MSL枚·793",
+  "8": "MSL枚·1122",
+  "21": "MSL枚·9293",
+  "28": "TW枚·793",
+  "47": "TW枚·9293",
+  "7": "TWstate·1122",
+  "10": "TWstate·9293",
+  "6": "quiet·9293",
+  "5": "quiettime·9293",
+  "4.55": "绕回小时·793",
+  "14": "时长命中·9293",
+  "11": "时长取值·1122",
+  "351": "归一同行·6528",
+  "29": "逐字节同行·6528",
+  "322": "仅归一·6528",
+  "350": "AD只此两份",
+  "15": "CD逐字节",
+  "34": "短横引793·1122",
+  "60": "空格引793·9293",
+  "25": "空格引1122·9293",
+  "40": "带宽",
+  "1812": "带起·793",
+  "5119": "带起·1122",
+  "1067": "带起·9293",
+  "1892": "带止·793",
+  "5199": "带止·1122",
+  "171": "带止·6528",
+  "1147": "带止·9293",
+  "1852": "答句行·793",
+  "5159": "答句行·1122",
+  "131": "答句行·6528",
+  "1107": "答句行·9293",
+  "3750": "带长字符·793",
+  "3388": "带长字符·1122",
+  "3808": "带长字符·6528",
+  "4719": "带长字符·9293",
+  "81": "带行数·793",
+  "Sequence Numbers": "节名·793",
+  "Closing a Connection: RFC-793 Section 3.5": "节名·1122",
+  "Generation of Initial Sequence Numbers": "节名·6528",
+  "Knowing When to Keep Quiet": "节名·9293",
+  "13": "MSL带外·793",
+  "23": "数字带内·793",
+  "38": "数字带内·1122",
+  "113": "数字带内·6528",
+  "26": "数字带内·9293",
+  "1376": "数字带外·793",
+  "5334": "数字带外·1122",
+  "776": "数字带外·6528",
+  "5059": "数字带外·9293",
+  "9": "折平·793",
+  "200": "MUST全形·1122",
+  "228": "MUST全形·9293",
+  "180": "裸MUST·1122",
+  "221": "裸MUST·9293",
+  "20": "MUSTNOT·1122",
+  "73": "SHOULD·1122",
+  "41": "MAY·1122",
+  "58": "MAY·9293",
+  "37": "TW余量·9293",
+  "9149": "池条数",
+  "8767": "池分档·793",
+  "381": "池分档·1122",
+  "1633": "只在本份·793",
+  "3804": "只在本份·1122",
+  "358": "只在本份·6528",
+  "2972": "只在本份·9293",
+  "10737": "锚池",
+  "2357": "锚池标签·793",
+  "4200": "锚池标签·1122",
+  "405": "锚池标签·6528",
+  "3775": "锚池标签·9293",
+  "8128": "锚池1份",
+  "2450": "锚池2份",
+  "123": "锚池3份",
+  "36": "锚池4份",
+  "22": "anchor_distinct",
+  "88": "checks",
+  "8042": "enc_chars"
+ },
+ "needle_n": 28,
+ "zid": [
+  [
+   "B69V('pair_close')",
+   "两两“归一同形”减“逐字节同形”再减“只归一同形”应回到零(池代数闭合)"
+  ],
+  [
+   "B69V('union_close')",
+   "容斥: 单份集之和−两两交之和+三三交之和−四交=并集"
+  ],
+  [
+   "B69V('pool_tier_close')",
+   "分档各枚数之和=池条数"
+  ],
+  [
+   "B69V('axis_close')",
+   "共用长行的写法轴分档之和=“归一同形而逐字节不同”的条数"
+  ],
+  [
+   "B69V('shared_any_byte') + B69V('shared_norm_only') - B69V('shared_total')",
+   "共用长行=逐字节同形+仅归一同形"
+  ],
+  [
+   "B69V('apool_tier_close')",
+   "锚候选池按“几份面上出现”分档之和=池条数"
+  ],
+  [
+   "B69V('apool_tag_close')",
+   "锚候选池按标签分布之和=池条数"
+  ],
+  [
+   "B69V('minutes_agree')",
+   "793 ⇎ 9293 句内游标读出的 MSL 分钟数相等"
+  ],
+  [
+   "B69V('arb_eq_spec')",
+   "793 术语表“Arbitrarily defined”的分钟数=正文那句的分钟数"
+  ],
+  [
+   "B69V('usec_agree')",
+   "两份读出的时钟步长微秒数相等"
+  ],
+  [
+   "B69V('twoms_is_2')",
+   "793 状态图 Timeout=2MSL 里游标读出的 2 就是 2"
+  ],
+  [
+   "max([abs(B69V('byte_cp_delta')[i] - B69V('nonascii_extra')[i]) for i in range(4)])",
+   "字节数−码位数 = 每枚非 ASCII 码位的 utf-8 加字节数之和(9293: BOM 加 2, 两枚 u-umlaut 各加 1)"
+  ],
+  [
+   "B69V('byte_cp_delta', 0) + B69V('byte_cp_delta', 1) + B69V('byte_cp_delta', 2)",
+   "三份纯 ASCII 面的字节−码位差全为零"
+  ],
+  [
+   "B69V('bom', 0) + B69V('bom', 1) + B69V('bom', 2) + B69V('bom', 3) - 1",
+   "四份里恰有一枚 BOM(9293)"
+  ],
+  [
+   "B69V('nonascii', 3) - B69V('bom', 3) * 3",
+   "非 ASCII 码点数=BOM 份数×3"
+  ],
+  [
+   "len(B69V('nul_faces') and [x for x in B69V('nul_faces') if x]) - 2",
+   "MSL 分钟数只有两份面上给得出(缺席两份)"
+  ],
+  [
+   "sum(B69V('form_all')) - (sum(B69V('f2msl')) + sum(B69V('f2x')) + sum(B69V('f2star')) + sum(B69V('f2xsp')))",
+   "2MSL 四式合计=各式逐份之和(合计口径闭合)"
+  ],
+  [
+   "max([0] + [B69V('form_all')[i] - B69V('msl')[i] for i in range(4)])",
+   "每份面上的 2MSL 四式枚数之和不超过该面 MSL 枚数(超了即两轨口径破)"
+  ],
+  [
+   "max([0] + [-B69V('up_ledger')[i] for i in range(4)])",
+   "大写义务词账: 每面 MUST 总数 = 裸 MUST + MUST NOT(正则轨与子串轨对齐)"
+  ],
+  [
+   "len([1 for i in range(4) if B69V('tw')[i]]) - 4",
+   "四份都写到 TIME-WAIT 连字式"
+  ],
+  [
+   "len([1 for i in range(4) if B69V('twospace')[i]]) - 4",
+   "四份都写到 “TIME-WAIT state” 整语"
+  ],
+  [
+   "B69V('ff', 3)",
+   "9293 是 RFC Editor 的新排版面, 换页符枚数为零(与前三份的页式外壳断裂)"
+  ],
+  [
+   "len([1 for i in range(4) if B69V('ff')[i]]) - 3",
+   "带换页符的恰是前三份"
+  ],
+  [
+   "len([i for i in range(4) if B69V('std')[i] and not B69V('cat_std')[i]])",
+   "有 STD: 头的份必然也标 Category: Standards Track(反之不成立: 老排版面只标类别不标 STD)"
+  ],
+  [
+   "B69V('fold_line_zero')",
+   "三枚折行针按逐行口径必须全为零(它们只在折平面存在)"
+  ],
+  [
+   "1 - B69V('quiet_rewritten')",
+   "793 的 keep-quiet 整句在 9293 面上按原句读不到(主语被改写; 读到原句即为失败)"
+  ],
+  [
+   "1 - B69V('msl2_same_bytes')",
+   "两份面上的“MSL=2 分钟”那句逐字同形(1=同形)——不同形即为失败态"
+  ]
+ ],
+ "litk": {
+  "a_quiet": "the TCP must keep quiet for a maximum segment lifetime",
+  "a_msl2": "For this specification the MSL is taken to be 2 minutes.",
+  "a_eng": "is an engineering choice, and may be changed if experience indicates",
+  "a_violate": "TCP implementors may violate the \"quiet time\" restriction, but only",
+  "a_arb2": "Arbitrarily defined to be 2 minutes.",
+  "a_isn455": "Thus, the ISN cycles approximately every 4.55 hours.",
+  "a_lt455": "the MSL is less than 4.55",
+  "a_fig": "Timeout=2MSL",
+  "b_linger": "TIME-WAIT state for a time 2xMSL (Maximum Segment Lifetime).",
+  "b_mayaccept": "However, it MAY accept a new SYN from the remote TCP to",
+  "b_cond1": "assigns its initial sequence number for the new",
+  "b_cond2": "returns to TIME-WAIT state if the SYN turns out to be",
+  "b_busy": "local socket) pair that defines the connection is busy",
+  "b_shorten": "port pair is tied up, some TCPs allow a new SYN to be",
+  "b_ka": "Implementors MAY include \"keep-alives\" in their TCP",
+  "c_star": "previous connection before 2*MSL have passed since a segment",
+  "c_lastseen": "corresponding to the old incarnation was last seen (where \"MSL\" is",
+  "c_twref": "the TIME-WAIT state and TCP's \"quiet time\" concept (see Appendix B of",
+  "c_quiettwo": "kept or a quiet time observed for two maximum segment lifetimes",
+  "d_linger": "When a connection is closed actively, it MUST linger in the TIME-WAIT",
+  "d_msl2": "For this specification the MSL is taken to be 2 minutes.",
+  "d_endpoint": "the TCP endpoint must keep quiet for an MSL",
+  "d_clockmust": "A TCP implementation MUST use the above type of \"clock\" for clock-",
+  "d_paws": "it is recommended to implement the",
+  "d_obsoletes": "Obsoletes: 793, 879, 2873, 6093, 6429, 6528,",
+  "a_eng_whole": "This is an engineering choice, and may be changed if experience indicates it is desirable to do so.",
+  "b_two_both": "it MUST linger in TIME-WAIT state for a time 2xMSL (Maximum Segment Lifetime). However, it MAY accept a new SYN",
+  "d_quiet_whole": "the TCP endpoint must keep quiet for an MSL before assigning any sequence numbers upon starting up or recovering from a situation where memory of sequence numbers in use was lost.",
+  "minutes_a": "MSL is taken to be <NUM>",
+  "minutes_d": "MSL is taken to be <NUM>",
+  "hours_a": "the ISN cycles approximately every <NUM>",
+  "usec_a": "incremented roughly every <NUM>",
+  "usec_d": "once every roughly <NUM>",
+  "minutes_arb": "Arbitrarily defined to be <NUM>",
+  "twoms_a": "Timeout=<NUM>"
+ },
+ "sn": {
+  "a_quiet": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "a_msl2": [
+   1,
+   0,
+   0,
+   1
+  ],
+  "a_eng": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "a_violate": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "a_arb2": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "a_isn455": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "a_lt455": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "a_fig": [
+   1,
+   0,
+   0,
+   1
+  ],
+  "b_linger": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "b_mayaccept": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "b_cond1": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "b_cond2": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "b_busy": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "b_shorten": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "b_ka": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "c_star": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "c_lastseen": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "c_twref": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "c_quiettwo": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "d_linger": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "d_msl2": [
+   1,
+   0,
+   0,
+   1
+  ],
+  "d_endpoint": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "d_clockmust": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "d_paws": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "d_obsoletes": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "a_eng_whole": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "b_two_both": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "d_quiet_whole": [
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "closure_keys": [
+  "apool_tag_close",
+  "apool_tier_close",
+  "axis_close",
+  "pair_ad_close",
+  "pair_ad_pair_close",
+  "pair_close",
+  "pool_tier_close",
+  "s3_norm_close",
+  "union_close",
+  "up_ledger",
+  "win_close_dig",
+  "win_close_msl",
+  "win_close_sum",
+  "win_close_tw"
+ ],
+ "flat": {
+  "needle_n": 28,
+  "sn_strict_docs": [
+   8,
+   7,
+   4,
+   6
+  ],
+  "sn_fold_docs": [
+   9,
+   8,
+   4,
+   7
+  ],
+  "sn_sh_docs": [
+   9,
+   8,
+   4,
+   7
+  ],
+  "fold_only_keys": [
+   "a_eng_whole",
+   "b_two_both",
+   "d_quiet_whole"
+  ],
+  "fold_only_own": [
+   1,
+   1,
+   0,
+   1
+  ],
+  "sh_only_keys": [],
+  "sh_lost_keys": [],
+  "ladder_monotone": 1,
+  "sh_minus_fold": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "fold_line_zero": 0,
+  "shared_verbatim": [
+   "a_msl2",
+   "a_fig",
+   "b_cond1",
+   "b_cond2",
+   "d_msl2"
+  ],
+  "msl2_two_docs": [
+   1,
+   1
+  ],
+  "msl2_same_bytes": 1,
+  "quiet_rewritten": 1,
+  "bytes": [
+   172710,
+   289148,
+   26917,
+   263696
+  ],
+  "chars": [
+   172710,
+   289148,
+   26917,
+   263692
+  ],
+  "lines": [
+   5248,
+   6845,
+   676,
+   5577
+  ],
+  "nonblank": [
+   2975,
+   4549,
+   437,
+   4370
+  ],
+  "ff": [
+   91,
+   116,
+   12,
+   0
+  ],
+  "ff_only": [
+   91,
+   116,
+   12,
+   0
+  ],
+  "cr": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "nonascii": [
+   0,
+   0,
+   0,
+   3
+  ],
+  "bom": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "byte_cp_delta": [
+   0,
+   0,
+   0,
+   4
+  ],
+  "msl": [
+   16,
+   8,
+   2,
+   21
+  ],
+  "tw": [
+   28,
+   8,
+   4,
+   47
+  ],
+  "f2msl": [
+   1,
+   0,
+   0,
+   2
+  ],
+  "f2x": [
+   0,
+   3,
+   0,
+   1
+  ],
+  "f2star": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "f2xsp": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "quiet": [
+   2,
+   1,
+   2,
+   6
+  ],
+  "linger": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "twospace": [
+   3,
+   7,
+   4,
+   10
+  ],
+  "iss": [
+   25,
+   10,
+   1,
+   25
+  ],
+  "isn": [
+   12,
+   1,
+   38,
+   20
+  ],
+  "timestamp": [
+   0,
+   34,
+   0,
+   11
+  ],
+  "ka": [
+   0,
+   10,
+   0,
+   6
+  ],
+  "kabare": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "obsoletes": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "updates": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "std": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "issn": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "cat_std": [
+   0,
+   0,
+   1,
+   1
+  ],
+  "cat_info": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "r793d": [
+   0,
+   34,
+   0,
+   0
+  ],
+  "r793s": [
+   0,
+   0,
+   5,
+   60
+  ],
+  "r1122s": [
+   0,
+   0,
+   0,
+   25
+  ],
+  "r1122d": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "c2m": [
+   2,
+   1,
+   0,
+   1
+  ],
+  "four_us": [
+   0,
+   0,
+   2,
+   1
+  ],
+  "h455": [
+   1,
+   0,
+   0,
+   1
+  ],
+  "reboot": [
+   0,
+   0,
+   0,
+   14
+  ],
+  "must_not": [
+   0,
+   20,
+   2,
+   7
+  ],
+  "form_all": [
+   1,
+   4,
+   1,
+   3
+  ],
+  "form_distinct": [
+   1,
+   2,
+   1,
+   2
+  ],
+  "form_docs": [
+   2,
+   2,
+   2,
+   0
+  ],
+  "must_bare": [
+   0,
+   180,
+   2,
+   221
+  ],
+  "up_must": [
+   0,
+   180,
+   2,
+   221
+  ],
+  "up_must_all": [
+   0,
+   200,
+   4,
+   228
+  ],
+  "up_should": [
+   0,
+   73,
+   3,
+   40
+  ],
+  "up_may": [
+   0,
+   41,
+   1,
+   58
+  ],
+  "up_ledger": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "sec_must_not": [
+   0,
+   20,
+   2,
+   7
+  ],
+  "nonascii_extra": [
+   0,
+   0,
+   0,
+   4
+  ],
+  "nonascii_set": [
+   "0xfc",
+   "0xfeff"
+  ],
+  "isn_bits": [
+   6,
+   2,
+   1,
+   5
+  ],
+  "wrap_hours": [
+   1,
+   0,
+   0,
+   1
+  ],
+  "msl_minutes": [
+   2,
+   null,
+   null,
+   2
+  ],
+  "wrap_hours_n": 4,
+  "usec": [
+   4,
+   null,
+   null,
+   4
+  ],
+  "nul_faces": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "nul_sh": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "set_sizes": [
+   1984,
+   3820,
+   374,
+   3354
+  ],
+  "pair_share": [
+   1,
+   0,
+   351,
+   0,
+   16,
+   16
+  ],
+  "pair_byte": [
+   0,
+   0,
+   29,
+   0,
+   0,
+   15
+  ],
+  "pair_norm_only": [
+   1,
+   0,
+   322,
+   0,
+   16,
+   1
+  ],
+  "pair_close": 0,
+  "pair_nonzero": 4,
+  "tri_share": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "union_all": 9149,
+  "only_each": [
+   1633,
+   3804,
+   358,
+   2972
+  ],
+  "pool_n": 9149,
+  "pool_tier": [
+   8767,
+   381,
+   1,
+   0
+  ],
+  "pool_tier_close": 0,
+  "pool_share1_793": 1633,
+  "pool_share1_1122": 3804,
+  "pool_share1_6528": 358,
+  "pool_share1_9293": 2972,
+  "pool_4": 0,
+  "pool_3": 1,
+  "union_close": 0,
+  "s3_examples": [
+   "<seq=0><ack=seg.seq+seg.len><ctl=rst,ack>"
+  ],
+  "s4_examples": [],
+  "pair_ad_share": 351,
+  "pair_ad_excl": 350,
+  "pair_ad_in3": 1,
+  "pair_ad_byte": 29,
+  "pair_ad_norm_only": 322,
+  "pair_ad_close": 0,
+  "pair_ad_split": 0,
+  "pair_ad_pair_close": 0,
+  "shared_any_byte": 0,
+  "shared_norm_only": 1,
+  "axis_counts": {
+   "case": 0,
+   "hyph": 0,
+   "space": 1,
+   "multi": 0
+  },
+  "axis_close": 0,
+  "shared_total": 1,
+  "apool_n": 10737,
+  "apool_tag_n": [
+   2357,
+   4200,
+   405,
+   3775
+  ],
+  "apool_1": 8128,
+  "apool_2": 2450,
+  "apool_3": 123,
+  "apool_4": 36,
+  "apool_tier_close": 0,
+  "apool_tag_close": 0,
+  "zid_n": 27,
+  "zid_fail": [],
+  "scalar_clos_n": 27,
+  "scalar_clos_sum": 27,
+  "list_clos_n": 1,
+  "x_ident_n": 27,
+  "dur_pairs": [
+   [
+    [
+     2.0,
+     "minutes"
+    ],
+    [
+     4.0,
+     "microseconds"
+    ],
+    [
+     4.5,
+     "hours"
+    ],
+    [
+     4.55,
+     "hours"
+    ],
+    [
+     5.4,
+     "minutes"
+    ]
+   ],
+   [
+    [
+     0.0,
+     "seconds"
+    ],
+    [
+     0.5,
+     "seconds"
+    ],
+    [
+     1.0,
+     "seconds"
+    ],
+    [
+     2.0,
+     "minutes"
+    ],
+    [
+     3.0,
+     "minutes"
+    ],
+    [
+     3.0,
+     "seconds"
+    ],
+    [
+     4.0,
+     "minutes"
+    ],
+    [
+     60.0,
+     "seconds"
+    ],
+    [
+     100.0,
+     "seconds"
+    ],
+    [
+     120.0,
+     "seconds"
+    ],
+    [
+     240.0,
+     "seconds"
+    ]
+   ],
+   [
+    [
+     4.0,
+     "microseconds"
+    ]
+   ],
+   [
+    [
+     0.5,
+     "seconds"
+    ],
+    [
+     1.0,
+     "seconds"
+    ],
+    [
+     2.0,
+     "minutes"
+    ],
+    [
+     3.0,
+     "minutes"
+    ],
+    [
+     3.0,
+     "seconds"
+    ],
+    [
+     4.0,
+     "microseconds"
+    ],
+    [
+     4.5,
+     "hours"
+    ],
+    [
+     4.55,
+     "hours"
+    ],
+    [
+     5.4,
+     "minutes"
+    ],
+    [
+     34.0,
+     "seconds"
+    ],
+    [
+     60.0,
+     "seconds"
+    ],
+    [
+     100.0,
+     "seconds"
+    ]
+   ]
+  ],
+  "dur_distinct": [
+   5,
+   11,
+   1,
+   12
+  ],
+  "dur_hit_total": [
+   7,
+   16,
+   2,
+   14
+  ],
+  "dur_docs": [
+   1,
+   2,
+   2,
+   3,
+   2,
+   2,
+   3,
+   1,
+   2,
+   2,
+   2,
+   1,
+   2,
+   2,
+   1,
+   1
+  ],
+  "dur_union": 16,
+  "msl_digit": [
+   [
+    2
+   ],
+   [
+    2
+   ],
+   [
+    2
+   ],
+   [
+    2
+   ]
+  ],
+  "msl_digit_n": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "msl_taken": [
+   1,
+   0,
+   0,
+   1
+  ],
+  "minutes_word": [
+   9,
+   9,
+   0,
+   9
+  ],
+  "win_head": [
+   "Sequence Numbers",
+   "Closing a Connection: RFC-793 Section 3.5",
+   "Generation of Initial Sequence Numbers",
+   "Knowing When to Keep Quiet"
+  ],
+  "win_sec": [
+   "3.3",
+   "4.2.2.13",
+   "2",
+   "3.4.2"
+  ],
+  "win_center": [
+   1852,
+   5159,
+   131,
+   1107
+  ],
+  "win_head_ln": [
+   1597,
+   5123,
+   119,
+   1085
+  ],
+  "win_start": [
+   1812,
+   5119,
+   91,
+   1067
+  ],
+  "win_end": [
+   1892,
+   5199,
+   171,
+   1147
+  ],
+  "win_chars": [
+   3750,
+   3388,
+   3808,
+   4719
+  ],
+  "win_rows": [
+   81,
+   81,
+   81,
+   81
+  ],
+  "win_msl_in": [
+   3,
+   2,
+   2,
+   5
+  ],
+  "win_msl_out": [
+   13,
+   6,
+   0,
+   16
+  ],
+  "win_tw_in": [
+   0,
+   3,
+   3,
+   0
+  ],
+  "win_tw_out": [
+   28,
+   5,
+   1,
+   47
+  ],
+  "win_dig_in": [
+   23,
+   38,
+   113,
+   26
+  ],
+  "win_dig_out": [
+   1376,
+   5334,
+   776,
+   5059
+  ],
+  "win_band": 40,
+  "win_named": 4,
+  "win_close_msl": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "win_close_tw": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "win_close_dig": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "win_close_sum": 0,
+  "win_share": 1,
+  "minutes_agree": 0,
+  "arb_eq_spec": 0,
+  "usec_agree": 0,
+  "twoms_is_2": 0,
+  "n_a_quiet": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "n_a_msl2": [
+   1,
+   0,
+   0,
+   1
+  ],
+  "n_a_eng": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "n_a_violate": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "n_a_arb2": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "n_a_isn455": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "n_a_lt455": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "n_a_fig": [
+   1,
+   0,
+   0,
+   1
+  ],
+  "n_b_linger": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "n_b_mayaccept": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "n_b_cond1": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "n_b_cond2": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "n_b_busy": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "n_b_shorten": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "n_b_ka": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "n_c_star": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "n_c_lastseen": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "n_c_twref": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "n_c_quiettwo": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "n_d_linger": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "n_d_msl2": [
+   1,
+   0,
+   0,
+   1
+  ],
+  "n_d_endpoint": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "n_d_clockmust": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "n_d_paws": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "n_d_obsoletes": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "n_a_eng_whole": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_b_two_both": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_d_quiet_whole": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "num_minutes_a": 2,
+  "num_minutes_d": 2,
+  "num_hours_a": 4,
+  "num_usec_a": 4,
+  "num_usec_d": 4,
+  "num_minutes_arb": 2,
+  "num_twoms_a": 2,
+  "maxlen": [
+   72,
+   72,
+   72,
+   72
+  ],
+  "cycle_h": [
+   4.55,
+   null,
+   null,
+   4.55
+  ],
+  "cycle_docs": 2,
+  "win_title": [
+   "Sequence Numbers",
+   "Closing a Connection: RFC-793 Section 3.5",
+   "Generation of Initial Sequence Numbers",
+   "Knowing When to Keep Quiet"
+  ],
+  "win_level": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "quiet_time_word": [
+   1,
+   0,
+   2,
+   5
+  ],
+  "tw_plain": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "time_wait_domin": [
+   25,
+   1,
+   0,
+   37
+  ],
+  "msl_undefined_c": 1,
+  "axis_str": "case0⇎hyph0⇎space1⇎multi0",
+  "axis_str_n": 1,
+  "sh_lost_n": 0,
+  "fold_only_n": 3,
+  "rfc_ref_6528": [
+   0,
+   0,
+   13,
+   8
+  ],
+  "rfc_ref_1122": [
+   0,
+   116,
+   0,
+   31
+  ],
+  "rfc_ref_9293": [
+   0,
+   0,
+   0,
+   11
+  ],
+  "msl_minute_word": [
+   9,
+   9,
+   0,
+   9
+  ],
+  "s3_raw": [
+   [
+    "        <SEQ=0><ACK=SEG.SEQ+SEG.LEN><CTL=RST,ACK>",
+    "            <SEQ=0><ACK=SEG.SEQ+SEG.LEN><CTL=RST,ACK>",
+    "            <SEQ=0><ACK=SEG.SEQ+SEG.LEN><CTL=RST,ACK>"
+   ],
+   [
+    "                   <SEQ=0><ACK=SEG.SEQ+SEG.LEN><CTL=RST,ACK>"
+   ],
+   [],
+   [
+    "         <SEQ=0><ACK=SEG.SEQ+SEG.LEN><CTL=RST,ACK>",
+    "            <SEQ=0><ACK=SEG.SEQ+SEG.LEN><CTL=RST,ACK>",
+    "               <SEQ=0><ACK=SEG.SEQ+SEG.LEN><CTL=RST,ACK>"
+   ]
+  ],
+  "s3_raw_first": "        <SEQ=0><ACK=SEG.SEQ+SEG.LEN><CTL=RST,ACK>",
+  "s3_docs": 3,
+  "s3_norm_close": 0,
+  "anchor_total": 26,
+  "anchor_distinct": 22,
+  "anchor_err": 0,
+  "anchor_single": 13,
+  "anchor_cross": 9,
+  "anchor_all4": 0,
+  "checks": 88,
+  "enc_chars": 8042,
+  "nsrc": 4,
+  "tag_793": 9,
+  "tag_1122": 6,
+  "tag_6528": 5,
+  "tag_9293": 6
+ }
+}

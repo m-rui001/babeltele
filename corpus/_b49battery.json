@@ -1,0 +1,575 @@
+{
+ "base_zone1970.tab": {
+  "exit": 0,
+  "nerr": 0,
+  "nout": 0,
+  "bytes_err": 0,
+  "bytes_out": 0,
+  "first_err": "",
+  "first_out": ""
+ },
+ "base_zone.tab": {
+  "exit": 0,
+  "nerr": 0,
+  "nout": 0,
+  "bytes_err": 0,
+  "bytes_out": 0,
+  "first_err": "",
+  "first_out": ""
+ },
+ "d_coord": {
+  "exit": 1,
+  "nerr": 1,
+  "nout": 0,
+  "bytes_err": 49,
+  "bytes_out": 0,
+  "first_err": "zone1970.tab:39: +4230+0013: invalid coordinates",
+  "first_out": "",
+  "kinds": [
+   "+N+N: N N"
+  ]
+ },
+ "d_order": {
+  "exit": 1,
+  "nerr": 1,
+  "nout": 0,
+  "bytes_err": 51,
+  "bytes_out": 0,
+  "first_err": "zone1970.tab:40: country code 'AD' is out of order",
+  "first_out": "",
+  "top_cc": [
+   [
+    "AD",
+    1
+   ]
+  ],
+  "kinds": [
+   "N N N N N N N"
+  ]
+ },
+ "d_misscomment": {
+  "exit": 1,
+  "nerr": 1,
+  "nout": 0,
+  "bytes_err": 40,
+  "bytes_out": 0,
+  "first_err": "zone1970.tab:40: missing comment for TF",
+  "first_out": "",
+  "kinds": [
+   "N N N N"
+  ]
+ },
+ "d_extracomment": {
+  "exit": 1,
+  "nerr": 1,
+  "nout": 0,
+  "bytes_err": 50,
+  "bytes_out": 0,
+  "first_err": "zone1970.tab:39: unnecessary comment 'probe note'",
+  "first_out": "",
+  "kinds": [
+   "N N N N"
+  ]
+ },
+ "d_unknowncc": {
+  "exit": 1,
+  "nerr": 2,
+  "nout": 0,
+  "bytes_err": 93,
+  "bytes_out": 0,
+  "first_err": "zone1970.tab:42: QQ: unknown country code",
+  "first_out": "",
+  "top_cc": [
+   [
+    "AM",
+    1
+   ]
+  ],
+  "kinds": [
+   "N N N N N N N",
+   "N: N N N"
+  ]
+ },
+ "d_fivecol": {
+  "exit": 1,
+  "nerr": 2,
+  "nout": 0,
+  "bytes_err": 82,
+  "bytes_out": 0,
+  "first_err": "zone1970.tab:41: wrong number of columns",
+  "first_out": "",
+  "kinds": [
+   "N N N",
+   "N N N N"
+  ]
+ },
+ "d_duprow": {
+  "exit": 1,
+  "nerr": 0,
+  "nout": 1,
+  "bytes_err": 0,
+  "bytes_out": 63,
+  "first_err": "",
+  "first_out": "zone1970.tab:45: Antarctica/Casey: duplicate Zone from line 44"
+ },
+ "d_extracol": {
+  "exit": 1,
+  "nerr": 1,
+  "nout": 0,
+  "bytes_err": 40,
+  "bytes_out": 0,
+  "first_err": "iso3166.tab:35: wrong number of columns",
+  "first_out": "",
+  "kinds": [
+   "N N N N"
+  ]
+ },
+ "d_lower": {
+  "exit": 1,
+  "nerr": 3,
+  "nout": 0,
+  "bytes_err": 134,
+  "bytes_out": 0,
+  "first_err": "iso3166.tab:37: invalid country code 'am'",
+  "first_out": "",
+  "top_cc": [
+   [
+    "AO",
+    1
+   ]
+  ],
+  "kinds": [
+   "N N N N",
+   "N N N N N N N",
+   "N: N N N"
+  ]
+ },
+ "d_dupcode": {
+  "exit": 1,
+  "nerr": 2,
+  "nout": 0,
+  "bytes_err": 96,
+  "bytes_out": 0,
+  "first_err": "iso3166.tab:40: country code 'AQ' is duplicate",
+  "first_out": "",
+  "top_cc": [
+   [
+    "AQ",
+    1
+   ]
+  ],
+  "kinds": [
+   "N N N N N",
+   "N N N N N N N"
+  ]
+ },
+ "d_samename": {
+  "exit": 1,
+  "nerr": 1,
+  "nout": 0,
+  "bytes_err": 49,
+  "bytes_out": 0,
+  "first_err": "iso3166.tab:41: 'AF' and 'AS' have the same name",
+  "first_out": "",
+  "kinds": [
+   "N N N N N N N"
+  ]
+ },
+ "d_swap": {
+  "exit": 1,
+  "nerr": 1,
+  "nout": 0,
+  "bytes_err": 50,
+  "bytes_out": 0,
+  "first_err": "iso3166.tab:33: country code 'AE' is out of order",
+  "first_out": "",
+  "top_cc": [
+   [
+    "AE",
+    1
+   ]
+  ],
+  "kinds": [
+   "N N N N N N N"
+  ]
+ },
+ "d_rename": {
+  "exit": 1,
+  "nerr": 2,
+  "nout": 0,
+  "bytes_err": 95,
+  "bytes_out": 0,
+  "first_err": "zone1970.tab: no data for 'Europe/LondonX'",
+  "first_out": "",
+  "top_prefix": [
+   [
+    "Europe",
+    2
+   ]
+  ],
+  "kinds": [
+   "N N N N N/N",
+   "N N N N/N"
+  ]
+ },
+ "d_stdoff": {
+  "exit": 1,
+  "nerr": 1,
+  "nout": 0,
+  "bytes_err": 35,
+  "bytes_out": 0,
+  "first_err": "europe:522: unlikely STDOFF: 44:00",
+  "first_out": "",
+  "kinds": [
+   "N N: N:N"
+  ]
+ },
+ "d_month": {
+  "exit": 1,
+  "nerr": 1,
+  "nout": 0,
+  "bytes_err": 30,
+  "bytes_out": 0,
+  "first_err": "europe:417: tricky month: Foo",
+  "first_out": "",
+  "kinds": [
+   "N N: N"
+  ]
+ },
+ "d_ruleunused": {
+  "exit": 1,
+  "nerr": 0,
+  "nout": 2,
+  "bytes_err": 0,
+  "bytes_out": 69,
+  "first_err": "",
+  "first_out": "AlbaniaX: Rule never used"
+ },
+ "d_ruleletters": {
+  "exit": 1,
+  "nerr": 0,
+  "nout": 1,
+  "bytes_err": 0,
+  "bytes_out": 23,
+  "first_err": "",
+  "first_out": "EireX: Rule never used"
+ },
+ "restore": {
+  "exit": 0,
+  "nerr": 0,
+  "nout": 0,
+  "bytes_err": 0,
+  "bytes_out": 0,
+  "first_err": "",
+  "first_out": ""
+ },
+ "c_cc_lt": {
+  "exit": 1,
+  "nerr": 158,
+  "nout": 0,
+  "bytes_err": 8173,
+  "bytes_out": 0,
+  "first_err": "zone1970.tab:45: country code 'AQ' is out of order",
+  "first_out": "",
+  "top_cc": [
+   [
+    "US",
+    28
+   ],
+   [
+    "RU",
+    26
+   ],
+   [
+    "CA",
+    19
+   ],
+   [
+    "BR",
+    15
+   ],
+   [
+    "AR",
+    11
+   ],
+   [
+    "AU",
+    11
+   ]
+  ],
+  "kinds": [
+   "N N N N N N N"
+  ]
+ },
+ "c_cc_lt_zonetab": {
+  "exit": 1,
+  "nerr": 169,
+  "nout": 0,
+  "bytes_err": 8071,
+  "bytes_out": 0,
+  "first_err": "zone.tab:37: country code 'AQ' is out of order",
+  "first_out": "",
+  "top_cc": [
+   [
+    "US",
+    28
+   ],
+   [
+    "RU",
+    24
+   ],
+   [
+    "CA",
+    22
+   ],
+   [
+    "BR",
+    15
+   ],
+   [
+    "AR",
+    11
+   ],
+   [
+    "AU",
+    11
+   ]
+  ],
+  "kinds": [
+   "N N N N N N N"
+  ]
+ },
+ "c_exempt_dead": {
+  "exit": 1,
+  "nerr": 1,
+  "nout": 0,
+  "bytes_err": 48,
+  "bytes_out": 0,
+  "first_err": "zone.tab:337: country code 'RU' is out of order",
+  "first_out": "",
+  "top_cc": [
+   [
+    "RU",
+    1
+   ]
+  ],
+  "kinds": [
+   "N N N N N N N"
+  ]
+ },
+ "c_backward": {
+  "exit": 0,
+  "nerr": 0,
+  "nout": 0,
+  "bytes_err": 0,
+  "bytes_out": 0,
+  "first_err": "",
+  "first_out": ""
+ },
+ "c_iso_lt": {
+  "exit": 0,
+  "nerr": 0,
+  "nout": 0,
+  "bytes_err": 0,
+  "bytes_out": 0,
+  "first_err": "",
+  "first_out": ""
+ },
+ "c_usedmax": {
+  "exit": 0,
+  "nerr": 0,
+  "nout": 0,
+  "bytes_err": 0,
+  "bytes_out": 0,
+  "first_err": "",
+  "first_out": ""
+ },
+ "c_nf3": {
+  "exit": 1,
+  "nerr": 249,
+  "nout": 0,
+  "bytes_err": 10140,
+  "bytes_out": 0,
+  "first_err": "iso3166.tab:31: wrong number of columns",
+  "first_out": "",
+  "kinds": [
+   "N N N N"
+  ]
+ },
+ "c_main_etc": {
+  "exit": 1,
+  "nerr": 28,
+  "nout": 0,
+  "bytes_err": 1068,
+  "bytes_out": 0,
+  "first_err": "zone1970.tab: no data for 'Etc/UTC'",
+  "first_out": "",
+  "top_prefix": [
+   [
+    "Etc",
+    28
+   ]
+  ],
+  "kinds": [
+   "N N N N/N",
+   "N N N N/N+N",
+   "N N N N/N-N"
+  ]
+ },
+ "c_end_etc": {
+  "exit": 0,
+  "nerr": 0,
+  "nout": 0,
+  "bytes_err": 0,
+  "bytes_out": 0,
+  "first_err": "",
+  "first_out": ""
+ },
+ "c_seen_off": {
+  "exit": 1,
+  "nerr": 312,
+  "nout": 0,
+  "bytes_err": 16970,
+  "bytes_out": 0,
+  "first_err": "zone1970.tab:351: no Zone table for 'Africa/Johannesburg'",
+  "first_out": "",
+  "top_prefix": [
+   [
+    "America",
+    121
+   ],
+   [
+    "Asia",
+    74
+   ],
+   [
+    "Europe",
+    38
+   ],
+   [
+    "Pacific",
+    30
+   ],
+   [
+    "Africa",
+    19
+   ],
+   [
+    "Australia",
+    11
+   ]
+  ],
+  "kinds": [
+   "N N N N N/N",
+   "N N N N N/N-N",
+   "N N N N N/N-N-N",
+   "N N N N N/N/N",
+   "N N N N N/N/N_N",
+   "N N N N N/N_N",
+   "N N N N N/N_N/N",
+   "N N N N N/N_N/N_N",
+   "N N N N N/N_N_N"
+  ]
+ },
+ "c_warn_on": {
+  "exit": 0,
+  "nerr": 0,
+  "nout": 2,
+  "bytes_err": 0,
+  "bytes_out": 147,
+  "first_err": "",
+  "first_out": "iso3166.tab:64: warning: no Zone entries for BV (Bouvet Island)"
+ },
+ "c_cc_lt_noexempt": {
+  "exit": 1,
+  "nerr": 170,
+  "nout": 0,
+  "bytes_err": 8119,
+  "bytes_out": 0,
+  "first_err": "zone.tab:37: country code 'AQ' is out of order",
+  "first_out": "",
+  "top_cc": [
+   [
+    "US",
+    28
+   ],
+   [
+    "RU",
+    25
+   ],
+   [
+    "CA",
+    22
+   ],
+   [
+    "BR",
+    15
+   ],
+   [
+    "AR",
+    11
+   ],
+   [
+    "AU",
+    11
+   ]
+  ],
+  "kinds": [
+   "N N N N N N N"
+  ]
+ },
+ "warn_off_flag": {
+  "exit": 0,
+  "nerr": 0,
+  "nout": 2,
+  "bytes_err": 0,
+  "bytes_out": 147,
+  "first_err": "",
+  "first_out": "iso3166.tab:64: warning: no Zone entries for BV (Bouvet Island)"
+ },
+ "crlf_zone1970.tab": {
+  "exit": 0,
+  "nerr": 0,
+  "nout": 0,
+  "bytes_err": 0,
+  "bytes_out": 0,
+  "first_err": "",
+  "first_out": ""
+ },
+ "crlf_iso3166.tab": {
+  "exit": 0,
+  "nerr": 0,
+  "nout": 0,
+  "bytes_err": 0,
+  "bytes_out": 0,
+  "first_err": "",
+  "first_out": ""
+ },
+ "crlf_europe": {
+  "exit": 0,
+  "nerr": 0,
+  "nout": 0,
+  "bytes_err": 0,
+  "bytes_out": 0,
+  "first_err": "",
+  "first_out": ""
+ },
+ "crlf_ALL3": {
+  "exit": 0,
+  "nerr": 0,
+  "nout": 0,
+  "bytes_err": 0,
+  "bytes_out": 0,
+  "first_err": "",
+  "first_out": ""
+ },
+ "crlf_checktab.awk": {
+  "exit": 0,
+  "nerr": 0,
+  "nout": 0,
+  "bytes_err": 0,
+  "bytes_out": 0,
+  "first_err": "",
+  "first_out": ""
+ }
+}

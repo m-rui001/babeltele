@@ -1,0 +1,362 @@
+{
+ "algo": [
+  24,
+  24,
+  24,
+  1
+ ],
+ "algomax": [
+  11,
+  11,
+  11,
+  10
+ ],
+ "algon": [
+  11,
+  11,
+  11,
+  1
+ ],
+ "algosame": 1,
+ "app": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "aug_occ": [
+  2,
+  2,
+  2,
+  1
+ ],
+ "blank": [
+  499,
+  398,
+  334,
+  99
+ ],
+ "bytes": [
+  72542,
+  77812,
+  68458,
+  48779
+ ],
+ "cdot": [
+  37,
+  0,
+  0,
+  0
+ ],
+ "chars": [
+  70069,
+  76354,
+  67543,
+  48089
+ ],
+ "cp_nonascii": [
+  193,
+  18,
+  18,
+  0
+ ],
+ "dashkinds": [
+  5,
+  1,
+  1,
+  1
+ ],
+ "dl_n": 2,
+ "doi_occ": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "dots": [
+  29,
+  0,
+  0,
+  0
+ ],
+ "emdash": [
+  10,
+  0,
+  0,
+  0
+ ],
+ "endash": [
+  17,
+  0,
+  0,
+  0
+ ],
+ "fffd": [
+  0,
+  18,
+  18,
+  0
+ ],
+ "figure": [
+  25,
+  25,
+  25,
+  0
+ ],
+ "formfeed": [
+  0,
+  37,
+  37,
+  0
+ ],
+ "gap_th": 2,
+ "gap_tl": 136,
+ "gap_tp": 28,
+ "gen_n": 2,
+ "gl_gap": 4,
+ "gl_opl": 4,
+ "glyphkinds_T": 10,
+ "glyphkinds_gen": 2,
+ "gt120": [
+  41,
+  42,
+  162,
+  82
+ ],
+ "hfp_body": 9,
+ "hfp_raw": 31,
+ "hitall": 13,
+ "hitkinds": 20,
+ "hitmulti": 3,
+ "hitnone": 1,
+ "hitnorm": 18,
+ "hitraw": 2,
+ "hitsingle": 3,
+ "hkw_body": 44,
+ "hkw_lost": 129,
+ "hkw_raw": 173,
+ "html_a": 92,
+ "html_doi_body": 1,
+ "html_doi_raw": 4,
+ "html_ext": 36,
+ "html_img": 8,
+ "html_sha3_body": 8,
+ "html_sha3_raw": 21,
+ "html_src": 16,
+ "html_tagkinds": 38,
+ "html_tags": 494,
+ "html_uswds_body": 0,
+ "html_uswds_raw": 9,
+ "hyph": [
+  399,
+  422,
+  417,
+  52
+ ],
+ "inter_lp": 1280,
+ "inter_th": 231,
+ "inter_tl": 1268,
+ "inter_tp": 1268,
+ "ldots": [
+  29,
+  0,
+  0,
+  0
+ ],
+ "le": [
+  39,
+  0,
+  0,
+  0
+ ],
+ "le20": [
+  538,
+  116,
+  216,
+  83
+ ],
+ "lines": [
+  1925,
+  1458,
+  915,
+  676
+ ],
+ "maxlen": [
+  167,
+  168,
+  1946,
+  1465
+ ],
+ "medlen": [
+  36,
+  81,
+  47,
+  47
+ ],
+ "minus": [
+  3,
+  0,
+  0,
+  0
+ ],
+ "multicol": [
+  1,
+  120,
+  0,
+  7
+ ],
+ "naskinds": [
+  25,
+  1,
+  1,
+  2
+ ],
+ "nonascii": [
+  306,
+  18,
+  18,
+  11
+ ],
+ "nonblank": [
+  1426,
+  1060,
+  581,
+  577
+ ],
+ "nsrc": 4,
+ "onlya_lt": 13,
+ "onlya_tl": 0,
+ "onlyb_lt": 118,
+ "onlyb_tl": 114,
+ "oplus": [
+  15,
+  0,
+  0,
+  0
+ ],
+ "pagehdr": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "pair_th_raw": 0,
+ "pair_th_skel": 6,
+ "pair_th_strip": 4,
+ "pair_tl_raw": 452,
+ "pair_tl_skel": 692,
+ "pair_tl_strip": 556,
+ "pair_tp_raw": 98,
+ "pair_tp_skel": 135,
+ "pair_tp_strip": 107,
+ "pairtotal": 843,
+ "pdf_pages": 44,
+ "pdf_streams": 198,
+ "pi": [
+  11,
+  0,
+  0,
+  0
+ ],
+ "prime": [
+  21,
+  0,
+  0,
+  0
+ ],
+ "pub_H": 1,
+ "puf": [
+  11,
+  0,
+  0,
+  0
+ ],
+ "run_max": [
+  2660,
+  2660,
+  1135,
+  4000
+ ],
+ "run_pieces": [
+  154,
+  158,
+  6,
+  26
+ ],
+ "run_share": [
+  95,
+  93,
+  36,
+  98
+ ],
+ "run_total": [
+  53100,
+  52317,
+  2689,
+  54913
+ ],
+ "setdiff_ab": [
+  316,
+  307,
+  301,
+  -168
+ ],
+ "sha_distinct": 4,
+ "skmin": 12,
+ "step": [
+  10,
+  10,
+  11,
+  0
+ ],
+ "stepsoft": [
+  11,
+  11,
+  11,
+  0
+ ],
+ "stepwrap": 1,
+ "tabchar": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "table": [
+  22,
+  22,
+  22,
+  0
+ ],
+ "title": "FIPS 202, SHA-3 Standard: Permutation-Based Hash and Extendable-Output Functions | CSRC",
+ "trailws": [
+  1780,
+  10,
+  3,
+  25
+ ],
+ "wocc": [
+  11525,
+  11488,
+  11484,
+  1249
+ ],
+ "wrap72": [
+  518,
+  593,
+  215,
+  191
+ ],
+ "wseta": [
+  1268,
+  1281,
+  1285,
+  442
+ ],
+ "wsetb": [
+  1584,
+  1588,
+  1586,
+  274
+ ]
+}

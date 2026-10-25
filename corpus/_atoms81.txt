@@ -1,0 +1,28 @@
+to be less sensitive to trafﬁc loads [7], its default target delay of 20 ms should be less
+link. We use the Flent testing tool [23] to run the tests, and the data ﬁles are available
+10 Mbps link with 50 ms baseline latency. Our basic test is the Real-Time Response Under
+to the trafﬁc load [7]. Also, its default 5 ms of maximum allowed queuing delay can be
+defaulted to 15 milliseconds and 150 milliseconds for non-data-center
+4.3.  AQM Algorithm Deployment SHOULD NOT Require Operational Tuning
+parameter-free for consumer use.  To ensure that link utilization is
+NOT be adjusted for such short-term bursts, but INTERVAL MAY need to
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
+ms [CHARB2007].  Using this RTT gives a minimum TARGET of 5 ms and
+document are to be interpreted as described in RFC 2119 [RFC2119].
+necessary to increase INTERVAL by that extra delay.  TARGET SHOULD
+PIE is intended to be self-configuring.  Users should not need to
+time_t INTERVAL = MS2TIME(100); // 100 ms sliding-minimum window
+send) without incurring undue loss or undue round-trip delay.
+time_t TARGET = MS2TIME(5);     // 5 ms TARGET queue delay
+document are to be interpreted as described in [RFC2119].
+AQM Algorithm Deployment SHOULD NOT Require Operational
+most unbloated RTTs to have a ceiling of 100
+high utilization while controlling delay
+data-center switches, respectively.
+parameter-free for consumer use
+capitals, as shown here.
+that gives consistently
+Since the data path
+CoDel can be
+Tuning
+ms

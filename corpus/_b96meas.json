@@ -1,0 +1,726 @@
+{
+ "amend_instr": [
+  2,
+  2
+ ],
+ "atom_bad": [
+  0,
+  0
+ ],
+ "atom_checks": [
+  57,
+  57
+ ],
+ "atom_flat_hit": [
+  18,
+  18
+ ],
+ "atom_pnorm_hit": [
+  19,
+  19
+ ],
+ "atom_pool": [
+  19,
+  19
+ ],
+ "atom_shell_only": [
+  1,
+  1
+ ],
+ "atom_strict": [
+  1,
+  1
+ ],
+ "atom_xline": [
+  18,
+  18
+ ],
+ "chain_flat_occ": [
+  18,
+  18
+ ],
+ "chain_n": [
+  16,
+  16
+ ],
+ "chain_needles_hit": [
+  16,
+  16
+ ],
+ "chain_needles_noline": [
+  15,
+  15
+ ],
+ "chain_needles_oneline": [
+  1,
+  1
+ ],
+ "chain_pnorm_occ": [
+  18,
+  18
+ ],
+ "chain_shell_only": [
+  0,
+  0
+ ],
+ "chain_strict_occ": [
+  1,
+  1
+ ],
+ "chain_xline_occ": [
+  17,
+  17
+ ],
+ "chars_body": [
+  40257,
+  40257
+ ],
+ "chars_flat": [
+  37769,
+  37769
+ ],
+ "chars_flat_pre": [
+  32516,
+  32516
+ ],
+ "chars_flat_rule": [
+  5252,
+  5252
+ ],
+ "date_jan27": [
+  1,
+  1
+ ],
+ "date_nov25": [
+  2,
+  2
+ ],
+ "dollars_distinct": [
+  10,
+  10
+ ],
+ "end_word_gap": [
+  25,
+  25
+ ],
+ "flat_identity_gap": [
+  0,
+  0
+ ],
+ "heads_letters": [
+  17,
+  17
+ ],
+ "heads_overlap": [
+  2,
+  2
+ ],
+ "heads_roman": [
+  3,
+  3
+ ],
+ "heads_union": [
+  18,
+  18
+ ],
+ "line_longest": [
+  112,
+  112
+ ],
+ "lines_blank": [
+  79,
+  79
+ ],
+ "lines_nl": [
+  699,
+  699
+ ],
+ "lines_nonblank": [
+  620,
+  620
+ ],
+ "lines_pre": [
+  597,
+  597
+ ],
+ "lines_region_gap": [
+  0,
+  0
+ ],
+ "lines_rule": [
+  102,
+  102
+ ],
+ "lines_sl": [
+  698,
+  698
+ ],
+ "lines_tail_nl": [
+  1,
+  1
+ ],
+ "months_12": [
+  1,
+  1
+ ],
+ "n_pre_caller": [
+  42,
+  42
+ ],
+ "n_pre_consent": [
+  40,
+  40
+ ],
+ "n_pre_exclusive_means": [
+  10,
+  10
+ ],
+ "n_pre_financial_institution": [
+  13,
+  13
+ ],
+ "n_pre_revocation_request": [
+  23,
+  23
+ ],
+ "n_pre_revoke": [
+  31,
+  31
+ ],
+ "n_pre_robocall": [
+  38,
+  38
+ ],
+ "n_pre_text_message": [
+  4,
+  4
+ ],
+ "n_region_gap_caller": [
+  0,
+  0
+ ],
+ "n_region_gap_consent": [
+  0,
+  0
+ ],
+ "n_region_gap_exclusive_means": [
+  0,
+  0
+ ],
+ "n_region_gap_financial_institution": [
+  0,
+  0
+ ],
+ "n_region_gap_revocation_request": [
+  0,
+  0
+ ],
+ "n_region_gap_revoke": [
+  0,
+  0
+ ],
+ "n_region_gap_robocall": [
+  0,
+  0
+ ],
+ "n_region_gap_text_message": [
+  0,
+  0
+ ],
+ "n_rule_caller": [
+  8,
+  8
+ ],
+ "n_rule_consent": [
+  18,
+  18
+ ],
+ "n_rule_exclusive_means": [
+  4,
+  4
+ ],
+ "n_rule_financial_institution": [
+  3,
+  3
+ ],
+ "n_rule_revocation_request": [
+  6,
+  6
+ ],
+ "n_rule_revoke": [
+  15,
+  15
+ ],
+ "n_rule_robocall": [
+  1,
+  1
+ ],
+ "n_rule_text_message": [
+  12,
+  12
+ ],
+ "n_sub_64.1200": [
+  9,
+  9
+ ],
+ "n_sub_advertisement": [
+  6,
+  6
+ ],
+ "n_sub_amend": [
+  9,
+  9
+ ],
+ "n_sub_business_days": [
+  2,
+  2
+ ],
+ "n_sub_called_party": [
+  2,
+  2
+ ],
+ "n_sub_caller": [
+  50,
+  50
+ ],
+ "n_sub_callers": [
+  37,
+  37
+ ],
+ "n_sub_cgb": [
+  4,
+  4
+ ],
+ "n_sub_commenter": [
+  10,
+  10
+ ],
+ "n_sub_commission": [
+  26,
+  26
+ ],
+ "n_sub_confirmation": [
+  3,
+  3
+ ],
+ "n_sub_congressional_review_act": [
+  2,
+  2
+ ],
+ "n_sub_consent": [
+  58,
+  58
+ ],
+ "n_sub_delegate": [
+  5,
+  5
+ ],
+ "n_sub_delegation": [
+  1,
+  1
+ ],
+ "n_sub_effective": [
+  7,
+  7
+ ],
+ "n_sub_end": [
+  26,
+  26
+ ],
+ "n_sub_enforcement_bureau": [
+  2,
+  2
+ ],
+ "n_sub_exclusive": [
+  18,
+  18
+ ],
+ "n_sub_exclusive_means": [
+  14,
+  14
+ ],
+ "n_sub_financial_institution": [
+  16,
+  16
+ ],
+ "n_sub_further_notice_of_proposed_rulemaking": [
+  1,
+  1
+ ],
+ "n_sub_informational": [
+  13,
+  13
+ ],
+ "n_sub_paperwork_reduction_act": [
+  3,
+  3
+ ],
+ "n_sub_prior_express_consent": [
+  5,
+  5
+ ],
+ "n_sub_prior_express_written_consent": [
+  3,
+  3
+ ],
+ "n_sub_reasonable_manner": [
+  3,
+  3
+ ],
+ "n_sub_reasonable_means": [
+  3,
+  3
+ ],
+ "n_sub_reasonable_time": [
+  2,
+  2
+ ],
+ "n_sub_reassigned_numbers_database": [
+  1,
+  1
+ ],
+ "n_sub_rebuttable_presumption": [
+  1,
+  1
+ ],
+ "n_sub_regulatory_flexibility_act": [
+  3,
+  3
+ ],
+ "n_sub_reliable_source": [
+  4,
+  4
+ ],
+ "n_sub_revising": [
+  1,
+  1
+ ],
+ "n_sub_revocation": [
+  44,
+  44
+ ],
+ "n_sub_revocation_request": [
+  29,
+  29
+ ],
+ "n_sub_revocations": [
+  3,
+  3
+ ],
+ "n_sub_revoke": [
+  46,
+  46
+ ],
+ "n_sub_revoke_all": [
+  2,
+  2
+ ],
+ "n_sub_robocall": [
+  39,
+  39
+ ],
+ "n_sub_small_business_administration": [
+  2,
+  2
+ ],
+ "n_sub_standardized_words": [
+  7,
+  7
+ ],
+ "n_sub_supersede": [
+  1,
+  1
+ ],
+ "n_sub_synopsis": [
+  2,
+  2
+ ],
+ "n_sub_tcpa": [
+  3,
+  3
+ ],
+ "n_sub_telemarketing": [
+  9,
+  9
+ ],
+ "n_sub_ten_business_days": [
+  2,
+  2
+ ],
+ "n_sub_text_message": [
+  16,
+  16
+ ],
+ "n_sub_totality_of_circumstances": [
+  1,
+  1
+ ],
+ "n_tok_caller": [
+  13,
+  13
+ ],
+ "n_tok_callers": [
+  37,
+  37
+ ],
+ "n_tok_cancel": [
+  1,
+  1
+ ],
+ "n_tok_consent": [
+  58,
+  58
+ ],
+ "n_tok_end": [
+  1,
+  1
+ ],
+ "n_tok_opt_out": [
+  1,
+  1
+ ],
+ "n_tok_quit": [
+  1,
+  1
+ ],
+ "n_tok_revoke": [
+  44,
+  44
+ ],
+ "n_tok_robocall": [
+  8,
+  8
+ ],
+ "n_tok_robocalls": [
+  31,
+  31
+ ],
+ "n_tok_stop": [
+  3,
+  3
+ ],
+ "n_tok_telemarketing": [
+  9,
+  9
+ ],
+ "n_tok_text": [
+  32,
+  32
+ ],
+ "n_tok_unsubscribe": [
+  1,
+  1
+ ],
+ "naics_cells": [
+  19,
+  19
+ ],
+ "neg_checks": [
+  48,
+  48
+ ],
+ "neg_flat": [
+  0,
+  0
+ ],
+ "neg_n": [
+  16,
+  16
+ ],
+ "neg_pnorm": [
+  0,
+  0
+ ],
+ "neg_strict": [
+  0,
+  0
+ ],
+ "page_first": [
+  67214,
+  67214
+ ],
+ "page_last": [
+  67219,
+  67219
+ ],
+ "page_shells": [
+  5,
+  5
+ ],
+ "pages_span": [
+  6,
+  6
+ ],
+ "para_cells": [
+  7,
+  7
+ ],
+ "para_items": [
+  4,
+  4
+ ],
+ "pct_two_dp": [
+  42,
+  42
+ ],
+ "rule_start_line": [
+  597,
+  597
+ ],
+ "sec_cites": [
+  10,
+  10
+ ],
+ "sents_five_min": [
+  1,
+  1
+ ],
+ "sents_flat": [
+  250,
+  250
+ ],
+ "sents_must": [
+  6,
+  6
+ ],
+ "sents_pre": [
+  214,
+  214
+ ],
+ "sents_region_gap": [
+  0,
+  0
+ ],
+ "sents_rule": [
+  36,
+  36
+ ],
+ "sents_ten_days": [
+  2,
+  2
+ ],
+ "std_words": [
+  7,
+  7
+ ],
+ "t1_naics": [
+  19,
+  19
+ ],
+ "t1_pct_bad": [
+  0,
+  0
+ ],
+ "t1_pct_na": [
+  0,
+  0
+ ],
+ "t1_pct_ok": [
+  19,
+  19
+ ],
+ "t1_rows": [
+  19,
+  19
+ ],
+ "t2_pct_bad": [
+  0,
+  0
+ ],
+ "t2_pct_na": [
+  0,
+  0
+ ],
+ "t2_pct_ok": [
+  13,
+  13
+ ],
+ "t2_rows_dot": [
+  12,
+  12
+ ],
+ "t2_rows_nodot": [
+  1,
+  1
+ ],
+ "t2_rows_tail": [
+  13,
+  13
+ ],
+ "tokens_distinct": [
+  1304,
+  1304
+ ],
+ "tokens_repeat": [
+  4366,
+  4366
+ ],
+ "tokens_sum_close": [
+  0,
+  0
+ ],
+ "tokens_total": [
+  5670,
+  5670
+ ],
+ "tokens_vs_words_gap": [
+  188,
+  188
+ ],
+ "usc_cites": [
+  2,
+  2
+ ],
+ "word_alpha": [
+  5167,
+  5167
+ ],
+ "word_mixed": [
+  24,
+  24
+ ],
+ "word_num": [
+  257,
+  257
+ ],
+ "word_punct": [
+  34,
+  34
+ ],
+ "word_shape_gap": [
+  0,
+  0
+ ],
+ "words_flat": [
+  5482,
+  5482
+ ],
+ "words_flat_rule": [
+  848,
+  848
+ ],
+ "words_line_gap": [
+  0,
+  0
+ ],
+ "words_line_sum": [
+  5482,
+  5482
+ ],
+ "ws_body": [
+  7969,
+  7969
+ ],
+ "ws_runs": [
+  5482,
+  5482
+ ],
+ "ws_runs_interior": [
+  5481,
+  5481
+ ],
+ "zero_lines": [
+  2,
+  2
+ ]
+}

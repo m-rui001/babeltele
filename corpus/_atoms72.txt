@@ -1,0 +1,17 @@
+      ([RFC7231], Section 6.4.2), except that it does not allow changing
+      Note: RFC 1945 and RFC 2068 specify that the client is not allowed
+   Clients with link editing capabilities ought to automatically re-link
+   For historical reasons, a sender MUST only generate the quoted-string
+   agent MAY automatically redirect its request to the URI referenced by
+   SHOULD be retrieved using a GET method on that resource. This method
+      existing user agent implementations treat 302 as if it were a 303
+      Note: For historical reasons, a user agent MAY change the request
+   than GET or HEAD, the user agent MUST NOT automatically redirect the
+   The 308 (Permanent Redirect) status code indicates that the target
+      receiving a 301 status code, some existing HTTP/1.0 user agents
+      |  were later added to unambiguously indicate method-preserving
+   Therefore, the use of status code 308 is restricted to cases where
+   4.  Change the request method according to the redirecting status
+   A 308 response is cacheable by default; i.e., unless otherwise
+   MUST NOT change the request method if it performs an automatic
+      |  eventually converged on changing the method to GET.  307

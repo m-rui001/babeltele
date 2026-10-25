@@ -1,0 +1,6341 @@
+{
+ "anchor_total": 42,
+ "anchor_distinct": 39,
+ "anchor_err": 0,
+ "anchor_single": 33,
+ "anchor_cross": 6,
+ "anchor_all5": 0,
+ "checks": 195,
+ "enc_chars": 12954,
+ "nsrc": 5,
+ "tag_2616": 10,
+ "tag_7231": 7,
+ "tag_6585": 13,
+ "tag_8470": 2,
+ "tag_9110": 10,
+ "letters_in": 1344,
+ "letters_out": 1151,
+ "classes": {
+  "single": [
+   "              BCP 13, RFC 4289, December 2005.",
+   "              RFC 793, DOI 10.17487/RFC0793, September 1981,",
+   "         <p>I only allow 50 requests per hour to this Web site per",
+   "       Retry-After  = \"Retry-After\" \":\" ( HTTP-date | delta-seconds )",
+   "       delta-seconds  = 1*DIGIT",
+   "       token          = 1*<any CHAR except CTLs or separators>",
+   "   9.1.2    Idempotent Methods .......................................51",
+   "   A 425 (Too Early) status code indicates that the server is unwilling",
+   "   A proxy MUST NOT automatically retry non-idempotent requests.  A",
+   "   D. Lawrence, Paul J. Leach, Håkon W. Lie, Ari Luotonen, Larry",
+   "   For example, a user agent can repeat a POST request automatically if",
+   "   MUST NOT be automatically retried, although user agents MAY offer a",
+   "   Note that this specification does not define how the origin server",
+   "   Responses with the 429 status code MUST NOT be stored by a cache.",
+   "   Retry-After: 3600",
+   "   TRACE SHOULD NOT have side effects, and so are inherently idempotent.",
+   "   The 428 status code indicates that the origin server requires the",
+   "   The 429 status code indicates that the user has sent too many",
+   "   condition, and MAY include a Retry-After header indicating how long",
+   "   idempotent (see section 9.1.2). Non-idempotent methods or sequences",
+   "   non-idempotent sequences of methods (see section 9.1.2). Otherwise, a",
+   "   to wait before making a new request.",
+   "   user agent SHOULD retry automatically, but any retries MUST NOT be",
+   "4.2.2.  Idempotent Methods",
+   "4.2.3.  Cacheable Methods",
+   "9.1.2 Idempotent Methods",
+   "9.2 OPTIONS",
+   "9.2.3.  Methods and Caching",
+   "ISSN: 2070-1721                                               April 2012",
+   "Obsoletes: 2616                                          J. Reschke, Ed.",
+   "Obsoletes: 2818, 7230, 7231, 7232, 7233, 7235,                    Fastly",
+   "STD: 97                                               M. Nottingham, Ed.",
+   "Updates: 2616                                                R. Fielding"
+  ],
+  "cross": [
+   "     Retry-After = HTTP-date / delay-seconds",
+   "     delay-seconds  = 1*DIGIT",
+   "   A request method is considered \"idempotent\" if the intended effect on",
+   "   Idempotent methods are distinguished because the request can be",
+   "   Like the definition of safe, the idempotent property only applies to"
+  ],
+  "three": [
+   "     Accept: text/plain; q=0.5, text/html,"
+  ],
+  "four": [],
+  "five": []
+ },
+ "collisions": {
+  "422279": [
+   "码位·2616"
+  ],
+  "235053": [
+   "码位·7231"
+  ],
+  "17164": [
+   "码位·6585"
+  ],
+  "25880": [
+   "码位·8470"
+  ],
+  "72": [
+   "最长行·6585",
+   "最长行·8470",
+   "最长行·9110"
+  ],
+  "1": [
+   "唯一超长者",
+   "BOM·9110",
+   "ASCII其余四份",
+   "换页档对账",
+   "无壳只在9110",
+   "9110摘壳等折平",
+   "尾换行·2616",
+   "尾换行·7231",
+   "尾换行·6585",
+   "尾换行·8470",
+   "尾换行·9110",
+   "URL形·2616",
+   "折平减顶格·8470",
+   "标题无点式·6585",
+   "逐行档·2616",
+   "逐行档·9110",
+   "三档口径存在",
+   "摘壳独有·6585",
+   "死针账零",
+   "阶梯单调",
+   "两轨同值",
+   "标题命中·2616",
+   "标题命中·7231",
+   "目录正文差·9110",
+   "节尾标题印行·2616",
+   "节尾标题印行·7231",
+   "7231节内零义务词",
+   "定义在节内",
+   "定义在摘壳",
+   "判词先于节头",
+   "副作用句在节内",
+   "9110全在节内",
+   "自动重试族·7231",
+   "自动重试族逐行·7231",
+   "6585零自动词",
+   "重来互含·8470",
+   "重来零枚族·7231",
+   "重来零枚族·9110",
+   "义务词切开·7231",
+   "纯MUST·6585",
+   "3600枚·2616",
+   "3600枚·6585",
+   "120枚·7231",
+   "120枚·9110",
+   "改名分家",
+   "8470零RetryAfter",
+   "竖线式·2616",
+   "引号式·2616",
+   "规则行数·2616",
+   "单位定义行·2616",
+   "单位定义行·7231",
+   "单位定义行·9110",
+   "日期例·2616",
+   "日期例·7231",
+   "日期例·9110",
+   "120例·2616",
+   "120例·7231",
+   "120例·9110",
+   "两分钟例·2616",
+   "两分钟例·7231",
+   "两分钟例·9110",
+   "3600例·6585",
+   "码集同2616",
+   "8470零定义",
+   "9110零428429",
+   "2616零428429",
+   "主动句·2616",
+   "被动句·2616",
+   "唯被动2616",
+   "节内点名两份",
+   "最小共用",
+   "行不少于键",
+   "年序倒退",
+   "空段·9110",
+   "废止在库·7231",
+   "更新者被废止·6585",
+   "ISSN行·7231",
+   "ISSN行·6585",
+   "ISSN行·8470",
+   "ISSN行·9110",
+   "STD行数",
+   "段行数·9110#5",
+   "答句跨行·9110",
+   "一行读全只在9110",
+   "一行读全·9110",
+   "搬段逐字同",
+   "位移等值",
+   "短语被切·2616",
+   "短语被切·7231",
+   "短语被切·8470",
+   "短语被切·9110",
+   "唯6585未切",
+   "might跨行",
+   "might跨一行",
+   "行针按份·7231",
+   "行针复核判定",
+   "错行对照判定",
+   "摘壳差对拍",
+   "抬头对拍",
+   "字节行对拍",
+   "归一行对拍",
+   "答句等值·2616",
+   "答句等值·7231",
+   "答句等值·6585",
+   "答句等值·8470",
+   "答句等值·9110",
+   "答句尾空·2616",
+   "答句尾空·7231",
+   "答句尾空·8470",
+   "答句尾空·9110"
+  ],
+  "176": [
+   "页壳行·2616",
+   "换页strip档·2616"
+  ],
+  "101": [
+   "页壳行·7231",
+   "换页strip档·7231"
+  ],
+  "10": [
+   "页壳行·6585",
+   "换页strip档·6585",
+   "折平减顶格·2616",
+   "自动重试族·9110",
+   "自动重试族逐行·9110",
+   "RetryAfter枚·2616",
+   "非零对数",
+   "段内每行词·6585",
+   "tag_2616",
+   "tag_9110"
+  ],
+  "12": [
+   "页壳行·8470",
+   "换页strip档·8470",
+   "折平RFC行·8470",
+   "名下针·2616",
+   "重来族·8470",
+   "段内每行词·8470"
+  ],
+  "9860": [
+   "换行档·2616"
+  ],
+  "5660": [
+   "换行档·7231"
+  ],
+  "564": [
+   "换行档·6585"
+  ],
+  "676": [
+   "换行档·8470"
+  ],
+  "10786": [
+   "换行档·9110"
+  ],
+  "34": [
+   "尖括号形·7231",
+   "大小写差·9110"
+  ],
+  "24": [
+   "闭标签名形·6585",
+   "数字族合计·7231",
+   "段词数·8470#4",
+   "段词数·9110#14",
+   "共用词"
+  ],
+  "9": [
+   "URL形·8470",
+   "顶格抬头·6585",
+   "折平RFC行·6585",
+   "折平档·2616",
+   "摘壳档·2616",
+   "名下针·6585",
+   "大小写差·6585",
+   "义务词切开·9110",
+   "定义行·7231",
+   "目录行·7231",
+   "定义码族数·7231",
+   "反向合计·7231",
+   "废止总数",
+   "片段少读行·6585",
+   "非空壳行·6585"
+  ],
+  "27": [
+   "尖括号伪法·9110",
+   "折行独有针",
+   "重来去重·7231"
+  ],
+  "7": [
+   "折平减顶格·7231",
+   "标题两点式·6585",
+   "摘壳档·6585",
+   "折行独有·9110",
+   "节窗句·2616",
+   "节窗句·7231",
+   "重来互含·9110",
+   "段内每行词·2616",
+   "tag_7231"
+  ],
+  "20": [
+   "折平减顶格·9110"
+  ],
+  "21": [
+   "标题一点式·9110",
+   "段词数·6585#3"
+  ],
+  "3": [
+   "标题无点式·7231",
+   "折行独有·7231",
+   "反向按份·2616",
+   "反向按份·7231",
+   "反向按份·8470",
+   "反向按份·9110",
+   "有节份数",
+   "节窗千分比·2616",
+   "判词在摘壳",
+   "判词记节外",
+   "自动重试族·8470",
+   "自动重试族逐行·8470",
+   "重来互含·2616",
+   "义务词切开·2616",
+   "120枚·2616",
+   "施事针·8470",
+   "主动句·8470",
+   "行句比",
+   "废止目标在库内",
+   "更新总数",
+   "段行数·2616#1",
+   "段行数·7231#2",
+   "段行数·9110#9",
+   "段行数·9110#14",
+   "答句跨行·2616",
+   "答句跨行·7231",
+   "清单闭合"
+  ],
+  "2": [
+   "逐行档·7231",
+   "逐行档·6585",
+   "节外按份·7231",
+   "反向按份·6585",
+   "无节份数",
+   "标题命中·9110",
+   "节尾标题印行·9110",
+   "节内义务词·2616",
+   "交叉引用处",
+   "自动重试族·2616",
+   "自动重试族逐行·2616",
+   "重来互含·7231",
+   "重来零枚族·2616",
+   "节内义务词千分比·2616",
+   "RetryAfter枚·6585",
+   "斜杠式·7231",
+   "斜杠式·9110",
+   "规则行数·7231",
+   "规则行数·9110",
+   "数字族合计·6585",
+   "7231少定义",
+   "施事针·2616",
+   "节内POST·9110",
+   "分家桶数",
+   "废止在库·9110",
+   "段行数·6585#3",
+   "段行数·8470#4",
+   "段行数·9110#10",
+   "段行数·2616#13",
+   "答句跨行·6585",
+   "答句跨行·8470",
+   "行针按份·2616",
+   "行针按份·6585",
+   "行针按份·8470",
+   "tag_8470"
+  ],
+  "5": [
+   "折平档·7231",
+   "折平档·8470",
+   "摘壳档·7231",
+   "摘壳档·8470",
+   "折行独有·8470",
+   "节窗千分比·7231",
+   "节窗千分比·9110",
+   "重来族·6585",
+   "重来去重·6585",
+   "重来零枚族·6585",
+   "主动句·9110",
+   "nsrc"
+  ],
+  "6": [
+   "折平档·6585",
+   "节外按份·2616",
+   "节内义务词·9110",
+   "重来零枚族·8470",
+   "delay秒枚·7231",
+   "delay秒枚·9110",
+   "冷族数·8470",
+   "段行数·6585#12",
+   "行针按份·9110",
+   "anchor_cross"
+  ],
+  "8": [
+   "摘壳档·9110",
+   "折行独有·2616",
+   "节外针",
+   "名下针·7231",
+   "名下针·8470",
+   "9110名下针",
+   "9110节内",
+   "delta秒枚·2616",
+   "定义行·6585",
+   "冷族数·2616",
+   "冷族数·7231",
+   "冷族数·9110",
+   "段词数·9110#5",
+   "段内每行词·7231",
+   "段内每行词·9110"
+  ],
+  "11": [
+   "名下针·9110",
+   "重来去重·8470",
+   "节内义务词千分比·9110",
+   "定义行·2616",
+   "目录行·2616",
+   "定义码族数·2616",
+   "定义码族数·9110",
+   "反向合计·2616",
+   "主段行数",
+   "答句跨行合计",
+   "片段少读行·8470",
+   "非空壳行·8470"
+  ],
+  "30": [
+   "节窗行·2616"
+  ],
+  "14": [
+   "节窗句·9110",
+   "idempotent枚·7231",
+   "段词数·2616#13"
+  ],
+  "4": [
+   "命中合计",
+   "大小写差·8470",
+   "目录行·6585",
+   "定义码族数·6585",
+   "括号被切·8470",
+   "冷族数·6585",
+   "施事针·9110",
+   "段行数·7231#6",
+   "段行数·9110#7",
+   "段行数·2616#8",
+   "段行数·8470#11"
+  ],
+  "51": [
+   "重来族·9110"
+  ],
+  "18": [
+   "idempotent枚·9110"
+  ],
+  "25": [
+   "义务词最宽档·6585",
+   "义务词折平·6585",
+   "只归一同形",
+   "分家行数",
+   "只属8470对"
+  ],
+  "43": [
+   "义务词折平·8470",
+   "十二段行"
+  ],
+  "129": [
+   "大小写差·2616"
+  ],
+  "15": [
+   "大小写差·7231",
+   "RetryAfter枚·7231"
+  ],
+  "35": [
+   "小写族·6585"
+  ],
+  "810": [
+   "小写族·9110"
+  ],
+  "44": [
+   "纯MUST·7231"
+  ],
+  "16": [
+   "HTTPdate枚·7231",
+   "行减键差",
+   "多份共用8470对",
+   "段词数·9110#10"
+  ],
+  "29": [
+   "数字族合计·2616"
+  ],
+  "32": [
+   "反向合计·6585"
+  ],
+  "13": [
+   "反向合计·9110",
+   "行针复核枚",
+   "行针自验枚",
+   "tag_6585"
+  ],
+  "1163": [
+   "字节同形行枚"
+  ],
+  "14575": [
+   "容斥结果"
+  ],
+  "1147": [
+   "字节同形·7231对"
+  ],
+  "2601": [
+   "段起行·2616#1"
+  ],
+  "134": [
+   "段起行·6585#3",
+   "段字符·8470#4"
+  ],
+  "3903": [
+   "段止行·9110#5"
+  ],
+  "115": [
+   "段字符·6585#3"
+  ],
+  "265": [
+   "段字符·9110#7"
+  ],
+  "177": [
+   "段字符·9110#9"
+  ],
+  "240": [
+   "段字符·8470#11"
+  ],
+  "23": [
+   "段词数·2616#1"
+  ],
+  "26": [
+   "段词数·7231#2",
+   "段词数·9110#9",
+   "共头·幂等段",
+   "共尾·幂等段"
+  ],
+  "42": [
+   "段词数·9110#7",
+   "段词数·2616#8",
+   "anchor_total"
+  ],
+  "420": [
+   "十二段词"
+  ],
+  "2574": [
+   "类比段位移"
+  ],
+  "3898": [
+   "might首行"
+  ],
+  "175": [
+   "片段少读行·2616",
+   "非空壳行·2616"
+  ],
+  "100": [
+   "片段少读行·7231",
+   "非空壳行·7231"
+  ],
+  "139": [
+   "恒等式通过",
+   "共键恒等式"
+  ],
+  "28": [
+   "布尔门通过"
+  ],
+  "48": [
+   "针总数"
+  ],
+  "39": [
+   "anchor_distinct"
+  ],
+  "241": [
+   "列表元素·241"
+  ],
+  "365": [
+   "列表元素·365"
+  ]
+ },
+ "zero_terms": 375,
+ "deriv_keys": 198,
+ "deriv_points": 560,
+ "notes": {
+  "5": "txt份数",
+  "422279": "字节·2616",
+  "235053": "字节·7231",
+  "17164": "字节·6585",
+  "25880": "字节·8470",
+  "502941": "字节·9110",
+  "502907": "码位·9110",
+  "9860": "原行·2616",
+  "5660": "原行·7231",
+  "564": "原行·6585",
+  "676": "原行·8470",
+  "10786": "原行·9110",
+  "6911": "非空行·2616",
+  "3945": "非空行·7231",
+  "323": "非空行·6585",
+  "426": "非空行·8470",
+  "8659": "非空行·9110",
+  "72": "最长行·2616",
+  "75": "最长行·7231",
+  "1": "超72行·7231",
+  "30": "非ASCII·9110",
+  "34": "字节减码位·9110",
+  "176": "换页·2616",
+  "101": "换页·7231",
+  "10": "换页·6585",
+  "12": "换页·8470",
+  "10035": "splitlines·2616",
+  "5760": "splitlines·7231",
+  "573": "splitlines·6585",
+  "687": "splitlines·8470",
+  "10785": "splitlines·9110",
+  "47": "尖括号形·2616",
+  "51": "尖括号形·6585",
+  "9": "尖括号形·8470",
+  "130": "尖括号形·9110",
+  "25": "开标签名形·2616",
+  "24": "开标签名形·6585",
+  "6": "开标签名形·9110",
+  "7": "URL形·7231",
+  "3": "URL形·6585",
+  "97": "URL形·9110",
+  "21": "尖括号伪法·2616",
+  "27": "尖括号伪法·7231",
+  "175": "顶格抬头·2616",
+  "100": "顶格抬头·7231",
+  "11": "顶格抬头·8470",
+  "185": "折平RFC行·2616",
+  "107": "折平RFC行·7231",
+  "20": "折平RFC行·9110",
+  "129": "标题两点式·7231",
+  "18": "标题两点式·8470",
+  "523": "标题两点式·9110",
+  "2": "标题一点式·2616",
+  "115": "标题一点式·7231",
+  "236": "标题无点式·2616",
+  "8": "折平档·9110",
+  "[3, 3, -1, -1, 8]": "节窗档",
+  "4": "折行独有·6585",
+  "14": "反向针数",
+  "5691": "锚句总长",
+  "810": "锚句最长",
+  "3861": "节头行·9110",
+  "1163": "节窗字符·2616",
+  "1317": "节窗字符·7231",
+  "2409": "节窗字符·9110",
+  "31": "节窗行·7231",
+  "45": "节窗行·9110",
+  "174": "节窗词·2616",
+  "189": "节窗词·7231",
+  "358": "节窗词·9110",
+  "182": "目录行·9110",
+  "2601": "判词行·2616",
+  "2845": "节头行·2616",
+  "244": "判词到节头",
+  "[2543, 2601]": "引用行号",
+  "[2601]": "判词行号",
+  "35": "裸automat·9110",
+  "26": "裸词减族·9110",
+  "39": "重来族·2616",
+  "29": "重来族·7231",
+  "36": "重来去重·2616",
+  "44": "重来去重·9110",
+  "15": "idempotent枚·2616",
+  "946": "义务词最宽档·2616",
+  "200": "义务词最宽档·7231",
+  "43": "义务词最宽档·8470",
+  "536": "义务词最宽档·9110",
+  "949": "义务词折平·2616",
+  "201": "义务词折平·7231",
+  "545": "义务词折平·9110",
+  "1125": "小写族·2616",
+  "318": "小写族·7231",
+  "70": "小写族·8470",
+  "228": "纯MUST·2616",
+  "13": "纯MUST·8470",
+  "134": "纯MUST·9110",
+  "16": "HTTPdate枚·2616",
+  "32": "HTTPdate枚·9110",
+  "17": "RetryAfter枚·9110",
+  "[0, 0, 0, 0, 0]": "规则式账平",
+  "40": "数字族合计·9110",
+  "9647": "数字字符·2616",
+  "6949": "数字字符·7231",
+  "499": "数字字符·6585",
+  "576": "数字字符·8470",
+  "11304": "数字字符·9110",
+  "22": "定义行·9110",
+  "[0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 2]": "428定义行·6585",
+  "65": "反向合计·8470",
+  "[0, 0, 0, 0, 0, 0, 0, 0, 11]": "反向·2616",
+  "1462": "施事泛称·2616",
+  "693": "施事泛称·7231",
+  "48": "施事泛称·6585",
+  "118": "施事泛称·8470",
+  "1624": "施事泛称·9110",
+  "[0, 0, 3, 0, 0, 0, 3]": "节内client·7231",
+  "[2, 0, 7, 1, 0, 0, 3]": "节内client·9110",
+  "16635": "行池",
+  "14575": "行池并集",
+  "2060": "池行减并集",
+  "[13293, 1202, 65, 14, 1]": "行池分档",
+  "2616-8470": "最小对",
+  "1172": "最大共用",
+  "7231-9110": "最大对",
+  "1147": "字节同形",
+  "case0 ⇎ hyph0 ⇎ space21 ⇎ multi4": "分家口径",
+  "[15953, 1491, 131, 19, 1]": "容斥各阶",
+  "5237": "句池",
+  "347": "句尺最大",
+  "7231·9110": "句尺最大对",
+  "825": "句尺少读",
+  "1082": "只属这一对",
+  "41": "字节同形·8470对",
+  "15136": "锚池",
+  "17238": "锚池原始",
+  "[5831, 3197, 241, 365, 6950]": "锚池按份",
+  "2616 1999 ⇎ 7231 2014 ⇎ 6585 2012 ⇎ 8470 2018 ⇎ 9110 2022": "年序",
+  "23": "年跨",
+  "[1, 1, 0, 0, 7]": "废止段数",
+  "[3]": "无出边",
+  "1300": "段起行·7231#2",
+  "407": "段起行·8470#4",
+  "3903": "段起行·9110#5",
+  "1295": "段起行·7231#6",
+  "3869": "段起行·9110#7",
+  "2847": "段起行·2616#8",
+  "3874": "段起行·9110#9",
+  "3897": "段起行·9110#10",
+  "420": "段起行·8470#11",
+  "158": "段起行·6585#12",
+  "2605": "段起行·2616#13",
+  "3888": "段起行·9110#14",
+  "2603": "段止行·2616#1",
+  "1302": "段止行·7231#2",
+  "135": "段止行·6585#3",
+  "408": "段止行·8470#4",
+  "1298": "段止行·7231#6",
+  "3872": "段止行·9110#7",
+  "2850": "段止行·2616#8",
+  "3876": "段止行·9110#9",
+  "3898": "段止行·9110#10",
+  "423": "段止行·8470#11",
+  "163": "段止行·6585#12",
+  "2606": "段止行·2616#13",
+  "3890": "段止行·9110#14",
+  "157": "段字符·2616#1",
+  "177": "段字符·7231#2",
+  "61": "段字符·9110#5",
+  "265": "段字符·7231#6",
+  "240": "段字符·2616#8",
+  "94": "段字符·9110#10",
+  "393": "段字符·6585#12",
+  "84": "段字符·2616#13",
+  "142": "段字符·9110#14",
+  "42": "段词数·7231#6",
+  "46": "段词数·8470#11",
+  "66": "段词数·6585#12",
+  "644": "主段字符",
+  "102": "主段词数",
+  "2574": "幂等段位移",
+  "3899": "might末行",
+  "139": "恒等式数",
+  "28": "布尔门数",
+  "167": "对账相符",
+  "33": "anchor_single",
+  "195": "checks",
+  "12954": "enc_chars",
+  "241": "列表元素·241",
+  "365": "列表元素·365",
+  "1202": "列表元素·1202",
+  "1491": "列表元素·1491",
+  "2543": "列表元素·2543",
+  "3197": "列表元素·3197",
+  "5831": "列表元素·5831",
+  "6950": "列表元素·6950",
+  "13293": "列表元素·13293",
+  "15953": "列表元素·15953"
+ },
+ "anchor_ambiguous": 2,
+ "anchor_lines": [
+  [
+   "9110",
+   "Håkon W. Lie",
+   10179,
+   1
+  ],
+  [
+   "2616",
+   "<any CHAR except CTLs or separator",
+   908,
+   1
+  ],
+  [
+   "6585",
+   "<p>I only allow 50 requests per ho",
+   153,
+   1
+  ],
+  [
+   "9110",
+   "RFC 793, DOI",
+   9435,
+   1
+  ],
+  [
+   "6585",
+   "The 428 status code indicates",
+   97,
+   1
+  ],
+  [
+   "2616",
+   "9.1.2 Idempotent Methods",
+   2845,
+   1
+  ],
+  [
+   "7231",
+   "4.2.2.  Idempotent Methods",
+   1278,
+   1
+  ],
+  [
+   "9110",
+   "A request method is considered",
+   3863,
+   1
+  ],
+  [
+   "2616",
+   "9.1.2 Idempotent Methods ...",
+   138,
+   1
+  ],
+  [
+   "2616",
+   "9.2 OPTIONS",
+   2875,
+   1
+  ],
+  [
+   "7231",
+   "4.2.3.  Cacheable Methods",
+   1309,
+   1
+  ],
+  [
+   "9110",
+   "9.2.3.  Methods and Caching",
+   3906,
+   1
+  ],
+  [
+   "2616",
+   "idempotent (see section 9.1.2). No",
+   2601,
+   1
+  ],
+  [
+   "2616",
+   "non-idempotent sequences of method",
+   2543,
+   1
+  ],
+  [
+   "2616",
+   "TRACE SHOULD NOT have side effects",
+   2851,
+   1
+  ],
+  [
+   "6585",
+   "Retry-After: 3600",
+   145,
+   1
+  ],
+  [
+   "6585",
+   "I only allow 50 requests per hour",
+   153,
+   1
+  ],
+  [
+   "6585",
+   "Note that this specification does ",
+   158,
+   1
+  ],
+  [
+   "6585",
+   "to wait before making a new reques",
+   139,
+   1
+  ],
+  [
+   "2616",
+   "MUST NOT be automatically retried,",
+   2602,
+   1
+  ],
+  [
+   "7231",
+   "Idempotent methods are distinguish",
+   1300,
+   1
+  ],
+  [
+   "6585",
+   "Responses with the 429 status code",
+   165,
+   1
+  ],
+  [
+   "8470",
+   "user agent SHOULD retry automatica",
+   409,
+   1
+  ],
+  [
+   "9110",
+   "A proxy MUST NOT automatically ret",
+   3903,
+   1
+  ],
+  [
+   "6585",
+   "I only allow 50 requests per hour",
+   153,
+   1
+  ],
+  [
+   "2616",
+   "Retry-After  = \"Retry-After\"",
+   7861,
+   1
+  ],
+  [
+   "7231",
+   "Retry-After = HTTP-date / delay-se",
+   3854,
+   2
+  ],
+  [
+   "2616",
+   "delta-seconds  = 1*DIGIT",
+   1167,
+   1
+  ],
+  [
+   "7231",
+   "delay-seconds  = 1*DIGIT",
+   3859,
+   2
+  ],
+  [
+   "6585",
+   "Retry-After: 3600",
+   145,
+   1
+  ],
+  [
+   "8470",
+   "A 425 (Too Early) status code indi",
+   404,
+   1
+  ],
+  [
+   "6585",
+   "The 429 status code indicates",
+   134,
+   1
+  ],
+  [
+   "9110",
+   "RFC 4289, December 2005",
+   9464,
+   1
+  ],
+  [
+   "9110",
+   "a user agent can repeat a POST req",
+   3888,
+   1
+  ],
+  [
+   "7231",
+   "Accept: text/plain; q=0.5, text/ht",
+   2156,
+   1
+  ],
+  [
+   "6585",
+   "April 2012",
+   11,
+   1
+  ],
+  [
+   "7231",
+   "Obsoletes: 2616",
+   9,
+   1
+  ],
+  [
+   "9110",
+   "Obsoletes: 2818, 7230, 7231, 7232,",
+   8,
+   1
+  ],
+  [
+   "6585",
+   "Updates: 2616",
+   9,
+   1
+  ],
+  [
+   "9110",
+   "STD: 97",
+   7,
+   1
+  ],
+  [
+   "9110",
+   "Like the definition of safe",
+   3869,
+   1
+  ],
+  [
+   "6585",
+   "MAY include a Retry-After header i",
+   138,
+   1
+  ]
+ ],
+ "needle_n": 48,
+ "zid": [
+  [
+   "B80V('ladder_close')",
+   "四档阶梯逐份进出账: 逐行+折行独有=折平, 折平−丢+救=摘壳, 摘壳−节外=节窗"
+  ],
+  [
+   "B80V('ladder_monotone') - 1",
+   "每份的档读数只增不减(逐行≤折平, 节窗≤摘壳)"
+  ],
+  [
+   "B80V('re_eq_cur') - 1",
+   "正则转义轨与游标 find 轨在折平/摘壳两档逐枚相等"
+  ],
+  [
+   "B80V('overlap_extra')",
+   "重叠口径减非重叠口径在全库锚句上合计为零"
+  ],
+  [
+   "len(B80V('dead_needles'))",
+   "死集为空: 每枚内容锚句都在某一档读得到"
+  ],
+  [
+   "sum(B80V('needles_owned')) - B80V('needle_n')",
+   "锚句按份分账=总数"
+  ],
+  [
+   "sum(B80V('neg_own_nd')) - B80V('neg_n')",
+   "反向对照针按份分账=总数"
+  ],
+  [
+   "B80V('needle_n') - B80V('neg_n') - 34",
+   "锚表 48 行 = 34 枚内容针 + 14 枚反向针"
+  ],
+  [
+   "B80V('neg_hit_widest') + B80V('neg_hit_strict')",
+   "反向针在最宽档与最窄档都零命中"
+  ],
+  [
+   "sum(B80V('fold_minus_strict_own')) - B80V('fold_minus_strict_n')",
+   "折行独有针按份分账=总数"
+  ],
+  [
+   "sum(B80V('sh_loses'))",
+   "摘壳档一枚也不丢(壳行里本来就没有答句)"
+  ],
+  [
+   "sum(B80V('sh_gains')) - 1",
+   "全库恰一枚针只有摘壳档读得到(6585 的 428 定义段跨页)"
+  ],
+  [
+   "sum(B80V('sh_no_sec_own')) - B80V('sh_no_sec_n')",
+   "节外针按份分账=总数"
+  ],
+  [
+   "sum(B80V('sn_sh_docs')) - (B80V('needle_n') - B80V('neg_n'))",
+   "摘壳档读到的枚数合计=内容针总数"
+  ],
+  [
+   "B80V('v_in_sec')",
+   "2616 的三枚判词在它自己的幂等节窗里一枚也读不到"
+  ],
+  [
+   "B80V('v_in_sh') - 3",
+   "同样三枚判词在摘壳档全读得到"
+  ],
+  [
+   "B80V('v_sh_no_sec') - 3",
+   "这三枚都记入“节外”账"
+  ],
+  [
+   "B80V('k9110_no_sec')",
+   "9110 名下判词一枚也不在节外"
+  ],
+  [
+   "B80V('k9110_in_sec') - B80V('k9110_tot')",
+   "9110 的全部内容针都在 §9.2.2 之内"
+  ],
+  [
+   "B80V('defin_in_sec') - 1",
+   "2616 的幂等定义句确实住在 §9.1.2"
+  ],
+  [
+   "B80V('verdict_xref_same_line') - 1",
+   "判词与“(see section 9.1.2)”印在同一行"
+  ],
+  [
+   "B80V('xref_line') - 2",
+   "2616 全文两处指向 §9.1.2"
+  ],
+  [
+   "B80V('verdict_head_gap') - 244",
+   "判词行到 §9.1.2 标题行距 244 行"
+  ],
+  [
+   "B80V('xref_to_head', 1) - B80V('verdict_head_gap')",
+   "两处交叉引用里后一处就在判词行"
+  ],
+  [
+   "B80V('idem_sent_same') - 1",
+   "7231 与 9110 的“Idempotent methods are distinguished”逐字相同"
+  ],
+  [
+   "B80V('like_sent_same') - 1",
+   "7231 与 9110 的“Like the definition of safe”逐字相同"
+  ],
+  [
+   "B80V('like_absent_2616')",
+   "7231 那句定义在 2616 面上读不到(2616 换了措辞)"
+  ],
+  [
+   "B80V('defin_absent_7231')",
+   "2616 那句定义在 7231 面上读不到"
+  ],
+  [
+   "B80V('idem_wrap_7231') + B80V('idem_wrap_9110') - 2",
+   "同一句在两份里各只印一次(没有第二种切法)"
+  ],
+  [
+   "B80V('idem_shift') - B80V('like_shift')",
+   "同段搬字的两句行距位移相等"
+  ],
+  [
+   "B80V('nonidem_straddle', 0)",
+   "2616 的“非幂等序列”被连字符换行切开: 逐行档零枚"
+  ],
+  [
+   "B80V('sidefx_in_sec') - 1",
+   "OPTIONS/TRACE 那句副作用禁令在 2616 的节窗内"
+  ],
+  [
+   "sum(B80V('sec_sents_gap'))",
+   "节内句数两轨(正则 .\\s ⇎ 逐字符扫)逐份相等"
+  ],
+  [
+   "B80V('sec_found_n') + B80V('sec_absent_n') - 5",
+   "有幂等节⇎无幂等节相加=五份"
+  ],
+  [
+   "sum(B80V('sec_hit_n')) - (B80V('sec_found_n') + 1)",
+   "同名标题命中数=有节的份数+恰一行目录"
+  ],
+  [
+   "B80V('sec_row_dup', 4) - 1",
+   "9110 的目录行与正文行恰差一处"
+  ],
+  [
+   "B80V('sec_toc_line', 4) - 182",
+   "9110 的目录命中印在第 182 行"
+  ],
+  [
+   "sum(B80V('tone_must_ledger'))",
+   "大写 MUST = MUST NOT + 裸 MUST, 五份各自账平"
+  ],
+  [
+   "B80V('tone_ruler_close')",
+   "字母边界尺与字母数字边界尺在大写族上逐份同值"
+  ],
+  [
+   "B80V('tone_wide_close')",
+   "手扫轨与正则轨在摘壳面上逐枚相等"
+  ],
+  [
+   "B80V('tone_straddle', 0) + B80V('tone_straddle', 1) - 4",
+   "被换行切开的义务词: 2616 三枚 ⇎ 7231 一枚"
+  ],
+  [
+   "B80V('tone_straddle', 2) + B80V('tone_straddle', 3)",
+   "6585 与 8470 零枚义务词被切开"
+  ],
+  [
+   "sum([sum(B80V('tone_sec')[i]) for i in (1, 2, 3)])",
+   "7231/6585/8470 的幂等节窗里一枚义务词也没有"
+  ],
+  [
+   "B80V('tone_sec_tot', 0) + B80V('tone_sec_tot', 4) - 8",
+   "节内义务词只有两份: 2616 两枚 ⇎ 9110 六枚"
+  ],
+  [
+   "sum(B80V('hyb_straddle'))",
+   "non-idempotent 的连字符断开没有造成任何计数损失"
+  ],
+  [
+   "B80V('idem_str', 2) + B80V('idem_str', 3)",
+   "6585 与 8470 面上零枚 idempotent"
+  ],
+  [
+   "B80V('auto_tot_fold', 2)",
+   "6585 的 automat*×retry 族零枚: 它压根不说“自动重来”"
+  ],
+  [
+   "sum(B80V('auto_sh_minus_fold'))",
+   "摘壳后自动重试族一枚不多一枚不少"
+  ],
+  [
+   "sum(B80V('auto_gain'))",
+   "折平相对逐行没有增益(六枚族针都不跨行)"
+  ],
+  [
+   "sum(B80V('auto_rows_minus_occ'))",
+   "族针按行数与按出现处两档逐份相等"
+  ],
+  [
+   "sum(B80V('auto_fam_overlap')) - B80V('auto_fam_overlap', 4)",
+   "族内互相包含只发生在 9110 一份里"
+  ],
+  [
+   "sum([len(x) for x in B80V('reword_own')])",
+   "“重来”用词族没有一枚只属于某一份"
+  ],
+  [
+   "sum(B80V('reword')[i][6] for i in range(5))",
+   "零枚文档写 “make a new request”(6585 写 making)"
+  ],
+  [
+   "B80V('reword_overlap', 0) - 3",
+   "2616 的“重来”族内互相包含三枚(retry/repeating/retried 同词根)"
+  ],
+  [
+   "B80V('reword_zero_n', 3) - 6",
+   "8470 的八枚“重来”说法里六枚一次也没用"
+  ],
+  [
+   "sum(B80V('num_sub'))",
+   "带边界尺与裸串尺在数字族上逐枚相等(无子串假阳性)"
+  ],
+  [
+   "B80V('num', 0)[4] + B80V('num', 1)[5] + B80V('num', 4)[5]",
+   "单位名换代完全分家: 2616 只写 delta-seconds, 7231/9110 只写 delay-seconds"
+  ],
+  [
+   "sum([len(x) for x in B80V('num_own')]) - 2",
+   "数字族里恰两枚只属于一份(2616 的 delta-seconds ⇎ 6585 的 50 requests per hour)"
+  ],
+  [
+   "B80V('subj_active', 1) + B80V('subj_active', 2)",
+   "7231 与 6585 的判词不点任何施事者的名"
+  ],
+  [
+   "sum(B80V('subj_passive')) - 1",
+   "被动式判词全库恰一枚(2616)"
+  ],
+  [
+   "sum(B80V('subj_sec_tot')) - B80V('subj_sec_tot', 4)",
+   "节窗内的判词族全部属于 9110"
+  ],
+  [
+   "sum(B80V('subj_straddle')) - 2",
+   "两枚判词短语被换行切开, 都在 9110 名下"
+  ],
+  [
+   "len(B80V('subj_straddled', 4)) - 2",
+   "被切开的短语清单恰两枚"
+  ],
+  [
+   "sum(B80V('act_sg_plus_pl'))",
+   "零宽尺下 user agent 单数+复数−子串=逐份归零"
+  ],
+  [
+   "B80V('act_sec_tot', 0) + B80V('act_sec_tot', 2) + B80V('act_sec_tot', 3)",
+   "2616/6585/8470 的幂等节窗不点任何施事者的名"
+  ],
+  [
+   "sum(B80V('meth_post_sec')[:4])",
+   "幂等节里点名 POST 的只有 9110"
+  ],
+  [
+   "sum(B80V('ra_abnf_ledger'))",
+   "Retry-After 规则行的竖线式⇎斜杠式两档相加=规则行数"
+  ],
+  [
+   "B80V('ra_count', 3)",
+   "8470 全文不提 Retry-After"
+  ],
+  [
+   "sum(B80V('ra_exp_3600')) - 1",
+   "“Retry-After: 3600”的例子只在 6585"
+  ],
+  [
+   "B80V('ra_exp_120', 2) + B80V('ra_two_minutes', 2)",
+   "6585 既无 120 秒例也无 “2 minutes”"
+  ],
+  [
+   "B80V('ra_abnf_slash', 0) + B80V('ra_abnf_bar', 1) + B80V('ra_abnf_bar', 4)",
+   "斜杠式与竖线式完全分代: 2616 用竖线, 7231/9110 用斜杠"
+  ],
+  [
+   "B80V('ra_exp_date', 0) + B80V('ra_exp_date', 1) + B80V('ra_exp_date', 4) - 3",
+   "HTTP-date 示例三份语义规范各一枚"
+  ],
+  [
+   "B80V('code_defined_n', 3)",
+   "8470 一枚状态码也不定义"
+  ],
+  [
+   "B80V('code_defined', 0)[7] + B80V('code_defined', 0)[8] + B80V('code_defined', 1)[7] + B80V('code_defined', 1)[8]",
+   "2616 与 7231 都不定义 428/429"
+  ],
+  [
+   "B80V('code_defined', 4)[7] + B80V('code_defined', 4)[8]",
+   "现行 9110 既不定义 428 也不定义 429"
+  ],
+  [
+   "B80V('code_defined', 2)[7] - 2",
+   "6585 把 428 定义了两处(目录 ⇎ 节标题)"
+  ],
+  [
+   "sum(B80V('paren', 0)) + sum(B80V('paren', 1)) + sum(B80V('paren', 4))",
+   "“码+括号名”的印法只有 8470 用"
+  ],
+  [
+   "B80V('paren_straddle', 3) - 4",
+   "8470 有四枚括号引用被换行切开"
+  ],
+  [
+   "B80V('paren_straddle', 0) + B80V('paren_straddle', 1) + B80V('paren_straddle', 2) + B80V('paren_straddle', 4)",
+   "其余四份零枚被切"
+  ],
+  [
+   "sum(B80V('neg_false_sub')) - 2",
+   "子串假阳性恰两枚(2616 的 425 ⇎ 9110 的 428 来自 RFC 4289)"
+  ],
+  [
+   "B80V('neg_bnd', 0)[8] - 11",
+   "2616 面上 idempotent 一词出现 11 次"
+  ],
+  [
+   "B80V('neg_bnd', 3)[8] + B80V('neg_bnd', 3)[0]",
+   "8470 既不说 idempotent 也不提 429"
+  ],
+  [
+   "B80V('neg_bnd', 4)[2] + B80V('neg_bnd', 4)[3]",
+   "9110 不提 Too Early ⇎ 也不提 Early-Data"
+  ],
+  [
+   "B80V('pair_lbl_idx', 0) + B80V('pair_lbl_idx', 1) - (1 + 4)",
+   "搬字最大的一对确是 7231 与 9110"
+  ],
+  [
+   "B80V('pair_max') - B80V('pair_shared')[B80V('pair_max_lbl')]",
+   "列表轨与字典轨给出同一个最大值"
+  ],
+  [
+   "B80V('pair_7231_9110') - B80V('pair_max')",
+   "指名字典轨与序号轨同值"
+  ],
+  [
+   "B80V('axis_close')",
+   "搬字分家三本账: 池内行数=逐字节同形+只归一同形, 两条独立算法给出同样分档"
+  ],
+  [
+   "B80V('axis_total') - len(B80V('axis_rows'))",
+   "分家四桶之和与逐行清单同枚"
+  ],
+  [
+   "B80V('pair_pool_norm_only') - B80V('pair_max_norm_only_keys')",
+   "两条独立扫法给出同一个“只归一同形”枚数"
+  ],
+  [
+   "B80V('pair_max_byte_keys') + B80V('pair_max_norm_only_keys') - B80V('pair_max')",
+   "折叠键档: 逐字节同形+只归一同形=搬字总枚(与行池相交那条路同值)"
+  ],
+  [
+   "B80V('pair_byte_unit_gap') + B80V('pair_byte_shell_gap') - (B80V('pair_max_byte_lines') - B80V('pair_max_byte_keys'))",
+   "原始行枚数到折叠键枚数的两级坍缩: 折平合并 ⇎ 摘壳剔除, 相加=两条路的总差"
+  ],
+  [
+   "B80V('pair_byte_lines_ge_keys') - 1",
+   "同一对文档: 按原始行计枚不少于按折叠键计枚"
+  ],
+  [
+   "B80V('s_ruler_gain_7231_9110') - (B80V('s_pair_7231_9110') - B80V('pair_7231_9110'))",
+   "句尺对 7231·9110 的增益=两尺之差"
+  ],
+  [
+   "B80V('s_pair_max') - max(B80V('s_pair_share'))",
+   "句尺最大值与逐对表同值"
+  ],
+  [
+   "B80V('s_pair_7231_9110') - B80V('s_pair_max')",
+   "句尺最大的也对是 7231·9110"
+  ],
+  [
+   "B80V('pool_tier_close')",
+   "共用长行按份数分档之和=并集条数"
+  ],
+  [
+   "B80V('union_close')",
+   "行尺容斥: Σ单份−Σ两两+Σ三三−Σ四四+Σ五五=并集"
+  ],
+  [
+   "B80V('pair_close')",
+   "两两“归一同形”=“逐字节同形”+“只归一同形”"
+  ],
+  [
+   "B80V('s_pool_tier_close')",
+   "句尺分档之和=句池条数"
+  ],
+  [
+   "B80V('s_union_close')",
+   "句尺容斥闭合=零"
+  ],
+  [
+   "B80V('apool_tag_close')",
+   "锚候选池按标签分布之和=池条目数"
+  ],
+  [
+   "B80V('apool_tier_close')",
+   "锚候选池按份数加权=按标签相加"
+  ],
+  [
+   "B80V('lines_split_close')",
+   "splitlines 行数=换行计数+1−末行换行+换页符"
+  ],
+  [
+   "sum(B80V('cr')) + sum(B80V('nul'))",
+   "五份面全无 CR 与 NUL"
+  ],
+  [
+   "B80V('shell_ledger_close')",
+   "两遍壳谓词逐行分账后账平"
+  ],
+  [
+   "sum(B80V('ff_inline')) + sum(B80V('ff_minus_pg'))",
+   "换页符全部独占整行 ⇎ 与 [Page] 行一一对应"
+  ],
+  [
+   "sum(B80V('tail_nl')) - 5",
+   "五份都以换行收尾"
+  ],
+  [
+   "sum(B80V('newlines')) + 5 - sum(B80V('lines'))",
+   "换行枚数+1=行数"
+  ],
+  [
+   "sum(B80V('nonblank')) + sum(B80V('blank')) - sum(B80V('lines'))",
+   "非空行+空行=行数"
+  ],
+  [
+   "B80V('txt_n') + B80V('html_n') - 5",
+   "五份全是纯文本, 零份 HTML"
+  ],
+  [
+   "sum(B80V('ent_total')) + sum(B80V('comment'))",
+   "五份面上零枚 HTML 实体 ⇎ 零枚注释壳(示例页里那截 HTML 不带实体)"
+  ],
+  [
+   "B80V('tag_close', 0) + B80V('tag_close', 1) + B80V('tag_close', 3) + B80V('tag_close', 4)",
+   "闭标签名形只属于 6585 的示例页, 其余四份一枚也没有"
+  ],
+  [
+   "B80V('tag_shape', 2) - B80V('tag_close', 2) - B80V('tag_open', 2) - B80V('tag_url', 2)",
+   "6585 的尖括号形被三把尺(开名 ⇎ 闭名 ⇎ URL 形)分完, 一枚伪法也不剩"
+  ],
+  [
+   "B80V('tag_pseudo', 3)",
+   "8470 通篇没有尖括号伪法: 它的 <> 全是裸 URL"
+  ],
+  [
+   "B80V('tag_open', 1) + B80V('tag_open', 3)",
+   "7231 与 8470 连开标签名形都读不出"
+  ],
+  [
+   "sum(B80V('bom')) - B80V('bom', 4)",
+   "BOM 只出现在 9110 一侧"
+  ],
+  [
+   "B80V('sh_char_gap', 4)",
+   "9110 无分页壳: 摘壳面与折平面等长"
+  ],
+  [
+   "B80V('ff_only', 4) + B80V('ff', 4)",
+   "9110 面上零枚换页符"
+  ],
+  [
+   "B80V('year_span') - (B80V('years', 4) - B80V('years', 0))",
+   "首末年跨=发布序年距之和"
+  ],
+  [
+   "B80V('year_inversions') - 1",
+   "按发布顺序排年只有一处倒退(7231 2014 ⇎ 6585 2012)"
+  ],
+  [
+   "sum(B80V('upd_target_obsoleted')) - 1",
+   "被 Updates 指向的那份恰好也被人 Obsoletes: 恰一处"
+  ],
+  [
+   "B80V('obs_total') - sum(len(x) for x in B80V('obs_ids'))",
+   "Obsoletes 总数=各份段数相加"
+  ],
+  [
+   "B80V('obs_total') - sum(len(x) for x in B80V('obs_ids_clean')) - sum(B80V('obs_blank_segs'))",
+   "冒号后的段数=读出的号数+空段数(9110 尾部空段)"
+  ],
+  [
+   "B80V('lineage_close')",
+   "谱系账: 空段剔除⇎去重⇎本库内外相加后归零"
+  ],
+  [
+   "len(B80V('lineage_no_edge')) - 1",
+   "谱系图上恰一份文档没有出边(既不 Obsoletes 也不 Updates)"
+  ],
+  [
+   "sum(B80V('dblspace_in_fold'))",
+   "折平之后全库零枚双空格(所以节标题形状只能在原行上量)"
+  ],
+  [
+   "B80V('hyphen_break', 2) + B80V('hyphen_break', 3)",
+   "6585 与 8470 从不把词切在连字符上"
+  ],
+  [
+   "B80V('hdr_nodot', 3) + B80V('hdr_nodot', 4)",
+   "8470 与 9110 的编号标题全带尾点(2616 全不带)"
+  ],
+  [
+   "B80V('ans_words', 4) - 8",
+   "9110 的答句最短: 八词"
+  ],
+  [
+   "sum(B80V('ans_span')) - 11",
+   "五份答句各跨的行数相加=11"
+  ],
+  [
+   "B80V('ans_one_line_n') - 1",
+   "只有 9110 的答句能在一行内读全"
+  ],
+  [
+   "B80V('ans_lead_words', 2) + B80V('ans_lead_words', 3)",
+   "6585 与 8470 的答句以状态码开头"
+  ],
+  [
+   "sum(B80V('ans_lead_words')) - 4",
+   "全库判词前的引导词只属于 2616"
+  ],
+  [
+   "sum(B80V('ans_page_break'))",
+   "没有一枚答句被分页壳切开"
+  ],
+  [
+   "B80V('ph_straddle', 2)",
+   "6585 的判词短语逐行即读全, 谈不上被切"
+  ],
+  [
+   "sum(B80V('ph_line')) - 1",
+   "五句判词短语里恰一句印在单行内"
+  ],
+  [
+   "sum(B80V('ph_fold')) - 5",
+   "五句在折平档全部读得到"
+  ],
+  [
+   "len(B80V('neg_controls')) - B80V('neg_n')",
+   "反向对照清单与计数同枚"
+  ],
+  [
+   "sum(B80V('sn_sec_docs_scope')[i] + 1 for i in (2, 3))",
+   "无节窗的两份按 -1 登记(口径不存在, 不是零)"
+  ],
+  [
+   "B80V('pp_gap_close')",
+   "片段序列比非空行少的行数 = 非空壳行枚数: 摘壳丢下的每一行都记在页壳上, 逐份相消"
+  ],
+  [
+   "sum(B80V('pp_rows')) + sum(B80V('shell_lines')) - sum(B80V('lines'))",
+   "片段序列行数加壳行数等于原行数(空行全归壳, 无一行两头都不算)"
+  ],
+  [
+   "B80V('pb_7231_9110') + B80V('pair_norm_only')[6] - B80V('pair_max')",
+   "字节同形加“只归一同形”=这一对的共用枚数(最大对)"
+  ],
+  [
+   "B80V('only2_7231_9110') + sum(B80V('pair_byte_tier')['7231-9110'][2:]) - B80V('pb_7231_9110')",
+   "共用行按“另有几份也印了它”分档: 只属这一对的⇎三份以上共用的, 相加=字节同形枚数"
+  ],
+  [
+   "B80V('only2_8470_9110') + B80V('multi_8470_9110') - B80V('pb_8470_9110')",
+   "同一分档在 8470·9110 一对上也账平"
+  ],
+  [
+   "B80V('code_def_fams')[0] - B80V('code_def_fams')[4]",
+   "2616 与 9110 定义的状态码族数同值(现行文档把 1999 那份的核心码整套重定义了一遍)"
+  ],
+  [
+   "B80V('code_7231_drops_n') - 2",
+   "7231 相比 2616 少定义两枚码(401 与 416 搬去别的分册)"
+  ],
+  [
+   "B80V('std_n') - 1",
+   "全库只有 9110 印着 STD 行"
+  ],
+  [
+   "B80V('sec_end_head_rows')[4] - B80V('sec_row_dup')[4] - 1",
+   "节尾标题在 9110 面上印两行(目录⇎正文)——与它的目录命中同源: 都是新版式目录与正文同形"
+  ],
+  [
+   "sum(B80V('sec_end_head_rows')[:2]) - 2",
+   "2616 与 7231 的节尾标题各只印一行: 它们的目录行带点引线, 与标题不同形"
+  ],
+  [
+   "B80V('sec_hit_tot') - (B80V('sec_found_n') + 1)",
+   "同名标题命中合计=有节的份数+恰一行目录"
+  ],
+  [
+   "B80V('blk_five_rows') - B80V('ans_span_tot')",
+   "五段主答句行幅合计 ⇎ 答句跨行账合计: 两条独立导出同值"
+  ],
+  [
+   "B80V('pin_rt_ok') - B80V('pin_rt_n')",
+   "行号尺复核: 段窗首末行⇎独立行针报出的行号, 逐枚回原文件那一行自验"
+  ],
+  [
+   "B80V('pin_wrongline')",
+   "反向对照: 被 72 列切开的短语整串拿到首字那一行去验, 行号尺应当认不出"
+  ],
+  [
+   "B80V('might_straddle') - 1",
+   "9110 的 “a client might automatically retry …” 被换行切在中间: 首字行⇎末字行差一行"
+  ],
+  [
+   "B80V('idem_blk_same') + B80V('like_blk_same') - 2",
+   "7231 ⇎ 9110 的两段搬字逐字同形: 整段折平后一个词都不差"
+  ],
+  [
+   "B80V('blk_gap_delta')",
+   "两段搬字的行距位移相等(整节按同一距离平移)"
+  ],
+  [
+   "B80V('w_ledger_idem')",
+   "词集容斥: 只 9110 有 + 只 7231 有 + 两份共用, 逐段回各自词表枚数"
+  ],
+  [
+   "B80V('w_common_idem') + B80V('w_only_9110_idem') - B80V('blk_vocab', 8)",
+   "共用词加独有词等于本段词表: 9110 一侧"
+  ],
+  [
+   "B80V('w_common_idem') + B80V('w_only_7231_idem') - B80V('blk_vocab', 1)",
+   "共用词加独有词等于本段词表: 7231 一侧"
+  ],
+  [
+   "B80V('blk_tone_ruler_close')",
+   "段内义务词三轨(邻居手扫 ⇎ 游标 find ⇎ 正则)逐段相等"
+  ],
+  [
+   "sum(B80V('tone_mustnot_blk')[n] for n in (1, 8))",
+   "两份的幂等定义段一枚 MUST NOT 也不给(禁令在别处)"
+  ],
+  [
+   "B80V('blk_one_line_n') - 1",
+   "五份主答句里恰一句能在一行内读全(9110)"
+  ],
+  [
+   "B80V('blk_five_rows') - sum(B80V('ans_span')[:5])",
+   "五段主答句的行幅合计 ⇎ 答句跨行账: 两条独立导出同值"
+  ]
+ ],
+ "litk": {
+  "a2616_passive": "Non-idempotent methods or sequences MUST NOT be automatically retried, although user agents MAY offer a human operator the choice of retrying the request(s).",
+  "a2616_repeat": "The automatic retry SHOULD NOT be repeated if the second sequence of requests fails.",
+  "a2616_confirm": "Confirmation by user-agent software with semantic understanding of the application MAY substitute for user confirmation.",
+  "a2616_defin": "Methods can also have the property of \"idempotence\" in that (aside from error or expiration issues) the side-effects of N > 0 identical requests is the same as for a single request. The methods GET, HEAD, PUT and DELETE share this property.",
+  "a2616_sidefx": "Also, the methods OPTIONS and TRACE SHOULD NOT have side effects, and so are inherently idempotent.",
+  "a2616_nonidem": "However, it is possible that a sequence of several requests is non- idempotent",
+  "a2616_abnf": "Retry-After = \"Retry-After\" \":\" ( HTTP-date | delta-seconds )",
+  "a2616_120": "Retry-After: 120",
+  "a2616_dsec": "delta-seconds = 1*DIGIT",
+  "n2616_3600": "Retry-After: 3600",
+  "n2616_proxy": "A proxy MUST NOT automatically retry",
+  "n2616_429": "429",
+  "a7231_idem": "Idempotent methods are distinguished because the request can be repeated automatically if a communication failure occurs before the client is able to read the server's response.",
+  "a7231_put": "For example, if a client sends a PUT request and the underlying connection is closed before any response is received, then the client can establish a new connection and retry the idempotent request.",
+  "a7231_like": "Like the definition of safe, the idempotent property only applies to what has been requested by the user; a server is free to log each request separately, retain a revision control history, or implement other non-idempotent side effects for each idempotent request.",
+  "a7231_abnf": "Retry-After = HTTP-date / delay-seconds",
+  "a7231_delaydef": "delay-seconds = 1*DIGIT",
+  "n7231_proxy": "A proxy MUST NOT automatically retry",
+  "n7231_429": "429",
+  "n7231_3600": "Retry-After: 3600",
+  "a6585_429": "The 429 status code indicates that the user has sent too many requests in a given amount of time (\"rate limiting\"). The response representations SHOULD include details explaining the condition, and MAY include a Retry-After header indicating how long to wait before making a new request.",
+  "a6585_3600": "Retry-After: 3600",
+  "a6585_50": "I only allow 50 requests per hour to this Web site per logged in user. Try again soon.",
+  "a6585_selfdeny": "Note that this specification does not define how the origin server identifies the user, nor how it counts requests. For example, an origin server that is limiting request rates can do so based upon counts of requests on a per-resource basis, across the entire server, or even among a set of servers. Likewise, it might identify the user by its authentication credentials, or a stateful cookie.",
+  "a6585_nocache": "Responses with the 429 status code MUST NOT be stored by a cache.",
+  "a6585_428": "The 428 status code indicates that the origin server requires the request to be conditional. Its typical use is to avoid the \"lost update\" problem, where a client GETs a resource's state, modifies it, and PUTs it back to the server, when meanwhile a third party has modified the state on the server, leading to a conflict. By requiring requests to be conditional, the server can assure that clients are working with the correct copies. Responses using this status code SHOULD explain how to resubmit the request successfully. For example: HTTP/1.1 428 Precondition Required Content-Type: text/html Nottingham & Fielding Standards Track [Page 2] <html> <head> <title>Precondition Required</title> </head> <body> <h1>Precondition Required</h1> <p>This request is required to be conditional; try using \"If-Match\".",
+  "a6585_resub": "Responses using this status code SHOULD explain how to resubmit the request successfully.",
+  "n6585_auto": "automatically",
+  "n6585_idem": "idempotent",
+  "a8470_425def": "A 425 (Too Early) status code indicates that the server is unwilling to risk processing a request that might be replayed.",
+  "a8470_expect": "User agents that send a request in early data are expected to retry the request when receiving a 425 (Too Early) response status code.",
+  "a8470_should": "A user agent SHOULD retry automatically, but any retries MUST NOT be sent in early data.",
+  "a8470_mw": "Otherwise, an intermediary that receives a request in early data MAY automatically retry that request in response to a 425 (Too Early) status code, but it MUST wait for the TLS handshake to complete on the connection where it received the request.",
+  "a8470_assume": "The server cannot assume that a client is able to retry a request unless the request is received in early data or the Early-Data header field is set to \"1\". A server SHOULD NOT emit the 425 status code unless one of these conditions is met.",
+  "n8470_idem": "idempotent",
+  "n8470_429": "429",
+  "n8470_3600": "Retry-After: 3600",
+  "a9110_idem": "Idempotent methods are distinguished because the request can be repeated automatically if a communication failure occurs before the client is able to read the server's response.",
+  "a9110_like": "Like the definition of safe, the idempotent property only applies to what has been requested by the user; a server is free to log each request separately, retain a revision control history, or implement other non-idempotent side effects for each idempotent request.",
+  "a9110_proxy": "A proxy MUST NOT automatically retry non-idempotent requests.",
+  "a9110_client": "A client SHOULD NOT automatically retry a failed automatic retry.",
+  "a9110_post": "a user agent can repeat a POST request automatically if it knows (through design or configuration) that the request is safe for that resource.",
+  "a9110_vcs": "a user agent designed specifically to operate on a version control repository might be able to recover from partial failure conditions by checking the target resource revision(s) after a failed connection, reverting or fixing any changes that were partially applied, and then automatically retrying the requests that failed.",
+  "a9110_risk": "Some clients take a riskier approach and attempt to guess when an automatic retry is possible.",
+  "a9110_might": "a client might automatically retry a POST request if the underlying transport connection closed before any part of a response is received, particularly if an idle persistent connection was used.",
+  "n9110_429": "429",
+  "n9110_428": "428 (Precondition Required)",
+  "n9110_3600": "Retry-After: 3600"
+ },
+ "sn": {
+  "a2616_passive": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "a2616_repeat": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "a2616_confirm": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "a2616_defin": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "a2616_sidefx": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "a2616_nonidem": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "a2616_abnf": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "a2616_120": [
+   1,
+   1,
+   1,
+   0
+  ],
+  "a2616_dsec": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "n2616_3600": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n2616_proxy": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n2616_429": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "a7231_idem": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "a7231_put": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "a7231_like": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "a7231_abnf": [
+   2,
+   2,
+   2,
+   0
+  ],
+  "a7231_delaydef": [
+   1,
+   2,
+   2,
+   0
+  ],
+  "n7231_proxy": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n7231_429": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n7231_3600": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "a6585_429": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "a6585_3600": [
+   1,
+   1,
+   1,
+   0
+  ],
+  "a6585_50": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "a6585_selfdeny": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "a6585_nocache": [
+   1,
+   1,
+   1,
+   0
+  ],
+  "a6585_428": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "a6585_resub": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "n6585_auto": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n6585_idem": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "a8470_425def": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "a8470_expect": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "a8470_should": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "a8470_mw": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "a8470_assume": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "n8470_idem": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n8470_429": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n8470_3600": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "a9110_idem": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "a9110_like": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "a9110_proxy": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "a9110_client": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "a9110_post": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "a9110_vcs": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "a9110_risk": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "a9110_might": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "n9110_429": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n9110_428": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n9110_3600": [
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "blk": [
+  "Non-idempotent methods or sequences MUST NOT be automatically retried, although user agents MAY offer a human operator the choice of retrying the request(s).",
+  "Idempotent methods are distinguished because the request can be repeated automatically if a communication failure occurs before the client is able to read the server's response.",
+  "The 429 status code indicates that the user has sent too many requests in a given amount of time (\"rate limiting\").",
+  "User agents that send a request in early data are expected to retry the request when receiving a 425 (Too Early) response status code.",
+  "A proxy MUST NOT automatically retry non-idempotent requests.",
+  "Like the definition of safe, the idempotent property only applies to what has been requested by the user; a server is free to log each request separately, retain a revision control history, or implement other non-idempotent side effects for each idempotent request.",
+  "Like the definition of safe, the idempotent property only applies to what has been requested by the user; a server is free to log each request separately, retain a revision control history, or implement other non-idempotent side effects for each idempotent request.",
+  "Methods can also have the property of \"idempotence\" in that (aside from error or expiration issues) the side-effects of N > 0 identical requests is the same as for a single request. The methods GET, HEAD, PUT and DELETE share this property.",
+  "Idempotent methods are distinguished because the request can be repeated automatically if a communication failure occurs before the client is able to read the server's response.",
+  "Some clients take a riskier approach and attempt to guess when an automatic retry is possible.",
+  "The server cannot assume that a client is able to retry a request unless the request is received in early data or the Early-Data header field is set to \"1\". A server SHOULD NOT emit the 425 status code unless one of these conditions is met.",
+  "Note that this specification does not define how the origin server identifies the user, nor how it counts requests. For example, an origin server that is limiting request rates can do so based upon counts of requests on a per-resource basis, across the entire server, or even among a set of servers. Likewise, it might identify the user by its authentication credentials, or a stateful cookie.",
+  "The automatic retry SHOULD NOT be repeated if the second sequence of requests fails.",
+  "a user agent can repeat a POST request automatically if it knows (through design or configuration) that the request is safe for that resource."
+ ],
+ "pins": [
+  [
+   "2616",
+   "Non-idempotent methods or sequences",
+   "the request(s)."
+  ],
+  [
+   "7231",
+   "Idempotent methods are distinguished because",
+   "server's response."
+  ],
+  [
+   "6585",
+   "The 429 status code indicates",
+   "rate limiting\")."
+  ],
+  [
+   "8470",
+   "User agents that send a request in early data are expected",
+   "response status code."
+  ],
+  [
+   "9110",
+   "A proxy MUST NOT automatically retry non-idempotent requests.",
+   "non-idempotent requests."
+  ],
+  [
+   "7231",
+   "Like the definition of safe",
+   "each idempotent request."
+  ],
+  [
+   "9110",
+   "Like the definition of safe",
+   "each idempotent request."
+  ],
+  [
+   "2616",
+   "Methods can also have the property of",
+   "share this property."
+  ],
+  [
+   "9110",
+   "Idempotent methods are distinguished because",
+   "server's response."
+  ],
+  [
+   "9110",
+   "Some clients take a riskier approach",
+   "automatic retry is possible."
+  ],
+  [
+   "8470",
+   "The server cannot assume that a client is able to retry",
+   "one of these conditions is met."
+  ],
+  [
+   "6585",
+   "Note that this specification does not define",
+   "stateful cookie."
+  ],
+  [
+   "2616",
+   "The automatic retry SHOULD NOT be repeated",
+   "of requests fails."
+  ],
+  [
+   "9110",
+   "a user agent can repeat a POST request automatically",
+   "safe for that resource."
+  ]
+ ],
+ "closure_keys": [
+  "apool_tag_close",
+  "apool_tier_close",
+  "axis_close",
+  "blk_tone_ruler_close",
+  "ladder_close",
+  "lineage_close",
+  "lines_split_close",
+  "pair_close",
+  "pool_tier_close",
+  "pp_gap_close",
+  "ra_abnf_ledger",
+  "s_pool_tier_close",
+  "s_union_close",
+  "shell_ledger_close",
+  "tag_close",
+  "tone_must_ledger",
+  "tone_ruler_close",
+  "tone_wide_close",
+  "union_close",
+  "w_ledger_close",
+  "w_ledger_idem"
+ ],
+ "flat": {
+  "label": [
+   "2616",
+   "7231",
+   "6585",
+   "8470",
+   "9110"
+  ],
+  "src": [
+   "corpus/raw/httpretry/rfc2616.txt",
+   "corpus/raw/httpretry/rfc7231.txt",
+   "corpus/raw/httpretry/rfc6585.txt",
+   "corpus/raw/httpretry/rfc8470.txt",
+   "corpus/raw/httpretry/rfc9110.txt"
+  ],
+  "bytes": [
+   422279,
+   235053,
+   17164,
+   25880,
+   502941
+  ],
+  "chars": [
+   422279,
+   235053,
+   17164,
+   25880,
+   502907
+  ],
+  "lines": [
+   9860,
+   5660,
+   564,
+   676,
+   10786
+  ],
+  "newlines": [
+   9859,
+   5659,
+   563,
+   675,
+   10785
+  ],
+  "lines_nl": [
+   9860,
+   5660,
+   564,
+   676,
+   10786
+  ],
+  "nonblank": [
+   6911,
+   3945,
+   323,
+   426,
+   8659
+  ],
+  "blank": [
+   2949,
+   1715,
+   241,
+   250,
+   2127
+  ],
+  "maxlen": [
+   72,
+   75,
+   72,
+   72,
+   72
+  ],
+  "over72": [
+   0,
+   1,
+   0,
+   0,
+   0
+  ],
+  "ff": [
+   176,
+   101,
+   10,
+   12,
+   0
+  ],
+  "ff_exact": [
+   176,
+   101,
+   10,
+   12,
+   0
+  ],
+  "ff_only": [
+   176,
+   101,
+   10,
+   12,
+   0
+  ],
+  "ff_inline": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cr": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "nul": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "nonascii": [
+   0,
+   0,
+   0,
+   0,
+   30
+  ],
+  "bom": [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  "byte_cp_delta": [
+   0,
+   0,
+   0,
+   0,
+   34
+  ],
+  "nonascii_extra": [
+   0,
+   0,
+   0,
+   0,
+   34
+  ],
+  "tail_nl": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "lines_split": [
+   10035,
+   5760,
+   573,
+   687,
+   10785
+  ],
+  "lines_split_close": 0,
+  "digit_chars": [
+   9647,
+   6949,
+   499,
+   576,
+   11304
+  ],
+  "txt_n": 5,
+  "html_n": 0,
+  "tag_shape": [
+   47,
+   34,
+   51,
+   9,
+   130
+  ],
+  "tag_open": [
+   25,
+   0,
+   24,
+   0,
+   6
+  ],
+  "tag_close": [
+   0,
+   0,
+   24,
+   0,
+   0
+  ],
+  "tag_url": [
+   1,
+   7,
+   3,
+   9,
+   97
+  ],
+  "tag_pseudo": [
+   21,
+   27,
+   0,
+   0,
+   27
+  ],
+  "ent_total": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "comment": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "shell_lines": [
+   3124,
+   1815,
+   250,
+   261,
+   2127
+  ],
+  "fold_chars": [
+   374579,
+   209422,
+   14910,
+   22905,
+   457672
+  ],
+  "sh_chars": [
+   369679,
+   204422,
+   14469,
+   22465,
+   457672
+  ],
+  "sh_char_gap": [
+   -4900,
+   -5000,
+   -441,
+   -440,
+   0
+  ],
+  "pg_lines": [
+   176,
+   101,
+   10,
+   12,
+   0
+  ],
+  "hdr_lines_indent": [
+   185,
+   107,
+   9,
+   12,
+   20
+  ],
+  "hdr_lines_tight": [
+   175,
+   100,
+   9,
+   11,
+   0
+  ],
+  "pageless": [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  "ff_minus_pg": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "shell_pick": [
+   3124,
+   1815,
+   250,
+   261,
+   2127
+  ],
+  "shell_mk": [
+   3124,
+   1815,
+   250,
+   261,
+   2127
+  ],
+  "shell_mk_only": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "shell_pick_only": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "shell_both": [
+   3124,
+   1815,
+   250,
+   261,
+   2127
+  ],
+  "shell_ledger_close": 0,
+  "shell_pick_hdr": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "shell_mk_hdr": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "obs_ids": [
+   [
+    "2068"
+   ],
+   [
+    "2616"
+   ],
+   [],
+   [],
+   [
+    "2818",
+    "7230",
+    "7231",
+    "7232",
+    "7233",
+    "7235",
+    ""
+   ]
+  ],
+  "upd_ids": [
+   [],
+   [
+    "2817"
+   ],
+   [
+    "2616"
+   ],
+   [],
+   [
+    "3864"
+   ]
+  ],
+  "obs_line": [
+   "Obsoletes: 2068                                              J. Gettys",
+   "Obsoletes: 2616                                          J. Reschke, Ed.",
+   null,
+   null,
+   "Obsoletes: 2818, 7230, 7231, 7232, 7233, 7235,                    Fastly"
+  ],
+  "upd_line": [
+   null,
+   "Updates: 2817                                                 greenbytes",
+   "Updates: 2616                                                R. Fielding",
+   null,
+   "Updates: 3864                                                 greenbytes"
+  ],
+  "std_line": [
+   null,
+   null,
+   null,
+   null,
+   "STD: 97                                               M. Nottingham, Ed."
+  ],
+  "issn_hdr": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "years": [
+   1999,
+   2014,
+   2012,
+   2018,
+   2022
+  ],
+  "months": [
+   "June",
+   "June",
+   "April",
+   "September",
+   "June"
+  ],
+  "months_txt": [
+   "June 1999",
+   "June 2014",
+   "April 2012",
+   "September 2018",
+   "June 2022"
+  ],
+  "year_span": 23,
+  "year_inversions": 1,
+  "year_order_lbl": "2616 1999 ⇎ 7231 2014 ⇎ 6585 2012 ⇎ 8470 2018 ⇎ 9110 2022",
+  "upd_target_obsoleted": [
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  "obs_target_in_lib": [
+   0,
+   1,
+   0,
+   0,
+   2
+  ],
+  "obs_total": 9,
+  "upd_total": 3,
+  "lineage_no_edge": [
+   3
+  ],
+  "obs_raw_segs": [
+   1,
+   1,
+   0,
+   0,
+   7
+  ],
+  "obs_ids_clean": [
+   [
+    "2068"
+   ],
+   [
+    "2616"
+   ],
+   [],
+   [],
+   [
+    "2818",
+    "7230",
+    "7231",
+    "7232",
+    "7233",
+    "7235"
+   ]
+  ],
+  "obs_blank_segs": [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  "lineage_close": 0,
+  "auto_fam": [
+   "automatically retry",
+   "automatically retried",
+   "automatically retrying",
+   "automatic retry",
+   "retry automatically",
+   "automatically repeat"
+  ],
+  "auto_line": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    5,
+    1,
+    1,
+    2,
+    0,
+    1
+   ]
+  ],
+  "auto_line_rows": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    5,
+    1,
+    1,
+    2,
+    0,
+    1
+   ]
+  ],
+  "auto_fold": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    5,
+    1,
+    1,
+    2,
+    0,
+    1
+   ]
+  ],
+  "auto_union_fold": [
+   2,
+   1,
+   0,
+   3,
+   9
+  ],
+  "auto_fam_overlap": [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  "auto_gain": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "auto_tot_line": [
+   2,
+   1,
+   0,
+   3,
+   10
+  ],
+  "auto_tot_fold": [
+   2,
+   1,
+   0,
+   3,
+   10
+  ],
+  "auto_bare": [
+   16,
+   19,
+   0,
+   3,
+   35
+  ],
+  "auto_bare_line": [
+   16,
+   19,
+   0,
+   3,
+   35
+  ],
+  "auto_sh": [
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    5,
+    1,
+    1,
+    2,
+    0,
+    1
+   ]
+  ],
+  "auto_sh_minus_fold": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "auto_bare_minus_union": [
+   14,
+   18,
+   0,
+   0,
+   26
+  ],
+  "auto_occ_rows": [
+   2,
+   1,
+   0,
+   3,
+   10
+  ],
+  "auto_rows_minus_occ": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "hyb_idem": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "idem_str": [
+   15,
+   14,
+   0,
+   0,
+   18
+  ],
+  "idem_line_occ": [
+   15,
+   14,
+   0,
+   0,
+   18
+  ],
+  "idem_line_rows": [
+   13,
+   13,
+   0,
+   0,
+   17
+  ],
+  "idem_hyb_line": [
+   5,
+   1,
+   0,
+   0,
+   2
+  ],
+  "idem_hyb_fold": [
+   5,
+   1,
+   0,
+   0,
+   2
+  ],
+  "hyb_straddle": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "idem_row_minus_occ": [
+   2,
+   1,
+   0,
+   0,
+   1
+  ],
+  "sec_no": [
+   "9.1.2",
+   "4.2.2",
+   null,
+   null,
+   "9.2.2"
+  ],
+  "sec_head_line": [
+   "9.1.2 Idempotent Methods",
+   "4.2.2.  Idempotent Methods",
+   null,
+   null,
+   "9.2.2.  Idempotent Methods"
+  ],
+  "sec_hit_n": [
+   1,
+   1,
+   0,
+   0,
+   2
+  ],
+  "sec_toc_line": [
+   null,
+   null,
+   null,
+   null,
+   182
+  ],
+  "sec_body_line": [
+   2845,
+   1278,
+   null,
+   null,
+   3861
+  ],
+  "sec_end_kind": [
+   "heading",
+   "heading",
+   null,
+   null,
+   "heading"
+  ],
+  "sec_end_head": [
+   "9.2 OPTIONS",
+   "4.2.3.  Cacheable Methods",
+   null,
+   null,
+   "9.2.3.  Methods and Caching"
+  ],
+  "sec_end_head_fold": [
+   "9.2 OPTIONS",
+   "4.2.3. Cacheable Methods",
+   null,
+   null,
+   "9.2.3. Methods and Caching"
+  ],
+  "sec_end_head_gap": [
+   0,
+   1,
+   0,
+   0,
+   1
+  ],
+  "sec_found_n": 3,
+  "sec_absent_n": 2,
+  "sec_lines": [
+   30,
+   31,
+   0,
+   0,
+   45
+  ],
+  "sec_chars": [
+   1163,
+   1317,
+   0,
+   0,
+   2409
+  ],
+  "sec_words": [
+   174,
+   189,
+   0,
+   0,
+   358
+  ],
+  "sec_sents": [
+   7,
+   7,
+   0,
+   0,
+   14
+  ],
+  "sec_sents_scan": [
+   7,
+   7,
+   0,
+   0,
+   14
+  ],
+  "sec_sents_gap": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "sec_row_dup": [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  "secw_chars": [
+   1030,
+   1199,
+   0,
+   0,
+   2286
+  ],
+  "sec_share_permille": [
+   3,
+   5,
+   0,
+   0,
+   5
+  ],
+  "tone_fam": [
+   "MUST NOT",
+   "MUST",
+   "SHOULD NOT",
+   "SHOULD",
+   "MAY"
+  ],
+  "tone_norm": [
+   [
+    120,
+    348,
+    42,
+    256,
+    180
+   ],
+   [
+    25,
+    69,
+    9,
+    50,
+    47
+   ],
+   [
+    5,
+    6,
+    3,
+    8,
+    3
+   ],
+   [
+    9,
+    22,
+    2,
+    6,
+    4
+   ],
+   [
+    72,
+    206,
+    28,
+    125,
+    105
+   ]
+  ],
+  "tone_norm_fold": [
+   [
+    123,
+    348,
+    42,
+    256,
+    180
+   ],
+   [
+    26,
+    69,
+    9,
+    50,
+    47
+   ],
+   [
+    5,
+    6,
+    3,
+    8,
+    3
+   ],
+   [
+    9,
+    22,
+    2,
+    6,
+    4
+   ],
+   [
+    77,
+    206,
+    32,
+    125,
+    105
+   ]
+  ],
+  "tone_straddle_k": [
+   [
+    3,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    5,
+    0,
+    4,
+    0,
+    0
+   ]
+  ],
+  "tone_straddle": [
+   3,
+   1,
+   0,
+   0,
+   9
+  ],
+  "tone_case": [
+   [
+    125,
+    370,
+    45,
+    281,
+    257
+   ],
+   [
+    26,
+    72,
+    9,
+    51,
+    58
+   ],
+   [
+    5,
+    7,
+    3,
+    9,
+    10
+   ],
+   [
+    9,
+    23,
+    2,
+    6,
+    7
+   ],
+   [
+    77,
+    212,
+    33,
+    131,
+    126
+   ]
+  ],
+  "tone_case_gap": [
+   129,
+   15,
+   9,
+   4,
+   34
+  ],
+  "tone_sec": [
+   [
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    2,
+    2,
+    0
+   ]
+  ],
+  "tone_sec_tot": [
+   2,
+   0,
+   0,
+   0,
+   6
+  ],
+  "tone_tot": [
+   946,
+   200,
+   25,
+   43,
+   536
+  ],
+  "tone_fold_tot": [
+   949,
+   201,
+   25,
+   43,
+   545
+  ],
+  "tone_must_pure": [
+   228,
+   44,
+   1,
+   13,
+   134
+  ],
+  "tone_must_ledger": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "tone_word_lc": [
+   [
+    370,
+    281,
+    257,
+    217
+   ],
+   [
+    72,
+    51,
+    58,
+    137
+   ],
+   [
+    7,
+    9,
+    10,
+    9
+   ],
+   [
+    23,
+    6,
+    7,
+    34
+   ],
+   [
+    212,
+    131,
+    126,
+    341
+   ]
+  ],
+  "tone_word_lc_tot": [
+   1125,
+   318,
+   35,
+   70,
+   810
+  ],
+  "tone_alnum_gap": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "tone_ruler_close": 0,
+  "tone_wide": [
+   [
+    123,
+    348,
+    42,
+    256,
+    180
+   ],
+   [
+    26,
+    69,
+    9,
+    50,
+    47
+   ],
+   [
+    5,
+    6,
+    3,
+    8,
+    3
+   ],
+   [
+    9,
+    22,
+    2,
+    6,
+    4
+   ],
+   [
+    77,
+    206,
+    32,
+    125,
+    105
+   ]
+  ],
+  "tone_wide_re": [
+   [
+    123,
+    348,
+    42,
+    256,
+    180
+   ],
+   [
+    26,
+    69,
+    9,
+    50,
+    47
+   ],
+   [
+    5,
+    6,
+    3,
+    8,
+    3
+   ],
+   [
+    9,
+    22,
+    2,
+    6,
+    4
+   ],
+   [
+    77,
+    206,
+    32,
+    125,
+    105
+   ]
+  ],
+  "tone_wide_close": 0,
+  "tone_sec_per_mille": [
+   2,
+   0,
+   0,
+   0,
+   11
+  ],
+  "ans_ph": [
+   "sequences MUST NOT be automatically retried",
+   "request can be\nrepeated automatically",
+   "MAY include a Retry-After header indicating how long",
+   "expected to retry\nthe request when receiving a 425",
+   "automatically retrying\nthe requests that failed"
+  ],
+  "ans_span": [
+   3,
+   3,
+   2,
+   2,
+   1
+  ],
+  "ans_first_line": [
+   2600,
+   1299,
+   133,
+   406,
+   3902
+  ],
+  "ans_para_span": [
+   6,
+   8,
+   2,
+   4,
+   2
+  ],
+  "ans_lead_words": [
+   4,
+   0,
+   0,
+   0,
+   0
+  ],
+  "ans_lines_abs": [
+   [
+    2601,
+    2602,
+    2603
+   ],
+   [
+    1300,
+    1301,
+    1302
+   ],
+   [
+    134,
+    135
+   ],
+   [
+    407,
+    408
+   ],
+   [
+    3903
+   ]
+  ],
+  "ans": [
+   "Non-idempotent methods or sequences MUST NOT be automatically retried, although user agents MAY offer a human operator the choice of retrying the request(s).",
+   "Idempotent methods are distinguished because the request can be repeated automatically if a communication failure occurs before the client is able to read the server's response.",
+   "The 429 status code indicates that the user has sent too many requests in a given amount of time (\"rate limiting\").",
+   "User agents that send a request in early data are expected to retry the request when receiving a 425 (Too Early) response status code.",
+   "A proxy MUST NOT automatically retry non-idempotent requests."
+  ],
+  "ans_words": [
+   23,
+   26,
+   21,
+   24,
+   8
+  ],
+  "ans_one_line_n": 1,
+  "ans_page_break": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "ans_para_tail": [
+   3,
+   5,
+   0,
+   2,
+   1
+  ],
+  "ph_line": [
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  "ph_fold": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "ph_straddle": [
+   1,
+   1,
+   0,
+   1,
+   1
+  ],
+  "ph_raw_line": [
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  "reword_fam": [
+   "retry",
+   "retrying",
+   "repeated",
+   "repeat",
+   "resubmit",
+   "try again",
+   "make a new request",
+   "follow-up request"
+  ],
+  "reword": [
+   [
+    22,
+    1,
+    2,
+    12,
+    1,
+    1,
+    0,
+    0
+   ],
+   [
+    17,
+    1,
+    1,
+    7,
+    1,
+    1,
+    0,
+    1
+   ],
+   [
+    2,
+    0,
+    0,
+    0,
+    2,
+    1,
+    0,
+    0
+   ],
+   [
+    11,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    27,
+    2,
+    5,
+    14,
+    1,
+    1,
+    0,
+    1
+   ]
+  ],
+  "reword_union": [
+   36,
+   27,
+   5,
+   11,
+   44
+  ],
+  "reword_overlap": [
+   3,
+   2,
+   0,
+   1,
+   7
+  ],
+  "reword_tot": [
+   39,
+   29,
+   5,
+   12,
+   51
+  ],
+  "reword_zero_n": [
+   2,
+   1,
+   5,
+   6,
+   1
+  ],
+  "reword_own": [
+   [],
+   [],
+   [],
+   [],
+   []
+  ],
+  "subj_fam": [
+   "A proxy MUST NOT automatically retry",
+   "A client SHOULD NOT automatically retry",
+   "user agents MAY offer",
+   "SHOULD retry automatically",
+   "MAY automatically retry",
+   "can repeat a POST request automatically",
+   "might\nautomatically retry a POST",
+   "are expected to retry",
+   "MUST NOT be automatically retried"
+  ],
+  "subj": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    2,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "subj_line": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "subj_straddle": [
+   0,
+   0,
+   0,
+   0,
+   2
+  ],
+  "subj_n": [
+   2,
+   0,
+   0,
+   3,
+   4
+  ],
+  "subj_active": [
+   1,
+   0,
+   0,
+   3,
+   5
+  ],
+  "subj_passive": [
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  "subj_sec": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    2,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "subj_sec_tot": [
+   0,
+   0,
+   0,
+   0,
+   5
+  ],
+  "subj_straddle_k": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "subj_straddled": [
+   [],
+   [],
+   [],
+   [],
+   [
+    "A client SHOULD NOT automatically retry",
+    "might\nautomatically retry a POST"
+   ]
+  ],
+  "act_fam": [
+   "user agent",
+   "user agents",
+   "client",
+   "proxy",
+   "intermediar",
+   "origin server",
+   "server"
+  ],
+  "act": [
+   [
+    117,
+    27,
+    341,
+    162,
+    8,
+    189,
+    618
+   ],
+   [
+    135,
+    22,
+    94,
+    35,
+    17,
+    107,
+    283
+   ],
+   [
+    3,
+    0,
+    13,
+    0,
+    1,
+    6,
+    25
+   ],
+   [
+    5,
+    2,
+    29,
+    4,
+    11,
+    10,
+    57
+   ],
+   [
+    209,
+    38,
+    296,
+    171,
+    81,
+    232,
+    597
+   ]
+  ],
+  "act_sg": [
+   90,
+   113,
+   3,
+   3,
+   171
+  ],
+  "act_sg_plus_pl": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "act_sec": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    3
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    2,
+    0,
+    7,
+    1,
+    0,
+    0,
+    3
+   ]
+  ],
+  "act_sec_tot": [
+   0,
+   6,
+   0,
+   0,
+   13
+  ],
+  "act_tot": [
+   1462,
+   693,
+   48,
+   118,
+   1624
+  ],
+  "num_fam": [
+   "3600",
+   "120",
+   "50 requests per hour",
+   "2 minutes",
+   "delay-seconds",
+   "delta-seconds",
+   "HTTP-date"
+  ],
+  "num": [
+   [
+    1,
+    3,
+    0,
+    1,
+    0,
+    8,
+    16
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    6,
+    0,
+    16
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    6,
+    0,
+    32
+   ]
+  ],
+  "num_raw": [
+   [
+    1,
+    3,
+    0,
+    1,
+    0,
+    8,
+    16
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    6,
+    0,
+    16
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    6,
+    0,
+    32
+   ]
+  ],
+  "num_sub": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "num_tot": [
+   29,
+   24,
+   2,
+   0,
+   40
+  ],
+  "num_own": [
+   [
+    "delta-seconds"
+   ],
+   [],
+   [
+    "50 requests per hour"
+   ],
+   [],
+   []
+  ],
+  "num_rename": [
+   -8,
+   6,
+   0,
+   0,
+   6
+  ],
+  "meth_fam": [
+   "GET",
+   "HEAD",
+   "PUT",
+   "DELETE",
+   "POST",
+   "TRACE",
+   "OPTIONS",
+   "CONNECT"
+  ],
+  "meth_sec": [
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    2,
+    1,
+    2,
+    0,
+    0,
+    0
+   ]
+  ],
+  "meth_sec_n": [
+   6,
+   2,
+   0,
+   0,
+   3
+  ],
+  "meth_post_sec": [
+   0,
+   0,
+   0,
+   0,
+   2
+  ],
+  "meth_all": [
+   [
+    61,
+    34,
+    26,
+    7,
+    22,
+    10,
+    13,
+    5
+   ],
+   [
+    57,
+    32,
+    50,
+    18,
+    34,
+    17,
+    19,
+    23
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    104,
+    51,
+    63,
+    23,
+    44,
+    18,
+    24,
+    33
+   ]
+  ],
+  "meth_all_n": [
+   8,
+   8,
+   1,
+   1,
+   8
+  ],
+  "ra_count": [
+   10,
+   15,
+   2,
+   0,
+   17
+  ],
+  "ra_abnf_lines": [
+   1,
+   2,
+   0,
+   0,
+   2
+  ],
+  "ra_abnf_forms": [
+   1,
+   1,
+   0,
+   0,
+   1
+  ],
+  "ra_abnf_bar": [
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  "ra_abnf_slash": [
+   0,
+   2,
+   0,
+   0,
+   2
+  ],
+  "ra_abnf_quoted": [
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  "ra_abnf_ledger": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "ra_exp_date": [
+   1,
+   1,
+   0,
+   0,
+   1
+  ],
+  "ra_exp_120": [
+   1,
+   1,
+   0,
+   0,
+   1
+  ],
+  "ra_exp_3600": [
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  "ra_two_minutes": [
+   1,
+   1,
+   0,
+   0,
+   1
+  ],
+  "ra_delta_def": [
+   1,
+   1,
+   0,
+   0,
+   1
+  ],
+  "ra_colon_rows": [
+   2,
+   2,
+   1,
+   0,
+   2
+  ],
+  "neg_fam": [
+   "429",
+   "Too Many Requests",
+   "Too Early",
+   "Early-Data",
+   "rate limiting",
+   "428",
+   "Precondition Required",
+   "425",
+   "idempotent"
+  ],
+  "neg_digit": [
+   0,
+   5,
+   7
+  ],
+  "neg_raw": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    11
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    9
+   ],
+   [
+    9,
+    7,
+    0,
+    0,
+    1,
+    8,
+    7,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    20,
+    23,
+    0,
+    0,
+    0,
+    22,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    13
+   ]
+  ],
+  "neg_bnd": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    9
+   ],
+   [
+    9,
+    7,
+    0,
+    0,
+    1,
+    8,
+    7,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    20,
+    23,
+    0,
+    0,
+    0,
+    22,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    13
+   ]
+  ],
+  "neg_false_sub": [
+   1,
+   0,
+   0,
+   0,
+   1
+  ],
+  "neg_zero_n": [
+   8,
+   8,
+   4,
+   6,
+   8
+  ],
+  "neg_own": [
+   [],
+   [],
+   [
+    0,
+    1,
+    4,
+    5,
+    6
+   ],
+   [
+    2,
+    3,
+    7
+   ],
+   []
+  ],
+  "neg_own_lbl": [
+   [],
+   [],
+   [
+    "429",
+    "Too Many Requests",
+    "rate limiting",
+    "428",
+    "Precondition Required"
+   ],
+   [
+    "Too Early",
+    "Early-Data",
+    "425"
+   ],
+   []
+  ],
+  "neg_tot": [
+   11,
+   9,
+   32,
+   65,
+   13
+  ],
+  "code_fam": [
+   "400",
+   "401",
+   "403",
+   "404",
+   "405",
+   "408",
+   "416",
+   "428",
+   "429",
+   "425",
+   "431",
+   "500",
+   "503",
+   "504",
+   "505",
+   "506",
+   "507",
+   "508",
+   "510",
+   "511"
+  ],
+  "code_defined_raw": [
+   22,
+   18,
+   12,
+   0,
+   22
+  ],
+  "code_defined": [
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "code_defined_n": [
+   11,
+   9,
+   8,
+   0,
+   22
+  ],
+  "code_toc": [
+   11,
+   9,
+   4,
+   0,
+   0
+  ],
+  "code_defined_lbl": [
+   [
+    "400",
+    "401",
+    "403",
+    "404",
+    "405",
+    "408",
+    "416",
+    "500",
+    "503",
+    "504",
+    "505"
+   ],
+   [
+    "400",
+    "403",
+    "404",
+    "405",
+    "408",
+    "500",
+    "503",
+    "504",
+    "505"
+   ],
+   [
+    "428",
+    "429",
+    "431",
+    "511"
+   ],
+   [],
+   [
+    "400",
+    "401",
+    "403",
+    "404",
+    "405",
+    "408",
+    "416",
+    "500",
+    "503",
+    "504",
+    "505"
+   ]
+  ],
+  "code_absent_lbl": [
+   [
+    "428",
+    "429",
+    "425",
+    "431",
+    "506",
+    "507",
+    "508",
+    "510",
+    "511"
+   ],
+   [
+    "401",
+    "416",
+    "428",
+    "429",
+    "425",
+    "431",
+    "506",
+    "507",
+    "508",
+    "510",
+    "511"
+   ],
+   [
+    "400",
+    "401",
+    "403",
+    "404",
+    "405",
+    "408",
+    "416",
+    "425",
+    "500",
+    "503",
+    "504",
+    "505",
+    "506",
+    "507",
+    "508",
+    "510"
+   ],
+   [
+    "400",
+    "401",
+    "403",
+    "404",
+    "405",
+    "408",
+    "416",
+    "428",
+    "429",
+    "425",
+    "431",
+    "500",
+    "503",
+    "504",
+    "505",
+    "506",
+    "507",
+    "508",
+    "510",
+    "511"
+   ],
+   [
+    "428",
+    "429",
+    "425",
+    "431",
+    "506",
+    "507",
+    "508",
+    "510",
+    "511"
+   ]
+  ],
+  "paren_fam": [
+   "425 (Too Early)",
+   "428 (Precondition Required)",
+   "429 (Too Many Requests)"
+  ],
+  "paren": [
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    20,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0
+   ]
+  ],
+  "paren_line": [
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0
+   ],
+   [
+    16,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0
+   ]
+  ],
+  "paren_straddle": [
+   0,
+   0,
+   0,
+   4,
+   0
+  ],
+  "pair_shared": {
+   "2616-7231": 90,
+   "2616-6585": 2,
+   "2616-8470": 1,
+   "2616-9110": 105,
+   "7231-6585": 26,
+   "7231-8470": 19,
+   "7231-9110": 1172,
+   "6585-8470": 18,
+   "6585-9110": 17,
+   "8470-9110": 41
+  },
+  "pair_lbl": [
+   "2616·7231",
+   "2616·6585",
+   "2616·8470",
+   "2616·9110",
+   "7231·6585",
+   "7231·8470",
+   "7231·9110",
+   "6585·8470",
+   "6585·9110",
+   "8470·9110"
+  ],
+  "pair_share": [
+   90,
+   2,
+   1,
+   105,
+   26,
+   19,
+   1172,
+   18,
+   17,
+   41
+  ],
+  "pair_nonzero": 10,
+  "pair_zero": 0,
+  "pair_max_lbl": "7231-9110",
+  "pair_max": 1172,
+  "pair_lbl_idx": [
+   1,
+   4
+  ],
+  "pair_max_byte_keys": 1147,
+  "pair_max_norm_only_keys": 25,
+  "pair_max_byte_lines": 1163,
+  "pair_max_norm_only_lines": 9,
+  "pair_byte_lines_to_keys": 1147,
+  "pair_byte_unit_gap": 16,
+  "pair_byte_shell_gap": 0,
+  "pair_byte_lines_ge_keys": 1,
+  "pool_n": 16635,
+  "pool_union": 14575,
+  "pool_rows_minus_union": 2060,
+  "pool_tier": [
+   13293,
+   1202,
+   65,
+   14,
+   1
+  ],
+  "pool_tier_close": 0,
+  "pool_incl": [
+   15953,
+   1491,
+   131,
+   19,
+   1
+  ],
+  "union_incl": 14575,
+  "union_close": 0,
+  "pair_byte": [
+   63,
+   2,
+   1,
+   68,
+   21,
+   19,
+   1147,
+   17,
+   14,
+   41
+  ],
+  "pair_norm_only": [
+   27,
+   0,
+   0,
+   37,
+   5,
+   0,
+   25,
+   1,
+   3,
+   0
+  ],
+  "pair_close": 0,
+  "pair_7231_9110": 1172,
+  "pair_2616_9110": 105,
+  "pair_2616_7231": 90,
+  "axis_counts": {
+   "case": 0,
+   "hyph": 0,
+   "space": 21,
+   "multi": 4
+  },
+  "axis_total": 25,
+  "axis_rows": [
+   "\"http://without-a-comma.example.com/\"",
+   "Accept-Charset: iso-8859-5, unicode-1-1;q=0.8",
+   "Accept-Encoding: compress, gzip",
+   "Accept-Encoding: compress;q=0.5, gzip;q=1.0",
+   "Accept-Encoding: gzip;q=1.0, identity; q=0.5, *;q=0",
+   "Accept-Language: da, en-gb;q=0.8, en;q=0.7",
+   "Accept: audio/*; q=0.2, audio/basic",
+   "Accept: text/*, text/plain, text/plain;format=flowed, */*",
+   "Accept: text/plain; q=0.5, text/html,",
+   "CONNECT server.example.com:80 HTTP/1.1",
+   "Content-Type: text/html; charset=ISO-8859-4",
+   "Date: Tue, 15 Nov 1994 08:12:31 GMT",
+   "Location: http://www.example.net/index.html",
+   "Proxy-Authorization: basic aGVsbG86d29ybGQ=",
+   "Referer: http://www.example.org/hypertext/Overview.html",
+   "Retry-After: Fri, 31 Dec 1999 23:59:59 GMT",
+   "This service requires use of the HTTP/3.0 protocol.",
+   "User-Agent: CERN-LineMode/2.15 libwww/2.17b3",
+   "Vary: accept-encoding, accept-language",
+   "corresponding request-line and header section to the next inbound",
+   "response message includes a representation describing the status.",
+   "| Media Type | Quality Value |",
+   "| image/jpeg | 0.5 |",
+   "| text/html;level=3 | 0.7 |",
+   "| | target resource. | |"
+  ],
+  "pair_pool_byte": 1147,
+  "pair_pool_norm_only": 25,
+  "axis_close": 0,
+  "axis_str": "case0 ⇎ hyph0 ⇎ space21 ⇎ multi4",
+  "axis_str_n": 2,
+  "s_pool_n": 5237,
+  "s_pool_tier": [
+   4868,
+   345,
+   19,
+   5,
+   0
+  ],
+  "s_pool_tier_close": 0,
+  "s_pair_share": [
+   29,
+   0,
+   0,
+   23,
+   8,
+   6,
+   347,
+   7,
+   5,
+   7
+  ],
+  "s_pair_max": 347,
+  "s_pair_max_idx": 6,
+  "s_pair_max_lbl": "7231·9110",
+  "s_pair_7231_9110": 347,
+  "s_pair_2616_9110": 23,
+  "s_ruler_gain_7231_9110": -825,
+  "s_ruler_gain_2616_9110": -82,
+  "s_pair_nonzero": 8,
+  "s_incl": [
+   5635,
+   432,
+   39,
+   5,
+   0
+  ],
+  "s_union_incl": 5237,
+  "s_union_close": 0,
+  "apool_n": 15136,
+  "apool_raw_n": 17238,
+  "apool_face_raw": [
+   5919,
+   3320,
+   241,
+   365,
+   7393
+  ],
+  "apool_tag_n": [
+   5831,
+   3197,
+   241,
+   365,
+   6950
+  ],
+  "apool_dup": [
+   88,
+   123,
+   0,
+   0,
+   443
+  ],
+  "apool_tag_close": 0,
+  "apool_tier": [
+   13794,
+   1252,
+   75,
+   14,
+   1
+  ],
+  "apool_weight": 16584,
+  "apool_pairs": 16584,
+  "apool_tier_close": 0,
+  "apool_maxlen": 69,
+  "hdr_dot2sp": [
+   0,
+   129,
+   7,
+   18,
+   523
+  ],
+  "hdr_dot1sp": [
+   2,
+   115,
+   0,
+   0,
+   21
+  ],
+  "hdr_nodot": [
+   236,
+   3,
+   1,
+   0,
+   0
+  ],
+  "dblspace_in_fold": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "dot_dblspace_anywhere": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "hyphen_break": [
+   75,
+   2,
+   0,
+   0,
+   38
+  ],
+  "needle_n": 48,
+  "neg_n": 14,
+  "sn_strict_docs": [
+   1,
+   2,
+   2,
+   0,
+   1
+  ],
+  "sn_fold_docs": [
+   9,
+   5,
+   6,
+   5,
+   8
+  ],
+  "sn_sh_docs": [
+   9,
+   5,
+   7,
+   5,
+   8
+  ],
+  "sn_sec_docs": [
+   3,
+   3,
+   0,
+   0,
+   8
+  ],
+  "n_a2616_passive": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "n_a2616_repeat": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "n_a2616_confirm": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "n_a2616_defin": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "n_a2616_sidefx": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "n_a2616_nonidem": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "n_a2616_abnf": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "n_a2616_120": [
+   1,
+   1,
+   1,
+   0
+  ],
+  "n_a2616_dsec": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "n_n2616_3600": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_n2616_proxy": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_n2616_429": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_a7231_idem": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "n_a7231_put": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "n_a7231_like": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "n_a7231_abnf": [
+   2,
+   2,
+   2,
+   0
+  ],
+  "n_a7231_delaydef": [
+   1,
+   2,
+   2,
+   0
+  ],
+  "n_n7231_proxy": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_n7231_429": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_n7231_3600": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_a6585_429": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "n_a6585_3600": [
+   1,
+   1,
+   1,
+   0
+  ],
+  "n_a6585_50": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "n_a6585_selfdeny": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "n_a6585_nocache": [
+   1,
+   1,
+   1,
+   0
+  ],
+  "n_a6585_428": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "n_a6585_resub": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "n_n6585_auto": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_n6585_idem": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_a8470_425def": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "n_a8470_expect": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "n_a8470_should": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "n_a8470_mw": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "n_a8470_assume": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "n_n8470_idem": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_n8470_429": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_n8470_3600": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_a9110_idem": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "n_a9110_like": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "n_a9110_proxy": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_a9110_client": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "n_a9110_post": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "n_a9110_vcs": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "n_a9110_risk": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "n_a9110_might": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "n_n9110_429": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_n9110_428": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_n9110_3600": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "needles_owned": [
+   12,
+   8,
+   9,
+   8,
+   11
+  ],
+  "fold_minus_strict_keys": [
+   "a2616_passive",
+   "a2616_repeat",
+   "a2616_confirm",
+   "a2616_defin",
+   "a2616_sidefx",
+   "a2616_nonidem",
+   "a2616_abnf",
+   "a2616_dsec",
+   "a7231_idem",
+   "a7231_put",
+   "a7231_like",
+   "a6585_429",
+   "a6585_50",
+   "a6585_selfdeny",
+   "a6585_resub",
+   "a8470_425def",
+   "a8470_expect",
+   "a8470_should",
+   "a8470_mw",
+   "a8470_assume",
+   "a9110_idem",
+   "a9110_like",
+   "a9110_client",
+   "a9110_post",
+   "a9110_vcs",
+   "a9110_risk",
+   "a9110_might"
+  ],
+  "fold_minus_strict_own": [
+   8,
+   3,
+   4,
+   5,
+   7
+  ],
+  "fold_minus_strict_n": 27,
+  "sh_loses_keys": [],
+  "sh_gains_keys": [
+   "a6585_428"
+  ],
+  "sh_loses": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "sh_gains": [
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  "sec_scope": [
+   1,
+   1,
+   0,
+   0,
+   1
+  ],
+  "sh_no_sec_keys": [
+   "a2616_passive",
+   "a2616_repeat",
+   "a2616_confirm",
+   "a2616_abnf",
+   "a2616_120",
+   "a2616_dsec",
+   "a7231_abnf",
+   "a7231_delaydef"
+  ],
+  "sh_no_sec_own": [
+   6,
+   2,
+   0,
+   0,
+   0
+  ],
+  "sh_no_sec_n": 8,
+  "sn_sec_docs_scope": [
+   3,
+   3,
+   -1,
+   -1,
+   8
+  ],
+  "dead_needles": [],
+  "neg_controls": [
+   "n2616_3600",
+   "n2616_429",
+   "n2616_proxy",
+   "n6585_auto",
+   "n6585_idem",
+   "n7231_3600",
+   "n7231_429",
+   "n7231_proxy",
+   "n8470_3600",
+   "n8470_429",
+   "n8470_idem",
+   "n9110_3600",
+   "n9110_428",
+   "n9110_429"
+  ],
+  "neg_own_nd": [
+   3,
+   3,
+   2,
+   3,
+   3
+  ],
+  "neg_hit_widest": 0,
+  "neg_hit_strict": 0,
+  "strict_neg_own": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "fold_neg_own": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "ladder_close": 0,
+  "ladder_monotone": 1,
+  "overlap_extra": 0,
+  "re_eq_cur": 1,
+  "nd_len": [
+   157,
+   84,
+   120,
+   240,
+   99,
+   78,
+   61,
+   16,
+   23,
+   17,
+   36,
+   3,
+   177,
+   198,
+   265,
+   39,
+   23,
+   36,
+   3,
+   17,
+   287,
+   17,
+   86,
+   393,
+   65,
+   810,
+   89,
+   13,
+   10,
+   121,
+   134,
+   88,
+   247,
+   240,
+   10,
+   3,
+   17,
+   177,
+   265,
+   61,
+   65,
+   142,
+   324,
+   94,
+   194,
+   3,
+   27,
+   17
+  ],
+  "nd_len_tot": 5691,
+  "nd_len_max": 810,
+  "idem_sent_same": 1,
+  "idem_line_7231": 1300,
+  "idem_line_9110": 3874,
+  "idem_shift": 2574,
+  "idem_wrap_7231": 1,
+  "idem_wrap_9110": 1,
+  "like_sent_same": 1,
+  "like_line_7231": 1,
+  "like_abs_7231": 1295,
+  "like_abs_9110": 3869,
+  "like_shift": 2574,
+  "like_hit_sh": [
+   1,
+   1
+  ],
+  "like_absent_2616": 0,
+  "defin_absent_7231": 0,
+  "nonidem_straddle": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "sidefx_in_sec": 1,
+  "v_keys": [
+   "a2616_passive",
+   "a2616_repeat",
+   "a2616_confirm"
+  ],
+  "v_in_sh": 3,
+  "v_in_sec": 0,
+  "v_sh_no_sec": 3,
+  "defin_in_sec": 1,
+  "defin_in_sh": 1,
+  "xref_line": 2,
+  "xref_lines_abs": [
+   2543,
+   2601
+  ],
+  "xref_to_head": [
+   302,
+   244
+  ],
+  "verdict_lines_abs": [
+   2601
+  ],
+  "verdict_head_gap": 244,
+  "verdict_xref_same_line": 1,
+  "k9110_in_sec": 8,
+  "k9110_tot": 8,
+  "k9110_no_sec": 0,
+  "dead_needles_none": 1,
+  "all_faces_read": 1,
+  "neg_all_cold": 1,
+  "sec_scope_three": 1,
+  "v2616_outside_own_sec": 1,
+  "k9110_inside_sec": 1,
+  "tone_zero_7231_sec": 1,
+  "no_auto_vocab_6585": 1,
+  "no_retry_after_8470": 1,
+  "no_code_def_8470": 1,
+  "neither_428_429_in_9110": 1,
+  "neither_428_429_in_2616": 1,
+  "rename_delta_vs_delay": 1,
+  "subj_only_passive_2616": 1,
+  "act_sec_only_two_docs": 1,
+  "all_txt_no_html": 1,
+  "ascii_except_9110": 1,
+  "pageless_9110_only": 1,
+  "sh_equals_fold_for_9110": 1,
+  "one_maxlen_outlier": 1,
+  "year_one_inversion": 1,
+  "ph_straddle_except_6585": 1,
+  "ans_span_shape": 1,
+  "no_page_break_in_answer": 1,
+  "axis_two_buckets_used": 1,
+  "pair_all_share": 1,
+  "hyphen_break_only_two": 1,
+  "dblspace_hidden_by_fold": 1,
+  "zid_fail": [],
+  "scalar_clos_n": 139,
+  "scalar_clos_sum": 139,
+  "list_clos_n": 3,
+  "x_ident_n": 139,
+  "bool_clos_n": 28,
+  "bool_clos_sum": 28,
+  "ff_only_vs_pick_lines": 1,
+  "sh_gap_vs_pick": 1,
+  "hdr_tight_vs_pick": 1,
+  "hdr_indent_minus_tight": [
+   10,
+   7,
+   0,
+   1,
+   20
+  ],
+  "pair_byte_lines_vs_pick": 1,
+  "pair_norm_lines_vs_pick": 1,
+  "ans_vs_pick": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "ans_tail_ws": [
+   1,
+   1,
+   0,
+   1,
+   1
+  ],
+  "pick_agree": 167,
+  "pick_diff": 0,
+  "pp_rows": [
+   6736,
+   3845,
+   314,
+   415,
+   8659
+  ],
+  "pp_gap_rows": [
+   175,
+   100,
+   9,
+   11,
+   0
+  ],
+  "blk_lo": [
+   2601,
+   1300,
+   134,
+   407,
+   3903,
+   1295,
+   3869,
+   2847,
+   3874,
+   3897,
+   420,
+   158,
+   2605,
+   3888
+  ],
+  "blk_hi": [
+   2603,
+   1302,
+   135,
+   408,
+   3903,
+   1298,
+   3872,
+   2850,
+   3876,
+   3898,
+   423,
+   163,
+   2606,
+   3890
+  ],
+  "blk_rows": [
+   3,
+   3,
+   2,
+   2,
+   1,
+   4,
+   4,
+   4,
+   3,
+   2,
+   4,
+   6,
+   2,
+   3
+  ],
+  "blk_chars": [
+   157,
+   177,
+   115,
+   134,
+   61,
+   265,
+   265,
+   240,
+   177,
+   94,
+   240,
+   393,
+   84,
+   142
+  ],
+  "blk_words": [
+   23,
+   26,
+   21,
+   24,
+   8,
+   42,
+   42,
+   42,
+   26,
+   16,
+   46,
+   66,
+   14,
+   24
+  ],
+  "blk_vocab": [
+   22,
+   24,
+   20,
+   22,
+   8,
+   36,
+   36,
+   37,
+   24,
+   16,
+   34,
+   53,
+   13,
+   21
+  ],
+  "blk_five_chars": 644,
+  "blk_five_words": 102,
+  "blk_rows_tot": 43,
+  "blk_words_tot": 420,
+  "blk_five_rows": 11,
+  "tone_must_blk": [
+   1,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "tone_may_blk": [
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "tone_should_blk": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   1,
+   0
+  ],
+  "tone_mustnot_blk": [
+   1,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "tone_in_blk": [
+   2,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   1,
+   0
+  ],
+  "blk_must_cur": [
+   1,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "blk_must_re": [
+   1,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "blk_tone_ruler_close": 0,
+  "pre_idem_7231_9110": 26,
+  "suf_idem_7231_9110": 26,
+  "pre_like_7231_9110": 42,
+  "suf_like_7231_9110": 42,
+  "idem_blk_same": 1,
+  "like_blk_same": 1,
+  "w_common_idem": 24,
+  "w_only_9110_idem": 0,
+  "w_only_7231_idem": 0,
+  "w_ledger_idem": 0,
+  "idem_blk_row_gap": 2574,
+  "like_blk_row_gap": 2574,
+  "blk_gap_delta": 0,
+  "blk_words_per_row": [
+   7,
+   8,
+   10,
+   12,
+   8
+  ],
+  "blk_is_one_line": [
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  "blk_one_line_n": 1,
+  "ln_verdict_2616": 2601,
+  "ln_confirm_end_2616": 2605,
+  "ln_idem_7231": 1300,
+  "ln_idem_9110": 3874,
+  "ln_proxy_9110": 3903,
+  "ln_proxy_head_9110": 2770,
+  "ln_client_head_9110": 3883,
+  "ln_client_9110": 3904,
+  "ln_might_head_9110": [
+   168822,
+   3898
+  ],
+  "ln_might_end_9110": [
+   168822,
+   3899
+  ],
+  "might_straddle": 1,
+  "ln_might_full_end_9110": [
+   168985,
+   3901
+  ],
+  "ln_riskier_9110": 3897,
+  "ln_selfdeny_6585": 158,
+  "ln_429_6585": 134,
+  "ln_425_8470": 407,
+  "ln_assume_8470": 420,
+  "sec_head_line_2616": 2845,
+  "sec_head_line_9110": 3861,
+  "verdict_above_head_2616": 1,
+  "proxy_inside_head_9110": 1,
+  "pin_rt": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "pin_rt_n": 13,
+  "pin_rt_ok": 13,
+  "pin_rt_src": [
+   2,
+   1,
+   2,
+   2,
+   6
+  ],
+  "pin_wrongline": 0,
+  "pin_rt_all": 1,
+  "pin_wrap_probe": 1,
+  "idem_blk_verbatim": 1,
+  "idem_gap_equal": 1,
+  "one_line_answer_only_9110": 1,
+  "tone_in_blk_6585_8470": 1,
+  "blk_tone_2616_rich": 1,
+  "might_straddle_one": 1,
+  "w_ledger_close": 1,
+  "num_dsec_docs": [
+   8,
+   0,
+   0,
+   0,
+   0
+  ],
+  "num_delay_docs": [
+   0,
+   6,
+   0,
+   0,
+   6
+  ],
+  "num_httpdate_docs": [
+   16,
+   16,
+   0,
+   0,
+   32
+  ],
+  "num_3600_docs": [
+   1,
+   0,
+   1,
+   0,
+   0
+  ],
+  "num_120_docs": [
+   3,
+   1,
+   0,
+   0,
+   1
+  ],
+  "tone_fam_docs": [
+   [
+    123,
+    26,
+    5,
+    9,
+    77
+   ],
+   [
+    348,
+    69,
+    6,
+    22,
+    206
+   ],
+   [
+    42,
+    9,
+    3,
+    2,
+    32
+   ],
+   [
+    256,
+    50,
+    8,
+    6,
+    125
+   ],
+   [
+    180,
+    47,
+    3,
+    4,
+    105
+   ]
+  ],
+  "code_def_fams": [
+   11,
+   9,
+   4,
+   0,
+   11
+  ],
+  "code_set_same_2616_9110": 1,
+  "code_7231_drops": [
+   "401",
+   "416"
+  ],
+  "code_7231_drops_n": 2,
+  "std_n": 1,
+  "sec_end_head_rows": [
+   1,
+   1,
+   0,
+   0,
+   2
+  ],
+  "pp_shell_nonblank": [
+   175,
+   100,
+   9,
+   11,
+   0
+  ],
+  "pp_gap_close": 0,
+  "pair_byte_tier": {
+   "2616-7231": [
+    0,
+    22,
+    40,
+    0,
+    1
+   ],
+   "2616-6585": [
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "2616-8470": [
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "2616-9110": [
+    0,
+    28,
+    39,
+    0,
+    1
+   ],
+   "7231-6585": [
+    0,
+    3,
+    4,
+    13,
+    1
+   ],
+   "7231-8470": [
+    0,
+    0,
+    4,
+    14,
+    1
+   ],
+   "7231-9110": [
+    0,
+    1082,
+    50,
+    14,
+    1
+   ],
+   "6585-8470": [
+    0,
+    0,
+    3,
+    13,
+    1
+   ],
+   "6585-9110": [
+    0,
+    0,
+    0,
+    13,
+    1
+   ],
+   "8470-9110": [
+    0,
+    25,
+    1,
+    14,
+    1
+   ]
+  },
+  "pb_7231_9110": 1147,
+  "pb_8470_9110": 41,
+  "pb_2616_9110": 68,
+  "pb_2616_7231": 63,
+  "only2_7231_9110": 1082,
+  "only2_8470_9110": 25,
+  "multi_8470_9110": 16,
+  "pair_min": 1,
+  "pair_min_lbl": "2616-8470",
+  "pp_gap_is_shell_nonblank": 1,
+  "code_7231_drops_two": 1,
+  "code_set_2616_eq_9110": 1,
+  "only2_dominates_max": 1,
+  "sec_hit_tot": 4,
+  "auto_gain_tot": 0,
+  "auto_fam_overlap_other4": 0,
+  "reword_make_tot": 0,
+  "reword_own_tot": 0,
+  "idem_str_6585_8470": 0,
+  "tone_straddle_6585_8470": 0,
+  "num_own_tot": 2,
+  "paren_2616_7231_9110": 0,
+  "neg_false_sub_tot": 2,
+  "subj_active_7231_6585": 0,
+  "meth_post_sec_other4": 0,
+  "subj_straddle_tot": 2,
+  "ans_span_tot": 11,
+  "pair_row_per_sent": 3,
+  "s_ruler_drop_7231_9110": 825,
+  "only_9110_straddle": 1,
+  "paren_only_8470": 1,
+  "anchor_total": 42,
+  "anchor_distinct": 39,
+  "anchor_err": 0,
+  "anchor_single": 33,
+  "anchor_cross": 6,
+  "anchor_all5": 0,
+  "checks": 195,
+  "enc_chars": 12954,
+  "nsrc": 5,
+  "tag_2616": 10,
+  "tag_7231": 7,
+  "tag_6585": 13,
+  "tag_8470": 2,
+  "tag_9110": 10,
+  "contract_n": 583
+ }
+}

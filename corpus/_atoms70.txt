@@ -1,0 +1,27 @@
+   The following text in [RFC2460], Section 8.1, fourth bullet should be
+Checksum is the 16-bit one's complement of the one's complement sum of a
+Source Port is an optional field, when meaningful, it indicates the port
+            checksum is never optional.  The sender MUST generate it and
+If the computed  checksum  is zero,  it is transmitted  as all ones (the
+      header, as specified in [RFC2460].  IPv6 receivers MUST by default
+checksum  value means that the transmitter  generated  no checksum  (for
+            datagrams without checksums should be discarded or passed to
+            An application MAY optionally be able to control whether UDP
+      UDP checksum is not optional.  That is, whenever originating a UDP
+                 all 1's (65535).  No special action is required at the
+      the checksum MUST be changed to hex FFFF for placement in the UDP
+            A host MUST implement the facility to generate and validate
+         header.  IPv6 receivers must discard UDP packets containing a
+         zero, it must be changed to hex FFFF for placement in the UDP
+      an IPv6 node MUST compute a UDP checksum over the packet and the
+   This specification updates IPv6 to allow a zero UDP checksum in the
+      encapsulation MAY enable zero-checksum mode for a specific port
+                 turning off UDP checksumming is very controversial.
+   addresses from the IP header in its checksum computation must be
+                 is optional; the value zero is transmitted in the
+         node must compute a UDP checksum over the packet and the
+      o  Unlike IPv4, the default behavior when UDP packets are
+         zero checksum and should log the error.
+                         User Datagram Protocol
+            MUST default to checksumming on.
+not used, a value of zero is inserted.

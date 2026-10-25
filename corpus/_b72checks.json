@@ -1,0 +1,2969 @@
+{
+ "anchor_total": 23,
+ "anchor_distinct": 17,
+ "anchor_err": 0,
+ "anchor_single": 13,
+ "anchor_cross": 4,
+ "anchor_all4": 0,
+ "checks": 68,
+ "enc_chars": 8503,
+ "nsrc": 4,
+ "tag_2616": 6,
+ "tag_7231": 3,
+ "tag_7538": 8,
+ "tag_9110": 6,
+ "letters_in": 873,
+ "letters_out": 641,
+ "classes": {
+  "single": [
+   "      ([RFC7231], Section 6.4.2), except that it does not allow changing",
+   "      Note: For historical reasons, a user agent MAY change the request",
+   "      Note: RFC 1945 and RFC 2068 specify that the client is not allowed",
+   "      existing user agent implementations treat 302 as if it were a 303",
+   "      receiving a 301 status code, some existing HTTP/1.0 user agents",
+   "      |  eventually converged on changing the method to GET.  307",
+   "      |  were later added to unambiguously indicate method-preserving",
+   "   4.  Change the request method according to the redirecting status",
+   "   A 308 response is cacheable by default; i.e., unless otherwise",
+   "   For historical reasons, a sender MUST only generate the quoted-string",
+   "   SHOULD be retrieved using a GET method on that resource. This method",
+   "   Therefore, the use of status code 308 is restricted to cases where",
+   "   than GET or HEAD, the user agent MUST NOT automatically redirect the"
+  ],
+  "cross": [
+   "   Clients with link editing capabilities ought to automatically re-link",
+   "   MUST NOT change the request method if it performs an automatic",
+   "   The 308 (Permanent Redirect) status code indicates that the target",
+   "   agent MAY automatically redirect its request to the URI referenced by"
+  ],
+  "three": [],
+  "four": []
+ },
+ "collisions": {
+  "422279": [
+   "码位·2616"
+  ],
+  "235053": [
+   "码位·7231"
+  ],
+  "11189": [
+   "码位·7538"
+  ],
+  "72": [
+   "最长行·7538",
+   "最长行·9110",
+   "MUSTNOT·9110",
+   "大小写must·7231"
+  ],
+  "34": [
+   "加字节·9110"
+  ],
+  "1916": [
+   "同判壳行·7231"
+  ],
+  "152": [
+   "同判壳行·7538"
+  ],
+  "2127": [
+   "同判壳行·9110"
+  ],
+  "4": [
+   "本遍多判·7538",
+   "多判归抬头·2616",
+   "多判归抬头·7538",
+   "壳账差·7538",
+   "折平档·7231",
+   "折平档·7538",
+   "摘壳档·7231",
+   "摘壳档·7538",
+   "剥引文档·7231",
+   "剥引文档·7538",
+   "折行独有·份·7538",
+   "反向针数",
+   "六族折平·7231",
+   "六族剥引文·7231",
+   "POSTtoGET·7231",
+   "method词·7538",
+   "窗内redirect·2616",
+   "窗内GET·9110",
+   "窗外POST·7538",
+   "窗外MUST·7538",
+   "清单闭合",
+   "anchor_cross",
+   "nsrc"
+  ],
+  "5": [
+   "本遍多判·9110",
+   "多判归抬头·7231",
+   "多判归抬头·9110",
+   "采集多判·2616",
+   "多判归正文·2616",
+   "壳账差·7231",
+   "壳账差·9110",
+   "名下针·7231",
+   "名下针·7538",
+   "折平档·9110",
+   "摘壳档·9110",
+   "折行独有·份·2616",
+   "死针枚数",
+   "六族剥引文·9110",
+   "历史原因·9110",
+   "段交集词",
+   "清单条目数",
+   "壳内308·7538",
+   "307枚·7538",
+   "引2616·7231",
+   "引7538·7538",
+   "括号7231·9110",
+   "自指·7538"
+  ],
+  "1": [
+   "采集过剥唯一",
+   "逐行档·2616",
+   "逐行档·7231",
+   "剥引文减摘壳·9110",
+   "剥引文唯一",
+   "阶梯单调",
+   "序列化对照数",
+   "两轨相等",
+   "确认门唯一",
+   "不许改·2616",
+   "可改成对",
+   "不得改·7231",
+   "不得改·9110",
+   "不允许改·7231",
+   "不允许改·7538",
+   "不允许成对",
+   "误改写首尾",
+   "六族折平·7538",
+   "六族剥引文·7538",
+   "段全同",
+   "段字符同",
+   "2616·7231共尾",
+   "段MAY·7231",
+   "段MAY·7538",
+   "段MAY·9110",
+   "段SHOULD·7538",
+   "清单连号",
+   "改写条目在清单内",
+   "小节数·7538",
+   "304缺席",
+   "308两份",
+   "壳内308唯一",
+   "305判词枚数",
+   "305判词唯一",
+   "废止链",
+   "自号废止",
+   "裸MUST·7538",
+   "MUSTNOT·7538",
+   "SHOULDNOT·7538",
+   "小写must·7538",
+   "redirect词·7538",
+   "窗内GET·7231",
+   "窗内GET·7538",
+   "窗内POST·2616",
+   "窗内POST·7231",
+   "窗内POST·7538",
+   "清单在前",
+   "不得在后",
+   "池分档·4 份同现",
+   "四现长行",
+   "锚池分档·4 份同现",
+   "序列化对照",
+   "剥丢针数"
+  ],
+  "7": [
+   "名下针·2616",
+   "六族折平·2616",
+   "六族剥引文·2616",
+   "小节数·7231",
+   "307枚·2616"
+  ],
+  "6": [
+   "折平档·2616",
+   "摘壳档·2616",
+   "剥引文档·2616",
+   "剥引文档·9110",
+   "小写must·9110",
+   "窗外redirect·7538",
+   "窗外GET·7538",
+   "换页独占行·7538",
+   "tag_2616",
+   "tag_9110"
+  ],
+  "3": [
+   "折行独有·份·7231",
+   "折行独有·份·9110",
+   "确认门·2616",
+   "误改写·2616",
+   "六族折平·9110",
+   "POSTtoGET·7538",
+   "302枚·7538",
+   "SHOULD·7538",
+   "小写must·7231",
+   "大小写must·7538",
+   "窗内GET·2616",
+   "窗内POST·9110",
+   "tag_7231"
+  ],
+  "2": [
+   "quot_only_n",
+   "可改·7231",
+   "可改·9110",
+   "可改·折平·7231",
+   "误改写·9110",
+   "六族增益·9110",
+   "POSTtoGET·9110",
+   "历史原因·7231",
+   "段行数·2616",
+   "段行数·7231",
+   "段行数·9110",
+   "308原面·7231",
+   "308折平·7231",
+   "308摘壳·7231",
+   "308剥引文·7231",
+   "308枚·7231",
+   "废弃判词枚数",
+   "引9110·9110",
+   "自指·9110",
+   "MUST全计·7538",
+   "MAY·7538",
+   "窗内redirect·7231",
+   "窗内redirect·7538",
+   "窗内MUST·2616",
+   "同形对·2616·7538",
+   "字节对·2616·7538",
+   "轴档非零数",
+   "带竖线枚数",
+   "剥竖线枚数·9110"
+  ],
+  "111": [
+   "段字符·9110"
+  ],
+  "19": [
+   "段词·9110",
+   "7231·9110共尾",
+   "7231·9110共头"
+  ],
+  "8": [
+   "小节数·2616",
+   "redirect词·2616",
+   "tag_7538"
+  ],
+  "17": [
+   "308原面·7538",
+   "308折平·7538",
+   "308剥引文·7538",
+   "308枚·7538",
+   "anchor_distinct"
+  ],
+  "13": [
+   "308折平·9110",
+   "308摘壳·9110",
+   "308剥引文·9110",
+   "308枚·9110",
+   "redirect词·7231",
+   "anchor_single"
+  ],
+  "12": [
+   "308摘壳·7538",
+   "redirect词·9110",
+   "对账相符"
+  ],
+  "9": [
+   "302枚·2616",
+   "302枚·9110",
+   "307枚·9110",
+   "引2616·9110",
+   "引7231·9110",
+   "引7538·9110",
+   "7231到9110",
+   "SHOULDNOT·7231"
+  ],
+  "11": [
+   "对象并集",
+   "引7231·7538"
+  ],
+  "175": [
+   "自指·2616"
+  ],
+  "100": [
+   "自指·7231"
+  ],
+  "25": [
+   "MUSTNOT·7231"
+  ],
+  "28": [
+   "SHOULDNOT·9110",
+   "竖线折平·7538"
+  ],
+  "191": [
+   "method词·9110"
+  ],
+  "20": [
+   "窗带",
+   "仅归一对·2616·7231"
+  ],
+  "3484": [
+   "答句行·2616"
+  ],
+  "3116": [
+   "答句行·7231"
+  ],
+  "41": [
+   "窗行数·7231",
+   "窗行数·7538",
+   "窗行数·9110"
+  ],
+  "10": [
+   "窗内redirect·9110"
+  ],
+  "42": [
+   "窗外POST·2616"
+  ],
+  "69": [
+   "池分档·3 份同现",
+   "三现长行"
+  ],
+  "1111": [
+   "两现长行"
+  ],
+  "22": [
+   "同形对·7538·9110",
+   "字节对·7538·9110"
+  ],
+  "27": [
+   "字节对·7231·7538",
+   "仅归一对·2616·9110"
+  ],
+  "14": [
+   "仅归一对·7231·9110",
+   "最大对仅归一",
+   "竖线剥后·7538",
+   "竖线剥掉·7538",
+   "竖线行尺·7538"
+  ],
+  "1100": [
+   "最大对枚数"
+  ],
+  "1086": [
+   "最大对字节"
+  ],
+  "89": [
+   "锚池分档·3 份同现"
+  ],
+  "221": [
+   "竖线折平·2616"
+  ],
+  "732": [
+   "竖线折平·7231"
+  ],
+  "896": [
+   "竖线折平·9110"
+  ],
+  "127": [
+   "竖线行尺·2616"
+  ],
+  "382": [
+   "竖线行尺·7231"
+  ],
+  "508": [
+   "竖线行尺·9110"
+  ],
+  "176": [
+   "换页独占行·2616"
+  ],
+  "101": [
+   "换页独占行·7231"
+  ],
+  "9860": [
+   "换行档·2616"
+  ],
+  "5660": [
+   "换行档·7231"
+  ],
+  "340": [
+   "换行档·7538"
+  ],
+  "10786": [
+   "换行档·9110"
+  ],
+  "62": [
+   "恒等式通过",
+   "共键恒等式"
+  ]
+ },
+ "zero_terms": 205,
+ "deriv_keys": 176,
+ "deriv_points": 417,
+ "notes": {
+  "422279": "字节·2616",
+  "235053": "字节·7231",
+  "11189": "字节·7538",
+  "502941": "字节·9110",
+  "502907": "码位·9110",
+  "9860": "行数·2616",
+  "5660": "行数·7231",
+  "340": "行数·7538",
+  "10786": "行数·9110",
+  "6911": "非空行·2616",
+  "3945": "非空行·7231",
+  "199": "非空行·7538",
+  "8659": "非空行·9110",
+  "72": "最长行·2616",
+  "75": "最长行·7231",
+  "176": "换页符·2616",
+  "101": "换页符·7231",
+  "6": "换页符·7538",
+  "6556": "留行·2616",
+  "3739": "留行·7231",
+  "184": "留行·7538",
+  "8654": "留行·9110",
+  "126": "竖线行·2616",
+  "191": "竖线行·7231",
+  "7": "竖线行·7538",
+  "337": "竖线行·9110",
+  "221": "竖线符·2616",
+  "732": "竖线符·7231",
+  "28": "竖线符·7538",
+  "896": "竖线符·9110",
+  "1": "BOM·9110",
+  "30": "非ASCII·9110",
+  "34": "字节码位差·9110",
+  "3": "纯ASCII份数",
+  "3304": "壳行·本遍·2616",
+  "1921": "壳行·本遍·7231",
+  "156": "壳行·本遍·7538",
+  "2132": "壳行·本遍·9110",
+  "3305": "壳行·采集·2616",
+  "1916": "壳行·采集·7231",
+  "152": "壳行·采集·7538",
+  "2127": "壳行·采集·9110",
+  "3300": "同判壳行·2616",
+  "4": "本遍多判·2616",
+  "5": "本遍多判·7231",
+  "-1": "壳账差·2616",
+  "25": "针总数",
+  "8": "名下针·9110",
+  "2": "逐行档·9110",
+  "15": "折行独有",
+  "3484": "段起行·2616",
+  "3116": "段起行·7231",
+  "121": "段起行·7538",
+  "7384": "段起行·9110",
+  "3485": "段止行·2616",
+  "3117": "段止行·7231",
+  "141": "段止行·7538",
+  "7385": "段止行·9110",
+  "21": "段行数·7538",
+  "108": "段字符·2616",
+  "111": "段字符·7231",
+  "1066": "段字符·7538",
+  "20": "段词·2616",
+  "19": "段词·7231",
+  "169": "段词·7538",
+  "12": "段独有词·7231",
+  "17": "段词表·7231",
+  "78": "注⇎清单行距",
+  "9": "小节数·9110",
+  "13": "308原面·9110",
+  "14": "302枚·7231",
+  "11": "307枚·7231",
+  "77": "3xx串·2616",
+  "89": "3xx串·7231",
+  "32": "3xx串·7538",
+  "99": "3xx串·9110",
+  "1999": "年份·2616",
+  "2014": "年份·7231",
+  "2015": "年份·7538",
+  "2022": "年份·9110",
+  "175": "引2616·2616",
+  "100": "引7231·7231",
+  "10": "括号7231·7538",
+  "348": "MUST全计·2616",
+  "69": "MUST全计·7231",
+  "206": "MUST全计·9110",
+  "228": "裸MUST·2616",
+  "44": "裸MUST·7231",
+  "134": "裸MUST·9110",
+  "120": "MUSTNOT·2616",
+  "180": "MAY·2616",
+  "47": "MAY·7231",
+  "105": "MAY·9110",
+  "256": "SHOULD·2616",
+  "50": "SHOULD·7231",
+  "125": "SHOULD·9110",
+  "42": "SHOULDNOT·2616",
+  "22": "小写must·2616",
+  "370": "大小写must·2616",
+  "212": "大小写must·9110",
+  "95": "method词·2616",
+  "117": "method词·7231",
+  "151": "答句行·7538",
+  "7260": "答句行·9110",
+  "3464": "窗起·2616",
+  "3096": "窗起·7231",
+  "131": "窗起·7538",
+  "7240": "窗起·9110",
+  "3504": "窗止·2616",
+  "3136": "窗止·7231",
+  "171": "窗止·7538",
+  "7280": "窗止·9110",
+  "41": "窗行数·2616",
+  "1753": "窗字符·2616",
+  "1728": "窗字符·7231",
+  "1544": "窗字符·7538",
+  "2097": "窗字符·9110",
+  "36": "窗外redirect·2616",
+  "70": "窗外redirect·7231",
+  "84": "窗外redirect·9110",
+  "118": "窗外GET·2616",
+  "112": "窗外GET·7231",
+  "200": "窗外GET·9110",
+  "66": "窗外POST·7231",
+  "82": "窗外POST·9110",
+  "692": "窗外MUST·2616",
+  "138": "窗外MUST·7231",
+  "412": "窗外MUST·9110",
+  "45": "窗内数字·2616",
+  "35": "窗内数字·7231",
+  "60": "窗内数字·7538",
+  "51": "窗内数字·9110",
+  "9602": "窗外数字·2616",
+  "6914": "窗外数字·7231",
+  "384": "窗外数字·7538",
+  "11253": "窗外数字·9110",
+  "9647": "数字符·2616",
+  "6949": "数字符·7231",
+  "444": "数字符·7538",
+  "11304": "数字符·9110",
+  "97": "历史⇎不得行距",
+  "12627": "池条数",
+  "11446": "池分档·1 份同现",
+  "1111": "池分档·2 份同现",
+  "81": "同形对·2616·7231",
+  "92": "同形对·2616·9110",
+  "27": "同形对·7231·7538",
+  "1100": "同形对·7231·9110",
+  "61": "字节对·2616·7231",
+  "65": "字节对·2616·9110",
+  "1086": "字节对·7231·9110",
+  "7231·9110": "最大对名",
+  "53": "仅归一串数",
+  "5651": "锚池标签·2616",
+  "3092": "锚池标签·7231",
+  "142": "锚池标签·7538",
+  "6946": "锚池标签·9110",
+  "13104": "锚池分档·1 份同现",
+  "1228": "锚池分档·2 份同现",
+  "94": "竖线剥后·2616",
+  "350": "竖线剥后·7231",
+  "388": "竖线剥后·9110",
+  "127": "竖线剥掉·2616",
+  "382": "竖线剥掉·7231",
+  "508": "竖线剥掉·9110",
+  "10035": "splitlines行·2616",
+  "5760": "splitlines行·7231",
+  "345": "splitlines行·7538",
+  "10785": "splitlines行·9110",
+  "62": "恒等式数",
+  "38280": "双空格·2616",
+  "34765": "双空格·9110",
+  "23": "anchor_total",
+  "68": "checks",
+  "8503": "enc_chars"
+ },
+ "needle_n": 25,
+ "zid": [
+  [
+   "B72V('ladder_monotone') - 1",
+   "四档阶梯单调: 逐行档+折行独有档=折平档, 摘壳≤折平, 剥引文≥摘壳"
+  ],
+  [
+   "B72V('re_eq_cur') - 1",
+   "正则字面轨与非重叠游标轨在最宽档上逐枚相等"
+  ],
+  [
+   "B72V('overlap_extra')",
+   "重叠口径减非重叠口径在全库针上合计为零"
+  ],
+  [
+   "sum(B72V('sh_minus_fold'))",
+   "摘壳档一枚不丢(壳行里没有答句)"
+  ],
+  [
+   "B72V('dead_nonneg')",
+   "死集=反向对照针集(内容针在最宽档全读得到)"
+  ],
+  [
+   "len(B72V('neg_controls')) - 4",
+   "反向对照针恰 4 枚: 2616 无 historical reasons, 后三份无确认门"
+  ],
+  [
+   "B72V('neg_hit_widest')",
+   "反向针在最宽档合计零命中"
+  ],
+  [
+   "B72V('ser_fold_hit') * B72V('ser_quot_hit')",
+   "带竖线那枚: 折平档读得到、剥引文档一枚不剩"
+  ],
+  [
+   "B72V('ser_fold_hit') - B72V('n_a9110_302_hist_may', 3)",
+   "同一句的两种序列化枚数相等: 剥引文只是把它从带竖线搬到不带, 不多造一枚"
+  ],
+  [
+   "sum(B72V('fold_only_own')) - B72V('fold_only_n')",
+   "折行独有针按份分账=总数"
+  ],
+  [
+   "sum(B72V('quot_only_own')) - sum(B72V('quot_minus_sh')) - B72V('quot_lost_n')",
+   "剥引文档净增(该档−摘壳档)=新增针数−丢针数"
+  ],
+  [
+   "B72V('quot_lost_nonserv')",
+   "剥引文档丢的只有序列化对照那枚: 内容针在最窄到最宽的换档里一枚不丢"
+  ],
+  [
+   "B72V('tier_sum_close')",
+   "措辞档全库合计的“剥引文−折平”增益=剥引文独有针数"
+  ],
+  [
+   "B72V('pair_close')",
+   "两两“归一同形”=“逐字节同形”+“只归一同形”(池代数闭合)"
+  ],
+  [
+   "B72V('pool_tier_close')",
+   "共用长行按份数分档之和=池条数"
+  ],
+  [
+   "B72V('axis_close')",
+   "写法分家轴四桶之和=归一同形而逐字节不同的去重串数"
+  ],
+  [
+   "B72V('union_close')",
+   "容斥对账: 单份并集=Σ单份−Σ两两交+Σ三重−Σ四重"
+  ],
+  [
+   "B72V('apool_tier_close')",
+   "锚候选池按“几份面上出现”加权分档之和=池条目数"
+  ],
+  [
+   "B72V('apool_tag_close')",
+   "锚候选池按标签分布之和=池条目数"
+  ],
+  [
+   "sum(B72V('up_ledger'))",
+   "大写 MUST 总数 = 裸 MUST + MUST NOT"
+  ],
+  [
+   "sum([abs(x) for x in B72V('case_ledger')])",
+   "每份面: 大写+小写+首字母大写=不分大小写"
+  ],
+  [
+   "B72V('win_close_sum')",
+   "答句邻域窗的数字符带内+带外=全篇"
+  ],
+  [
+   "sum(B72V('cr'))",
+   "四份 CR 全零(纯 LF 面)"
+  ],
+  [
+   "sum(B72V('nul_faces'))",
+   "四份面上 NUL 全零"
+  ],
+  [
+   "B72V('lines_split_close')",
+   "splitlines 行数=换行计数+1−末行换行+换页符(\\x0c 也是行界)"
+  ],
+  [
+   "sum(B72V('bom')) - 1",
+   "BOM 恰一枚: 只有 9110 带"
+  ],
+  [
+   "max([abs(B72V('byte_cp_delta')[i] - B72V('nonascii_extra')[i]) for i in range(4)])",
+   "字节−码位差=每枚非 ASCII 的 utf-8 加字节(9110 的差恰由 BOM 补足)"
+  ],
+  [
+   "B72V('ascii_all') - (4 - 1)",
+   "四份里三份是纯 ASCII 面"
+  ],
+  [
+   "B72V('ff', 3)",
+   "9110 零换页符 ⇒ 摘壳档对它近乎空操作"
+  ],
+  [
+   "sum(B72V('cite_forms_close'))",
+   "自引三式相加=一条正则族读出的枚数(写法族账闭合)"
+  ],
+  [
+   "len(B72V('s3_examples')) - (B72V('pool_3') + B72V('pool_4'))",
+   "三份及以上同现的共用长行=池分档第三+第四档"
+  ],
+  [
+   "B72V('confirm_gate_only_2616') - 1",
+   "确认门那句 MUST NOT automatically redirect 只在 2616 存活"
+  ],
+  [
+   "B72V('not_allow_changing_pair') - 1",
+   "“does not allow changing the request method”这一族措辞只活在 7231⇎7538 中间两份里"
+  ],
+  [
+   "B72V('erroneously_outer_pair') - 1",
+   "“erroneously”(误改写)只在首尾两份出现: 2616 数 3 枚 ⇎ 9110 把这枚词捡回来数 2 枚"
+  ],
+  [
+   "B72V('may_change_pair') - 1",
+   "“MAY change the request method”恰在 7231⇎9110 两份读得到(剥引文档)"
+  ],
+  [
+   "B72V('quot_only_9110') - 1",
+   "剥引文档新增只发生在 9110(其余三份无引文竖线)"
+  ],
+  [
+   "B72V('pipe_needle_pair') - 1",
+   "同一句 MAY 的两种序列化: 带竖线版只在折平档, 剥竖线版只在剥引文档"
+  ],
+  [
+   "B72V('304_absent_in_7231') - 1",
+   "304 在 2616 与 9110 的 30x 小节里, 7231 把它挪走了"
+  ],
+  [
+   "B72V('308_only_7538_9110') - 1",
+   "308 只活在 7538 与 9110 的小节清单里"
+  ],
+  [
+   "B72V('code_n_desc')",
+   "30x 小节数 8⇎7⇎1⇎9(按正文标题行现读)"
+  ],
+  [
+   "B72V('obs_chain') - 1",
+   "废止链 2068←2616←7231←9110 逐号可查, 而 2616 不在 9110 的 Obsoletes 里"
+  ],
+  [
+   "B72V('7538_obsoletes_own_draft') - 1",
+   "7538 的 Obsoletes: 只列自己的草案期号 7238"
+  ],
+  [
+   "B72V('year_order_ok')",
+   "标题页年份 1999→2014→2015→2022 严格递增、零倒序"
+  ],
+  [
+   "B72V('no_ff_only_9110')",
+   "换页符只在前三份, 9110 面上零枚"
+  ],
+  [
+   "B72V('bom_only_9110')",
+   "BOM 只在 9110"
+  ],
+  [
+   "B72V('nonascii_only_9110')",
+   "非 ASCII 只在 9110"
+  ],
+  [
+   "B72V('up_ledger_zero')",
+   "大写义务词账归零"
+  ],
+  [
+   "B72V('case_ledger_zero')",
+   "大小写语气账归零"
+  ],
+  [
+   "B72V('lines_split_zero')",
+   "行数恒等式成立"
+  ],
+  [
+   "B72V('shell_308_only_7538') - 1",
+   "页眉印着 308 的只有 7538——它整份文书就在讲这一枚状态码"
+  ],
+  [
+   "B72V('pick_overstrip_only_2616') - 1",
+   "采集遍壳谓词多剥的正文句只出现在 2616"
+  ],
+  [
+   "B72V('ser_pair') - 1",
+   "序列化对照针三条同时成立: 折平读得到 ⇎ 剥引文读不到 ⇎ 剥后枚数不变"
+  ],
+  [
+   "B72V('num_gap_2616') - (B72V('years', 1) - B72V('years', 0))",
+   "2616→7231 的年距由标题页现读"
+  ],
+  [
+   "sum(B72V('needles_owned')) - B72V('needle_n')",
+   "按份名下的针数相加=在册针总数"
+  ],
+  [
+   "sum(B72V('s308_fold')) - sum(B72V('s308_raw'))",
+   "数字 308 从不被行界劈开: 原面枚数=折平枚数"
+  ],
+  [
+   "sum(B72V('s308_quot')) - sum(B72V('s308_fold'))",
+   "剥引文竖线也不动 308 的枚数"
+  ],
+  [
+   "sum(B72V('s308_raw')) - sum(B72V('s308_sh')) - sum(B72V('s308_shell'))",
+   "摘壳档少的 308 恰好全在壳行上: 7538 的页眉把争议数字本身印成 Running header"
+  ],
+  [
+   "sum(B72V('s308_shell')) - B72V('s308_shell', 2)",
+   "壳行里的 308 一枚不落在其余三份"
+  ],
+  [
+   "sum(B72V('bar_removed')) - sum(B72V('bar_removed_line'))",
+   "被剥掉的竖线枚数: 两面相减的 glyph 尺 ⇎ 逐行剥前后各数一次的行尺, 两尺同值"
+  ],
+  [
+   "sum([abs(B72V('shell_diff')[i] - (B72V('shell_mk_only')[i] - B72V('shell_pick_only')[i])) for i in range(4)])",
+   "两遍壳账之差 = 本遍多判的壳行 − 采集多判的壳行(逐份相减, 不是合计相抵)"
+  ],
+  [
+   "sum(B72V('shell_mk_only')) - sum(B72V('shell_mk_only_hdr'))",
+   "本遍多判的壳行全是抬头字段行(工作组/RFC 号/Obsoletes/Updates/Category/ISSN)"
+  ],
+  [
+   "sum(B72V('shell_pick_only')) - sum(B72V('shell_pick_only_body'))",
+   "采集多判的壳行全是缩进后以“RFC 四位数+空格”开头的正文句(2616 的引文行)"
+  ],
+  [
+   "B72V('mod_steps') - 5",
+   "9110 把改写动作写成一份五条的编号清单(顶层 1..5)"
+  ],
+  [
+   "B72V('mod_step_seq') - 1",
+   "清单编号严格 1,2,3,4,5 无跳号"
+  ],
+  [
+   "B72V('mod_step_has_rewrite') - 1",
+   "“Change the request method according to the redirecting status code” 就落在这份清单之内"
+  ],
+  [
+   "B72V('dep_305_one') - 1",
+   "9110 面上“is now deprecated”两枚里恰一枚属于 305 小节(另一枚说的是别的对象)"
+  ],
+  [
+   "B72V('claim_four_none_all') - 1",
+   "四种说法(确认门⇎可改⇎不允许改⇎误改写)没有一份同时给全"
+  ],
+  [
+   "sum(B72V('claim_four_n')) - (sum([1 if B72V('tierq_confirm_gate', i) else 0 for i in range(4)]) + sum([1 if B72V('tierq_may_change', i) else 0 for i in range(4)]) + sum([1 if B72V('tierq_not_allow_changing', i) else 0 for i in range(4)]) + sum([1 if B72V('tierq_erroneously', i) else 0 for i in range(4)]))",
+   "四族按份归并 ⇎ 按族归并: 同一批出现数两种走法相等"
+  ],
+  [
+   "B72V('dead_n') - B72V('neg_ctrl_n') - B72V('ser_n')",
+   "最宽档落空的针=反向对照+序列化对照两类, 内容针一枚不落"
+  ],
+  [
+   "B72V('blk_only', 1) + B72V('blk_common_1') - B72V('blk_vocab', 1)",
+   "7231 段的词集账: 相对 2616 段独有 + 两份交集 = 7231 段词表(容斥)"
+  ],
+  [
+   "B72V('step_before_hist') - 1",
+   "9110 里改写清单排在历史原因注之前(与 7231 的注在前、约束句在后相反)"
+  ],
+  [
+   "B72V('hist_step_gap') + B72V('step_hist_abs')",
+   "9110 的两处行距符号账: 带签名 ⇎ 绝对值"
+  ],
+  [
+   "B72V('hist_after_7231') - 1",
+   "7231 里“MUST NOT change”排在“历史原因”句之后"
+  ]
+ ],
+ "litk": {
+  "a2616_301_confirm": "the user agent MUST NOT automatically redirect the request unless it can be confirmed by the user, since this might change the conditions under which the request was issued.",
+  "a2616_301_erroneous": "some existing HTTP/1.0 user agents will erroneously change it into a GET request.",
+  "a2616_302_not_allowed": "RFC 1945 and RFC 2068 specify that the client is not allowed to change the method on the redirected request.",
+  "a2616_302_treat_as_303": "most existing user agent implementations treat 302 as if it were a 303 response, performing a GET on the Location field-value regardless of the original request method.",
+  "a2616_303_get": "SHOULD be retrieved using a GET method on that resource.",
+  "a2616_307_repeat": "the information necessary for a user to repeat the original request on the new URI.",
+  "a2616_no_historical": "For historical reasons",
+  "a7231_301_hist_may": "a user agent MAY change the request method from POST to GET for the subsequent request.",
+  "a7231_307_must_not_change": "MUST NOT change the request method if it performs an automatic redirection to that URI.",
+  "a7231_306_not_allow": "does not allow changing the request method from POST to GET.",
+  "a7231_303_retrieval": "can perform a retrieval request targeting that URI (a GET or HEAD request if using HTTP",
+  "a7231_302_confirm": "MUST NOT automatically redirect",
+  "a7538_308_indicates": "The 308 (Permanent Redirect) status code indicates that the target resource has been assigned a new permanent URI and any future references to this resource ought to use one of the enclosed URIs.",
+  "a7538_308_not_allow": "does not allow changing the request method from POST to GET.",
+  "a7538_cacheable": "A 308 response is cacheable by default; i.e., unless otherwise indicated by the method definition or explicit cache controls",
+  "a7538_restricted": "the use of status code 308 is restricted to cases where the server has sufficient confidence",
+  "a7538_confirm": "MUST NOT automatically redirect",
+  "a9110_302_hist_may": "For historical reasons, a user agent MAY change the request method from POST to GET for the subsequent request.",
+  "a9110_307_must_not_change": "MUST NOT change the request method if it performs an automatic redirection to that URI.",
+  "a9110_converged": "converged on changing the method to GET.",
+  "a9110_step": "Change the request method according to the redirecting status code's semantics, if applicable. 5. If the request method has been changed to GET or HEAD, remove content-specific header fields, including (but not limited to) Content-Encoding, Content-Language, Content-Location, Content-Type, Content-Length, Digest, Last-Modified. A client SHOULD detect and intervene in cyclical redirections (i.e., \"infinite\" redirection loops). *Note:* An earlier version of this specification recommended a maximum of five redirections ([RFC2068], Section 10.3). Content developers need to be aware that some clients might implement such a fixed limitation. 15.4.1. 300 Multiple Choices The 300 (Multiple Choices) status code indicates that the target resource has more than one representation, each with its own more specific identifier, and information about the alternatives is being provided so that the user (or user agent) can select a preferred representation by redirecting its request to one or more of those identifiers. In other words, the server desires that the user agent engage in reactive negotiation to select the most appropriate representation(s) for its needs (Section 12). If the server has a preferred choice, the server SHOULD generate a Location header field containing a preferred choice's URI reference. The user agent MAY use the Location field value for automatic redirection. For request methods other than HEAD, the server SHOULD generate content in the 300 response containing a list of representation metadata and URI reference(s) from which the user or user agent can choose the one most preferred. The user agent MAY make a selection from that list automatically if it understands the provided media type. A specific format for automatic selection is not defined by this specification because HTTP tries to remain orthogonal to the definition of its content. In practice, the representation is provided in some easily parsed format believed to be acceptable to the user agent, as determined by shared design or content negotiation, or in some commonly accepted hypertext format. A 300 response is heuristically cacheable; i.e., unless otherwise indicated by the method definition or explicit cache controls (see Section 4.2.2 of [CACHING]). *Note:* The original proposal for the 300 status code defined the URI header field as providing a list of alternative representations, such that it would be usable for 200, 300, and 406 responses and be transferred in responses to the HEAD method. However, lack of deployment and disagreement over syntax led to both URI and Alternates (a subsequent proposal) being dropped from this specification. It is possible to communicate the list as a Link header field value [RFC8288] whose members have a relationship of \"alternate\", though deployment is a chicken-and-egg problem. 15.4.2. 301 Moved Permanently The 301 (Moved Permanently) status code indicates that the target resource has been assigned a new permanent URI and any future references to this resource ought to use one of the enclosed URIs. The server is suggesting that a user agent with link-editing capability can permanently replace references to the target URI with one of the new references sent by the server. However, this suggestion is usually ignored unless the user agent is actively editing references (e.g., engaged in authoring content), the connection is secured, and the origin server is a trusted authority for the content being edited. The server SHOULD generate a Location header field in the response containing a preferred URI reference for the new permanent URI. The user agent MAY use the Location field value for automatic redirection. The server's response content usually contains a short hypertext note with a hyperlink to the new URI(s). *Note:* For historical reasons, a user agent MAY change the request method from POST to GET for the subsequent request. If this behavior is undesired, the 308 (Permanent Redirect) status code can be used instead. A 301 response is heuristically cacheable; i.e., unless otherwise indicated by the method definition or explicit cache controls (see Section 4.2.2 of [CACHING]). 15.4.3. 302 Found The 302 (Found) status code indicates that the target resource resides temporarily under a different URI. Since the redirection might be altered on occasion, the client ought to continue to use the target URI for future requests. The server SHOULD generate a Location header field in the response containing a URI reference for the different URI. The user agent MAY use the Location field value for automatic redirection. The server's response content usually contains a short hypertext note with a hyperlink to the different URI(s). *Note:* For historical reasons, a user agent MAY change the request method from POST to GET for the subsequent request. If this behavior is undesired, the 307 (Temporary Redirect) status code can be used instead. 15.4.4. 303 See Other The 303 (See Other) status code indicates that the server is redirecting the user agent to a different resource, as indicated by a URI in the Location header field, which is intended to provide an indirect response to the original request. A user agent can perform a retrieval request targeting that URI (a GET or HEAD request if using HTTP), which might also be redirected, and present the eventual result as an answer to the original request. Note that the new URI in the Location header field is not considered equivalent to the target URI. This status code is applicable to any HTTP method. It is primarily used to allow the output of a POST action to redirect the user agent to a different resource, since doing so provides the information corresponding to the POST response as a resource that can be separately identified, bookmarked, and cached. A 303 response to a GET request indicates that the origin server does not have a representation of the target resource that can be transferred by the server over HTTP. However, the Location field value refers to a resource that is descriptive of the target resource, such that making a retrieval request on that other resource might result in a representation that is useful to recipients without implying that it represents the original target resource. Note that answers to the questions of what can be represented, what representations are adequate, and what might be a useful description are outside the scope of HTTP. Except for responses to a HEAD request, the representation of a 303 response ought to contain a short hypertext note with a hyperlink to the same URI reference provided in the Location header field. 15.4.5. 304 Not Modified The 304 (Not Modified) status code indicates that a conditional GET or HEAD request has been received and would have resulted in a 200 (OK) response if it were not for the fact that the condition evaluated to false. In other words, there is no need for the server to transfer a representation of the target resource because the request indicates that the client, which made the request conditional, already has a valid representation; the server is therefore redirecting the client to make use of that stored representation as if it were the content of a 200 (OK) response. The server generating a 304 response MUST generate any of the following header fields that would have been sent in a 200 (OK) response to the same request: * Content-Location, Date, ETag, and Vary * Cache-Control and Expires (see [CACHING]) Since the goal of a 304 response is to minimize information transfer when the recipient already has one or more cached representations, a sender SHOULD NOT generate representation metadata other than the above listed fields unless said metadata exists for the purpose of guiding cache updates (e.g., Last-Modified might be useful if the response does not have an ETag field). Requirements on a cache that receives a 304 response are defined in Section 4.3.4 of [CACHING]. If the conditional request originated with an outbound client, such as a user agent with its own cache sending a conditional GET to a shared proxy, then the proxy SHOULD forward the 304 response to that client. A 304 response is terminated by the end of the header section; it cannot contain content or trailers. 15.4.6. 305 Use Proxy The 305 (Use Proxy) status code was defined in a previous version of this specification and is now deprecated (Appendix B of [RFC7231]). 15.4.7. 306 (Unused) The 306 status code was defined in a previous version of this specification, is no longer used, and the code is reserved. 15.4.8. 307 Temporary Redirect The 307 (Temporary Redirect) status code indicates that the target resource resides temporarily under a different URI and the user agent MUST NOT change the request method if it performs an automatic redirection to that URI. Since the redirection can change over time, the client ought to continue using the original target URI for future requests. The server SHOULD generate a Location header field in the response containing a URI reference for the different URI. The user agent MAY use the Location field value for automatic redirection. The server's response content usually contains a short hypertext note with a hyperlink to the different URI(s). 15.4.9. 308 Permanent Redirect The 308 (Permanent Redirect) status code indicates that the target resource has been assigned a new permanent URI and any future references to this resource ought to use one of the enclosed URIs. The server is suggesting that a user agent with link-editing capability can permanently replace references to the target URI with one of the new references sent by the server. However, this suggestion is usually ignored unless the user agent is actively editing references (e.g., engaged in authoring content), the connection is secured, and the origin server is a trusted authority for the content being edited. The server SHOULD generate a Location header field in the response containing a preferred URI reference for the new permanent URI. The user agent MAY use the Location field value for automatic redirection. The server's response content usually contains a short hypertext note with a hyperlink to the new URI(s). A 308 response is heuristically cacheable; i.e., unless otherwise indicated by the method definition or explicit cache controls (see Section 4.2.2 of [CACHING]). *Note:* This status code is much younger (June 2014) than its sibling codes and thus might not be recognized everywhere. See Section 4 of [RFC7538] for deployment considerations. 15.5. Client Error 4xx The 4xx (Client Error) class of status code indicates that the client seems to have erred. Except when responding to a HEAD request, the server SHOULD send a representation containing an explanation of the error situation, and whether it is a temporary or permanent condition. These status codes are applicable to any request method. User agents SHOULD display any included representation to the user. 15.5.1. 400 Bad Request The 400 (Bad Request) status code indicates that the server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing). 15.5.2. 401 Unauthorized The 401 (Unauthorized) status code indicates that the request has not been applied because it lacks valid authentication credentials for the target resource. The server generating a 401 response MUST send a WWW-Authenticate header field (Section 11.6.1) containing at least one challenge applicable to the target resource. If the request included authentication credentials, then the 401 response indicates that authorization has been refused for those credentials. The user agent MAY repeat the request with a new or replaced Authorization header field (Section 11.6.2). If the 401 response contains the same challenge as the prior response, and the user agent has already attempted authentication at least once, then the user agent SHOULD present the enclosed representation to the user, since it usually contains relevant diagnostic information. 15.5.3. 402 Payment Required The 402 (Payment Required) status code is reserved for future use. 15.5.4. 403 Forbidden The 403 (Forbidden) status code indicates that the server understood the request but refuses to fulfill it. A server that wishes to make public why the request has been forbidden can describe that reason in the response content (if any). If authentication credentials were provided in the request, the server considers them insufficient to grant access. The client SHOULD NOT automatically repeat the request with the same credentials. The client MAY repeat the request with new or different credentials. However, a request might be forbidden for reasons unrelated to the credentials. An origin server that wishes to \"hide\" the current existence of a forbidden target resource MAY instead respond with a status code of 404 (Not Found). 15.5.5. 404 Not Found The 404 (Not Found) status code indicates that the origin server did not find a current representation for the target resource or is not willing to disclose that one exists. A 404 status code does not indicate whether this lack of representation is temporary or permanent; the 410 (Gone) status code is preferred over 404 if the origin server knows, presumably through some configurable means, that the condition is likely to be permanent. A 404 response is heuristically cacheable; i.e., unless otherwise indicated by the method definition or explicit cache controls (see Section 4.2.2 of [CACHING]). 15.5.6. 405 Method Not Allowed The 405 (Method Not Allowed) status code indicates that the method received in the request-line is known by the origin server but not supported by the target resource. The origin server MUST generate an Allow header field in a 405 response containing a list of the target resource's currently supported methods. A 405 response is heuristically cacheable; i.e., unless otherwise indicated by the method definition or explicit cache controls (see Section 4.2.2 of [CACHING]). 15.5.7. 406 Not Acceptable The 406 (Not Acceptable) status code indicates that the target resource does not have a current representation that would be acceptable to the user agent, according to the proactive negotiation header fields received in the request (Section 12.1), and the server is unwilling to supply a default representation. The server SHOULD generate content containing a list of available representation characteristics and corresponding resource identifiers from which the user or user agent can choose the one most appropriate. A user agent MAY automatically select the most appropriate choice from that list. However, this specification does not define any standard for such automatic selection, as described in Section 15.4.1. 15.5.8. 407 Proxy Authentication Required The 407 (Proxy Authentication Required) status code is similar to 401 (Unauthorized), but it indicates that the client needs to authenticate itself in order to use a proxy for this request. The proxy MUST send a Proxy-Authenticate header field (Section 11.7.1) containing a challenge applicable to that proxy for the request. The client MAY repeat the request with a new or replaced Proxy-Authorization header field (Section 11.7.2). 15.5.9. 408 Request Timeout The 408 (Request Timeout) status code indicates that the server did not receive a complete request message within the time that it was prepared to wait. If the client has an outstanding request in transit, it MAY repeat that request. If the current connection is not usable (e.g., as it would be in HTTP/1.1 because request delimitation is lost), a new connection will be used. 15.5.10. 409 Conflict The 409 (Conflict) status code indicates that the request could not be completed due to a conflict with the current state of the target resource. This code is used in situations where the user might be able to resolve the conflict and resubmit the request. The server SHOULD generate content that includes enough information for a user to recognize the source of the conflict. Conflicts are most likely to occur in response to a PUT request. For example, if versioning were being used and the representation being PUT included changes to a resource that conflict with those made by an earlier (third-party) request, the origin server might use a 409 response to indicate that it can't complete the request. In this case, the response representation would likely contain information useful for merging the differences based on the revision history. 15.5.11. 410 Gone The 410 (Gone) status code indicates that access to the target resource is no longer available at the origin server and that this condition is likely to be permanent. If the origin server does not know, or has no facility to determine, whether or not the condition is permanent, the status code 404 (Not Found) ought to be used instead. The 410 response is primarily intended to assist the task of web maintenance by notifying the recipient that the resource is intentionally unavailable and that the server owners desire that remote links to that resource be removed. Such an event is common for limited-time, promotional services and for resources belonging to individuals no longer associated with the origin server's site. It is not necessary to mark all permanently unavailable resources as \"gone\" or to keep the mark for any length of time -- that is left to the discretion of the server owner. A 410 response is heuristically cacheable; i.e., unless otherwise indicated by the method definition or explicit cache controls (see Section 4.2.2 of [CACHING]). 15.5.12. 411 Length Required The 411 (Length Required) status code indicates that the server refuses to accept the request without a defined Content-Length (Section 8.6). The client MAY repeat the request if it adds a valid Content-Length header field containing the length of the request content. 15.5.13. 412 Precondition Failed The 412 (Precondition Failed) status code indicates that one or more conditions given in the request header fields evaluated to false when tested on the server (Section 13). This response status code allows the client to place preconditions on the current resource state (its current representations and metadata) and, thus, prevent the request method from being applied if the target resource is in an unexpected state. 15.5.14. 413 Content Too Large The 413 (Content Too Large) status code indicates that the server is refusing to process a request because the request content is larger than the server is willing or able to process. The server MAY terminate the request, if the protocol version in use allows it; otherwise, the server MAY close the connection. If the condition is temporary, the server SHOULD generate a Retry-After header field to indicate that it is temporary and after what time the client MAY try again. 15.5.15. 414 URI Too Long The 414 (URI Too Long) status code indicates that the server is refusing to service the request because the target URI is longer than the server is willing to interpret. This rare condition is only likely to occur when a client has improperly converted a POST request to a GET request with long query information, when the client has descended into an infinite loop of redirection (e.g., a redirected URI prefix that points to a suffix of itself) or when the server is under attack by a client attempting to exploit potential security holes. A 414 response is heuristically cacheable; i.e., unless otherwise indicated by the method definition or explicit cache controls (see Section 4.2.2 of [CACHING]). 15.5.16. 415 Unsupported Media Type The 415 (Unsupported Media Type) status code indicates that the origin server is refusing to service the request because the content is in a format not supported by this method on the target resource. The format problem might be due to the request's indicated Content-Type or Content-Encoding, or as a result of inspecting the data directly. If the problem was caused by an unsupported content coding, the Accept-Encoding response header field (Section 12.5.3) ought to be used to indicate which (if any) content codings would have been accepted in the request. On the other hand, if the cause was an unsupported media type, the Accept response header field (Section 12.5.1) can be used to indicate which media types would have been accepted in the request. 15.5.17. 416 Range Not Satisfiable The 416 (Range Not Satisfiable) status code indicates that the set of ranges in the request's Range header field (Section 14.2) has been rejected either because none of the requested ranges are satisfiable or because the client has requested an excessive number of small or overlapping ranges (a potential denial of service attack). Each range unit defines what is required for its own range sets to be satisfiable. For example, Section 14.1.2 defines what makes a bytes range set satisfiable. A server that generates a 416 response to a byte-range request SHOULD generate a Content-Range header field specifying the current length of the selected representation (Section 14.4). For example: HTTP/1.1 416 Range Not Satisfiable Date: Fri, 20 Jan 2012 15:41:54 GMT Content-Range: bytes */47022 *Note:* Because servers are free to ignore Range, many implementations will respond with the entire selected representation in a 200 (OK) response. That is partly because most clients are prepared to receive a 200 (OK) to complete the task (albeit less efficiently) and partly because clients might not stop making an invalid range request until they have received a complete representation. Thus, clients cannot depend on receiving a 416 (Range Not Satisfiable) response even when it is most appropriate. 15.5.18. 417 Expectation Failed The 417 (Expectation Failed) status code indicates that the expectation given in the request's Expect header field (Section 10.1.1) could not be met by at least one of the inbound servers. 15.5.19. 418 (Unused) [RFC2324] was an April 1 RFC that lampooned the various ways HTTP was abused; one such abuse was the definition of an application-specific 418 status code, which has been deployed as a joke often enough for the code to be unusable for any future use. Therefore, the 418 status code is reserved in the IANA HTTP Status Code Registry. This indicates that the status code cannot be assigned to other applications currently. If future circumstances require its use (e.g., exhaustion of 4NN status codes), it can be re- assigned to another use. 15.5.20. 421 Misdirected Request The 421 (Misdirected Request) status code indicates that the request was directed at a server that is unable or unwilling to produce an authoritative response for the target URI. An origin server (or gateway acting on behalf of the origin server) sends 421 to reject a target URI that does not match an origin for which the server has been configured (Section 4.3.1) or does not match the connection context over which the request was received (Section 7.4). A client that receives a 421 (Misdirected Request) response MAY retry the request, whether or not the request method is idempotent, over a different connection, such as a fresh connection specific to the target resource's origin, or via an alternative service [ALTSVC]. A proxy MUST NOT generate a 421 response. 15.5.21. 422 Unprocessable Content The 422 (Unprocessable Content) status code indicates that the server understands the content type of the request content (hence a 415 (Unsupported Media Type) status code is inappropriate), and the syntax of the request content is correct, but it was unable to process the contained instructions. For example, this status code can be sent if an XML request content contains well-formed (i.e., syntactically correct), but semantically erroneous XML instructions. 15.5.22. 426 Upgrade Required The 426 (Upgrade Required) status code indicates that the server refuses to perform the request using the current protocol but might be willing to do so after the client upgrades to a different protocol. The server MUST send an Upgrade header field in a 426 response to indicate the required protocol(s) (Section 7.8). Example: HTTP/1.1 426 Upgrade Required Upgrade: HTTP/3.0 Connection: Upgrade Content-Length: 53 Content-Type: text/plain This service requires use of the HTTP/3.0 protocol. 15.6. Server Error 5xx The 5xx (Server Error) class of status code indicates that the server is aware that it has erred or is incapable of performing the requested method. Except when responding to a HEAD request, the server SHOULD send a representation containing an explanation of the error situation, and whether it is a temporary or permanent condition. A user agent SHOULD display any included representation to the user. These status codes are applicable to any request method. 15.6.1. 500 Internal Server Error The 500 (Internal Server Error) status code indicates that the server encountered an unexpected condition that prevented it from fulfilling the request. 15.6.2. 501 Not Implemented The 501 (Not Implemented) status code indicates that the server does not support the functionality required to fulfill the request. This is the appropriate response when the server does not recognize the request method and is not capable of supporting it for any resource. A 501 response is heuristically cacheable; i.e., unless otherwise indicated by the method definition or explicit cache controls (see Section 4.2.2 of [CACHING]). 15.6.3. 502 Bad Gateway The 502 (Bad Gateway) status code indicates that the server, while acting as a gateway or proxy, received an invalid response from an inbound server it accessed while attempting to fulfill the request. 15.6.4. 503 Service Unavailable The 503 (Service Unavailable) status code indicates that the server is currently unable to handle the request due to a temporary overload or scheduled maintenance, which will likely be alleviated after some delay. The server MAY send a Retry-After header field (Section 10.2.3) to suggest an appropriate amount of time for the client to wait before retrying the request. *Note:* The existence of the 503 status code does not imply that a server has to use it when becoming overloaded. Some servers might simply refuse the connection. 15.6.5. 504 Gateway Timeout The 504 (Gateway Timeout) status code indicates that the server, while acting as a gateway or proxy, did not receive a timely response from an upstream server it needed to access in order to complete the request. 15.6.6. 505 HTTP Version Not Supported The 505 (HTTP Version Not Supported) status code indicates that the server does not support, or refuses to support, the major version of HTTP that was used in the request message. The server is indicating that it is unable or unwilling to complete the request using the same major version as the client, as described in Section 2.5, other than with this error message. The server SHOULD generate a representation for the 505 response that describes why that version is not supported and what other protocols are supported by that server. 16. Extending HTTP HTTP defines a number of generic extension points that can be used to introduce capabilities to the protocol without introducing a new version, including methods, status codes, field names, and further extensibility points within defined fields, such as authentication schemes and cache directives (see Cache-Control extensions in Section 5.2.3 of [CACHING]). Because the semantics of HTTP are not versioned, these extension points are persistent; the version of the protocol in use does not affect their semantics. Version-independent extensions are discouraged from depending on or interacting with the specific version of the protocol in use. When this is unavoidable, careful consideration needs to be given to how the extension can interoperate across versions. Additionally, specific versions of HTTP might have their own extensibility points, such as transfer codings in HTTP/1.1 (Section 6.1 of [HTTP/1.1]) and HTTP/2 SETTINGS or frame types ([HTTP/2]). These extension points are specific to the version of the protocol they occur within. Version-specific extensions cannot override or modify the semantics of a version-independent mechanism or extension point (like a method or header field) without explicitly being allowed by that protocol element. For example, the CONNECT method (Section 9.3.6) allows this. These guidelines assure that the protocol operates correctly and predictably, even when parts of the path implement different versions of HTTP. 16.1. Method Extensibility 16.1.1. Method Registry The \"Hypertext Transfer Protocol (HTTP) Method Registry\", maintained by IANA at <https://www.iana.org/assignments/http-methods>, registers method names. HTTP method registrations MUST include the following fields: * Method Name (see Section 9) * Safe (\"yes\" or \"no\", see Section 9.2.1) * Idempotent (\"yes\" or \"no\", see Section 9.2.2) * Pointer to specification text Values to be added to this namespace require IETF Review (see [RFC8126], Section 4.8). 16.1.2. Considerations for New Methods Standardized methods are generic; that is, they are potentially applicable to any resource, not just one particular media type, kind of resource, or application. As such, it is preferred that new methods be registered in a document that isn't specific to a single application or data format, since orthogonal technologies deserve orthogonal specification. Since message parsing (Section 6) needs to be independent of method semantics (aside from responses to HEAD), definitions of new methods cannot change the parsing algorithm or prohibit the presence of content on either the request or the response message. Definitions of new methods can specify that only a zero-length content is allowed by requiring a Content-Length header field with a value of \"0\". Likewise, new methods cannot use the special host:port and asterisk forms of request target that are allowed for CONNECT and OPTIONS, respectively (Section 7.1). A full URI in absolute form is needed for the target URI, which means either the request target needs to be sent in absolute form or the target URI will be reconstructed from the request context in the same way it is for other methods. A new method definition needs to indicate whether it is safe (Section 9.2.1), idempotent (Section 9.2.2), cacheable (Section 9.2.3), what semantics are to be associated with the request content (if any), and what refinements the method makes to header field or status code semantics. If the new method is cacheable, its definition ought to describe how, and under what conditions, a cache can store a response and use it to satisfy a subsequent request. The new method ought to describe whether it can be made conditional (Section 13.1) and, if so, how a server responds when the condition is false. Likewise, if the new method might have some use for partial response semantics (Section 14.2), it ought to document this, too. *Note:* Avoid defining a method name that starts with \"M-\", since that prefix might be misinterpreted as having the semantics assigned to it by [RFC2774]. 16.2. Status Code Extensibility 16.2.1. Status Code Registry The \"Hypertext Transfer Protocol (HTTP) Status Code Registry\", maintained by IANA at <https://www.iana.org/assignments/http-status- codes>, registers status code numbers. A registration MUST include the following fields: * Status Code (3 digits) * Short Description * Pointer to specification text Values to be added to the HTTP status code namespace require IETF Review (see [RFC8126], Section 4.8). 16.2.2. Considerations for New Status Codes When it is necessary to express semantics for a response that are not defined by current status codes, a new status code can be registered. Status codes are generic; they are potentially applicable to any resource, not just one particular media type, kind of resource, or application of HTTP. As such, it is preferred that new status codes be registered in a document that isn't specific to a single application. New status codes are required to fall under one of the categories defined in Section 15. To allow existing parsers to process the response message, new status codes cannot disallow content, although they can mandate a zero-length content. Proposals for new status codes that are not yet widely deployed ought to avoid allocating a specific number for the code until there is clear consensus that it will be registered; instead, early drafts can use a notation such as \"4NN\", or \"3N0\" .. \"3N9\", to indicate the class of the proposed status code(s) without consuming a number prematurely. The definition of a new status code ought to explain the request conditions that would cause a response containing that status code (e.g., combinations of request header fields and/or method(s)) along with any dependencies on response header fields (e.g., what fields are required, what fields can modify the semantics, and what field semantics are further refined when used with the new status code). By default, a status code applies only to the request corresponding to the response it occurs within. If a status code applies to a larger scope of applicability -- for example, all requests to the resource in question or all requests to a server -- this must be explicitly specified. When doing so, it should be noted that not all clients can be expected to consistently apply a larger scope because they might not understand the new status code.",
+  "a9110_308_indicates": "The 308 (Permanent Redirect) status code indicates that the target resource has been assigned a new permanent URI and any future references to this resource ought to use one of the enclosed URIs.",
+  "a9110_305_deprecated": "is now deprecated",
+  "a9110_confirm": "MUST NOT automatically redirect",
+  "a9110_302_hist_may_pipe": "For historical reasons, a user agent MAY change the | request method from POST to GET for the subsequent request."
+ },
+ "sn": {
+  "a2616_301_confirm": [
+   0,
+   3,
+   3,
+   3
+  ],
+  "a2616_301_erroneous": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "a2616_302_not_allowed": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "a2616_302_treat_as_303": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "a2616_303_get": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "a2616_307_repeat": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "a2616_no_historical": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "a7231_301_hist_may": [
+   0,
+   2,
+   2,
+   2
+  ],
+  "a7231_307_must_not_change": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "a7231_306_not_allow": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "a7231_303_retrieval": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "a7231_302_confirm": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "a7538_308_indicates": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "a7538_308_not_allow": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "a7538_cacheable": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "a7538_restricted": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "a7538_confirm": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "a9110_302_hist_may": [
+   0,
+   0,
+   0,
+   2
+  ],
+  "a9110_302_hist_may_pipe": [
+   0,
+   2,
+   2,
+   0
+  ],
+  "a9110_307_must_not_change": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "a9110_converged": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "a9110_step": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "a9110_308_indicates": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "a9110_305_deprecated": [
+   2,
+   2,
+   2,
+   2
+  ],
+  "a9110_confirm": [
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "closure_keys": [
+  "apool_tag_close",
+  "apool_tier_close",
+  "axis_close",
+  "case_ledger",
+  "cite_forms_close",
+  "lines_split_close",
+  "pair_close",
+  "pool_tier_close",
+  "shell_close_vs_pick",
+  "tier_sum_close",
+  "union_close",
+  "up_ledger",
+  "w_row_close",
+  "win_close_dig",
+  "win_close_sum"
+ ],
+ "flat": {
+  "needle_n": 25,
+  "sn_strict_docs": [
+   1,
+   1,
+   0,
+   2
+  ],
+  "sn_fold_docs": [
+   6,
+   4,
+   4,
+   5
+  ],
+  "sn_sh_docs": [
+   6,
+   4,
+   4,
+   5
+  ],
+  "sn_quot_docs": [
+   6,
+   4,
+   4,
+   6
+  ],
+  "fold_only_keys": [
+   "a2616_301_confirm",
+   "a2616_301_erroneous",
+   "a2616_302_not_allowed",
+   "a2616_302_treat_as_303",
+   "a2616_307_repeat",
+   "a7231_301_hist_may",
+   "a7231_307_must_not_change",
+   "a7231_303_retrieval",
+   "a7538_308_indicates",
+   "a7538_308_not_allow",
+   "a7538_cacheable",
+   "a7538_restricted",
+   "a9110_302_hist_may_pipe",
+   "a9110_307_must_not_change",
+   "a9110_308_indicates"
+  ],
+  "fold_only_own": [
+   5,
+   3,
+   4,
+   3
+  ],
+  "fold_only_n": 15,
+  "sh_only_keys": [],
+  "quot_only_keys": [
+   "a9110_302_hist_may",
+   "a9110_step"
+  ],
+  "quot_only_own": [
+   0,
+   0,
+   0,
+   2
+  ],
+  "quot_minus_sh": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "sh_minus_fold": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "ser_controls": [
+   "a9110_302_hist_may_pipe"
+  ],
+  "dead_needles": [
+   "a2616_no_historical",
+   "a7231_302_confirm",
+   "a7538_confirm",
+   "a9110_confirm"
+  ],
+  "dead_nonneg": 0,
+  "neg_controls": [
+   "a2616_no_historical",
+   "a7231_302_confirm",
+   "a7538_confirm",
+   "a9110_confirm"
+  ],
+  "neg_hit_widest": 0,
+  "ser_fold_hit": 2,
+  "ser_quot_hit": 0,
+  "quot_lost_keys": [
+   "a9110_302_hist_may_pipe"
+  ],
+  "quot_lost_n": 1,
+  "quot_lost_nonserv": 0,
+  "ladder_monotone": 1,
+  "re_eq_cur": 1,
+  "overlap_extra": 0,
+  "needles_owned": [
+   7,
+   5,
+   5,
+   8
+  ],
+  "n_a2616_301_confirm": [
+   0,
+   3,
+   3,
+   3
+  ],
+  "n_a2616_301_erroneous": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "n_a2616_302_not_allowed": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "n_a2616_302_treat_as_303": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "n_a2616_303_get": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_a2616_307_repeat": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "n_a2616_no_historical": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_a7231_301_hist_may": [
+   0,
+   2,
+   2,
+   2
+  ],
+  "n_a7231_307_must_not_change": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "n_a7231_306_not_allow": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_a7231_303_retrieval": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "n_a7231_302_confirm": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_a7538_308_indicates": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "n_a7538_308_not_allow": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "n_a7538_cacheable": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "n_a7538_restricted": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "n_a7538_confirm": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "n_a9110_302_hist_may": [
+   0,
+   0,
+   0,
+   2
+  ],
+  "n_a9110_302_hist_may_pipe": [
+   0,
+   2,
+   2,
+   0
+  ],
+  "n_a9110_307_must_not_change": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "n_a9110_converged": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "n_a9110_step": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "n_a9110_308_indicates": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "n_a9110_305_deprecated": [
+   2,
+   2,
+   2,
+   2
+  ],
+  "n_a9110_confirm": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "nd_len": [
+   173,
+   81,
+   108,
+   168,
+   56,
+   83,
+   22,
+   87,
+   87,
+   60,
+   87,
+   31,
+   195,
+   60,
+   124,
+   92,
+   31,
+   111,
+   113,
+   87,
+   40,
+   33553,
+   195,
+   17,
+   31
+  ],
+  "nd_len_tot": 35692,
+  "pipe_needle_pair": 1,
+  "bytes": [
+   422279,
+   235053,
+   11189,
+   502941
+  ],
+  "chars": [
+   422279,
+   235053,
+   11189,
+   502907
+  ],
+  "lines": [
+   9860,
+   5660,
+   340,
+   10786
+  ],
+  "lines_nl": [
+   9860,
+   5660,
+   340,
+   10786
+  ],
+  "nonblank": [
+   6911,
+   3945,
+   199,
+   8659
+  ],
+  "maxlen": [
+   72,
+   75,
+   72,
+   72
+  ],
+  "ff": [
+   176,
+   101,
+   6,
+   0
+  ],
+  "ff_only": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "ff_exact": [
+   176,
+   101,
+   6,
+   0
+  ],
+  "shell_n": [
+   3304,
+   1921,
+   156,
+   2132
+  ],
+  "shell_strip": [
+   6556,
+   3739,
+   184,
+   8654
+  ],
+  "shell_pick": [
+   3305,
+   1916,
+   152,
+   2127
+  ],
+  "shell_both": [
+   3300,
+   1916,
+   152,
+   2127
+  ],
+  "shell_mk_only": [
+   4,
+   5,
+   4,
+   5
+  ],
+  "shell_pick_only": [
+   5,
+   0,
+   0,
+   0
+  ],
+  "shell_diff": [
+   -1,
+   5,
+   4,
+   5
+  ],
+  "shell_mk_only_hdr": [
+   4,
+   5,
+   4,
+   5
+  ],
+  "shell_pick_only_body": [
+   5,
+   0,
+   0,
+   0
+  ],
+  "cr": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "nonascii": [
+   0,
+   0,
+   0,
+   30
+  ],
+  "bom": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "pipe_lines": [
+   126,
+   191,
+   7,
+   337
+  ],
+  "pipe_glyphs": [
+   221,
+   732,
+   28,
+   896
+  ],
+  "quot_dropped": [
+   -33,
+   -32,
+   0,
+   -120
+  ],
+  "quot_face_delta": [
+   254,
+   764,
+   28,
+   1016
+  ],
+  "bar_fold": [
+   221,
+   732,
+   28,
+   896
+  ],
+  "bar_quot": [
+   94,
+   350,
+   14,
+   388
+  ],
+  "bar_removed": [
+   127,
+   382,
+   14,
+   508
+  ],
+  "bar_removed_line": [
+   127,
+   382,
+   14,
+   508
+  ],
+  "quot_line_n": [
+   176,
+   191,
+   7,
+   339
+  ],
+  "nonascii_extra": [
+   0,
+   0,
+   0,
+   34
+  ],
+  "byte_cp_delta": [
+   0,
+   0,
+   0,
+   34
+  ],
+  "nul_faces": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "digit_chars": [
+   9647,
+   6949,
+   444,
+   11304
+  ],
+  "dblspace": [
+   38280,
+   20234,
+   1417,
+   34765
+  ],
+  "ascii_all": 3,
+  "tail_nl": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "lines_split": [
+   10035,
+   5760,
+   345,
+   10785
+  ],
+  "lines_split_close": 0,
+  "obs_ids": [
+   [
+    2068
+   ],
+   [
+    2616
+   ],
+   [
+    7238
+   ],
+   [
+    2818,
+    7230,
+    7231,
+    7232,
+    7233,
+    7235
+   ]
+  ],
+  "upd_ids": [
+   [],
+   [
+    2817
+   ],
+   [],
+   [
+    3864
+   ]
+  ],
+  "obs_n": [
+   1,
+   1,
+   1,
+   6
+  ],
+  "upd_n": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "target_ids": [
+   2068,
+   2616,
+   2817,
+   2818,
+   3864,
+   7230,
+   7231,
+   7232,
+   7233,
+   7235,
+   7238
+  ],
+  "target_n": 11,
+  "obs_verb": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "upd_verb": [
+   2,
+   1,
+   0,
+   1
+  ],
+  "cat_std": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "cat_hdr": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "issn": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "std_hdr": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "years": [
+   1999,
+   2014,
+   2015,
+   2022
+  ],
+  "months": [
+   "June",
+   "June",
+   "April",
+   "June"
+  ],
+  "year_order": 1,
+  "year_inversions": 0,
+  "year_gaps": [
+   15,
+   1,
+   7
+  ],
+  "sec_heads": [
+   8,
+   7,
+   1,
+   9
+  ],
+  "codes": [
+   [
+    "300",
+    "301",
+    "302",
+    "303",
+    "304",
+    "305",
+    "306",
+    "307"
+   ],
+   [
+    "300",
+    "301",
+    "302",
+    "303",
+    "305",
+    "306",
+    "307"
+   ],
+   [
+    "308"
+   ],
+   [
+    "300",
+    "301",
+    "302",
+    "303",
+    "304",
+    "305",
+    "306",
+    "307",
+    "308"
+   ]
+  ],
+  "code_n": [
+   8,
+   7,
+   1,
+   9
+  ],
+  "code_union": [
+   "300",
+   "301",
+   "302",
+   "303",
+   "304",
+   "305",
+   "306",
+   "307",
+   "308"
+  ],
+  "code_distinct": [
+   [
+    "300",
+    "301",
+    "302",
+    "303",
+    "304",
+    "305",
+    "306",
+    "307"
+   ],
+   [
+    "300",
+    "301",
+    "302",
+    "303",
+    "305",
+    "306",
+    "307"
+   ],
+   [
+    "308"
+   ],
+   [
+    "300",
+    "301",
+    "302",
+    "303",
+    "304",
+    "305",
+    "306",
+    "307",
+    "308"
+   ]
+  ],
+  "head_eof": [
+   3591,
+   3209,
+   119,
+   7505
+  ],
+  "head_first_ln": [
+   3401,
+   3050,
+   119,
+   7322
+  ],
+  "up_must_all": [
+   348,
+   69,
+   2,
+   206
+  ],
+  "up_may": [
+   180,
+   47,
+   2,
+   105
+  ],
+  "up_should": [
+   256,
+   50,
+   3,
+   125
+  ],
+  "must_not": [
+   120,
+   25,
+   1,
+   72
+  ],
+  "should_not": [
+   42,
+   9,
+   1,
+   28
+  ],
+  "may_not": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "must_bare": [
+   228,
+   44,
+   1,
+   134
+  ],
+  "low_must": [
+   22,
+   3,
+   1,
+   6
+  ],
+  "ci_must": [
+   370,
+   72,
+   3,
+   212
+  ],
+  "title_must": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "case_ledger": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "up_ledger": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "tier_words": [
+   "confirm_gate",
+   "not_allowed",
+   "may_change",
+   "must_not_change",
+   "not_allow_changing",
+   "erroneously"
+  ],
+  "tier_confirm_gate": [
+   3,
+   0,
+   0,
+   0
+  ],
+  "tierq_confirm_gate": [
+   3,
+   0,
+   0,
+   0
+  ],
+  "tier_not_allowed": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "tierq_not_allowed": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "tier_may_change": [
+   0,
+   2,
+   0,
+   0
+  ],
+  "tierq_may_change": [
+   0,
+   2,
+   0,
+   2
+  ],
+  "tier_must_not_change": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "tierq_must_not_change": [
+   0,
+   1,
+   0,
+   1
+  ],
+  "tier_not_allow_changing": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "tierq_not_allow_changing": [
+   0,
+   1,
+   1,
+   0
+  ],
+  "tier_erroneously": [
+   3,
+   0,
+   0,
+   2
+  ],
+  "tierq_erroneously": [
+   3,
+   0,
+   0,
+   2
+  ],
+  "tier_fold_tot": [
+   7,
+   4,
+   1,
+   3
+  ],
+  "tier_quot_tot": [
+   7,
+   4,
+   1,
+   5
+  ],
+  "tier_gain": [
+   0,
+   0,
+   0,
+   2
+  ],
+  "tier_sum_close": 0,
+  "post_to_get": [
+   0,
+   4,
+   3,
+   2
+  ],
+  "hist_reasons": [
+   0,
+   2,
+   0,
+   5
+  ],
+  "method_word": [
+   95,
+   117,
+   4,
+   191
+  ],
+  "redirect_word": [
+   8,
+   13,
+   1,
+   12
+  ],
+  "num_codes_named": [
+   8,
+   7,
+   1,
+   9
+  ],
+  "num_status_digits": [
+   77,
+   89,
+   32,
+   99
+  ],
+  "num_rfc_refs": [
+   270,
+   366,
+   29,
+   341
+  ],
+  "num_sec_302": [
+   9,
+   14,
+   3,
+   9
+  ],
+  "num_sec_307": [
+   7,
+   11,
+   5,
+   9
+  ],
+  "num_sec_308": [
+   0,
+   2,
+   17,
+   13
+  ],
+  "num_get_word": [
+   62,
+   57,
+   4,
+   104
+  ],
+  "num_post_word": [
+   22,
+   34,
+   3,
+   44
+  ],
+  "s308_raw": [
+   0,
+   2,
+   17,
+   13
+  ],
+  "s308_fold": [
+   0,
+   2,
+   17,
+   13
+  ],
+  "s308_sh": [
+   0,
+   2,
+   12,
+   13
+  ],
+  "s308_quot": [
+   0,
+   2,
+   17,
+   13
+  ],
+  "s308_shell": [
+   0,
+   0,
+   5,
+   0
+  ],
+  "num_gap_2616": 15,
+  "num_gap_9110": 7,
+  "cite_sp_1945": [
+   4,
+   1,
+   0,
+   1
+  ],
+  "cite_hy_1945": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_1945": [
+   0,
+   2,
+   0,
+   1
+  ],
+  "cite_al_1945": [
+   4,
+   3,
+   0,
+   2
+  ],
+  "cite_br_1945": [
+   0,
+   2,
+   0,
+   0
+  ],
+  "cite_sp_2068": [
+   16,
+   1,
+   0,
+   1
+  ],
+  "cite_hy_2068": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_2068": [
+   0,
+   3,
+   0,
+   6
+  ],
+  "cite_al_2068": [
+   16,
+   4,
+   0,
+   7
+  ],
+  "cite_br_2068": [
+   0,
+   3,
+   0,
+   5
+  ],
+  "cite_sp_2616": [
+   175,
+   3,
+   0,
+   2
+  ],
+  "cite_hy_2616": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_2616": [
+   0,
+   2,
+   0,
+   7
+  ],
+  "cite_al_2616": [
+   175,
+   5,
+   0,
+   9
+  ],
+  "cite_br_2616": [
+   0,
+   2,
+   0,
+   6
+  ],
+  "cite_sp_2817": [
+   0,
+   1,
+   0,
+   0
+  ],
+  "cite_hy_2817": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_2817": [
+   0,
+   5,
+   0,
+   0
+  ],
+  "cite_al_2817": [
+   0,
+   6,
+   0,
+   0
+  ],
+  "cite_br_2817": [
+   0,
+   5,
+   0,
+   0
+  ],
+  "cite_sp_7231": [
+   0,
+   100,
+   1,
+   3
+  ],
+  "cite_hy_7231": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_7231": [
+   0,
+   0,
+   10,
+   6
+  ],
+  "cite_al_7231": [
+   0,
+   100,
+   11,
+   9
+  ],
+  "cite_br_7231": [
+   0,
+   0,
+   10,
+   5
+  ],
+  "cite_sp_7232": [
+   0,
+   1,
+   0,
+   3
+  ],
+  "cite_hy_7232": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_7232": [
+   0,
+   15,
+   0,
+   4
+  ],
+  "cite_al_7232": [
+   0,
+   16,
+   0,
+   7
+  ],
+  "cite_br_7232": [
+   0,
+   15,
+   0,
+   3
+  ],
+  "cite_sp_7538": [
+   0,
+   0,
+   5,
+   3
+  ],
+  "cite_hy_7538": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_7538": [
+   0,
+   0,
+   0,
+   6
+  ],
+  "cite_al_7538": [
+   0,
+   0,
+   5,
+   9
+  ],
+  "cite_br_7538": [
+   0,
+   0,
+   0,
+   5
+  ],
+  "cite_sp_9110": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "cite_hy_9110": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_9110": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "cite_al_9110": [
+   0,
+   0,
+   0,
+   2
+  ],
+  "cite_br_9110": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "cite_sp_7230": [
+   0,
+   1,
+   0,
+   6
+  ],
+  "cite_hy_7230": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_7230": [
+   0,
+   69,
+   3,
+   5
+  ],
+  "cite_al_7230": [
+   0,
+   70,
+   3,
+   11
+  ],
+  "cite_br_7230": [
+   0,
+   69,
+   3,
+   4
+  ],
+  "cite_sp_7235": [
+   0,
+   1,
+   0,
+   3
+  ],
+  "cite_hy_7235": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_tk_7235": [
+   0,
+   11,
+   0,
+   5
+  ],
+  "cite_al_7235": [
+   0,
+   12,
+   0,
+   8
+  ],
+  "cite_br_7235": [
+   0,
+   11,
+   0,
+   4
+  ],
+  "cite_self": [
+   175,
+   100,
+   5,
+   2
+  ],
+  "cite_forms_close": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_dir_7231_to_9110": 9,
+  "cite_dir_9110_to_7231": 0,
+  "cite_7538_in_9110": 9,
+  "cite_7538_in_7231": 0,
+  "cite_2616_in_7231": 5,
+  "cite_1945_tot": 9,
+  "cite_2068_tot": 27,
+  "pool_n": 12627,
+  "pool_tier": [
+   11446,
+   1111,
+   69,
+   1
+  ],
+  "pool_tier_close": 0,
+  "pool_4": 1,
+  "pool_3": 69,
+  "pool_2": 1111,
+  "pool_1": 11446,
+  "pair_share": [
+   81,
+   2,
+   92,
+   27,
+   1100,
+   22
+  ],
+  "pair_byte": [
+   61,
+   2,
+   65,
+   27,
+   1086,
+   22
+  ],
+  "pair_norm_only": [
+   20,
+   0,
+   27,
+   0,
+   14,
+   0
+  ],
+  "pair_nonzero": 6,
+  "pair_close": 0,
+  "pair_lbl": [
+   "2616·7231",
+   "2616·7538",
+   "2616·9110",
+   "7231·7538",
+   "7231·9110",
+   "7538·9110"
+  ],
+  "pair_max": 1100,
+  "pair_max_idx": 4,
+  "pair_max_byte": 1086,
+  "pair_max_norm_only": 14,
+  "pair_max_lbl": "7231·9110",
+  "s3_examples": [
+   "\"should\", \"should not\", \"recommended\", \"may\", and \"optional\" in this",
+   "(ietf). it represents the consensus of the ietf community. it has",
+   "[rfc2119] bradner, s., \"key words for use in rfcs to indicate",
+   "[rfc7230] fielding, r., ed. and j. reschke, ed., \"hypertext transfer",
+   "[rfc7234] fielding, r., ed., nottingham, m., ed., and j. reschke,",
+   "accept-charset: iso-8859-5, unicode-1-1;q=0.8",
+   "accept-encoding: compress;q=0.5, gzip;q=1.0",
+   "accept-encoding: gzip;q=1.0, identity; q=0.5, *;q=0",
+   "accept-language: da, en-gb;q=0.8, en;q=0.7",
+   "allow a server to accept a request for some other process (perhaps a",
+   "and how to provide feedback on it may be obtained at",
+   "batch-oriented process that is only run once per day) without",
+   "caches are used to distribute server load and reduce network usage.",
+   "capabilities from examining the request, and generally when public",
+   "carefully, as they describe your rights and restrictions with respect",
+   "condition. these status codes are applicable to any request method.",
+   "conflicts are most likely to occur in response to a put request. for",
+   "content coding values indicate an encoding transformation that has",
+   "content-language is to allow a user to identify and differentiate",
+   "content-language may be applied to any media type -- it is not",
+   "content-type: text/html; charset=iso-8859-4",
+   "determined by finding the media range with the highest precedence",
+   "ed., \"hypertext transfer protocol (http/1.1): caching\",",
+   "end of the request chain and use that data for testing or diagnostic",
+   "error situation, and whether it is a temporary or permanent",
+   "from which the user or user agent can choose the one most",
+   "if no content-language is specified, the default is that the content",
+   "in the latter example, the delay is 2 minutes.",
+   "indicated by the method definition or explicit cache controls (see",
+   "information about the current status of this document, any errata,",
+   "intentionally unavailable and that the server owners desire that",
+   "internet engineering steering group (iesg). further information on",
+   "is intended for all language audiences. this might mean that the",
+   "it might be contrary to the privacy expectations of the user to send",
+   "maintenance by notifying the recipient that the resource is",
+   "media ranges can be overridden by more specific media ranges or",
+   "mime provides for a number of \"multipart\" types -- encapsulations of",
+   "multiple audiences. for example, a rendition of the \"treaty of",
+   "multiple languages may be listed for content that is intended for",
+   "or that the sender does not know for which language it is intended.",
+   "parameters that are applicable to that range.",
+   "publication of this document. please review these documents",
+   "received public review and has been approved for publication by the",
+   "references to this resource ought to use one of the enclosed uris.",
+   "requiring that the user agent's connection to the server persist",
+   "resource has been assigned a new permanent uri and any future",
+   "retry-after: fri, 31 dec 1999 23:59:59 gmt",
+   "selecting from among the available representations is difficult to",
+   "sender does not consider it to be specific to any natural language,",
+   "specification, is no longer used, and the code is reserved.",
+   "sun nov 6 08:49:37 1994 ; ansi c's asctime() format",
+   "take special precautions regarding the transfer of header information",
+   "the 410 response is primarily intended to assist the task of web",
+   "the asterisk \"*\" character is used to group media types into ranges,",
+   "the head method is identical to get except that the server must not",
+   "the key words \"must\", \"must not\", \"required\", \"shall\", \"shall not\",",
+   "the max-forwards value is a decimal integer indicating the remaining",
+   "the media type quality factor associated with a given type is",
+   "this document is a product of the internet engineering task force",
+   "this document is subject to bcp 78 and the ietf trust's legal",
+   "this is an internet standards track document.",
+   "to this document. code components extracted from this document must",
+   "trace allows the client to see what is being received at the other",
+   "understand the class of any status code, as indicated by the first",
+   "user-agent: cern-linemode/2.15 libwww/2.17b3",
+   "verbally, this would be interpreted as \"text/html and text/x-c are",
+   "when the origin server is unable to determine a user agent's",
+   "with \"*/*\" indicating all media types and \"type/*\" indicating all",
+   "would cause the following values to be associated:",
+   "would mean: \"i prefer danish, but will accept british english and"
+  ],
+  "pool_incl": [
+   13879,
+   1324,
+   73,
+   1
+  ],
+  "union_incl": 12627,
+  "union_close": 0,
+  "shared_norm_only": 61,
+  "axis_counts": {
+   "case": 2,
+   "hyph": 0,
+   "space": 51,
+   "multi": 0
+  },
+  "axis_total": 53,
+  "norm_only_set": 53,
+  "axis_close": 0,
+  "axis_str": "case2⇎hyph0⇎space51⇎multi0",
+  "axis_str_n": 2,
+  "apool_n": 14422,
+  "apool_raw_n": 16485,
+  "apool_face_raw": [
+   5739,
+   3215,
+   142,
+   7389
+  ],
+  "apool_tag_n": [
+   5651,
+   3092,
+   142,
+   6946
+  ],
+  "apool_dup": [
+   88,
+   123,
+   0,
+   443
+  ],
+  "apool_tag_close": 0,
+  "apool_tier": [
+   13104,
+   1228,
+   89,
+   1
+  ],
+  "apool_weight": 15831,
+  "apool_pairs": 15831,
+  "apool_tier_close": 0,
+  "apool_maxlen": 69,
+  "win_ans": [
+   3484,
+   3116,
+   151,
+   7260
+  ],
+  "win_start": [
+   3464,
+   3096,
+   131,
+   7240
+  ],
+  "win_end": [
+   3504,
+   3136,
+   171,
+   7280
+  ],
+  "win_rows": [
+   41,
+   41,
+   41,
+   41
+  ],
+  "win_chars": [
+   1753,
+   1728,
+   1544,
+   2097
+  ],
+  "win_chars_out": [
+   420525,
+   233324,
+   9644,
+   500809
+  ],
+  "win_dig_in": [
+   45,
+   35,
+   60,
+   51
+  ],
+  "win_dig_out": [
+   9602,
+   6914,
+   384,
+   11253
+  ],
+  "win_redirect_in": [
+   4,
+   2,
+   2,
+   10
+  ],
+  "win_redirect_out": [
+   36,
+   70,
+   6,
+   84
+  ],
+  "win_GET_in": [
+   3,
+   1,
+   1,
+   4
+  ],
+  "win_GET_out": [
+   118,
+   112,
+   6,
+   200
+  ],
+  "win_POST_in": [
+   1,
+   1,
+   1,
+   3
+  ],
+  "win_POST_out": [
+   42,
+   66,
+   4,
+   82
+  ],
+  "win_MUST_in": [
+   2,
+   0,
+   0,
+   0
+  ],
+  "win_MUST_out": [
+   692,
+   138,
+   4,
+   412
+  ],
+  "win_band": 20,
+  "win_spans": [
+   41,
+   41,
+   41,
+   41
+  ],
+  "win_close_dig": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "win_close_sum": 0,
+  "confirm_gate_only_2616": 1,
+  "may_change_pair": 1,
+  "not_allow_changing_pair": 1,
+  "erroneously_outer_pair": 1,
+  "quot_only_9110": 1,
+  "sh_minus_fold_zero": 0,
+  "no_ff_only_9110": 0,
+  "code_n_desc": 0,
+  "304_absent_in_7231": 1,
+  "308_only_7538_9110": 1,
+  "year_order_ok": 0,
+  "obs_chain": 1,
+  "7538_obsoletes_own_draft": 1,
+  "bom_only_9110": 0,
+  "nonascii_only_9110": 0,
+  "up_ledger_zero": 0,
+  "case_ledger_zero": 0,
+  "lines_split_zero": 0,
+  "shell_308_only_7538": 1,
+  "pick_overstrip_only_2616": 1,
+  "ser_pair": 1,
+  "zid_n": 62,
+  "zid_fail": [],
+  "scalar_clos_n": 62,
+  "scalar_clos_sum": 62,
+  "list_clos_n": 4,
+  "x_ident_n": 62,
+  "shell_pick_measured": [
+   3305,
+   1916,
+   152,
+   2127
+  ],
+  "shell_close_vs_pick": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "needle_table_pick": 24,
+  "needle_table_mk": 25,
+  "tier_shared": [
+   "MAY change the request method",
+   "MUST NOT automatically redirect",
+   "MUST NOT change the request method",
+   "erroneously"
+  ],
+  "tier_shared_n": 4,
+  "tier_pick_only": [
+   "does not allow changing",
+   "not allowed"
+  ],
+  "tier_mk_only": [
+   "does not allow changing the request method",
+   "not allowed to change the method"
+  ],
+  "tier_cross_agree": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "tier_cross_n": 4,
+  "pick_vs_mk_ladder": [
+   [
+    1,
+    1,
+    0,
+    2
+   ],
+   [
+    6,
+    4,
+    4,
+    5
+   ],
+   [
+    6,
+    4,
+    4,
+    5
+   ],
+   [
+    6,
+    4,
+    4,
+    6
+   ]
+  ],
+  "pick_ladder": [
+   [
+    4,
+    3,
+    4,
+    7
+   ],
+   [
+    6,
+    5,
+    5,
+    7
+   ],
+   [
+    6,
+    5,
+    5,
+    7
+   ],
+   [
+    6,
+    5,
+    5,
+    8
+   ]
+  ],
+  "pick_agree": 12,
+  "pick_diff": 0,
+  "blk_lo": [
+   3484,
+   3116,
+   121,
+   7384
+  ],
+  "blk_hi": [
+   3485,
+   3117,
+   141,
+   7385
+  ],
+  "blk_rows": [
+   2,
+   2,
+   21,
+   2
+  ],
+  "blk_chars": [
+   108,
+   111,
+   1066,
+   111
+  ],
+  "blk_words": [
+   20,
+   19,
+   169,
+   19
+  ],
+  "blk_only": [
+   17,
+   12,
+   98,
+   6
+  ],
+  "blk_common_1": 5,
+  "blk_vocab": [
+   17,
+   17,
+   109,
+   17
+  ],
+  "w_row_close": 0,
+  "suf_7231_9110": 19,
+  "pre_7231_9110": 19,
+  "suf_2616_7231": 1,
+  "pre_2616_7231": 0,
+  "blk_same_7231_9110": 1,
+  "blk_identical_chars": 1,
+  "tone_must": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "tone_may": [
+   0,
+   1,
+   1,
+   1
+  ],
+  "tone_must_not_blk": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "tone_should": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "tone_up": [
+   0,
+   1,
+   2,
+   1
+  ],
+  "tone_bare_must": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "tone_ledger": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "ln_note_2616": 3484,
+  "ln_treat_2616": 3486,
+  "note_treat_gap": 2,
+  "ln_hist_7231": 3116,
+  "ln_mustnot_7231": 3213,
+  "hist_mustnot_gap": 97,
+  "ln_ind_7538": 121,
+  "ln_restricted_7538": 151,
+  "ind_restricted_gap": 30,
+  "ln_hist_9110": 7384,
+  "ln_step_9110": 7306,
+  "hist_step_gap": -78,
+  "step_hist_abs": 78,
+  "mod_step_nums": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "mod_steps": 5,
+  "dep_305_sent": 1,
+  "dep_all": 2,
+  "claim_four_n": [
+   2,
+   2,
+   1,
+   2
+  ],
+  "mod_step_seq": 1,
+  "mod_step_has_rewrite": 1,
+  "dep_305_one": 1,
+  "step_before_hist": 1,
+  "hist_after_7231": 1,
+  "claim_four_none_all": 1,
+  "dead_widest": [
+   "a2616_no_historical",
+   "a7231_302_confirm",
+   "a7538_confirm",
+   "a9110_302_hist_may_pipe",
+   "a9110_confirm"
+  ],
+  "dead_n": 5,
+  "ser_n": 1,
+  "neg_ctrl_n": 4,
+  "cross_needles": [
+   "a2616_301_confirm",
+   "a2616_301_erroneous",
+   "a2616_302_not_allowed",
+   "a2616_302_treat_as_303",
+   "a2616_303_get",
+   "a2616_307_repeat",
+   "a7231_301_hist_may",
+   "a7231_307_must_not_change",
+   "a7231_306_not_allow",
+   "a7231_303_retrieval",
+   "a7538_308_indicates",
+   "a7538_308_not_allow",
+   "a7538_cacheable",
+   "a7538_restricted",
+   "a9110_302_hist_may_pipe",
+   "a9110_307_must_not_change",
+   "a9110_converged",
+   "a9110_308_indicates",
+   "a9110_305_deprecated"
+  ],
+  "cross_needle_n": 19,
+  "fold_only_str": "a2616_301_confirm ⇎ a2616_301_erroneous ⇎ a2616_302_not_allowed ⇎ a2616_302_treat_as_303 ⇎ a2616_307_repeat ⇎ a7231_301_hist_may ⇎ a7231_307_must_not_change ⇎ a7231_303_retrieval ⇎ a7538_308_indicates ⇎ a7538_308_not_allow ⇎ a7538_cacheable ⇎ a7538_restricted ⇎ a9110_302_hist_may_pipe ⇎ a9110_307_must_not_change ⇎ a9110_308_indicates",
+  "quot_only_n": 2,
+  "quot_only_str": "a9110_302_hist_may ⇎ a9110_step",
+  "line_hit_keys": [
+   "a2616_303_get",
+   "a7231_306_not_allow",
+   "a9110_converged",
+   "a9110_305_deprecated"
+  ],
+  "anchor_total": 23,
+  "anchor_distinct": 17,
+  "anchor_err": 0,
+  "anchor_single": 13,
+  "anchor_cross": 4,
+  "anchor_all4": 0,
+  "checks": 68,
+  "enc_chars": 8503,
+  "nsrc": 4,
+  "tag_2616": 6,
+  "tag_7231": 3,
+  "tag_7538": 8,
+  "tag_9110": 6,
+  "contract_n": 396
+ }
+}

@@ -1,0 +1,18 @@
+and any existing rules for the object, whether these rules are published
+forces the TTL of all authoritative RRs to be at least the MINIMUM field
+TTL             which is the time to live of the RR.  This field is a 32
+   Every resource record returned by a server is cached for TTL seconds,
+   maximum of 2^31 - 1.  When transmitted, this value shall be encoded
+and the MINIMUM field in the appropriate SOA.  Thus MINIMUM is a lower
+   Implementations are always free to place an upper bound on any TTL
+   not as clear as it could be, with respect to how many significant
+   in the less significant 31 bits of the 32 bit TTL field, with the
+appear in examples to be current or complete, since their purpose is
+   bound.  The TTL specifies a maximum time to live, not a mandatory
+MINIMUM         The unsigned 32 bit minimum TTL field that should be
+   hereby specified that a TTL value is an unsigned number, with a
+   RFC1034 section 4.3.4 refers to this technique but mentions the
+   well. They might impose a limit on the cache size or might not
+   deprecated, the TTLs of all RRs in an RRSet must be the same.
+TTL             positive values of a signed 32 bit number.
+   within a TTL period of a RR constitute a cache leak.

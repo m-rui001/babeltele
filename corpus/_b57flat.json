@@ -1,0 +1,715 @@
+{
+ "ascii_eq": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "author_hdr": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "bits_112": [
+  1,
+  3,
+  1,
+  3
+ ],
+ "bits_128": [
+  1,
+  1,
+  0,
+  2
+ ],
+ "bits_192": [
+  0,
+  1,
+  0,
+  0
+ ],
+ "bits_224": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "blank": [
+  1849,
+  537,
+  3116,
+  403
+ ],
+ "bom": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "bytegap": [
+  0,
+  0,
+  0,
+  15
+ ],
+ "bytes": [
+  222395,
+  60283,
+  337736,
+  96608
+ ],
+ "carry_caliber_gap": 233,
+ "carry_close": 0,
+ "carry_line_n": 1447,
+ "carry_line_o": 876,
+ "carry_n_in_o_text": 431,
+ "carry_o_in_n_text": 407,
+ "carry_only_n": 1148,
+ "carry_only_o": 577,
+ "carry_sent_close": 0,
+ "carry_sent_n": 488,
+ "carry_sent_o": 326,
+ "carry_sent_rat": 0,
+ "carry_sent_shared": 66,
+ "carry_sent_union": 748,
+ "carry_shared": 299,
+ "carry_shared_prose": 257,
+ "carry_shared_raw": 299,
+ "carry_shared_ref": 41,
+ "carry_shared_toc": 1,
+ "carry_split_close": 0,
+ "carry_sub_overlap": 838,
+ "carry_thr_192": 0,
+ "carry_thr_224": 0,
+ "carry_union": 2024,
+ "chars": [
+  222395,
+  60283,
+  337736,
+  96593
+ ],
+ "cite_F_to_N": 0,
+ "cite_F_to_O": 0,
+ "cite_F_to_T": 3,
+ "cite_N_to_F": 1,
+ "cite_N_to_O": 9,
+ "cite_N_to_T": 2,
+ "cite_O_to_F": 0,
+ "cite_O_to_N": 0,
+ "cite_O_to_T": 2,
+ "cite_T_to_F": 0,
+ "cite_T_to_N": 0,
+ "cite_T_to_O": 0,
+ "cite_backward_violations": 0,
+ "cite_bracket": [
+  23,
+  97,
+  183,
+  194
+ ],
+ "cite_obsoleted_inrepo": [
+  0,
+  0,
+  1,
+  1
+ ],
+ "cite_obsoleted_inrepo_all": 2,
+ "cite_obsoletes_n": [
+  3,
+  0,
+  3,
+  1
+ ],
+ "cite_obsoletes_notinrepo": [
+  3,
+  0,
+  2,
+  0
+ ],
+ "cite_pairs_nonzero": 5,
+ "cite_pairs_occ": 17,
+ "cite_pairs_total": 12,
+ "cite_pairs_zero": 7,
+ "cite_rfc_F_to_N": 0,
+ "cite_rfc_F_to_O": 0,
+ "cite_rfc_F_to_T": 7,
+ "cite_rfc_N_to_F": 16,
+ "cite_rfc_N_to_O": 15,
+ "cite_rfc_N_to_T": 8,
+ "cite_rfc_O_to_F": 0,
+ "cite_rfc_O_to_N": 0,
+ "cite_rfc_O_to_T": 7,
+ "cite_rfc_T_to_F": 0,
+ "cite_rfc_T_to_N": 0,
+ "cite_rfc_T_to_O": 0,
+ "cite_rfc_distinct": [
+  22,
+  36,
+  50,
+  66
+ ],
+ "cite_rfc_pairs_nonzero": 5,
+ "cite_rfc_pairs_occ": 53,
+ "cite_rfc_pairs_total": 12,
+ "cite_rfc_tokens": [
+  153,
+  159,
+  498,
+  333
+ ],
+ "cite_self_obsoleted": 9,
+ "cite_updates_n": [
+  1,
+  0,
+  2,
+  2
+ ],
+ "crlf": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "curves_below_224": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "date_docnum_mono": 3,
+ "date_raw": [
+  "August 2008",
+  "May 2015",
+  "August 2018",
+  "November 2022"
+ ],
+ "date_seg_n": 3,
+ "date_seg_ok": [
+  1,
+  1,
+  1
+ ],
+ "date_ym": [
+  [
+   2008,
+   8
+  ],
+  [
+   2015,
+   5
+  ],
+  [
+   2018,
+   8
+  ],
+  [
+   2022,
+   11
+  ]
+ ],
+ "eqb": 3,
+ "eqc": 3,
+ "frag_tail": [
+  0,
+  1,
+  0,
+  1
+ ],
+ "fwd_secrecy": [
+  0,
+  7,
+  7,
+  15
+ ],
+ "hdr": [
+  103,
+  26,
+  159,
+  0
+ ],
+ "id_dsa_sha1": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "id_dsa_sha1_text": [
+  0,
+  0,
+  3,
+  0
+ ],
+ "id_ecdsa_secp256r1_sha256": [
+  0,
+  0,
+  4,
+  0
+ ],
+ "id_ecdsa_sha1": [
+  0,
+  0,
+  2,
+  0
+ ],
+ "id_enum_lines": [
+  0,
+  0,
+  32,
+  0
+ ],
+ "id_enum_total": [
+  0,
+  0,
+  28,
+  0
+ ],
+ "id_legacy_block": [
+  0,
+  0,
+  4,
+  0
+ ],
+ "id_must_support_n": 2,
+ "id_must_support_sha1": 0,
+ "id_rsa_pkcs1_sha1": [
+  0,
+  0,
+  2,
+  0
+ ],
+ "id_rsa_pkcs1_sha256": [
+  0,
+  0,
+  3,
+  0
+ ],
+ "id_rsa_pss_pss_sha256": [
+  0,
+  0,
+  3,
+  0
+ ],
+ "id_rsa_pss_rsae_sha256": [
+  0,
+  0,
+  4,
+  0
+ ],
+ "id_scheme_total": [
+  4,
+  0,
+  28,
+  0
+ ],
+ "id_sha1_schemes": [
+  0,
+  0,
+  4,
+  0
+ ],
+ "kw_bullets_oneway": 2,
+ "kw_bullets_onlyone": 2,
+ "kw_close": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "kw_close2": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "kw_close3": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "kw_may": [
+  34,
+  1,
+  58,
+  4
+ ],
+ "kw_mix": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "kw_mix_docs": 0,
+ "kw_must": [
+  119,
+  13,
+  256,
+  38
+ ],
+ "kw_must_all": [
+  138,
+  21,
+  330,
+  52
+ ],
+ "kw_mustnot": [
+  19,
+  8,
+  74,
+  14
+ ],
+ "kw_notrecommended": [
+  0,
+  0,
+  3,
+  1
+ ],
+ "kw_optional": [
+  6,
+  1,
+  5,
+  2
+ ],
+ "kw_optional_up": [
+  1,
+  1,
+  2,
+  1
+ ],
+ "kw_rationale": [
+  0,
+  19,
+  0,
+  21
+ ],
+ "kw_rec_all": [
+  2,
+  5,
+  10,
+  8
+ ],
+ "kw_recommended": [
+  2,
+  5,
+  7,
+  7
+ ],
+ "kw_required": [
+  23,
+  5,
+  11,
+  2
+ ],
+ "kw_should": [
+  21,
+  16,
+  61,
+  31
+ ],
+ "kw_should_all": [
+  27,
+  23,
+  76,
+  49
+ ],
+ "kw_shouldnot": [
+  6,
+  7,
+  15,
+  18
+ ],
+ "kwbullet_num": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "kwbullet_o": [
+  0,
+  49,
+  0,
+  0
+ ],
+ "kwbullet_star": [
+  0,
+  0,
+  0,
+  62
+ ],
+ "line_rationale_mustnot": [
+  0,
+  7,
+  0,
+  8
+ ],
+ "line_sha_in_enum": [
+  0,
+  0,
+  5,
+  0
+ ],
+ "line_sha_in_prose": [
+  13,
+  0,
+  8,
+  2
+ ],
+ "line_sha_mustnot": [
+  0,
+  0,
+  1,
+  1
+ ],
+ "line_sha_mustnot_hy": [
+  0,
+  0,
+  1,
+  1
+ ],
+ "lines": [
+  5827,
+  1515,
+  8963,
+  1994
+ ],
+ "maxlen": [
+  72,
+  72,
+  72,
+  72
+ ],
+ "meanlen": [
+  54,
+  60,
+  56,
+  59
+ ],
+ "modulus_1024": [
+  1,
+  5,
+  0,
+  3
+ ],
+ "modulus_2048": [
+  0,
+  4,
+  1,
+  5
+ ],
+ "month_gap_prev": [
+  0,
+  81,
+  39,
+  51
+ ],
+ "month_num": [
+  24104,
+  24185,
+  24224,
+  24275
+ ],
+ "month_span": 171,
+ "nonascii": [
+  0,
+  0,
+  0,
+  14
+ ],
+ "nonblank": [
+  3979,
+  979,
+  5848,
+  1592
+ ],
+ "page_gap": [
+  1,
+  1,
+  1,
+  0
+ ],
+ "pagemarks": [
+  104,
+  27,
+  160,
+  0
+ ],
+ "pool_1": 8083,
+ "pool_2": 1690,
+ "pool_3": 155,
+ "pool_4": 31,
+ "pool_close": 0,
+ "pool_n": 9959,
+ "pool_tag_1": [
+  2665,
+  456,
+  4018,
+  944
+ ],
+ "pool_tag_n": [
+  3028,
+  876,
+  4605,
+  1450
+ ],
+ "pool_tag_x": [
+  363,
+  420,
+  587,
+  506
+ ],
+ "pool_tiers": [
+  8083,
+  1690,
+  155,
+  31
+ ],
+ "sha16": [
+  "2ebe1b8e651696ae",
+  "728e0c3fd07d4307",
+  "47871bc8820a2c3b",
+  "e3475381d056bde1"
+ ],
+ "sha_distinct": 4,
+ "sp_case_variants": [
+  3,
+  0,
+  2,
+  1
+ ],
+ "sp_gcm_sha256": [
+  0,
+  6,
+  2,
+  3
+ ],
+ "sp_hmac_sha1": [
+  2,
+  1,
+  0,
+  0
+ ],
+ "sp_md5_hy": [
+  23,
+  0,
+  3,
+  2
+ ],
+ "sp_md5_lower": [
+  4,
+  0,
+  0,
+  0
+ ],
+ "sp_md5sha1": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "sp_sha1_hy": [
+  13,
+  0,
+  8,
+  2
+ ],
+ "sp_sha1_lower": [
+  9,
+  0,
+  5,
+  0
+ ],
+ "sp_sha1_net": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "sp_sha1_plain": [
+  3,
+  1,
+  0,
+  0
+ ],
+ "sp_sha256_hy": [
+  5,
+  2,
+  4,
+  2
+ ],
+ "sp_sha256_lower": [
+  6,
+  0,
+  15,
+  0
+ ],
+ "sp_sha384_hy": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "sp_suite_endsha": [
+  36,
+  2,
+  0,
+  2
+ ],
+ "sp_total_sha1_family": [
+  25,
+  1,
+  13,
+  2
+ ],
+ "ssl_v2_ban": [
+  0,
+  1,
+  0,
+  1
+ ],
+ "suite_F_only": 6,
+ "suite_N_total": 10,
+ "suite_O_bridge_close": 0,
+ "suite_O_total": 9,
+ "suite_T_only": 29,
+ "suite_bridge_close": 0,
+ "suite_common_ON": 7,
+ "suite_common_TF": 0,
+ "suite_distinct": [
+  31,
+  9,
+  6,
+  10
+ ],
+ "suite_endsha_T": 17,
+ "suite_from_N_in_F": 0,
+ "suite_from_N_in_T": 2,
+ "suite_from_N_in_none": 8,
+ "suite_from_O_in_F": 0,
+ "suite_from_O_in_T": 2,
+ "suite_from_O_in_none": 7,
+ "suite_occ": [
+  67,
+  13,
+  9,
+  12
+ ],
+ "tabs": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "trailws": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "utf8_strict": [
+  1,
+  1,
+  1,
+  1
+ ]
+}

@@ -1,0 +1,51 @@
+					"no Zone entries for %s (%s)\n", \
+			 && tz0 == "Europe/Simferopol")) {
+			2:00	-	EET	2001 Jan  2
+			printf "%s: Rule contains letters never used\n", tz
+			printf "%s: Rule never used\n", tz
+			printf "%s: no data for '%s'\n", zone_table, tz \
+			printf "%s:%d: %s: invalid coordinates\n", \
+			printf "%s:%d: %s: unknown country code\n", \
+			printf "%s:%d: no Zone table for '%s'\n", \
+		  printf "%s:%d: %s: duplicate Zone from line %d\n", \
+		  printf "%s:%d: tricky month: %s\n", FILENAME, FNR, $6 \
+		# Don't complain about a special case for Crimea in zone.tab.
+		if (!tztab[tz] && FILENAME != "backward" \
+		if ($0 ~ /^#/) continue
+		if (NF != 3 && NF != 4) {
+		if (cc < cc0 \
+		if (cc <= cc0) {
+		printf "%s:%d: unlikely STDOFF: %s\n", FILENAME, FNR, stdoff \
+		tz2NR[tz] = zone_NR
+	    printf "%s:%d: missing comment for %s\n", \
+	  if (used_max <= 1 && comments && zone_table != "zonenow.tab") {
+	FS = " "
+	FS = "\t"
+	exit status
+	if (!want_warnings) want_warnings = -1
+	if (tz && tz ~ /\// && tz !~ /^Etc\//) {
+	monthabbr["Jan"] = 1
+	while (getline <iso_table) {
+	while (getline <zone_table) {
+#     in ISO 6709 sign-degrees-minutes-seconds format,
+# 4.  Comments; present if and only if countries have multiple timezones,
+# Check tz tables for consistency.
+# If a timezone covers multiple countries, the most-populous city is used,
+# a single tab.  Lines beginning with ‘#’ are comments.  All text uses
+# are listed alphabetically by country code.  The table is sorted
+# civil timestamps have agreed since 1970.  Columns are separated by
+#codes	coordinates	TZ	comments
+$1 ~ /^#/ { next }
+AD	+4230+00131	Europe/Andorra
+AE,OM,RE,SC,TF	+2518+05518	Asia/Dubai	Crozet
+AQ	-6736+06253	Antarctica/Mawson	Mawson
+AQ	-720041+0023206	Antarctica/Troll	Troll
+CH,DE,LI	+4723+00832	Europe/Zurich	Büsingen
+Rule	Albania	1940	only	-	Jun	16	0:00	1:00	S
+Rule	Eire	1971	only	-	Oct	31	 2:00u	-1:00	-
+Rule SovietZone	1945	only	-	May	24	2:00	2:00	M # Midsummer
+ZA,LS,SZ	-2615+02800	Africa/Johannesburg
+Zone	Europe/Athens	1:34:52 -	LMT	1895 Sep 14
+Zone	Europe/London	-0:01:15 -	LMT	1847 Dec  1
+Zone	Europe/Tirane	1:19:20 -	LMT	1914
+Zone Atlantic/Faroe	-0:27:04 -	LMT	1908 Jan 11 # Tórshavn

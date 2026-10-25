@@ -1,0 +1,386 @@
+{
+ "path": [
+  "corpus/raw/tlsTicket/rfc4507.txt",
+  "corpus/raw/tlsTicket/rfc5077.txt",
+  "corpus/raw/ietf/rfc8446.txt",
+  "corpus/raw/tlsTicket/rfc9001.txt"
+ ],
+ "LBL": [
+  "4507",
+  "5077",
+  "8446",
+  "9001"
+ ],
+ "base": [
+  {
+   "bytes": 35329,
+   "chars": 35329,
+   "lines": 956,
+   "nonblank": 608,
+   "maxlen": 72,
+   "ff": 17,
+   "ff_exact": 17,
+   "cr": 0,
+   "nul": 0,
+   "bom": 0,
+   "nonascii": 0,
+   "digits": 648,
+   "dblspace": 5274,
+   "shell_n": 588,
+   "shell_strip": 368
+  },
+  {
+   "bytes": 41989,
+   "chars": 41989,
+   "lines": 1124,
+   "nonblank": 710,
+   "maxlen": 72,
+   "ff": 20,
+   "ff_exact": 20,
+   "cr": 0,
+   "nul": 0,
+   "bom": 0,
+   "nonascii": 0,
+   "digits": 868,
+   "dblspace": 5841,
+   "shell_n": 686,
+   "shell_strip": 438
+  },
+  {
+   "bytes": 337736,
+   "chars": 337736,
+   "lines": 8964,
+   "nonblank": 5848,
+   "maxlen": 72,
+   "ff": 160,
+   "ff_exact": 160,
+   "cr": 0,
+   "nul": 0,
+   "bom": 0,
+   "nonascii": 0,
+   "digits": 9315,
+   "dblspace": 46099,
+   "shell_n": 5680,
+   "shell_strip": 3284
+  },
+  {
+   "bytes": 126175,
+   "chars": 126163,
+   "lines": 2757,
+   "nonblank": 2186,
+   "maxlen": 72,
+   "ff": 0,
+   "ff_exact": 0,
+   "cr": 0,
+   "nul": 0,
+   "bom": 1,
+   "nonascii": 8,
+   "digits": 5582,
+   "dblspace": 9635,
+   "shell_n": 2183,
+   "shell_strip": 574
+  }
+ ],
+ "obligations": [
+  {
+   "MUST": 18,
+   "MAY": 6,
+   "SHOULD": 5,
+   "REQUIRED": 1,
+   "MUST NOT": 9,
+   "MAY NOT": 0,
+   "SHOULD NOT": 1,
+   "must": 3,
+   "may": 14,
+   "should": 13,
+   "must not": 0,
+   "may not": 1,
+   "should not": 1,
+   "MUST_bare": 9,
+   "ci_must": 21,
+   "ci_may": 37,
+   "ci_should": 18,
+   "opt": 0
+  },
+  {
+   "MUST": 18,
+   "MAY": 6,
+   "SHOULD": 5,
+   "REQUIRED": 1,
+   "MUST NOT": 9,
+   "MAY NOT": 0,
+   "SHOULD NOT": 1,
+   "must": 3,
+   "may": 19,
+   "should": 16,
+   "must not": 0,
+   "may not": 1,
+   "should not": 1,
+   "MUST_bare": 9,
+   "ci_must": 21,
+   "ci_may": 27,
+   "ci_should": 21,
+   "opt": 0
+  },
+  {
+   "MUST": 330,
+   "MAY": 58,
+   "SHOULD": 76,
+   "REQUIRED": 10,
+   "MUST NOT": 74,
+   "MAY NOT": 0,
+   "SHOULD NOT": 15,
+   "must": 14,
+   "may": 79,
+   "should": 49,
+   "must not": 0,
+   "may not": 4,
+   "should not": 10,
+   "MUST_bare": 256,
+   "ci_must": 344,
+   "ci_may": 148,
+   "ci_should": 126,
+   "opt": 5
+  },
+  {
+   "MUST": 85,
+   "MAY": 24,
+   "SHOULD": 21,
+   "REQUIRED": 1,
+   "MUST NOT": 25,
+   "MAY NOT": 0,
+   "SHOULD NOT": 2,
+   "must": 2,
+   "may": 3,
+   "should": 0,
+   "must not": 0,
+   "may not": 0,
+   "should not": 0,
+   "MUST_bare": 60,
+   "ci_must": 87,
+   "ci_may": 35,
+   "ci_should": 21,
+   "opt": 0
+  }
+ ],
+ "pool_n": 5712,
+ "pool_tier": [
+  5410,
+  297,
+  3,
+  2
+ ],
+ "pairs": {
+  "4507·5077": 259,
+  "4507·8446": 7,
+  "4507·9001": 2,
+  "5077·8446": 8,
+  "5077·9001": 2,
+  "8446·9001": 40
+ },
+ "pair_byte": {
+  "4507·5077": 235,
+  "4507·8446": 1,
+  "4507·9001": 1,
+  "5077·8446": 6,
+  "5077·9001": 2,
+  "8446·9001": 39
+ },
+ "paras": {
+  "4507_389_403": "in seconds as a 32-bit unsigned integer in network byte order. A value of zero is reserved to indicate that the lifetime of the ticket Salowey, et al. Standards Track [Page 7] RFC 4507 Stateless TLS Session Resumption May 2006 is unspecified. A client SHOULD delete the ticket and associated state when the time expires. It MAY delete the ticket earlier based on local policy. A server MAY treat a ticket as valid for a shorter or longer period of time than what is stated in the ticket_lifetime_hint.",
+  "5077_438_443": "relative to when the ticket is received. A value of zero is reserved to indicate that the lifetime of the ticket is unspecified. A client SHOULD delete the ticket and associated state when the time expires. It MAY delete the ticket earlier based on local policy. A server MAY treat a ticket as valid for a shorter or longer period of time than what is stated in the ticket_lifetime_hint.",
+  "8446_4124_4126": "and MAY delete tickets earlier based on local policy. A server MAY treat a ticket as valid for a shorter period of time than what is stated in the ticket_lifetime."
+ },
+ "para_words": {
+  "n45": 61,
+  "n50": 45,
+  "n84": 27,
+  "x4550": 43,
+  "o45": 18,
+  "o50": 2,
+  "x4584": 26,
+  "o84": 1
+ },
+ "numbers": {
+  "cap_secs": 604800,
+  "cap_days": 7,
+  "d24_hours": 24,
+  "mod_exp": 32,
+  "ratio": 7,
+  "remainder": 0
+ },
+ "hdrs": [
+  {
+   "Obsoletes": [],
+   "Updates": [],
+   "Category": [],
+   "years": [
+    2006,
+    2006
+   ],
+   "page_year": 2006
+  },
+  {
+   "Obsoletes": [
+    4507
+   ],
+   "Updates": [],
+   "Category": [],
+   "years": [
+    2008,
+    2008
+   ],
+   "page_year": 2008
+  },
+  {
+   "Obsoletes": [
+    2018,
+    5077,
+    5246,
+    6961
+   ],
+   "Updates": [
+    5705,
+    6066
+   ],
+   "Category": [],
+   "years": [
+    2018,
+    6066,
+    2018
+   ],
+   "page_year": 2018
+  },
+  {
+   "Obsoletes": [],
+   "Updates": [],
+   "Category": [],
+   "years": [
+    2021
+   ],
+   "page_year": 2021
+  }
+ ],
+ "cites": {
+  "4507": [
+   0,
+   3,
+   0,
+   0
+  ],
+  "4507_sp": [
+   16,
+   21,
+   0,
+   0
+  ],
+  "5077": [
+   0,
+   0,
+   4,
+   0
+  ],
+  "5077_sp": [
+   0,
+   19,
+   1,
+   0
+  ],
+  "8446": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "8446_sp": [
+   0,
+   0,
+   192,
+   1
+  ],
+  "9001": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "9001_sp": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "2246": [
+   3,
+   2,
+   0,
+   0
+  ],
+  "2246_sp": [
+   2,
+   1,
+   0,
+   0
+  ],
+  "4346": [
+   3,
+   5,
+   3,
+   0
+  ],
+  "4346_sp": [
+   1,
+   3,
+   1,
+   0
+  ],
+  "5246": [
+   0,
+   0,
+   6,
+   0
+  ],
+  "5246_sp": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "6066": [
+   0,
+   0,
+   17,
+   0
+  ],
+  "6066_sp": [
+   0,
+   0,
+   7,
+   0
+  ],
+  "5705": [
+   0,
+   0,
+   5,
+   0
+  ],
+  "5705_sp": [
+   0,
+   0,
+   1,
+   0
+  ],
+  "6961": [
+   0,
+   0,
+   6,
+   0
+  ],
+  "6961_sp": [
+   0,
+   0,
+   1,
+   0
+  ]
+ }
+}

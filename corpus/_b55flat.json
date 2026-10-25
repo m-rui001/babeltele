@@ -1,0 +1,370 @@
+{
+ "added_after": 0,
+ "added_dist": 152,
+ "added_max": "2026-06-14",
+ "added_min": "1995-08-23",
+ "added_n": 9296,
+ "added_span": 31,
+ "ascii_eq": [
+  0,
+  0
+ ],
+ "blank": [
+  1,
+  1
+ ],
+ "bothw": "region ／ script ／ %% ／ AD ／ GB ／ Europe",
+ "bytes": [
+  731819,
+  17592
+ ],
+ "chars": [
+  731077,
+  17536
+ ],
+ "clean": 2,
+ "clean_piece": 4,
+ "closed": 0,
+ "cm_caldiff": 104,
+ "cm_chars": 8248,
+ "cm_chars_line": 8352,
+ "cm_lines": 170,
+ "cm_n": 169,
+ "colon": [
+  39938,
+  0
+ ],
+ "compound": 29,
+ "dep_before": 13,
+ "dep_days": 45,
+ "dep_n": 302,
+ "dep_typed": [
+  232,
+  5,
+  11,
+  5,
+  24,
+  25
+ ],
+ "dep_typed_kinds": 6,
+ "desc_dist": 9413,
+ "desc_distgap": 502,
+ "desc_fold": 9296,
+ "desc_folddist": 8911,
+ "desc_foldreuse": 385,
+ "desc_lines": 9846,
+ "desc_maxn": 6,
+ "desc_maxv": [
+  "Private use"
+ ],
+ "desc_multikind": 406,
+ "desc_multirec": 473,
+ "desc_once": 9007,
+ "desc_permax": 7,
+ "desc_reuse": 433,
+ "dl_per_extra": 550,
+ "dom_gap": 8051,
+ "dots": 4,
+ "eqc": 0,
+ "ext_k": [
+  3
+ ],
+ "ext_n": [
+  258
+ ],
+ "field_extra": 605,
+ "field_folded": 39333,
+ "field_kinds": 13,
+ "field_line_n": {
+  "Added": 9296,
+  "Comments": 170,
+  "Deprecated": 302,
+  "Description": 9846,
+  "File-Date": 1,
+  "Macrolanguage": 545,
+  "Preferred-Value": 423,
+  "Prefix": 444,
+  "Scope": 185,
+  "Subtag": 9203,
+  "Suppress-Script": 134,
+  "Tag": 93,
+  "Type": 9296
+ },
+ "field_lines": 39938,
+ "file_date": "2026-09-17",
+ "gt": [
+  0,
+  3
+ ],
+ "hash": [
+  0,
+  63
+ ],
+ "hdr_outside": 1,
+ "hitR": 9,
+ "hitZ": 0,
+ "hitboth": 6,
+ "hitkinds": 15,
+ "hitnone": 0,
+ "hitsingle": 9,
+ "key_kinds": 13,
+ "key_n": {
+  "Added": 9296,
+  "Comments": 169,
+  "Deprecated": 302,
+  "Description": 9296,
+  "File-Date": 1,
+  "Macrolanguage": 545,
+  "Preferred-Value": 423,
+  "Prefix": 390,
+  "Scope": 185,
+  "Subtag": 9203,
+  "Suppress-Script": 134,
+  "Tag": 93,
+  "Type": 9296
+ },
+ "lang_k": [
+  2,
+  3,
+  8
+ ],
+ "lang_n": [
+  190,
+  8085,
+  1
+ ],
+ "lines": [
+  49316,
+  375
+ ],
+ "lt": [
+  0,
+  3
+ ],
+ "nonascii": [
+  723,
+  38
+ ],
+ "nonblank": [
+  49316,
+  375
+ ],
+ "nosub": 94,
+ "other_extra": 0,
+ "pf_max": 11,
+ "pf_multi": 17,
+ "pf_widen": 3,
+ "poolR": 10746,
+ "poolZ": 58,
+ "pool_cross": 3,
+ "pool_n": 10804,
+ "pref_dep": 49,
+ "pref_distinct": 377,
+ "pref_out": 3,
+ "ratio": 42,
+ "records": 9297,
+ "reg_alpha": 272,
+ "reg_alpha_only": 25,
+ "reg_digit": 31,
+ "reg_digit_only": 31,
+ "reg_k": [
+  2,
+  3,
+  6
+ ],
+ "reg_n": [
+  272,
+  31,
+  2
+ ],
+ "reg_only": 58,
+ "reg_only_sum": 0,
+ "reg_other": 2,
+ "reg_range_only": 2,
+ "reg_shared": 247,
+ "reg_sum": 0,
+ "reg_xq": 3,
+ "reg_zz": 1,
+ "region_n": 305,
+ "scope_coll": 117,
+ "scope_kinds": 4,
+ "scope_macro": 63,
+ "scope_n": [
+  185
+ ],
+ "scope_private": 1,
+ "scope_special": 4,
+ "scope_sum": 0,
+ "scr_k": [
+  4,
+  10
+ ],
+ "scr_n": [
+  224,
+  1
+ ],
+ "segments": [
+  49317,
+  376
+ ],
+ "sep_gap": 0,
+ "sep_occ": 9296,
+ "sha16": [
+  "755fad43283be7b4",
+  "5f23781702bf5140"
+ ],
+ "sha_distinct": 2,
+ "sl_kinds": 8,
+ "sl_len": [
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  10
+ ],
+ "sl_n": [
+  462,
+  8374,
+  227,
+  31,
+  29,
+  36,
+  43,
+  1
+ ],
+ "sl_sum": 0,
+ "sub_distinct": 8945,
+ "sub_dupmax": 2,
+ "sub_repeat": 258,
+ "subrec": 9203,
+ "tabs": [
+  0,
+  833
+ ],
+ "tagrec": 93,
+ "type_kinds": 8,
+ "type_n": {
+  "extlang": 258,
+  "grandfathered": 26,
+  "language": 8276,
+  "redundant": 67,
+  "region": 305,
+  "script": 225,
+  "variant": 139
+ },
+ "type_none": 1,
+ "var_k": [
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "var_n": [
+  3,
+  31,
+  27,
+  36,
+  42
+ ],
+ "viol_minus_comp": 0,
+ "viol_piece": 0,
+ "viol_whole": 29,
+ "x_comp": [
+  0,
+  0,
+  3,
+  26
+ ],
+ "x_dist": [
+  28,
+  63,
+  377,
+  94
+ ],
+ "x_dom": [
+  225,
+  8276,
+  8945,
+  8948
+ ],
+ "x_eq": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "x_field_n": [
+  134,
+  545,
+  423,
+  390
+ ],
+ "x_names": "Description: Sô ⇎ Antarctica/ ⇎ Atlantic/",
+ "x_normonly": 3,
+ "x_occ": [
+  134,
+  545,
+  423,
+  444
+ ],
+ "x_occ_total": 1546,
+ "x_verbatim": 0,
+ "x_vp": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "x_vw": [
+  0,
+  0,
+  3,
+  26
+ ],
+ "z4_agree": 312,
+ "z4_neg": 0,
+ "z4_pos": 0,
+ "z_at": 5,
+ "z_badfmt": 0,
+ "z_cc_sum": 423,
+ "z_cmt_only": 58,
+ "z_col3": 111,
+ "z_col4": 201,
+ "z_col_sum": 0,
+ "z_coord_sum": 0,
+ "z_countries": 247,
+ "z_first_desc": 0,
+ "z_first_zone": "Europe/Andorra",
+ "z_last_zone": "Africa/Johannesburg",
+ "z_lat4": 265,
+ "z_lat6": 47,
+ "z_lon5": 265,
+ "z_lon7": 47,
+ "z_maxm": 20,
+ "z_multi_rows": 34,
+ "z_only": 0,
+ "z_pre_kinds": 9,
+ "z_pre_max": 121,
+ "z_pre_maxv": [
+  "America"
+ ],
+ "z_pre_min": 3,
+ "z_pre_minv": [
+  "Indian"
+ ],
+ "z_rows": 312,
+ "z_shared_rows": 201,
+ "z_slash": 337,
+ "z_tab_diff": 0,
+ "z_tab_struct": 833,
+ "z_tabbed": 6,
+ "z_tail_un": 1,
+ "z_whole_un": 21,
+ "z_zone_dist": 312,
+ "z_zone_dup": 0,
+ "z_zone_n": 312
+}

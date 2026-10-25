@@ -1,0 +1,8733 @@
+{
+ "anchor_total": 106,
+ "anchor_distinct": 77,
+ "anchor_err": 0,
+ "anchor_single": 52,
+ "anchor_cross": 19,
+ "anchor_all5": 6,
+ "checks": 385,
+ "enc_chars": 15773,
+ "nsrc": 5,
+ "tag_1122": 16,
+ "tag_9293": 33,
+ "tag_9112": 15,
+ "tag_9113": 14,
+ "tag_9000": 28,
+ "letters_in": 2319,
+ "letters_out": 1058,
+ "classes": {
+  "single": [
+   "(Section 5.4.1) of type SETTINGS_TIMEOUT.  In setting a timeout, some",
+   "10.1.  Idle Timeout",
+   "3.8.4.  TCP Keep-Alives",
+   "4.2.3.6  TCP Keep-Alives",
+   "4.2.3.6  TCP Keep-Alives ..............................  101",
+   "9.1.  Connection Management",
+   "9.5.  Failures and Timeouts",
+   "A TCP connection is said to be \"idle\" if for some long amount of time",
+   "BCP 14 [3] [12] when, and only when, they appear in all capitals, as",
+   "C.2.2.  Keep-Alive Connections",
+   "Connections can be closed at any time, with or without intention.",
+   "Implementors MAY include \"keep-alives\" in their TCP",
+   "Keep-alive packets MUST only be sent when no sent data is",
+   "NOT be assigned by IANA, and MUST NOT appear",
+   "NOT be used as a source address.",
+   "NOT buffer data indefinitely (MUST-60), and",
+   "NOT forget a connection ID without retiring",
+   "NOT refer to the Destination Connection ID",
+   "NOT send a HANDSHAKE_DONE frame before",
+   "Proxy servers might make",
+   "SND.NXT-1 and may or may not contain one garbage octet of data.  If",
+   "Servers will usually have some timeout value beyond which they will",
+   "TCP connection, the terminating endpoint SHOULD first send a GOAWAY",
+   "at an endpoint is computed as the minimum of the two advertised",
+   "at least three times the",
+   "be configurable (MUST-27) and MUST",
+   "be configurable (MUST-27) and MUST default to no less than two hours",
+   "broadcast to the specified network.  It MUST",
+   "broadcast to the specified subnet.  It MUST",
+   "can only be sent by the server.  Servers MUST",
+   "configurable and MUST default to no less than two hours.",
+   "connection is silently",
+   "current Probe Timeout",
+   "encouraged to maintain open connections for as long as",
+   "existence) of this timeout",
+   "idle connection is still functional.  PING frames can be sent from",
+   "in Section 7.6.1 of [HTTP] (that is, Proxy-Connection, Keep-Alive,",
+   "increase the idle timeout period",
+   "issue a graceful",
+   "max_idle_timeout, max_udp_payload_size, and disable_active_migration",
+   "no requirements on the length (or",
+   "options, but the following options MUST be supported (MUST-4 --",
+   "persistent connections places no requirements on the length (or",
+   "possible but are permitted to terminate idle connections if",
+   "sent a SETTINGS frame but did",
+   "specified in a RETIRE_CONNECTION_ID frame MUST",
+   "the minimum of the two advertised",
+   "the pattern 0x?a?a?a?a are reserved, MUST",
+   "then the sending TCP peer: (1) MUST",
+   "this a higher value",
+   "transport parameter.  An endpoint MUST",
+   "values (or the sole advertised value, if only one endpoint advertises"
+  ],
+  "cross": [
+   "An implementation SHOULD send a keep-alive segment with no data",
+   "MUST NOT interpret failure to",
+   "SEG.SEQ =",
+   "SND.NXT-1",
+   "SND.NXT-1 and may or may not contain one garbage octet",
+   "To confirm that an idle",
+   "To confirm that an idle connection is still active, these",
+   "and MUST default to no less than two",
+   "be configurable",
+   "configurable",
+   "interval MUST",
+   "interval MUST be",
+   "keep-alives are included, the application MUST be able to turn them",
+   "they MUST default to"
+  ],
+  "three": [
+   "BCP 14 [RFC2119] [RFC8174] when, and only when, they appear in all",
+   "connection is still active"
+  ],
+  "four": [
+   "The key words \"MUST\", \"MUST NOT\", \"REQUIRED\", \"SHALL\", \"SHALL NOT\",",
+   "not receive",
+   "off"
+  ],
+  "five": [
+   "MUST",
+   "close",
+   "closed",
+   "possible",
+   "respond",
+   "values"
+  ]
+ },
+ "collisions": {
+  "72": [
+   "最长行·9293",
+   "最长行·9112",
+   "最长行·9113",
+   "最长行·9000"
+  ],
+  "289148": [
+   "码位·1122"
+  ],
+  "6845": [
+   "逐行尺·1122"
+  ],
+  "5577": [
+   "逐行尺·9293"
+  ],
+  "2462": [
+   "逐行尺·9112"
+  ],
+  "4189": [
+   "逐行尺·9113"
+  ],
+  "8486": [
+   "逐行尺·9000"
+  ],
+  "1": [
+   "尾换行·9293",
+   "尾换行·9112",
+   "尾换行·9113",
+   "尾换行·9000",
+   "naive页码·1122",
+   "多吃页码·1122",
+   "点线严格·1122",
+   "点线宽松·1122",
+   "BOM·9293",
+   "BOM·9112",
+   "BOM·9113",
+   "BOM·9000",
+   "非ASCII枚·9113",
+   "非ASCII行·9113",
+   "署名行·9112",
+   "其余非ASCII行·9112",
+   "其余非ASCII行·9000",
+   "References印次·1122",
+   "署名抬头印次·1122",
+   "锚针跨行·1122",
+   "锚针跨行·9293",
+   "锚针跨行·9112",
+   "锚针跨行·9113",
+   "去编号同句",
+   "答句带句点·1122",
+   "答句带句点·9293",
+   "答句带句点·9112",
+   "答句带句点·9113",
+   "答句带句点·9000",
+   "连字拼法·9113",
+   "拼法种数·9112",
+   "拼法种数·9113",
+   "ack少数·1122",
+   "ack少数·9293",
+   "词写两小时·1122",
+   "词写两小时·9293",
+   "长写两小时·9293",
+   "数值项·9113",
+   "数值项宽尺·9113",
+   "数值尺差·1122",
+   "120 seconds 行内",
+   "冷档数",
+   "下划线名·9112",
+   "跨行逐份·9293",
+   "节内子节·9113",
+   "括号说明",
+   "编号声明·9293",
+   "旧式共行带义务",
+   "新式共用status",
+   "逐字同句",
+   "新句编号切·新句3",
+   "替换处",
+   "整段相同·9112·9113",
+   "整段相同·9112·9000",
+   "整段相同·9113·9000",
+   "逐字相同对",
+   "新式引用命中·9112",
+   "新式引用命中·9113",
+   "新式引用命中·9000",
+   "旧式引用命中·9293",
+   "答句在窗内·1122",
+   "答句在窗内·9293",
+   "答句在窗内·9112",
+   "答句在窗内·9113",
+   "答句在窗内·9000",
+   "段内MUST·9000#8",
+   "段内MAY·1122#1",
+   "段内MAY·9113#9",
+   "段内MAY·1122#11",
+   "段内MAY·9293#12",
+   "段内MAY·9112#13",
+   "段内MAY·9113#14",
+   "段内MAY·9000#15",
+   "段内SHOULD·9113#4",
+   "段内SHOULD·1122#11",
+   "段内MUSTNOT·9293#12",
+   "段内MUSTNOT·9112#13",
+   "段内MUSTNOT·9113#14",
+   "段内MUSTNOT·9000#15",
+   "1122 PTO 子串",
+   "折平面Page1",
+   "反向换档",
+   "去编号增益格",
+   "编号切数"
+  ],
+  "116": [
+   "FF独占行·1122",
+   "FF贴换行·1122",
+   "换页账·1122",
+   "页脚·1122"
+  ],
+  "5576": [
+   "LF枚·9293"
+  ],
+  "2461": [
+   "LF枚·9112"
+  ],
+  "4188": [
+   "LF枚·9113"
+  ],
+  "8485": [
+   "LF枚·9000"
+  ],
+  "1207": [
+   "空行·9293"
+  ],
+  "530": [
+   "空行·9112",
+   "首个非ASCII距离·9112"
+  ],
+  "839": [
+   "空行·9113"
+  ],
+  "1695": [
+   "空行·9000"
+  ],
+  "115": [
+   "眉行·1122"
+  ],
+  "4370": [
+   "片段行·9293"
+  ],
+  "1932": [
+   "片段行·9112"
+  ],
+  "3350": [
+   "片段行·9113"
+  ],
+  "6791": [
+   "片段行·9000"
+  ],
+  "3": [
+   "多吃页码·9293",
+   "非ASCII枚·9293",
+   "非ASCII行·9293",
+   "地址块·9000",
+   "答句跨行·9293",
+   "答句跨行·9112",
+   "答句跨行·9113",
+   "段行数·9293",
+   "段行数·9112",
+   "段行数·9113",
+   "建条遍跨行·9293",
+   "建条遍跨行·9112",
+   "建条遍跨行·9113",
+   "idle枚·1122",
+   "独有式",
+   "单调档",
+   "切开针逐份·9112",
+   "折平重读",
+   "引用他家数·9112",
+   "引用他家数·9000",
+   "旧式冷对数",
+   "新式共用带义务",
+   "编号独有",
+   "新句跨行·新句1",
+   "新句跨行·新句2",
+   "新句跨行·新句3",
+   "相同段数",
+   "相同对数",
+   "零尾对",
+   "非零尾对"
+  ],
+  "2": [
+   "非ASCII行·9112",
+   "署名行·9293",
+   "参考条目·9000",
+   "其余非ASCII行·9293",
+   "References印次·9293",
+   "References印次·9112",
+   "References印次·9113",
+   "References印次·9000",
+   "署名抬头印次·9293",
+   "署名抬头印次·9112",
+   "答句跨行·1122",
+   "锚针跨行·9000",
+   "段行数·1122",
+   "建条遍跨行·1122",
+   "答句内编号·9293",
+   "拼法种数·1122",
+   "拼法种数·9293",
+   "idle枚·9112",
+   "persistent枚·9113",
+   "下划线名·9113",
+   "参数名合计·9113",
+   "切开针逐份·1122",
+   "切开针逐份·9113",
+   "跨行逐份·1122",
+   "节标题印次·1122",
+   "节标题印次·9293",
+   "节标题印次·9112",
+   "节标题印次·9113",
+   "节标题印次·9000",
+   "节内子节·9000",
+   "节标题命中·1122",
+   "节标题命中·9293",
+   "节标题命中·9112",
+   "节标题命中·9113",
+   "节内义务词·9000",
+   "方括号式",
+   "同句单调",
+   "讨论升格",
+   "新句编号切·新句4",
+   "分行差对",
+   "两尺判法",
+   "段内MUST·9293#12",
+   "段内MUST·9112#13",
+   "段内MUST·9113#14",
+   "段内MUST·9000#15",
+   "段内SHOULD·9112#10",
+   "段内SHOULD·9293#12",
+   "段内SHOULD·9112#13",
+   "段内SHOULD·9113#14",
+   "段内SHOULD·9000#15",
+   "1122 quic 子串"
+  ],
+  "13": [
+   "新式码位",
+   "热档数",
+   "节窗壳行·9000",
+   "节内义务词·1122",
+   "编号在句中",
+   "段行切开"
+  ],
+  "6556": [
+   "Ref正文行·1122"
+  ],
+  "-1": [
+   "首个非ASCII距离·9113",
+   "ack偏斜·9112",
+   "ack偏斜·9113",
+   "ack偏斜·9000",
+   "模板段偏移·1122",
+   "模板段首行·1122"
+  ],
+  "4": [
+   "署名抬头印次·9113",
+   "署名抬头印次·9000",
+   "答句跨行·9000",
+   "段行数·9000",
+   "建条遍跨行·9000",
+   "idle枚·9293",
+   "切开针逐份·9293",
+   "切开针逐份·9000",
+   "跨行逐份·9000",
+   "去编号同句",
+   "全新生",
+   "新句跨行·新句4",
+   "模板段份数",
+   "段行·1122#6",
+   "段行·9293#7",
+   "段行·1122#11",
+   "段行·9293#12",
+   "段行·9112#13",
+   "段行·9113#14",
+   "段行·9000#15"
+  ],
+  "5947": [
+   "建条遍首行·1122"
+  ],
+  "2048": [
+   "建条遍首行·9293"
+  ],
+  "1468": [
+   "建条遍首行·9112"
+  ],
+  "3153": [
+   "建条遍首行·9113",
+   "段首行·9113"
+  ],
+  "3106": [
+   "建条遍首行·9000"
+  ],
+  "20": [
+   "标注字符",
+   "节内义务词·9293",
+   "发射遍门"
+  ],
+  "14": [
+   "连字拼法·1122",
+   "编号在逗号前",
+   "1122 KA 子串",
+   "tag_9113"
+  ],
+  "[0, 4]": [
+   "拼法清单·9293"
+  ],
+  "[0]": [
+   "拼法清单·9113"
+  ],
+  "21": [
+   "idle枚·9113",
+   "折平档·9000",
+   "摘壳档·9000",
+   "去编号档·9000"
+  ],
+  "35": [
+   "idle枚·9000",
+   "拼写总量·9112",
+   "节窗行·9112",
+   "方括号引用·9112"
+  ],
+  "19": [
+   "persistent枚·9112",
+   "答句距节首·9293",
+   "节标题命中·9000",
+   "anchor_cross"
+  ],
+  "125": [
+   "拼写总量·9000",
+   "节目录行·9000"
+  ],
+  "7": [
+   "数值项·9293",
+   "逐行档·9293",
+   "跨行义务词",
+   "节内义务词·9113",
+   "引用他家数·9113",
+   "1122句数",
+   "插词",
+   "段行·9113#4",
+   "每行词·1122",
+   "每行词·9293"
+  ],
+  "5": [
+   "数值项·9000",
+   "数值项宽尺·9000",
+   "逐行档·9112",
+   "答句距节首·9112",
+   "节内含答句",
+   "MUSTNOT含于MUST",
+   "引用他家数·9293",
+   "归拼同句",
+   "段行·9000#8",
+   "段行·9112#10",
+   "段内MUST·1122#1",
+   "段内编号·9293#2",
+   "nsrc"
+  ],
+  "6": [
+   "数值项宽尺·1122",
+   "逐行档·9113",
+   "节窗壳行·9293",
+   "节窗壳行·9112",
+   "节内义务词·9112",
+   "第一人称动词·1122",
+   "新句数",
+   "段行·9112#3",
+   "段行·9113#9",
+   "anchor_all5"
+  ],
+  "8": [
+   "数值项宽尺·9293",
+   "参数名合计·9000",
+   "十六进制·9112",
+   "逐行档·1122",
+   "折平档·9112",
+   "摘壳档·9112",
+   "去编号档·9112",
+   "答句距节首·9000",
+   "配对枚数·1122-9293",
+   "旧式共行",
+   "旧式配对",
+   "每行词·9000"
+  ],
+  "10": [
+   "独有数值",
+   "标注字符",
+   "吃掉宽",
+   "答句距节首·1122",
+   "单枚编号宽",
+   "段行·1122#1",
+   "段行·9293#2",
+   "每行词·9112",
+   "段内MUST·9293#2",
+   "1122 KA 整词"
+  ],
+  "11": [
+   "9000 三次",
+   "折平档·1122",
+   "折平档·9293",
+   "摘壳档·1122",
+   "摘壳档·9293",
+   "去编号档·1122",
+   "9293句数"
+  ],
+  "16": [
+   "逐行档·9000",
+   "删词",
+   "tag_1122"
+  ],
+  "9": [
+   "折平档·9113",
+   "摘壳档·9113",
+   "去编号档·9113",
+   "节正文缩进·1122",
+   "共用分档·9112",
+   "每行词·9113"
+  ],
+  "12": [
+   "去编号档·9293",
+   "节窗壳行·9113",
+   "段行·9000#5"
+  ],
+  "15": [
+   "切开针数",
+   "切开总数",
+   "相邻数",
+   "两半读通",
+   "正文段壳行",
+   "段行首半",
+   "段行末半",
+   "反向针数",
+   "反向有主",
+   "tag_9112"
+  ],
+  "109": [
+   "节目录行·9293"
+  ],
+  "33": [
+   "节窗行·9293",
+   "节窗壳行·1122",
+   "配对枚数·9113-9000",
+   "正文段行·1122",
+   "最长相同段",
+   "共头词·9112·9113",
+   "共头词·9112·9000",
+   "共头词·9113·9000",
+   "共头最长",
+   "共尾词·9112·9113",
+   "共尾词·9112·9000",
+   "共尾词·9113·9000",
+   "段词汇·9000#8",
+   "年代跨度",
+   "tag_9293"
+  ],
+  "23": [
+   "答句距节首·9113"
+  ],
+  "65": [
+   "裸MUST·9112"
+  ],
+  "237": [
+   "9293编号原行",
+   "编号词种和"
+  ],
+  "108": [
+   "括号式"
+  ],
+  "126": [
+   "裸编号"
+  ],
+  "79": [
+   "剥编号跌幅"
+  ],
+  "61": [
+   "跌MUST"
+  ],
+  "18": [
+   "跌MAY",
+   "共用分档·9113",
+   "四份共用",
+   "1122正文行"
+  ],
+  "48": [
+   "RFC空格引用·9113",
+   "插字符",
+   "段词汇·9112#3"
+  ],
+  "38": [
+   "非人称·9113",
+   "配对枚数·9293-9000",
+   "最热配对",
+   "段词汇·9293#7"
+  ],
+  "40": [
+   "非人称·9000"
+  ],
+  "69": [
+   "共用分档·9293"
+  ],
+  "30": [
+   "配对枚数·9293-9113",
+   "模板词汇",
+   "段词汇·9293#12",
+   "段词汇·9112#13",
+   "段词汇·9113#14",
+   "段词汇·9000#15",
+   "段行自验",
+   "段行自验数"
+  ],
+  "36": [
+   "配对枚数·9112-9113",
+   "采集遍门"
+  ],
+  "27": [
+   "新式冷对",
+   "新式共用提RFC"
+  ],
+  "88": [
+   "新式共用枚"
+  ],
+  "32": [
+   "块行·9293",
+   "正文段行·9293",
+   "9293正文行"
+  ],
+  "31": [
+   "共头词·9293·9113",
+   "共头词·9293·9000",
+   "共头最短",
+   "四路齐头"
+  ],
+  "99": [
+   "共尾合计"
+  ],
+  "89": [
+   "段行合计"
+  ],
+  "218": [
+   "段字符·9293#12"
+  ],
+  "229": [
+   "段字符·9113#14",
+   "段字符·9000#15"
+  ],
+  "58": [
+   "段词汇·1122#1"
+  ],
+  "53": [
+   "段词汇·9113#9"
+  ],
+  "42": [
+   "段词汇·9112#10"
+  ],
+  "5948": [
+   "段末行·1122"
+  ],
+  "2050": [
+   "段末行·9293"
+  ],
+  "1470": [
+   "段末行·9112"
+  ],
+  "[]": [
+   "全冷反向"
+  ],
+  "56": [
+   "门绿数"
+  ],
+  "37": [
+   "采集遍恒等式"
+  ],
+  "45": [
+   "发射遍恒等式"
+  ],
+  "2022": [
+   "抬头年·9112",
+   "抬头年·9113"
+  ],
+  "385": [
+   "checks"
+  ],
+  "28": [
+   "tag_9000"
+  ]
+ },
+ "zero_terms": 384,
+ "deriv_keys": 276,
+ "deriv_points": 690,
+ "notes": {
+  "72": "72 列",
+  "289148": "字节·1122",
+  "263696": "字节·9293",
+  "109913": "字节·9112",
+  "191811": "字节·9113",
+  "403442": "字节·9000",
+  "263692": "码位·9293",
+  "109910": "码位·9112",
+  "191809": "码位·9113",
+  "403426": "码位·9000",
+  "6845": "split尺·1122",
+  "5577": "split尺·9293",
+  "2462": "split尺·9112",
+  "4189": "split尺·9113",
+  "8486": "split尺·9000",
+  "6960": "splitlines尺·1122",
+  "5576": "splitlines尺·9293",
+  "2461": "splitlines尺·9112",
+  "4188": "splitlines尺·9113",
+  "8485": "splitlines尺·9000",
+  "1": "尾换行·1122",
+  "115": "splitlines多出的行",
+  "116": "旧式换页",
+  "6844": "LF枚·1122",
+  "4549": "非空行·1122",
+  "4370": "非空行·9293",
+  "1932": "非空行·9112",
+  "3350": "非空行·9113",
+  "6791": "非空行·9000",
+  "2527": "壳行·1122",
+  "1207": "壳行·9293",
+  "530": "壳行·9112",
+  "839": "壳行·9113",
+  "1695": "壳行·9000",
+  "2296": "空行·1122",
+  "231": "缺口行·1122",
+  "4318": "片段行·1122",
+  "3": "naive页码·9293",
+  "5092": "表格行",
+  "9": "抬头行",
+  "539": "表行",
+  "557": "表行2",
+  "4": "BOM存活",
+  "2": "非ASCII枚·9112",
+  "12": "非ASCII枚·9000",
+  "7": "非ASCII行·9000",
+  "6": "署名行·9000",
+  "13": "码位合计",
+  "6556": "Ref目录行·1122",
+  "128": "Ref目录行·9293",
+  "125": "Ref目录行·9112",
+  "147": "Ref目录行·9113",
+  "246": "Ref目录行·9000",
+  "4433": "Ref正文行·9293",
+  "1928": "Ref正文行·9112",
+  "3665": "Ref正文行·9113",
+  "8031": "Ref正文行·9000",
+  "-1": "首个非ASCII距离·1122",
+  "1112": "首个非ASCII距离·9293",
+  "10": "首个非ASCII距离·9000",
+  "6826": "署名抬头行·1122",
+  "5571": "署名抬头行·9293",
+  "2436": "署名抬头行·9112",
+  "4178": "署名抬头行·9113",
+  "8474": "署名抬头行·9000",
+  "14": "答句词数·1122",
+  "16": "答句词数·9293",
+  "23": "答句词数·9112",
+  "21": "答句词数·9113",
+  "35": "答句词数·9000",
+  "109": "五句词合计",
+  "79": "答句字符·1122",
+  "99": "答句字符·9293",
+  "139": "答句字符·9112",
+  "138": "答句字符·9113",
+  "222": "答句字符·9000",
+  "5947": "答句首行·1122",
+  "2048": "答句首行·9293",
+  "1468": "答句首行·9112",
+  "3153": "答句首行·9113",
+  "3106": "答句首行·9000",
+  "5948": "答句末行·1122",
+  "2050": "答句末行·9293",
+  "1470": "答句末行·9112",
+  "3155": "答句末行·9113",
+  "3109": "答句末行·9000",
+  "20": "答句字符差",
+  "11": "连字拼法·9293",
+  "8": "连字拼法·9112",
+  "[0, 4]": "拼法清单·1122",
+  "[0]": "拼法清单·9112",
+  "[]": "拼法清单·9000",
+  "19": "idle timeout枚·9000",
+  "[1, 16]": "ack两式·1122",
+  "[1, 78]": "ack两式·9293",
+  "[4, 0]": "ack两式·9112",
+  "[0, 8]": "ack两式·9113",
+  "[0, 63]": "ack两式·9000",
+  "16.0": "ack偏斜·1122",
+  "78.0": "ack偏斜·9293",
+  "[8, 2]": "implement两式·1122",
+  "[0, 10]": "implement两式·9293",
+  "[0, 0]": "implement两式·9112",
+  "[0, 1]": "implement两式·9113",
+  "[0, 2]": "implement两式·9000",
+  "[['', ''], ['', 'implementers'], ['', ''], ['', 'implementers'], ['', 'implementers']]": "各家独有",
+  "53": "拼写总量·1122",
+  "111": "拼写总量·9293",
+  "33": "拼写总量·9113",
+  "[['implementors'], [], ['inactive'], [], ['idle timeout']]": "独有清单",
+  "58": "拼写尺差",
+  "5": "数值项·1122",
+  "[[('0', 'seconds'), ('0.5', 'seconds'), ('100', 'seconds'), ('3', 'seconds'), ('60', 'seconds')], [('0.5', 'seconds'), ('1.0', 'seconds'), ('10', 's'), ('100', 'seconds'), ('3', 'seconds'), ('34', 'seconds'), ('4', 'microseconds'), ('60', 'seconds')], [], [('20', 'seconds')], [('1', 'ms'), ('25', 'milliseconds'), ('30', 'seconds'), ('5', 'ms'), ('6', 'ms')]]": "正则读数",
+  "[[['3', 's']], [['10', 's']], [], [], []]": "宽尺多读",
+  "['10']": "冷档清单",
+  "[['0 seconds'], ['1.0 seconds', '34 seconds', '4 microseconds'], [], ['20 seconds'], ['1 ms', '25 milliseconds', '30 seconds', '5 ms', '6 ms']]": "独有数值清单",
+  "190": "下划线名·9000",
+  "[[], [], [], ['SETTINGS_TIMEOUT'], ['max_idle_timeout']]": "独有参数名",
+  "89": "十六进制·9113",
+  "218": "十六进制·9000",
+  "37": "针总数",
+  "[42, 60, 60, 61]": "四档合计",
+  "[18, 0, 1]": "档间增益",
+  "15": "逐行漏读",
+  "18": "折平增益枚",
+  "555": "两半字符",
+  "['configurable and MUST default']": "编号切针",
+  "[' (MUST-27)']": "标注原文",
+  "1037": "标注吃字·9293",
+  "['MUST NOT']": "跨行式样",
+  "4.2.3.6": "1122节号",
+  "3.8.4": "9293节号",
+  "9.5": "9112节号",
+  "9.1": "9113节号",
+  "10.1": "9000节号",
+  "185": "节目录行·1122",
+  "108": "节目录行·9112",
+  "126": "节目录行·9113",
+  "5937": "节正文行·1122",
+  "2029": "节正文行·9293",
+  "1463": "节正文行·9112",
+  "3130": "节正文行·9113",
+  "3098": "节正文行·9000",
+  "88": "节窗行·1122",
+  "65": "节窗行·9113",
+  "70": "节窗行·9000",
+  "2638": "节窗字符·1122",
+  "1571": "节窗字符·9293",
+  "1759": "节窗字符·9112",
+  "3268": "节窗字符·9113",
+  "3458": "节窗字符·9000",
+  "1.28": "节占比·1122",
+  "0.72": "节占比·9293",
+  "1.76": "节占比·9112",
+  "1.88": "节占比·9113",
+  "0.94": "节占比·9000",
+  "48": "节内义务词合计",
+  "344": "义务词总量·1122",
+  "342": "义务词总量·9293",
+  "168": "义务词总量·9112",
+  "370": "义务词总量·9113",
+  "650": "义务词总量·9000",
+  "178": "裸MUST·1122",
+  "220": "裸MUST·9293",
+  "169": "裸MUST·9113",
+  "215": "裸MUST·9000",
+  "237": "9293编号枚",
+  "140": "编号MUST",
+  "36": "编号MAY",
+  "61": "编号SHLD",
+  "81": "编号在句号前",
+  "69": "最大编号",
+  "156": "RFC空格引用·9293",
+  "30": "RFC空格引用·9112",
+  "40": "RFC空格引用·9000",
+  "24": "RFC连字引用·1122",
+  "44": "方括号引用·9113",
+  "66": "方括号引用·9000",
+  "42": "非人称·1122",
+  "38": "非人称·9293",
+  "28": "非人称·9112",
+  "3344": "池枚数·1122",
+  "2730": "池枚数·9293",
+  "1325": "池枚数·9112",
+  "2287": "池枚数·9113",
+  "5080": "池枚数·9000",
+  "3353": "池原行·1122",
+  "2955": "池原行·9293",
+  "1368": "池原行·9112",
+  "2354": "池原行·9113",
+  "5219": "池原行·9000",
+  "483": "池重复",
+  "14625": "池并集",
+  "2120": "池放宽",
+  "3676": "池25枚数·1122",
+  "3316": "池25枚数·9293",
+  "1525": "池25枚数·9112",
+  "2758": "池25枚数·9113",
+  "5645": "池25枚数·9000",
+  "16745": "池25并集",
+  "14529": "共用分档·1122",
+  "32": "配对枚数·9293-9112",
+  "27": "配对枚数·9112-9000",
+  "204": "配对合计",
+  "296": "旧式带义务枚",
+  "1151": "新式带义务枚",
+  "87": "块行·1122",
+  "2031": "新句首行·新句1",
+  "2038": "新句首行·新句2",
+  "2046": "新句首行·新句3",
+  "2057": "新句首行·新句4",
+  "['delete', 'equal', 'insert', 'equal', 'replace', 'equal']": "对齐动作",
+  "59": "相同词",
+  "137": "删字符",
+  "381": "裸段字符",
+  "-39": "段长差",
+  "50": "编号字符",
+  "8743": "模板段偏移·9293",
+  "5295": "模板段偏移·9112",
+  "9143": "模板段偏移·9113",
+  "12689": "模板段偏移·9000",
+  "221": "模板段首行·9293",
+  "172": "模板段首行·9112",
+  "267": "模板段首行·9113",
+  "380": "模板段首行·9000",
+  "31": "共头词·9293·9112",
+  "45": "五段行",
+  "470": "段字符·1122#1",
+  "431": "段字符·9293#2",
+  "392": "段字符·9112#3",
+  "448": "段字符·9113#4",
+  "651": "段字符·9000#5",
+  "164": "段字符·1122#6",
+  "251": "段字符·9293#7",
+  "271": "段字符·9000#8",
+  "372": "段字符·9113#9",
+  "317": "段字符·9112#10",
+  "209": "段字符·1122#11",
+  "229": "段字符·9112#13",
+  "765": "段词合计",
+  "2392": "五段字符",
+  "376": "五段词",
+  "49": "段词汇·9293#2",
+  "57": "段词汇·9113#4",
+  "62": "段词汇·9000#5",
+  "22": "段词汇·1122#6",
+  "25": "段词汇·1122#11",
+  "-8": "段首提前·1122",
+  "-7": "段首提前·9293",
+  "-3": "段首提前·9112",
+  "-6": "段首提前·9000",
+  "5939": "段首行·1122",
+  "2041": "段首行·9293",
+  "1465": "段首行·9112",
+  "3100": "段首行·9000",
+  "3159": "段末行·9113",
+  "3111": "段末行·9000",
+  "17": "段行整串",
+  "43": "反向探针",
+  "[58]": "Page1所在行",
+  "177": "子串多读",
+  "597": "子串尺读数",
+  "387": "9000 quic 子串",
+  "385": "9000 quic 整词",
+  "56": "门合计",
+  "82": "恒等式合计",
+  "63": "对账符",
+  "46": "逐份读到的针数",
+  "1989": "抬头年·1122",
+  "2022": "抬头年·9293",
+  "2021": "抬头年·9000",
+  "77": "anchor_distinct",
+  "52": "anchor_single",
+  "106": "anchor_total",
+  "15773": "enc_chars"
+ },
+ "anchor_ambiguous": 8,
+ "anchor_lines": [
+  [
+   "1122",
+   "must default to no less than two h",
+   5948,
+   1
+  ],
+  [
+   "9293",
+   "must default to no less than two h",
+   2049,
+   1
+  ],
+  [
+   "9112",
+   "places no requirements on the leng",
+   1469,
+   1
+  ],
+  [
+   "9113",
+   "permitted to terminate idle connec",
+   3154,
+   1
+  ],
+  [
+   "9000",
+   "computed as the minimum of the two",
+   3107,
+   1
+  ],
+  [
+   "9000",
+   "at least three times the current P[首]",
+   3121,
+   1
+  ],
+  [
+   "9000",
+   "at least three times the current P[末]",
+   3122,
+   1
+  ],
+  [
+   "9113",
+   "idle connection is still functiona",
+   1885,
+   1
+  ],
+  [
+   "9000",
+   "max_idle_timeout",
+   2110,
+   8
+  ],
+  [
+   "1122",
+   "interval MUST be configurable[首]",
+   5947,
+   1
+  ],
+  [
+   "1122",
+   "interval MUST be configurable[末]",
+   5948,
+   1
+  ],
+  [
+   "1122",
+   "to confirm that an idle connection[首]",
+   5984,
+   1
+  ],
+  [
+   "1122",
+   "to confirm that an idle connection[末]",
+   5985,
+   1
+  ],
+  [
+   "9293",
+   "they MUST default to off[首]",
+   2043,
+   1
+  ],
+  [
+   "9293",
+   "they MUST default to off[末]",
+   2044,
+   1
+  ],
+  [
+   "9293",
+   "interval MUST be configurable[首]",
+   2048,
+   1
+  ],
+  [
+   "9293",
+   "interval MUST be configurable[末]",
+   2049,
+   1
+  ],
+  [
+   "9293",
+   "MUST NOT interpret failure to resp[首]",
+   2054,
+   1
+  ],
+  [
+   "9293",
+   "MUST NOT interpret failure to resp[末]",
+   2055,
+   1
+  ],
+  [
+   "9293",
+   "SEG.SEQ = SND.NXT-1[首]",
+   2040,
+   1
+  ],
+  [
+   "9293",
+   "SEG.SEQ = SND.NXT-1[末]",
+   2041,
+   1
+  ],
+  [
+   "9112",
+   "no requirements on the length (or [首]",
+   1469,
+   1
+  ],
+  [
+   "9112",
+   "no requirements on the length (or [末]",
+   1470,
+   1
+  ],
+  [
+   "9112",
+   "issue a graceful close[首]",
+   1472,
+   1
+  ],
+  [
+   "9112",
+   "issue a graceful close[末]",
+   1473,
+   1
+  ],
+  [
+   "9112",
+   "Proxy servers might make this a hi[首]",
+   1466,
+   1
+  ],
+  [
+   "9112",
+   "Proxy servers might make this a hi[末]",
+   1467,
+   1
+  ],
+  [
+   "9113",
+   "encouraged to maintain open connec[首]",
+   3153,
+   1
+  ],
+  [
+   "9113",
+   "encouraged to maintain open connec[末]",
+   3154,
+   1
+  ],
+  [
+   "9113",
+   "sent a SETTINGS frame but did not [首]",
+   2329,
+   1
+  ],
+  [
+   "9113",
+   "sent a SETTINGS frame but did not [末]",
+   2330,
+   1
+  ],
+  [
+   "9000",
+   "the minimum of the two advertised [首]",
+   3107,
+   1
+  ],
+  [
+   "9000",
+   "the minimum of the two advertised [末]",
+   3108,
+   1
+  ],
+  [
+   "9000",
+   "MUST increase the idle timeout per[首]",
+   3120,
+   1
+  ],
+  [
+   "9000",
+   "MUST increase the idle timeout per[末]",
+   3121,
+   1
+  ],
+  [
+   "9000",
+   "at least three times the current P[首]",
+   3121,
+   1
+  ],
+  [
+   "9000",
+   "at least three times the current P[末]",
+   3122,
+   1
+  ],
+  [
+   "9000",
+   "connection is silently closed[首]",
+   3101,
+   1
+  ],
+  [
+   "9000",
+   "connection is silently closed[末]",
+   3102,
+   1
+  ],
+  [
+   "9293",
+   "configurable and MUST default[编号前]",
+   2049,
+   1
+  ],
+  [
+   "9293",
+   "configurable and MUST default[编号后]",
+   2049,
+   1
+  ],
+  [
+   "1122",
+   "MUST NOT[上]",
+   1759,
+   1
+  ],
+  [
+   "1122",
+   "MUST NOT[下]",
+   1760,
+   1
+  ],
+  [
+   "1122",
+   "MUST NOT[上]",
+   1759,
+   1
+  ],
+  [
+   "1122",
+   "MUST NOT[下]",
+   1760,
+   1
+  ],
+  [
+   "1122",
+   "MUST NOT[上]",
+   1764,
+   1
+  ],
+  [
+   "1122",
+   "MUST NOT[下]",
+   1765,
+   1
+  ],
+  [
+   "1122",
+   "MUST NOT[上]",
+   1764,
+   1
+  ],
+  [
+   "1122",
+   "MUST NOT[下]",
+   1765,
+   1
+  ],
+  [
+   "9293",
+   "MUST NOT[上]",
+   2487,
+   1
+  ],
+  [
+   "9293",
+   "MUST NOT[下]",
+   2488,
+   1
+  ],
+  [
+   "9293",
+   "MUST NOT[上]",
+   2487,
+   1
+  ],
+  [
+   "9293",
+   "MUST NOT[下]",
+   2488,
+   1
+  ],
+  [
+   "9000",
+   "MUST NOT[上]",
+   1443,
+   1
+  ],
+  [
+   "9000",
+   "MUST NOT[下]",
+   1444,
+   1
+  ],
+  [
+   "9000",
+   "MUST NOT[上]",
+   1443,
+   1
+  ],
+  [
+   "9000",
+   "MUST NOT[下]",
+   1444,
+   1
+  ],
+  [
+   "9000",
+   "MUST NOT[上]",
+   6588,
+   1
+  ],
+  [
+   "9000",
+   "MUST NOT[下]",
+   6589,
+   1
+  ],
+  [
+   "9000",
+   "MUST NOT[上]",
+   6588,
+   1
+  ],
+  [
+   "9000",
+   "MUST NOT[下]",
+   6589,
+   1
+  ],
+  [
+   "9000",
+   "MUST NOT[上]",
+   6714,
+   1
+  ],
+  [
+   "9000",
+   "MUST NOT[下]",
+   6715,
+   1
+  ],
+  [
+   "9000",
+   "MUST NOT[上]",
+   6714,
+   1
+  ],
+  [
+   "9000",
+   "MUST NOT[下]",
+   6715,
+   1
+  ],
+  [
+   "9000",
+   "MUST NOT[上]",
+   7844,
+   1
+  ],
+  [
+   "9000",
+   "MUST NOT[下]",
+   7845,
+   1
+  ],
+  [
+   "9000",
+   "MUST NOT[上]",
+   7844,
+   1
+  ],
+  [
+   "9000",
+   "MUST NOT[下]",
+   7845,
+   1
+  ],
+  [
+   "9293",
+   "they MUST default to off[首]",
+   2043,
+   1
+  ],
+  [
+   "9293",
+   "they MUST default to off[末]",
+   2044,
+   1
+  ],
+  [
+   "1122",
+   "must default to no less than two h",
+   5948,
+   1
+  ],
+  [
+   "9293",
+   "must default to no less than two h",
+   2049,
+   1
+  ],
+  [
+   "9293",
+   "configurable and MUST default[编号前]",
+   2049,
+   1
+  ],
+  [
+   "9293",
+   "configurable and MUST default[编号后]",
+   2049,
+   1
+  ],
+  [
+   "1122",
+   "interval MUST be configurable[首]",
+   5947,
+   1
+  ],
+  [
+   "1122",
+   "interval MUST be configurable[末]",
+   5948,
+   1
+  ],
+  [
+   "9293",
+   "interval MUST be configurable[首]",
+   2048,
+   1
+  ],
+  [
+   "9293",
+   "interval MUST be configurable[末]",
+   2049,
+   1
+  ],
+  [
+   "9112",
+   "no requirements on the length (or [首]",
+   1469,
+   1
+  ],
+  [
+   "9112",
+   "no requirements on the length (or [末]",
+   1470,
+   1
+  ],
+  [
+   "9112",
+   "servers will usually have some tim",
+   1465,
+   1
+  ],
+  [
+   "9112",
+   "connections can be closed at any t",
+   1391,
+   1
+  ],
+  [
+   "9113",
+   "permitted to terminate idle connec",
+   3154,
+   1
+  ],
+  [
+   "9113",
+   "encouraged to maintain open connec[首]",
+   3153,
+   1
+  ],
+  [
+   "9113",
+   "encouraged to maintain open connec[末]",
+   3154,
+   1
+  ],
+  [
+   "9113",
+   "should first send a goaway",
+   3156,
+   1
+  ],
+  [
+   "9000",
+   "the minimum of the two advertised [首]",
+   3107,
+   1
+  ],
+  [
+   "9000",
+   "the minimum of the two advertised [末]",
+   3108,
+   1
+  ],
+  [
+   "9000",
+   "sole advertised value",
+   3108,
+   1
+  ],
+  [
+   "9000",
+   "at least three times the current P[首]",
+   3121,
+   1
+  ],
+  [
+   "9000",
+   "at least three times the current P[末]",
+   3122,
+   1
+  ],
+  [
+   "1122",
+   "tcp keep-alives",
+   5937,
+   1
+  ],
+  [
+   "9293",
+   "tcp keep-alives",
+   2029,
+   1
+  ],
+  [
+   "9112",
+   "failures and timeouts",
+   1463,
+   1
+  ],
+  [
+   "9113",
+   "connection management",
+   3130,
+   1
+  ],
+  [
+   "9000",
+   "idle timeout",
+   3098,
+   13
+  ],
+  [
+   "9293",
+   "must-4 --",
+   496,
+   1
+  ],
+  [
+   "9293",
+   "SEG.SEQ = SND.NXT-1[首]",
+   2040,
+   1
+  ],
+  [
+   "9293",
+   "SEG.SEQ = SND.NXT-1[末]",
+   2041,
+   1
+  ],
+  [
+   "1122",
+   "one garbage octet",
+   5988,
+   1
+  ],
+  [
+   "9293",
+   "one garbage octet",
+   2041,
+   2
+  ],
+  [
+   "9293",
+   "a tcp connection is said t",
+   2031,
+   1
+  ],
+  [
+   "9293",
+   "to confirm that an idle co",
+   2038,
+   1
+  ],
+  [
+   "9293",
+   "keep-alive packets must on",
+   2046,
+   1
+  ],
+  [
+   "9293",
+   "an implementation should s",
+   2057,
+   1
+  ],
+  [
+   "1122",
+   "implementors may include \"keep-ali",
+   5939,
+   1
+  ],
+  [
+   "9293",
+   "keep-alives are included, the appl",
+   2042,
+   1
+  ],
+  [
+   "9293",
+   "bcp 14 [3] [12]",
+   224,
+   1
+  ],
+  [
+   "9112",
+   "bcp 14 [rfc2119] [rfc8174]",
+   175,
+   1
+  ],
+  [
+   "9000",
+   "max_idle_timeout",
+   2110,
+   8
+  ],
+  [
+   "9113",
+   "settings_timeout",
+   1755,
+   2
+  ],
+  [
+   "9293",
+   "the key words",
+   221,
+   1
+  ],
+  [
+   "9112",
+   "the key words",
+   172,
+   1
+  ],
+  [
+   "9113",
+   "the key words",
+   267,
+   1
+  ],
+  [
+   "9000",
+   "the key words",
+   380,
+   1
+  ],
+  [
+   "1122",
+   "keep-alive",
+   185,
+   14
+  ],
+  [
+   "9293",
+   "keep-alive",
+   109,
+   11
+  ],
+  [
+   "9112",
+   "keep-alive",
+   140,
+   8
+  ],
+  [
+   "9113",
+   "keep-alive",
+   2555,
+   1
+  ]
+ ],
+ "needle_n": 37,
+ "needles": [
+  "they MUST default to off",
+  "MUST default to no less than two hours",
+  "configurable and MUST default",
+  "interval MUST be configurable",
+  "is said to be \"idle\"",
+  "no incoming segments received",
+  "to confirm that an idle connection is still active",
+  "MUST NOT interpret failure to respond",
+  "no requirements on the length (or existence) of this timeout",
+  "Servers will usually have some timeout value",
+  "Connections can be closed at any time",
+  "issue a graceful close",
+  "no longer maintain an inactive connection",
+  "MAY close the transport connection",
+  "received closure signal",
+  "Proxy servers might make this a higher value",
+  "encouraged to maintain open connections for as long as possible",
+  "permitted to terminate idle connections",
+  "SHOULD first send a GOAWAY",
+  "the terminating endpoint",
+  "sent a SETTINGS frame but did not receive",
+  "idle connection is still functional",
+  "SETTINGS_TIMEOUT",
+  "max_idle_timeout",
+  "the minimum of the two advertised values",
+  "sole advertised value",
+  "MUST increase the idle timeout period",
+  "at least three times the current Probe Timeout",
+  "excessively small idle timeout periods",
+  "Idle timeout is disabled",
+  "connection is silently closed",
+  "abandons the connection",
+  "restarts its idle timer",
+  "Deferring Idle Timeout",
+  "SEG.SEQ = SND.NXT-1",
+  "one garbage octet",
+  "to elicit a response"
+ ],
+ "win": [
+  "MUST default to no less than two hours",
+  "MUST default to no less than two hours",
+  "places no requirements on the length",
+  "permitted to terminate idle connections",
+  "computed as the minimum of the two advertised values"
+ ],
+ "neg": [
+  [
+   "max_idle_timeout",
+   [
+    0,
+    1,
+    2,
+    3
+   ],
+   "sh"
+  ],
+  [
+   "SETTINGS_TIMEOUT",
+   [
+    0,
+    1,
+    2,
+    4
+   ],
+   "sh"
+  ],
+  [
+   "GOAWAY",
+   [
+    0,
+    1,
+    2,
+    4
+   ],
+   "sh"
+  ],
+  [
+   "two hours",
+   [
+    2,
+    3,
+    4
+   ],
+   "sh"
+  ],
+  [
+   "no less than two hours",
+   [
+    2,
+    3,
+    4
+   ],
+   "sh"
+  ],
+  [
+   "(MUST-27)",
+   [
+    0,
+    2,
+    3,
+    4
+   ],
+   "sh"
+  ],
+  [
+   "the key words",
+   [
+    0
+   ],
+   "sh"
+  ],
+  [
+   "[Page 1]",
+   [
+    1,
+    2,
+    3,
+    4
+   ],
+   "fold"
+  ],
+  [
+   "keep-alive",
+   [
+    4
+   ],
+   "sh"
+  ],
+  [
+   "quic",
+   [
+    0,
+    2
+   ],
+   "sh"
+  ],
+  [
+   "http/2",
+   [
+    0,
+    1,
+    2
+   ],
+   "sh"
+  ],
+  [
+   "RFC 2119",
+   [],
+   "sh"
+  ],
+  [
+   "persistent connection",
+   [
+    0,
+    4
+   ],
+   "sh"
+  ],
+  [
+   "PTO",
+   [
+    0,
+    1,
+    2,
+    3
+   ],
+   "sh"
+  ],
+  [
+   "idle timeout",
+   [
+    0,
+    1,
+    2,
+    3
+   ],
+   "sh"
+  ]
+ ],
+ "zid": [
+  [
+   "sum([abs(x) for x in B82V('row_form_ledger')])",
+   "换行档差 = FF后随换行 − 尾换行, 逐份相消"
+  ],
+  [
+   "sum(B82V('shell_ledger'))",
+   "壳行 = 空行 + 页脚 + 眉行(旧式), 新式只剩空行"
+  ],
+  [
+   "sum(B82V('na_ledger'))",
+   "非 ASCII = BOM + 其余, 逐份相加=总数"
+  ],
+  [
+   "sum(B82V('na_before_ref'))",
+   "非 ASCII 行全落在 References 正文标题之后"
+  ],
+  [
+   "sum(B82V('na_place_ledger'))",
+   "非 ASCII 行分作参考条目/贡献者条目/其余, 三档相加=行数"
+  ],
+  [
+   "sum(B82V('ref_ledger'))",
+   "References 标题的印刷次数 = 目录枚 + 正文枚"
+  ],
+  [
+   "sum(B82V('na_bom_line')) - B82V('bom_survives')",
+   "只带 BOM 的行数 = 摘壳后仍存活的 BOM 枚数"
+  ],
+  [
+   "sum(B82V('pgnum_overstrip')) - (sum(B82V('pgnum')) - sum(B82V('pgnum_shell')))",
+   "naive 页码尺多吃额账平"
+  ],
+  [
+   "sum(B82V('spell_ruler_gap')) - (sum(B82V('spell_tot')) - sum([sum(x) for x in B82V('spell_word')]))",
+   "子串尺比整词尺多读的枚数 = 两尺总差"
+  ],
+  [
+   "sum(B82V('ack_major')) + sum(B82V('ack_minor')) - sum([B82V('spell')[i][9] + B82V('spell')[i][10] for i in range(5)])",
+   "两种拼法相加 = 族量合计"
+  ],
+  [
+   "sum([B82V('tone_wrap_gain')[i * 5 + k] for i in range(5) for k in range(5) if k != 1])",
+   "折平只让 MUST NOT 涨, 其余四式增量为零"
+  ],
+  [
+   "sum(B82V('tone_sh_gain'))",
+   "摘壳在义务词上一档也不涨"
+  ],
+  [
+   "sum([x for x in B82V('tone_tag_gain') if x > 0])",
+   "去编号只会让义务词变少, 从不新增"
+  ],
+  [
+   "sum(B82V('tone_drop_ledger'))",
+   "去编号跌落的义务词枚数逐份账平"
+  ],
+  [
+   "sum(B82V('tag_form_ledger'))",
+   "括注形 + 裸形 + 无空格括注形 = 编号总数"
+  ],
+  [
+   "sum(B82V('tag_paren_place_close'))",
+   "句点后 + 逗号后 + 句中 = 括注编号总数"
+  ],
+  [
+   "sum(B82V('tone_must_ledger'))",
+   "大写 MUST = MUST NOT + 裸 MUST 逐份账平"
+  ],
+  [
+   "sum(B82V('tag_kind_close'))",
+   "编号按类分档相加 = 编号总数"
+  ],
+  [
+   "sum(B82V('role_gain_sh'))",
+   "摘壳在判词针上一枚也不新增(与上一代条目的壳涨相反)"
+  ],
+  [
+   "sum(B82V('role_gain_tag')) - len(B82V('role_tagcut_keys'))",
+   "去编号档的增益枚数 = 编号切开针清单长度"
+  ],
+  [
+   "B82V('role_line_miss_n') - sum(B82V('role_wrap_n'))",
+   "逐行漏读的针全由硬换行切开(无壳切, 无编号切)"
+  ],
+  [
+   "sum(B82V('num_lit_close'))",
+   "数值命名列相加 = 去重数值枚数"
+  ],
+  [
+   "B82V('ans_chars', 1) - B82V('ans_chars', 0) - B82V('ans_tag_len')",
+   "两份答句的字符差 = 两枚编号标注吃掉的长度(各带一枚前空格)"
+  ],
+  [
+   "B82V('sec_shell_tot') - sum(B82V('sec_shell_rows'))",
+   "五个节窗里的壳行合计 = 逐份相加"
+  ],
+  [
+   "sum(B82V('sec_ans_inside')) - 5",
+   "五句答案都落在自己那一节的窗内"
+  ],
+  [
+   "sum(B82V('ans_shell_rows'))",
+   "五句答案里没有一行页壳"
+  ],
+  [
+   "sum(B82V('ans_na'))",
+   "五句答案全是 ASCII"
+  ],
+  [
+   "B82V('ovl_same_ledger')",
+   "块内句数 = 逐字相同 + 新句"
+  ],
+  [
+   "B82V('ovl_tag_only') - (B82V('ovl_same_canon') - B82V('ovl_same_raw')) + B82V('ovl_same_canon') - B82V('ovl_same_tag')",
+   "只差编号的句子在三种尺之间相消"
+  ],
+  [
+   "sum([abs(x) for x in B82V('sec_ans_gap')]) - sum([x for x in B82V('sec_ans_gap') if x >= 0]) + sum([x for x in B82V('sec_ans_gap') if x < 0])",
+   "答句行距的正负两段相加 = 绝对值之和"
+  ],
+  [
+   "B82V('kw_docs') - len([x for x in B82V('kw_at') if x >= 0])",
+   "关键词段存在的份数 = 非 −1 的读数"
+  ],
+  [
+   "B82V('pin_line_close')",
+   "答句首行与采集遍定位的同一行"
+  ],
+  [
+   "B82V('neg_zero_hits')",
+   "反向对照针在被排除的份上全冷"
+  ],
+  [
+   "B82V('neg_sub_ruler') - B82V('neg_sub_false') - sum([x[3] for x in B82V('neg_sub_false_rows')])",
+   "子串尺的读数 = 整词尺读数 + 多读枚数(逐行账平)"
+  ],
+  [
+   "sum(B82V('tag_form_ledger'))",
+   "四种编号形态相加 = 摘壳档的编号总数"
+  ],
+  [
+   "B82V('pick_diff')",
+   "与采集遍对账不符数为零"
+  ],
+  [
+   "B82V('bool_clos_sum') - B82V('bool_clos_n')",
+   "布尔门全绿"
+  ],
+  [
+   "B82V('shell_pred_diff')",
+   "两遍壳谓词逐行同集: 整行序列正则 ⇎ token 形状尺无一行判得不一样"
+  ],
+  [
+   "B82V('pp_gap_close')",
+   "片段序列比非空行少的行数 = 非空壳行枚数(页脚与眉行)"
+  ],
+  [
+   "sum(B82V('pp_rows')) + sum(B82V('shell_lines')) - sum(B82V('lines'))",
+   "片段序列行数加壳行数等于原行数(空行全归壳, 无一行两头都不算)"
+  ],
+  [
+   "B82V('split_ledger')",
+   "切开针总数 = 逐行漏读针总数(只由硬换行切开, 无壳切)"
+  ],
+  [
+   "B82V('kw_suf_zero_n') + B82V('kw_suf_nz_n') - len(B82V('kw_same'))",
+   "四段模板段逐对分档: 共尾为零的对数加共尾非零的对数 = 全部配对数"
+  ],
+  [
+   "B82V('split_wrap_n') - sum(B82V('role_wrap_n'))",
+   "折平档才读通的针数 = 逐份切开计数之和"
+  ],
+  [
+   "B82V('split_tagcut_n') - len(B82V('role_tagcut_keys'))",
+   "去编号档才读通的针数 = 编号切开针清单长度"
+  ],
+  [
+   "B82V('split_adj_n') - B82V('split_n')",
+   "切开针的首末行一律相邻: 这一代的切开只由硬换行造成"
+  ],
+  [
+   "B82V('split_full_on_head')",
+   "反向对照: 跨行针的整串拿到首行那一行内应当一枚也读不通"
+  ],
+  [
+   "B82V('split_half_ok') - B82V('split_n')",
+   "每根跨行针的两半各自回自己那一行读得通"
+  ],
+  [
+   "B82V('seg_rt_ok') - B82V('seg_rt_n')",
+   "段窗首末行自验: 每一枚段针都落在段窗报出的那一行内"
+  ],
+  [
+   "B82V('seg_rt_whole') + B82V('seg_rt_cut') - B82V('seg_rt_n')",
+   "段针两档相加=总数: 整针在一行 ⇎ 被硬换行推到相邻行, 无第三档"
+  ],
+  [
+   "B82V('seg_rt_head') + B82V('seg_rt_tail') - B82V('seg_rt_ok')",
+   "落到所报行的段针按侧相加=总数: 段首看头一枚词 ⇎ 段末看末一枚词"
+  ],
+  [
+   "B82V('ans_line_close') + B82V('ans_span_close')",
+   "答句行号与跨行数由发射段的行号表重导一遍, 与建条侧逐份同值"
+  ],
+  [
+   "sum(B82V('ans_row_ledger'))",
+   "首末行行距减窗口内实有行数=零(答句所在段无空行壳行)"
+  ],
+  [
+   "sum(B82V('blk_ans_inside')) - 5",
+   "五份的主答句都在自己的段窗内"
+  ],
+  [
+   "B82V('blk_tcp_word_ledger')",
+   "对齐器的相同词段加删除词段 = 1122 那一段的全部词数(逐词不漏, 手打片段一律不算证据)"
+  ],
+  [
+   "B82V('blk_tcp_word_ledger2')",
+   "相同词段加插入词段 = 9293 去编号那一段的全部词数"
+  ],
+  [
+   "B82V('blk_tcp_word_gap_ledger')",
+   "删除词数减插入词数 = 两份段落的词数差(9293 删一句又添一句, 账要摊得开)"
+  ],
+  [
+   "B82V('pool_pair_tot') - B82V('pool_pair_new') - B82V('pool_pair_old')",
+   "十对配对按“牵不牵进 1122”分家, 两档相加=全部共用长行对"
+  ],
+  [
+   "sum(B82V('pool_pair_by')) - B82V('pool_pair_tot')",
+   "按份次顺序逐对读数相加 = 全部配对合计(两种枚举同一集)"
+  ],
+  [
+   "B82V('pool_old_shared') - B82V('pool_pair_by',0)",
+   "1122 与 9293 的共用长行集大小 = 逐对尺上这一对的读数(取集合 ⇎ 取计数两把尺)"
+  ],
+  [
+   "B82V('tone_straddle_ledger')",
+   "跨行义务词行对枚数 = 折平档相对逐行档的 MUST NOT 增益"
+  ],
+  [
+   "B82V('tone_straddle_adj') + B82V('tone_straddle_blank') - B82V('tone_straddle_n')",
+   "跨行式按“紧邻 ⇎ 只夹空行”分档, 两档相加=总数"
+  ],
+  [
+   "B82V('pool_ie_close')",
+   "容斥: 各份之和 − 两两共用 + 三三共用 − 四份共用 = 并集"
+  ],
+  [
+   "B82V('pool_tier_close')",
+   "按“几份共用”分档相加 = 并集枚数"
+  ],
+  [
+   "B82V('pool_sum_close')",
+   "分档乘份数相加 = 各份枚数之和"
+  ],
+  [
+   "B82V('pool_old_shared_pres',2) - 2",
+   "1122 与 9293 共用的那一行只印在这两份里: 全库出现次数恰为二"
+  ],
+  [
+   "B82V('pool_sum') - sum(B82V('pool_raw_rows')) + B82V('pool_dup')",
+   "去重枚数 = 原行枚数 − 重复印的次数"
+  ],
+  [
+   "B82V('kw_head_min') - B82V('kw_all_head')",
+   "四段模板段两两共头的最短值 = 四路扫描齐读到的那一处: 两把尺一般高"
+  ],
+  [
+   "B82V('kw_same_n') - B82V('kw_same_raw_n') - B82V('kw_wrap_diff')",
+   "折平档相同的对数 = 原行档相同的对数 + 词相同但分行不同的对数"
+  ],
+  [
+   "B82V('num_cold_n') + B82V('num_hot_n') - len(B82V('num_fam'))",
+   "数值十四式按“五份全冷 ⇎ 至少一份读通”分家, 两档相加=族长"
+  ],
+  [
+   "B82V('face_tot',1) - B82V('face_tot',0) - B82V('gain_fold_tot')",
+   "折平档相对行尺的读数差 = 按枚登记的换行增益"
+  ],
+  [
+   "B82V('face_tot',2) - B82V('face_tot',1) - B82V('gain_sh_tot')",
+   "摘壳档相对折平档的读数差 = 按枚登记的页壳增益"
+  ],
+  [
+   "B82V('face_tot',3) - B82V('face_tot',2) - B82V('gain_tag_tot')",
+   "去编号档相对摘壳档的读数差 = 按枚登记的编号增益"
+  ],
+  [
+   "B82V('gain_fold_tot') - B82V('split_wrap_n') - B82V('gain_fold_dup')",
+   "换行增益按枚 = 切开针数 + 已在行内读通的针新增的那些枚(两把口径的差单列一格, 不混)"
+  ],
+  [
+   "B82V('gain_sh_tot')",
+   "页壳增益按枚为零: 摘壳不再让任何判词针成式(新式四份根本没有页脚可摘)"
+  ],
+  [
+   "B82V('ovl_new_close')",
+   "块内新句按“面上可定位 ⇎ 早在 1122 讨论节里说过”分家, 两档相加=新句总数"
+  ],
+  [
+   "sum(B82V('tagcut_ledger'))",
+   "编号切开针被吃掉的宽度 = 夹在两半之间的标注字符数(逐枚账平, 不多不少一枚字符)"
+  ],
+  [
+   "sum(B82V('tagcut_eaten_close'))",
+   "摘壳面与去编号面的长度差 = 面上全部标注字符数: 抹掉标注不留一个空格"
+  ],
+  [
+   "B82V('kw_face_close') - B82V('kw_wrap_diff')",
+   "两把尺判得不一致的对数 = 词面相同而分行不同的对数: 差只可能来自换行, 不来自用词"
+  ],
+  [
+   "B82V('bool_clos2_sum') - B82V('bool_clos2_n')",
+   "本段布尔门全绿"
+  ],
+  [
+   "B82V('page_lit_rows_shell')",
+   "“[Page 1]” 所在的原始行没有一行落在壳尺之外(所以摘壳面一枚也读不到它)"
+  ],
+  [
+   "sum(B82V('page_lit_sh'))",
+   "同一式换摘壳面重读: 五份全为零 ⇎ 折平面那枚整行被壳吃掉"
+  ],
+  [
+   "B82V('page_lit_fold', 0) - len(B82V('page_lit_rows', 0))",
+   "折平面读到的枚数 = 它所在的原始行数(每枚各在其行, 没有跨行拼出来的)"
+  ]
+ ],
+ "litk": {},
+ "blk": [
+  "Implementors MAY include \"keep-alives\" in their TCP implementations, although this practice is not universally accepted. If keep-alives are included, the application MUST be able to turn them on or off for each TCP connection, and they MUST default to off. Keep-alive packets MUST only be sent when no data or acknowledgement packets have been received for the connection within an interval. This interval MUST be configurable and MUST default to no less than two hours.",
+  "If keep-alives are included, the application MUST be able to turn them on or off for each TCP connection (MUST-24), and they MUST default to off (MUST-25). Keep-alive packets MUST only be sent when no sent data is outstanding, and no data or acknowledgment packets have been received for the connection within an interval (MUST-26). This interval MUST be configurable (MUST-27) and MUST default to no less than two hours (MUST-28).",
+  "Servers will usually have some timeout value beyond which they will no longer maintain an inactive connection. Proxy servers might make this a higher value since it is likely that the client will be making more connections through the same proxy server. The use of persistent connections places no requirements on the length (or existence) of this timeout for either the client or the server.",
+  "Servers are encouraged to maintain open connections for as long as possible but are permitted to terminate idle connections if necessary. When either endpoint chooses to close the transport-layer TCP connection, the terminating endpoint SHOULD first send a GOAWAY (Section 6.8) frame so that both endpoints can reliably determine whether previously sent frames have been processed and gracefully complete or terminate any necessary remaining tasks.",
+  "If a max_idle_timeout is specified by either endpoint in its transport parameters (Section 18.2), the connection is silently closed and its state is discarded when it remains idle for longer than the minimum of the max_idle_timeout value advertised by both endpoints. Each endpoint advertises a max_idle_timeout, but the effective value at an endpoint is computed as the minimum of the two advertised values (or the sole advertised value, if only one endpoint advertises a non-zero value). By announcing a max_idle_timeout, an endpoint commits to initiating an immediate close (Section 10.2) if it abandons the connection prior to the effective value.",
+  "DISCUSSION: A \"keep-alive\" mechanism periodically probes the other end of a connection when the connection is otherwise idle, even when there is no data to be sent.",
+  "To confirm that an idle connection is still active, these implementations send a probe segment designed to elicit a response from the TCP peer. Such a segment generally contains SEG.SEQ = SND.NXT-1 and may or may not contain one garbage octet of data.",
+  "To avoid excessively small idle timeout periods, endpoints MUST increase the idle timeout period to be at least three times the current Probe Timeout (PTO). This allows for multiple PTOs to expire, and therefore multiple probes to be sent and lost, prior to idle timeout.",
+  "If the sender of a SETTINGS frame does not receive an acknowledgment within a reasonable amount of time, it MAY issue a connection error (Section 5.4.1) of type SETTINGS_TIMEOUT. In setting a timeout, some allowance needs to be made for processing delays at the peer; a timeout that is solely based on the round-trip time between endpoints might result in spurious errors.",
+  "A client or server that wishes to time out SHOULD issue a graceful close on the connection. Implementations SHOULD constantly monitor open connections for a received closure signal and respond to it as appropriate, since prompt closure of both sides of a connection enables allocated system resources to be reclaimed.",
+  "An implementation SHOULD send a keep-alive segment with no data; however, it MAY be configurable to send a keep-alive segment containing one garbage octet, for compatibility with erroneous TCP implementations.",
+  "The key words \"MUST\", \"MUST NOT\", \"REQUIRED\", \"SHALL\", \"SHALL NOT\", \"SHOULD\", \"SHOULD NOT\", \"RECOMMENDED\", \"NOT RECOMMENDED\", \"MAY\", and \"OPTIONAL\" in this document are to be interpreted as described in BCP 14 [3] [12]",
+  "The key words \"MUST\", \"MUST NOT\", \"REQUIRED\", \"SHALL\", \"SHALL NOT\", \"SHOULD\", \"SHOULD NOT\", \"RECOMMENDED\", \"NOT RECOMMENDED\", \"MAY\", and \"OPTIONAL\" in this document are to be interpreted as described in BCP 14 [RFC2119] [RFC8174]",
+  "The key words \"MUST\", \"MUST NOT\", \"REQUIRED\", \"SHALL\", \"SHALL NOT\", \"SHOULD\", \"SHOULD NOT\", \"RECOMMENDED\", \"NOT RECOMMENDED\", \"MAY\", and \"OPTIONAL\" in this document are to be interpreted as described in BCP 14 [RFC2119] [RFC8174]",
+  "The key words \"MUST\", \"MUST NOT\", \"REQUIRED\", \"SHALL\", \"SHALL NOT\", \"SHOULD\", \"SHOULD NOT\", \"RECOMMENDED\", \"NOT RECOMMENDED\", \"MAY\", and \"OPTIONAL\" in this document are to be interpreted as described in BCP 14 [RFC2119] [RFC8174]"
+ ],
+ "pins": [
+  [
+   "1122",
+   "implementors may include \"keep-alives\" in their TCP implementations",
+   "MUST default to no less than two hours."
+  ],
+  [
+   "9293",
+   "If keep-alives are included, the application MUST be able",
+   "MUST default to no less than two hours (MUST-28)."
+  ],
+  [
+   "9112",
+   "Servers will usually have some timeout value",
+   "for either the client or the server."
+  ],
+  [
+   "9113",
+   "Servers are encouraged to maintain open connections",
+   "gracefully complete or terminate any necessary remaining tasks."
+  ],
+  [
+   "9000",
+   "If a max_idle_timeout is specified by either endpoint",
+   "if it abandons the connection prior to the effective value."
+  ],
+  [
+   "1122",
+   "Discussion: A \"keep-alive\" mechanism periodically probes",
+   "even when there is no data to be sent."
+  ],
+  [
+   "9293",
+   "to confirm that an idle connection is still active",
+   "one garbage octet of data."
+  ],
+  [
+   "9000",
+   "To avoid excessively small idle timeout periods",
+   "prior to idle timeout."
+  ],
+  [
+   "9113",
+   "If the sender of a SETTINGS frame does not receive an acknowledgment",
+   "might result in spurious errors."
+  ],
+  [
+   "9112",
+   "A client or server that wishes to time out",
+   "allocated system resources to be reclaimed."
+  ],
+  [
+   "1122",
+   "An implementation SHOULD send a keep-alive segment with no data",
+   "for compatibility with erroneous TCP implementations."
+  ],
+  [
+   "9293",
+   "The key words",
+   "as described in BCP 14 [3] [12]"
+  ],
+  [
+   "9112",
+   "The key words",
+   "as described in BCP 14 [RFC2119] [RFC8174]"
+  ],
+  [
+   "9113",
+   "The key words",
+   "as described in BCP 14 [RFC2119] [RFC8174]"
+  ],
+  [
+   "9000",
+   "The key words",
+   "as described in BCP 14 [RFC2119] [RFC8174]"
+  ]
+ ],
+ "split": [
+  [
+   "1122#3",
+   "interval MUST be configurable",
+   5947,
+   5948
+  ],
+  [
+   "1122#6",
+   "to confirm that an idle connection is still active",
+   5984,
+   5985
+  ],
+  [
+   "9293#0",
+   "they MUST default to off",
+   2043,
+   2044
+  ],
+  [
+   "9293#3",
+   "interval MUST be configurable",
+   2048,
+   2049
+  ],
+  [
+   "9293#7",
+   "MUST NOT interpret failure to respond",
+   2054,
+   2055
+  ],
+  [
+   "9293#34",
+   "SEG.SEQ = SND.NXT-1",
+   2040,
+   2041
+  ],
+  [
+   "9112#8",
+   "no requirements on the length (or existence) of this timeout",
+   1469,
+   1470
+  ],
+  [
+   "9112#11",
+   "issue a graceful close",
+   1472,
+   1473
+  ],
+  [
+   "9112#15",
+   "Proxy servers might make this a higher value",
+   1466,
+   1467
+  ],
+  [
+   "9113#16",
+   "encouraged to maintain open connections for as long as possible",
+   3153,
+   3154
+  ],
+  [
+   "9113#20",
+   "sent a SETTINGS frame but did not receive",
+   2329,
+   2330
+  ],
+  [
+   "9000#24",
+   "the minimum of the two advertised values",
+   3107,
+   3108
+  ],
+  [
+   "9000#26",
+   "MUST increase the idle timeout period",
+   3120,
+   3121
+  ],
+  [
+   "9000#27",
+   "at least three times the current Probe Timeout",
+   3121,
+   3122
+  ],
+  [
+   "9000#30",
+   "connection is silently closed",
+   3101,
+   3102
+  ]
+ ],
+ "tagcut": [
+  [
+   "9293",
+   "configurable and MUST default",
+   2049,
+   2049,
+   [
+    " (MUST-27)"
+   ],
+   "be configurable (MUST-27) and MUST",
+   "and MUST default to no less than two"
+  ]
+ ],
+ "straddle": [
+  [
+   "1122",
+   "MUST NOT",
+   1759,
+   1760,
+   0
+  ],
+  [
+   "1122",
+   "MUST NOT",
+   1764,
+   1765,
+   0
+  ],
+  [
+   "9293",
+   "MUST NOT",
+   2487,
+   2488,
+   0
+  ],
+  [
+   "9000",
+   "MUST NOT",
+   1443,
+   1444,
+   0
+  ],
+  [
+   "9000",
+   "MUST NOT",
+   6588,
+   6589,
+   0
+  ],
+  [
+   "9000",
+   "MUST NOT",
+   6714,
+   6715,
+   0
+  ],
+  [
+   "9000",
+   "MUST NOT",
+   7844,
+   7845,
+   0
+  ]
+ ],
+ "new_sent": [
+  "a tcp connection is said to be \"idle\" if for some long amount of time there have been no incoming segments received and there is no new or unacknowledged data to be sent.",
+  "to confirm that an idle connection is still active, these implementations send a probe segment designed to elicit a response from the tcp peer.",
+  "keep-alive packets must only be sent when no sent data is outstanding, and no data or acknowledgment packets have been received for the connection within an interval.",
+  "an implementation should send a keep-alive segment with no data; however, it may be configurable to send a keep-alive segment containing one garbage octet, for compatibility with erroneous tcp implementations."
+ ],
+ "new_lines": [
+  2031,
+  2038,
+  2046,
+  2057
+ ],
+ "ans": [
+  " This interval MUST be configurable and MUST default to no less than two hours.",
+  " This interval MUST be configurable (MUST-27) and MUST default to no less than two hours (MUST-28).",
+  " The use of persistent connections places no requirements on the length (or existence) of this timeout for either the client or the server.",
+  " Servers are encouraged to maintain open connections for as long as possible but are permitted to terminate idle connections if necessary.",
+  " Each endpoint advertises a max_idle_timeout, but the effective value at an endpoint is computed as the minimum of the two advertised values (or the sole advertised value, if only one endpoint advertises a non-zero value)."
+ ],
+ "tcp_ops": [
+  [
+   "delete",
+   0,
+   15,
+   0,
+   0
+  ],
+  [
+   "equal",
+   15,
+   48,
+   0,
+   33
+  ],
+  [
+   "insert",
+   48,
+   48,
+   33,
+   39
+  ],
+  [
+   "equal",
+   48,
+   50,
+   39,
+   41
+  ],
+  [
+   "replace",
+   50,
+   51,
+   41,
+   42
+  ],
+  [
+   "equal",
+   51,
+   75,
+   42,
+   66
+  ]
+ ],
+ "tcp_1122": "Implementors MAY include \"keep-alives\" in their TCP implementations, although this practice is not universally accepted. If keep-alives are included, the application MUST be able to turn them on or off for each TCP connection, and they MUST default to off. Keep-alive packets MUST only be sent when no data or acknowledgement packets have been received for the connection within an interval. This interval MUST be configurable and MUST default to no less than two hours.",
+ "tcp_9293": "If keep-alives are included, the application MUST be able to turn them on or off for each TCP connection (MUST-24), and they MUST default to off (MUST-25). Keep-alive packets MUST only be sent when no sent data is outstanding, and no data or acknowledgment packets have been received for the connection within an interval (MUST-26). This interval MUST be configurable (MUST-27) and MUST default to no less than two hours (MUST-28).",
+ "kw": [
+  "The key words \"MUST\", \"MUST NOT\", \"REQUIRED\", \"SHALL\", \"SHALL NOT\", \"SHOULD\", \"SHOULD NOT\", \"RECOMMENDED\", \"NOT RECOMMENDED\", \"MAY\", and \"OPTIONAL\" in this document are to be interpreted as described in BCP 14 [3] [12]",
+  "The key words \"MUST\", \"MUST NOT\", \"REQUIRED\", \"SHALL\", \"SHALL NOT\", \"SHOULD\", \"SHOULD NOT\", \"RECOMMENDED\", \"NOT RECOMMENDED\", \"MAY\", and \"OPTIONAL\" in this document are to be interpreted as described in BCP 14 [RFC2119] [RFC8174]",
+  "The key words \"MUST\", \"MUST NOT\", \"REQUIRED\", \"SHALL\", \"SHALL NOT\", \"SHOULD\", \"SHOULD NOT\", \"RECOMMENDED\", \"NOT RECOMMENDED\", \"MAY\", and \"OPTIONAL\" in this document are to be interpreted as described in BCP 14 [RFC2119] [RFC8174]",
+  "The key words \"MUST\", \"MUST NOT\", \"REQUIRED\", \"SHALL\", \"SHALL NOT\", \"SHOULD\", \"SHOULD NOT\", \"RECOMMENDED\", \"NOT RECOMMENDED\", \"MAY\", and \"OPTIONAL\" in this document are to be interpreted as described in BCP 14 [RFC2119] [RFC8174]"
+ ],
+ "kw_lbl": [
+  "9293",
+  "9112",
+  "9113",
+  "9000"
+ ],
+ "pool_pair": {
+  "1122-9293": 8,
+  "1122-9112": 0,
+  "1122-9113": 0,
+  "1122-9000": 0,
+  "9293-9112": 32,
+  "9293-9113": 30,
+  "9293-9000": 38,
+  "9112-9113": 36,
+  "9112-9000": 27,
+  "9113-9000": 33
+ },
+ "pool_trip": {
+  "1122-9293-9112": 0,
+  "1122-9293-9113": 0,
+  "1122-9293-9000": 0,
+  "1122-9112-9113": 0,
+  "1122-9112-9000": 0,
+  "1122-9113-9000": 0,
+  "9293-9112-9113": 22,
+  "9293-9112-9000": 18,
+  "9293-9113-9000": 18,
+  "9112-9113-9000": 23
+ },
+ "pool_quad": {
+  "1122-9293-9112-9113": 0,
+  "1122-9293-9112-9000": 0,
+  "1122-9293-9113-9000": 0,
+  "1122-9112-9113-9000": 0,
+  "9293-9112-9113-9000": 18
+ },
+ "oshares": [
+  "----|---------|------------------|------|----",
+  "1 - RCV.USER = data received but not yet consumed;",
+  "2 - RCV.WND = space advertised to sender;",
+  "3 - Reduction = space available but not yet",
+  "<SEQ=0><ACK=SEG.SEQ+SEG.LEN><CTL=RST,ACK>",
+  "ERROR_REPORT(local connection name, reason, subreason)",
+  "Note that a TCP implementation MUST keep track of whether a",
+  "return this connection to the LISTEN state and return."
+ ],
+ "qshares": [
+  "\"OPTIONAL\" in this document are to be interpreted as described in",
+  "\"SHOULD\", \"SHOULD NOT\", \"RECOMMENDED\", \"NOT RECOMMENDED\", \"MAY\", and",
+  "(IETF). It represents the consensus of the IETF community. It has",
+  "(https://trustee.ietf.org/license-info) in effect on the date of",
+  "2119 Key Words\", BCP 14, RFC 8174, DOI 10.17487/RFC8174,",
+  "<https://www.rfc-editor.org/info/rfc2119>.",
+  "<https://www.rfc-editor.org/info/rfc8446>.",
+  "Copyright (c) 2022 IETF Trust and the persons identified as the",
+  "Information about the current status of this document, any errata,",
+  "Internet Engineering Steering Group (IESG). Further information on",
+  "Internet Standards is available in Section 2 of RFC 7841.",
+  "May 2017, <https://www.rfc-editor.org/info/rfc8174>.",
+  "The key words \"MUST\", \"MUST NOT\", \"REQUIRED\", \"SHALL\", \"SHALL NOT\",",
+  "This document is a product of the Internet Engineering Task Force",
+  "This document is subject to BCP 78 and the IETF Trust's Legal",
+  "This is an Internet Standards Track document.",
+  "Trust Legal Provisions and are provided without warranty as described",
+  "Version 1.3\", RFC 8446, DOI 10.17487/RFC8446, August 2018,",
+  "[RFC2119] Bradner, S., \"Key words for use in RFCs to Indicate",
+  "[RFC8174] Leiba, B., \"Ambiguity of Uppercase vs Lowercase in RFC",
+  "[TLS13] Rescorla, E., \"The Transport Layer Security (TLS) Protocol",
+  "and how to provide feedback on it may be obtained at",
+  "carefully, as they describe your rights and restrictions with respect",
+  "include Revised BSD License text as described in Section 4.e of the",
+  "publication of this document. Please review these documents",
+  "received public review and has been approved for publication by the",
+  "to this document. Code Components extracted from this document must"
+ ],
+ "num_pairs": [
+  [
+   [
+    "0",
+    "seconds"
+   ],
+   [
+    "0.5",
+    "seconds"
+   ],
+   [
+    "100",
+    "seconds"
+   ],
+   [
+    "3",
+    "seconds"
+   ],
+   [
+    "60",
+    "seconds"
+   ]
+  ],
+  [
+   [
+    "0.5",
+    "seconds"
+   ],
+   [
+    "1.0",
+    "seconds"
+   ],
+   [
+    "100",
+    "seconds"
+   ],
+   [
+    "3",
+    "seconds"
+   ],
+   [
+    "34",
+    "seconds"
+   ],
+   [
+    "4",
+    "microseconds"
+   ],
+   [
+    "60",
+    "seconds"
+   ]
+  ],
+  [],
+  [
+   [
+    "20",
+    "seconds"
+   ]
+  ],
+  [
+   [
+    "1",
+    "ms"
+   ],
+   [
+    "25",
+    "milliseconds"
+   ],
+   [
+    "30",
+    "seconds"
+   ],
+   [
+    "5",
+    "ms"
+   ],
+   [
+    "6",
+    "ms"
+   ]
+  ]
+ ],
+ "pgnum_rows": [
+  [
+   5092
+  ],
+  [
+   9,
+   539,
+   557
+  ],
+  [],
+  [],
+  []
+ ],
+ "closure_keys": [
+  "ans_line_close",
+  "ans_row_ledger",
+  "ans_span_close",
+  "ans_tag_len_ledger",
+  "blk_tcp_char_ledger",
+  "blk_tcp_word_gap_ledger",
+  "blk_tcp_word_ledger",
+  "blk_tcp_word_ledger2",
+  "blk_tone_ruler_close",
+  "kw_face_close",
+  "na_ledger",
+  "na_place_ledger",
+  "num_lit_close",
+  "ovl_new_close",
+  "ovl_same_ledger",
+  "pin_line_close",
+  "pool_ie_close",
+  "pool_sum_close",
+  "pool_tier_close",
+  "pp_gap_close",
+  "ref_ledger",
+  "row_form_ledger",
+  "shell_ledger",
+  "split_ledger",
+  "split_ledger_close",
+  "tag_form_ledger",
+  "tag_kind_close",
+  "tag_paren_kind_close",
+  "tag_paren_place_close",
+  "tagcut_eaten_close",
+  "tagcut_ledger",
+  "tone_drop_ledger",
+  "tone_ledger",
+  "tone_must_ledger",
+  "tone_straddle_ledger"
+ ],
+ "flat": {
+  "bytes": [
+   289148,
+   263696,
+   109913,
+   191811,
+   403442
+  ],
+  "chars": [
+   289148,
+   263692,
+   109910,
+   191809,
+   403426
+  ],
+  "lines": [
+   6845,
+   5577,
+   2462,
+   4189,
+   8486
+  ],
+  "splitlines": [
+   6960,
+   5576,
+   2461,
+   4188,
+   8485
+  ],
+  "splitnl": [
+   6845,
+   5577,
+   2462,
+   4189,
+   8486
+  ],
+  "nonblank": [
+   4549,
+   4370,
+   1932,
+   3350,
+   6791
+  ],
+  "blank": [
+   2296,
+   1207,
+   530,
+   839,
+   1695
+  ],
+  "maxlen": [
+   72,
+   72,
+   72,
+   72,
+   72
+  ],
+  "cr": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "lf": [
+   6844,
+   5576,
+   2461,
+   4188,
+   8485
+  ],
+  "ff": [
+   116,
+   0,
+   0,
+   0,
+   0
+  ],
+  "ff_alone": [
+   116,
+   0,
+   0,
+   0,
+   0
+  ],
+  "ff_led": [
+   116,
+   0,
+   0,
+   0,
+   0
+  ],
+  "ff_before_nl": [
+   116,
+   0,
+   0,
+   0,
+   0
+  ],
+  "ff_at_eof": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "trailing_nl": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "row_form_ledger": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "foot": [
+   116,
+   0,
+   0,
+   0,
+   0
+  ],
+  "hdr_old": [
+   115,
+   0,
+   0,
+   0,
+   0
+  ],
+  "shell_lines": [
+   2527,
+   1207,
+   530,
+   839,
+   1695
+  ],
+  "shell_ledger": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "bom": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "end_nl": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "pgnum": [
+   1,
+   3,
+   0,
+   0,
+   0
+  ],
+  "pgnum_shell": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "pgnum_overstrip": [
+   1,
+   3,
+   0,
+   0,
+   0
+  ],
+  "pgnum_row_lines": [
+   [
+    5092
+   ],
+   [
+    9,
+    539,
+    557
+   ],
+   [],
+   [],
+   []
+  ],
+  "nonascii": [
+   [],
+   [
+    252,
+    65279
+   ],
+   [
+    252,
+    65279
+   ],
+   [
+    65279
+   ],
+   [
+    228,
+    246,
+    248,
+    252,
+    19968,
+    22885,
+    31298,
+    65279
+   ]
+  ],
+  "na_total": [
+   0,
+   3,
+   2,
+   1,
+   12
+  ],
+  "na_bom": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "na_other": [
+   0,
+   2,
+   1,
+   0,
+   11
+  ],
+  "na_ledger": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "ref_toc_line": [
+   6556,
+   128,
+   125,
+   147,
+   246
+  ],
+  "ref_body_line": [
+   6556,
+   4433,
+   1928,
+   3665,
+   8031
+  ],
+  "ref_print_n": [
+   1,
+   2,
+   2,
+   2,
+   2
+  ],
+  "ref_ledger": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "addr_head_n": [
+   1,
+   2,
+   2,
+   4,
+   4
+  ],
+  "addr_head_line": [
+   6826,
+   5571,
+   2436,
+   4178,
+   8474
+  ],
+  "na_lines": [
+   0,
+   3,
+   2,
+   1,
+   7
+  ],
+  "na_name_lines": [
+   0,
+   2,
+   1,
+   0,
+   6
+  ],
+  "na_bom_line": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "na_after_ref": [
+   0,
+   2,
+   1,
+   0,
+   6
+  ],
+  "na_before_ref": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "na_first_after_ref": [
+   -1,
+   1112,
+   530,
+   -1,
+   10
+  ],
+  "na_ref_entry_lines": [
+   0,
+   0,
+   0,
+   0,
+   2
+  ],
+  "na_addr_bullet": [
+   0,
+   0,
+   0,
+   0,
+   3
+  ],
+  "na_other_lines": [
+   0,
+   2,
+   1,
+   0,
+   1
+  ],
+  "na_place_ledger": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "na_cp_tot": 13,
+  "na_cp_new": 13,
+  "bom_in_fold": [
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "bom_survives": 4,
+  "na_old_total": 0,
+  "spell": [
+   [
+    14,
+    0,
+    0,
+    0,
+    4,
+    3,
+    0,
+    0,
+    0,
+    1,
+    16,
+    8,
+    2,
+    1,
+    4
+   ],
+   [
+    11,
+    0,
+    0,
+    0,
+    4,
+    4,
+    0,
+    0,
+    0,
+    1,
+    78,
+    0,
+    10,
+    1,
+    2
+   ],
+   [
+    8,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    1,
+    19,
+    4,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    21,
+    0,
+    0,
+    2,
+    0,
+    8,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    35,
+    19,
+    0,
+    0,
+    0,
+    63,
+    0,
+    2,
+    0,
+    6
+   ]
+  ],
+  "spell_word": [
+   [
+    10,
+    0,
+    0,
+    0,
+    4,
+    3,
+    0,
+    0,
+    0,
+    1,
+    12,
+    8,
+    2,
+    1,
+    4
+   ],
+   [
+    7,
+    0,
+    0,
+    0,
+    4,
+    4,
+    0,
+    0,
+    0,
+    1,
+    68,
+    0,
+    10,
+    1,
+    2
+   ],
+   [
+    8,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    1,
+    19,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    21,
+    0,
+    0,
+    1,
+    0,
+    6,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    35,
+    19,
+    0,
+    0,
+    0,
+    33,
+    0,
+    2,
+    0,
+    6
+   ]
+  ],
+  "spell_ruler_gap": [
+   4,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   4,
+   0,
+   0,
+   0,
+   0,
+   4,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   10,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   3,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   30,
+   0,
+   0,
+   0,
+   0
+  ],
+  "spell_ruler_gap_tot": 58,
+  "spell_tot": [
+   53,
+   111,
+   35,
+   33,
+   125
+  ],
+  "ka_forms": [
+   [
+    0,
+    4
+   ],
+   [
+    0,
+    4
+   ],
+   [
+    0
+   ],
+   [
+    0
+   ],
+   []
+  ],
+  "ka_form_n": [
+   2,
+   2,
+   1,
+   1,
+   0
+  ],
+  "ka_merged": 0,
+  "ka_hyphen": [
+   14,
+   11,
+   8,
+   1,
+   0
+  ],
+  "ack": [
+   [
+    1,
+    16
+   ],
+   [
+    1,
+    78
+   ],
+   [
+    4,
+    0
+   ],
+   [
+    0,
+    8
+   ],
+   [
+    0,
+    63
+   ]
+  ],
+  "ack_both": [
+   1,
+   1,
+   0,
+   0,
+   0
+  ],
+  "ack_minor": [
+   1,
+   1,
+   0,
+   0,
+   0
+  ],
+  "ack_major": [
+   16,
+   78,
+   4,
+   8,
+   63
+  ],
+  "ack_skew": [
+   16.0,
+   78.0,
+   -1,
+   -1,
+   -1
+  ],
+  "impl": [
+   [
+    8,
+    2
+   ],
+   [
+    0,
+    10
+   ],
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    2
+   ]
+  ],
+  "impl_own": [
+   [
+    "",
+    ""
+   ],
+   [
+    "",
+    "implementers"
+   ],
+   [
+    "",
+    ""
+   ],
+   [
+    "",
+    "implementers"
+   ],
+   [
+    "",
+    "implementers"
+   ]
+  ],
+  "idle_term": [
+   3,
+   4,
+   2,
+   21,
+   35
+  ],
+  "idle_compound": [
+   0,
+   0,
+   0,
+   0,
+   19
+  ],
+  "persist": [
+   0,
+   0,
+   19,
+   2,
+   0
+  ],
+  "spell_own": [
+   [
+    "implementors"
+   ],
+   [],
+   [
+    "inactive"
+   ],
+   [],
+   [
+    "idle timeout"
+   ]
+  ],
+  "spell_own_tot": 3,
+  "tone_line": [
+   [
+    200,
+    20,
+    73,
+    8,
+    41
+   ],
+   [
+    228,
+    7,
+    40,
+    8,
+    58
+   ],
+   [
+    87,
+    22,
+    31,
+    6,
+    22
+   ],
+   [
+    225,
+    56,
+    31,
+    7,
+    51
+   ],
+   [
+    304,
+    85,
+    123,
+    14,
+    120
+   ]
+  ],
+  "tone_fold": [
+   [
+    200,
+    22,
+    73,
+    8,
+    41
+   ],
+   [
+    228,
+    8,
+    40,
+    8,
+    58
+   ],
+   [
+    87,
+    22,
+    31,
+    6,
+    22
+   ],
+   [
+    225,
+    56,
+    31,
+    7,
+    51
+   ],
+   [
+    304,
+    89,
+    123,
+    14,
+    120
+   ]
+  ],
+  "tone_sh": [
+   [
+    200,
+    22,
+    73,
+    8,
+    41
+   ],
+   [
+    228,
+    8,
+    40,
+    8,
+    58
+   ],
+   [
+    87,
+    22,
+    31,
+    6,
+    22
+   ],
+   [
+    225,
+    56,
+    31,
+    7,
+    51
+   ],
+   [
+    304,
+    89,
+    123,
+    14,
+    120
+   ]
+  ],
+  "tone_tag": [
+   [
+    200,
+    22,
+    73,
+    8,
+    41
+   ],
+   [
+    167,
+    8,
+    40,
+    8,
+    40
+   ],
+   [
+    87,
+    22,
+    31,
+    6,
+    22
+   ],
+   [
+    225,
+    56,
+    31,
+    7,
+    51
+   ],
+   [
+    304,
+    89,
+    123,
+    14,
+    120
+   ]
+  ],
+  "tone_wrap_gain": [
+   0,
+   2,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   4,
+   0,
+   0,
+   0
+  ],
+  "tone_sh_gain": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "tone_tag_gain": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   -61,
+   0,
+   0,
+   0,
+   -18,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "tone_tot": [
+   344,
+   342,
+   168,
+   370,
+   650
+  ],
+  "tone_ledger": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "must_bare": [
+   178,
+   220,
+   65,
+   169,
+   215
+  ],
+  "mustnot_of_must": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "tone_must_ledger": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "tag_raw": [
+   0,
+   237,
+   0,
+   0,
+   0
+  ],
+  "tag_sh": [
+   0,
+   237,
+   0,
+   0,
+   0
+  ],
+  "tag_decl": [
+   0,
+   1,
+   0,
+   0,
+   0
+  ],
+  "tag_kinds": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    140,
+    0,
+    36,
+    61,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tag_kind_sum": [
+   0,
+   237,
+   0,
+   0,
+   0
+  ],
+  "tag_kind_close": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "tag_paren": [
+   0,
+   108,
+   0,
+   0,
+   0
+  ],
+  "tag_bare": [
+   0,
+   126,
+   0,
+   0,
+   0
+  ],
+  "tag_paren_bracket": [
+   0,
+   2,
+   0,
+   0,
+   0
+  ],
+  "tag_paren_prose": [
+   0,
+   1,
+   0,
+   0,
+   0
+  ],
+  "tag_paren_prose_samples": [
+   [],
+   [
+    "(MUST-4 -- note Maximum Segment"
+   ],
+   [],
+   [],
+   []
+  ],
+  "tag_bracket_samples": [
+   [],
+   [
+    "by the IP layer [(MUST-63)] (see ",
+    "lticast address [(MUST-57)]. This"
+   ],
+   [],
+   [],
+   []
+  ],
+  "tag_form_ledger": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "tag_paren_kind": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    61,
+    0,
+    0,
+    0,
+    18,
+    29,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tag_paren_kind_close": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "tag_paren_period": [
+   0,
+   81,
+   0,
+   0,
+   0
+  ],
+  "tag_paren_comma": [
+   0,
+   14,
+   0,
+   0,
+   0
+  ],
+  "tag_paren_mid": [
+   0,
+   13,
+   0,
+   0,
+   0
+  ],
+  "tag_paren_place_close": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "tag_max_num": [
+   0,
+   69,
+   0,
+   0,
+   0
+  ],
+  "tone_drop_tag": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    61,
+    0,
+    0,
+    0,
+    18
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "tone_drop_tot": [
+   0,
+   79,
+   0,
+   0,
+   0
+  ],
+  "tone_drop_ledger": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "dur": [
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    25,
+    29,
+    44,
+    44
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    49,
+    23,
+    39,
+    39
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    3,
+    6,
+    6
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    4,
+    4
+   ],
+   [
+    0,
+    0,
+    0,
+    11,
+    0,
+    3,
+    0,
+    7,
+    35,
+    35
+   ]
+  ],
+  "dur_word": [
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    11,
+    43,
+    43
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    9,
+    34,
+    34
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    3,
+    3
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    4,
+    4
+   ],
+   [
+    0,
+    0,
+    0,
+    11,
+    0,
+    3,
+    0,
+    2,
+    33,
+    33
+   ]
+  ],
+  "dur_ruler_gap": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   25,
+   18,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   49,
+   14,
+   5,
+   5,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   4,
+   0,
+   3,
+   3,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   5,
+   2,
+   2
+  ],
+  "numw": [
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0
+   ]
+  ],
+  "num_digit_two": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "num_digit_two_tot": 0,
+  "num_word_two": [
+   1,
+   1,
+   0,
+   0,
+   0
+  ],
+  "num_longform_two": [
+   0,
+   1,
+   0,
+   0,
+   0
+  ],
+  "num_pairs": [
+   [
+    [
+     "0",
+     "seconds"
+    ],
+    [
+     "0.5",
+     "seconds"
+    ],
+    [
+     "100",
+     "seconds"
+    ],
+    [
+     "3",
+     "seconds"
+    ],
+    [
+     "60",
+     "seconds"
+    ]
+   ],
+   [
+    [
+     "0.5",
+     "seconds"
+    ],
+    [
+     "1.0",
+     "seconds"
+    ],
+    [
+     "100",
+     "seconds"
+    ],
+    [
+     "3",
+     "seconds"
+    ],
+    [
+     "34",
+     "seconds"
+    ],
+    [
+     "4",
+     "microseconds"
+    ],
+    [
+     "60",
+     "seconds"
+    ]
+   ],
+   [],
+   [
+    [
+     "20",
+     "seconds"
+    ]
+   ],
+   [
+    [
+     "1",
+     "ms"
+    ],
+    [
+     "25",
+     "milliseconds"
+    ],
+    [
+     "30",
+     "seconds"
+    ],
+    [
+     "5",
+     "ms"
+    ],
+    [
+     "6",
+     "ms"
+    ]
+   ]
+  ],
+  "num_pairs_wide": [
+   [
+    [
+     "0",
+     "seconds"
+    ],
+    [
+     "0.5",
+     "seconds"
+    ],
+    [
+     "100",
+     "seconds"
+    ],
+    [
+     "3",
+     "s"
+    ],
+    [
+     "3",
+     "seconds"
+    ],
+    [
+     "60",
+     "seconds"
+    ]
+   ],
+   [
+    [
+     "0.5",
+     "seconds"
+    ],
+    [
+     "1.0",
+     "seconds"
+    ],
+    [
+     "10",
+     "s"
+    ],
+    [
+     "100",
+     "seconds"
+    ],
+    [
+     "3",
+     "seconds"
+    ],
+    [
+     "34",
+     "seconds"
+    ],
+    [
+     "4",
+     "microseconds"
+    ],
+    [
+     "60",
+     "seconds"
+    ]
+   ],
+   [],
+   [
+    [
+     "20",
+     "seconds"
+    ]
+   ],
+   [
+    [
+     "1",
+     "ms"
+    ],
+    [
+     "25",
+     "milliseconds"
+    ],
+    [
+     "30",
+     "seconds"
+    ],
+    [
+     "5",
+     "ms"
+    ],
+    [
+     "6",
+     "ms"
+    ]
+   ]
+  ],
+  "numval_n": [
+   5,
+   7,
+   0,
+   1,
+   5
+  ],
+  "numval_wide_n": [
+   6,
+   8,
+   0,
+   1,
+   5
+  ],
+  "numval_s_extra": [
+   [
+    [
+     "3",
+     "s"
+    ]
+   ],
+   [
+    [
+     "10",
+     "s"
+    ]
+   ],
+   [],
+   [],
+   []
+  ],
+  "numval_s_lost": [
+   [],
+   [],
+   [],
+   [],
+   []
+  ],
+  "num": [
+   [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ]
+  ],
+  "num_unlisted": [
+   [],
+   [
+    "4 microseconds"
+   ],
+   [],
+   [],
+   []
+  ],
+  "num_unlisted_n": [
+   0,
+   1,
+   0,
+   0,
+   0
+  ],
+  "num_lit_close": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "num_tot": [
+   425,
+   396,
+   143,
+   155,
+   358
+  ],
+  "num_pairs_pick": [
+   [
+    [
+     "0",
+     "seconds"
+    ],
+    [
+     "0.5",
+     "seconds"
+    ],
+    [
+     "100",
+     "seconds"
+    ],
+    [
+     "3",
+     "seconds"
+    ],
+    [
+     "60",
+     "seconds"
+    ]
+   ],
+   [
+    [
+     "0.5",
+     "seconds"
+    ],
+    [
+     "1.0",
+     "seconds"
+    ],
+    [
+     "10",
+     "s"
+    ],
+    [
+     "100",
+     "seconds"
+    ],
+    [
+     "3",
+     "seconds"
+    ],
+    [
+     "34",
+     "seconds"
+    ],
+    [
+     "4",
+     "microseconds"
+    ],
+    [
+     "60",
+     "seconds"
+    ]
+   ],
+   [],
+   [
+    [
+     "20",
+     "seconds"
+    ]
+   ],
+   [
+    [
+     "1",
+     "ms"
+    ],
+    [
+     "25",
+     "milliseconds"
+    ],
+    [
+     "30",
+     "seconds"
+    ],
+    [
+     "5",
+     "ms"
+    ],
+    [
+     "6",
+     "ms"
+    ]
+   ]
+  ],
+  "num_ruler_gap": [
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  "num_own": [
+   [
+    "0 seconds"
+   ],
+   [
+    "1.0 seconds",
+    "34 seconds",
+    "4 microseconds"
+   ],
+   [],
+   [
+    "20 seconds"
+   ],
+   [
+    "1 ms",
+    "25 milliseconds",
+    "30 seconds",
+    "5 ms",
+    "6 ms"
+   ]
+  ],
+  "digit_form_two_hours": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "role_line": [
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    8,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    2,
+    1,
+    2,
+    0,
+    0,
+    0
+   ]
+  ],
+  "role_fold": [
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    8,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    0,
+    0,
+    0
+   ]
+  ],
+  "role_sh": [
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    8,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    0,
+    0,
+    0
+   ]
+  ],
+  "role_tag": [
+   [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    1
+   ],
+   [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    8,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    0,
+    0,
+    0
+   ]
+  ],
+  "role_line_n": [
+   8,
+   7,
+   5,
+   6,
+   16
+  ],
+  "role_fold_n": [
+   11,
+   11,
+   8,
+   9,
+   21
+  ],
+  "role_sh_n": [
+   11,
+   11,
+   8,
+   9,
+   21
+  ],
+  "role_tag_n": [
+   11,
+   12,
+   8,
+   9,
+   21
+  ],
+  "role_line_read_n": 30,
+  "role_line_miss_n": 15,
+  "role_wrap": [
+   [
+    3,
+    6
+   ],
+   [
+    0,
+    3,
+    7,
+    34
+   ],
+   [
+    8,
+    11,
+    15
+   ],
+   [
+    16,
+    20
+   ],
+   [
+    24,
+    26,
+    27,
+    30
+   ]
+  ],
+  "role_wrap_n": [
+   2,
+   4,
+   3,
+   2,
+   4
+  ],
+  "role_wrap_keys": [
+   [
+    0,
+    3
+   ],
+   [
+    0,
+    6
+   ],
+   [
+    1,
+    0
+   ],
+   [
+    1,
+    3
+   ],
+   [
+    1,
+    7
+   ],
+   [
+    1,
+    34
+   ],
+   [
+    2,
+    8
+   ],
+   [
+    2,
+    11
+   ],
+   [
+    2,
+    15
+   ],
+   [
+    3,
+    16
+   ],
+   [
+    3,
+    20
+   ],
+   [
+    4,
+    24
+   ],
+   [
+    4,
+    26
+   ],
+   [
+    4,
+    27
+   ],
+   [
+    4,
+    30
+   ]
+  ],
+  "role_shell": [
+   [],
+   [],
+   [],
+   [],
+   []
+  ],
+  "role_shell_n": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "role_shell_needles": [],
+  "role_tagcut": [
+   [],
+   [
+    2
+   ],
+   [],
+   [],
+   []
+  ],
+  "role_tagcut_n": [
+   0,
+   1,
+   0,
+   0,
+   0
+  ],
+  "role_tagcut_keys": [
+   [
+    1,
+    2
+   ]
+  ],
+  "role_gain_fold": [
+   3,
+   4,
+   3,
+   3,
+   5
+  ],
+  "role_gain_sh": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "role_gain_tag": [
+   0,
+   1,
+   0,
+   0,
+   0
+  ],
+  "role_src": {
+   "3": "9293",
+   "6": "1122",
+   "0": "9293",
+   "2": "9293",
+   "7": "9293",
+   "34": "9293",
+   "8": "9112",
+   "11": "9112",
+   "15": "9112",
+   "16": "9113",
+   "20": "9113",
+   "24": "9000",
+   "26": "9000",
+   "27": "9000",
+   "30": "9000"
+  },
+  "role_read_tag_n": 46,
+  "needle_n": 37,
+  "role_hit_by_face": [
+   9,
+   11,
+   8,
+   7,
+   11
+  ],
+  "role_wrap_flat": [
+   [
+    "1122",
+    "interval MUST be configurable"
+   ],
+   [
+    "1122",
+    "to confirm that an idle connection is still active"
+   ],
+   [
+    "9293",
+    "they MUST default to off"
+   ],
+   [
+    "9293",
+    "interval MUST be configurable"
+   ],
+   [
+    "9293",
+    "MUST NOT interpret failure to respond"
+   ],
+   [
+    "9293",
+    "SEG.SEQ = SND.NXT-1"
+   ],
+   [
+    "9112",
+    "no requirements on the length (or existence) of this timeout"
+   ],
+   [
+    "9112",
+    "issue a graceful close"
+   ],
+   [
+    "9112",
+    "Proxy servers might make this a higher value"
+   ],
+   [
+    "9113",
+    "encouraged to maintain open connections for as long as possible"
+   ],
+   [
+    "9113",
+    "sent a SETTINGS frame but did not receive"
+   ],
+   [
+    "9000",
+    "the minimum of the two advertised values"
+   ],
+   [
+    "9000",
+    "MUST increase the idle timeout period"
+   ],
+   [
+    "9000",
+    "at least three times the current Probe Timeout"
+   ],
+   [
+    "9000",
+    "connection is silently closed"
+   ]
+  ],
+  "role_tagcut_flat": [
+   [
+    "9293",
+    "configurable and MUST default"
+   ]
+  ],
+  "page_lit_fold": [
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  "page_lit_sh": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "page_lit_rows": [
+   [
+    58
+   ],
+   [],
+   [],
+   [],
+   []
+  ],
+  "page_lit_rows_shell": 0,
+  "neg_faces": [
+   "sh",
+   "sh",
+   "sh",
+   "sh",
+   "sh",
+   "sh",
+   "sh",
+   "fold",
+   "sh",
+   "sh",
+   "sh",
+   "sh",
+   "sh",
+   "sh",
+   "sh"
+  ],
+  "neg_fold_n": 1,
+  "neg_n": 15,
+  "neg_probes": 43,
+  "neg_word": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    10,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    7,
+    2,
+    0,
+    3,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    8,
+    0,
+    0,
+    2,
+    5,
+    0,
+    0
+   ],
+   [
+    0,
+    2,
+    53,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    3,
+    169,
+    2,
+    0,
+    0,
+    0
+   ],
+   [
+    8,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    385,
+    3,
+    2,
+    0,
+    8,
+    19
+   ]
+  ],
+  "neg_sub": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    14,
+    2,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    11,
+    5,
+    0,
+    3,
+    0,
+    9,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    8,
+    1,
+    0,
+    2,
+    17,
+    1,
+    0
+   ],
+   [
+    0,
+    2,
+    53,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    5,
+    169,
+    2,
+    0,
+    1,
+    0
+   ],
+   [
+    8,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    387,
+    3,
+    2,
+    0,
+    143,
+    19
+   ]
+  ],
+  "neg_zero_hits": 0,
+  "neg_owner_present": 15,
+  "neg_cold_probes": [],
+  "neg_sub_false_rows": [
+   [
+    "1122",
+    "keep-alive",
+    14,
+    10
+   ],
+   [
+    "1122",
+    "quic",
+    2,
+    0
+   ],
+   [
+    "1122",
+    "PTO",
+    1,
+    0
+   ],
+   [
+    "9293",
+    "keep-alive",
+    11,
+    7
+   ],
+   [
+    "9293",
+    "quic",
+    5,
+    2
+   ],
+   [
+    "9293",
+    "PTO",
+    9,
+    0
+   ],
+   [
+    "9112",
+    "quic",
+    1,
+    0
+   ],
+   [
+    "9112",
+    "persistent connection",
+    17,
+    5
+   ],
+   [
+    "9112",
+    "PTO",
+    1,
+    0
+   ],
+   [
+    "9113",
+    "quic",
+    5,
+    3
+   ],
+   [
+    "9113",
+    "PTO",
+    1,
+    0
+   ],
+   [
+    "9000",
+    "quic",
+    387,
+    385
+   ],
+   [
+    "9000",
+    "PTO",
+    143,
+    8
+   ]
+  ],
+  "neg_sub_false": 177,
+  "neg_sub_ruler": 597,
+  "ans_at": [
+   181910,
+   85740,
+   62306,
+   130582,
+   137669
+  ],
+  "ans": [
+   " This interval MUST be configurable and MUST default to no less than two hours.",
+   " This interval MUST be configurable (MUST-27) and MUST default to no less than two hours (MUST-28).",
+   " The use of persistent connections places no requirements on the length (or existence) of this timeout for either the client or the server.",
+   " Servers are encouraged to maintain open connections for as long as possible but are permitted to terminate idle connections if necessary.",
+   " Each endpoint advertises a max_idle_timeout, but the effective value at an endpoint is computed as the minimum of the two advertised values (or the sole advertised value, if only one endpoint advertises a non-zero value)."
+  ],
+  "ans_pair_same": 1,
+  "ans_words": [
+   14,
+   16,
+   23,
+   21,
+   35
+  ],
+  "ans_chars": [
+   79,
+   99,
+   139,
+   138,
+   222
+  ],
+  "ans_start_line": [
+   5948,
+   2049,
+   1469,
+   3154,
+   3107
+  ],
+  "ans_end_line": [
+   5948,
+   2049,
+   1469,
+   3154,
+   3108
+  ],
+  "ans_span": [
+   1,
+   1,
+   1,
+   1,
+   2
+  ],
+  "ans_needle_line": [
+   5948,
+   2049,
+   1469,
+   3154,
+   3107
+  ],
+  "ans_sent_line": [
+   5947,
+   2048,
+   1468,
+   3153,
+   3106
+  ],
+  "ans_sent_end": [
+   5948,
+   2050,
+   1470,
+   3155,
+   3109
+  ],
+  "ans_sent_span": [
+   2,
+   3,
+   3,
+   3,
+   4
+  ],
+  "ans_anchor_line": [
+   5947,
+   2048,
+   1468,
+   3153,
+   3106
+  ],
+  "ans_span_tot": 15,
+  "ans_block_lines": [
+   2,
+   3,
+   3,
+   3,
+   4
+  ],
+  "ans_shell_rows": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "ans_tagdiff": 20,
+  "ans_tag_len": 20,
+  "ans_tag_len_ledger": 0,
+  "ans_tag_n_in_sent": [
+   0,
+   2,
+   0,
+   0,
+   0
+  ],
+  "ans_na": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "ans_punct": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "ovl_head_line": [
+   5937,
+   2029
+  ],
+  "ovl_block_lines": [
+   87,
+   32
+  ],
+  "ovl_spec_lines": [
+   33,
+   32
+  ],
+  "ovl_shell_in_block": 15,
+  "ovl_spec_lines_content": [
+   18,
+   32
+  ],
+  "ovl_s1": 7,
+  "ovl_s2": 11,
+  "ovl_same_raw": 1,
+  "ovl_same_tag": 4,
+  "ovl_same_canon": 5,
+  "ovl_new": 6,
+  "ovl_disc_promoted": 2,
+  "ovl_same_ledger": 0,
+  "ovl_monotone": 2,
+  "ovl_tag_only": 3,
+  "sec_no": [
+   "4.2.3.6",
+   "3.8.4",
+   "9.5",
+   "9.1",
+   "10.1"
+  ],
+  "sec_print_n": [
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "sec_body_line": [
+   5937,
+   2029,
+   1463,
+   3130,
+   3098
+  ],
+  "sec_toc_line": [
+   185,
+   109,
+   108,
+   126,
+   125
+  ],
+  "sec_toc_indent": [
+   12,
+   7,
+   5,
+   5,
+   5
+  ],
+  "sec_body_indent": [
+   9,
+   0,
+   0,
+   0,
+   0
+  ],
+  "sec_shell_rows": [
+   33,
+   6,
+   6,
+   12,
+   13
+  ],
+  "sec_end_no": [
+   "4.2.3.7",
+   "3.8.5.",
+   "9.6.",
+   "9.2.",
+   "10.2."
+  ],
+  "sec_lines": [
+   88,
+   33,
+   35,
+   65,
+   70
+  ],
+  "sec_chars": [
+   2638,
+   1571,
+   1759,
+   3268,
+   3458
+  ],
+  "sec_tone_tot": [
+   13,
+   20,
+   6,
+   7,
+   2
+  ],
+  "sec_child": [
+   0,
+   0,
+   0,
+   1,
+   2
+  ],
+  "sec_hit_n": [
+   2,
+   2,
+   2,
+   2,
+   19
+  ],
+  "head_toc_leader_strict": [
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  "head_toc_leader_spaced": [
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  "sec_lines_tot": 291,
+  "sec_shell_tot": 70,
+  "sec_tone_tot_all": 48,
+  "sec_tone_only_n": 5,
+  "sec_tone_zero_n": 0,
+  "sec_span_pct": [
+   1.28,
+   0.72,
+   1.76,
+   1.88,
+   0.94
+  ],
+  "sec_ans_inside": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "sec_ans_gap": [
+   10,
+   19,
+   5,
+   23,
+   8
+  ],
+  "kw_at": [
+   -1,
+   8743,
+   5295,
+   9143,
+   12689
+  ],
+  "kw_docs": 4,
+  "kw_cite_bcp": [
+   0,
+   1,
+   0,
+   0,
+   0
+  ],
+  "kw_cite_pair": [
+   0,
+   0,
+   1,
+   1,
+   1
+  ],
+  "kw_head": [
+   "",
+   "the key words \"must\", \"must not\", \"required\", \"shall\", \"shall not\", \"should\", \"should not\", \"recommended\", \"not recommended\", \"may\", and \"optional\" in this document are to be interpreted as ",
+   "the key words \"must\", \"must not\", \"required\", \"shall\", \"shall not\", \"should\", \"should not\", \"recommended\", \"not recommended\", \"may\", and \"optional\" in this document are to be interpreted as ",
+   "the key words \"must\", \"must not\", \"required\", \"shall\", \"shall not\", \"should\", \"should not\", \"recommended\", \"not recommended\", \"may\", and \"optional\" in this document are to be interpreted as ",
+   "the key words \"must\", \"must not\", \"required\", \"shall\", \"shall not\", \"should\", \"should not\", \"recommended\", \"not recommended\", \"may\", and \"optional\" in this document are to be interpreted as "
+  ],
+  "voice_we": [
+   34,
+   21,
+   0,
+   0,
+   1
+  ],
+  "voice_weverb": [
+   6,
+   0,
+   0,
+   0,
+   0
+  ],
+  "voice_impersonal": [
+   42,
+   38,
+   28,
+   38,
+   40
+  ],
+  "cit_brk": [
+   0,
+   0,
+   35,
+   44,
+   66
+  ],
+  "cit_rfc": [
+   0,
+   156,
+   30,
+   48,
+   40
+  ],
+  "cit_rfc_hyphen": [
+   24,
+   0,
+   0,
+   0,
+   0
+  ],
+  "cite_matrix": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    25,
+    9,
+    0,
+    0,
+    1,
+    2,
+    1,
+    60,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    3,
+    0,
+    0,
+    1,
+    1,
+    0,
+    6,
+    0
+   ],
+   [
+    1,
+    0,
+    1,
+    0,
+    2,
+    1,
+    1,
+    1,
+    0,
+    18
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1
+   ]
+  ],
+  "cite_own": [
+   0,
+   5,
+   3,
+   7,
+   3
+  ],
+  "hexes": [
+   0,
+   0,
+   8,
+   89,
+   218
+  ],
+  "sec_refs": [
+   123,
+   49,
+   208,
+   311,
+   530
+  ],
+  "par": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    2,
+    0,
+    0,
+    0
+   ],
+   [
+    8,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "par_n": [
+   0,
+   0,
+   0,
+   2,
+   8
+  ],
+  "par_under": [
+   0,
+   0,
+   1,
+   2,
+   190
+  ],
+  "par_own": [
+   [],
+   [],
+   [],
+   [
+    "SETTINGS_TIMEOUT"
+   ],
+   [
+    "max_idle_timeout"
+   ]
+  ],
+  "years": [
+   1989,
+   2022,
+   2022,
+   2022,
+   2021
+  ],
+  "pick_needle_gap": 0,
+  "numunit_pick": [
+   [
+    [
+     "0",
+     "seconds"
+    ],
+    [
+     "0.5",
+     "seconds"
+    ],
+    [
+     "100",
+     "seconds"
+    ],
+    [
+     "3",
+     "seconds"
+    ],
+    [
+     "60",
+     "seconds"
+    ]
+   ],
+   [
+    [
+     "0.5",
+     "seconds"
+    ],
+    [
+     "1.0",
+     "seconds"
+    ],
+    [
+     "10",
+     "s"
+    ],
+    [
+     "100",
+     "seconds"
+    ],
+    [
+     "3",
+     "seconds"
+    ],
+    [
+     "34",
+     "seconds"
+    ],
+    [
+     "4",
+     "microseconds"
+    ],
+    [
+     "60",
+     "seconds"
+    ]
+   ],
+   [],
+   [
+    [
+     "20",
+     "seconds"
+    ]
+   ],
+   [
+    [
+     "1",
+     "ms"
+    ],
+    [
+     "25",
+     "milliseconds"
+    ],
+    [
+     "30",
+     "seconds"
+    ],
+    [
+     "5",
+     "ms"
+    ],
+    [
+     "6",
+     "ms"
+    ]
+   ]
+  ],
+  "pin_checked": 5,
+  "pin_line_close": 0,
+  "pick_agree": 63,
+  "pick_diff": 0,
+  "pick_same_n": 63,
+  "pick_diff_keys": [],
+  "bool_clos_n": 36,
+  "bool_clos_sum": 36,
+  "mk_ans_sent_line": [
+   5947,
+   2048,
+   1468,
+   3153,
+   3106
+  ],
+  "mk_ans_sent_end": [
+   5948,
+   2050,
+   1470,
+   3155,
+   3109
+  ],
+  "mk_ans_sent_span": [
+   2,
+   3,
+   3,
+   3,
+   4
+  ],
+  "mk_ans_needle_line": [
+   5948,
+   2049,
+   1469,
+   3154,
+   3107
+  ],
+  "num_fam": [
+   "0",
+   "0.5",
+   "1",
+   "1.0",
+   "10",
+   "20",
+   "25",
+   "3",
+   "30",
+   "34",
+   "5",
+   "6",
+   "60",
+   "100"
+  ],
+  "shell_pred_diff": 0,
+  "pp_rows": [
+   4318,
+   4370,
+   1932,
+   3350,
+   6791
+  ],
+  "pp_gap_rows": [
+   231,
+   0,
+   0,
+   0,
+   0
+  ],
+  "pp_shell_nonblank": [
+   231,
+   0,
+   0,
+   0,
+   0
+  ],
+  "pp_gap_close": 0,
+  "blk_lo": [
+   5939,
+   2041,
+   1465,
+   3153,
+   3100,
+   5971,
+   2038,
+   3120,
+   1753,
+   1472,
+   5966,
+   221,
+   172,
+   267,
+   380
+  ],
+  "blk_hi": [
+   5948,
+   2050,
+   1470,
+   3159,
+   3111,
+   5974,
+   2041,
+   3124,
+   1758,
+   1476,
+   5969,
+   224,
+   175,
+   270,
+   383
+  ],
+  "blk_rows": [
+   10,
+   10,
+   6,
+   7,
+   12,
+   4,
+   4,
+   5,
+   6,
+   5,
+   4,
+   4,
+   4,
+   4,
+   4
+  ],
+  "blk_chars": [
+   470,
+   431,
+   392,
+   448,
+   651,
+   164,
+   251,
+   271,
+   372,
+   317,
+   209,
+   218,
+   229,
+   229,
+   229
+  ],
+  "blk_words": [
+   75,
+   71,
+   65,
+   65,
+   100,
+   27,
+   43,
+   45,
+   62,
+   50,
+   30,
+   33,
+   33,
+   33,
+   33
+  ],
+  "blk_vocab": [
+   58,
+   49,
+   48,
+   57,
+   62,
+   22,
+   38,
+   33,
+   53,
+   42,
+   25,
+   30,
+   30,
+   30,
+   30
+  ],
+  "blk_five_chars": 2392,
+  "blk_five_rows": 45,
+  "blk_five_words": 376,
+  "blk_rows_tot": 89,
+  "blk_words_tot": 765,
+  "tone_must_blk": [
+   5,
+   10,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   2,
+   2,
+   2,
+   2
+  ],
+  "tone_may_blk": [
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "tone_should_blk": [
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   2,
+   1,
+   2,
+   2,
+   2,
+   2
+  ],
+  "tone_mustnot_blk": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   1,
+   1,
+   1
+  ],
+  "tone_tag_blk": [
+   0,
+   5,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "tone_in_blk": [
+   6,
+   10,
+   0,
+   1,
+   0,
+   0,
+   0,
+   1,
+   1,
+   2,
+   2,
+   5,
+   5,
+   5,
+   5
+  ],
+  "blk_must_cur": [
+   5,
+   10,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   2,
+   2,
+   2,
+   2
+  ],
+  "blk_must_re": [
+   5,
+   10,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   2,
+   2,
+   2,
+   2
+  ],
+  "blk_tone_ruler_close": 0,
+  "blk_tcp_len_gap": -39,
+  "blk_tcp_tag_chars": 50,
+  "blk_tcp_tag_widths": [
+   10,
+   10,
+   10,
+   10,
+   10
+  ],
+  "kw_head_pre": [
+   31,
+   31,
+   31,
+   33,
+   33,
+   33
+  ],
+  "kw_head_suf": [
+   0,
+   0,
+   0,
+   33,
+   33,
+   33
+  ],
+  "kw_same": [
+   0,
+   0,
+   0,
+   1,
+   1,
+   1
+  ],
+  "kw_pair_lbl": [
+   "9293-9112",
+   "9293-9113",
+   "9293-9000",
+   "9112-9113",
+   "9112-9000",
+   "9113-9000"
+  ],
+  "kw_head_min": 31,
+  "kw_head_max": 33,
+  "kw_same_n": 3,
+  "kw_suf_tot": 99,
+  "kw_suf_zero_n": 3,
+  "kw_vocab_max": 30,
+  "kw_same_raw": [
+   0,
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  "kw_same_raw_n": 1,
+  "kw_wrap_diff": 2,
+  "kw_face_close": 2,
+  "kw_suf_nz_n": 3,
+  "kw_minus_row": [
+   -1,
+   221,
+   172,
+   267,
+   380
+  ],
+  "kw_all_head": 31,
+  "blk_tcp_op_tags": [
+   "delete",
+   "equal",
+   "insert",
+   "equal",
+   "replace",
+   "equal"
+  ],
+  "blk_tcp_op_n": 6,
+  "blk_tcp_equal": 59,
+  "blk_tcp_equal_runs": 3,
+  "blk_tcp_equal_max": 33,
+  "blk_tcp_drop": 16,
+  "blk_tcp_insert": 7,
+  "blk_tcp_replace": 1,
+  "blk_tcp_word_ledger": 0,
+  "blk_tcp_word_ledger2": 0,
+  "blk_tcp_word_gap_ledger": 0,
+  "blk_tcp_char_drop": 137,
+  "blk_tcp_char_insert": 48,
+  "blk_tcp_naked_chars": 381,
+  "blk_tcp_char_ledger": 0,
+  "blk_tcp_verbatim_sub": 0,
+  "blk_words_per_row": [
+   7,
+   7,
+   10,
+   9,
+   8
+  ],
+  "blk_is_one_line": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "blk_one_line_n": 0,
+  "ans_head": [
+   181910,
+   85740,
+   62306,
+   130582,
+   137669
+  ],
+  "ans_head_line": [
+   5948,
+   2049,
+   1469,
+   3154,
+   3107
+  ],
+  "ans_tail_line": [
+   5948,
+   2049,
+   1469,
+   3154,
+   3108
+  ],
+  "ans_needle_span": [
+   1,
+   1,
+   1,
+   1,
+   2
+  ],
+  "ans_sent_at": [
+   181871,
+   85691,
+   62272,
+   130498,
+   137582
+  ],
+  "ans_span_ind": [
+   1,
+   1,
+   1,
+   1,
+   2
+  ],
+  "ans_line_close": 0,
+  "ans_span_close": 0,
+  "ans_needle_gap": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "ans_row_ledger": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "split_k": [
+   3,
+   6,
+   0,
+   3,
+   7,
+   34,
+   8,
+   11,
+   15,
+   16,
+   20,
+   24,
+   26,
+   27,
+   30
+  ],
+  "split_lbl": [
+   "1122",
+   "1122",
+   "9293",
+   "9293",
+   "9293",
+   "9293",
+   "9112",
+   "9112",
+   "9112",
+   "9113",
+   "9113",
+   "9000",
+   "9000",
+   "9000",
+   "9000"
+  ],
+  "split_head": [
+   5947,
+   5984,
+   2043,
+   2048,
+   2054,
+   2040,
+   1469,
+   1472,
+   1466,
+   3153,
+   2329,
+   3107,
+   3120,
+   3121,
+   3101
+  ],
+  "split_tail": [
+   5948,
+   5985,
+   2044,
+   2049,
+   2055,
+   2041,
+   1470,
+   1473,
+   1467,
+   3154,
+   2330,
+   3108,
+   3121,
+   3122,
+   3102
+  ],
+  "split_span": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "split_span_tot": 30,
+  "split_head_chars": [
+   16,
+   23,
+   20,
+   13,
+   29,
+   9,
+   33,
+   16,
+   24,
+   54,
+   29,
+   33,
+   4,
+   24,
+   22
+  ],
+  "split_tail_chars": [
+   12,
+   26,
+   3,
+   15,
+   7,
+   9,
+   26,
+   5,
+   19,
+   8,
+   11,
+   6,
+   32,
+   21,
+   6
+  ],
+  "split_n": 15,
+  "split_rows_tot": 555,
+  "split_full_on_head": 0,
+  "split_half_ok": 15,
+  "split_gap_rows": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "split_wrap_n": 15,
+  "split_tagcut_n": 1,
+  "split_ledger": 0,
+  "split_adj_n": 15,
+  "tag_eaten": [
+   0,
+   1037,
+   0,
+   0,
+   0
+  ],
+  "tagcut_k": [
+   2
+  ],
+  "tagcut_lbl": [
+   "9293"
+  ],
+  "tagcut_needle": [
+   "configurable and MUST default"
+  ],
+  "tagcut_head": [
+   "configurable"
+  ],
+  "tagcut_tail": [
+   " and MUST default"
+  ],
+  "tagcut_head_row": [
+   2049
+  ],
+  "tagcut_tail_row": [
+   2049
+  ],
+  "tagcut_span": [
+   1
+  ],
+  "tagcut_mid": [
+   " (MUST-27)"
+  ],
+  "tagcut_mid_n": [
+   1
+  ],
+  "tagcut_eaten": [
+   10
+  ],
+  "tagcut_tag_chars": [
+   10
+  ],
+  "tagcut_mid_chars": [
+   70
+  ],
+  "tagcut_win_head": [
+   "be configurable (MUST-27) and MUST"
+  ],
+  "tagcut_win_tail": [
+   "and MUST default to no less than two"
+  ],
+  "tagcut_n": 1,
+  "tagcut_ledger": [
+   0
+  ],
+  "tagcut_eaten_close": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "tone_straddle_nd": [
+   "MUST NOT"
+  ],
+  "tone_straddle": [
+   2,
+   1,
+   0,
+   0,
+   4
+  ],
+  "tone_straddle_by_kind": [
+   7
+  ],
+  "tone_straddle_n": 7,
+  "tone_straddle_adj": 7,
+  "tone_straddle_blank": 0,
+  "tone_straddle_blank_rows": 0,
+  "tone_straddle_gap_shell": 0,
+  "tone_wrap_gain_mn": [
+   2,
+   1,
+   0,
+   0,
+   4
+  ],
+  "tone_straddle_ledger": 0,
+  "seg_rt": [
+   1,
+   2,
+   1,
+   1,
+   2,
+   2,
+   2,
+   1,
+   2,
+   1,
+   1,
+   2,
+   2,
+   2,
+   2,
+   1,
+   2,
+   2,
+   2,
+   2,
+   1,
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   1
+  ],
+  "seg_rt_n": 30,
+  "seg_rt_ok": 30,
+  "seg_rt_whole": 17,
+  "seg_rt_cut": 13,
+  "seg_rt_head": 15,
+  "seg_rt_tail": 15,
+  "blk_head_row": [
+   5939,
+   2041,
+   1465,
+   3153,
+   3100
+  ],
+  "blk_tail_row": [
+   5948,
+   2050,
+   1470,
+   3159,
+   3111
+  ],
+  "blk_head_gap": [
+   -8,
+   -7,
+   -3,
+   0,
+   -6
+  ],
+  "blk_ans_inside": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "pool_n": [
+   3344,
+   2730,
+   1325,
+   2287,
+   5080
+  ],
+  "pool_sum": 14766,
+  "pool_union": 14625,
+  "pool_raw_rows": [
+   3353,
+   2955,
+   1368,
+   2354,
+   5219
+  ],
+  "pool_dup": 483,
+  "pool_n25": [
+   3676,
+   3316,
+   1525,
+   2758,
+   5645
+  ],
+  "pool_union25": 16745,
+  "pool_widen": 2120,
+  "pool_tier": [
+   14529,
+   69,
+   9,
+   18,
+   0
+  ],
+  "pool_pair": {
+   "1122-9293": 8,
+   "1122-9112": 0,
+   "1122-9113": 0,
+   "1122-9000": 0,
+   "9293-9112": 32,
+   "9293-9113": 30,
+   "9293-9000": 38,
+   "9112-9113": 36,
+   "9112-9000": 27,
+   "9113-9000": 33
+  },
+  "pool_trip": {
+   "1122-9293-9112": 0,
+   "1122-9293-9113": 0,
+   "1122-9293-9000": 0,
+   "1122-9112-9113": 0,
+   "1122-9112-9000": 0,
+   "1122-9113-9000": 0,
+   "9293-9112-9113": 22,
+   "9293-9112-9000": 18,
+   "9293-9113-9000": 18,
+   "9112-9113-9000": 23
+  },
+  "pool_quad": {
+   "1122-9293-9112-9113": 0,
+   "1122-9293-9112-9000": 0,
+   "1122-9293-9113-9000": 0,
+   "1122-9112-9113-9000": 0,
+   "9293-9112-9113-9000": 18
+  },
+  "pool_pair_tot": 204,
+  "pool_trip_tot": 81,
+  "pool_quad_tot": 18,
+  "pool_ie_close": 0,
+  "pool_pair_by": [
+   8,
+   0,
+   0,
+   0,
+   32,
+   30,
+   38,
+   36,
+   27,
+   33
+  ],
+  "pool_pair_old_keys": [
+   "1122-9000",
+   "1122-9112",
+   "1122-9113",
+   "1122-9293"
+  ],
+  "pool_pair_new_keys": [
+   "9112-9000",
+   "9112-9113",
+   "9113-9000",
+   "9293-9000",
+   "9293-9112",
+   "9293-9113"
+  ],
+  "pool_pair_old": 8,
+  "pool_pair_new": 196,
+  "pool_pair_old_n": 3,
+  "pool_max_pair": 38,
+  "pool_min_pair_new": 27,
+  "pool_tier_close": 0,
+  "pool_sum_close": 0,
+  "pool_shared_new": 88,
+  "pool_shared_toned": 3,
+  "pool_shared_rfcline": 27,
+  "pool_shared_status": 1,
+  "pool_shared_bom": 0,
+  "pool_old_toned": 296,
+  "pool_new_toned": 1151,
+  "pool_old_shared": 8,
+  "pool_old_shared_pres": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "pool_old_shared_toned": 1,
+  "pool_old_shared_status": 0,
+  "pool_old_shared_rfcline": 0,
+  "pool_old_shared_bom": 0,
+  "pool_all_five": 0,
+  "pool_new_four": 18,
+  "dur_docs": [
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    11
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    3
+   ],
+   [
+    25,
+    49,
+    4,
+    0,
+    0
+   ],
+   [
+    29,
+    23,
+    3,
+    3,
+    7
+   ],
+   [
+    44,
+    39,
+    6,
+    4,
+    35
+   ],
+   [
+    44,
+    39,
+    6,
+    4,
+    35
+   ]
+  ],
+  "numw_docs": [
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    11
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "spell_docs": [
+   [
+    14,
+    11,
+    8,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    4,
+    4,
+    0,
+    0,
+    0
+   ],
+   [
+    3,
+    4,
+    2,
+    21,
+    35
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    19
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    19,
+    2,
+    0
+   ],
+   [
+    1,
+    1,
+    4,
+    0,
+    0
+   ],
+   [
+    16,
+    78,
+    0,
+    8,
+    63
+   ],
+   [
+    8,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    2,
+    10,
+    0,
+    1,
+    2
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    4,
+    2,
+    1,
+    0,
+    6
+   ]
+  ],
+  "tone_docs": [
+   [
+    200,
+    228,
+    87,
+    225,
+    304
+   ],
+   [
+    22,
+    8,
+    22,
+    56,
+    89
+   ],
+   [
+    73,
+    40,
+    31,
+    31,
+    123
+   ],
+   [
+    8,
+    8,
+    6,
+    7,
+    14
+   ],
+   [
+    41,
+    58,
+    22,
+    51,
+    120
+   ]
+  ],
+  "num_docs": [
+   [
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "num_cold": [
+   "10"
+  ],
+  "num_cold_n": 1,
+  "num_hot_n": 13,
+  "num_own_tot": 10,
+  "spell_tot_docs": [
+   34,
+   0,
+   0,
+   0,
+   8,
+   65,
+   19,
+   1,
+   21,
+   6,
+   165,
+   8,
+   15,
+   2,
+   13
+  ],
+  "dur_tot": [
+   2,
+   2,
+   0,
+   11,
+   0,
+   4,
+   78,
+   65,
+   128,
+   128
+  ],
+  "role_by_face": [
+   [
+    8,
+    7,
+    5,
+    6,
+    16
+   ],
+   [
+    11,
+    11,
+    8,
+    9,
+    21
+   ],
+   [
+    11,
+    11,
+    8,
+    9,
+    21
+   ],
+   [
+    11,
+    12,
+    8,
+    9,
+    21
+   ]
+  ],
+  "face_tot": [
+   42,
+   60,
+   60,
+   61
+  ],
+  "face_gain": [
+   18,
+   0,
+   1
+  ],
+  "face_mono": 3,
+  "gain_fold": [
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   1,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   1,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   1,
+   1,
+   0,
+   0,
+   1,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  "gain_sh": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "gain_tag": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "gain_fold_tot": 18,
+  "gain_sh_tot": 0,
+  "gain_tag_tot": 1,
+  "gain_fold_key": 18,
+  "gain_tag_key": 1,
+  "gain_fold_dup": 3,
+  "gain_sh_dup": 0,
+  "ans_words_tot": 109,
+  "sec_lines_tot2": 291,
+  "sec_chars_tot": 12694,
+  "ovl_new_tagloc": [
+   84358,
+   84723,
+   85111,
+   85611
+  ],
+  "ovl_new_loc": [
+   84733,
+   85106,
+   85514,
+   86054
+  ],
+  "ovl_new_end": [
+   84902,
+   85248,
+   85689,
+   86280
+  ],
+  "ovl_new_lines": [
+   2031,
+   2038,
+   2046,
+   2057
+  ],
+  "ovl_new_rows": [
+   3,
+   3,
+   3,
+   4
+  ],
+  "ovl_new_n": 4,
+  "ovl_new_close": 0,
+  "ovl_new_tagcut": [
+   0,
+   0,
+   1,
+   2
+  ],
+  "shell_pred_agree": 1,
+  "seg_rt_all": 1,
+  "split_reverse_cold": 1,
+  "split_ledger_close": 1,
+  "tagcut_between_is_tag": 1,
+  "tagcut_halves_are_face_pieces": 1,
+  "ans_ruler_rematch": 1,
+  "ans_inside_block": 1,
+  "kw_four_variants": 1,
+  "kw_absent_in_1122_row": 1,
+  "tcp_block_rewritten_not_reprinted": 1,
+  "pool_old_shares_only_tcp_body": 1,
+  "old_pool_three_cold": 1,
+  "pool_ie": 1,
+  "blk_tone_ruler": 1,
+  "straddle_is_mustnot_only": 1,
+  "pp_gap_is_shell_nonblank": 1,
+  "num_cold_split": 1,
+  "ovl_new_locatable": 1,
+  "page_lit_eaten_by_shell": 1,
+  "zid_scan_n": 37,
+  "zid_scan2_n": 45,
+  "bool_clos2_n": 20,
+  "bool_clos2_sum": 20,
+  "bool_all_n": 56,
+  "bool_all_sum": 56,
+  "anchor_total": 106,
+  "anchor_distinct": 77,
+  "anchor_err": 0,
+  "anchor_single": 52,
+  "anchor_cross": 19,
+  "anchor_all5": 6,
+  "checks": 385,
+  "enc_chars": 15773,
+  "nsrc": 5,
+  "tag_1122": 16,
+  "tag_9293": 33,
+  "tag_9112": 15,
+  "tag_9113": 14,
+  "tag_9000": 28,
+  "contract_n": 520
+ }
+}

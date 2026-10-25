@@ -1,0 +1,129 @@
+# B53 采集: FIPS 202 四种序列化(官方 txt ⇎ 本机 layout ⇎ 本机 raw ⇎ 官方落地页 html), 第一遍现算
+algo             {'T': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], 'L': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], 'P': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], 'H': [10]}
+algo_equal_lp    True
+algo_equal_tl    True
+algo_max         [11, 11, 11, 10]
+algo_n           [11, 11, 11, 1]
+blank            [499, 398, 334, 99]
+bytes            [72542, 77812, 68458, 48779]
+chars            [70069, 76354, 67543, 48089]
+cp               [[399, 422, 417, 52], [17, 0, 0, 0], [10, 0, 0, 0], [3, 0, 0, 0], [39, 0, 0, 0], [15, 0, 0, 0], [11, 0, 0, 0], [0, 18, 18, 0]]
+cp_fffd_gen      True
+cp_nonascii_T    [95, 18, 18, 0]
+cpk              ['ascii_hyphen', 'u2013', 'u2014', 'u2212', 'u2264', 'u2295', 'uf02d', 'ufffd']
+dash_kinds       [5, 1, 1, 1]
+date_all         ['aug2015', 'y2015']
+date_only_H      ['published']
+datek            ['aug2015', 'doi', 'issn', 'published', 'supersede', 'updated', 'withdraw', 'y2015', 'y2016', 'y2024']
+dates            [2, 2, 2, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+dl_n             2
+formfeed         [0, 37, 37, 0]
+gen_n            2
+glyph_all_zero   ['arrow_right', 'ell', 'leftarrow', 'omega', 'p10s1', 'x']
+glyph_only_T     ['ldots', 'le', 'middot', 'oplus', 'pi', 'prime']
+glyphk           ['arrow_right', 'ell', 'ldots', 'le', 'leftarrow', 'middot', 'omega', 'oplus', 'p10s1', 'pi', 'prime', 'x']
+glyphs           [0, 0, 0, 0, 0, 0, 0, 0, 29, 0, 0, 0, 39, 0, 0, 0, 0, 0, 0, 0, 37, 0, 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 11, 0, 0, 0, 21, 0, 0, 0, 0, 0, 0, 0]
+hit4             ['SHA-3 Standard', 'Permutation-Based Hash', 'Extendable-Output Functions', 'August 2015', '10.6028/NIST.FIPS.202', 'Algorithm 1', 'Step 1', 'sponge function', 'sha3-256', 'shake256', 'Keccak', 'Information Technology Laboratory', 'rate']
+hit_T_only       ['⊕', 'π']
+hitkinds         20
+hitmulti         16
+hitnone          1
+hitnorm          18
+hitrawglyph      2
+hitsingle        3
+html_a           92
+html_doi_raw     4
+html_doi_tagless 1
+html_ext         36
+html_h1          ['SHA-3 Standard: Permutation-Based Hash and Extendable-Output Functions']
+html_href_hash   5
+html_img         8
+html_lost        [0, 22, 11, 61, 13, 6, 4, 0]
+html_pk          ['algorithm', 'fips', 'keccak', 'nist', 'sha3', 'shake', 'sponge', 'step']
+html_src         16
+html_tagged      [1, 31, 13, 68, 21, 10, 6, 0]
+html_tagkinds    38
+html_tagless     [1, 9, 2, 7, 8, 4, 2, 0]
+html_tags        494
+html_title       FIPS 202, SHA-3 Standard: Permutation-Based Hash and Extendable-Output Functions | CSRC
+html_uswds       9
+html_uswds_raw   9
+html_uswds_tagless 0
+htmldate         []
+inter_a          [1268, 1268, 231, 1280]
+linelen_max      [167, 168, 1946, 1465]
+linelen_med      [36, 81, 47, 47]
+lines            [1925, 1458, 915, 676]
+lines_gt120      [41, 42, 162, 82]
+lines_le20       [538, 116, 216, 83]
+lines_mid        [847, 902, 203, 412]
+multicol         [1, 120, 0, 7]
+nonascii         [306, 18, 18, 11]
+nonascii_kinds   [25, 1, 1, 2]
+nonblank         [1426, 1060, 581, 577]
+only_a           [0, 13, 5, 211]
+only_b           [114, 118, 26, 187]
+page_hdr         [1, 1, 1, 0]
+pair_TH          [0, 4, 6, 843]
+pair_TL          [452, 556, 692, 843]
+pair_TP          [98, 107, 135, 843]
+pair_gap         [136, 28, 2]
+pair_th_mast     4
+pair_total       843
+pool_by_src      [760, 198, 222, 316]
+pool_disclose    锚命中判定: T/L/P 用去标签正文, H 用原文件行
+pool_dot         112
+pool_glyph       76
+pool_glyph_hitn  [25, 19, 32, 0]
+pool_glyph_src   [53, 15, 8, 0]
+pool_hitn        [399, 118, 949, 30]
+pool_n           1496
+pool_own         [48, 14, 22, 315]
+regen_cmd        ['pdftotext -layout fips202.pdf fips202_pdflayout.txt', 'pdftotext fips202.pdf fips202_plain.txt']
+regen_match_kept [True, True]
+regen_selfequal  [True, True]
+run_max          [2660, 2660, 1135, 4000]
+run_pairs        ['L⇎T', 'P⇎T', 'H⇎T', 'L⇎P']
+run_pieces       [154, 158, 6, 26]
+run_share        [94.5, 93.1, 35.5, 97.7]
+run_top3         [[2660, 2488, 2002], [2660, 1878, 1843], [1135, 1134, 247], [4000, 4000, 4000]]
+run_total        [53100, 52317, 2689, 54913]
+sel_all4_n       [28, 0, 1, 1]
+sel_c2_n         [4, 76, 38, 0]
+sel_glyph_n      [22, 3, 0, 0]
+sel_own_n        [48, 14, 22, 315]
+setdiff_ab       [316, 307, 301, -168]
+sha16            ['56aa7d185b952e7f', '28ce2c326a19fb04', 'a8b2c3b092e1e531', '27f780ff4298d000']
+sha_all_diff     True
+struct           [24, 24, 24, 1, 0, 0, 0, 1, 25, 25, 25, 0, 0, 0, 0, 0, 10, 10, 11, 0, 22, 22, 22, 0]
+structk          ['algorithm', 'appendix', 'figure', 'listing', 'step', 'table']
+tabchar          [0, 0, 0, 0]
+tl_subset_a      True
+tl_subset_b      False
+trailing_ws      [1780, 10, 3, 25]
+wocc             [11525, 11488, 11484, 1249]
+wrap_72          [518, 593, 215, 191]
+wset_a           [1268, 1281, 1285, 442]
+wset_b           [1584, 1588, 1586, 274]
+hit matrix:
+  FIPS PUB 202                       T⇎L⇎P
+  SHA-3 Standard                     T⇎L⇎P⇎H
+  Permutation-Based Hash             T⇎L⇎P⇎H
+  Extendable-Output Functions        T⇎L⇎P⇎H
+  August 2015                        T⇎L⇎P⇎H
+  10.6028/NIST.FIPS.202              T⇎L⇎P⇎H
+  Algorithm 1                        T⇎L⇎P⇎H
+  Step 1                             T⇎L⇎P⇎H
+  ⊕                                  T
+  π                                  T
+  sponge function                    T⇎L⇎P⇎H
+  sha3-256                           T⇎L⇎P⇎H
+  shake256                           T⇎L⇎P⇎H
+  CSRC MENU                          H
+  uswds                              —
+  Keccak                             T⇎L⇎P⇎H
+  Information Technology Laboratory  T⇎L⇎P⇎H
+  Pad10*1                            T⇎L⇎P
+  rate                               T⇎L⇎P⇎H
+  capacity                           T⇎L⇎P
+glyphs: arrow_right [0, 0, 0, 0] ⇎ ell [0, 0, 0, 0] ⇎ ldots [29, 0, 0, 0] ⇎ le [39, 0, 0, 0] ⇎ leftarrow [0, 0, 0, 0] ⇎ middot [37, 0, 0, 0] ⇎ omega [0, 0, 0, 0] ⇎ oplus [15, 0, 0, 0] ⇎ p10s1 [0, 0, 0, 0] ⇎ pi [11, 0, 0, 0] ⇎ prime [21, 0, 0, 0] ⇎ x [0, 0, 0, 0]

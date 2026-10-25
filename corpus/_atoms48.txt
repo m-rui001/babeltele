@@ -1,0 +1,49 @@
+	    sign = "23:59:59\t-"
+	    sign = "23:59:60\t+"
+	printf "Leap\t%d\t%s\t%d\t%s\tS\n", \
+	sstamp_to_ymdhMs(NTP_timestamp - 1, ss_NTP)
+      print "# (No Expires line, since the expires time is unknown.)"
+      print "#(updated time unknown)"
+      printf "%sExpires %.4d\t%s\t%.2d\t%.2d:%.2d:%.2d\n", \
+    epoch_minus_NTP = ((1970 - 1900) * 365 + 17) * 24 * 60 * 60
+    if (old_TAI_minus_UTC) {
+    printf "\n%s", last_lines
+  monthabbr[ 1] = "Jan"
+  monthabbr[ 6] = "Jun"
+  monthabbr[ 7] = "Jul"
+  print "# Allowance for leap seconds added to each time zone file."
+  print "# Leap	YEAR	MON	DAY	23:59:60	+	S"
+  print "# This file is in the public domain."
+  print "# Typical lines look like this:"
+  ss_NTP = 109513
+  ss_mon_days[ 9] = 31
+#	File expires on 28 June 2027
+#	MJD: The Modified Julian Day number. MJD = X/86400 + 15020
+#	Updated through IERS Bulletin C (https://hpiers.obspm.fr/iers/bul/bulc/bulletinc.dat)
+#	and September. Since the introduction of leap seconds in 1972, only dates in June and December were used.
+#	theoretically possible to have a negative leap second (a second removed from UTC), but so far,
+#    	This file is in the public domain.
+# All leap-seconds are Stationary (S) at the given UTC time.
+# Allowance for leap seconds added to each time zone file.
+# Generate zic format 'leapseconds' from NIST/IERS format 'leap-seconds.list'.
+# Leap	YEAR	MON	DAY	23:59:59	-	S
+# Leap	YEAR	MON	DAY	23:59:60	+	S
+# This file is generated automatically from the data in the public-domain
+# This file is in the public domain.
+# Typical lines look like this:
+# exact integer arithmetic only through 10**10, which means for NTP
+# rotation.  The first ("1 Jan 1972") data line in leap-seconds.list
+# this is typically a bit less than one year after "updated".
+#$	3992312697
+#@	4023129600
+#Expires 2027	Jun	28	00:00:00
+#NTP Time      DTAI    Day Month Year
+#expires 1814140800 (2027-06-28 00:00:00 UTC)
+#h	a9bad145 84c31c70 758402aa b37bfd54 5923836a
+#updated 1783323897 (2026-07-06 07:44:57 UTC)
+/^#[ \t]*[Uu]pdated through/ || /^#[ \t]*[Ff]ile expires on/ {
+2272060800      10      # 1 Jan 1972
+2287785600      11      # 1 Jul 1972
+3692217600      37      # 1 Jan 2017
+Leap	1972	Jun	30	23:59:60	+	S
+Leap	2016	Dec	31	23:59:60	+	S

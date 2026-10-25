@@ -1,0 +1,2235 @@
+{
+ "label": [
+  "2616",
+  "7231",
+  "6585",
+  "8470",
+  "9110"
+ ],
+ "src": [
+  "corpus/raw/httpretry/rfc2616.txt",
+  "corpus/raw/httpretry/rfc7231.txt",
+  "corpus/raw/httpretry/rfc6585.txt",
+  "corpus/raw/httpretry/rfc8470.txt",
+  "corpus/raw/httpretry/rfc9110.txt"
+ ],
+ "bytes": [
+  422279,
+  235053,
+  17164,
+  25880,
+  502941
+ ],
+ "chars": [
+  422279,
+  235053,
+  17164,
+  25880,
+  502907
+ ],
+ "lines": [
+  9860,
+  5660,
+  564,
+  676,
+  10786
+ ],
+ "newlines": [
+  9859,
+  5659,
+  563,
+  675,
+  10785
+ ],
+ "nonblank": [
+  6911,
+  3945,
+  323,
+  426,
+  8659
+ ],
+ "maxlen": [
+  72,
+  75,
+  72,
+  72,
+  72
+ ],
+ "ff": [
+  176,
+  101,
+  10,
+  12,
+  0
+ ],
+ "ff_exact": [
+  176,
+  101,
+  10,
+  12,
+  0
+ ],
+ "cr": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "nul": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "nonascii": [
+  0,
+  0,
+  0,
+  0,
+  30
+ ],
+ "bom": [
+  0,
+  0,
+  0,
+  0,
+  1
+ ],
+ "byte_cp_delta": [
+  0,
+  0,
+  0,
+  0,
+  34
+ ],
+ "tail_nl": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "over72": [
+  0,
+  1,
+  0,
+  0,
+  0
+ ],
+ "pg_lines": [
+  176,
+  101,
+  10,
+  12,
+  0
+ ],
+ "hdr_lines": [
+  175,
+  100,
+  9,
+  11,
+  0
+ ],
+ "ff_only_lines": [
+  176,
+  101,
+  10,
+  12,
+  0
+ ],
+ "blank": [
+  2949,
+  1715,
+  241,
+  250,
+  2127
+ ],
+ "pageless": [
+  0,
+  0,
+  0,
+  0,
+  1
+ ],
+ "shell_lines": [
+  3124,
+  1815,
+  250,
+  261,
+  2127
+ ],
+ "fold_chars": [
+  374579,
+  209422,
+  14910,
+  22905,
+  457672
+ ],
+ "sh_chars": [
+  369679,
+  204422,
+  14469,
+  22465,
+  457672
+ ],
+ "sh_minus_fold": [
+  -4900,
+  -5000,
+  -441,
+  -440,
+  0
+ ],
+ "obs_ids": [
+  [
+   "2068"
+  ],
+  [
+   "2616"
+  ],
+  [],
+  [],
+  [
+   "2818",
+   "7230",
+   "7231",
+   "7232",
+   "7233",
+   "7235",
+   ""
+  ]
+ ],
+ "upd_ids": [
+  [],
+  [
+   "2817"
+  ],
+  [
+   "2616"
+  ],
+  [],
+  [
+   "3864"
+  ]
+ ],
+ "obs_line": [
+  "Obsoletes: 2068                                              J. Gettys",
+  "Obsoletes: 2616                                          J. Reschke, Ed.",
+  null,
+  null,
+  "Obsoletes: 2818, 7230, 7231, 7232, 7233, 7235,                    Fastly"
+ ],
+ "upd_line": [
+  null,
+  "Updates: 2817                                                 greenbytes",
+  "Updates: 2616                                                R. Fielding",
+  null,
+  "Updates: 3864                                                 greenbytes"
+ ],
+ "std_line": [
+  null,
+  null,
+  null,
+  null,
+  "STD: 97                                               M. Nottingham, Ed."
+ ],
+ "issn_hdr": [
+  0,
+  1,
+  1,
+  1,
+  1
+ ],
+ "years": [
+  1999,
+  2014,
+  2012,
+  2018,
+  2022
+ ],
+ "months": [
+  "June",
+  "June",
+  "April",
+  "September",
+  "June"
+ ],
+ "months_txt": [
+  "June 1999",
+  "June 2014",
+  "April 2012",
+  "September 2018",
+  "June 2022"
+ ],
+ "year_span": 23,
+ "year_inversions": 1,
+ "upd_target_obsoleted": [
+  0,
+  0,
+  1,
+  0,
+  0
+ ],
+ "obs_target_in_lib": [
+  0,
+  1,
+  0,
+  0,
+  2
+ ],
+ "obs_total": 9,
+ "upd_total": 3,
+ "lineage_no_edge": [
+  3
+ ],
+ "auto_fam": [
+  "automatically retry",
+  "automatically retried",
+  "automatically retrying",
+  "automatic retry",
+  "retry automatically",
+  "automatically repeat"
+ ],
+ "auto_line": [
+  [
+   0,
+   1,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   0,
+   0,
+   1,
+   1,
+   0
+  ],
+  [
+   5,
+   1,
+   1,
+   2,
+   0,
+   1
+  ]
+ ],
+ "auto_line_rows": [
+  [
+   0,
+   1,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   0,
+   0,
+   1,
+   1,
+   0
+  ],
+  [
+   5,
+   1,
+   1,
+   2,
+   0,
+   1
+  ]
+ ],
+ "auto_fold": [
+  [
+   0,
+   1,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   0,
+   0,
+   1,
+   1,
+   0
+  ],
+  [
+   5,
+   1,
+   1,
+   2,
+   0,
+   1
+  ]
+ ],
+ "auto_union_fold": [
+  2,
+  1,
+  0,
+  3,
+  9
+ ],
+ "auto_fam_overlap": [
+  0,
+  0,
+  0,
+  0,
+  1
+ ],
+ "auto_gain": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "auto_tot_line": [
+  2,
+  1,
+  0,
+  3,
+  10
+ ],
+ "auto_tot_fold": [
+  2,
+  1,
+  0,
+  3,
+  10
+ ],
+ "auto_bare": [
+  16,
+  19,
+  0,
+  3,
+  35
+ ],
+ "auto_bare_line": [
+  16,
+  19,
+  0,
+  3,
+  35
+ ],
+ "auto_sh": [
+  [
+   0,
+   1,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   0,
+   0,
+   1,
+   1,
+   0
+  ],
+  [
+   5,
+   1,
+   1,
+   2,
+   0,
+   1
+  ]
+ ],
+ "auto_sh_minus_fold": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "auto_bare_minus_union": [
+  14,
+  18,
+  0,
+  0,
+  26
+ ],
+ "hyb_idem": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "idem_str": [
+  15,
+  14,
+  0,
+  0,
+  18
+ ],
+ "idem_line_occ": [
+  15,
+  14,
+  0,
+  0,
+  18
+ ],
+ "idem_line_rows": [
+  13,
+  13,
+  0,
+  0,
+  17
+ ],
+ "idem_hyb_line": [
+  5,
+  1,
+  0,
+  0,
+  2
+ ],
+ "idem_hyb_fold": [
+  5,
+  1,
+  0,
+  0,
+  2
+ ],
+ "hyb_straddle": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "sec_no": [
+  "9.1.2",
+  "4.2.2",
+  null,
+  null,
+  "9.2.2"
+ ],
+ "sec_head_line": [
+  "9.1.2 Idempotent Methods",
+  "4.2.2.  Idempotent Methods",
+  null,
+  null,
+  "9.2.2.  Idempotent Methods"
+ ],
+ "sec_end_kind": [
+  "heading",
+  "heading",
+  null,
+  null,
+  "heading"
+ ],
+ "sec_end_head": [
+  "9.2 OPTIONS",
+  "4.2.3.  Cacheable Methods",
+  null,
+  null,
+  "9.2.3.  Methods and Caching"
+ ],
+ "sec_hit_n": [
+  1,
+  1,
+  0,
+  0,
+  2
+ ],
+ "sec_toc_line": [
+  null,
+  null,
+  null,
+  null,
+  182
+ ],
+ "sec_body_line": [
+  2845,
+  1278,
+  null,
+  null,
+  3861
+ ],
+ "sec_found_n": 3,
+ "sec_lines": [
+  30,
+  31,
+  0,
+  0,
+  45
+ ],
+ "sec_chars": [
+  1163,
+  1317,
+  0,
+  0,
+  2409
+ ],
+ "sec_words": [
+  174,
+  189,
+  0,
+  0,
+  358
+ ],
+ "sec_sents": [
+  7,
+  7,
+  0,
+  0,
+  14
+ ],
+ "tone_fam": [
+  "MUST NOT",
+  "MUST",
+  "SHOULD NOT",
+  "SHOULD",
+  "MAY"
+ ],
+ "tone_norm": [
+  [
+   120,
+   348,
+   42,
+   256,
+   180
+  ],
+  [
+   25,
+   69,
+   9,
+   50,
+   47
+  ],
+  [
+   5,
+   6,
+   3,
+   8,
+   3
+  ],
+  [
+   9,
+   22,
+   2,
+   6,
+   4
+  ],
+  [
+   72,
+   206,
+   28,
+   125,
+   105
+  ]
+ ],
+ "tone_norm_fold": [
+  [
+   123,
+   348,
+   42,
+   256,
+   180
+  ],
+  [
+   26,
+   69,
+   9,
+   50,
+   47
+  ],
+  [
+   5,
+   6,
+   3,
+   8,
+   3
+  ],
+  [
+   9,
+   22,
+   2,
+   6,
+   4
+  ],
+  [
+   77,
+   206,
+   32,
+   125,
+   105
+  ]
+ ],
+ "tone_straddle_k": [
+  [
+   3,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   5,
+   0,
+   4,
+   0,
+   0
+  ]
+ ],
+ "tone_straddle": [
+  3,
+  1,
+  0,
+  0,
+  9
+ ],
+ "tone_case": [
+  [
+   125,
+   370,
+   45,
+   281,
+   257
+  ],
+  [
+   26,
+   72,
+   9,
+   51,
+   58
+  ],
+  [
+   5,
+   7,
+   3,
+   9,
+   10
+  ],
+  [
+   9,
+   23,
+   2,
+   6,
+   7
+  ],
+  [
+   77,
+   212,
+   33,
+   131,
+   126
+  ]
+ ],
+ "tone_case_gap": [
+  129,
+  15,
+  9,
+  4,
+  34
+ ],
+ "tone_sec": [
+  [
+   0,
+   0,
+   1,
+   1,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   1,
+   2,
+   2,
+   0
+  ]
+ ],
+ "tone_sec_tot": [
+  2,
+  0,
+  0,
+  0,
+  6
+ ],
+ "tone_tot": [
+  946,
+  200,
+  25,
+  43,
+  536
+ ],
+ "tone_must_pure": [
+  228,
+  44,
+  1,
+  13,
+  134
+ ],
+ "tone_must_ledger": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "tone_word_lc": [
+  [
+   370,
+   281,
+   257,
+   217
+  ],
+  [
+   72,
+   51,
+   58,
+   137
+  ],
+  [
+   7,
+   9,
+   10,
+   9
+  ],
+  [
+   23,
+   6,
+   7,
+   34
+  ],
+  [
+   212,
+   131,
+   126,
+   341
+  ]
+ ],
+ "pair_shared": {
+  "7231-9110": 1172,
+  "2616-7231": 90,
+  "2616-9110": 105,
+  "2616-8470": 1,
+  "7231-8470": 19,
+  "6585-8470": 18,
+  "6585-9110": 17,
+  "8470-9110": 41,
+  "2616-6585": 2,
+  "7231-6585": 26
+ },
+ "pair_max_lbl": "7231-9110",
+ "pair_max": 1172,
+ "pair_max_byte": 1163,
+ "pair_max_norm_only": 9,
+ "pool_n": 16635,
+ "pair_lbl_idx": [
+  1,
+  4
+ ],
+ "ra_count": [
+  10,
+  15,
+  2,
+  0,
+  17
+ ],
+ "ra_abnf_lines": [
+  1,
+  2,
+  0,
+  0,
+  2
+ ],
+ "ra_abnf_forms": [
+  1,
+  1,
+  0,
+  0,
+  1
+ ],
+ "ra_abnf_bar": [
+  1,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ra_abnf_slash": [
+  0,
+  2,
+  0,
+  0,
+  2
+ ],
+ "ra_abnf_quoted": [
+  1,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ra_abnf_ledger": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ra_exp_date": [
+  1,
+  1,
+  0,
+  0,
+  1
+ ],
+ "ra_exp_120": [
+  1,
+  1,
+  0,
+  0,
+  1
+ ],
+ "ra_exp_3600": [
+  0,
+  0,
+  1,
+  0,
+  0
+ ],
+ "ra_two_minutes": [
+  1,
+  1,
+  0,
+  0,
+  1
+ ],
+ "ra_delta_def": [
+  1,
+  1,
+  0,
+  0,
+  1
+ ],
+ "neg_fam": [
+  "429",
+  "Too Many Requests",
+  "Too Early",
+  "Early-Data",
+  "rate limiting",
+  "428",
+  "Precondition Required",
+  "425",
+  "idempotent"
+ ],
+ "neg_digit": [
+  0,
+  5,
+  7
+ ],
+ "neg_raw": [
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   11
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   9
+  ],
+  [
+   9,
+   7,
+   0,
+   0,
+   1,
+   8,
+   7,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   20,
+   23,
+   0,
+   0,
+   0,
+   22,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   13
+  ]
+ ],
+ "neg_bnd": [
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   11
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   9
+  ],
+  [
+   9,
+   7,
+   0,
+   0,
+   1,
+   8,
+   7,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   20,
+   23,
+   0,
+   0,
+   0,
+   22,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   13
+  ]
+ ],
+ "neg_false_sub": [
+  1,
+  0,
+  0,
+  0,
+  1
+ ],
+ "neg_zero_n": [
+  8,
+  8,
+  4,
+  6,
+  8
+ ],
+ "neg_own": [
+  [],
+  [],
+  [
+   0,
+   1,
+   4,
+   5,
+   6
+  ],
+  [
+   2,
+   3,
+   7
+  ],
+  []
+ ],
+ "neg_own_lbl": [
+  [],
+  [],
+  [
+   "429",
+   "Too Many Requests",
+   "rate limiting",
+   "428",
+   "Precondition Required"
+  ],
+  [
+   "Too Early",
+   "Early-Data",
+   "425"
+  ],
+  []
+ ],
+ "code_fam": [
+  "400",
+  "401",
+  "403",
+  "404",
+  "405",
+  "408",
+  "416",
+  "428",
+  "429",
+  "425",
+  "431",
+  "500",
+  "503",
+  "504",
+  "505",
+  "506",
+  "507",
+  "508",
+  "510",
+  "511"
+ ],
+ "code_defined_raw": [
+  22,
+  18,
+  12,
+  0,
+  22
+ ],
+ "code_defined": [
+  [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   1,
+   1,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   0,
+   1,
+   1,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   1,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   2,
+   2,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   2
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   2,
+   2,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ ],
+ "code_defined_n": [
+  11,
+  9,
+  8,
+  0,
+  22
+ ],
+ "code_toc": [
+  11,
+  9,
+  4,
+  0,
+  0
+ ],
+ "code_defined_lbl": [
+  [
+   "400",
+   "401",
+   "403",
+   "404",
+   "405",
+   "408",
+   "416",
+   "500",
+   "503",
+   "504",
+   "505"
+  ],
+  [
+   "400",
+   "403",
+   "404",
+   "405",
+   "408",
+   "500",
+   "503",
+   "504",
+   "505"
+  ],
+  [
+   "428",
+   "429",
+   "431",
+   "511"
+  ],
+  [],
+  [
+   "400",
+   "401",
+   "403",
+   "404",
+   "405",
+   "408",
+   "416",
+   "500",
+   "503",
+   "504",
+   "505"
+  ]
+ ],
+ "paren_fam": [
+  "425 (Too Early)",
+  "428 (Precondition Required)",
+  "429 (Too Many Requests)"
+ ],
+ "paren": [
+  [
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0
+  ],
+  [
+   20,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0
+  ]
+ ],
+ "paren_line": [
+  [
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0
+  ],
+  [
+   16,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0
+  ]
+ ],
+ "paren_straddle": [
+  0,
+  0,
+  0,
+  4,
+  0
+ ],
+ "ans_span": [
+  3,
+  3,
+  2,
+  2,
+  1
+ ],
+ "ans_first_line": [
+  2600,
+  1299,
+  133,
+  406,
+  3902
+ ],
+ "ans_para_span": [
+  6,
+  8,
+  2,
+  4,
+  2
+ ],
+ "ans_lead_words": [
+  4,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ans_lines_abs": [
+  [
+   2601,
+   2602,
+   2603
+  ],
+  [
+   1300,
+   1301,
+   1302
+  ],
+  [
+   134,
+   135
+  ],
+  [
+   407,
+   408
+  ],
+  [
+   3903
+  ]
+ ],
+ "ans": [
+  "Non-idempotent methods or sequences MUST NOT be automatically retried, although user agents MAY offer a human operator the choice of retrying the request(s). ",
+  "Idempotent methods are distinguished because the request can be repeated automatically if a communication failure occurs before the client is able to read the server's response. ",
+  "The 429 status code indicates that the user has sent too many requests in a given amount of time (\"rate limiting\").",
+  "User agents that send a request in early data are expected to retry the request when receiving a 425 (Too Early) response status code. ",
+  "A proxy MUST NOT automatically retry non-idempotent requests. "
+ ],
+ "ans_words": [
+  23,
+  26,
+  21,
+  24,
+  8
+ ],
+ "ans_one_line_n": 1,
+ "ans_page_break": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ans_para_tail": [
+  3,
+  5,
+  0,
+  2,
+  1
+ ],
+ "ph_line": [
+  0,
+  0,
+  1,
+  0,
+  0
+ ],
+ "ph_fold": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "ph_straddle": [
+  1,
+  1,
+  0,
+  1,
+  1
+ ],
+ "ph_raw_line": [
+  0,
+  0,
+  1,
+  0,
+  0
+ ],
+ "ans_ph": [
+  "sequences MUST NOT be automatically retried",
+  "request can be\nrepeated automatically",
+  "MAY include a Retry-After header indicating how long",
+  "expected to retry\nthe request when receiving a 425",
+  "automatically retrying\nthe requests that failed"
+ ],
+ "reword_fam": [
+  "retry",
+  "retrying",
+  "repeated",
+  "repeat",
+  "resubmit",
+  "try again",
+  "make a new request",
+  "follow-up request"
+ ],
+ "reword": [
+  [
+   22,
+   1,
+   2,
+   12,
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   17,
+   1,
+   1,
+   7,
+   1,
+   1,
+   0,
+   1
+  ],
+  [
+   2,
+   0,
+   0,
+   0,
+   2,
+   1,
+   0,
+   0
+  ],
+  [
+   11,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   27,
+   2,
+   5,
+   14,
+   1,
+   1,
+   0,
+   1
+  ]
+ ],
+ "reword_union": [
+  36,
+  27,
+  5,
+  11,
+  44
+ ],
+ "reword_overlap": [
+  3,
+  2,
+  0,
+  1,
+  7
+ ],
+ "reword_tot": [
+  39,
+  29,
+  5,
+  12,
+  51
+ ],
+ "reword_zero_n": [
+  2,
+  1,
+  5,
+  6,
+  1
+ ],
+ "reword_own": [
+  [],
+  [],
+  [],
+  [],
+  []
+ ],
+ "subj_fam": [
+  "A proxy MUST NOT automatically retry",
+  "A client SHOULD NOT automatically retry",
+  "user agents MAY offer",
+  "SHOULD retry automatically",
+  "MAY automatically retry",
+  "can repeat a POST request automatically",
+  "might\nautomatically retry a POST",
+  "are expected to retry",
+  "MUST NOT be automatically retried"
+ ],
+ "subj": [
+  [
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   1,
+   1,
+   0,
+   0,
+   1,
+   0
+  ],
+  [
+   1,
+   2,
+   0,
+   0,
+   0,
+   1,
+   1,
+   0,
+   0
+  ]
+ ],
+ "subj_line": [
+  [
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   1,
+   1,
+   0,
+   0,
+   1,
+   0
+  ],
+  [
+   1,
+   1,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0
+  ]
+ ],
+ "subj_straddle": [
+  0,
+  0,
+  0,
+  0,
+  2
+ ],
+ "subj_n": [
+  2,
+  0,
+  0,
+  3,
+  4
+ ],
+ "subj_active": [
+  1,
+  0,
+  0,
+  3,
+  5
+ ],
+ "subj_passive": [
+  1,
+  0,
+  0,
+  0,
+  0
+ ],
+ "subj_straddle_k": [
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0
+  ]
+ ],
+ "subj_straddled": [
+  [],
+  [],
+  [],
+  [],
+  [
+   "A client SHOULD NOT automatically retry",
+   "might\nautomatically retry a POST"
+  ]
+ ],
+ "act_fam": [
+  "user agent",
+  "user agents",
+  "client",
+  "proxy",
+  "intermediar",
+  "origin server",
+  "server"
+ ],
+ "act": [
+  [
+   117,
+   27,
+   341,
+   162,
+   8,
+   189,
+   618
+  ],
+  [
+   135,
+   22,
+   94,
+   35,
+   17,
+   107,
+   283
+  ],
+  [
+   3,
+   0,
+   13,
+   0,
+   1,
+   6,
+   25
+  ],
+  [
+   5,
+   2,
+   29,
+   4,
+   11,
+   10,
+   57
+  ],
+  [
+   209,
+   38,
+   296,
+   171,
+   81,
+   232,
+   597
+  ]
+ ],
+ "act_sg": [
+  90,
+  113,
+  3,
+  3,
+  171
+ ],
+ "act_sg_plus_pl": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "act_sec": [
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   3,
+   0,
+   0,
+   0,
+   3
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   2,
+   0,
+   7,
+   1,
+   0,
+   0,
+   3
+  ]
+ ],
+ "act_sec_tot": [
+  0,
+  6,
+  0,
+  0,
+  13
+ ],
+ "num_fam": [
+  "3600",
+  "120",
+  "50 requests per hour",
+  "2 minutes",
+  "delay-seconds",
+  "delta-seconds",
+  "HTTP-date"
+ ],
+ "num": [
+  [
+   1,
+   3,
+   0,
+   1,
+   0,
+   8,
+   16
+  ],
+  [
+   0,
+   1,
+   0,
+   1,
+   6,
+   0,
+   16
+  ],
+  [
+   1,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   0,
+   1,
+   6,
+   0,
+   32
+  ]
+ ],
+ "num_raw": [
+  [
+   1,
+   3,
+   0,
+   1,
+   0,
+   8,
+   16
+  ],
+  [
+   0,
+   1,
+   0,
+   1,
+   6,
+   0,
+   16
+  ],
+  [
+   1,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   0,
+   1,
+   6,
+   0,
+   32
+  ]
+ ],
+ "num_sub": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "num_tot": [
+  29,
+  24,
+  2,
+  0,
+  40
+ ],
+ "num_own": [
+  [
+   "delta-seconds"
+  ],
+  [],
+  [
+   "50 requests per hour"
+  ],
+  [],
+  []
+ ],
+ "num_rename": [
+  -8,
+  6,
+  0,
+  0,
+  6
+ ],
+ "meth_fam": [
+  "GET",
+  "HEAD",
+  "PUT",
+  "DELETE",
+  "POST",
+  "TRACE",
+  "OPTIONS",
+  "CONNECT"
+ ],
+ "meth_sec": [
+  [
+   1,
+   1,
+   1,
+   1,
+   0,
+   1,
+   1,
+   0
+  ],
+  [
+   0,
+   0,
+   2,
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   2,
+   1,
+   2,
+   0,
+   0,
+   0
+  ]
+ ],
+ "meth_sec_n": [
+  6,
+  2,
+  0,
+  0,
+  3
+ ],
+ "meth_post_sec": [
+  0,
+  0,
+  0,
+  0,
+  2
+ ]
+}

@@ -1,0 +1,26 @@
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4ce9ef92f91eb83',t:'MTc5MjQwMDcyNQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></BODY>
+<SCRIPT async id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOC&subagency=NIST&pua=UA-37115410-46&yt=false&exts=ppsx,pps,f90,sch,rtf,wrl,txz,m1v,xlsm,msi,xsd,f,tif,eps,mpg,xml,pl,xlt,c"></script>
+<TD ALIGN="CENTER" NOWRAP BGCOLOR="#C9EDD6"><B><FONT FACE="Myriad Roman,Helvetica,Arial,Geneva" SIZE="2" COLOR="#330099"><A HREF="/cuu/Constants/index.html">Values</A></FONT></B></TD>
+alpha particle molar mass                                   4.001 506 1833 e-3       0.000 000 0012 e-3       kg mol^-1
+Wien frequency displacement law constant                    5.878 925 757... e10     (exact)                  Hz K^-1
+vacuum mag. permeability                                    1.256 637 061 27 e-6     0.000 000 000 20 e-6     N A^-2
+Avogadro constant                                           6.022 140 76 e23         (exact)                  mol^-1
+electron volt-inverse meter relationship                    8.065 543 937... e5      (exact)                  m^-1
+von Klitzing constant                                       25 812.807 45...         (exact)                  ohm
+alpha particle mass energy equivalent in MeV                3727.379 4118            0.000 0012               MeV
+Quantity                                                       Value                 Uncertainty           Unit
+electron mag. mom. to Bohr magneton ratio                   -1.001 159 652 180 46    0.000 000 000 000 18
+shielded proton mag. mom. to Bohr magneton ratio            1.520 993 1551 e-3       0.000 000 0062 e-3
+alpha particle-electron mass ratio                          7294.299 541 71          0.000 000 17
+W to Z mass ratio                                           0.881 45                 0.000 13
+weak mixing angle                                           0.223 05                 0.000 23
+<P><B><FONT FACE="Myriad Roman,Syntax,Arial,Helvetica" SIZE="5" COLOR="#9C0010">Sorry,
+you have supplied an ill-formed request. </FONT></B></P><FONT COLOR="#3142BD">
+<META HTTP-EQUIV="content-type" CONTENT="text/html;charset=iso-8859-1">
+<A HREF="/cuu/Constants/index.html">Try a new search</A></FONT></B></P>
+<TITLE>CODATA Values of the Fundamental Constants</TITLE>
+<META NAME="generator" CONTENT="GoLive CyberStudio">
+Fundamental Physical Constants --- Complete Listing
+From:  http://physics.nist.gov/constants
+<!-- Google Analtyics 4 -->
+2022 CODATA adjustment

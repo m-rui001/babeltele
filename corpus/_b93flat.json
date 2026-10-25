@@ -1,0 +1,10544 @@
+{
+ "added_lines": [
+  0,
+  0,
+  0,
+  0,
+  478
+ ],
+ "blank": [
+  546,
+  1673,
+  423,
+  482,
+  1458
+ ],
+ "blank_shell": [
+  546,
+  1673,
+  423,
+  482,
+  1458
+ ],
+ "body_lines": [
+  1108,
+  3666,
+  516,
+  1881,
+  4251
+ ],
+ "bom": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "bool_all_n": 31,
+ "bool_green": 31,
+ "bool_red": [],
+ "bytes": [
+  72482,
+  235106,
+  33123,
+  87649,
+  262960
+ ],
+ "bytes_stat": [
+  72482,
+  235106,
+  33123,
+  87649,
+  262960
+ ],
+ "comma_nums": [
+  [],
+  [
+   "1,000",
+   "3,600,000",
+   "30,000"
+  ],
+  [],
+  [
+   "1,000,000",
+   "127,129"
+  ],
+  []
+ ],
+ "const_comma_rows": [
+  "REACHABLE_TIME",
+  "RETRANS_TIMER"
+ ],
+ "const_dad": [],
+ "const_dot_rows": [
+  "MAX_RA_DELAY_TIME",
+  "MIN_RANDOM_FACTOR"
+ ],
+ "const_n_dim": 2,
+ "const_n_ms": 2,
+ "const_n_sec": 7,
+ "const_n_tr": 6,
+ "const_out_of_win": [
+  [
+   "MTU",
+   "5",
+   1545
+  ],
+  [
+   "MTU",
+   "5",
+   4632
+  ]
+ ],
+ "const_retrans": [
+  [
+   "RETRANS_TIMER",
+   "1,000",
+   "milliseconds",
+   4377
+  ]
+ ],
+ "const_rows": [
+  [
+   "MAX_INITIAL_RTR_ADVERT_INTERVAL",
+   "16",
+   "seconds",
+   4340
+  ],
+  [
+   "MAX_INITIAL_RTR_ADVERTISEMENTS",
+   "3",
+   "transmissions",
+   4342
+  ],
+  [
+   "MAX_FINAL_RTR_ADVERTISEMENTS",
+   "3",
+   "transmissions",
+   4344
+  ],
+  [
+   "MIN_DELAY_BETWEEN_RAS",
+   "3",
+   "seconds",
+   4346
+  ],
+  [
+   "MAX_RA_DELAY_TIME",
+   ".5",
+   "seconds",
+   4348
+  ],
+  [
+   "MAX_RTR_SOLICITATION_DELAY",
+   "1",
+   "second",
+   4352
+  ],
+  [
+   "RTR_SOLICITATION_INTERVAL",
+   "4",
+   "seconds",
+   4354
+  ],
+  [
+   "MAX_RTR_SOLICITATIONS",
+   "3",
+   "transmissions",
+   4356
+  ],
+  [
+   "MAX_MULTICAST_SOLICIT",
+   "3",
+   "transmissions",
+   4360
+  ],
+  [
+   "MAX_UNICAST_SOLICIT",
+   "3",
+   "transmissions",
+   4362
+  ],
+  [
+   "MAX_ANYCAST_DELAY_TIME",
+   "1",
+   "second",
+   4364
+  ],
+  [
+   "MAX_NEIGHBOR_ADVERTISEMENT",
+   "3",
+   "transmissions",
+   4366
+  ],
+  [
+   "REACHABLE_TIME",
+   "30,000",
+   "milliseconds",
+   4375
+  ],
+  [
+   "RETRANS_TIMER",
+   "1,000",
+   "milliseconds",
+   4377
+  ],
+  [
+   "DELAY_FIRST_PROBE_TIME",
+   "5",
+   "seconds",
+   4379
+  ],
+  [
+   "MIN_RANDOM_FACTOR",
+   ".5",
+   "无量纲",
+   4381
+  ],
+  [
+   "MAX_RANDOM_FACTOR",
+   "1.5",
+   "无量纲",
+   4383
+  ]
+ ],
+ "const_rows_doc": [
+  [
+   "MTU",
+   "5",
+   "无量纲",
+   1545
+  ],
+  [
+   "MAX_INITIAL_RTR_ADVERT_INTERVAL",
+   "16",
+   "seconds",
+   4340
+  ],
+  [
+   "MAX_INITIAL_RTR_ADVERTISEMENTS",
+   "3",
+   "transmissions",
+   4342
+  ],
+  [
+   "MAX_FINAL_RTR_ADVERTISEMENTS",
+   "3",
+   "transmissions",
+   4344
+  ],
+  [
+   "MIN_DELAY_BETWEEN_RAS",
+   "3",
+   "seconds",
+   4346
+  ],
+  [
+   "MAX_RA_DELAY_TIME",
+   ".5",
+   "seconds",
+   4348
+  ],
+  [
+   "MAX_RTR_SOLICITATION_DELAY",
+   "1",
+   "second",
+   4352
+  ],
+  [
+   "RTR_SOLICITATION_INTERVAL",
+   "4",
+   "seconds",
+   4354
+  ],
+  [
+   "MAX_RTR_SOLICITATIONS",
+   "3",
+   "transmissions",
+   4356
+  ],
+  [
+   "MAX_MULTICAST_SOLICIT",
+   "3",
+   "transmissions",
+   4360
+  ],
+  [
+   "MAX_UNICAST_SOLICIT",
+   "3",
+   "transmissions",
+   4362
+  ],
+  [
+   "MAX_ANYCAST_DELAY_TIME",
+   "1",
+   "second",
+   4364
+  ],
+  [
+   "MAX_NEIGHBOR_ADVERTISEMENT",
+   "3",
+   "transmissions",
+   4366
+  ],
+  [
+   "REACHABLE_TIME",
+   "30,000",
+   "milliseconds",
+   4375
+  ],
+  [
+   "RETRANS_TIMER",
+   "1,000",
+   "milliseconds",
+   4377
+  ],
+  [
+   "DELAY_FIRST_PROBE_TIME",
+   "5",
+   "seconds",
+   4379
+  ],
+  [
+   "MIN_RANDOM_FACTOR",
+   ".5",
+   "无量纲",
+   4381
+  ],
+  [
+   "MAX_RANDOM_FACTOR",
+   "1.5",
+   "无量纲",
+   4383
+  ],
+  [
+   "MTU",
+   "5",
+   "无量纲",
+   4632
+  ]
+ ],
+ "const_unit_kinds": [
+  "milliseconds",
+  "second",
+  "seconds",
+  "transmissions",
+  "无量纲"
+ ],
+ "conv_glued_n": 6,
+ "conv_same": {
+  "1.0": [
+   [
+    "4861:1,000 milliseconds",
+    "sysctl:1 second"
+   ],
+   [
+    "4861:1,000 milliseconds",
+    "sysctl:1 seconds"
+   ]
+  ],
+  "1800.0": [
+   [
+    "4861:1800 seconds",
+    "sysd:30 minutes"
+   ],
+   [
+    "4861:30 minutes",
+    "sysd:1800 seconds"
+   ]
+  ],
+  "600.0": [
+   [
+    "4861:600 seconds",
+    "sysctl:10 minutes"
+   ]
+  ]
+ },
+ "conv_same_n": 5,
+ "conv_spaced_n": 43,
+ "conv_vals": [
+  0.0,
+  0.001,
+  0.2,
+  1.0,
+  3.0,
+  4.0,
+  5.0,
+  9.0,
+  10.0,
+  16.0,
+  30.0,
+  31.0,
+  60.0,
+  63.0,
+  100.0,
+  127.0,
+  300.0,
+  600.0,
+  660.0,
+  1800.0,
+  3600.0,
+  9000.0,
+  604800.0,
+  2592000.0
+ ],
+ "cp": [
+  72482,
+  235106,
+  33123,
+  87649,
+  261821
+ ],
+ "dbl_space": [
+  507,
+  1492,
+  187,
+  98,
+  1101
+ ],
+ "dbl_space_eaten": [
+  507,
+  1492,
+  187,
+  98,
+  1101
+ ],
+ "dbl_space_fold": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "default_gloss": [
+  0,
+  0,
+  0,
+  17,
+  0
+ ],
+ "default_slot_all": 465,
+ "default_slot_kinds": {
+  "4429": [],
+  "4861": [
+   "变量名+单位",
+   "布尔字",
+   "散文/交回",
+   "数+单位",
+   "数+单位(括号换算)",
+   "无值位",
+   "算式",
+   "裸数"
+  ],
+  "4862": [
+   "裸数"
+  ],
+  "sysctl": [
+   "布尔字",
+   "开关/交回字",
+   "散文/交回",
+   "数+单位",
+   "数+单位(括号换算)",
+   "无值位",
+   "裸数",
+   "裸数(括号注)"
+  ],
+  "sysd": [
+   "布尔字",
+   "开关/交回字",
+   "散文/交回",
+   "数+单位",
+   "数+单位(括号换算)",
+   "无值位",
+   "裸数"
+  ]
+ },
+ "default_slot_n": {
+  "4429": 0,
+  "4861": 20,
+  "4862": 1,
+  "sysctl": 186,
+  "sysd": 258
+ },
+ "default_slots": {
+  "4429": [],
+  "4861": [
+   [
+    "Default:",
+    "布尔字",
+    [
+     "FALSE"
+    ],
+    "FALSE AdvSendAdvertisements A flag indicating whether or not the route"
+   ],
+   [
+    "Default:",
+    "布尔字",
+    [
+     "FALSE"
+    ],
+    "FALSE Note that AdvSendAdvertisements MUST be FALSE by default so that"
+   ],
+   [
+    "Default:",
+    "数+单位",
+    [
+     "600",
+     "seconds"
+    ],
+    "600 seconds MinRtrAdvInterval The minimum time allowed between sending"
+   ],
+   [
+    "Default:",
+    "算式",
+    [
+     "0.33 * MaxRtrAdvInterval"
+    ],
+    "0.33 * MaxRtrAdvInterval If MaxRtrAdvInterval >= 9 seconds; otherwise,"
+   ],
+   [
+    "Default:",
+    "布尔字",
+    [
+     "FALSE"
+    ],
+    "FALSE Narten, et al. Standards Track [Page 41] RFC 4861 Neighbor Disco"
+   ],
+   [
+    "Default:",
+    "布尔字",
+    [
+     "FALSE"
+    ],
+    "FALSE AdvLinkMTU The value to be placed in MTU options sent by the rou"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 AdvReachableTime The value to be placed in the Reachable Time field"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 AdvRetransTimer The value to be placed in the Retrans Timer field in"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 AdvCurHopLimit The default value to be placed in the Cur Hop Limit f"
+   ],
+   [
+    "Default:",
+    "散文/交回",
+    [
+     "The"
+    ],
+    "The value specified in the \"Assigned Numbers\" [ASSIGNED] that was in e"
+   ],
+   [
+    "Default:",
+    "算式",
+    [
+     "3 * MaxRtrAdvInterval"
+    ],
+    "3 * MaxRtrAdvInterval AdvPrefixList A list of prefixes to be placed in"
+   ],
+   [
+    "Default:",
+    "散文/交回",
+    [
+     "all"
+    ],
+    "all prefixes that the router advertises via routing protocols as being"
+   ],
+   [
+    "Default:",
+    "数+单位(括号换算)",
+    [
+     "2592000",
+     "seconds",
+     "seconds",
+     "30"
+    ],
+    "2592000 seconds (30 days), fixed (i.e., stays the same in consecutive"
+   ],
+   [
+    "Default:",
+    "布尔字",
+    [
+     "TRUE"
+    ],
+    "TRUE Stateless address configuration [ADDRCONF] defines additional inf"
+   ],
+   [
+    "Default:",
+    "数+单位(括号换算)",
+    [
+     "604800",
+     "seconds",
+     "seconds",
+     "7"
+    ],
+    "604800 seconds (7 days), fixed (i.e., stays the same in consecutive ad"
+   ],
+   [
+    "Default:",
+    "布尔字",
+    [
+     "TRUE"
+    ],
+    "TRUE The above variables contain information that is placed in outgoin"
+   ],
+   [
+    "Default:",
+    "散文/交回",
+    [
+     "The"
+    ],
+    "The valued defined in the specific document that describes how IPv6 op"
+   ],
+   [
+    "Default:",
+    "变量名+单位",
+    [
+     "REACHABLE_TIME",
+     "milliseconds"
+    ],
+    "REACHABLE_TIME milliseconds. ReachableTime The time a neighbor is cons"
+   ],
+   [
+    "Default:",
+    "变量名+单位",
+    [
+     "RETRANS_TIMER",
+     "milliseconds"
+    ],
+    "RETRANS_TIMER milliseconds 6.3.3. Interface Initialization The host jo"
+   ],
+   [
+    "by default",
+    "无值位",
+    [
+     "-"
+    ],
+    "so that a node will not accidentally start acting as a router unless i"
+   ]
+  ],
+  "4862": [
+   [
+    "Default:",
+    "裸数",
+    [
+     "1"
+    ],
+    "1, but may be overridden by a link-type specific value in the document"
+   ]
+  ],
+  "sysctl": [
+   [
+    "Default:",
+    "裸数(括号注)",
+    [
+     "64"
+    ],
+    "64 (as recommended by RFC1700) ip_no_pmtu_disc - INTEGER Disable Path"
+   ],
+   [
+    "Default:",
+    "布尔字",
+    [
+     "FALSE"
+    ],
+    "FALSE min_pmtu - INTEGER default 552 - minimum discovered Path MTU ip_"
+   ],
+   [
+    "Default:",
+    "裸数(括号注)",
+    [
+     "0"
+    ],
+    "0 (disabled) Possible values: 0 - disabled 1 - enabled fwmark_reflect"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 fib_multipath_use_neigh - BOOLEAN Use status of existing neighbor en"
+   ],
+   [
+    "Default:",
+    "裸数(括号注)",
+    [
+     "0"
+    ],
+    "0 (disabled) Possible values: 0 - disabled 1 - enabled fib_multipath_h"
+   ],
+   [
+    "Default:",
+    "裸数(括号注)",
+    [
+     "0"
+    ],
+    "0 (Layer 3) Possible values: 0 - Layer 3 1 - Layer 4 2 - Layer 3 or in"
+   ],
+   [
+    "Default:",
+    "散文/交回",
+    [
+     "512kB"
+    ],
+    "512kB Minimum: 64kB Maximum: 64MB ip_forward_update_priority - INTEGER"
+   ],
+   [
+    "Default:",
+    "裸数(括号注)",
+    [
+     "1"
+    ],
+    "1 (Update priority.) Possible values: 0 - Do not update priority. 1 -"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "128"
+    ],
+    "128 neigh/default/gc_thresh2 - INTEGER Threshold when garbage collecto"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "512"
+    ],
+    "512 neigh/default/gc_thresh3 - INTEGER Maximum number of non-PERMANENT"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "1024"
+    ],
+    "1024 neigh/default/unres_qlen_bytes - INTEGER The maximum number of by"
+   ],
+   [
+    "Default:",
+    "散文/交回",
+    [
+     "SK_WMEM_MAX,"
+    ],
+    "SK_WMEM_MAX, (same as net.core.wmem_default). Exact value depends on a"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "101"
+    ],
+    "101 mtu_expires - INTEGER Time, in seconds, that cached PMTU informati"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "64"
+    ],
+    "64 INET peer storage: inet_peer_threshold - INTEGER The approximate si"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "1"
+    ],
+    "1 tcp_allowed_congestion_control - STRING Show/set the congestion cont"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "31"
+    ],
+    "31 tcp_autocorking - BOOLEAN Enable TCP auto corking : When applicatio"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "3"
+    ],
+    "3 tcp_ecn - INTEGER Control use of Explicit Congestion Notification (E"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "2"
+    ],
+    "2 tcp_ecn_fallback - BOOLEAN If the kernel detects that ECN connection"
+   ],
+   [
+    "Default:",
+    "裸数(括号注)",
+    [
+     "1"
+    ],
+    "1 (fallback enabled) tcp_fack - BOOLEAN This is a legacy option, it ha"
+   ],
+   [
+    "Default:",
+    "数+单位",
+    [
+     "60",
+     "seconds"
+    ],
+    "60 seconds tcp_frto - INTEGER Enables Forward RTO-Recovery (F-RTO) def"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 tcp_invalid_ratelimit - INTEGER Limit the maximal rate for sending d"
+   ],
+   [
+    "Default:",
+    "裸数(括号注)",
+    [
+     "500"
+    ],
+    "500 (milliseconds). tcp_keepalive_time - INTEGER How often TCP sends o"
+   ],
+   [
+    "Default:",
+    "散文/交回",
+    [
+     "2hours."
+    ],
+    "2hours. tcp_keepalive_probes - INTEGER How many keepalive probes TCP s"
+   ],
+   [
+    "Default:",
+    "裸数(括号注)",
+    [
+     "0"
+    ],
+    "0 (disabled) tcp_low_latency - BOOLEAN This is a legacy option, it has"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "300"
+    ],
+    "300 tcp_moderate_rcvbuf - BOOLEAN If set, TCP performs receive buffer"
+   ],
+   [
+    "Default:",
+    "散文/交回",
+    [
+     "0x1"
+    ],
+    "0x1 tcp_reordering - INTEGER Initial reordering level of packets in a"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "3"
+    ],
+    "3 tcp_max_reordering - INTEGER Maximal reordering level of packets in"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "300"
+    ],
+    "300 tcp_retrans_collapse - BOOLEAN Bug-to-bug compatibility with some"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 tcp_rmem - vector of 3 INTEGERs: min, default, max min: Minimal size"
+   ],
+   [
+    "Default:",
+    "散文/交回",
+    [
+     "4K"
+    ],
+    "4K default: initial size of receive buffer used by TCP sockets. This v"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "87380"
+    ],
+    "87380 bytes. This value results in window of 65535 with default settin"
+   ],
+   [
+    "Default:",
+    "散文/交回",
+    [
+     "between"
+    ],
+    "between 87380B and 6MB, depending on RAM size. tcp_sack - BOOLEAN Enab"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "1"
+    ],
+    "1 tcp_stdurg - BOOLEAN Use the Host requirements interpretation of the"
+   ],
+   [
+    "Default:",
+    "布尔字",
+    [
+     "FALSE"
+    ],
+    "FALSE tcp_synack_retries - INTEGER Number of times SYNACKs for a passi"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "1"
+    ],
+    "1 Note, that syncookies is fallback facility. It MUST NOT be used to h"
+   ],
+   [
+    "Default:",
+    "散文/交回",
+    [
+     "0x1"
+    ],
+    "0x1 Note that that additional client or server features are only effec"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "1"
+    ],
+    "1 tcp_min_tso_segs - INTEGER Minimal number of segments per TSO frame."
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "2"
+    ],
+    "2 tcp_pacing_ss_ratio - INTEGER sk->sk_pacing_rate is set by TCP stack"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "200"
+    ],
+    "200 tcp_pacing_ca_ratio - INTEGER sk->sk_pacing_rate is set by TCP sta"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "120"
+    ],
+    "120 tcp_tso_win_divisor - INTEGER This allows control over what percen"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "3"
+    ],
+    "3 tcp_tw_reuse - INTEGER Enable reuse of TIME-WAIT sockets for new con"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "2"
+    ],
+    "2 tcp_window_scaling - BOOLEAN Enable window scaling as defined in RFC"
+   ],
+   [
+    "Default:",
+    "散文/交回",
+    [
+     "4K"
+    ],
+    "4K default: initial size of send buffer used by TCP sockets. This valu"
+   ],
+   [
+    "Default:",
+    "散文/交回",
+    [
+     "16K"
+    ],
+    "16K max: Maximal amount of memory allowed for automatically tuned send"
+   ],
+   [
+    "Default:",
+    "散文/交回",
+    [
+     "between"
+    ],
+    "between 64K and 4MB, depending on RAM size. tcp_notsent_lowat - UNSIGN"
+   ],
+   [
+    "Default:",
+    "散文/交回",
+    [
+     "UINT_MAX"
+    ],
+    "UINT_MAX (0xFFFFFFFF) tcp_workaround_signed_windows - BOOLEAN If set,"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 tcp_thin_linear_timeouts - BOOLEAN Enable dynamic triggering of line"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 tcp_limit_output_bytes - INTEGER Controls TCP Small Queue limit per"
+   ],
+   [
+    "Default:",
+    "裸数(括号注)",
+    [
+     "1048576"
+    ],
+    "1048576 (16 * 65536) tcp_challenge_ack_limit - INTEGER Limits number o"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "1000"
+    ],
+    "1000 tcp_rx_skb_cache - BOOLEAN Controls a per TCP socket cache of one"
+   ],
+   [
+    "Default:",
+    "裸数(括号注)",
+    [
+     "0"
+    ],
+    "0 (disabled) UDP variables: udp_l3mdev_accept - BOOLEAN Enabling this"
+   ],
+   [
+    "Default:",
+    "裸数(括号注)",
+    [
+     "0"
+    ],
+    "0 (disabled) udp_mem - vector of 3 INTEGERs: min, pressure, max Number"
+   ],
+   [
+    "Default:",
+    "散文/交回",
+    [
+     "4K"
+    ],
+    "4K udp_wmem_min - INTEGER Minimal size of send buffer used by UDP sock"
+   ],
+   [
+    "Default:",
+    "散文/交回",
+    [
+     "4K"
+    ],
+    "4K RAW variables: raw_l3mdev_accept - BOOLEAN Enabling this option all"
+   ],
+   [
+    "Default:",
+    "裸数(括号注)",
+    [
+     "1"
+    ],
+    "1 (enabled) CIPSOv4 Variables: cipso_cache_enable - BOOLEAN If set, en"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "1"
+    ],
+    "1 cipso_cache_bucket_size - INTEGER The CIPSO label cache consists of"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "10"
+    ],
+    "10 cipso_rbm_optfmt - BOOLEAN Enable the \"Optimized Tag 1 Format\" as d"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 cipso_rbm_structvalid - BOOLEAN If set, do a very strict check of th"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 IP Variables: ip_local_port_range - 2 INTEGERS Defines the local por"
+   ],
+   [
+    "Default:",
+    "散文/交回",
+    [
+     "Empty"
+    ],
+    "Empty ip_unprivileged_port_start - INTEGER This is a per-namespace sys"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "1024"
+    ],
+    "1024 ip_nonlocal_bind - BOOLEAN If set, allows processes to bind() to"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 ip_autobind_reuse - BOOLEAN By default, bind() does not select the p"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 ip_dynaddr - BOOLEAN If set non-zero, enables support for dynamic ad"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 ip_early_demux - BOOLEAN Optimize input packet processing down to on"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "1"
+    ],
+    "1 ping_group_range - 2 INTEGERS Restrict ICMP_PROTO datagram sockets t"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "1"
+    ],
+    "1 udp_early_demux - BOOLEAN Enable early demux for connected UDP socke"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "1"
+    ],
+    "1 icmp_echo_ignore_all - BOOLEAN If set non-zero, then the kernel will"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 icmp_echo_ignore_broadcasts - BOOLEAN If set non-zero, then the kern"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "1"
+    ],
+    "1 icmp_ratelimit - INTEGER Limit the maximal rates for sending ICMP pa"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "1000"
+    ],
+    "1000 icmp_msgs_per_sec - INTEGER Limit maximal number of ICMP packets"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "1000"
+    ],
+    "1000 icmp_msgs_burst - INTEGER icmp_msgs_per_sec controls number of IC"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "50"
+    ],
+    "50 icmp_ratemask - INTEGER Mask made of ICMP types for which rates are"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "1"
+    ],
+    "1 icmp_errors_use_inbound_ifaddr - BOOLEAN If zero, icmp error message"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 igmp_max_memberships - INTEGER Change the maximum number of multicas"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "20"
+    ],
+    "20 Theoretical maximum value is bounded by having to send a membership"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "10"
+    ],
+    "10 igmp_qrv - INTEGER Controls the IGMP query robustness variable (see"
+   ],
+   [
+    "Default:",
+    "裸数(括号注)",
+    [
+     "2"
+    ],
+    "2 (as specified by RFC2236 8.1) Minimum: 1 (as specified by RFC6636 4."
+   ],
+   [
+    "Default:",
+    "布尔字",
+    [
+     "TRUE"
+    ],
+    "TRUE bootp_relay - BOOLEAN Accept packets with source address 0.b.c.d"
+   ],
+   [
+    "Default:",
+    "裸数(括号注)",
+    [
+     "10000"
+    ],
+    "10000 (10 seconds) igmpv3_unsolicited_report_interval - INTEGER The in"
+   ],
+   [
+    "Default:",
+    "裸数(括号注)",
+    [
+     "1000"
+    ],
+    "1000 (1 seconds) promote_secondaries - BOOLEAN When a primary IP addre"
+   ],
+   [
+    "Default:",
+    "散文/交回",
+    [
+     "off"
+    ],
+    "off (0) drop_gratuitous_arp - BOOLEAN Drop all gratuitous ARP frames,"
+   ],
+   [
+    "Default:",
+    "散文/交回",
+    [
+     "off"
+    ],
+    "off (0) tag - INTEGER Allows you to write a number, which can be used"
+   ],
+   [
+    "Default:",
+    "布尔字",
+    [
+     "FALSE"
+    ],
+    "FALSE (as specified in RFC3493) flowlabel_consistency - BOOLEAN Protec"
+   ],
+   [
+    "Default:",
+    "布尔字",
+    [
+     "TRUE"
+    ],
+    "TRUE auto_flowlabels - INTEGER Automatically generate flow labels base"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "1"
+    ],
+    "1 flowlabel_state_ranges - BOOLEAN Split the flow label number space i"
+   ],
+   [
+    "Default:",
+    "布尔字",
+    [
+     "true"
+    ],
+    "true flowlabel_reflect - INTEGER Control flow label reflection. Needed"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 fib_multipath_hash_policy - INTEGER Controls which hash policy to us"
+   ],
+   [
+    "Default:",
+    "裸数(括号注)",
+    [
+     "0"
+    ],
+    "0 (Layer 3) Possible values: 0 - Layer 3 (source and destination addre"
+   ],
+   [
+    "Default:",
+    "布尔字",
+    [
+     "FALSE"
+    ],
+    "FALSE idgen_delay - INTEGER Controls the delay in seconds after which"
+   ],
+   [
+    "Default:",
+    "裸数(括号注)",
+    [
+     "1"
+    ],
+    "1 (as specified in RFC7217) idgen_retries - INTEGER Controls the numbe"
+   ],
+   [
+    "Default:",
+    "裸数(括号注)",
+    [
+     "3"
+    ],
+    "3 (as specified in RFC7217) mld_qrv - INTEGER Controls the MLD query r"
+   ],
+   [
+    "Default:",
+    "裸数(括号注)",
+    [
+     "2"
+    ],
+    "2 (as specified by RFC3810 9.1) Minimum: 1 (as specified by RFC6636 4."
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "8"
+    ],
+    "8 max_hbh_opts_number - INTEGER Maximum number of non-padding TLVs all"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "8"
+    ],
+    "8 max_dst_opts_length - INTEGER Maximum length allowed for a Destinati"
+   ],
+   [
+    "Default:",
+    "散文/交回",
+    [
+     "INT_MAX"
+    ],
+    "INT_MAX (unlimited) max_hbh_length - INTEGER Maximum length allowed fo"
+   ],
+   [
+    "Default:",
+    "散文/交回",
+    [
+     "INT_MAX"
+    ],
+    "INT_MAX (unlimited) skip_notify_on_dev_down - BOOLEAN Controls whether"
+   ],
+   [
+    "Default:",
+    "布尔字",
+    [
+     "false"
+    ],
+    "false (generate message) IPv6 Fragmentation: ip6frag_high_thresh - INT"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 conf/interface/*: Change special settings per interface. The functio"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "1"
+    ],
+    "1 accept_ra_pinfo - BOOLEAN Learn Prefix Information in Router Adverti"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 autoconf - BOOLEAN Autoconfigure addresses using Prefix Information"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "1"
+    ],
+    "1 forwarding - INTEGER Configure interface-specific Host/Router behavi"
+   ],
+   [
+    "Default:",
+    "裸数(括号注)",
+    [
+     "0"
+    ],
+    "0 (disabled) if global forwarding is disabled (default), otherwise 1 ("
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "64"
+    ],
+    "64 mtu - INTEGER Default Maximum Transfer Unit Default: 1280 (IPv6 req"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 router_probe_interval - INTEGER Minimum interval (in seconds) betwee"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "60"
+    ],
+    "60 router_solicitation_delay - INTEGER Number of seconds to wait after"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "1"
+    ],
+    "1 router_solicitation_interval - INTEGER Number of seconds to wait bet"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "4"
+    ],
+    "4 router_solicitations - INTEGER Number of Router Solicitations to sen"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "3"
+    ],
+    "3 use_oif_addrs_only - BOOLEAN When enabled, the candidate source addr"
+   ],
+   [
+    "Default:",
+    "布尔字",
+    [
+     "false"
+    ],
+    "false use_tempaddr - INTEGER Preference for Privacy Extensions (RFC304"
+   ],
+   [
+    "Default:",
+    "裸数(括号注)",
+    [
+     "0"
+    ],
+    "0 (for most devices) -1 (for point-to-point devices and loopback devic"
+   ],
+   [
+    "Default:",
+    "裸数(括号注)",
+    [
+     "604800"
+    ],
+    "604800 (7 days) temp_prefered_lft - INTEGER Preferred lifetime (in sec"
+   ],
+   [
+    "Default:",
+    "裸数(括号注)",
+    [
+     "86400"
+    ],
+    "86400 (1 day) keep_addr_on_down - INTEGER Keep all IPv6 addresses on a"
+   ],
+   [
+    "Default:",
+    "裸数(括号注)",
+    [
+     "0"
+    ],
+    "0 (addresses are removed) max_desync_factor - INTEGER Maximum value fo"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "600"
+    ],
+    "600 regen_max_retry - INTEGER Number of attempts before give up attemp"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "5"
+    ],
+    "5 max_addresses - INTEGER Maximum number of autoconfigured addresses p"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "16"
+    ],
+    "16 disable_ipv6 - BOOLEAN Disable IPv6 operation. If accept_dad is set"
+   ],
+   [
+    "Default:",
+    "布尔字",
+    [
+     "FALSE"
+    ],
+    "FALSE (enable IPv6 operation) When this value is changed from 1 to 0 ("
+   ],
+   [
+    "Default:",
+    "布尔字",
+    [
+     "FALSE"
+    ],
+    "FALSE Quoting from RFC 2461, section 4.4, Target link-layer address: \""
+   ],
+   [
+    "Default:",
+    "裸数(括号注)",
+    [
+     "10000"
+    ],
+    "10000 (10 seconds) mldv2_unsolicited_report_interval - INTEGER The int"
+   ],
+   [
+    "Default:",
+    "裸数(括号注)",
+    [
+     "1000"
+    ],
+    "1000 (1 second) force_mld_version - INTEGER 0 - (default) No enforceme"
+   ],
+   [
+    "Default:",
+    "布尔字",
+    [
+     "TRUE"
+    ],
+    "TRUE icmp/*: ratelimit - INTEGER Limit the maximal rates for sending I"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "1000"
+    ],
+    "1000 ratemask - list of comma separated ranges For ICMPv6 message type"
+   ],
+   [
+    "Default:",
+    "散文/交回",
+    [
+     "0-1,3-127"
+    ],
+    "0-1,3-127 (rate limit ICMPv6 errors except Packet Too Big) echo_ignore"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 echo_ignore_multicast - BOOLEAN If set non-zero, then the kernel wil"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 echo_ignore_anycast - BOOLEAN If set non-zero, then the kernel will"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 xfrm6_gc_thresh - INTEGER (Obsolete since linux-4.14) The threshold"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "1"
+    ],
+    "1 bridge-nf-call-iptables - BOOLEAN 1 : pass bridged IPv4 traffic to i"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "1"
+    ],
+    "1 bridge-nf-call-ip6tables - BOOLEAN 1 : pass bridged IPv6 traffic to"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "1"
+    ],
+    "1 bridge-nf-filter-vlan-tagged - BOOLEAN 1 : pass bridged vlan-tagged"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 bridge-nf-filter-pppoe-tagged - BOOLEAN 1 : pass bridged pppoe-tagge"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 bridge-nf-pass-vlan-input-dev - BOOLEAN 1: if bridge-nf-filter-vlan-"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 proc/sys/net/sctp/* Variables: addip_enable - BOOLEAN Enable or disa"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 pf_enable - INTEGER Enable or disable pf (pf is short for potentiall"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "1"
+    ],
+    "1 pf_expose - INTEGER Unset or enable/disable pf (pf is short for pote"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 addip_noauth_enable - BOOLEAN Dynamic Address Reconfiguration (ADD-I"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 auth_enable - BOOLEAN Enable or disable Authenticated Chunks extensi"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 prsctp_enable - BOOLEAN Enable or disable the Partial Reliability ex"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "1"
+    ],
+    "1 max_burst - INTEGER The limit of the number of new packets that can"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "4"
+    ],
+    "4 association_max_retrans - INTEGER Set the maximum number for retrans"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "10"
+    ],
+    "10 max_init_retransmits - INTEGER The maximum number of retransmission"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "8"
+    ],
+    "8 path_max_retrans - INTEGER The maximum number of retransmissions tha"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "5"
+    ],
+    "5 pf_retrans - INTEGER The number of retransmissions that will be atte"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 ps_retrans - INTEGER Primary.Switchover.Max.Retrans (PSMR), it's a t"
+   ],
+   [
+    "Default:",
+    "散文/交回",
+    [
+     "0xffff"
+    ],
+    "0xffff rto_initial - INTEGER The initial round trip timeout value in m"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "3000"
+    ],
+    "3000 rto_max - INTEGER The maximum value (in milliseconds) of the roun"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "60000"
+    ],
+    "60000 rto_min - INTEGER The minimum value (in milliseconds) of the rou"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "1000"
+    ],
+    "1000 hb_interval - INTEGER The interval (in milliseconds) between HEAR"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "30000"
+    ],
+    "30000 sack_timeout - INTEGER The amount of time (in milliseconds) that"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "200"
+    ],
+    "200 valid_cookie_life - INTEGER The default lifetime of the SCTP cooki"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "60000"
+    ],
+    "60000 cookie_preserve_enable - BOOLEAN Enable or disable the ability t"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "1"
+    ],
+    "1 cookie_hmac_alg - STRING Select the hmac algorithm used when generat"
+   ],
+   [
+    "Default:",
+    "散文/交回",
+    [
+     "Dependent"
+    ],
+    "Dependent on configuration. MD5 if available, else SHA1 if available,"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 sndbuf_policy - INTEGER Similar to rcvbuf_policy above, this applies"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 sctp_mem - vector of 3 INTEGERs: min, pressure, max Number of pages"
+   ],
+   [
+    "Default:",
+    "散文/交回",
+    [
+     "4K"
+    ],
+    "4K sctp_wmem - vector of 3 INTEGERs: min, default, max Currently this"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "1"
+    ],
+    "1 /proc/sys/net/core/* Please see: Documentation/admin-guide/sysctl/ne"
+   ],
+   [
+    "Default:",
+    "裸数",
+    [
+     "10"
+    ],
+    "10"
+   ],
+   [
+    "Default :",
+    "裸数",
+    [
+     "1"
+    ],
+    "1 tcp_available_congestion_control - STRING Shows the available conges"
+   ],
+   [
+    "Default :",
+    "裸数",
+    [
+     "48"
+    ],
+    "48 tcp_min_snd_mss - INTEGER TCP SYN and SYNACK messages usually adver"
+   ],
+   [
+    "Default :",
+    "裸数(括号注)",
+    [
+     "48"
+    ],
+    "48 (at least 8 bytes of payload per segment) tcp_congestion_control -"
+   ],
+   [
+    "Default :",
+    "数+单位(括号换算)",
+    [
+     "1,000,000",
+     "ns",
+     "ns",
+     "1"
+    ],
+    "1,000,000 ns (1 ms) tcp_comp_sack_nr - INTEGER Max number of SACK that"
+   ],
+   [
+    "Default :",
+    "裸数",
+    [
+     "44"
+    ],
+    "44 tcp_slow_start_after_idle - BOOLEAN If set, provide RFC2861 behavio"
+   ],
+   [
+    "Defaults to",
+    "裸数",
+    [
+     "4096"
+    ],
+    "4096. (Was 128 before linux-5.4) See also tcp_max_syn_backlog for addi"
+   ],
+   [
+    "Defaults to",
+    "裸数",
+    [
+     "3"
+    ],
+    "3. ucast_solicit - INTEGER The maximum number of unicast probes in PRO"
+   ],
+   [
+    "Defaults to",
+    "裸数",
+    [
+     "3"
+    ],
+    "3. app_solicit - INTEGER The maximum number of probes to send to the u"
+   ],
+   [
+    "Defaults to",
+    "裸数",
+    [
+     "0"
+    ],
+    "0. mcast_resolicit - INTEGER The maximum number of multicast probes af"
+   ],
+   [
+    "Defaults to",
+    "裸数",
+    [
+     "0"
+    ],
+    "0. disable_policy - BOOLEAN Disable IPSEC policy (SPD) for this interf"
+   ],
+   [
+    "Default value is",
+    "裸数",
+    [
+     "5"
+    ],
+    "5, which corresponds to 31seconds till the last retransmission with th"
+   ],
+   [
+    "Default value is",
+    "裸数",
+    [
+     "6"
+    ],
+    "6, which corresponds to 63seconds till the last retransmission with th"
+   ],
+   [
+    "Default value is",
+    "裸数",
+    [
+     "0"
+    ],
+    "0. Note that some distributions enable it in startup scripts. arp_filt"
+   ],
+   [
+    "Default value is",
+    "裸数",
+    [
+     "0"
+    ],
+    "0. xfrm4_gc_thresh - INTEGER (Obsolete since linux-4.14) The threshold"
+   ],
+   [
+    "Functional default:",
+    "开关/交回字",
+    [
+     "enabled"
+    ],
+    "enabled if local forwarding is disabled. disabled if local forwarding"
+   ],
+   [
+    "Functional default:",
+    "开关/交回字",
+    [
+     "enabled"
+    ],
+    "enabled if accept_ra is enabled. disabled if accept_ra is disabled. ac"
+   ],
+   [
+    "Functional default:",
+    "开关/交回字",
+    [
+     "enabled"
+    ],
+    "enabled if accept_ra_from_local is enabled on a specific interface. di"
+   ],
+   [
+    "Functional default:",
+    "裸数",
+    [
+     "0"
+    ],
+    "0 if accept_ra_rtr_pref is enabled. -1 if accept_ra_rtr_pref is disabl"
+   ],
+   [
+    "Functional default:",
+    "开关/交回字",
+    [
+     "enabled"
+    ],
+    "enabled if accept_ra_pinfo is enabled. disabled if accept_ra_pinfo is"
+   ],
+   [
+    "By default",
+    "无值位",
+    [
+     "-"
+    ],
+    "we don't trust protocol path MTUs while forwarding because they could"
+   ],
+   [
+    "By default",
+    "无值位",
+    [
+     "-"
+    ],
+    "it's enabled with a non-zero value. 0 disables F-RTO. tcp_fwmark_accep"
+   ],
+   [
+    "By default",
+    "无值位",
+    [
+     "-"
+    ],
+    "failed packets are discarded. 2 - Loose mode as defined in RFC3704 Loo"
+   ],
+   [
+    "By default",
+    "无值位",
+    [
+     "-"
+    ],
+    "the stable secret is unset. addr_gen_mode - INTEGER Defines how link-l"
+   ],
+   [
+    "By default",
+    "无值位",
+    [
+     "-"
+    ],
+    "this is turned off. drop_unsolicited_na - BOOLEAN Drop all unsolicited"
+   ],
+   [
+    "By default",
+    "无值位",
+    [
+     "-"
+    ],
+    "this is turned off. enhanced_dad - BOOLEAN Include a nonce option in t"
+   ],
+   [
+    "by default",
+    "无值位",
+    [
+     "-"
+    ],
+    "without explicit TCP_FASTOPEN socket option. Default: 0x1 Note that th"
+   ],
+   [
+    "by default",
+    "无值位",
+    [
+     "-"
+    ],
+    "(see default mask above) icmp_ignore_bogus_error_responses - BOOLEAN S"
+   ],
+   [
+    "by default",
+    "无值位",
+    [
+     "-"
+    ],
+    "for compatibility reasons. Default: off (0) drop_gratuitous_arp - BOOL"
+   ],
+   [
+    "by default",
+    "无值位",
+    [
+     "-"
+    ],
+    "when sending IPv6 Neighbor Discovery (Router Solicitation, Router Adve"
+   ]
+  ],
+  "sysd": [
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 211. PermanentMACAddress= A whitespace-separat"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 245. Path= A whitespace-separated list of shel"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset, and enabled when the IPv4 link-local addressing is enabled in L"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and the flag is unchanged. When disabled, IPv6AcceptRA= and IPv6"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 239. Promiscuous= Takes a boolean. If set to t"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. If this is set to false for the underlying link of a \"passthru\""
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"no\"."
+    ],
+    "\"no\". This is useful for preventing later matching network files from"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 246. RequiredForOnline= Takes a boolean, a min"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"yes\""
+    ],
+    "\"yes\" when ActivationPolicy= is not set, or set to \"up\", \"always-up\","
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"no\""
+    ],
+    "\"no\" when ActivationPolicy= is set to \"manual\" or \"down\". This is forc"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"any\"."
+    ],
+    "\"any\". Note that this option has no effect if \"RequiredForOnline=no\"."
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"no\"."
+    ],
+    "\"no\". Note that DHCPv6 will by default be triggered by Router Advertis"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset, and the interface is not used for DHCP relay forwarding. Added"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"no\"."
+    ],
+    "\"no\". Further settings for the DHCP server may be set in the [DHCPServ"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "no"
+    ],
+    "no when KeepMaster= or Bridge= is set or when the specified MACVLAN= /"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 252. IPv4LLRoute= Takes a boolean. If set to t"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "false"
+    ],
+    "false. Added in version 216. DefaultRouteOnDevice= Takes a boolean. If"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "false"
+    ],
+    "false. This is useful when creating routes on point-to-point interface"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "true"
+    ],
+    "true. This setting is read by systemd-resolved.service(8) . Added in v"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "false"
+    ],
+    "false. This setting is read by systemd-resolved.service(8) . Added in"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset, and the global setting will be used. This setting is read by sy"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "the"
+    ],
+    "the empty list. This setting is read by systemd-resolved.service(8) ."
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"routers-only\"."
+    ],
+    "\"routers-only\". Use networkctl(1) to query the collected neighbor data"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "false"
+    ],
+    "false, which turns off LLDP packet emission. If not false, a short LLD"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 256. Domains= A whitespace-separated list of d"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "true"
+    ],
+    "true if IPMasquerade= is enabled for IPv4, otherwise the value specifi"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "true"
+    ],
+    "true if IPMasquerade= is enabled for IPv6 or IPv6SendRA= is enabled, o"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"no\"."
+    ],
+    "\"no\". Note that any positive boolean values such as \"yes\" or \"true\" ar"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset, and the kernel's current value will be used. Added in version 2"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset — the sysctl is not set. Added in version 257. IPv4AcceptLocal="
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "disabled"
+    ],
+    "disabled. Added in version 250. IPv6MTUBytes= Configures IPv6 maximum"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset, and the kernel's default will be used. Note, systemd-networkd d"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "false"
+    ],
+    "false. Added in version 250. BatmanAdvanced= , Bond= , Bridge= , VRF="
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "false"
+    ],
+    "false. Added in version 235. PrimarySlave= Takes a boolean. Specifies"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "false"
+    ],
+    "false. Added in version 235. ConfigureWithoutCarrier= Takes a boolean."
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "false"
+    ],
+    "false. If enabled, and the IgnoreCarrierLoss= setting is not explicitl"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"dynamic-on-stop\""
+    ],
+    "\"dynamic-on-stop\" when systemd-networkd is running in initrd, \"yes\" wh"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "true"
+    ],
+    "true, except for wireguard interfaces, where it defaults to false. Add"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 211. PreferredLifetime= Allows the default \"pr"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"global\"."
+    ],
+    "\"global\". IPv4 only - IPv6 scope is automatically assigned by the kern"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "false"
+    ],
+    "false. Added in version 232. DuplicateAddressDetection= Takes one of \""
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"ipv4\""
+    ],
+    "\"ipv4\" for IPv4 link-local addresses (169.254.0.0/16), \"ipv6\" for IPv6"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "false"
+    ],
+    "false. Added in version 232. AddPrefixRoute= Takes a boolean. When tru"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "true"
+    ],
+    "true. Added in version 245. AutoJoin= Takes a boolean. Joining multica"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"no\"."
+    ],
+    "\"no\". Added in version 232. NetLabel=label This setting provides a met"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"main\"."
+    ],
+    "\"main\". Ignored if L3MasterDevice= is true. Added in version 235. Prio"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset, and the kernel will pick a value dynamically. Added in version"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "false"
+    ],
+    "false. Added in version 256. SourcePort= Specifies the source IP port"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 240. DestinationPort= Specifies the destinatio"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 240. IPProtocol= Specifies the IP protocol to"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 240. InvertRule= A boolean. Specifies whether"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "false"
+    ],
+    "false. Added in version 240. Family= Takes a special value \"ipv4\", \"ip"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 245. SuppressPrefixLength= Takes a number N in"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 245. SuppressInterfaceGroup= Takes an integer"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 250. Type= Specifies Routing Policy Database ("
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"table\"."
+    ],
+    "\"table\". Added in version 248. [NEXTHOP] SECTION OPTIONS top The [Next"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"no\"."
+    ],
+    "\"no\". Added in version 248. Blackhole= Takes a boolean. If enabled, pa"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"no\"."
+    ],
+    "\"no\". Added in version 248. Group= Takes a whitespace separated list o"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 249. [ROUTE] SECTION OPTIONS top The [Route] s"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"no\"."
+    ],
+    "\"no\". Added in version 234. Destination= The destination prefix of the"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset, and the kernel's default will be used. Added in version 216. IP"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"static\"."
+    ],
+    "\"static\". Added in version 234. Type= Specifies the type for the route"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"unicast\"."
+    ],
+    "\"unicast\". Added in version 235. InitialCongestionWindow= The TCP init"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 248. [DHCPV4] SECTION OPTIONS top The [DHCPv4]"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset, and an already assigned dynamic address to the interface is aut"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "true"
+    ],
+    "true when Anonymize=no and neither AllowList= nor DenyList= is specifi"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "false"
+    ],
+    "false. This option should only be set to true when MACAddressPolicy= i"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 244. SendOption= Send an arbitrary raw option"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 244. SendVendorOption= Send an arbitrary vendo"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 246. IPServiceType= Takes one of the special v"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"CS6\"."
+    ],
+    "\"CS6\". Added in version 244. SocketPriority= The Linux socket option S"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "off."
+    ],
+    "off. Added in version 258. Label= Specifies the label for the IPv4 add"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 250. UseDNS= When true (the default), the DNS"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "true"
+    ],
+    "true. Added in version 243. UseNTP= When true (the default), the NTP s"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "true"
+    ],
+    "true. Added in version 249. UseSIP= When true (the default), the SIP s"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset, and the value for UseDNS= will be used. Added in version 257. U"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "false"
+    ],
+    "false. Note, some drivers will reset the interfaces if the MTU is chan"
+   ],
+   [
+    "Defaults to",
+    "裸数",
+    [
+     "1024"
+    ],
+    "1024. Added in version 217. RouteTable=num The table identifier for DH"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset, and the value specified with UseRoutes= will be used. Note, whe"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "false"
+    ],
+    "false. Added in version 226. Use6RD= When true, subnets of the receive"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "false"
+    ],
+    "false. Added in version 250. UnassignedSubnetPolicy= Takes \"none\", or"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"unreachable\"."
+    ],
+    "\"unreachable\". Added in version 257. IPv6OnlyMode= When true, the DHCP"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "false"
+    ],
+    "false. Added in version 255. FallbackLeaseLifetimeSec= Allows one to s"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 246. RequestBroadcast= Request the server to u"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"infinity\"."
+    ],
+    "\"infinity\". Note that the time between retries is increased exponentia"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "true"
+    ],
+    "true. Added in version 243. SendDecline= A boolean. When true, systemd"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "false"
+    ],
+    "false. Added in version 245. NetLabel= This applies the NetLabel for t"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 246. UserClass= A DHCPv6 client can use User C"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 244. UnassignedSubnetPolicy= Takes \"none\" or o"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"unreachable\"."
+    ],
+    "\"unreachable\". Added in version 257. RouteTable=num The table identifi"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "true"
+    ],
+    "true, and the two-message exchange will be used if the server support"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\":auto\"."
+    ],
+    "\":auto\". Added in version 250. SubnetId= Configure a specific subnet I"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "yes."
+    ],
+    "yes. Added in version 247. Assign= Takes a boolean. Specifies whether"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "yes."
+    ],
+    "yes. Added in version 246. Token= Specifies an optional address genera"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset, which means the EUI-64 algorithm will be used. Added in version"
+   ],
+   [
+    "Defaults to",
+    "裸数",
+    [
+     "256"
+    ],
+    "256. Added in version 249. NetLabel= This applies the NetLabel for the"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "the"
+    ],
+    "the value of UseDNS= . Added in version 257. UseDomains= Takes a boole"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "false"
+    ],
+    "false. It is recommended to enable this option only on trusted network"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"512:1024:2048\"."
+    ],
+    "\"512:1024:2048\". Added in version 249. QuickAck= Takes a boolean. When"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "true"
+    ],
+    "true. Added in version 250. UseHopLimit= Takes a boolean. When true, t"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "true"
+    ],
+    "true. Added in version 255. UseReachableTime= Takes a boolean. When tr"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "true"
+    ],
+    "true. Added in version 256. UseRetransmissionTime= Takes a boolean. Wh"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "true"
+    ],
+    "true. Added in version 256. UseGateway= When true (the default), the r"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "false"
+    ],
+    "false. Added in version 255. UseAutonomousPrefix= When true (the defau"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "true"
+    ],
+    "true. Added in version 246. NetLabel= This applies the NetLabel for th"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. If unset, a statically configured IPv4 address in the .network"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset, and the same address specified with AgentAddress= will be used."
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset, and the sub-option is not set. Added in version 261. ExtraOptio"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset, and no extra sub-option will be appended. Added in version 261."
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "zero."
+    ],
+    "zero. Added in version 261. [DHCPSERVER] SECTION OPTIONS top The [DHCP"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset, and one of static IPv4 addresses configured in [Network] or [Ad"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\":auto\"."
+    ],
+    "\":auto\". Added in version 249. EmitDNS= , DNS= EmitDNS= takes a boolea"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"yes\"."
+    ],
+    "\"yes\". The DNS servers to pass to clients may be configured with the D"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"yes\"."
+    ],
+    "\"yes\". The Timezone= setting takes a timezone string (such as \"Europe/"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"no\"."
+    ],
+    "\"no\". Added in version 259. Domain= Takes a domain name (such as \"exam"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 251. BootServerName= Takes a name of the boot"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Note that typically setting one of BootServerName= or BootServe"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 251. IPv6OnlyPreferredSec= Takes a timespan. C"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset, and not send the option. The minimum allowed value is 300 secon"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 244. SendVendorOption= Send a vendor option wi"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 246. RapidCommit= Takes a boolean. When true,"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "true"
+    ],
+    "true. Added in version 255. PersistLeases= Takes a boolean or special"
+   ],
+   [
+    "Defaults to",
+    "数+单位(括号换算)",
+    [
+     "1800",
+     "seconds",
+     "seconds",
+     "30"
+    ],
+    "1800 seconds (30 minutes). Added in version 235. ReachableTimeSec= Con"
+   ],
+   [
+    "Defaults to",
+    "裸数",
+    [
+     "0"
+    ],
+    "0. Added in version 256. RetransmitSec= Configures the time, used in t"
+   ],
+   [
+    "Defaults to",
+    "裸数",
+    [
+     "0"
+    ],
+    "0. Added in version 255. RouterPreference= Configures IPv6 router pref"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"medium\"."
+    ],
+    "\"medium\". Added in version 235. HopLimit= Configures hop limit. Takes"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\":auto\"."
+    ],
+    "\":auto\". Added in version 250. EmitDNS= , DNS= DNS= specifies a list o"
+   ],
+   [
+    "Defaults to",
+    "数+单位",
+    [
+     "3600",
+     "seconds"
+    ],
+    "3600 seconds (one hour). Added in version 235. HomeAgent= Takes a bool"
+   ],
+   [
+    "Defaults to",
+    "布尔字",
+    [
+     "false"
+    ],
+    "false. See RFC 6275 [13] for further details. Added in version 255. Ho"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "the"
+    ],
+    "the value set to RouterLifetimeSec= . Added in version 255. HomeAgentP"
+   ],
+   [
+    "Defaults to",
+    "裸数",
+    [
+     "0"
+    ],
+    "0. Added in version 255. [IPV6PREFIX] SECTION OPTIONS top One or more"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"medium\"."
+    ],
+    "\"medium\". Added in version 258. [IPV6PREF64PREFIX] SECTION OPTIONS top"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 243. AssociatedWith= Specifies where the addre"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"self\"."
+    ],
+    "\"self\". Added in version 243. OutgoingInterface= Specifies the name or"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 249. [BRIDGEMDB] SECTION OPTIONS top The [Brid"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset, and the kernel's default is used. When \"datagram\", the Infiniba"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset, and the kernel's default is used. Added in version 250. [QDISC]"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. [NETWORKEMULATOR] SECTION OPTIONS top The [NetworkEmulator] sec"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"root\"."
+    ],
+    "\"root\". Handle= Configures the major number of unique identifier of th"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. DelaySec= Specifies the fixed amount of delay to be added to al"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 245. DelayJitterSec= Specifies the chosen dela"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 245. PacketLimit= Specifies the maximum number"
+   ],
+   [
+    "Defaults to",
+    "裸数",
+    [
+     "1000"
+    ],
+    "1000. Added in version 245. LossRate= Specifies an independent loss pr"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 245. DuplicateRate= Specifies that the chosen"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 245. [TOKENBUCKETFILTER] SECTION OPTIONS top T"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. LatencySec= Specifies the latency parameter, which specifies th"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 245. LimitBytes= Takes the number of bytes tha"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 246. BurstBytes= Specifies the size of the buc"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 246. Rate= Specifies the device specific bandw"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 245. MPUBytes= The Minimum Packet Unit (MPU) d"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "zero."
+    ],
+    "zero. Added in version 245. PeakRate= Takes the maximum depletion rate"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 245. MTUBytes= Specifies the size of the peakr"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 245. [PIE] SECTION OPTIONS top The [PIE] secti"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. PacketLimit= Specifies the hard limit on the queue size in numb"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and kernel's default is used. Added in version 246. [FLOWQUEUEPI"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and kernel's default is used. Added in version 247. [STOCHASTICF"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and kernel's default is used. Added in version 246. [STOCHASTICF"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. PerturbPeriodSec= Specifies the interval in seconds for queue a"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 245. [BFIFO] SECTION OPTIONS top The [BFIFO] s"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. LimitBytes= Specifies the hard limit in bytes on the FIFO buffe"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and kernel default is used. Added in version 246. [PFIFO] SECTIO"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. PacketLimit= Specifies the hard limit on the number of packets"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and kernel's default is used. Added in version 246. [PFIFOHEADDR"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. PacketLimit= As in [PFIFO] section. Added in version 246. [PFIF"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. [CAKE] SECTION OPTIONS top The [CAKE] section manages the queue"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Bandwidth= Specifies the shaper bandwidth. When suffixed with K"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and kernel's default is used. Added in version 246. AutoRateIngr"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset, and the kernel's default is used. Added in version 250. Overhea"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and kernel's default is used. Added in version 246. MPUBytes= Ro"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and kernel's default is used. Added in version 250. Compensation"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and the kernel's default is used. Added in version 250. UseRawPa"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset, and the kernel's default is used. Added in version 250. FlowIso"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and the kernel's default is used. Added in version 250. NAT= Tak"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset, and the kernel's default is used. Added in version 250. Priorit"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset, and the kernel's default is used. Added in version 250. Firewal"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset, and the kernel's default is used. Added in version 250. Wash= T"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset, and the kernel's default is used. Added in version 250. SplitGS"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset, and the kernel's default is used. Added in version 250. RTTSec="
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset, and the kernel's default will be used. Added in version 253. Ac"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset, and the kernel's default will be used. Added in version 253. [C"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and kernel's default is used. Added in version 245. TargetSec= T"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and kernel's default is used. Added in version 245. IntervalSec="
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and kernel's default is used. Added in version 245. ECN= Takes a"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and kernel's default is used. Added in version 245. CEThresholdS"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and kernel's default is used. Added in version 245. [DEFICITROUN"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. [DEFICITROUNDROBINSCHEDULERCLASS] SECTION OPTIONS top The [Defi"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"root\"."
+    ],
+    "\"root\". ClassId= Configures the unique identifier of the class. It is"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. QuantumBytes= Specifies the amount of bytes a flow is allowed t"
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "the"
+    ],
+    "the MTU of the interface. Added in version 246. [ENHANCEDTRANSMISSIONS"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Bands= Specifies the number of bands. An unsigned integer in th"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. VirtualQueues= Specifies the number of virtual queues. Takes an"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and kernel's default is used. Added in version 246. DefaultVirtu"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and kernel's default is used. Added in version 246. GenericRIO="
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and kernel's default is used. Added in version 246. [FAIRQUEUEIN"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. PacketLimit= Specifies the hard limit on the real queue size. W"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and kernel's default is used. Added in version 245. MemoryLimitB"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and kernel's default is used. Added in version 246. Flows= Speci"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and kernel's default is used. Added in version 245. QuantumBytes"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and kernel's default is used. Added in version 246. ECN= Takes a"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and kernel's default is used. Added in version 245. [FAIRQUEUEIN"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and kernel's default is used. Added in version 245. FlowLimit= S"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and kernel's default is used. Added in version 246. InitialQuant"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and kernel's default is used. Added in version 245. MaximumRate="
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and kernel's default is used. Added in version 245. Buckets= Spe"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and kernel's default is used. Added in version 245. OrphanMask="
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and kernel's default is used. Added in version 245. Pacing= Take"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and kernel's default is used. Added in version 245. [TRIVIALLINK"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Id= Specifies the interface ID \"N\" of teql. Defaults to \"0\". No"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. DefaultClass= Takes the minor id in hexadecimal of the default"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 246. RateToQuantum= Takes an unsigned integer."
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Priority= Specifies the priority of the class. In the round-rob"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. [BANDMULTIQUEUEING] SECTION OPTIONS top The [BandMultiQueueing]"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. [HEAVYHITTERFILTER] SECTION OPTIONS top The [HeavyHitterFilter]"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and kernel's default is used. Added in version 246. [QUICKFAIRQU"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. [QUICKFAIRQUEUEINGCLASS] SECTION OPTIONS top The [QuickFairQueu"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Weight= Specifies the weight of the class. Takes an integer in"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset in which case the kernel default is used. Added in version 246."
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset, and will keep the assigned port VLAN ID if exists. Added in ver"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and no attempt to establish the connection is made. Added in ver"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and an automatically picked authentication method will be used."
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 260. Password= Password (if any) required by t"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 260. IPFamily= Addressing type. Takes one of \""
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset and automatically selected. Added in version 260. AllowRoaming="
+   ],
+   [
+    "Defaults to",
+    "散文/交回",
+    [
+     "\"yes\"."
+    ],
+    "\"yes\". Added in version 260. PIN= SIM-PIN unlock code. Defaults to uns"
+   ],
+   [
+    "Defaults to",
+    "开关/交回字",
+    [
+     "unset"
+    ],
+    "unset. Added in version 260. RouteMetric= Set the routing metric for r"
+   ],
+   [
+    "defaults to",
+    "散文/交回",
+    [
+     "an"
+    ],
+    "an automatic mode: queries not matching any link's configured domains"
+   ],
+   [
+    "defaults to",
+    "散文/交回",
+    [
+     "\"no\","
+    ],
+    "\"no\", will be used. Added in version 222. IPv6AcceptRA= Takes a boolea"
+   ],
+   [
+    "defaults to",
+    "数+单位",
+    [
+     "200",
+     "milliseconds"
+    ],
+    "200 milliseconds. Added in version 258. IPv4ReversePathFilter= Configu"
+   ],
+   [
+    "defaults to",
+    "数+单位",
+    [
+     "3",
+     "seconds"
+    ],
+    "3 seconds. When the DHCPv4 client is enabled and UseMTU= in the [DHCPv"
+   ],
+   [
+    "defaults to",
+    "数+单位",
+    [
+     "5",
+     "seconds"
+    ],
+    "5 seconds. Otherwise, defaults to the value specified with ConfigureWi"
+   ],
+   [
+    "defaults to",
+    "布尔字",
+    [
+     "false"
+    ],
+    "false. Added in version 211. Label= Specifies the label for the IPv4 a"
+   ],
+   [
+    "defaults to",
+    "散文/交回",
+    [
+     "\"ipv4\"."
+    ],
+    "\"ipv4\". Added in version 243. User= Takes a username, a user ID, or a"
+   ],
+   [
+    "defaults to",
+    "散文/交回",
+    [
+     "\"ipv4\"."
+    ],
+    "\"ipv4\". Added in version 248. OnLink= Takes a boolean. If set to true,"
+   ],
+   [
+    "defaults to",
+    "散文/交回",
+    [
+     "\"host\""
+    ],
+    "\"host\" if Type= is \"local\" or \"nat\", and \"link\" if Type= is \"broadcast"
+   ],
+   [
+    "defaults to",
+    "散文/交回",
+    [
+     "\"global\"."
+    ],
+    "\"global\". The value is not used for IPv6. Added in version 219. Prefer"
+   ],
+   [
+    "defaults to",
+    "散文/交回",
+    [
+     "the"
+    ],
+    "the acquired DHCPv4 address. Otherwise, defaults to unset. The value \""
+   ],
+   [
+    "defaults to",
+    "散文/交回",
+    [
+     "\"main\"."
+    ],
+    "\"main\". Added in version 230. HopLimit= Configures per route hop limit"
+   ],
+   [
+    "defaults to",
+    "散文/交回",
+    [
+     "\"no\"."
+    ],
+    "\"no\". It is recommended to enable this option only on trusted networks"
+   ],
+   [
+    "defaults to",
+    "散文/交回",
+    [
+     "global"
+    ],
+    "global . Added in version 215. RouteMetric= Set the routing metric for"
+   ],
+   [
+    "defaults to",
+    "散文/交回",
+    [
+     "\"no\","
+    ],
+    "\"no\", and the DHCPv6 client will be started when an RA is received. Se"
+   ],
+   [
+    "defaults to",
+    "布尔字",
+    [
+     "true"
+    ],
+    "true. Added in version 248. RouteMetric= The metric of the route to th"
+   ],
+   [
+    "defaults to",
+    "散文/交回",
+    [
+     "1h,"
+    ],
+    "1h, the maximum lease time to 12h. Shorter lease times are beneficial"
+   ],
+   [
+    "defaults to",
+    "布尔字",
+    [
+     "true"
+    ],
+    "true, and the Router= setting defaults to unset. Added in version 230."
+   ],
+   [
+    "defaults to",
+    "散文/交回",
+    [
+     "no"
+    ],
+    "no domain name. Added in version 259. BootServerAddress= Takes an IPv4"
+   ],
+   [
+    "defaults to",
+    "散文/交回",
+    [
+     "\"yes\","
+    ],
+    "\"yes\", will be used. Added in version 256. LocalLeaseDomain= Takes a D"
+   ],
+   [
+    "defaults to",
+    "布尔字",
+    [
+     "true"
+    ],
+    "true. Added in version 235. EmitDomains= , Domains= A list of DNS sear"
+   ],
+   [
+    "defaults to",
+    "布尔字",
+    [
+     "true"
+    ],
+    "true. Added in version 235. DNSLifetimeSec= Lifetime in seconds for th"
+   ],
+   [
+    "defaults to",
+    "数+单位(括号换算)",
+    [
+     "1800",
+     "seconds",
+     "seconds",
+     "30"
+    ],
+    "1800 seconds (30 minutes) and ValidLifetimeSec= defaults to 3600 secon"
+   ],
+   [
+    "defaults to",
+    "数+单位",
+    [
+     "3600",
+     "seconds"
+    ],
+    "3600 seconds (one hour). Added in version 244. Preference= Specifies t"
+   ],
+   [
+    "defaults to",
+    "数+单位",
+    [
+     "1800",
+     "seconds"
+    ],
+    "1800 seconds. Added in version 255. [BRIDGE] SECTION OPTIONS top The ["
+   ],
+   [
+    "defaults to",
+    "裸数",
+    [
+     "0"
+    ],
+    "0. Added in version 247. [LLDP] SECTION OPTIONS top The [LLDP] section"
+   ],
+   [
+    "by default",
+    "无值位",
+    [
+     "-"
+    ],
+    "be triggered by Router Advertisements, if reception is enabled, regard"
+   ],
+   [
+    "by default",
+    "无值位",
+    [
+     "-"
+    ],
+    "the domain name specified through DHCP is not used for name resolution"
+   ],
+   [
+    "by default",
+    "无值位",
+    [
+     "-"
+    ],
+    "for some configurations, e.g. bridge ports. Hence, in that case Multic"
+   ],
+   [
+    "by default",
+    "无值位",
+    [
+     "-"
+    ],
+    "otherwise. Further settings for the IPv6 RA support may be configured"
+   ],
+   [
+    "by default",
+    "无值位",
+    [
+     "-"
+    ],
+    "in most cases) need to be disabled. Also, DuplicateAddressDetection= ("
+   ],
+   [
+    "by default",
+    "无值位",
+    [
+     "-"
+    ],
+    "for IPv4 link-local addresses and all IPv6 addresses) needs to be disa"
+   ],
+   [
+    "by default",
+    "无值位",
+    [
+     "-"
+    ],
+    "to form an interface identifier from the delegated prefixes. See also"
+   ]
+  ]
+ },
+ "default_val_is_num": [
+  [
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   8,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   136,
+   5,
+   4,
+   2,
+   0,
+   4,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   8,
+   8,
+   0,
+   0,
+   0
+  ]
+ ],
+ "dehyphen_chars": [
+  12,
+  25,
+  2,
+  2,
+  2
+ ],
+ "dehyphen_edits": [
+  12,
+  25,
+  2,
+  2,
+  2
+ ],
+ "dehyphen_fold_edits": [
+  12,
+  25,
+  2,
+  2,
+  2
+ ],
+ "dig_all": [
+  [
+   432,
+   50
+  ],
+  [
+   1568,
+   178
+  ],
+  [
+   338,
+   19
+  ],
+  [
+   775,
+   81
+  ],
+  [
+   2258,
+   344
+  ]
+ ],
+ "dig_ipv_noise": [
+  50,
+  178,
+  19,
+  81,
+  344
+ ],
+ "disk_vs_own": -1740,
+ "dotfrac_nums": [
+  [
+   "164",
+   "25"
+  ],
+  [
+   "1",
+   "25",
+   "5",
+   "75"
+  ],
+  [
+   "1",
+   "2"
+  ],
+  [],
+  []
+ ],
+ "dotlead_unit": [
+  [],
+  [
+   [
+    "5",
+    "seconds"
+   ]
+  ],
+  [],
+  [],
+  []
+ ],
+ "dual_gloss_forms": [
+  "1 ms",
+  "30 days",
+  "30 minutes",
+  "7 days"
+ ],
+ "dual_implicit_lines": [
+  [
+   "temp_valid_lft",
+   "604800 (7 days)",
+   "seconds",
+   604800.0,
+   7.0,
+   "days",
+   true
+  ],
+  [
+   "temp_prefered_lft",
+   "86400 (1 day)",
+   "seconds",
+   86400.0,
+   1.0,
+   "day",
+   true
+  ]
+ ],
+ "dual_plural_at_one": 1,
+ "dual_prove": [
+  true,
+  true,
+  true,
+  true
+ ],
+ "dual_unit_lines": [
+  [
+   "4861",
+   "2592000 seconds (30 days)",
+   2592000.0,
+   "seconds",
+   30.0,
+   "days",
+   true
+  ],
+  [
+   "4861",
+   "604800 seconds (7 days)",
+   604800.0,
+   "seconds",
+   7.0,
+   "days",
+   true
+  ],
+  [
+   "sysctl",
+   "1,000,000 ns (1 ms)",
+   1000000.0,
+   "ns",
+   1.0,
+   "ms",
+   true
+  ],
+  [
+   "sysd",
+   "1800 seconds (30 minutes)",
+   1800.0,
+   "seconds",
+   30.0,
+   "minutes",
+   true
+  ]
+ ],
+ "ent_n": 384,
+ "ff": [
+  30,
+  97,
+  17,
+  0,
+  0
+ ],
+ "ff_at_eof": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ff_before_nl": [
+  30,
+  97,
+  17,
+  0,
+  0
+ ],
+ "ff_led": [
+  30,
+  97,
+  17,
+  0,
+  0
+ ],
+ "ff_led_line": [
+  30,
+  97,
+  17,
+  0,
+  0
+ ],
+ "fold_eq": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "foot_page": [
+  30,
+  97,
+  17,
+  0,
+  0
+ ],
+ "fraction": [
+  [],
+  [],
+  [],
+  [],
+  [
+   "4/7"
+  ]
+ ],
+ "gate_keys": 31,
+ "glued_unit": [
+  [],
+  [],
+  [],
+  [
+   [
+    "1",
+    "second",
+    "second"
+   ],
+   [
+    "127",
+    "seconds",
+    "seconds"
+   ],
+   [
+    "2",
+    "hours",
+    "hours"
+   ],
+   [
+    "31",
+    "seconds",
+    "seconds"
+   ],
+   [
+    "63",
+    "seconds",
+    "seconds"
+   ]
+  ],
+  []
+ ],
+ "hdr_old": [
+  30,
+  97,
+  0,
+  0,
+  0
+ ],
+ "hdr_title": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "hex_default": [
+  [],
+  [],
+  [],
+  [
+   "0x1",
+   "0xffff",
+   "INT_MAX",
+   "UINT_MAX"
+  ],
+  []
+ ],
+ "html_bytes": 292293,
+ "html_cp": 291537,
+ "html_lf": 6194,
+ "html_lines": 6195,
+ "html_minus_stripped": 29716,
+ "ietf_alone": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "key_lines": [
+  0,
+  0,
+  0,
+  234,
+  0
+ ],
+ "kw_all": [
+  118,
+  417,
+  59,
+  55,
+  127
+ ],
+ "kw_caps": [
+  34,
+  241,
+  26,
+  3,
+  0
+ ],
+ "kw_low_only": [
+  84,
+  176,
+  33,
+  52,
+  127
+ ],
+ "lines_ruler_diff": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "loose_all_short": [
+  true,
+  false,
+  true,
+  false,
+  false
+ ],
+ "loose_n": [
+  48,
+  160,
+  11,
+  35,
+  120
+ ],
+ "loose_short_n": [
+  48,
+  135,
+  11,
+  20,
+  102
+ ],
+ "maxlen": [
+  72,
+  72,
+  72,
+  88,
+  2106
+ ],
+ "maxlen_scan": [
+  72,
+  72,
+  72,
+  88,
+  2106
+ ],
+ "n_cr": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "n_lf": [
+  1683,
+  5435,
+  955,
+  2362,
+  6186
+ ],
+ "na_total": [
+  0,
+  0,
+  0,
+  0,
+  757
+ ],
+ "name_absent": [
+  "use_dad",
+  "retrans_time",
+  "RetryCount"
+ ],
+ "name_ci": [
+  [
+   5,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   4,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   12,
+   2,
+   3,
+   4,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   2,
+   0,
+   3
+  ],
+  [
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   3,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   0,
+   3,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   1,
+   1,
+   1,
+   1,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   7,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ ],
+ "name_n": 24,
+ "name_norm": [
+  [
+   5,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   4,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   3,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   10,
+   7,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   17,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   0,
+   0,
+   0,
+   27,
+   0,
+   0,
+   0,
+   0,
+   0,
+   3,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   7,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   5,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ ],
+ "name_raw": [
+  [
+   5,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   4,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   12,
+   2,
+   3,
+   4,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   3
+  ],
+  [
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   3,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   0,
+   3,
+   2,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   1,
+   1,
+   1,
+   1,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   7,
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ ],
+ "needle_dehy_kinds": 6,
+ "needle_line_only": 0,
+ "needle_n": 52,
+ "needle_src": [
+  [
+   "4862"
+  ],
+  [
+   "4862"
+  ],
+  [
+   "4862"
+  ],
+  [
+   "4862"
+  ],
+  [
+   "4862"
+  ],
+  [
+   "4862"
+  ],
+  [
+   "4862"
+  ],
+  [
+   "4862"
+  ],
+  [
+   "4862"
+  ],
+  [
+   "4862"
+  ],
+  [
+   "4861"
+  ],
+  [
+   "4861"
+  ],
+  [
+   "4861"
+  ],
+  [
+   "4861"
+  ],
+  [
+   "4861"
+  ],
+  [
+   "4861"
+  ],
+  [
+   "4861"
+  ],
+  [
+   "4861"
+  ],
+  [
+   "4861"
+  ],
+  [
+   "4861"
+  ],
+  [
+   "4861"
+  ],
+  [
+   "4861"
+  ],
+  [
+   "4861"
+  ],
+  [
+   "4429"
+  ],
+  [
+   "4429"
+  ],
+  [
+   "4429"
+  ],
+  [
+   "4429"
+  ],
+  [
+   "sysctl"
+  ],
+  [
+   "sysctl"
+  ],
+  [
+   "sysctl"
+  ],
+  [
+   "sysctl"
+  ],
+  [
+   "sysctl"
+  ],
+  [
+   "sysctl"
+  ],
+  [
+   "sysctl"
+  ],
+  [
+   "sysctl"
+  ],
+  [
+   "sysctl"
+  ],
+  [
+   "sysctl"
+  ],
+  [
+   "sysd"
+  ],
+  [
+   "sysd"
+  ],
+  [
+   "sysd"
+  ],
+  [
+   "sysd"
+  ],
+  [
+   "sysd"
+  ],
+  [
+   "sysd"
+  ],
+  [
+   "sysd"
+  ],
+  [
+   "sysd"
+  ],
+  [
+   "sysd"
+  ],
+  [],
+  [],
+  [],
+  [],
+  [],
+  []
+ ],
+ "needle_src_dehy": [
+  [
+   "4862"
+  ],
+  [
+   "4862"
+  ],
+  [
+   "4862"
+  ],
+  [
+   "4862"
+  ],
+  [
+   "4862"
+  ],
+  [
+   "4862"
+  ],
+  [
+   "4862"
+  ],
+  [
+   "4862"
+  ],
+  [
+   "4862"
+  ],
+  [
+   "4862"
+  ],
+  [
+   "4861"
+  ],
+  [
+   "4861"
+  ],
+  [
+   "4861"
+  ],
+  [
+   "4861"
+  ],
+  [
+   "4861"
+  ],
+  [
+   "4861"
+  ],
+  [
+   "4861"
+  ],
+  [
+   "4861"
+  ],
+  [
+   "4861"
+  ],
+  [
+   "4861"
+  ],
+  [
+   "4861"
+  ],
+  [
+   "4861"
+  ],
+  [
+   "4861"
+  ],
+  [
+   "4429"
+  ],
+  [
+   "4429"
+  ],
+  [
+   "4429"
+  ],
+  [
+   "4429"
+  ],
+  [
+   "sysctl"
+  ],
+  [
+   "sysctl"
+  ],
+  [
+   "sysctl"
+  ],
+  [
+   "sysctl"
+  ],
+  [
+   "sysctl"
+  ],
+  [
+   "sysctl"
+  ],
+  [
+   "sysctl"
+  ],
+  [
+   "sysctl"
+  ],
+  [
+   "sysctl"
+  ],
+  [
+   "sysctl"
+  ],
+  [
+   "sysd"
+  ],
+  [
+   "sysd"
+  ],
+  [
+   "sysd"
+  ],
+  [
+   "sysd"
+  ],
+  [
+   "sysd"
+  ],
+  [
+   "sysd"
+  ],
+  [
+   "sysd"
+  ],
+  [
+   "sysd"
+  ],
+  [
+   "sysd"
+  ],
+  [
+   "4862"
+  ],
+  [
+   "4862"
+  ],
+  [
+   "4862"
+  ],
+  [
+   "4862"
+  ],
+  [
+   "4861",
+   "sysctl"
+  ],
+  [
+   "4429"
+  ]
+ ],
+ "needle_wrap_kinds": 7,
+ "needles4": [
+  [
+   [
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    1
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1,
+    1
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ]
+ ],
+ "nonascii": [
+  [],
+  [],
+  [],
+  [],
+  [
+   160,
+   8211,
+   8212,
+   8217,
+   8226,
+   8240,
+   9472,
+   9474,
+   9484,
+   9488,
+   9492,
+   9496,
+   9500,
+   9508,
+   9516,
+   9524,
+   9532,
+   10216,
+   10217,
+   128163,
+   128165,
+   129512
+  ]
+ ],
+ "nonblank": [
+  1138,
+  3763,
+  533,
+  1881,
+  4729
+ ],
+ "numunit_loose": [
+  [
+   [
+    "3590,",
+    "s"
+   ],
+   [
+    "4.1",
+    "s"
+   ],
+   [
+    "4.2",
+    "s"
+   ],
+   [
+    "4861,",
+    "s"
+   ],
+   [
+    "4941,",
+    "s"
+   ],
+   [
+    "5.1",
+    "s"
+   ],
+   [
+    "6",
+    "s"
+   ],
+   [
+    "6",
+    "sec"
+   ]
+  ],
+  [
+   [
+    "0",
+    "s"
+   ],
+   [
+    "0,",
+    "s"
+   ],
+   [
+    "1",
+    "s"
+   ],
+   [
+    "1",
+    "second"
+   ],
+   [
+    "1,000",
+    "milliseconds"
+   ],
+   [
+    "11",
+    "sec"
+   ],
+   [
+    "11.2",
+    "sec"
+   ],
+   [
+    "1256,",
+    "s"
+   ],
+   [
+    "16",
+    "seconds"
+   ],
+   [
+    "1800",
+    "seconds"
+   ],
+   [
+    "2",
+    "s"
+   ],
+   [
+    "2.2",
+    "s"
+   ],
+   [
+    "2.4",
+    "s"
+   ],
+   [
+    "2.6",
+    "s"
+   ],
+   [
+    "2007",
+    "s"
+   ],
+   [
+    "2592000",
+    "seconds"
+   ],
+   [
+    "3",
+    "seconds"
+   ],
+   [
+    "3",
+    "transmissions"
+   ],
+   [
+    "3,600,000",
+    "milliseconds"
+   ],
+   [
+    "3.2",
+    "s"
+   ],
+   [
+    "3.3",
+    "sec"
+   ],
+   [
+    "3.7",
+    "s"
+   ],
+   [
+    "30,000",
+    "milliseconds"
+   ],
+   [
+    "31",
+    "s"
+   ],
+   [
+    "3314,",
+    "s"
+   ],
+   [
+    "4",
+    "s"
+   ],
+   [
+    "4",
+    "seconds"
+   ],
+   [
+    "4862,",
+    "s"
+   ],
+   [
+    "5",
+    "seconds"
+   ],
+   [
+    "6",
+    "s"
+   ],
+   [
+    "6.1",
+    "s"
+   ],
+   [
+    "600",
+    "seconds"
+   ],
+   [
+    "604800",
+    "seconds"
+   ],
+   [
+    "792,",
+    "s"
+   ],
+   [
+    "9",
+    "seconds"
+   ],
+   [
+    "9000",
+    "seconds"
+   ]
+  ],
+  [
+   [
+    "2462",
+    "s"
+   ],
+   [
+    "4.1",
+    "s"
+   ],
+   [
+    "5",
+    "sec"
+   ],
+   [
+    "6",
+    "s"
+   ],
+   [
+    "600000,",
+    "s"
+   ],
+   [
+    "7.3",
+    "s"
+   ]
+  ],
+  [
+   [
+    "0",
+    "s"
+   ],
+   [
+    "1",
+    "ms"
+   ],
+   [
+    "1",
+    "s"
+   ],
+   [
+    "1",
+    "second"
+   ],
+   [
+    "1",
+    "seconds"
+   ],
+   [
+    "10",
+    "seconds"
+   ],
+   [
+    "100",
+    "seconds"
+   ],
+   [
+    "127",
+    "seconds"
+   ],
+   [
+    "1620",
+    "s"
+   ],
+   [
+    "2",
+    "s"
+   ],
+   [
+    "2461,",
+    "sec"
+   ],
+   [
+    "30000",
+    "s"
+   ],
+   [
+    "31",
+    "seconds"
+   ],
+   [
+    "3168,",
+    "sec"
+   ],
+   [
+    "3376",
+    "sec"
+   ],
+   [
+    "3704",
+    "s"
+   ],
+   [
+    "3810",
+    "s"
+   ],
+   [
+    "4",
+    "s"
+   ],
+   [
+    "5",
+    "seconds"
+   ],
+   [
+    "6",
+    "messages"
+   ],
+   [
+    "6",
+    "s"
+   ],
+   [
+    "60",
+    "seconds"
+   ],
+   [
+    "63",
+    "seconds"
+   ],
+   [
+    "6724,",
+    "sec"
+   ],
+   [
+    "75",
+    "sec"
+   ],
+   [
+    "924.6",
+    "seconds"
+   ]
+  ],
+  [
+   [
+    "0",
+    "s"
+   ],
+   [
+    "0",
+    "seconds"
+   ],
+   [
+    "0.1",
+    "s"
+   ],
+   [
+    "1",
+    "millisecond"
+   ],
+   [
+    "1",
+    "ms"
+   ],
+   [
+    "1",
+    "s"
+   ],
+   [
+    "100",
+    "ms"
+   ],
+   [
+    "1800",
+    "seconds"
+   ],
+   [
+    "2",
+    "s"
+   ],
+   [
+    "2.0",
+    "s"
+   ],
+   [
+    "200",
+    "milliseconds"
+   ],
+   [
+    "211",
+    "s"
+   ],
+   [
+    "230",
+    "s"
+   ],
+   [
+    "233",
+    "s"
+   ],
+   [
+    "234",
+    "s"
+   ],
+   [
+    "239",
+    "s"
+   ],
+   [
+    "24",
+    "s"
+   ],
+   [
+    "243",
+    "s"
+   ],
+   [
+    "244",
+    "s"
+   ],
+   [
+    "245",
+    "s"
+   ],
+   [
+    "246",
+    "s"
+   ],
+   [
+    "250",
+    "s"
+   ],
+   [
+    "252",
+    "s"
+   ],
+   [
+    "254",
+    "s"
+   ],
+   [
+    "255",
+    "s"
+   ],
+   [
+    "256",
+    "s"
+   ],
+   [
+    "3",
+    "s"
+   ],
+   [
+    "3",
+    "seconds"
+   ],
+   [
+    "30",
+    "s"
+   ],
+   [
+    "300",
+    "seconds"
+   ],
+   [
+    "3600",
+    "seconds"
+   ],
+   [
+    "4",
+    "messages"
+   ],
+   [
+    "4",
+    "s"
+   ],
+   [
+    "4",
+    "seconds"
+   ],
+   [
+    "4294967295",
+    "ms"
+   ],
+   [
+    "5",
+    "seconds"
+   ],
+   [
+    "6",
+    "s"
+   ],
+   [
+    "6,",
+    "s"
+   ],
+   [
+    "60",
+    "seconds"
+   ],
+   [
+    "63",
+    "s"
+   ],
+   [
+    "8,",
+    "s"
+   ],
+   [
+    "9000",
+    "seconds"
+   ]
+  ]
+ ],
+ "numunit_strict": [
+  [],
+  [
+   [
+    "1",
+    "second"
+   ],
+   [
+    "1,000",
+    "milliseconds"
+   ],
+   [
+    "16",
+    "seconds"
+   ],
+   [
+    "1800",
+    "seconds"
+   ],
+   [
+    "2592000",
+    "seconds"
+   ],
+   [
+    "3",
+    "seconds"
+   ],
+   [
+    "3",
+    "transmissions"
+   ],
+   [
+    "30,000",
+    "milliseconds"
+   ],
+   [
+    "4",
+    "seconds"
+   ],
+   [
+    "5",
+    "seconds"
+   ],
+   [
+    "600",
+    "seconds"
+   ],
+   [
+    "604800",
+    "seconds"
+   ],
+   [
+    "9",
+    "seconds"
+   ],
+   [
+    "9000",
+    "seconds"
+   ]
+  ],
+  [],
+  [
+   [
+    "1",
+    "second"
+   ],
+   [
+    "1",
+    "seconds"
+   ],
+   [
+    "10",
+    "seconds"
+   ],
+   [
+    "100",
+    "seconds"
+   ],
+   [
+    "127",
+    "seconds"
+   ],
+   [
+    "31",
+    "seconds"
+   ],
+   [
+    "5",
+    "seconds"
+   ],
+   [
+    "60",
+    "seconds"
+   ],
+   [
+    "63",
+    "seconds"
+   ]
+  ],
+  [
+   [
+    "0",
+    "seconds"
+   ],
+   [
+    "1",
+    "millisecond"
+   ],
+   [
+    "1800",
+    "seconds"
+   ],
+   [
+    "200",
+    "milliseconds"
+   ],
+   [
+    "3",
+    "seconds"
+   ],
+   [
+    "300",
+    "seconds"
+   ],
+   [
+    "3600",
+    "seconds"
+   ],
+   [
+    "4",
+    "seconds"
+   ],
+   [
+    "5",
+    "seconds"
+   ],
+   [
+    "60",
+    "seconds"
+   ],
+   [
+    "9000",
+    "seconds"
+   ]
+  ]
+ ],
+ "ob_fold": [
+  [
+   18,
+   7,
+   11,
+   2,
+   5,
+   4,
+   1
+  ],
+  [
+   152,
+   33,
+   66,
+   6,
+   23,
+   11,
+   0
+  ],
+  [
+   12,
+   5,
+   10,
+   5,
+   4,
+   0,
+   0
+  ],
+  [
+   2,
+   1,
+   1,
+   0,
+   0,
+   1,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ ],
+ "ob_line": [
+  [
+   18,
+   6,
+   11,
+   2,
+   5,
+   4,
+   1
+  ],
+  [
+   152,
+   32,
+   66,
+   6,
+   23,
+   10,
+   0
+  ],
+  [
+   12,
+   5,
+   10,
+   5,
+   4,
+   0,
+   0
+  ],
+  [
+   2,
+   1,
+   1,
+   0,
+   0,
+   1,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ ],
+ "ob_non": [
+  [
+   18,
+   7,
+   11,
+   2,
+   5,
+   4,
+   1
+  ],
+  [
+   152,
+   33,
+   66,
+   6,
+   23,
+   11,
+   0
+  ],
+  [
+   12,
+   5,
+   10,
+   5,
+   4,
+   0,
+   0
+  ],
+  [
+   2,
+   1,
+   1,
+   0,
+   0,
+   1,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ ],
+ "ob_ruler_diff": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ob_wrap": [
+  0,
+  1,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  1,
+  0,
+  0,
+  0,
+  1,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ob_wrap2": [
+  1,
+  2,
+  0,
+  0,
+  0
+ ],
+ "opt_lines": [
+  0,
+  0,
+  0,
+  0,
+  483
+ ],
+ "othsep": [
+  30,
+  97,
+  17,
+  0,
+  0
+ ],
+ "own_detag_cp": 260081,
+ "percent": [
+  [],
+  [
+   "85%"
+  ],
+  [],
+  [
+   "5%"
+  ],
+  [
+   "100%",
+   "5%",
+   "57%",
+   "75%",
+   "9953%"
+  ]
+ ],
+ "pgnum": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "pick_agree": 116,
+ "pick_diff": 0,
+ "pick_diffk": [],
+ "pick_pairs": 116,
+ "pin_dh2": 7,
+ "pin_kinds": 52,
+ "pin_lines": [
+  [
+   "4862",
+   "The number of consecutive Neighbor Solicitation messages sent while performing Duplicate Address",
+   567,
+   1
+  ],
+  [
+   "4862",
+   "A value of one indicates a single transmission with no follow-up retransmissions",
+   571,
+   1
+  ],
+  [
+   "4862",
+   "Default: 1, but may be overridden by a link-type specific value",
+   574,
+   1
+  ],
+  [
+   "4862",
+   "An interface whose DupAddrDetectTransmits variable is set to zero",
+   658,
+   1
+  ],
+  [
+   "4862",
+   "each separated by RetransTimer milliseconds",
+   760,
+   1
+  ],
+  [
+   "4862",
+   "within RetransTimer milliseconds after having sent DupAddrDetectTransmits",
+   737,
+   1
+  ],
+  [
+   "4862",
+   "a random delay between 0 and MAX_RTR_SOLICITATION_DELAY as specified in",
+   768,
+   1
+  ],
+  [
+   "4862",
+   "the time a node waits after sending the last Neighbor",
+   583,
+   1
+  ],
+  [
+   "4862",
+   "Duplicate Address Detection MUST be performed on all unicast",
+   653,
+   1
+  ],
+  [
+   "4862",
+   "the number expected based on the loopback semantics",
+   865,
+   1
+  ],
+  [
+   "4861",
+   "MAX_MULTICAST_SOLICIT 3 transmissions",
+   4360,
+   1
+  ],
+  [
+   "4861",
+   "RETRANS_TIMER 1,000 milliseconds",
+   4377,
+   1
+  ],
+  [
+   "4861",
+   "REACHABLE_TIME 30,000 milliseconds",
+   4375,
+   1
+  ],
+  [
+   "4861",
+   "DELAY_FIRST_PROBE_TIME 5 seconds",
+   4379,
+   1
+  ],
+  [
+   "4861",
+   "MAX_RTR_SOLICITATION_DELAY 1 second",
+   4352,
+   1
+  ],
+  [
+   "4861",
+   "RTR_SOLICITATION_INTERVAL 4 seconds",
+   4354,
+   1
+  ],
+  [
+   "4861",
+   "MAX_INITIAL_RTR_ADVERT_INTERVAL 16 seconds",
+   4340,
+   1
+  ],
+  [
+   "4861",
+   "MAX_RA_DELAY_TIME .5 seconds",
+   4348,
+   1
+  ],
+  [
+   "4861",
+   "MIN_RANDOM_FACTOR .5",
+   4381,
+   1
+  ],
+  [
+   "4861",
+   "after waiting RetransTimer milliseconds after sending the",
+   4005,
+   1
+  ],
+  [
+   "4861",
+   "solicitations, retransmissions cease and the",
+   4006,
+   1
+  ],
+  [
+   "4861",
+   "the sender changes the state to DELAY and sets a timer to",
+   3993,
+   1
+  ],
+  [
+   "4861",
+   "a node retransmits Neighbor Solicitation messages every RetransTimer milliseconds",
+   4001,
+   1
+  ],
+  [
+   "4429",
+   "remove the RetransTimer delay during address configuration",
+   149,
+   1
+  ],
+  [
+   "4429",
+   "It is not sufficient to merely reduce RetransTimer in order to reduce",
+   157,
+   1
+  ],
+  [
+   "4429",
+   "reduced by increasing the RFC 2462 DupAddrDetectTransmits variable to",
+   607,
+   1
+  ],
+  [
+   "4429",
+   "Optimistic DAD suffers from similar problems to Standard DAD",
+   601,
+   1
+  ],
+  [
+   "sysctl",
+   "dad_transmits - INTEGER",
+   1727,
+   1
+  ],
+  [
+   "sysctl",
+   "The amount of Duplicate Address Detection probes to send",
+   1728,
+   1
+  ],
+  [
+   "sysctl",
+   "Whether to accept DAD (Duplicate Address Detection)",
+   1867,
+   1
+  ],
+  [
+   "sysctl",
+   "1: Enable DAD (default)",
+   1869,
+   1
+  ],
+  [
+   "sysctl",
+   "Whether to perform Optimistic Duplicate Address Detection (RFC 4429)",
+   1931,
+   1
+  ],
+  [
+   "sysctl",
+   "Include a nonce option in the IPv6 neighbor solicitation messages used for",
+   1988,
+   1
+  ],
+  [
+   "sysctl",
+   "The maximum number of multicast probes in INCOMPLETE state",
+   1355,
+   1
+  ],
+  [
+   "sysctl",
+   "The maximum number of unicast probes in PROBE state",
+   1360,
+   1
+  ],
+  [
+   "sysctl",
+   "Number of seconds to wait between Router Solicitations",
+   1790,
+   1
+  ],
+  [
+   "sysctl",
+   "Quoting from RFC 2461, section 4.4",
+   1881,
+   1
+  ],
+  [
+   "sysd",
+   "Configures the amount of IPv6 Duplicate Address Detection",
+   1154,
+   1
+  ],
+  [
+   "sysd",
+   "probes to send. When unset, the kernel's default will be",
+   1155,
+   1
+  ],
+  [
+   "sysd",
+   "Configures the maximum timeout for IPv4 Duplicate Address",
+   1180,
+   1
+  ],
+  [
+   "sysd",
+   "Must be a value between 1 millisecond and 60 seconds",
+   1181,
+   1
+  ],
+  [
+   "sysd",
+   "randomized time between 57% (4/7) and 100% of the given value",
+   1183,
+   1
+  ],
+  [
+   "sysd",
+   "If unset, defaults to 200 milliseconds",
+   1184,
+   1
+  ],
+  [
+   "sysd",
+   "A value of zero is ignored and the kernel's current",
+   1173,
+   1
+  ],
+  [
+   "sysd",
+   "When \"ipv6\", performs IPv6 Duplicate Address Detection",
+   1563,
+   1
+  ],
+  [
+   "sysd",
+   "The time between retransmitted Neighbor Solicitation messages",
+   1170,
+   1
+  ],
+  [
+   "4862",
+   "A host forms a link-local address by appending an interface identifier",
+   372,
+   2
+  ],
+  [
+   "4862",
+   "per-interface basis on multicast-capable interfaces",
+   542,
+   2
+  ],
+  [
+   "4862",
+   "Discard Duplicate Address Detection-related Neighbor Solicitation",
+   1414,
+   2
+  ],
+  [
+   "4862",
+   "defined in a separate link-type-specific document",
+   642,
+   2
+  ],
+  [
+   "4861",
+   "has the correct link-layer address; otherwise",
+   1379,
+   2
+  ],
+  [
+   "sysctl",
+   "has the correct link-layer address; otherwise",
+   1887,
+   2
+  ],
+  [
+   "4429",
+   "until the ON has a non-Optimistic address",
+   367,
+   2
+  ]
+ ],
+ "range_nums": [
+  [],
+  [],
+  [],
+  [],
+  [
+   "1...1023",
+   "1...128",
+   "1...15",
+   "1...16",
+   "1...16777215",
+   "1...254",
+   "1...255",
+   "1...256",
+   "1...4094",
+   "1...4095",
+   "1...4294967294",
+   "1...4294967295",
+   "1...65535",
+   "1...65536",
+   "1..256"
+  ]
+ ],
+ "read_vs_split": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "readlines": [
+  1683,
+  5435,
+  955,
+  2362,
+  6186
+ ],
+ "ref_glued": [
+  [
+   "1112",
+   "2119",
+   "2464",
+   "2710",
+   "3315",
+   "3484",
+   "3590",
+   "3756",
+   "3810",
+   "3971",
+   "3972",
+   "4291",
+   "4861",
+   "4941"
+  ],
+  [
+   "3667"
+  ],
+  [
+   "2119",
+   "2461",
+   "2462",
+   "2464",
+   "3041",
+   "3315",
+   "3484",
+   "3756",
+   "3775",
+   "3971",
+   "3972",
+   "4429"
+  ],
+  [
+   "1122",
+   "1323",
+   "1337",
+   "1620",
+   "1700",
+   "1812",
+   "2236",
+   "2861",
+   "3041",
+   "3168",
+   "3376",
+   "3493",
+   "3704",
+   "3758",
+   "3810",
+   "4191",
+   "4821",
+   "4861",
+   "5061",
+   "5682",
+   "6437",
+   "6636",
+   "6675",
+   "7217",
+   "7413",
+   "7527"
+  ],
+  [
+   "4361"
+  ]
+ ],
+ "ref_n": [
+  [
+   50,
+   50
+  ],
+  [
+   126,
+   2
+  ],
+  [
+   39,
+   50
+  ],
+  [
+   13,
+   38
+  ],
+  [
+   65,
+   1
+  ]
+ ],
+ "ref_only_glued": [
+  [],
+  [],
+  [],
+  [
+   "1323",
+   "1337",
+   "1620",
+   "1700",
+   "1812",
+   "2236",
+   "2861",
+   "3041",
+   "3168",
+   "3376",
+   "3493",
+   "3704",
+   "3758",
+   "3810",
+   "4191",
+   "4821",
+   "4861",
+   "5061",
+   "5682",
+   "6437",
+   "6636",
+   "6675",
+   "7217",
+   "7413",
+   "7527"
+  ],
+  [
+   "4361"
+  ]
+ ],
+ "ref_spaced": [
+  [
+   "1112",
+   "1971",
+   "2119",
+   "2461",
+   "2462",
+   "2464",
+   "2710",
+   "3315",
+   "3484",
+   "3590",
+   "3756",
+   "3810",
+   "3971",
+   "3972",
+   "4291",
+   "4861",
+   "4862",
+   "4941"
+  ],
+  [
+   "1122",
+   "1620",
+   "1700",
+   "2119",
+   "2460",
+   "2461",
+   "2464",
+   "2491",
+   "2710",
+   "3232",
+   "3315",
+   "3484",
+   "3667",
+   "3775",
+   "3810",
+   "3971",
+   "4191",
+   "4291",
+   "4301",
+   "4302",
+   "4311",
+   "4443",
+   "4861",
+   "4862",
+   "4942"
+  ],
+  [
+   "2119",
+   "2461",
+   "2462",
+   "2464",
+   "3041",
+   "3315",
+   "3484",
+   "3756",
+   "3775",
+   "3971",
+   "3972",
+   "4429"
+  ],
+  [
+   "1122",
+   "2461",
+   "3069",
+   "4429",
+   "5961",
+   "6438",
+   "6691",
+   "6724",
+   "6980",
+   "7690"
+  ],
+  [
+   "1027",
+   "1123",
+   "2131",
+   "2132",
+   "3041",
+   "3069",
+   "3315",
+   "3442",
+   "3484",
+   "3704",
+   "4039",
+   "4191",
+   "4291",
+   "4702",
+   "4861",
+   "4862",
+   "4941",
+   "5227",
+   "5969",
+   "6275",
+   "7084",
+   "7217",
+   "7844",
+   "8415",
+   "8520",
+   "8781",
+   "8925",
+   "9463"
+  ]
+ ],
+ "row_ledger": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "scan_key_n": 164,
+ "shape_face_kinds": [
+  3,
+  2,
+  0,
+  8,
+  5
+ ],
+ "shape_lbls": [
+  "Default:",
+  "Default :",
+  "Default value",
+  "Functional default:",
+  "(default)",
+  "Defaults to",
+  "defaults to",
+  "By default",
+  "by default",
+  "is the default"
+ ],
+ "shape_n": [
+  [
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   2,
+   0
+  ],
+  [
+   20,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   158,
+   5,
+   5,
+   9,
+   18,
+   4,
+   0,
+   10,
+   9,
+   0
+  ],
+  [
+   0,
+   0,
+   3,
+   0,
+   0,
+   234,
+   26,
+   0,
+   8,
+   1
+  ]
+ ],
+ "shell_led": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "shell_lines": [
+  576,
+  1770,
+  440,
+  482,
+  1936
+ ],
+ "shell_pred_sum": [
+  636,
+  1964,
+  457,
+  482,
+  1936
+ ],
+ "shell_repeat": [
+  60,
+  194,
+  17,
+  0,
+  0
+ ],
+ "spaced_unit": [
+  [
+   [
+    "2",
+    "hours",
+    "hours"
+   ]
+  ],
+  [
+   [
+    "000",
+    "milliseconds",
+    "milliseconds"
+   ],
+   [
+    "1",
+    "hour",
+    "hour"
+   ],
+   [
+    "1",
+    "second",
+    "second"
+   ],
+   [
+    "16",
+    "seconds",
+    "seconds"
+   ],
+   [
+    "1800",
+    "seconds",
+    "seconds"
+   ],
+   [
+    "2592000",
+    "seconds",
+    "seconds"
+   ],
+   [
+    "3",
+    "seconds",
+    "seconds"
+   ],
+   [
+    "3",
+    "transmissions",
+    "transmissions"
+   ],
+   [
+    "30",
+    "days",
+    "days"
+   ],
+   [
+    "30",
+    "minutes",
+    "minutes"
+   ],
+   [
+    "4",
+    "seconds",
+    "seconds"
+   ],
+   [
+    "5",
+    "seconds",
+    "seconds"
+   ],
+   [
+    "600",
+    "seconds",
+    "seconds"
+   ],
+   [
+    "604800",
+    "seconds",
+    "seconds"
+   ],
+   [
+    "7",
+    "days",
+    "days"
+   ],
+   [
+    "9",
+    "seconds",
+    "seconds"
+   ],
+   [
+    "9000",
+    "seconds",
+    "seconds"
+   ]
+  ],
+  [],
+  [
+   [
+    "1",
+    "day",
+    "day"
+   ],
+   [
+    "1",
+    "second",
+    "second"
+   ],
+   [
+    "1",
+    "seconds",
+    "seconds"
+   ],
+   [
+    "10",
+    "minutes",
+    "minutes"
+   ],
+   [
+    "10",
+    "seconds",
+    "seconds"
+   ],
+   [
+    "100",
+    "seconds",
+    "seconds"
+   ],
+   [
+    "11",
+    "minutes",
+    "minutes"
+   ],
+   [
+    "5",
+    "seconds",
+    "seconds"
+   ],
+   [
+    "60",
+    "seconds",
+    "seconds"
+   ],
+   [
+    "7",
+    "days",
+    "days"
+   ]
+  ],
+  [
+   [
+    "0",
+    "seconds",
+    "seconds"
+   ],
+   [
+    "1",
+    "millisecond",
+    "millisecond"
+   ],
+   [
+    "1800",
+    "seconds",
+    "seconds"
+   ],
+   [
+    "200",
+    "milliseconds",
+    "milliseconds"
+   ],
+   [
+    "3",
+    "seconds",
+    "seconds"
+   ],
+   [
+    "30",
+    "minutes",
+    "minutes"
+   ],
+   [
+    "300",
+    "seconds",
+    "seconds"
+   ],
+   [
+    "3600",
+    "seconds",
+    "seconds"
+   ],
+   [
+    "4",
+    "seconds",
+    "seconds"
+   ],
+   [
+    "5",
+    "seconds",
+    "seconds"
+   ],
+   [
+    "60",
+    "seconds",
+    "seconds"
+   ],
+   [
+    "9000",
+    "seconds",
+    "seconds"
+   ]
+  ]
+ ],
+ "splitlines": [
+  1713,
+  5532,
+  972,
+  2362,
+  6186
+ ],
+ "splitnl": [
+  1684,
+  5436,
+  956,
+  2363,
+  6187
+ ],
+ "strict_n": [
+  0,
+  22,
+  0,
+  13,
+  15
+ ],
+ "stripped_cp": 261821,
+ "sysctl_defaults": {
+  "accept_dad": [
+   "1",
+   "(default)"
+  ],
+  "app_solicit": [
+   "0",
+   "Defaults to"
+  ],
+  "dad_transmits": [
+   "1",
+   "Default:"
+  ],
+  "enhanced_dad": [
+   "TRUE",
+   "Default:"
+  ],
+  "mcast_solicit": [
+   null,
+   "无"
+  ],
+  "optimistic_dad": [
+   "0",
+   "(default)"
+  ],
+  "router_solicitation_delay": [
+   "1",
+   "Default:"
+  ],
+  "router_solicitation_interval": [
+   "4",
+   "Default:"
+  ],
+  "router_solicitations": [
+   "3",
+   "Default:"
+  ],
+  "ucast_solicit": [
+   "3",
+   "Defaults to"
+  ]
+ },
+ "sysctl_key_types": {
+  "accept_dad": "INTEGER",
+  "accept_local": "BOOLEAN",
+  "accept_ra": "INTEGER",
+  "accept_ra_defrtr": "BOOLEAN",
+  "accept_ra_from_local": "BOOLEAN",
+  "accept_ra_min_hop_limit": "INTEGER",
+  "accept_ra_mtu": "BOOLEAN",
+  "accept_ra_pinfo": "BOOLEAN",
+  "accept_ra_rt_info_max_plen": "INTEGER",
+  "accept_ra_rt_info_min_plen": "INTEGER",
+  "accept_ra_rtr_pref": "BOOLEAN",
+  "accept_redirects": "BOOLEAN",
+  "accept_source_route": "INTEGER",
+  "addip_enable": "BOOLEAN",
+  "addip_noauth_enable": "BOOLEAN",
+  "addr_gen_mode": "INTEGER",
+  "addr_scope_policy": "INTEGER",
+  "anycast_src_echo_reply": "BOOLEAN",
+  "app_solicit": "INTEGER",
+  "arp_accept": "BOOLEAN",
+  "arp_announce": "INTEGER",
+  "arp_filter": "BOOLEAN",
+  "arp_ignore": "INTEGER",
+  "arp_notify": "BOOLEAN",
+  "association_max_retrans": "INTEGER",
+  "auth_enable": "BOOLEAN",
+  "auto_flowlabels": "INTEGER",
+  "autoconf": "BOOLEAN",
+  "bindv6only": "BOOLEAN",
+  "bootp_relay": "BOOLEAN",
+  "cipso_cache_bucket_size": "INTEGER",
+  "cipso_cache_enable": "BOOLEAN",
+  "cipso_rbm_optfmt": "BOOLEAN",
+  "cipso_rbm_structvalid": "BOOLEAN",
+  "cookie_hmac_alg": "STRING",
+  "cookie_preserve_enable": "BOOLEAN",
+  "dad_transmits": "INTEGER",
+  "disable_ipv6": "BOOLEAN",
+  "disable_policy": "BOOLEAN",
+  "disable_xfrm": "BOOLEAN",
+  "drop_gratuitous_arp": "BOOLEAN",
+  "drop_unicast_in_l2_multicast": "BOOLEAN",
+  "drop_unsolicited_na": "BOOLEAN",
+  "echo_ignore_all": "BOOLEAN",
+  "echo_ignore_anycast": "BOOLEAN",
+  "echo_ignore_multicast": "BOOLEAN",
+  "enhanced_dad": "BOOLEAN",
+  "fib_multipath_hash_policy": "INTEGER",
+  "fib_multipath_use_neigh": "BOOLEAN",
+  "flowlabel_consistency": "BOOLEAN",
+  "flowlabel_reflect": "INTEGER",
+  "flowlabel_state_ranges": "BOOLEAN",
+  "force_igmp_version": "INTEGER",
+  "force_mld_version": "INTEGER",
+  "force_tllao": "BOOLEAN",
+  "forwarding": "INTEGER",
+  "fwmark_reflect": "BOOLEAN",
+  "hb_interval": "INTEGER",
+  "hop_limit": "INTEGER",
+  "icmp_echo_ignore_all": "BOOLEAN",
+  "icmp_echo_ignore_broadcasts": "BOOLEAN",
+  "icmp_errors_use_inbound_ifaddr": "BOOLEAN",
+  "icmp_ignore_bogus_error_responses": "BOOLEAN",
+  "icmp_msgs_burst": "INTEGER",
+  "icmp_msgs_per_sec": "INTEGER",
+  "icmp_ratelimit": "INTEGER",
+  "icmp_ratemask": "INTEGER",
+  "idgen_delay": "INTEGER",
+  "idgen_retries": "INTEGER",
+  "igmp_link_local_mcast_reports": "BOOLEAN",
+  "igmp_max_memberships": "INTEGER",
+  "igmp_max_msf": "INTEGER",
+  "igmp_qrv": "INTEGER",
+  "igmpv2_unsolicited_report_interval": "INTEGER",
+  "igmpv3_unsolicited_report_interval": "INTEGER",
+  "inet_peer_maxttl": "INTEGER",
+  "inet_peer_minttl": "INTEGER",
+  "inet_peer_threshold": "INTEGER",
+  "ip6frag_high_thresh": "INTEGER",
+  "ip6frag_low_thresh": "INTEGER",
+  "ip6frag_time": "INTEGER",
+  "ip_autobind_reuse": "BOOLEAN",
+  "ip_default_ttl": "INTEGER",
+  "ip_dynaddr": "BOOLEAN",
+  "ip_early_demux": "BOOLEAN",
+  "ip_forward": "BOOLEAN",
+  "ip_forward_update_priority": "INTEGER",
+  "ip_forward_use_pmtu": "BOOLEAN",
+  "ip_no_pmtu_disc": "INTEGER",
+  "ip_nonlocal_bind": "BOOLEAN",
+  "ip_unprivileged_port_start": "INTEGER",
+  "ipfrag_max_dist": "INTEGER",
+  "ipfrag_time": "INTEGER",
+  "keep_addr_on_down": "INTEGER",
+  "log_martians": "BOOLEAN",
+  "max_addresses": "INTEGER",
+  "max_burst": "INTEGER",
+  "max_desync_factor": "INTEGER",
+  "max_dgram_qlen": "INTEGER",
+  "max_dst_opts_length": "INTEGER",
+  "max_dst_opts_number": "INTEGER",
+  "max_hbh_length": "INTEGER",
+  "max_hbh_opts_number": "INTEGER",
+  "max_init_retransmits": "INTEGER",
+  "mc_forwarding": "BOOLEAN",
+  "mcast_resolicit": "INTEGER",
+  "mcast_solicit": "INTEGER",
+  "medium_id": "INTEGER",
+  "min_adv_mss": "INTEGER",
+  "min_pmtu": "INTEGER",
+  "mld_qrv": "INTEGER",
+  "mldv1_unsolicited_report_interval": "INTEGER",
+  "mldv2_unsolicited_report_interval": "INTEGER",
+  "mtu": "INTEGER",
+  "mtu_expires": "INTEGER",
+  "ndisc_notify": "BOOLEAN",
+  "ndisc_tclass": "INTEGER",
+  "optimistic_dad": "BOOLEAN",
+  "path_max_retrans": "INTEGER",
+  "pf_enable": "INTEGER",
+  "pf_expose": "INTEGER",
+  "pf_retrans": "INTEGER",
+  "promote_secondaries": "BOOLEAN",
+  "proxy_arp": "BOOLEAN",
+  "proxy_arp_pvlan": "BOOLEAN",
+  "proxy_ndp": "BOOLEAN",
+  "prsctp_enable": "BOOLEAN",
+  "ps_retrans": "INTEGER",
+  "ratelimit": "INTEGER",
+  "raw_l3mdev_accept": "BOOLEAN",
+  "rcvbuf_policy": "INTEGER",
+  "regen_max_retry": "INTEGER",
+  "route_localnet": "BOOLEAN",
+  "router_probe_interval": "INTEGER",
+  "router_solicitation_delay": "INTEGER",
+  "router_solicitation_interval": "INTEGER",
+  "router_solicitations": "INTEGER",
+  "rp_filter": "INTEGER",
+  "rto_initial": "INTEGER",
+  "rto_max": "INTEGER",
+  "rto_min": "INTEGER",
+  "sack_timeout": "INTEGER",
+  "secure_redirects": "BOOLEAN",
+  "seg6_flowlabel": "INTEGER",
+  "send_redirects": "BOOLEAN",
+  "shared_media": "BOOLEAN",
+  "skip_notify_on_dev_down": "BOOLEAN",
+  "sndbuf_policy": "INTEGER",
+  "somaxconn": "INTEGER",
+  "suppress_frag_ndisc": "INTEGER",
+  "tag": "INTEGER",
+  "tcp_abort_on_overflow": "BOOLEAN",
+  "tcp_adv_win_scale": "INTEGER",
+  "tcp_allowed_congestion_control": "STRING",
+  "tcp_app_win": "INTEGER",
+  "tcp_autocorking": "BOOLEAN",
+  "tcp_available_congestion_control": "STRING",
+  "tcp_base_mss": "INTEGER",
+  "tcp_challenge_ack_limit": "INTEGER",
+  "tcp_comp_sack_nr": "INTEGER",
+  "tcp_congestion_control": "STRING",
+  "tcp_dsack": "BOOLEAN",
+  "tcp_early_demux": "BOOLEAN",
+  "tcp_early_retrans": "INTEGER",
+  "tcp_ecn": "INTEGER",
+  "tcp_ecn_fallback": "BOOLEAN",
+  "tcp_fack": "BOOLEAN",
+  "tcp_fastopen": "INTEGER",
+  "tcp_fastopen_blackhole_timeout_sec": "INTEGER",
+  "tcp_fin_timeout": "INTEGER",
+  "tcp_frto": "INTEGER",
+  "tcp_fwmark_accept": "BOOLEAN",
+  "tcp_invalid_ratelimit": "INTEGER",
+  "tcp_keepalive_intvl": "INTEGER",
+  "tcp_keepalive_probes": "INTEGER",
+  "tcp_keepalive_time": "INTEGER",
+  "tcp_l3mdev_accept": "BOOLEAN",
+  "tcp_limit_output_bytes": "INTEGER",
+  "tcp_low_latency": "BOOLEAN",
+  "tcp_max_orphans": "INTEGER",
+  "tcp_max_reordering": "INTEGER",
+  "tcp_max_syn_backlog": "INTEGER",
+  "tcp_max_tw_buckets": "INTEGER",
+  "tcp_min_rtt_wlen": "INTEGER",
+  "tcp_min_snd_mss": "INTEGER",
+  "tcp_min_tso_segs": "INTEGER",
+  "tcp_moderate_rcvbuf": "BOOLEAN",
+  "tcp_mtu_probe_floor": "INTEGER",
+  "tcp_mtu_probing": "INTEGER",
+  "tcp_no_metrics_save": "BOOLEAN",
+  "tcp_no_ssthresh_metrics_save": "BOOLEAN",
+  "tcp_orphan_retries": "INTEGER",
+  "tcp_pacing_ca_ratio": "INTEGER",
+  "tcp_pacing_ss_ratio": "INTEGER",
+  "tcp_probe_threshold": "INTEGER",
+  "tcp_recovery": "INTEGER",
+  "tcp_reordering": "INTEGER",
+  "tcp_retrans_collapse": "BOOLEAN",
+  "tcp_retries1": "INTEGER",
+  "tcp_retries2": "INTEGER",
+  "tcp_rfc1337": "BOOLEAN",
+  "tcp_rx_skb_cache": "BOOLEAN",
+  "tcp_sack": "BOOLEAN",
+  "tcp_slow_start_after_idle": "BOOLEAN",
+  "tcp_stdurg": "BOOLEAN",
+  "tcp_syn_retries": "INTEGER",
+  "tcp_synack_retries": "INTEGER",
+  "tcp_syncookies": "INTEGER",
+  "tcp_thin_linear_timeouts": "BOOLEAN",
+  "tcp_timestamps": "INTEGER",
+  "tcp_tso_win_divisor": "INTEGER",
+  "tcp_tw_reuse": "INTEGER",
+  "tcp_window_scaling": "BOOLEAN",
+  "tcp_workaround_signed_windows": "BOOLEAN",
+  "temp_prefered_lft": "INTEGER",
+  "temp_valid_lft": "INTEGER",
+  "ucast_solicit": "INTEGER",
+  "udp_early_demux": "BOOLEAN",
+  "udp_l3mdev_accept": "BOOLEAN",
+  "udp_rmem_min": "INTEGER",
+  "udp_wmem_min": "INTEGER",
+  "use_oif_addrs_only": "BOOLEAN",
+  "use_optimistic": "BOOLEAN",
+  "use_tempaddr": "INTEGER",
+  "valid_cookie_life": "INTEGER",
+  "xfrm4_gc_thresh": "INTEGER",
+  "xfrm6_gc_thresh": "INTEGER"
+ },
+ "sysctl_keys": 227,
+ "sysctl_rel_body": {
+  "accept_dad": "Whether to accept DAD (Duplicate Address Detection). 0: Disable DAD 1: Enable DAD (default) 2: Enable DAD, and disable IPv6 operation if MAC-based duplicate link-local address has been found. DAD operation and mode on a given interface will be selected according to the maximum value of conf/{all,interface}/accept_dad.",
+  "app_solicit": "The maximum number of probes to send to the user space ARP daemon via netlink before dropping back to multicast probes (see mcast_resolicit). Defaults to 0.",
+  "dad_transmits": "The amount of Duplicate Address Detection probes to send. Default: 1",
+  "enhanced_dad": "Include a nonce option in the IPv6 neighbor solicitation messages used for duplicate address detection per RFC7527. A received DAD NS will only signal a duplicate address if the nonce is different. This avoids any false detection of duplicates due to loopback of the NS messages that we send. The nonce option will be sent on an interface unless both of conf/{all,interface}/enhanced_dad are set to FALSE. Default: TRUE icmp/*:",
+  "mcast_solicit": "The maximum number of multicast probes in INCOMPLETE state, when the associated hardware address is unknown. Defaults to 3.",
+  "optimistic_dad": "Whether to perform Optimistic Duplicate Address Detection (RFC 4429). 0: disabled (default) 1: enabled Optimistic Duplicate Address Detection for the interface will be enabled if at least one of conf/{all,interface}/optimistic_dad is set to 1, it will be disabled otherwise.",
+  "router_solicitation_delay": "Number of seconds to wait after interface is brought up before sending Router Solicitations. Default: 1",
+  "router_solicitation_interval": "Number of seconds to wait between Router Solicitations. Default: 4",
+  "router_solicitations": "Number of Router Solicitations to send until assuming no routers are present. Default: 3",
+  "ucast_solicit": "The maximum number of unicast probes in PROBE state, when the hardware address is being reconfirmed. Defaults to 3."
+ },
+ "sysctl_rel_keys": [
+  "accept_dad",
+  "app_solicit",
+  "dad_transmits",
+  "enhanced_dad",
+  "mcast_solicit",
+  "optimistic_dad",
+  "router_solicitation_delay",
+  "router_solicitation_interval",
+  "router_solicitations",
+  "ucast_solicit"
+ ],
+ "sysctl_rel_nlines": {
+  "accept_dad": 9,
+  "app_solicit": 4,
+  "dad_transmits": 3,
+  "enhanced_dad": 9,
+  "mcast_solicit": 4,
+  "optimistic_dad": 8,
+  "router_solicitation_delay": 4,
+  "router_solicitation_interval": 3,
+  "router_solicitations": 4,
+  "ucast_solicit": 3
+ },
+ "sysctl_rel_noval": 1,
+ "sysctl_rel_num": 8,
+ "tab": [
+  0,
+  0,
+  0,
+  1642,
+  0
+ ],
+ "tab_led": [
+  0,
+  0,
+  0,
+  1572,
+  0
+ ],
+ "tag_chars": 31456,
+ "tag_n": 3657,
+ "trailing_nl": [
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "unit_conv": [
+  [
+   "4861",
+   "9000",
+   "seconds",
+   9000.0,
+   false
+  ],
+  [
+   "4861",
+   "1800",
+   "seconds",
+   1800.0,
+   false
+  ],
+  [
+   "4861",
+   "600",
+   "seconds",
+   600.0,
+   false
+  ],
+  [
+   "4861",
+   "9",
+   "seconds",
+   9.0,
+   false
+  ],
+  [
+   "4861",
+   "9000",
+   "seconds",
+   9000.0,
+   false
+  ],
+  [
+   "4861",
+   "2592000",
+   "seconds",
+   2592000.0,
+   false
+  ],
+  [
+   "4861",
+   "604800",
+   "seconds",
+   604800.0,
+   false
+  ],
+  [
+   "4861",
+   "16",
+   "seconds",
+   16.0,
+   false
+  ],
+  [
+   "4861",
+   "3",
+   "seconds",
+   3.0,
+   false
+  ],
+  [
+   "4861",
+   "5",
+   "seconds",
+   5.0,
+   false
+  ],
+  [
+   "4861",
+   "1",
+   "second",
+   1.0,
+   false
+  ],
+  [
+   "4861",
+   "4",
+   "seconds",
+   4.0,
+   false
+  ],
+  [
+   "4861",
+   "1",
+   "second",
+   1.0,
+   false
+  ],
+  [
+   "4861",
+   "30,000",
+   "milliseconds",
+   30.0,
+   false
+  ],
+  [
+   "4861",
+   "1,000",
+   "milliseconds",
+   1.0,
+   false
+  ],
+  [
+   "4861",
+   "5",
+   "seconds",
+   5.0,
+   false
+  ],
+  [
+   "4861",
+   "30",
+   "minutes",
+   1800.0,
+   false
+  ],
+  [
+   "4861",
+   "30",
+   "minutes",
+   1800.0,
+   false
+  ],
+  [
+   "sysctl",
+   "5",
+   "seconds",
+   5.0,
+   false
+  ],
+  [
+   "sysctl",
+   "60",
+   "seconds",
+   60.0,
+   false
+  ],
+  [
+   "sysctl",
+   "11",
+   "minutes",
+   660.0,
+   false
+  ],
+  [
+   "sysctl",
+   "10",
+   "minutes",
+   600.0,
+   false
+  ],
+  [
+   "sysctl",
+   "100",
+   "seconds",
+   100.0,
+   false
+  ],
+  [
+   "sysctl",
+   "31",
+   "seconds",
+   31.0,
+   true
+  ],
+  [
+   "sysctl",
+   "1",
+   "second",
+   1.0,
+   true
+  ],
+  [
+   "sysctl",
+   "63",
+   "seconds",
+   63.0,
+   true
+  ],
+  [
+   "sysctl",
+   "63",
+   "seconds",
+   63.0,
+   true
+  ],
+  [
+   "sysctl",
+   "1",
+   "second",
+   1.0,
+   true
+  ],
+  [
+   "sysctl",
+   "127",
+   "seconds",
+   127.0,
+   true
+  ],
+  [
+   "sysctl",
+   "10",
+   "seconds",
+   10.0,
+   false
+  ],
+  [
+   "sysctl",
+   "1",
+   "seconds",
+   1.0,
+   false
+  ],
+  [
+   "sysctl",
+   "10",
+   "seconds",
+   10.0,
+   false
+  ],
+  [
+   "sysctl",
+   "1",
+   "second",
+   1.0,
+   false
+  ],
+  [
+   "sysd",
+   "1",
+   "millisecond",
+   0.001,
+   false
+  ],
+  [
+   "sysd",
+   "60",
+   "seconds",
+   60.0,
+   false
+  ],
+  [
+   "sysd",
+   "200",
+   "milliseconds",
+   0.2,
+   false
+  ],
+  [
+   "sysd",
+   "0",
+   "seconds",
+   0.0,
+   false
+  ],
+  [
+   "sysd",
+   "5",
+   "seconds",
+   5.0,
+   false
+  ],
+  [
+   "sysd",
+   "3",
+   "seconds",
+   3.0,
+   false
+  ],
+  [
+   "sysd",
+   "300",
+   "seconds",
+   300.0,
+   false
+  ],
+  [
+   "sysd",
+   "0",
+   "seconds",
+   0.0,
+   false
+  ],
+  [
+   "sysd",
+   "4",
+   "seconds",
+   4.0,
+   false
+  ],
+  [
+   "sysd",
+   "9000",
+   "seconds",
+   9000.0,
+   false
+  ],
+  [
+   "sysd",
+   "1800",
+   "seconds",
+   1800.0,
+   false
+  ],
+  [
+   "sysd",
+   "30",
+   "minutes",
+   1800.0,
+   false
+  ],
+  [
+   "sysd",
+   "1800",
+   "seconds",
+   1800.0,
+   false
+  ],
+  [
+   "sysd",
+   "3600",
+   "seconds",
+   3600.0,
+   false
+  ],
+  [
+   "sysd",
+   "3600",
+   "seconds",
+   3600.0,
+   false
+  ],
+  [
+   "sysd",
+   "1800",
+   "seconds",
+   1800.0,
+   false
+  ]
+ ],
+ "unit_in_keyname": [
+  [],
+  [],
+  [],
+  [],
+  [
+   "CEThresholdSec",
+   "DNSLifetimeSec",
+   "DataTimeQuantaNSec",
+   "DefaultLeaseTimeSec",
+   "DelayJitterSec",
+   "DelaySec",
+   "FallbackLeaseLifetimeSec",
+   "HomeAgentLifetimeSec",
+   "IPv4DuplicateAddressDetectionTimeoutSec",
+   "IPv6OnlyPreferredSec",
+   "IPv6RetransmissionTimeSec",
+   "IntervalSec",
+   "LatencySec",
+   "LifetimeSec",
+   "MaxLeaseTimeSec",
+   "PerturbPeriodSec",
+   "PreferredLifetimeSec",
+   "RTTSec",
+   "ReachableTimeSec",
+   "RestartSec",
+   "RetransmitSec",
+   "RouterLifetimeSec",
+   "TCPRetransmissionTimeoutSec",
+   "TargetSec",
+   "TimeQuantaNSec",
+   "ValidLifetimeSec"
+  ]
+ ],
+ "utf8_extra": [
+  0,
+  0,
+  0,
+  0,
+  1139
+ ],
+ "win_census": [
+  [
+   "4862",
+   "sec",
+   "5.4.  Duplicate Address Detection",
+   651,
+   877,
+   0,
+   3,
+   20,
+   [],
+   [
+    "DupAddrDetectTransmits",
+    "MAX_RTR_SOLICITATION_DELAY",
+    "RetransTimer"
+   ],
+   [
+    "0",
+    "1",
+    "12",
+    "13",
+    "14",
+    "15",
+    "2",
+    "2007",
+    "2710",
+    "3",
+    "3590",
+    "3810",
+    "3972",
+    "4",
+    "4861",
+    "4862",
+    "4941",
+    "5.4",
+    "6",
+    "6,"
+   ],
+   0,
+   3,
+   16,
+   [],
+   [
+    "DupAddrDetectTransmits",
+    "MAX_RTR_SOLICITATION_DELAY",
+    "RetransTimer"
+   ],
+   [
+    "0",
+    "1",
+    "2",
+    "2007",
+    "2710",
+    "3",
+    "3590",
+    "3810",
+    "3972",
+    "4",
+    "4861",
+    "4862",
+    "4941",
+    "5.4",
+    "6",
+    "6,"
+   ],
+   54
+  ],
+  [
+   "4862",
+   "para",
+   "DupAddrDetectTransmits  The number of consecutive Neighbor",
+   567,
+   572,
+   0,
+   1,
+   0,
+   [],
+   [
+    "DupAddrDetectTransmits"
+   ],
+   [],
+   0,
+   1,
+   0,
+   [],
+   [
+    "DupAddrDetectTransmits"
+   ],
+   [],
+   0
+  ],
+  [
+   "4862",
+   "para",
+   "Default: 1, but may be overridden by a link-type specific value",
+   574,
+   576,
+   0,
+   0,
+   2,
+   [],
+   [],
+   [
+    "1,",
+    "2464"
+   ],
+   0,
+   0,
+   2,
+   [],
+   [],
+   [
+    "1,",
+    "2464"
+   ],
+   0
+  ],
+  [
+   "4862",
+   "para",
+   "To check an address, a node sends DupAddrDetectTransmits",
+   759,
+   764,
+   0,
+   2,
+   0,
+   [],
+   [
+    "DupAddrDetectTransmits",
+    "RetransTimer"
+   ],
+   [],
+   0,
+   2,
+   0,
+   [],
+   [
+    "DupAddrDetectTransmits",
+    "RetransTimer"
+   ],
+   [],
+   0
+  ],
+  [
+   "4862",
+   "para",
+   "the node SHOULD delay joining the solicited-node multicast address by a random delay",
+   776,
+   782,
+   0,
+   1,
+   1,
+   [],
+   [
+    "MAX_RTR_SOLICITATION_DELAY"
+   ],
+   [
+    "0"
+   ],
+   0,
+   1,
+   1,
+   [],
+   [
+    "MAX_RTR_SOLICITATION_DELAY"
+   ],
+   [
+    "0"
+   ],
+   0
+  ],
+  [
+   "4861",
+   "sec",
+   "10.  Protocol Constants",
+   4336,
+   4395,
+   8,
+   17,
+   13,
+   [
+    [
+     "1",
+     "second"
+    ],
+    [
+     "1,000",
+     "milliseconds"
+    ],
+    [
+     "16",
+     "seconds"
+    ],
+    [
+     "3",
+     "seconds"
+    ],
+    [
+     "3",
+     "transmissions"
+    ],
+    [
+     "30,000",
+     "milliseconds"
+    ],
+    [
+     "4",
+     "seconds"
+    ],
+    [
+     "5",
+     "seconds"
+    ]
+   ],
+   [
+    "DELAY_FIRST_PROBE_TIME",
+    "MAX_ANYCAST_DELAY_TIME",
+    "MAX_FINAL_RTR_ADVERTISEMENTS",
+    "MAX_INITIAL_RTR_ADVERTISEMENTS",
+    "MAX_INITIAL_RTR_ADVERT_INTERVAL",
+    "MAX_MULTICAST_SOLICIT",
+    "MAX_NEIGHBOR_ADVERTISEMENT",
+    "MAX_RANDOM_FACTOR",
+    "MAX_RA_DELAY_TIME",
+    "MAX_RTR_SOLICITATIONS",
+    "MAX_RTR_SOLICITATION_DELAY",
+    "MAX_UNICAST_SOLICIT",
+    "MIN_DELAY_BETWEEN_RAS",
+    "MIN_RANDOM_FACTOR",
+    "REACHABLE_TIME",
+    "RETRANS_TIMER",
+    "RTR_SOLICITATION_INTERVAL"
+   ],
+   [
+    "1",
+    "1,000",
+    "1.5",
+    "10",
+    "16",
+    "2007",
+    "3",
+    "30,000",
+    "4",
+    "4861",
+    "5",
+    "6",
+    "78"
+   ],
+   8,
+   17,
+   12,
+   [
+    [
+     "1",
+     "second"
+    ],
+    [
+     "1,000",
+     "milliseconds"
+    ],
+    [
+     "16",
+     "seconds"
+    ],
+    [
+     "3",
+     "seconds"
+    ],
+    [
+     "3",
+     "transmissions"
+    ],
+    [
+     "30,000",
+     "milliseconds"
+    ],
+    [
+     "4",
+     "seconds"
+    ],
+    [
+     "5",
+     "seconds"
+    ]
+   ],
+   [
+    "DELAY_FIRST_PROBE_TIME",
+    "MAX_ANYCAST_DELAY_TIME",
+    "MAX_FINAL_RTR_ADVERTISEMENTS",
+    "MAX_INITIAL_RTR_ADVERTISEMENTS",
+    "MAX_INITIAL_RTR_ADVERT_INTERVAL",
+    "MAX_MULTICAST_SOLICIT",
+    "MAX_NEIGHBOR_ADVERTISEMENT",
+    "MAX_RANDOM_FACTOR",
+    "MAX_RA_DELAY_TIME",
+    "MAX_RTR_SOLICITATIONS",
+    "MAX_RTR_SOLICITATION_DELAY",
+    "MAX_UNICAST_SOLICIT",
+    "MIN_DELAY_BETWEEN_RAS",
+    "MIN_RANDOM_FACTOR",
+    "REACHABLE_TIME",
+    "RETRANS_TIMER",
+    "RTR_SOLICITATION_INTERVAL"
+   ],
+   [
+    "1",
+    "1,000",
+    "1.5",
+    "10",
+    "16",
+    "2007",
+    "3",
+    "30,000",
+    "4",
+    "4861",
+    "5",
+    "6"
+   ],
+   30
+  ],
+  [
+   "4861",
+   "label",
+   "Router constants:",
+   4338,
+   4349,
+   4,
+   5,
+   3,
+   [
+    [
+     "16",
+     "seconds"
+    ],
+    [
+     "3",
+     "seconds"
+    ],
+    [
+     "3",
+     "transmissions"
+    ],
+    [
+     "5",
+     "seconds"
+    ]
+   ],
+   [
+    "MAX_FINAL_RTR_ADVERTISEMENTS",
+    "MAX_INITIAL_RTR_ADVERTISEMENTS",
+    "MAX_INITIAL_RTR_ADVERT_INTERVAL",
+    "MAX_RA_DELAY_TIME",
+    "MIN_DELAY_BETWEEN_RAS"
+   ],
+   [
+    "16",
+    "3",
+    "5"
+   ],
+   4,
+   5,
+   3,
+   [
+    [
+     "16",
+     "seconds"
+    ],
+    [
+     "3",
+     "seconds"
+    ],
+    [
+     "3",
+     "transmissions"
+    ],
+    [
+     "5",
+     "seconds"
+    ]
+   ],
+   [
+    "MAX_FINAL_RTR_ADVERTISEMENTS",
+    "MAX_INITIAL_RTR_ADVERTISEMENTS",
+    "MAX_INITIAL_RTR_ADVERT_INTERVAL",
+    "MAX_RA_DELAY_TIME",
+    "MIN_DELAY_BETWEEN_RAS"
+   ],
+   [
+    "16",
+    "3",
+    "5"
+   ],
+   6
+  ],
+  [
+   "4861",
+   "label",
+   "Host constants:",
+   4350,
+   4357,
+   3,
+   3,
+   3,
+   [
+    [
+     "1",
+     "second"
+    ],
+    [
+     "3",
+     "transmissions"
+    ],
+    [
+     "4",
+     "seconds"
+    ]
+   ],
+   [
+    "MAX_RTR_SOLICITATIONS",
+    "MAX_RTR_SOLICITATION_DELAY",
+    "RTR_SOLICITATION_INTERVAL"
+   ],
+   [
+    "1",
+    "3",
+    "4"
+   ],
+   3,
+   3,
+   3,
+   [
+    [
+     "1",
+     "second"
+    ],
+    [
+     "3",
+     "transmissions"
+    ],
+    [
+     "4",
+     "seconds"
+    ]
+   ],
+   [
+    "MAX_RTR_SOLICITATIONS",
+    "MAX_RTR_SOLICITATION_DELAY",
+    "RTR_SOLICITATION_INTERVAL"
+   ],
+   [
+    "1",
+    "3",
+    "4"
+   ],
+   4
+  ],
+  [
+   "4861",
+   "label",
+   "Node constants:",
+   4358,
+   4395,
+   5,
+   9,
+   11,
+   [
+    [
+     "1",
+     "second"
+    ],
+    [
+     "1,000",
+     "milliseconds"
+    ],
+    [
+     "3",
+     "transmissions"
+    ],
+    [
+     "30,000",
+     "milliseconds"
+    ],
+    [
+     "5",
+     "seconds"
+    ]
+   ],
+   [
+    "DELAY_FIRST_PROBE_TIME",
+    "MAX_ANYCAST_DELAY_TIME",
+    "MAX_MULTICAST_SOLICIT",
+    "MAX_NEIGHBOR_ADVERTISEMENT",
+    "MAX_RANDOM_FACTOR",
+    "MAX_UNICAST_SOLICIT",
+    "MIN_RANDOM_FACTOR",
+    "REACHABLE_TIME",
+    "RETRANS_TIMER"
+   ],
+   [
+    "1",
+    "1,000",
+    "1.5",
+    "2007",
+    "3",
+    "30,000",
+    "4",
+    "4861",
+    "5",
+    "6",
+    "78"
+   ],
+   5,
+   9,
+   10,
+   [
+    [
+     "1",
+     "second"
+    ],
+    [
+     "1,000",
+     "milliseconds"
+    ],
+    [
+     "3",
+     "transmissions"
+    ],
+    [
+     "30,000",
+     "milliseconds"
+    ],
+    [
+     "5",
+     "seconds"
+    ]
+   ],
+   [
+    "DELAY_FIRST_PROBE_TIME",
+    "MAX_ANYCAST_DELAY_TIME",
+    "MAX_MULTICAST_SOLICIT",
+    "MAX_NEIGHBOR_ADVERTISEMENT",
+    "MAX_RANDOM_FACTOR",
+    "MAX_UNICAST_SOLICIT",
+    "MIN_RANDOM_FACTOR",
+    "REACHABLE_TIME",
+    "RETRANS_TIMER"
+   ],
+   [
+    "1",
+    "1,000",
+    "1.5",
+    "2007",
+    "3",
+    "30,000",
+    "4",
+    "4861",
+    "5",
+    "6"
+   ],
+   19
+  ],
+  [
+   "4429",
+   "sec",
+   "4.4.  Pathological Cases",
+   599,
+   622,
+   0,
+   1,
+   6,
+   [],
+   [
+    "DupAddrDetectTransmits"
+   ],
+   [
+    "1",
+    "11",
+    "2006",
+    "2462",
+    "4.4",
+    "4429"
+   ],
+   0,
+   1,
+   5,
+   [],
+   [
+    "DupAddrDetectTransmits"
+   ],
+   [
+    "1",
+    "2006",
+    "2462",
+    "4.4",
+    "4429"
+   ],
+   10
+  ],
+  [
+   "sysctl",
+   "key",
+   "dad_transmits - INTEGER",
+   1727,
+   1730,
+   0,
+   0,
+   1,
+   [],
+   [],
+   [
+    "1"
+   ],
+   0,
+   0,
+   1,
+   [],
+   [],
+   [
+    "1"
+   ],
+   1
+  ],
+  [
+   "sysctl",
+   "key",
+   "accept_dad - INTEGER",
+   1866,
+   1875,
+   0,
+   0,
+   4,
+   [],
+   [],
+   [
+    "0",
+    "1",
+    "2",
+    "6"
+   ],
+   0,
+   0,
+   4,
+   [],
+   [],
+   [
+    "0",
+    "1",
+    "2",
+    "6"
+   ],
+   2
+  ],
+  [
+   "sysctl",
+   "key",
+   "mcast_solicit - INTEGER",
+   1354,
+   1358,
+   0,
+   0,
+   1,
+   [],
+   [],
+   [
+    "3"
+   ],
+   0,
+   0,
+   1,
+   [],
+   [],
+   [
+    "3"
+   ],
+   1
+  ],
+  [
+   "sysd",
+   "opt",
+   "IPv6DuplicateAddressDetection=",
+   1153,
+   1159,
+   0,
+   0,
+   2,
+   [],
+   [],
+   [
+    "228",
+    "6"
+   ],
+   0,
+   0,
+   1,
+   [],
+   [],
+   [
+    "6"
+   ],
+   3
+  ],
+  [
+   "sysd",
+   "opt",
+   "IPv6RetransmissionTimeSec=",
+   1169,
+   1178,
+   0,
+   0,
+   2,
+   [],
+   [],
+   [
+    "256",
+    "6"
+   ],
+   0,
+   0,
+   1,
+   [],
+   [],
+   [
+    "6"
+   ],
+   3
+  ],
+  [
+   "sysd",
+   "opt",
+   "IPv4DuplicateAddressDetectionTimeoutSec=",
+   1179,
+   1187,
+   3,
+   0,
+   9,
+   [
+    [
+     "1",
+     "millisecond"
+    ],
+    [
+     "200",
+     "milliseconds"
+    ],
+    [
+     "60",
+     "seconds"
+    ]
+   ],
+   [],
+   [
+    "1",
+    "100",
+    "200",
+    "258",
+    "4",
+    "5227",
+    "57",
+    "60",
+    "7"
+   ],
+   3,
+   0,
+   8,
+   [
+    [
+     "1",
+     "millisecond"
+    ],
+    [
+     "200",
+     "milliseconds"
+    ],
+    [
+     "60",
+     "seconds"
+    ]
+   ],
+   [],
+   [
+    "1",
+    "100",
+    "200",
+    "4",
+    "5227",
+    "57",
+    "60",
+    "7"
+   ],
+   3
+  ]
+ ],
+ "win_dig_eaten": 36,
+ "win_heads": {
+  "4429|4.4.  Pathological Cases": 84,
+  "4861|10.  Protocol Constants": 141,
+  "4861|Node constants:": 4358,
+  "4862|5.4.  Duplicate Address Detection": 75,
+  "4862|DupAddrDetectTransmits  The number of consecutive Neighbor": 567,
+  "sysctl|accept_dad - INTEGER": 1866,
+  "sysctl|dad_transmits - INTEGER": 1727,
+  "sysd|IPv4DuplicateAddressDetectionTimeoutSec=": 1179,
+  "sysd|IPv6DuplicateAddressDetection=": 1153
+ },
+ "win_kinds": [
+  "key",
+  "label",
+  "opt",
+  "para",
+  "sec"
+ ],
+ "win_n": 16,
+ "win_numless_with_var": [
+  [
+   "4862",
+   "sec",
+   "5.4.  Duplicate Address Detection"
+  ],
+  [
+   "4862",
+   "para",
+   "DupAddrDetectTransmits  The number of consecutive Neighbor"
+  ],
+  [
+   "4862",
+   "para",
+   "To check an address, a node sends DupAddrDetectTransmits"
+  ],
+  [
+   "4862",
+   "para",
+   "the node SHOULD delay joining the solicited-node multicast address by a random delay"
+  ],
+  [
+   "4429",
+   "sec",
+   "4.4.  Pathological Cases"
+  ]
+ ],
+ "win_shell_lines": [
+  [
+   "4862",
+   "5.4.  Duplicate Address Detection",
+   54
+  ],
+  [
+   "4861",
+   "10.  Protocol Constants",
+   30
+  ],
+  [
+   "4861",
+   "Router constants:",
+   6
+  ],
+  [
+   "4861",
+   "Host constants:",
+   4
+  ],
+  [
+   "4861",
+   "Node constants:",
+   19
+  ],
+  [
+   "4429",
+   "4.4.  Pathological Cases",
+   10
+  ],
+  [
+   "sysctl",
+   "dad_transmits - INTEGER",
+   1
+  ],
+  [
+   "sysctl",
+   "accept_dad - INTEGER",
+   2
+  ],
+  [
+   "sysctl",
+   "mcast_solicit - INTEGER",
+   1
+  ],
+  [
+   "sysd",
+   "IPv6DuplicateAddressDetection=",
+   3
+  ],
+  [
+   "sysd",
+   "IPv6RetransmissionTimeSec=",
+   3
+  ],
+  [
+   "sysd",
+   "IPv4DuplicateAddressDetectionTimeoutSec=",
+   3
+  ]
+ ],
+ "win_strict_eaten": 0,
+ "win_var_kinds": [
+  "DELAY_FIRST_PROBE_TIME",
+  "DupAddrDetectTransmits",
+  "MAX_ANYCAST_DELAY_TIME",
+  "MAX_FINAL_RTR_ADVERTISEMENTS",
+  "MAX_INITIAL_RTR_ADVERTISEMENTS",
+  "MAX_INITIAL_RTR_ADVERT_INTERVAL",
+  "MAX_MULTICAST_SOLICIT",
+  "MAX_NEIGHBOR_ADVERTISEMENT",
+  "MAX_RANDOM_FACTOR",
+  "MAX_RA_DELAY_TIME",
+  "MAX_RTR_SOLICITATIONS",
+  "MAX_RTR_SOLICITATION_DELAY",
+  "MAX_UNICAST_SOLICIT",
+  "MIN_DELAY_BETWEEN_RAS",
+  "MIN_RANDOM_FACTOR",
+  "REACHABLE_TIME",
+  "RETRANS_TIMER",
+  "RTR_SOLICITATION_INTERVAL",
+  "RetransTimer"
+ ],
+ "zid_scan_n": 28
+}

@@ -1,0 +1,22 @@
+You are the trial statistician on a randomised phase III oncology study, called in by the data safety monitoring committee the morning after an interim analysis. Give your working, including the numbers you can and cannot compute and the hypotheses you reject.
+
+Facts you are handed:
+- 612 patients randomised 1:1 to standard chemotherapy plus a novel agent versus standard chemotherapy alone, stratified by disease site (3 levels) and prior therapy (2 levels). Primary endpoint: progression-free survival by blinded independent central review. Alpha spent at this interim with an O'Brien-Fleming boundary: 0.0117 at 250 events; 262 events observed.
+- The stratified log-rank p-value is 0.0132. The reported hazard ratio is 0.71 (95 % CI 0.54-0.93) from a Cox model with treatment as the only covariate.
+- Median PFS: 5.8 months experimental versus 5.1 months control. The Kaplan-Meier curves are superimposed for the first 3 months, then separate, then converge after 14 months, with the tail based on 18 patients at risk.
+- The Grambsch-Therneau test on scaled Schoenfeld residuals rejects proportional hazards (p = 0.0041).
+- 31 deaths without progression occurred, 19 on control and 12 on experimental; the protocol counts death as an event for PFS.
+- Subgroup analysis: in one of the three disease sites (n = 88, 41 events) the hazard ratio is 1.28; interaction test p = 0.09.
+- An independent cohort from a different institution reported a benefit of the same magnitude using overall response rate as the endpoint.
+- The DSMB chair asserts in writing: "Because the Kaplan-Meier curves cross and the proportional hazards assumption fails, the trial is invalid and must be reported as negative; the only defensible number is the median difference." The chair also asks you to "just switch to the overall response rate endpoint, since the survival data are contaminated."
+
+Tasks.
+(1) Rule on the chair's two assertions. Say precisely what is true, what is a category error, and what is simply unsupported.
+(2) State which single summary of the treatment effect you would report as primary at this interim, and why the median difference and the hazard ratio are each misleading here. Name the quantity you would compute instead and write its estimating expression with the terms you actually need.
+(3) Work through the multiplicity question: does p = 0.0132 against a boundary of 0.0117 carry the meaning the committee will read into it? Say what the alpha-spending function assumes about when and how often the look happens, and what changes if an unplanned additional look is added later.
+(4) Address the competing-risk structure. Determine what the protocol's "death is an event" rule does to the estimand, and compute or bound whatever you can from the 19/12 counts. State which quantity you cannot recover from the data as given.
+(5) Address the subgroup. Distinguish, with reasoning rather than a rule of thumb, whether p = 0.09 interaction means the site is a real effect modifier, and say what the stratification variables did and did not protect.
+(6) Say what the external cohort's response-rate result can and cannot contribute to the inference, and name the specific bias that makes the comparison non-transferable.
+(7) List the analyses, measurements or design facts you would need but do not have, and for the two most important say which direction each could move the conclusion.
+
+Show all arithmetic. Flag every assumption. Do not report a conclusion whose strength exceeds the evidence you can actually produce.

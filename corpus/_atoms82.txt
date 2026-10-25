@@ -1,0 +1,77 @@
+A TCP connection is said to be "idle" if for some long amount of time
+values (or the sole advertised value, if only one endpoint advertises
+(Section 5.4.1) of type SETTINGS_TIMEOUT.  In setting a timeout, some
+BCP 14 [3] [12] when, and only when, they appear in all capitals, as
+be configurable (MUST-27) and MUST default to no less than two hours
+max_idle_timeout, max_udp_payload_size, and disable_active_migration
+Servers will usually have some timeout value beyond which they will
+SND.NXT-1 and may or may not contain one garbage octet of data.  If
+keep-alives are included, the application MUST be able to turn them
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
+TCP connection, the terminating endpoint SHOULD first send a GOAWAY
+BCP 14 [RFC2119] [RFC8174] when, and only when, they appear in all
+idle connection is still functional.  PING frames can be sent from
+in Section 7.6.1 of [HTTP] (that is, Proxy-Connection, Keep-Alive,
+Connections can be closed at any time, with or without intention.
+options, but the following options MUST be supported (MUST-4 --
+An implementation SHOULD send a keep-alive segment with no data
+persistent connections places no requirements on the length (or
+at an endpoint is computed as the minimum of the two advertised
+4.2.3.6  TCP Keep-Alives ..............................  101
+possible but are permitted to terminate idle connections if
+Keep-alive packets MUST only be sent when no sent data is
+To confirm that an idle connection is still active, these
+configurable and MUST default to no less than two hours.
+encouraged to maintain open connections for as long as
+SND.NXT-1 and may or may not contain one garbage octet
+Implementors MAY include "keep-alives" in their TCP
+specified in a RETIRE_CONNECTION_ID frame MUST
+can only be sent by the server.  Servers MUST
+NOT be assigned by IANA, and MUST NOT appear
+broadcast to the specified network.  It MUST
+NOT buffer data indefinitely (MUST-60), and
+broadcast to the specified subnet.  It MUST
+NOT forget a connection ID without retiring
+NOT refer to the Destination Connection ID
+the pattern 0x?a?a?a?a are reserved, MUST
+transport parameter.  An endpoint MUST
+NOT send a HANDSHAKE_DONE frame before
+and MUST default to no less than two
+then the sending TCP peer: (1) MUST
+be configurable (MUST-27) and MUST
+no requirements on the length (or
+the minimum of the two advertised
+NOT be used as a source address.
+increase the idle timeout period
+C.2.2.  Keep-Alive Connections
+MUST NOT interpret failure to
+sent a SETTINGS frame but did
+9.1.  Connection Management
+9.5.  Failures and Timeouts
+connection is still active
+existence) of this timeout
+4.2.3.6  TCP Keep-Alives
+Proxy servers might make
+at least three times the
+To confirm that an idle
+3.8.4.  TCP Keep-Alives
+connection is silently
+current Probe Timeout
+they MUST default to
+10.1.  Idle Timeout
+this a higher value
+interval MUST be
+issue a graceful
+be configurable
+interval MUST
+configurable
+not receive
+SEG.SEQ =
+SND.NXT-1
+possible
+respond
+closed
+values
+close
+MUST
+off

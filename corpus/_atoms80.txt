@@ -1,0 +1,39 @@
+Obsoletes: 2818, 7230, 7231, 7232, 7233, 7235,                    Fastly
+   TRACE SHOULD NOT have side effects, and so are inherently idempotent.
+Updates: 2616                                                R. Fielding
+   non-idempotent sequences of methods (see section 9.1.2). Otherwise, a
+   9.1.2    Idempotent Methods .......................................51
+Obsoletes: 2616                                          J. Reschke, Ed.
+   A request method is considered "idempotent" if the intended effect on
+STD: 97                                               M. Nottingham, Ed.
+ISSN: 2070-1721                                               April 2012
+   For example, a user agent can repeat a POST request automatically if
+   A 425 (Too Early) status code indicates that the server is unwilling
+   Like the definition of safe, the idempotent property only applies to
+   idempotent (see section 9.1.2). Non-idempotent methods or sequences
+   condition, and MAY include a Retry-After header indicating how long
+   MUST NOT be automatically retried, although user agents MAY offer a
+   Note that this specification does not define how the origin server
+       Retry-After  = "Retry-After" ":" ( HTTP-date | delta-seconds )
+   user agent SHOULD retry automatically, but any retries MUST NOT be
+   The 428 status code indicates that the origin server requires the
+   Responses with the 429 status code MUST NOT be stored by a cache.
+   A proxy MUST NOT automatically retry non-idempotent requests.  A
+   Idempotent methods are distinguished because the request can be
+         <p>I only allow 50 requests per hour to this Web site per
+   The 429 status code indicates that the user has sent too many
+   D. Lawrence, Paul J. Leach, Håkon W. Lie, Ari Luotonen, Larry
+       token          = 1*<any CHAR except CTLs or separators>
+              RFC 793, DOI 10.17487/RFC0793, September 1981,
+              BCP 13, RFC 4289, December 2005.
+     Retry-After = HTTP-date / delay-seconds
+     Accept: text/plain; q=0.5, text/html,
+   to wait before making a new request.
+       delta-seconds  = 1*DIGIT
+     delay-seconds  = 1*DIGIT
+9.2.3.  Methods and Caching
+4.2.2.  Idempotent Methods
+4.2.3.  Cacheable Methods
+9.1.2 Idempotent Methods
+   Retry-After: 3600
+9.2 OPTIONS

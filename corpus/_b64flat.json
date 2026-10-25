@@ -1,0 +1,2061 @@
+{
+ "a_cap_ratio_d_b": 56,
+ "a_cap_x_first_close": 0,
+ "a_doublings": 4,
+ "a_first_lit": [
+  2,
+  0,
+  0,
+  0
+ ],
+ "a_ratio": 16,
+ "a_ratio_pow_close": 0,
+ "a_seq": [
+  4,
+  8,
+  16,
+  32,
+  64
+ ],
+ "a_seq_close": 0,
+ "a_seq_ms": [
+  4000,
+  8000,
+  16000,
+  32000,
+  64000
+ ],
+ "a_seq_n": 5,
+ "a_seq_next_close": 0,
+ "abcd_close": 0,
+ "abcd_incl": 5621,
+ "al_char_delta": 20,
+ "al_close": 0,
+ "al_n": 2,
+ "al_norm_diff": 2,
+ "al_punct_only": 0,
+ "al_same_bytes": 0,
+ "anchor_all4": 0,
+ "anchor_cross": 6,
+ "anchor_distinct": 17,
+ "anchor_err": 0,
+ "anchor_single": 11,
+ "anchor_total": 22,
+ "bd_close": 0,
+ "bd_diff": [
+  [
+   "SOL_MAX_RT",
+   120,
+   3600
+  ],
+  [
+   "INF_MAX_RT",
+   120,
+   3600
+  ],
+  [
+   "REL_MAX_RC",
+   5,
+   4
+  ],
+  [
+   "DEC_MAX_RC",
+   5,
+   4
+  ]
+ ],
+ "bd_diff_n": 4,
+ "bd_n": 21,
+ "bd_pv_same": 17,
+ "bd_ratio": [
+  30,
+  30,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "bd_same": 17,
+ "bd_unproposed": [
+  "REL_MAX_RC",
+  "DEC_MAX_RC"
+ ],
+ "bd_unproposed_n": 2,
+ "bom": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "bytes": [
+  113738,
+  231402,
+  14630,
+  370298
+ ],
+ "bytes_span": 355668,
+ "cap_ratio_d_b": 30,
+ "cat_bcp": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "cat_exp": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "cat_info": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "cat_std": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "chars": [
+  113738,
+  231402,
+  14630,
+  370298
+ ],
+ "chars_no_nl": [
+  111215,
+  225743,
+  14235,
+  361671
+ ],
+ "checks": 68,
+ "cite_2119": [
+  0,
+  1,
+  4,
+  5
+ ],
+ "cite_2131": [
+  44,
+  1,
+  0,
+  4
+ ],
+ "cite_2132": [
+  0,
+  1,
+  0,
+  4
+ ],
+ "cite_3315": [
+  0,
+  100,
+  19,
+  21
+ ],
+ "cite_3315_ns": [
+  0,
+  0,
+  4,
+  11
+ ],
+ "cite_3315_sp": [
+  0,
+  100,
+  15,
+  10
+ ],
+ "cite_4941": [
+  0,
+  0,
+  0,
+  12
+ ],
+ "cite_6221": [
+  0,
+  0,
+  0,
+  5
+ ],
+ "cite_7083": [
+  0,
+  0,
+  6,
+  13
+ ],
+ "cite_7542": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "cite_8415": [
+  0,
+  0,
+  0,
+  153
+ ],
+ "cite_ns_3315": [
+  0,
+  100,
+  19,
+  21
+ ],
+ "clamp_cd_hi_close": 0,
+ "clamp_cd_lo_close": 0,
+ "clamp_hi": [
+  0,
+  0,
+  86400,
+  86400
+ ],
+ "clamp_lo": [
+  0,
+  0,
+  60,
+  60
+ ],
+ "clamp_span": 1440,
+ "clamp_span_close": 0,
+ "cr": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "dur_ms_hi": 86400000,
+ "dur_ms_lo": 1000,
+ "dur_ratio": [
+  86400
+ ],
+ "dur_rem": [
+  0
+ ],
+ "durlit_a": 7,
+ "durlit_b": 20,
+ "durlit_c": 7,
+ "durlit_d": 25,
+ "durms_a": [
+  4000,
+  8000,
+  60000,
+  64000
+ ],
+ "durms_b": [
+  1000,
+  2000,
+  4000,
+  10000,
+  30000,
+  120000,
+  600000
+ ],
+ "durms_c": [
+  120000,
+  3600000
+ ],
+ "durms_d": [
+  1000,
+  2000,
+  4000,
+  10000,
+  20000,
+  30000,
+  60000,
+  600000,
+  3600000,
+  86400000
+ ],
+ "durms_n_a": 4,
+ "durms_n_b": 7,
+ "durms_n_c": 2,
+ "durms_n_d": 10,
+ "ff_foot_sum": 0,
+ "ff_only_lines": [
+  45,
+  101,
+  7,
+  154
+ ],
+ "foot": [
+  45,
+  101,
+  7,
+  154
+ ],
+ "foot_brk": [
+  45,
+  101,
+  7,
+  154
+ ],
+ "formfeed": [
+  45,
+  101,
+  7,
+  154
+ ],
+ "hdr": [
+  44,
+  100,
+  6,
+  153
+ ],
+ "hdr_ledger": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "hdr_ledger_sum": 0,
+ "hdr_ns": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "hdr_sp": [
+  44,
+  100,
+  6,
+  153
+ ],
+ "issn_hdr": [
+  0,
+  0,
+  1,
+  1
+ ],
+ "l_may": [
+  87,
+  89,
+  2,
+  143
+ ],
+ "l_must": [
+  22,
+  23,
+  1,
+  26
+ ],
+ "l_should": [
+  22,
+  16,
+  0,
+  46
+ ],
+ "lines": [
+  2524,
+  5660,
+  396,
+  8628
+ ],
+ "lines_ge40": [
+  1112,
+  1988,
+  120,
+  3069
+ ],
+ "lines_ge40_nos": [
+  1111,
+  1988,
+  120,
+  3069
+ ],
+ "list_clos_n": 3,
+ "lit_clamp": [
+  0,
+  0,
+  2,
+  2
+ ],
+ "lit_cnfmaxrt": [
+  0,
+  2,
+  0,
+  2
+ ],
+ "lit_d4s": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "lit_d64": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "lit_d8s": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "lit_decmaxrc": [
+  0,
+  2,
+  0,
+  2
+ ],
+ "lit_discard": [
+  0,
+  1,
+  0,
+  2
+ ],
+ "lit_durdef": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "lit_durdef875": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "lit_durdef875_fold": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "lit_durdef875_gap": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "lit_durdef875_gap_sum": 1,
+ "lit_durword": [
+  2,
+  0,
+  0,
+  0
+ ],
+ "lit_ffffffff": [
+  10,
+  7,
+  0,
+  13
+ ],
+ "lit_iface": [
+  0,
+  0,
+  0,
+  2
+ ],
+ "lit_ignore": [
+  0,
+  1,
+  2,
+  11
+ ],
+ "lit_infin": [
+  1,
+  4,
+  0,
+  11
+ ],
+ "lit_infmaxrt": [
+  0,
+  2,
+  44,
+  43
+ ],
+ "lit_infreq": [
+  0,
+  46,
+  7,
+  67
+ ],
+ "lit_irc": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "lit_irt": [
+  0,
+  13,
+  0,
+  19
+ ],
+ "lit_leasedur": [
+  3,
+  0,
+  0,
+  0
+ ],
+ "lit_max64": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "lit_newlbl": [
+  0,
+  0,
+  5,
+  0
+ ],
+ "lit_oldlbl": [
+  0,
+  0,
+  4,
+  0
+ ],
+ "lit_optionreq": [
+  0,
+  15,
+  3,
+  27
+ ],
+ "lit_p05": [
+  1,
+  0,
+  0,
+  3
+ ],
+ "lit_p08": [
+  1,
+  0,
+  0,
+  2
+ ],
+ "lit_p50": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "lit_p875": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "lit_pd": [
+  0,
+  0,
+  2,
+  95
+ ],
+ "lit_preferre": [
+  0,
+  1,
+  0,
+  2
+ ],
+ "lit_reback": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "lit_rebmaxrt": [
+  0,
+  2,
+  0,
+  2
+ ],
+ "lit_rectimeout": [
+  0,
+  4,
+  0,
+  3
+ ],
+ "lit_relmaxrc": [
+  0,
+  2,
+  0,
+  2
+ ],
+ "lit_renmaxrt": [
+  0,
+  2,
+  0,
+  2
+ ],
+ "lit_reqmaxrc": [
+  0,
+  2,
+  0,
+  2
+ ],
+ "lit_reqmaxrt": [
+  0,
+  2,
+  0,
+  2
+ ],
+ "lit_retain": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "lit_retain_sp": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "lit_retrans": [
+  27,
+  32,
+  2,
+  46
+ ],
+ "lit_s120": [
+  0,
+  2,
+  2,
+  0
+ ],
+ "lit_s1sec": [
+  0,
+  9,
+  0,
+  9
+ ],
+ "lit_s3600": [
+  0,
+  0,
+  2,
+  2
+ ],
+ "lit_s600": [
+  0,
+  2,
+  2,
+  5
+ ],
+ "lit_sameacross": [
+  0,
+  0,
+  0,
+  2
+ ],
+ "lit_solmaxdelay": [
+  0,
+  2,
+  0,
+  2
+ ],
+ "lit_solmaxrt": [
+  0,
+  2,
+  50,
+  45
+ ],
+ "lit_soltimeout": [
+  0,
+  2,
+  0,
+  2
+ ],
+ "lit_srt_minus_irt": [
+  0,
+  -11,
+  50,
+  26
+ ],
+ "lit_t1": [
+  16,
+  37,
+  0,
+  84
+ ],
+ "lit_t1def": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "lit_t2": [
+  15,
+  38,
+  0,
+  82
+ ],
+ "lit_ta": [
+  0,
+  47,
+  2,
+  71
+ ],
+ "lit_v120": [
+  0,
+  2,
+  4,
+  2
+ ],
+ "lit_v3600": [
+  0,
+  0,
+  3,
+  2
+ ],
+ "lit_v604800": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "lit_v86400": [
+  0,
+  0,
+  3,
+  5
+ ],
+ "maxlen": [
+  75,
+  72,
+  72,
+  72
+ ],
+ "n_ld": [
+  3,
+  0,
+  0,
+  0
+ ],
+ "n_ld_fold": [
+  3,
+  0,
+  0,
+  0
+ ],
+ "n_p05": [
+  1,
+  0,
+  0,
+  3
+ ],
+ "n_p05_fold": [
+  1,
+  0,
+  0,
+  3
+ ],
+ "n_p08": [
+  1,
+  0,
+  0,
+  2
+ ],
+ "n_p08_fold": [
+  1,
+  0,
+  0,
+  2
+ ],
+ "n_spl": [
+  0,
+  1,
+  0,
+  2
+ ],
+ "n_spl_fold": [
+  0,
+  1,
+  0,
+  2
+ ],
+ "n_userval": [
+  5,
+  5,
+  0,
+  6
+ ],
+ "n_userval_fold": [
+  6,
+  5,
+  0,
+  6
+ ],
+ "n_zerorule": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "n_zerorule_fold": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "nb_ff_sum": 0,
+ "nb_gap": [
+  45,
+  101,
+  7,
+  154
+ ],
+ "nonascii": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "nonblank": [
+  1800,
+  3768,
+  254,
+  5875
+ ],
+ "nonblank_asciib": [
+  1845,
+  3869,
+  261,
+  6029
+ ],
+ "num_lines": [
+  21,
+  36,
+  42,
+  116
+ ],
+ "num_lines_a": 21,
+ "num_lines_b": 36,
+ "num_lines_c": 42,
+ "num_lines_d": 116,
+ "oblig_low": [
+  131,
+  128,
+  3,
+  215
+ ],
+ "oblig_up": [
+  231,
+  215,
+  22,
+  359
+ ],
+ "obs_hdr": [
+  1,
+  0,
+  0,
+  1
+ ],
+ "obsoleted_by": [
+  0,
+  0,
+  0,
+  3
+ ],
+ "on_changed": [
+  "SOL_MAX_RT",
+  "INF_MAX_RT"
+ ],
+ "on_changed_n": 2,
+ "on_n_a": 0,
+ "on_n_b": 0,
+ "on_n_c": 9,
+ "on_n_d": 0,
+ "on_pair_a": [],
+ "on_pair_b": [],
+ "on_pair_c": [
+  [
+   "SOL_MAX_RT",
+   120,
+   3600,
+   3
+  ],
+  [
+   "INF_MAX_RT",
+   120,
+   3600,
+   3
+  ],
+  [
+   "MUST",
+   null,
+   null,
+   7
+  ],
+  [
+   "MUST",
+   null,
+   null,
+   9
+  ]
+ ],
+ "on_pair_d": [],
+ "on_ratio": [
+  30,
+  30
+ ],
+ "on_ratio_cap_close": 0,
+ "on_span": 22,
+ "only_c": 84,
+ "only_c_nos": 84,
+ "outw_ignore": [
+  0,
+  1,
+  2,
+  11
+ ],
+ "outw_infin": [
+  1,
+  4,
+  0,
+  11
+ ],
+ "outw_infmaxrt": [
+  0,
+  1,
+  41,
+  42
+ ],
+ "outw_s120": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "outw_s3600": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "outw_solmaxrt": [
+  0,
+  1,
+  46,
+  44
+ ],
+ "outw_t1": [
+  16,
+  37,
+  0,
+  84
+ ],
+ "outw_v86400": [
+  0,
+  0,
+  3,
+  4
+ ],
+ "pagelines": [
+  89,
+  201,
+  13,
+  307
+ ],
+ "pages_est": [
+  45,
+  101,
+  7,
+  154
+ ],
+ "pg": [
+  45,
+  101,
+  7,
+  154
+ ],
+ "pg_foot_sum": 0,
+ "pool_1": 6562,
+ "pool_2": 3057,
+ "pool_3": 161,
+ "pool_4": 81,
+ "pool_close": 0,
+ "pool_n": 9861,
+ "pool_tag_n": [
+  1604,
+  3121,
+  205,
+  4931
+ ],
+ "pool_tiers": [
+  6562,
+  3057,
+  161,
+  81
+ ],
+ "pv_cnf_max_delay": [
+  [],
+  [
+   1
+  ],
+  [],
+  [
+   1
+  ]
+ ],
+ "pv_cnf_max_rc": [
+  [],
+  [],
+  [],
+  []
+ ],
+ "pv_cnf_max_rd": [
+  [],
+  [
+   10
+  ],
+  [],
+  [
+   10
+  ]
+ ],
+ "pv_cnf_timeout": [
+  [],
+  [
+   1
+  ],
+  [],
+  [
+   1
+  ]
+ ],
+ "pv_dec_max_rc": [
+  [],
+  [
+   5
+  ],
+  [],
+  [
+   4
+  ]
+ ],
+ "pv_dec_timeout": [
+  [],
+  [
+   1
+  ],
+  [],
+  [
+   1
+  ]
+ ],
+ "pv_inf_max_delay": [
+  [],
+  [
+   1
+  ],
+  [],
+  [
+   1
+  ]
+ ],
+ "pv_inf_max_rt": [
+  [],
+  [
+   120
+  ],
+  [],
+  [
+   3600
+  ]
+ ],
+ "pv_inf_timeout": [
+  [],
+  [
+   1
+  ],
+  [],
+  [
+   1
+  ]
+ ],
+ "pv_max_rc": [
+  [],
+  [],
+  [],
+  []
+ ],
+ "pv_reb_max_rt": [
+  [],
+  [
+   600
+  ],
+  [],
+  [
+   600
+  ]
+ ],
+ "pv_reb_timeout": [
+  [],
+  [
+   10
+  ],
+  [],
+  [
+   10
+  ]
+ ],
+ "pv_rec_max_rc": [
+  [],
+  [
+   8
+  ],
+  [],
+  [
+   8
+  ]
+ ],
+ "pv_rec_timeout": [
+  [],
+  [
+   2
+  ],
+  [],
+  [
+   2
+  ]
+ ],
+ "pv_rel_max_rc": [
+  [],
+  [
+   5
+  ],
+  [],
+  [
+   4
+  ]
+ ],
+ "pv_rel_timeout": [
+  [],
+  [
+   1
+  ],
+  [],
+  [
+   1
+  ]
+ ],
+ "pv_ren_max_rt": [
+  [],
+  [
+   600
+  ],
+  [],
+  [
+   600
+  ]
+ ],
+ "pv_req_max_rc": [
+  [],
+  [
+   10
+  ],
+  [],
+  [
+   10
+  ]
+ ],
+ "pv_req_max_rt": [
+  [],
+  [
+   30
+  ],
+  [],
+  [
+   30
+  ]
+ ],
+ "pv_req_timeout": [
+  [],
+  [
+   1
+  ],
+  [],
+  [
+   1
+  ]
+ ],
+ "pv_sol_max_delay": [
+  [],
+  [
+   1
+  ],
+  [],
+  [
+   1
+  ]
+ ],
+ "pv_sol_max_rt": [
+  [],
+  [
+   120
+  ],
+  [],
+  [
+   3600
+  ]
+ ],
+ "pv_sol_timeout": [
+  [],
+  [
+   1
+  ],
+  [],
+  [
+   1
+  ]
+ ],
+ "rec_close": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "req_rc": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "rfc2119_ref": [
+  0,
+  1,
+  4,
+  6
+ ],
+ "s_c120": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "s_c120_fold": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "s_c3600": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "s_c3600_fold": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "s_clampfull": [
+  0,
+  0,
+  0,
+  2
+ ],
+ "s_clampfull_fold": [
+  0,
+  0,
+  0,
+  2
+ ],
+ "s_discfull": [
+  0,
+  1,
+  0,
+  1
+ ],
+ "s_discfull_fold": [
+  0,
+  1,
+  0,
+  1
+ ],
+ "s_ifacefull": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_ifacefull_fold": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_ignorefull": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_ignorefull_fold": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_max64full": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "s_max64full_fold": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "s_max64sp": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_max64sp_fold": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "s_reback": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "s_reback_fold": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "s_retainfull": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "s_retainfull_fold": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_samefull": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "s_samefull_fold": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "scalar_clos_n": 16,
+ "scalar_clos_sum": 0,
+ "sec_a": [
+  1223,
+  846,
+  101,
+  1462
+ ],
+ "sec_b": [
+  1386,
+  878,
+  130,
+  1544
+ ],
+ "sec_head": [
+  "4.1 Constructing and sending DHCP messages",
+  "5.5. Transmission and Retransmission Parameters",
+  "3.  Updates to SOL_MAX_RT and INF_MAX_RT in RFC 3315",
+  "7.6.  Transmission and Retransmission Parameters"
+ ],
+ "sec_hit": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "sec_len": [
+  8944,
+  1583,
+  970,
+  5162
+ ],
+ "sec_len_a": 8944,
+ "sec_len_b": 1583,
+ "sec_len_c": 970,
+ "sec_len_d": 5162,
+ "sec_num": [
+  "4..1",
+  "5..5",
+  "3",
+  "7..6"
+ ],
+ "sec_off_a": [
+  56663,
+  65607
+ ],
+ "sec_off_b": [
+  40321,
+  41904
+ ],
+ "sec_off_c": [
+  4080,
+  5050
+ ],
+ "sec_off_d": [
+  67688,
+  72850
+ ],
+ "sec_w": [
+  [
+   1223,
+   1386
+  ],
+  [
+   846,
+   878
+  ],
+  [
+   101,
+   130
+  ],
+  [
+   1462,
+   1544
+  ]
+ ],
+ "secw_ignore": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "secw_infin": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "secw_infmaxrt": [
+  0,
+  1,
+  3,
+  1
+ ],
+ "secw_s120": [
+  0,
+  2,
+  2,
+  0
+ ],
+ "secw_s3600": [
+  0,
+  0,
+  2,
+  2
+ ],
+ "secw_solmaxrt": [
+  0,
+  1,
+  4,
+  1
+ ],
+ "secw_t1": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "secw_v86400": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "share_ab": 5,
+ "share_ab_nos": 5,
+ "share_ac": 0,
+ "share_ac_nos": 0,
+ "share_ad": 0,
+ "share_ad_nos": 0,
+ "share_bc": 9,
+ "share_bc_nos": 9,
+ "share_bd": 627,
+ "share_bd_nos": 627,
+ "share_cd": 27,
+ "share_cd_nos": 27,
+ "shell_delta": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "sig": [
+  "951ded0299806484",
+  "b1bc6324b739ac9e",
+  "ff99808223d9041a",
+  "3f0d185890c2b519"
+ ],
+ "sig_distinct": 4,
+ "tag_A": 7,
+ "tag_B": 5,
+ "tag_C": 4,
+ "tag_D": 6,
+ "tbl_n": [
+  0,
+  1,
+  0,
+  1
+ ],
+ "tbl_row_delta": 4,
+ "tbl_rows": [
+  [],
+  [
+   24
+  ],
+  [],
+  [
+   28
+  ]
+ ],
+ "tbl_rows_0": [
+  0,
+  24,
+  0,
+  28
+ ],
+ "tbl_start": [
+  [],
+  [
+   851
+  ],
+  [],
+  [
+   1471
+  ]
+ ],
+ "trail": [
+  45,
+  101,
+  7,
+  154
+ ],
+ "u_may": [
+  48,
+  44,
+  5,
+  65
+ ],
+ "u_must": [
+  118,
+  136,
+  15,
+  220
+ ],
+ "u_must_not": [
+  46,
+  18,
+  1,
+  43
+ ],
+ "u_required": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "u_should": [
+  65,
+  35,
+  2,
+  74
+ ],
+ "u_should_not": [
+  11,
+  3,
+  1,
+  12
+ ],
+ "union_abc": 3206,
+ "union_abc_nos": 3205,
+ "union_abcd": 5621,
+ "union_abcd_nos": 5620,
+ "union_delta": 2415,
+ "upd_hdr": [
+  0,
+  0,
+  1,
+  0
+ ],
+ "v_admin": [
+  18,
+  9,
+  0,
+  8
+ ],
+ "v_backoff": [
+  1,
+  0,
+  1,
+  1
+ ],
+ "v_client": [
+  514,
+  773,
+  36,
+  1013
+ ],
+ "v_dhcp": [
+  586,
+  366,
+  40,
+  543
+ ],
+ "v_dhcp4": [
+  0,
+  7,
+  0,
+  11
+ ],
+ "v_dhcp6": [
+  0,
+  18,
+  38,
+  67
+ ],
+ "v_inform": [
+  0,
+  46,
+  7,
+  67
+ ],
+ "v_interface": [
+  12,
+  64,
+  1,
+  99
+ ],
+ "v_rebind": [
+  0,
+  38,
+  0,
+  72
+ ],
+ "v_renew": [
+  0,
+  64,
+  0,
+  71
+ ],
+ "v_retransword": [
+  14,
+  16,
+  2,
+  25
+ ],
+ "v_server": [
+  287,
+  599,
+  20,
+  774
+ ],
+ "v_solicit": [
+  0,
+  77,
+  9,
+  83
+ ],
+ "v_timeout": [
+  4,
+  17,
+  4,
+  17
+ ],
+ "v_timer": [
+  4,
+  0,
+  0,
+  7
+ ],
+ "v_traffic": [
+  1,
+  1,
+  5,
+  12
+ ],
+ "wrap_ld": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wrap_p05": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wrap_p08": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wrap_pin_hit": 1,
+ "wrap_pin_n": 6,
+ "wrap_sn_hit": 2,
+ "wrap_sn_n": 11,
+ "wrap_sn_total": 2,
+ "wrap_spl": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wrap_total": 1,
+ "wrap_userval": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "wrap_zerorule": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wrapgap_c120": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wrapgap_c3600": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wrapgap_clampfull": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wrapgap_discfull": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wrapgap_ifacefull": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wrapgap_ignorefull": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wrapgap_max64full": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wrapgap_max64sp": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "wrapgap_reback": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wrapgap_retainfull": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "wrapgap_samefull": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "x_ident_n": 27,
+ "y_a_first": 4000,
+ "y_a_first_wrap": 1,
+ "y_a_next": 8000,
+ "y_a_next_wrap": 0,
+ "y_ans_distinct": 3,
+ "y_ans_max": 3600000,
+ "y_ans_min": 64000,
+ "y_ans_ms": [
+  64000,
+  120000,
+  3600000,
+  3600000
+ ],
+ "y_ans_num": [
+  "64",
+  "120",
+  "3600",
+  "3600"
+ ],
+ "y_ans_ratio": 56,
+ "y_ans_rem": 16000,
+ "y_ans_s": [
+  64,
+  120,
+  3600,
+  3600
+ ],
+ "y_ans_span_close": 0,
+ "y_ans_unit": [
+  "seconds",
+  "secs",
+  "secs",
+  "secs"
+ ],
+ "y_ans_wrap": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "y_bc_ans_gap": 56000,
+ "y_bd_byte_shared": 526,
+ "y_bd_norm_only": 101,
+ "y_cd_ans_close": 0,
+ "y_cd_byte_shared": 27,
+ "y_cd_lines": [
+  2,
+  2
+ ],
+ "y_cd_norm_only": 0,
+ "y_cite_ledger_3315": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "y_cite_ledger_3315_sum": 0,
+ "y_clamp_86400": [
+  0,
+  0,
+  1,
+  2
+ ],
+ "y_clamp_lit": [
+  0,
+  0,
+  2,
+  2
+ ],
+ "y_db_ans_gap": 3480000,
+ "y_dur_out": [
+  [
+   60000
+  ],
+  [
+   2000
+  ],
+  [
+   120000
+  ],
+  [
+   2000,
+   20000,
+   30000
+  ]
+ ],
+ "y_dur_out_n": [
+  1,
+  1,
+  1,
+  3
+ ],
+ "y_dur_win": [
+  [
+   4000,
+   8000,
+   64000
+  ],
+  [
+   1000,
+   2000,
+   4000,
+   10000,
+   30000,
+   120000,
+   600000
+  ],
+  [
+   120000,
+   3600000
+  ],
+  [
+   1000,
+   2000,
+   4000,
+   10000,
+   30000,
+   60000,
+   600000,
+   3600000,
+   86400000
+  ]
+ ],
+ "y_dur_win_n": [
+  3,
+  7,
+  2,
+  9
+ ],
+ "y_dur_wrap": [
+  1,
+  0,
+  0,
+  0
+ ],
+ "y_dur_wrap_ms": [
+  [
+   4000
+  ],
+  [],
+  [],
+  []
+ ],
+ "y_ignore_inf": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "y_ignore_srt": [
+  0,
+  0,
+  0,
+  1
+ ],
+ "y_must_ignore_n": [
+  0,
+  1,
+  2,
+  11
+ ],
+ "y_oblig_win": [
+  28,
+  0,
+  0,
+  0
+ ],
+ "y_outw_may": [
+  44,
+  44,
+  5,
+  65
+ ],
+ "y_outw_must": [
+  105,
+  136,
+  15,
+  220
+ ],
+ "y_outw_should": [
+  54,
+  35,
+  2,
+  74
+ ],
+ "y_outw_should_not": [
+  46,
+  18,
+  1,
+  43
+ ],
+ "y_secw_may": [
+  4,
+  0,
+  0,
+  0
+ ],
+ "y_secw_must": [
+  13,
+  0,
+  0,
+  0
+ ],
+ "y_secw_should": [
+  11,
+  0,
+  0,
+  0
+ ],
+ "y_secw_should_not": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "y_self_lit": [
+  45,
+  101,
+  8,
+  155
+ ],
+ "y_unit_n": [
+  1,
+  3,
+  2,
+  3
+ ],
+ "y_unit_used": [
+  [
+   "seconds"
+  ],
+  [
+   "sec",
+   "seconds",
+   "secs"
+  ],
+  [
+   "seconds",
+   "secs"
+  ],
+  [
+   "sec",
+   "seconds",
+   "secs"
+  ]
+ ]
+}
