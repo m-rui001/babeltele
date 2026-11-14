@@ -22,6 +22,7 @@ corpus/
   _mkNNemit.py            落盘遍：条目 md + _bNNcontract.json
   _wireNN.py _applyNN.py  把新条目的复算段接进 audit.py
   _fillNN.py              第三遍：第三种机制回填解读注
+  fetch_cot.py            取免费推理模型的思维链；代理配置读 `BABELTELE_CFG` 或 `~/.config/babeltele/config.json`
   _anchorlex.py           机械产出 _atomsNN.txt（锚词表，禁止手打锚）
   _readme_batch.py        README 记账遍
   _bNNmeas.json _bNNflat.json _bNNcontract.json _atomsNN.txt   量测/契约/词表

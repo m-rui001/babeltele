@@ -5,7 +5,7 @@
 #       python -X utf8 corpus/fetch_cot.py --list          # 列后端可用的免费 reasoning 模型
 import io, json, sys, time, hashlib, urllib.request, os
 
-CFG = r'E:\tools\OpenCode2API-main\config.json'
+CFG = os.environ.get('BABELTELE_CFG', os.path.expanduser('~/.config/babeltele/config.json'))
 BASE = 'http://127.0.0.1:10000'          # opencode2api 代理
 BACK = 'http://127.0.0.1:10001'          # opencode 后端(代理回合事件卡住时直连)
 
